@@ -232,11 +232,7 @@ module.exports = {
   },
   plugins: [new webpack.optimize.OccurrenceOrderPlugin(), //HMR
   new webpack.HotModuleReplacementPlugin(), //HMR
-  new webpack.NoEmitOnErrorsPlugin(), //HMR
-  new ExtractTextPlugin({
-    filename: 'style.css',
-    allChunks: true
-  })]
+  new webpack.NoEmitOnErrorsPlugin()]
 };
 ;
 
@@ -1314,9 +1310,9 @@ var _webpack = __webpack_require__(4);
 
 var _webpack2 = _interopRequireDefault(_webpack);
 
-var _webpackClient = __webpack_require__(7);
+var _webpackDevClient = __webpack_require__(7);
 
-var _webpackClient2 = _interopRequireDefault(_webpackClient);
+var _webpackDevClient2 = _interopRequireDefault(_webpackDevClient);
 
 var _server = __webpack_require__(9);
 
@@ -1336,7 +1332,7 @@ var _reactRedux = __webpack_require__(1);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var compiler = (0, _webpack2.default)(_webpackClient2.default);
+var compiler = (0, _webpack2.default)(_webpackDevClient2.default);
 var app = (0, _express2.default)();
 
 var store = (0, _redux.createStore)(_reducers2.default);

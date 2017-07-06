@@ -43,9 +43,5 @@ module.exports = {
     new webpack.optimize.OccurrenceOrderPlugin(), //HMR
     new webpack.HotModuleReplacementPlugin(), //HMR
     new webpack.NoEmitOnErrorsPlugin(), //HMR
-    new ExtractTextPlugin({
-      filename: 'style.css',
-      allChunks: true
-    }),
   ],
 }

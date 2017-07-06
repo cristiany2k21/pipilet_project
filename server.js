@@ -1,7 +1,7 @@
 import React from 'react';
 import express from 'express';
 import Webpack from "webpack";
-import webpackConfig from "./webpack-client.config";
+import webpackConfig from "./webpack-dev-client.config";
 import { renderToString } from 'react-dom/server';
 import { createStore } from 'redux';
 import { match, RouterContext } from 'react-router'
