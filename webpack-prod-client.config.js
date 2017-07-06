@@ -1,5 +1,4 @@
 const webpack = require('webpack');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const path = require('path');
 
 module.exports = {
@@ -23,10 +22,10 @@ module.exports = {
       }, {
         test: /\.scss$|.sass$/,
         exclude: [/node_modules/, /dist/],
-        use: ExtractTextPlugin.extract([
+        use: [
           'css-loader?minimize',
           'sass-loader?includePaths[]=./node_modules'
-        ]),
+        ],
       }, {
         test: /\.(jpe?g|png|gif|svg)$/i,
         use: [
@@ -38,13 +37,6 @@ module.exports = {
   },
   plugins: [
     new webpack.optimize.UglifyJsPlugin(),
-    new ExtractTextPlugin('styles.min.css'),
-    new webpack.DefinePlugin({
-      'process.env': {
-        NODE_ENV: JSON.stringify('production')
-      }
-
-    })
   ],
   resolve: {
     extensions: ['.js', '.jsx', '.json', '.scss', '.css']

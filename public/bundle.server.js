@@ -1367,7 +1367,7 @@ function renderPage(appHtml) {
   return '\n    <!doctype html public="storage">\n    <html>\n    <meta charset=utf-8/>\n    <title>My First React Router App</title>\n    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">\n    <div id=app>' + appHtml + '</div>\n    <script src="bundle.client.js"></script>\n   ';
 };
 
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 8080;
 app.listen(PORT, function () {
   console.log('Production Express server running at localhost:' + PORT);
 });
