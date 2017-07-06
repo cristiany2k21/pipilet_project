@@ -1,0 +1,19 @@
+#wrapper-language {
+  height: 400px;
+  background: darkcyan;
+
+  .wrapper-image {
+    display: inline-block;
+    background: black;
+    height: 100%;
+    width: 30%;
+  }
+
+  .wrapper-display-language {
+    display: inline-block;
+    width: 70%;
+    background: antiquewhite;
+    height: 100%;
+  }
+
+}

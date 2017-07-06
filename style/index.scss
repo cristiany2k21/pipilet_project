@@ -1,0 +1,36 @@
+@import "./global";
+
+@import "home-page/navbar/navbar";
+@import "home-page/sidebar/sidebar";
+@import "home-page/header-title/header-title";
+@import "home-page/display-image/display-image";
+
+@import "song-page/header-song/header-song";
+@import "song-page/display-language/choose-language";
+@import "song-page/choose-flag/choose-flag";
+
+@import "color-number/color-number";
+
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-size: auto 100%;
+}
+
+.o-container {
+  max-width: 1200px;
+  height: auto;
+  margin: auto;
+  background-color: transparentize(red, 0.5);
+  position: relative;
+}

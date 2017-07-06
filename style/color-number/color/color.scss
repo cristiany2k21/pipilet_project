@@ -1,0 +1,14 @@
+.header-color {
+  width: 100%;
+  background: blue;
+  transition: .5s;
+
+  p {
+    width: 1200px;
+    margin: 0;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 64px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,19 @@
+#wrapper-sidebar {
+  border: 1px solid green;
+  position: absolute;
+  left: 100%;
+  width: 350px;
+
+  a {
+    font-family: 'Open Sans', sans-serif;
+    color: orangered;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .wrapper-item {
+    text-align: center;
+    margin: 30px;
+  }
+
+}

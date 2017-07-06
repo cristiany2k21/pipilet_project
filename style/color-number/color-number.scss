@@ -1,0 +1,56 @@
+#wrapper-colornumber {
+  position: relative;
+  background: aqua;
+  height: 500px;
+
+  .wrapper-color {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background: black;
+    transition: .5s;
+
+    &:hover {
+      width: 100%;
+      margin: 0;
+      & + .wrapper-number {
+        opacity: 0;
+        left: 100%;
+      }
+    }
+  }
+
+  .shift {
+    opacity: 0;
+    margin-left: -100%;
+  }
+
+  .wrapper-number {
+    opacity: 1;
+    position: absolute;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    background: orangered;
+    transition: .5s;
+    overflow: hidden;
+
+    &:hover {
+      left: 0;
+
+      .header-number {
+        margin-left: 0;
+      }
+
+      & + .wrapper-color {
+        opacity: 0;
+        left: 100%;
+      }
+
+    }
+  }
+
+
+  @import "number/number";
+  @import "color/color";
+}

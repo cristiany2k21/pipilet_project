@@ -1,0 +1,17 @@
+.header-number {
+  width: 1200px;
+  background: deepskyblue;
+  transition: .5s;
+  overflow: hidden;
+  margin-left: -600px;
+
+  p {
+    margin: 0;
+    width: 1200px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 64px;
+    text-align: center;
+    line-height: 100px;
+  }
+}
