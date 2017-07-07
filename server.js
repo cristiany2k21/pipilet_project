@@ -14,13 +14,7 @@ const app = express();
 
 const store = createStore(reducers);
 
-app.use(require('webpack-dev-middleware')(compiler, {
-  noInfo: true,
-}));
-
-app.use(require('webpack-hot-middleware')(compiler));
-
-app.use(express.static('/public'));
+app.use(express.static('public'));
 
 app.get('*', (req, res) => {
   match({ routes: routes, location: req.url }, (err, redirect, props) => {
@@ -48,7 +42,7 @@ function renderPage(appHtml) {
         <meta charset=utf-8/>
         <title>My First React Router App</title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="/public/styles.min.css">
+        <link rel="stylesheet" type="text/css" href="styles.min.css">
       </head>
       <body>
         <div id=app>${appHtml}</div>

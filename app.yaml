@@ -3,8 +3,8 @@ runtime: nodejs
 
 
 handlers:
-- url: /public/styles.min.css
-  static_dir: public/styles.min.css
+- url: /public
+  static_dir: public
 
-- url: /.*
+- url: .*
   script: public/bundle.client.js
