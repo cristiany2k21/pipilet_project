@@ -13,6 +13,17 @@
   .wrapper-item {
     text-align: center;
     margin: 30px;
+
+    & img {
+      width: 70%;
+      transition: .5s;
+
+    }
+
+    &:hover img {
+      //width: 80%;
+      transform: scale(1.1);
+    }
   }
 
 }
