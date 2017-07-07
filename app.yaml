@@ -1,6 +1,10 @@
 env: flex
 runtime: nodejs
 
+
 handlers:
 - url: /public
   static_dir: public
+
+- url: /.*
+  script: public/bundle.client.js
