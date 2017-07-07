@@ -1,2 +1,6 @@
 env: flex
 runtime: nodejs
+
+handlers:
+- url: /public
+  static_dir: public
