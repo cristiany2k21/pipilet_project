@@ -28,9 +28,9 @@ body {
 }
 
 .o-container {
-  max-width: 1200px;
+  width: 80%;
   height: auto;
-  margin: auto;
-  background-color: transparentize(red, 0.5);
+  margin-left: 0;
+  //background-color: transparentize(red, 0.5);
   position: relative;
 }

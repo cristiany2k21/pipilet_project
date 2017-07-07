@@ -13,6 +13,17 @@ const compiler = Webpack(webpackConfig);
 const app = express();
 
 const store = createStore(reducers);
+let style = '';
+
+if (process.env.NODE_ENV == 'development') {
+  app.use(require('webpack-dev-middleware')(compiler, {
+    noInfo: true,
+  }));
+
+  app.use(require('webpack-hot-middleware')(compiler));
+} else {
+  style = '<link rel="stylesheet" type="text/css" href="styles.min.css">'
+}
 
 app.use(express.static('public'));
 
@@ -42,7 +53,7 @@ function renderPage(appHtml) {
         <meta charset=utf-8/>
         <title>My First React Router App</title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="styles.min.css">
+        ${style}
       </head>
       <body>
         <div id=app>${appHtml}</div>

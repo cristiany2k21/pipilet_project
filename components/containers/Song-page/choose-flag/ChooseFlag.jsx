@@ -1,4 +1,5 @@
 import React from 'react';
+import EarthSnow from '../../../../images/earth-snow.jpg';
 
 const ChooseFlag = () => {
     return (
@@ -18,7 +19,7 @@ const ChooseFlag = () => {
             <li><img src='http://lorempixel.com/100/100/people' /></li>
           </ul>
           <img
-            src="https://thumbs.dreamstime.com/z/beaucoup-d-enfants-de-diff%C3%A9rentes-appartenances-ethniques-tenant-leurs-mains-autour-du-monde-30279156.jpg"
+            src={EarthSnow}
             width="550"
             height="550"
             className="children-earth"/>

@@ -6,7 +6,7 @@ const HeaderTitle = ({
     return (
         <div id="wrapper-headertitle">
           <div className="wrapper-tree-bird">
-            <img src={homeContent.header.owls} alt="" width="400" />
+            <img src={homeContent.header.owls} alt="" width="500" />
           </div>
 
           <div className="wrapper-title">

@@ -15,7 +15,7 @@ const Sidebar = ({
               <Link key={index} to={item.url}>
                 <div className="wrapper-item">
                   <p>{item.title}</p>
-                  <img src={image} width="250" height="250"/>
+                  <img src={image} width="200"/>
                 </div>
               </Link>
             )
