@@ -44,12 +44,17 @@ function renderPage(appHtml) {
   return `
     <!doctype html public="storage">
     <html>
-    <meta charset=utf-8/>
-    <title>My First React Router App</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.min.css">
-    <div id=app>${appHtml}</div>
-    <script src="bundle.client.js"></script>
+      <head>
+        <meta charset=utf-8/>
+        <title>My First React Router App</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styles.min.css">
+      </head>
+      <body>
+        <div id=app>${appHtml}</div>
+        <script src="bundle.client.js"></script>
+      </body>
+    </html
    `
 };
 
