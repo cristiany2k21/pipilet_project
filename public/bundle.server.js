@@ -1364,7 +1364,7 @@ app.get('*', function (req, res) {
   });
 });
 function renderPage(appHtml) {
-  return '\n    <!doctype html public="storage">\n    <html>\n      <head>\n        <meta charset=utf-8/>\n        <title>My First React Router App</title>\n        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">\n        <link rel="stylesheet" type="text/css" href="public/styles.min.css">\n      </head>\n      <body>\n        <div id=app>' + appHtml + '</div>\n        <script src="bundle.client.js"></script>\n      </body>\n    </html\n   ';
+  return '\n    <!doctype html public="storage">\n    <html>\n      <head>\n        <meta charset=utf-8/>\n        <title>My First React Router App</title>\n        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">\n        <link rel="stylesheet" type="text/css" href="/public/styles.min.css">\n      </head>\n      <body>\n        <div id=app>' + appHtml + '</div>\n        <script src="bundle.client.js"></script>\n      </body>\n    </html\n   ';
 };
 
 var PORT = process.env.PORT || 8080;

@@ -48,7 +48,7 @@ function renderPage(appHtml) {
         <meta charset=utf-8/>
         <title>My First React Router App</title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="public/styles.min.css">
+        <link rel="stylesheet" type="text/css" href="/public/styles.min.css">
       </head>
       <body>
         <div id=app>${appHtml}</div>
