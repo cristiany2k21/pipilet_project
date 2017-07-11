@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
-import classNames from 'classnames';
+import { Link } from 'react-router';
+import multipleOwls from '../../../images/family-owls-fade.jpg';
+import familyChildren from '../../../images/family-children-fade.jpg';
+import familyChildrenGray from '../../../images/family-children-fade-gray.jpg';
+import familyOwlsGray from '../../../images/family-owls-fade-gray.jpg';
 
 export default class ColorNumber extends Component {
 
@@ -21,16 +25,20 @@ export default class ColorNumber extends Component {
   render() {
     return (
       <div id="wrapper-colornumber">
-        <div className={classNames("wrapper-color", this.state.active ? "shift" : "not-shift")}>
-          <div className="header-color">
-            <p>APRENDE LOS COLORES EN 12 LENGUAS DIFERENTES</p>
+        <Link to="colorSelection">
+          <div className="wrapper-family-owls">
+            <img src={multipleOwls} alt="" width="1600"/>
+            <img className="family-owls-gray" src={familyOwlsGray} alt="" width="1600"/>
           </div>
-        </div>
+        </Link>
 
         <div onMouseEnter={this.shiftColorEnter} onMouseLeave={this.shiftColorEnter} className="wrapper-number">
-          <div className="header-number">
-            <p>APRENDE LOS NUMEROS DEL 1 AL 100 EN DIFERENTES LENGUAS</p>
-          </div>
+          <Link to="/numberSelection">
+            <div className="wrapper-family-children">
+              <img src={familyChildren} alt="" width="1600"/>
+              <img className="family-children-gray" src={familyChildrenGray} alt="" width="1600"/>
+            </div>
+          </Link>
         </div>
       </div>
     )

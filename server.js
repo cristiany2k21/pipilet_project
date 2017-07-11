@@ -21,7 +21,8 @@ if (process.env.NODE_ENV == 'development') {
   }));
 
   app.use(require('webpack-hot-middleware')(compiler));
-} else {
+}
+else {
   style = '<link rel="stylesheet" type="text/css" href="styles.min.css">'
 }
 
@@ -53,6 +54,8 @@ function renderPage(appHtml) {
         <meta charset=utf-8/>
         <title>My First React Router App</title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
         ${style}
       </head>
       <body>

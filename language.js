@@ -44,16 +44,21 @@ export default (
           "url": ""
         }
       ],
-      "homeContent": {
-          "header": {
-            "pipilet": pipiletMandala,
-            "owls": familyOwls
-          },
-          "content": {
-            "family": family,
-             "logo": logoPipilet
-          }
+      "homePageContent": {
+        "header": {
+          "pipilet": pipiletMandala,
+          "owls": familyOwls
+        },
+        "content": {
+          "family": family,
+          "logo": logoPipilet
         }
+      },
+      "songPageContent": {
+        "header": {
+          "title": "APRENDE CANCIONES DEL MUNDO CANTANDO CON"
+        }
+      }
     },
     {
       "lan": "eng",

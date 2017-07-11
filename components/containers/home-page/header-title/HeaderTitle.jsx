@@ -1,16 +1,16 @@
 import React from 'react';
 
 const HeaderTitle = ({
-  homeContent
+  homePageContent
 }) => {
     return (
         <div id="wrapper-headertitle">
           <div className="wrapper-tree-bird">
-            <img src={homeContent.header.owls} alt="" width="500" />
+            <img src={homePageContent.header.owls} alt="" />
           </div>
 
           <div className="wrapper-title">
-            <img src={homeContent.header.pipilet} alt="" width="800" />
+            <img src={homePageContent.header.pipilet} alt="" />
           </div>
         </div>
     )

@@ -6,10 +6,11 @@ import Sidebar from './home-page/sidebar/Sidebar';
 const AppContainer = ({ children, navbar, homeSidebar }) => {
   return (
     <div className="o-container">
-      <Navbar itemsNavbar={navbar}/>
+      <div className="wrapper-content">
+        <Navbar itemsNavbar={navbar}/>
+        {children}
+      </div>
       <Sidebar itemsSidebar={homeSidebar}/>
-
-      {children}
     </div>
   )
 }

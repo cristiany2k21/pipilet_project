@@ -1,14 +1,31 @@
-.header-color {
-  width: 100%;
-  background: blue;
+.wrapper-family-owls {
+  text-align: center;
+  height: 750px;
+  position: relative;
+  opacity: .4;
   transition: .5s;
+  overflow: hidden;
 
-  p {
-    width: 1200px;
-    margin: 0;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 64px;
-    text-align: center;
+  &:hover {
+    opacity: 1;
+  }
+
+  img {
+    position: relative;
+    top: -130px;
+    left: -50px;
+  }
+
+  .family-owls-gray {
+    opacity: 1;
+    position: absolute;
+    top: -130px;
+    left: -50px;
+    transition: .4s;
+
+    &:hover {
+      opacity: 0;
+    }
+
   }
 }

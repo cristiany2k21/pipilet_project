@@ -1,56 +1,25 @@
 #wrapper-colornumber {
   position: relative;
-  background: aqua;
-  height: 500px;
   overflow: hidden;
 
   .wrapper-color {
-    position: absolute;
-    height: 100%;
-    width: 50%;
-    background: black;
+    opacity: 1;
+    position: relative;
+    height: 750px;
+    width: 100%;
     transition: .5s;
+    overflow: hidden;
 
-    &:hover {
-      width: 100%;
-      margin: 0;
-      & + .wrapper-number {
-        opacity: 0;
-        left: 100%;
-      }
-    }
-  }
-
-  .shift {
-    opacity: 0;
-    margin-left: -100%;
   }
 
   .wrapper-number {
     opacity: 1;
-    position: absolute;
-    left: 50%;
-    height: 100%;
-    width: 100%;
-    background: orangered;
+    height: 750px;
     transition: .5s;
     overflow: hidden;
 
-    &:hover {
-      left: 0;
 
-      .header-number {
-        margin-left: 0;
-      }
-
-      & + .wrapper-color {
-        opacity: 0;
-        left: 100%;
-      }
-
-    }
   }
-
 
   @import "number/number";
   @import "color/color";

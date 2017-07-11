@@ -1,2 +1,2 @@
 export const SONG = "song";
-export const COLORNUMBER = "colornumber";
+export const COLORNUMBER = "colorNumber";

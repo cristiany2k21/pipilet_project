@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 29);
+/******/ 	return __webpack_require__(__webpack_require__.s = 31);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -76,13 +76,13 @@ module.exports = require("react");
 /* 1 */
 /***/ (function(module, exports) {
 
-module.exports = require("react-redux");
+module.exports = require("react-router");
 
 /***/ }),
 /* 2 */
 /***/ (function(module, exports) {
 
-module.exports = require("react-router");
+module.exports = require("react-redux");
 
 /***/ }),
 /* 3 */
@@ -100,10 +100,16 @@ module.exports = require("webpack");
 /* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "74ff2b48cdc35acd622dd4fc7572619f.jpg";
+module.exports = __webpack_require__.p + "62a5162139aa0a2fcbacf269e8835dd8.jpg";
 
 /***/ }),
 /* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "74ff2b48cdc35acd622dd4fc7572619f.jpg";
+
+/***/ }),
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -115,7 +121,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _redux = __webpack_require__(3);
 
-var _ChooseLanguage = __webpack_require__(28);
+var _ChooseLanguage = __webpack_require__(30);
 
 var _ChooseLanguage2 = _interopRequireDefault(_ChooseLanguage);
 
@@ -139,7 +145,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -153,23 +159,27 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouter = __webpack_require__(2);
+var _reactRouter = __webpack_require__(1);
 
-var _AppContainer = __webpack_require__(13);
+var _AppContainer = __webpack_require__(14);
 
 var _AppContainer2 = _interopRequireDefault(_AppContainer);
 
-var _HomePage = __webpack_require__(19);
+var _HomePage = __webpack_require__(20);
 
 var _HomePage2 = _interopRequireDefault(_HomePage);
 
-var _SongPage = __webpack_require__(14);
+var _SongPage = __webpack_require__(15);
 
 var _SongPage2 = _interopRequireDefault(_SongPage);
 
-var _ColorNumber = __webpack_require__(18);
+var _ColorNumber = __webpack_require__(19);
 
 var _ColorNumber2 = _interopRequireDefault(_ColorNumber);
+
+var _NumberSelection = __webpack_require__(25);
+
+var _NumberSelection2 = _interopRequireDefault(_NumberSelection);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -179,7 +189,8 @@ var _default = _react2.default.createElement(
   _react2.default.createElement(_reactRouter.IndexRoute, { component: _HomePage2.default }),
   _react2.default.createElement(_reactRouter.Route, { path: '/home', component: _HomePage2.default }),
   _react2.default.createElement(_reactRouter.Route, { path: '/song', component: _SongPage2.default }),
-  _react2.default.createElement(_reactRouter.Route, { path: '/colornumber', component: _ColorNumber2.default })
+  _react2.default.createElement(_reactRouter.Route, { path: '/colorNumber', component: _ColorNumber2.default }),
+  _react2.default.createElement(_reactRouter.Route, { path: '/numberSelection', component: _NumberSelection2.default })
 );
 
 exports.default = _default;
@@ -196,15 +207,15 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(__dirname) {
 
-var path = __webpack_require__(40);
+var path = __webpack_require__(45);
 var webpack = __webpack_require__(4);
-var ExtractTextPlugin = __webpack_require__(39);
+var ExtractTextPlugin = __webpack_require__(44);
 
 module.exports = {
   entry: ['react-hot-loader/patch', //HRM
@@ -252,31 +263,31 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, ""))
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports) {
 
 module.exports = require("express");
 
 /***/ }),
-/* 10 */
+/* 11 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom/server");
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, exports) {
 
 module.exports = require("webpack-dev-middleware");
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, exports) {
 
 module.exports = require("webpack-hot-middleware");
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -290,13 +301,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRedux = __webpack_require__(1);
+var _reactRedux = __webpack_require__(2);
 
-var _Navbar = __webpack_require__(23);
+var _Navbar = __webpack_require__(24);
 
 var _Navbar2 = _interopRequireDefault(_Navbar);
 
-var _Sidebar = __webpack_require__(22);
+var _Sidebar = __webpack_require__(23);
 
 var _Sidebar2 = _interopRequireDefault(_Sidebar);
 
@@ -310,9 +321,13 @@ var AppContainer = function AppContainer(_ref) {
   return _react2.default.createElement(
     'div',
     { className: 'o-container' },
-    _react2.default.createElement(_Navbar2.default, { itemsNavbar: navbar }),
-    _react2.default.createElement(_Sidebar2.default, { itemsSidebar: homeSidebar }),
-    children
+    _react2.default.createElement(
+      'div',
+      { className: 'wrapper-content' },
+      _react2.default.createElement(_Navbar2.default, { itemsNavbar: navbar }),
+      children
+    ),
+    _react2.default.createElement(_Sidebar2.default, { itemsSidebar: homeSidebar })
   );
 };
 
@@ -340,7 +355,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -354,15 +369,15 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _HeaderSong = __webpack_require__(17);
+var _HeaderSong = __webpack_require__(18);
 
 var _HeaderSong2 = _interopRequireDefault(_HeaderSong);
 
-var _DisplayLanguageSong = __webpack_require__(16);
+var _DisplayLanguageSong = __webpack_require__(17);
 
 var _DisplayLanguageSong2 = _interopRequireDefault(_DisplayLanguageSong);
 
-var _ChooseFlag = __webpack_require__(15);
+var _ChooseFlag = __webpack_require__(16);
 
 var _ChooseFlag2 = _interopRequireDefault(_ChooseFlag);
 
@@ -395,7 +410,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -409,7 +424,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _earthSnow = __webpack_require__(30);
+var _earthSnow = __webpack_require__(33);
 
 var _earthSnow2 = _interopRequireDefault(_earthSnow);
 
@@ -508,7 +523,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -522,7 +537,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _pipiletSong = __webpack_require__(5);
+var _pipiletSong = __webpack_require__(6);
 
 var _pipiletSong2 = _interopRequireDefault(_pipiletSong);
 
@@ -537,7 +552,70 @@ var DisplayLanguageSong = function DisplayLanguageSong() {
             { className: 'wrapper-image' },
             _react2.default.createElement('img', { src: _pipiletSong2.default, alt: '', width: '250' })
         ),
-        _react2.default.createElement('div', { className: 'wrapper-display-language' })
+        _react2.default.createElement(
+            'div',
+            { className: 'wrapper-display-language' },
+            _react2.default.createElement(
+                'div',
+                { className: 'absolute-language english' },
+                'INGLES'
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'absolute-language indian' },
+                'INDIO'
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'absolute-language french' },
+                'FRANC\xC9S'
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'absolute-language arab' },
+                'ARABE'
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'absolute-language african' },
+                'AFRICANO'
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'absolute-language serbia' },
+                'SERBIO'
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'absolute-language italian' },
+                'ITALIANO'
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'absolute-language spanish' },
+                'ESPANOL'
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'absolute-language china' },
+                'CHINO'
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'absolute-language germany' },
+                'ALEMAN'
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'absolute-language russian' },
+                'RUSO'
+            ),
+            _react2.default.createElement(
+                'div',
+                { className: 'absolute-language portuguese' },
+                'PORTUGUES'
+            )
+        )
     );
 };
 
@@ -558,29 +636,42 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 
 var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _pipiletHorizontal = __webpack_require__(5);
+
+var _pipiletHorizontal2 = _interopRequireDefault(_pipiletHorizontal);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var HeaderSong = function HeaderSong() {
-    return _react2.default.createElement(
-        "div",
-        { id: "wrapper-header" },
-        _react2.default.createElement("div", { className: "wrapper-image" }),
-        _react2.default.createElement("div", { className: "wrapper-title" })
-    );
+  return _react2.default.createElement(
+    'div',
+    { id: 'wrapper-header' },
+    _react2.default.createElement('div', { className: 'wrapper-image' }),
+    _react2.default.createElement(
+      'div',
+      { className: 'wrapper-title' },
+      _react2.default.createElement(
+        'h1',
+        null,
+        'aprende canciones del mundo cantando con '
+      ),
+      _react2.default.createElement('img', { src: _pipiletHorizontal2.default, alt: '', width: '700' })
+    )
+  );
 };
 
 var _default = HeaderSong;
@@ -588,19 +679,19 @@ exports.default = _default;
 ;
 
 var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
 
-    __REACT_HOT_LOADER__.register(HeaderSong, "HeaderSong", "/Users/mavrickduchamp/Documents/pipilet_github/components/containers/Song-page/header/HeaderSong.jsx");
+  __REACT_HOT_LOADER__.register(HeaderSong, 'HeaderSong', '/Users/mavrickduchamp/Documents/pipilet_github/components/containers/Song-page/header/HeaderSong.jsx');
 
-    __REACT_HOT_LOADER__.register(_default, "default", "/Users/mavrickduchamp/Documents/pipilet_github/components/containers/Song-page/header/HeaderSong.jsx");
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipilet_github/components/containers/Song-page/header/HeaderSong.jsx');
 }();
 
 ;
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -616,9 +707,23 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _classnames = __webpack_require__(38);
+var _reactRouter = __webpack_require__(1);
 
-var _classnames2 = _interopRequireDefault(_classnames);
+var _familyOwlsFade = __webpack_require__(37);
+
+var _familyOwlsFade2 = _interopRequireDefault(_familyOwlsFade);
+
+var _familyChildrenFade = __webpack_require__(35);
+
+var _familyChildrenFade2 = _interopRequireDefault(_familyChildrenFade);
+
+var _familyChildrenFadeGray = __webpack_require__(34);
+
+var _familyChildrenFadeGray2 = _interopRequireDefault(_familyChildrenFadeGray);
+
+var _familyOwlsFadeGray = __webpack_require__(36);
+
+var _familyOwlsFadeGray2 = _interopRequireDefault(_familyOwlsFadeGray);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -658,31 +763,30 @@ var ColorNumber = function (_Component) {
         'div',
         { id: 'wrapper-colornumber' },
         _react2.default.createElement(
-          'div',
-          { className: (0, _classnames2.default)("wrapper-color", this.state.active ? "shift" : "not-shift") },
+          _reactRouter.Link,
+          { to: 'colorSelection' },
           _react2.default.createElement(
             'div',
-            { className: 'header-color' },
-            _react2.default.createElement(
-              'p',
-              null,
-              'APRENDE LOS COLORES EN 12 LENGUAS DIFERENTES'
-            )
+            { className: 'wrapper-family-owls' },
+            _react2.default.createElement('img', { src: _familyOwlsFade2.default, alt: '', width: '1600' }),
+            _react2.default.createElement('img', { className: 'family-owls-gray', src: _familyOwlsFadeGray2.default, alt: '', width: '1600' })
           )
         ),
         _react2.default.createElement(
           'div',
           { onMouseEnter: this.shiftColorEnter, onMouseLeave: this.shiftColorEnter, className: 'wrapper-number' },
           _react2.default.createElement(
-            'div',
-            { className: 'header-number' },
+            _reactRouter.Link,
+            { to: '/numberSelection' },
             _react2.default.createElement(
-              'p',
-              null,
-              'APRENDE LOS NUMEROS DEL 1 AL 100 EN DIFERENTES LENGUAS'
+              'div',
+              { className: 'wrapper-family-children' },
+              _react2.default.createElement('img', { src: _familyChildrenFade2.default, alt: '', width: '1600' }),
+              _react2.default.createElement('img', { className: 'family-children-gray', src: _familyChildrenFadeGray2.default, alt: '', width: '1600' })
             )
           )
-        )
+        ),
+        this.props.children
       );
     }
   }]);
@@ -707,7 +811,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -721,21 +825,20 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRedux = __webpack_require__(1);
+var _reactRedux = __webpack_require__(2);
 
-var _HeaderTitle = __webpack_require__(21);
+var _HeaderTitle = __webpack_require__(22);
 
 var _HeaderTitle2 = _interopRequireDefault(_HeaderTitle);
 
-var _DisplayImage = __webpack_require__(20);
+var _DisplayImage = __webpack_require__(21);
 
 var _DisplayImage2 = _interopRequireDefault(_DisplayImage);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var HomePage = function HomePage(_ref) {
-  var homeSidebar = _ref.homeSidebar,
-      homeContent = _ref.homeContent;
+  var homeContent = _ref.homeContent;
 
 
   return _react2.default.createElement(
@@ -771,7 +874,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -818,7 +921,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -870,7 +973,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -884,7 +987,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouter = __webpack_require__(2);
+var _reactRouter = __webpack_require__(1);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -896,24 +999,33 @@ var Sidebar = function Sidebar(_ref) {
     { id: 'wrapper-sidebar' },
     _react2.default.createElement(
       'div',
-      null,
-      itemsSidebar.map(function (item, index) {
-        var image = item.image;
-        return _react2.default.createElement(
-          _reactRouter.Link,
-          { key: index, to: item.url },
-          _react2.default.createElement(
-            'div',
-            { className: 'wrapper-item' },
+      { style: { "position": "relative" } },
+      _react2.default.createElement(
+        'div',
+        { className: 'or-spacer-vertical right' },
+        _react2.default.createElement('div', { className: 'mask' })
+      ),
+      _react2.default.createElement(
+        'div',
+        null,
+        itemsSidebar.map(function (item, index) {
+          var image = item.image;
+          return _react2.default.createElement(
+            _reactRouter.Link,
+            { key: index, to: item.url },
             _react2.default.createElement(
-              'p',
-              null,
-              item.title
-            ),
-            _react2.default.createElement('img', { src: image, width: '200' })
-          )
-        );
-      })
+              'div',
+              { className: 'wrapper-item' },
+              _react2.default.createElement(
+                'p',
+                null,
+                item.title
+              ),
+              _react2.default.createElement('img', { src: image, width: '200' })
+            )
+          );
+        })
+      )
     )
   );
 };
@@ -935,7 +1047,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -949,11 +1061,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRedux = __webpack_require__(1);
+var _reactRedux = __webpack_require__(2);
 
-var _reactRouter = __webpack_require__(2);
+var _reactRouter = __webpack_require__(1);
 
-var _language = __webpack_require__(24);
+var _language = __webpack_require__(26);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1044,7 +1156,65 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 24 */
+/* 25 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _children = __webpack_require__(32);
+
+var _children2 = _interopRequireDefault(_children);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var NumberSelection = function NumberSelection() {
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      'div',
+      { className: 'wrapper-header-number' },
+      _react2.default.createElement(
+        'p',
+        null,
+        'APRENDE LOS NUMEROS DEL 1 AL 100 EN DIFERENTES LENGUAS DEL MUNDO CON PIPILET MANDALA'
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'wrapper-image-number' },
+      _react2.default.createElement('img', { src: _children2.default, alt: '' })
+    )
+  );
+};
+
+var _default = NumberSelection;
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(NumberSelection, 'NumberSelection', '/Users/mavrickduchamp/Documents/pipilet_github/components/containers/number-selection/NumberSelection.jsx');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipilet_github/components/containers/number-selection/NumberSelection.jsx');
+}();
+
+;
+
+/***/ }),
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1067,7 +1237,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 25 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1096,7 +1266,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 26 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1106,7 +1276,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var SONG = exports.SONG = "song";
-var COLORNUMBER = exports.COLORNUMBER = "colornumber";
+var COLORNUMBER = exports.COLORNUMBER = "colorNumber";
 ;
 
 var _temp = function () {
@@ -1122,7 +1292,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 27 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1132,39 +1302,39 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _navbar = __webpack_require__(25);
+var _navbar = __webpack_require__(27);
 
-var _sidebar = __webpack_require__(26);
+var _sidebar = __webpack_require__(28);
 
-var _pipiletSong = __webpack_require__(5);
+var _pipiletSong = __webpack_require__(6);
 
 var _pipiletSong2 = _interopRequireDefault(_pipiletSong);
 
-var _pipiletNumberColor = __webpack_require__(37);
+var _pipiletNumberColor = __webpack_require__(43);
 
 var _pipiletNumberColor2 = _interopRequireDefault(_pipiletNumberColor);
 
-var _pipiletCooker = __webpack_require__(34);
+var _pipiletCooker = __webpack_require__(41);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _pipiletDescription = __webpack_require__(35);
+var _pipiletDescription = __webpack_require__(42);
 
 var _pipiletDescription2 = _interopRequireDefault(_pipiletDescription);
 
-var _pipiletHorizontal = __webpack_require__(36);
+var _pipiletHorizontal = __webpack_require__(5);
 
 var _pipiletHorizontal2 = _interopRequireDefault(_pipiletHorizontal);
 
-var _familyOwls = __webpack_require__(31);
+var _familyOwls = __webpack_require__(38);
 
 var _familyOwls2 = _interopRequireDefault(_familyOwls);
 
-var _family = __webpack_require__(32);
+var _family = __webpack_require__(39);
 
 var _family2 = _interopRequireDefault(_family);
 
-var _logoPipilet = __webpack_require__(33);
+var _logoPipilet = __webpack_require__(40);
 
 var _logoPipilet2 = _interopRequireDefault(_logoPipilet);
 
@@ -1253,7 +1423,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 28 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1264,7 +1434,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = ChooseLanguage;
 
-var _language = __webpack_require__(27);
+var _language = __webpack_require__(29);
 
 var _language2 = _interopRequireDefault(_language);
 
@@ -1311,7 +1481,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 29 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1321,7 +1491,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _express = __webpack_require__(9);
+var _express = __webpack_require__(10);
 
 var _express2 = _interopRequireDefault(_express);
 
@@ -1329,25 +1499,25 @@ var _webpack = __webpack_require__(4);
 
 var _webpack2 = _interopRequireDefault(_webpack);
 
-var _webpackDevClient = __webpack_require__(8);
+var _webpackDevClient = __webpack_require__(9);
 
 var _webpackDevClient2 = _interopRequireDefault(_webpackDevClient);
 
-var _server = __webpack_require__(10);
+var _server = __webpack_require__(11);
 
 var _redux = __webpack_require__(3);
 
-var _reactRouter = __webpack_require__(2);
+var _reactRouter = __webpack_require__(1);
 
-var _index = __webpack_require__(7);
+var _index = __webpack_require__(8);
 
 var _index2 = _interopRequireDefault(_index);
 
-var _reducers = __webpack_require__(6);
+var _reducers = __webpack_require__(7);
 
 var _reducers2 = _interopRequireDefault(_reducers);
 
-var _reactRedux = __webpack_require__(1);
+var _reactRedux = __webpack_require__(2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1358,11 +1528,11 @@ var store = (0, _redux.createStore)(_reducers2.default);
 var style = '';
 
 if (process.env.NODE_ENV == 'development') {
-  app.use(__webpack_require__(11)(compiler, {
+  app.use(__webpack_require__(12)(compiler, {
     noInfo: true
   }));
 
-  app.use(__webpack_require__(12)(compiler));
+  app.use(__webpack_require__(13)(compiler));
 } else {
   style = '<link rel="stylesheet" type="text/css" href="styles.min.css">';
 }
@@ -1388,7 +1558,7 @@ app.get('*', function (req, res) {
   });
 });
 function renderPage(appHtml) {
-  return '\n    <!doctype html public="storage">\n    <html>\n      <head>\n        <meta charset=utf-8/>\n        <title>My First React Router App</title>\n        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">\n        ' + style + '\n      </head>\n      <body>\n        <div id=app>' + appHtml + '</div>\n        <script src="bundle.client.js"></script>\n      </body>\n    </html\n   ';
+  return '\n    <!doctype html public="storage">\n    <html>\n      <head>\n        <meta charset=utf-8/>\n        <title>My First React Router App</title>\n        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">\n        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">\n        ' + style + '\n      </head>\n      <body>\n        <div id=app>' + appHtml + '</div>\n        <script src="bundle.client.js"></script>\n      </body>\n    </html\n   ';
 };
 
 var PORT = process.env.PORT || 8081;
@@ -1418,67 +1588,85 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 30 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "01e1c14a23a1a86664e48389a5bef30f.jpg";
-
-/***/ }),
-/* 31 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "da5a416d3281d45575cc6399942dd870.jpg";
-
-/***/ }),
 /* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "ebfb0bdfbf22b5c0653838d2e4e90f41.jpg";
+module.exports = __webpack_require__.p + "6b490a2a26af664f9af8138acbe07629.jpg";
 
 /***/ }),
 /* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "f8921d4944594c74d38481a0812f45c8.jpg";
+module.exports = __webpack_require__.p + "01e1c14a23a1a86664e48389a5bef30f.jpg";
 
 /***/ }),
 /* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "32b424409b4e57c3c12e462c45085d3d.jpg";
+module.exports = __webpack_require__.p + "82b739aef447509fab66d7471c28d7af.jpg";
 
 /***/ }),
 /* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "812a346811f0acedf9500ba7bcfa84d5.jpg";
+module.exports = __webpack_require__.p + "cb30f1744d14c03a31b1c44d8039d122.jpg";
 
 /***/ }),
 /* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "62a5162139aa0a2fcbacf269e8835dd8.jpg";
+module.exports = __webpack_require__.p + "a9cc963f2af114ee206879c2318f47e7.jpg";
 
 /***/ }),
 /* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "c83d15c0c372cfa8a09fb260154e1fed.jpg";
+module.exports = __webpack_require__.p + "17df106e2622edf73525f948f184bdab.jpg";
 
 /***/ }),
 /* 38 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = require("classnames");
+module.exports = __webpack_require__.p + "da5a416d3281d45575cc6399942dd870.jpg";
 
 /***/ }),
 /* 39 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "ebfb0bdfbf22b5c0653838d2e4e90f41.jpg";
+
+/***/ }),
+/* 40 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "f8921d4944594c74d38481a0812f45c8.jpg";
+
+/***/ }),
+/* 41 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "32b424409b4e57c3c12e462c45085d3d.jpg";
+
+/***/ }),
+/* 42 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "812a346811f0acedf9500ba7bcfa84d5.jpg";
+
+/***/ }),
+/* 43 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "c83d15c0c372cfa8a09fb260154e1fed.jpg";
+
+/***/ }),
+/* 44 */
 /***/ (function(module, exports) {
 
 module.exports = require("extract-text-webpack-plugin");
 
 /***/ }),
-/* 40 */
+/* 45 */
 /***/ (function(module, exports) {
 
 module.exports = require("path");

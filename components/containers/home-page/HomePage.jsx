@@ -3,13 +3,13 @@ import { connect } from 'react-redux'
 import HeaderTitle from './header-title/HeaderTitle';
 import DisplayImage from './display-image/DisplayImage';
 
-const HomePage = ({ homeSidebar, homeContent }) => {
+const HomePage = ({ homePageContent }) => {
 
   return (
     <div>
-      <HeaderTitle homeContent={homeContent} />
-      <DisplayImage image={homeContent.content.family} width="750"/>
-      <DisplayImage image={homeContent.content.logo} width="700"/>
+      <HeaderTitle homePageContent={homePageContent} />
+      <DisplayImage image={homePageContent.content.family} width="750"/>
+      <DisplayImage image={homePageContent.content.logo} width="700"/>
     </div>
   )
 }

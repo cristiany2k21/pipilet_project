@@ -1,10 +1,10 @@
 #wrapper-sidebar {
-  position: absolute;
-  left: 100%;
-  width: 350px;
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
 
   a {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Slabo 27px', serif;
     color: orangered;
     font-weight: bold;
     text-decoration: none;
@@ -21,7 +21,6 @@
     }
 
     &:hover img {
-      //width: 80%;
       transform: scale(1.1);
     }
   }
