@@ -1,0 +1,90 @@
+@import '../../../style/global';
+
+#translated-number {
+  padding: 60px;
+
+  .wrapper-flag {
+    text-align: center;
+    width: 20%;
+    display: inline-block;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .wrapper-title {
+    text-align: center;
+    font-size: $c-heading-delta;
+    width: 60%;
+    display: inline-block;
+  }
+
+  .wrapper-book-number {
+    text-align: center;
+    width: 20%;
+    display: inline-block;
+
+    img {
+      width: 150px;
+    }
+  }
+}
+
+#table-number {
+
+  table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+
+  td {
+    border: 1px solid black;
+    width: 20vw;
+    padding: 7px;
+  }
+
+  .first-table, .second-table {
+    margin-bottom: 60px;
+  }
+
+  .letter-dot {
+    color: red;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .wrapper-third-table {
+    width: 50%;
+    display: inline-block;
+
+    .third-table {
+      text-align: center;
+
+      td {
+        width: 10vw;
+      }
+    }
+  }
+
+  .wrapper-fourth-table {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+
+    .fourth-table {
+
+      td {
+        width: 15vw;
+        font-weight: bold;
+        font-size: 22px;
+        text-align: center;
+      }
+
+      .exercice-number {
+        width: auto;
+      }
+    }
+
+  }
+}

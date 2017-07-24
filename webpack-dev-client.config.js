@@ -1,6 +1,5 @@
 const path = require('path');
 const webpack = require('webpack');
-const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
   entry: [
@@ -11,12 +10,13 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.client.js',
+    publicPath: "/"
   },
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
-        loader: 'babel-loader',
+        use: ['babel-loader'],
         exclude: /(node_modules|bower_components)/,
       },
       {
@@ -26,7 +26,7 @@ module.exports = {
         }, {
           loader: "css-loader?minimize" // translates CSS into CommonJS
         }, {
-          loader: "sass-loader?includePaths[]=./node_modules" // compiles Sass to CSS
+          loader: "sass-loader" // compiles Sass to CSS
         }]
       }, {
         test: /\.(jpe?g|png|gif|svg)$/i,
@@ -37,7 +37,7 @@ module.exports = {
       }    ]
   },
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: ['.scss', '.js', '.jsx', '.jpg', '.png']
   },
   plugins: [
     new webpack.optimize.OccurrenceOrderPlugin(), //HMR

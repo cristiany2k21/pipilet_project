@@ -17,7 +17,11 @@ module.exports = {
       },
       {
         test: /\.(scss|sass)$/,
-        loaders: ['style-loader', 'css-loader', 'sass-loader']
+        use: [{
+          loader: "css-loader?minimize" // translates CSS into CommonJS
+        }, {
+          loader: "sass-loader" // compiles Sass to CSS
+        }]
       }, {
         test: /\.(jpe?g|png|gif|svg)$/i,
         use: [

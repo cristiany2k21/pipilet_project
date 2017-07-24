@@ -1,0 +1,71 @@
+.wrapper-header-song {
+  margin: 60px 0;
+
+  .wrapper-title-song {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+
+    .title-song {
+      font-size: 58px;
+      text-align: center;
+      margin: 15px 0;
+    }
+
+    .flag-song {
+      text-align: center;
+      margin: 15px 0;
+    }
+  }
+
+  .wrapper-image-song {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+  }
+}
+
+#wrapper-lyrics-song {
+
+  div {
+    font-size: 24px;
+  }
+
+  .wrapper-selected-language {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+
+    .selected-language {
+      display: inline-block;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .image-pipilet-song {
+      text-align: center;
+    }
+  }
+
+  .wrapper-original-language {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+
+    .original-language {
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      display: inline-block;
+    }
+  }
+}
+
+#wrapper-sheet {
+  margin: 60px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}

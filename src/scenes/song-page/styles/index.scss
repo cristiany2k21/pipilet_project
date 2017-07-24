@@ -1,0 +1,132 @@
+#wrapper-header {
+
+  .wrapper-image{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    vertical-align: middle;
+
+    img {
+      width: 11vw;
+    }
+  }
+
+  .wrapper-title{
+    display: inline-block;
+    vertical-align: middle;
+    width: 80%;
+    text-align: center;
+
+    h1 {
+      width: 100%;
+      font-size: 3vw;
+      margin-bottom: 0;
+      font-family: 'Roboto Slab', serif;
+      font-weight: lighter;
+    }
+    img {
+      width: 37vw
+    }
+  }
+}
+
+
+
+
+
+
+
+
+#wrapper-language {
+  height: 20vw;
+
+  .wrapper-image {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    vertical-align: top;
+
+    img {
+      width: 15vw
+    }
+  }
+
+  .wrapper-display-language {
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+    position: relative;
+
+    & .absolute-language {
+      position: absolute;
+      font-size: 1.2vw;
+      font-weight: bold;
+      font-family: 'Roboto Slab', serif;
+      font-weight: lighter;
+    }
+
+    & .arab {
+      top: 10%;
+      left: 2%;
+      color: deepskyblue;
+    }
+    & .english {
+      top: 10%;
+      left: 46%;
+      color: darkblue;
+    }
+    & .indian {
+      top: 17%;
+      left: 71%;
+      color: deeppink;
+
+    }
+    & .french {
+      top: 44%;
+      left: 69%;
+      color: deepskyblue;
+    }
+    & .african {
+      top: 30%;
+      left: 29%;
+      color: darkgreen;
+    }
+    & .serbia {
+      top: 50%;
+      left: 54%;
+      color: darkorange;
+    }
+    & .italian {
+      top: 35%;
+      left: 4%;
+      color: darkblue;
+    }
+    & .spanish {
+      top: 60%;
+      left: 11%;
+      color: peru;
+    }
+    & .china {
+      top: 70%;
+      left: 36%;
+      color: deeppink;
+    }
+    & .germany {
+      top: 73%;
+      left: 80%;
+      color: darkorange;
+    }
+    & .russian {
+      top: 80%;
+      left: 64%;
+      color: peru;
+    }
+    & .portuguese {
+      top: 80%;
+      left: 4%;
+      color: darkgreen;
+    }
+  }
+}
+
+@import "choose-flag/index";
