@@ -13,7 +13,6 @@ const DisplayFlag = ({
             <div className="flag" key={index}>
               <Link to={`/number/${item.name}`}>
                 <img src={item.value} alt="" width="120"/>
-                <div>{item.name}</div>
               </Link>
             </div>
           )

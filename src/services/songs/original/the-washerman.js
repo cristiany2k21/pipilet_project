@@ -1,10 +1,12 @@
 import winterComing from '../../../images/music-image/winter-is-here.jpg';
+import india from '../../../images/flag/india.jpg';
 
 export default (
   {
     "title": "धधबब आयय (Dhobi Aaya)",
     "youtubeId":"J0tHbUkpSpQ",
     "image": winterComing,
+    "flag": india,
     "language": "(Hindi)",
     "couplet": [
       [

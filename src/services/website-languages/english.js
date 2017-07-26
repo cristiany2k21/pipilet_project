@@ -31,6 +31,19 @@ import seHaCasadoRosaOriginal from '../songs/original/spring-has-come';
 import patACakeOriginal from '../songs/original/pat-a-cake';
 import mondayMorningOriginal from '../songs/original/on-monday-morning';
 
+import french from '../../images/flag/french.png';
+import english from '../../images/flag/english.jpg';
+import india from '../../images/flag/india.jpg';
+import brasil from '../../images/flag/brasil.png';
+import italy from '../../images/flag/italy.png';
+import spanish from '../../images/flag/spanish.png';
+import serbia from '../../images/flag/serbia.png';
+import german from '../../images/flag/german.jpg';
+import china from '../../images/flag/china.jpg';
+import southAfrica from '../../images/flag/south-africa.jpg';
+import tanzania from '../../images/flag/tanzania.jpg';
+import russia from '../../images/flag/russia.jpg';
+
 export default (
   {
     "lan": "eng",
@@ -82,6 +95,23 @@ export default (
         { "translated-song": llueveTranslated, "original-song": llueveOriginal },
         { "translated-song": patACakeTranslated, "original-song": patACakeOriginal } ,
         { "translated-song": theCourtyardOfMyHouseTranslated, "original-song": theCourtyardOfMyHouseOriginal } ,
+      ]
+    },
+    "numberPageContent": {
+      "title": "LEARN THE NUMBER FROM 1 TO 100 IN VARIOUS LANGUAGES OF THE WORLD WIHT PIPILET MANDALA",
+      "flag": [
+        {"name": "french", "value": french},
+        {"name": "english", "value": english},
+        {"name": "india", "value": india},
+        {"name": "brasil", "value": brasil},
+        {"name": "italy", "value": italy},
+        {"name": "spanish", "value": spanish},
+        {"name": "serbia", "value": serbia},
+        {"name": "german", "value": german},
+        {"name": "china", "value": china},
+        {"name": "southAfrica", "value": southAfrica},
+        {"name": "tanzania", "value": tanzania},
+        {"name": "russia", "value": russia}
       ]
     }
   }

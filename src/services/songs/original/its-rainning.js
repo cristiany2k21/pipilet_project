@@ -1,5 +1,6 @@
 import rainning from '../../../images/music-image/its-rainning.jpg';
 import rainningSheet from '../../../images/music-sheet/its-rainning.png';
+import serbia from '../../../images/flag/serbia.png';
 
 export default (
   {
@@ -7,6 +8,7 @@ export default (
     "youtubeId":"vp7zMFrHkmA",
     "image": rainning,
     "sheet": rainningSheet,
+    "flag": serbia,
     "language": "(Serbio)",
     "couplet": [
       [

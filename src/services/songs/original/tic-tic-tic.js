@@ -1,5 +1,6 @@
 import winterComing from '../../../images/music-image/winter-is-here.jpg';
 import ticTicTicSheet from '../../../images/music-sheet/tic-tic-tic.jpg';
+import arab from '../../../images/flag/lebanon.jpg';
 
 export default (
   {
@@ -7,6 +8,7 @@ export default (
     "youtubeId":"VvmXQ4t_2MY",
     "image": winterComing,
     "sheet": ticTicTicSheet,
+    "flag": arab,
     "language": "(Árabe)",
     "couplet": [
       [

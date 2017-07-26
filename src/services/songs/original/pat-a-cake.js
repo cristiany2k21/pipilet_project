@@ -1,4 +1,5 @@
 import patACake from '../../../images/music-image/pat-a-cake.jpg';
+import russia from '../../../images/flag/russia.jpg';
 
 export default (
   {
@@ -6,6 +7,7 @@ export default (
     "youtubeId":"MWQbs6fWzvE",
     "sub-title": "Canción para jugar a las palmas",
     "image": patACake,
+    "flag": russia,
     "language": "(Ruso)",
     "couplet": [
       [

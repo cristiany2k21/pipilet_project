@@ -1,5 +1,6 @@
 import fallFallBallon from '../../../images/music-image/fall-fall-ballon.jpg';
 import fallFallBallonSheet from '../../../images/music-sheet/fall-fall-ballon.png';
+import brasil from '../../../images/flag/brasil.png';
 
 export default (
   {
@@ -8,6 +9,7 @@ export default (
     "youtubeId": "bpvbBzmQK9E",
     "sheet": fallFallBallonSheet,
     "image": fallFallBallon,
+    "flag": brasil,
     "language": "(Portugués)",
     "couplet": [
       [

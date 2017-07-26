@@ -38,11 +38,11 @@ import brasil from '../../images/flag/brasil.png';
 import italy from '../../images/flag/italy.png';
 import spanish from '../../images/flag/spanish.png';
 import serbia from '../../images/flag/serbia.png';
-import german from '../../images/flag/german.png';
+import german from '../../images/flag/german.jpg';
 import china from '../../images/flag/china.jpg';
 import southAfrica from '../../images/flag/south-africa.jpg';
-import china3 from '../../images/flag/china.jpg';
-import china4 from '../../images/flag/china.jpg';
+import tanzania from '../../images/flag/tanzania.jpg';
+import russia from '../../images/flag/russia.jpg';
 
 export default (
   {
@@ -113,8 +113,8 @@ export default (
         {"name": "german", "value": german},
         {"name": "china", "value": china},
         {"name": "southAfrica", "value": southAfrica},
-        {"name": "china3", "value": china3},
-        {"name": "china4", "value": china4}
+        {"name": "tanzania", "value": tanzania},
+        {"name": "russia", "value": russia}
         ]
     },
     "TranslatedPageContent": {

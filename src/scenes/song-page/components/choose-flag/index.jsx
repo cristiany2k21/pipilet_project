@@ -11,7 +11,7 @@ import spanish from '../../../../images/flag/spanish.png';
 import brasil from '../../../../images/flag/brasil.png';
 import india from '../../../../images/flag/india.jpg';
 import russia from '../../../../images/flag/russia.jpg';
-import german from '../../../../images/flag/german.png';
+import german from '../../../../images/flag/german.jpg';
 import china from '../../../../images/flag/china.jpg';
 import ghana from '../../../../images/flag/ghana.jpg';
 import lebanon from '../../../../images/flag/lebanon.jpg';

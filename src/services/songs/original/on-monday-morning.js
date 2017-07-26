@@ -1,5 +1,6 @@
 import onMondayMorning from '../../../images/music-image/on-monday-morning.jpg';
 import onMondayMorningSheet from '../../../images/music-sheet/on-monday-morning.png';
+import french from '../../../images/flag/french.png';
 
 export default (
   {
@@ -8,6 +9,7 @@ export default (
     "youtubeId":"6-EQdZnoaKQ",
     "image": onMondayMorning,
     "sheet": onMondayMorningSheet,
+    "flag": french,
     "language": "(Française)",
     "couplet": [
       [

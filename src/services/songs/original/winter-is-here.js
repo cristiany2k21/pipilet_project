@@ -1,11 +1,14 @@
 import winterComing from '../../../images/music-image/winter-is-here.jpg';
 import winterComingSheet from '../../../images/music-sheet/winter-is-here.png';
+import german from '../../../images/flag/german.jpg';
+
 export default (
   {
     "title": "A, a, a, der Winter, der ist da",
     "youtubeId":"Faym70ZXXQE",
     "image": winterComing,
     "sheet": winterComingSheet,
+    "flag": german,
     "language": "(Deutsch)",
     "couplet": [
       [

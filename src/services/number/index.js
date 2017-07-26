@@ -9,6 +9,7 @@ import italy from './italy';
 import serbia from './serbia';
 import southAfrica from './south-africa';
 import russia from './russia';
+import tanzania from './tanzania';
 
 export default ({
   french,
@@ -21,5 +22,6 @@ export default ({
   italy,
   serbia,
   southAfrica,
-  russia
+  russia,
+  tanzania
 })

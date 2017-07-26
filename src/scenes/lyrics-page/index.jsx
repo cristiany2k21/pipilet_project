@@ -15,10 +15,9 @@ class LyricsPage extends Component {
     const musicTranslated = songPageContent.music[idSong]['translated-song']
     const musicOriginal = songPageContent.music[idSong]['original-song']
 
-    console.log('musicOriginal.sheet ------> ', musicOriginal.sheet);
     return (
       <div>
-        <HeaderLyrics title={musicOriginal.title} image={musicOriginal.image}/>
+        <HeaderLyrics title={musicOriginal.title} image={musicOriginal.image} imageFlag={musicOriginal.flag} />
         <LyricsSong musicTranslated={musicTranslated} musicOriginal={musicOriginal}/>
         {musicOriginal.sheet && <Sheet sheet={musicOriginal.sheet}/>}
       </div>

@@ -7,6 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.client.js',
+    publicPath: "/"
   },
   module: {
     rules: [
@@ -30,7 +31,7 @@ module.exports = {
       }, {
         test: /\.(jpe?g|png|gif|svg)$/i,
         use: [
-          'url-loader?limit=10000',
+          'url-loader',
           'img-loader'
         ]
       }

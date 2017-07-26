@@ -1,4 +1,4 @@
-import german from '../../../images/flag/german.png';
+import german from '../../../images/flag/german.jpg';
 
 export default (
   {

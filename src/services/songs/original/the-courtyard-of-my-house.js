@@ -1,5 +1,6 @@
 import laCourDeMaMaison from '../../../images/music-image/the-courtyard-of-my-house.jpg';
 import laCourDeMaMaisonSheet from '../../../images/music-sheet/the-courtyard-of-my-house.png';
+import spanish from '../../../images/flag/spanish.png';
 
 export default (
   {
@@ -8,6 +9,7 @@ export default (
     "youtubeId":"3E2uMwu5ulk",
     "image": laCourDeMaMaison,
     "sheet": laCourDeMaMaisonSheet,
+    "flag": spanish,
     "language": "(Español)",
     "couplet": [
       [

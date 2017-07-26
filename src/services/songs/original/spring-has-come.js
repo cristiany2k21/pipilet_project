@@ -1,4 +1,5 @@
 import springComing from '../../../images/music-image/spring-has-come.jpg';
+import italy from '../../../images/flag/italy.png';
 
 export default (
   {
@@ -6,6 +7,7 @@ export default (
     "sub-title": "Chanzone Folk (Dialetto siciliano)",
     "youtubeId":"L3-YxT_GKXE",
     "image": springComing,
+    "flag": italy,
     "language": "(Italiano)",
     "couplet": [
       [
