@@ -4,8 +4,9 @@ import ghana from '../../../images/flag/ghana.jpg';
 
 export default (
   {
+    "id": "ghana",
     "title": "SI MA MA KA",
-    "youtubeId":"BkCUs7SF_qY",
+    "youtubeId": "BkCUs7SF_qY",
     "image": siMaMaKa,
     "sheet": siMaMaKaSheet,
     "flag": ghana,

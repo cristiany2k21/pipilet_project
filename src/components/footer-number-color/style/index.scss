@@ -1,0 +1,23 @@
+#wrapper-image-pipilet {
+  position: relative;
+
+  .wrapper-pipilet-number {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+
+    img {
+      width: 55%;
+    }
+  }
+
+  .wrapper-rainbow-mandala {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+
+    img {
+      width: 100%;
+    }
+  }
+}

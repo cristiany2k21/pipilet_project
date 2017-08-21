@@ -2,6 +2,7 @@ import tigers from '../../../images/music-image/two-tigers.png';
 
 export default (
   {
+    "id": "fr",
     "title": "Deux vieux tigres",
     "image": tigers,
     "language": "(Français)",

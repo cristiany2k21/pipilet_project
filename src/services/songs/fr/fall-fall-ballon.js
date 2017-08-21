@@ -2,6 +2,7 @@ import fallFallBallon from '../../../images/music-image/fall-fall-ballon.jpg';
 
 export default (
   {
+    "id": "fr",
     "title": "Tombe, tombe, ballon",
     "sub-title": "Chanson enfantine",
     "image": fallFallBallon,

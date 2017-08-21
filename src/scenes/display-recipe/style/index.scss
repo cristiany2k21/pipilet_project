@@ -1,0 +1,85 @@
+#wrapper-display-recipe {
+
+  // ========== HEADER START
+  .wrapper-header-recipe {
+    display: flex;
+    justify-content: space-around;
+    height: 20vw;
+    max-height: 300px;
+    margin-bottom: 60px;
+
+    .wrapper-image {
+      display: block;
+
+      img {
+        height: 100%;
+      }
+    }
+
+    .wrapper-title {
+      text-align: center;
+      align-self: center;
+      font-size: 2.7vw;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .wrapper-image-pipilet {
+      display: block;
+      text-align: center;
+
+      img {
+        height: 100%;
+      }
+    }
+  }
+  // ========== HEADER END
+
+
+
+  // ========== RECIPE START
+  .wrapper-recipe {
+
+    .wrapper-recipe-map {
+      margin-bottom: 60px;
+
+      .wrapper-title {
+        display: flex;
+        justify-content: center;
+        color: red;
+        text-align: center;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 2.4vw;
+        margin-bottom: 35px;
+      }
+
+      .wrapper-section-ingredient {
+
+        .wrapper-title-section {
+          font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+          font-size: 34px;
+        }
+
+        ul li {
+          font-size: 18px;
+          line-height: 2;
+        };
+      }
+
+      .wrapper-section-preparation {
+
+        .wrapper-title-section {
+          font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+          font-size: 34px;
+        }
+
+        ul li {
+          font-size: 18px;
+          line-height: 2;
+        }
+      }
+    }
+  }
+  // ========== RECIPE END
+
+
+}

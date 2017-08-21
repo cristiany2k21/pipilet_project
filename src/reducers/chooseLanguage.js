@@ -1,12 +1,13 @@
 import Language from '../services/website-languages';
+import { CHANGE_LANGUAGE } from '../constants/language';
 
 const initialState = {
-  "language": Language[0]
+  ...Language[0]
 }
 
 export default function ChooseLanguage(state = initialState, action) {
   switch (action.type) {
-    case "CHANGE_LANGUAGE": {
+    case CHANGE_LANGUAGE: {
       let language = {};
 
       Language.forEach(item => {
@@ -14,7 +15,7 @@ export default function ChooseLanguage(state = initialState, action) {
           language = item
       })
       return {
-        language
+        ...language
       }
 
     }

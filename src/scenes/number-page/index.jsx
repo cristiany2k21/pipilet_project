@@ -1,25 +1,32 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
+import HeaderPage from '../../components/header-page';
+
+import FamilyChildren from './components/family-children';
+import DisplayFlag from '../../components/flag';
+import ImagePipilet from '../../components/footer-number-color';
+
 import './styles/index.scss';
-import HeaderNumber from './components/header';
-import DisplayFlag from './components/flag';
-import ImagePipilet from './components/image-pipilet';
 
 const NumberSelection = ({
-  numberPageContent
+  numberPageContent,
+  children
 }) => {
+  if (children)
+      return children
   return (
     <div>
-      <HeaderNumber title={numberPageContent.title} />
-      <DisplayFlag flag={numberPageContent.flag}/>
+      <HeaderPage title={numberPageContent.title} />
+      <FamilyChildren />
+      <DisplayFlag flag={numberPageContent.flag} path="number" />
       <ImagePipilet />
     </div>
   )
 };
 
 const mapStateToProps = state => {
-  return state.ChooseLanguage.language
+  return state.ChooseLanguage
 }
 
 export default connect(mapStateToProps)(NumberSelection);

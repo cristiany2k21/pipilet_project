@@ -1,9 +1,12 @@
 import russia from '../../../images/flag/russia.jpg';
+import little_draw from '../images/elephant_little_draw_number.png';
+import big_draw from '../images/elephant_big_draw_number.png';
 
 export default (
   {
     "header": "РОССИЯ Числа от 1 до 100",
     "flag": russia,
+    "draw": { "little-draw": little_draw, "big-draw": big_draw },
     "numbers": [
       [
         { letter: "1", value: "один [adin]" },

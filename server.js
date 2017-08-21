@@ -23,7 +23,7 @@ if (process.env.NODE_ENV == 'development') {
   app.use(require('webpack-hot-middleware')(compiler));
 }
 else {
-  style = '<link rel="stylesheet" type="text/css" href="styles.min.css">'
+  style = '<link rel="stylesheet" type="text/css" href="/styles.min.css">'
 }
 
 app.use(express.static('public'));
@@ -53,13 +53,18 @@ function renderPage(appHtml) {
       <head>
         <meta charset=utf-8/>
         <title>My First React Router App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Quattrocento+Sans|Work+Sans:100,200,300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">
         ${style}
       </head>
       <body>
-        <div id=app>${appHtml}</div>
-        <script src="bundle.client.js"></script>
+      <div id="app">
+        ${process.env.NODE_ENV === 'production' ? appHtml : `<div>${appHtml}</div>`}
+      </div>
+        <script src="/bundle.client.js"></script>
       </body>
     </html
    `

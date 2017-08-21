@@ -1,84 +1,26 @@
 import React from 'react';
+import FirstTable from './component/first-table';
+import SecondTable from './component/second-table';
+import ThirdTable from './component/third-table';
+import FourTable from './component/four-table';
+import HandWriteLogo from './component/hand-write-logo';
+import BigDraw from './component/big-draw';
 
 const TableNumber = ({
-  language
+  language,
+  littleDraw,
+  bigDraw
 }) => {
   return (
     <div id="table-number">
-      <table className="first-table">
-        <tbody>
-        {
-          language.numbers.map((number, index) => (
-              <tr key={index}>
-                {
-                  number.map((item, index) => (
-                      <td key={index}>
-                        <span className="letter-dot">{item.letter}.</span> {item.value}
-                      </td>
-                    )
-                  )
-                }
-              </tr>
-            )
-          )
-        }
-        </tbody>
-      </table>
-
-      <table className="second-table">
-        <tbody>
-        {
-          language["ten-numbers"].map((item, index) => (
-            <tr key={index}>
-              <td>
-                <span className="letter-dot">{item.letter}.</span> {item.value}
-              </td>
-            </tr>
-          ))
-        }
-        </tbody>
-      </table>
-
-      <div className="wrapper-third-table">
-        <table className="third-table">
-          <tbody>
-          {
-            language.operator.map((item, index) => (
-                <tr key={index}>
-                  <td>
-                    <span className="letter-dot">{item.letter}</span>
-                  </td>
-                  <td>
-                    <span>{item.value}</span>
-                  </td>
-                </tr>
-              )
-            )
-          }
-          </tbody>
-        </table>
+      <FirstTable language={language}/>
+      <SecondTable language={language} draw={littleDraw}/>
+      <div className="wrapper-third-four">
+        <ThirdTable language={language}/>
+        <FourTable language={language}/>
       </div>
-
-      <div className="wrapper-fourth-table">
-        <table className="fourth-table">
-          <tbody>
-          {
-            language.exercice.map((item, index) => (
-                <tr key={index}>
-                  <td className="exercice-number">
-                    <span >{item.letter}</span>
-                  </td>
-                  <td>
-                    <span>{item.value}</span>
-                  </td>
-                </tr>
-              )
-            )
-          }
-          </tbody>
-        </table>
-      </div>
-
+      <HandWriteLogo />
+      <BigDraw draw={bigDraw} />
     </div>
   )
 };

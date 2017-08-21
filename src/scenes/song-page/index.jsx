@@ -1,26 +1,30 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import HeaderSong from './components/header';
+import HeaderPage from '../../components/header-page';
 import DisplayLanguageSong from './components/display-language';
 import ChooseFlag from './components/choose-flag';
 
 import './styles/index.scss';
 
 const SongPage = ({
-  songPageContent,
+  title,
+  language,
+  flag
 }) => {
   return (
     <div>
-      <HeaderSong title={songPageContent.header.title}/>
-      <DisplayLanguageSong />
-      <ChooseFlag />
+      <HeaderPage title={title}/>
+      <DisplayLanguageSong language={language} />
+      <ChooseFlag flag={flag} />
     </div>
   )
 };
 
-const mapStateToProps = state => {
-  return state.ChooseLanguage.language
-}
+const mapStateToProps = state => ({
+  title: state.ChooseLanguage.songPageContent.title,
+  language: state.ChooseLanguage.songPageContent.language,
+  flag: state.ChooseLanguage.songPageContent.flag,
+})
 
 export default connect(mapStateToProps)(SongPage);

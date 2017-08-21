@@ -1,11 +1,10 @@
-@import '../../../style/global';
-
 #translated-number {
   padding: 60px;
 
   .wrapper-flag {
     text-align: center;
     width: 20%;
+    vertical-align: middle;
     display: inline-block;
 
     img {
@@ -15,7 +14,8 @@
 
   .wrapper-title {
     text-align: center;
-    font-size: $c-heading-delta;
+    font-size: 31px;
+    vertical-align: middle;
     width: 60%;
     display: inline-block;
   }
@@ -23,6 +23,7 @@
   .wrapper-book-number {
     text-align: center;
     width: 20%;
+    vertical-align: middle;
     display: inline-block;
 
     img {
@@ -35,7 +36,6 @@
 
   table {
     border-collapse: collapse;
-    margin: 0 auto;
   }
 
   td {
@@ -44,7 +44,7 @@
     padding: 7px;
   }
 
-  .first-table, .second-table {
+  .first-table {
     margin-bottom: 60px;
   }
 
@@ -54,37 +54,31 @@
     font-size: 22px;
   }
 
-  .wrapper-third-table {
-    width: 50%;
-    display: inline-block;
+  .wrapper-third-four {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+  }
 
-    .third-table {
-      text-align: center;
+  @import "../components/table/component/first-table/style/index";
+  @import "../components/table/component/second-table/style/index";
+  @import "../components/table/component/third-table/style/index";
+  @import "../components/table/component/four-table/style/index";
 
-      td {
-        width: 10vw;
-      }
+  .wrapper-logo {
+    margin-bottom: 60px;
+
+    img {
+      height: 10%;
     }
   }
 
-  .wrapper-fourth-table {
-    width: 50%;
-    display: inline-block;
-    text-align: center;
+  .wrapper-big-draw {
+    display: flex;
+    justify-content: center;
 
-    .fourth-table {
-
-      td {
-        width: 15vw;
-        font-weight: bold;
-        font-size: 22px;
-        text-align: center;
-      }
-
-      .exercice-number {
-        width: auto;
-      }
+    img {
+      height: 80%;
     }
-
   }
 }

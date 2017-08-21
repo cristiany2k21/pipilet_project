@@ -1,9 +1,12 @@
-import italy from '../../../images/flag/italy.png';
+import italy from '../../../images/flag/italy.jpg';
+import little_draw from '../images/umbrella_little_draw_number.png';
+import big_draw from '../images/umbrella_big_draw_number.png';
 
 export default (
   {
     "header": "ITALIANO NUMERI DAL 1 AL 100",
     "flag": italy,
+    "draw": { "little-draw": little_draw, "big-draw": big_draw },
     "numbers": [
       [
         { letter: "1", value: "Uno" },

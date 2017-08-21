@@ -4,8 +4,10 @@ import english from '../../../images/flag/english.jpg';
 
 export default (
   {
-    "title": "Here We Go Round the Mulberry Bush",
-    "youtubeId":"LjlwUnVXQ4U",
+    "id": "eng",
+    "title": "Here We Go Round",
+    "second-title": "the Mulberry Bush",
+    "youtubeId": "LjlwUnVXQ4U",
     "image": hereWeGo,
     "sheet": hereWeGoSheet,
     "flag": english,
@@ -29,7 +31,6 @@ export default (
         "This is the way we mend our shoes, etc.",
         "This is the way we scrub our clothes, etc.",
         "This is the way we dust our room, etc.",
-        "This is the way we clap our hands, etc.",
       ],
     ]
   }

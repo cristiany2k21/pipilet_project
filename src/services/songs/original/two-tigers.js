@@ -4,8 +4,9 @@ import china from '../../../images/flag/china.jpg';
 
 export default (
   {
+    "id": "china",
     "title": "两只老虎",
-    "youtubeId":"1Nu-hF8Zg-4",
+    "youtubeId": "1Nu-hF8Zg-4",
     "image": tigers,
     "sheet": tigersSheet,
     "flag": china,

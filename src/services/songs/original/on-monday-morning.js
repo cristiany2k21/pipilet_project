@@ -1,12 +1,13 @@
 import onMondayMorning from '../../../images/music-image/on-monday-morning.jpg';
 import onMondayMorningSheet from '../../../images/music-sheet/on-monday-morning.png';
-import french from '../../../images/flag/french.png';
+import french from '../../../images/flag/french.jpg';
 
 export default (
   {
+    "id": "fr",
     "title": "Lundi matin",
     "sub-title": "Chanson enfantine",
-    "youtubeId":"6-EQdZnoaKQ",
+    "youtubeId": "6-EQdZnoaKQ",
     "image": onMondayMorning,
     "sheet": onMondayMorningSheet,
     "flag": french,

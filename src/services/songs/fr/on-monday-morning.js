@@ -2,6 +2,7 @@ import peintureMains from '../../../images/music-image/pat-a-cake.jpg';
 
 export default (
   {
+    "id": "fr",
     "title": "Lundi matin",
     "sub-title": "Chanson enfantine",
     "image": peintureMains,

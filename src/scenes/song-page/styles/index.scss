@@ -1,6 +1,6 @@
 #wrapper-header {
 
-  .wrapper-image{
+  .wrapper-image {
     display: inline-block;
     width: 20%;
     text-align: center;
@@ -11,121 +11,160 @@
     }
   }
 
-  .wrapper-title{
-    display: inline-block;
-    vertical-align: middle;
-    width: 80%;
-    text-align: center;
-
-    h1 {
-      width: 100%;
-      font-size: 3vw;
-      margin-bottom: 0;
-      font-family: 'Roboto Slab', serif;
-      font-weight: lighter;
-    }
-    img {
-      width: 37vw
-    }
-  }
 }
-
-
-
-
-
-
-
 
 #wrapper-language {
   height: 20vw;
+  margin-bottom: 30px;
+  display: flex;
 
   .wrapper-image {
-    display: inline-block;
     width: 30%;
     text-align: center;
     vertical-align: top;
 
     img {
-      width: 15vw
+      height: 100%;
     }
   }
 
   .wrapper-display-language {
-    display: inline-block;
     width: 70%;
     height: 100%;
     position: relative;
 
-    & .absolute-language {
+    .absolute-language {
       position: absolute;
+      font-weight: bold;
       font-size: 1.2vw;
       font-weight: bold;
       font-family: 'Roboto Slab', serif;
       font-weight: lighter;
     }
 
-    & .arab {
+    .arab {
       top: 10%;
       left: 2%;
       color: deepskyblue;
     }
-    & .english {
+
+    .english {
       top: 10%;
       left: 46%;
       color: darkblue;
     }
-    & .indian {
+
+    .indian {
       top: 17%;
       left: 71%;
       color: deeppink;
 
     }
-    & .french {
+
+    .french {
       top: 44%;
       left: 69%;
       color: deepskyblue;
     }
-    & .african {
+
+    .african {
       top: 30%;
       left: 29%;
       color: darkgreen;
     }
-    & .serbia {
+
+    .serbia {
       top: 50%;
       left: 54%;
       color: darkorange;
     }
-    & .italian {
+
+    .italian {
       top: 35%;
       left: 4%;
       color: darkblue;
     }
-    & .spanish {
+
+    .spanish {
       top: 60%;
       left: 11%;
       color: peru;
     }
-    & .china {
+
+    .china {
       top: 70%;
       left: 36%;
       color: deeppink;
     }
-    & .germany {
-      top: 73%;
+
+    .germany {
+      top: 63%;
       left: 80%;
       color: darkorange;
     }
-    & .russian {
+
+    .russian {
       top: 80%;
       left: 64%;
       color: peru;
     }
-    & .portuguese {
+
+    .portuguese {
       top: 80%;
       left: 4%;
       color: darkgreen;
     }
+
+    .note1 {
+      top: 78%;
+      left: 93%;
+      height: 18%;
+      transform: rotate(10deg);
+    }
+
+    .note2 {
+      top: 10%;
+      left: 12%;
+      height: 25%;
+      transform: rotate(13deg);
+    }
+
+    .note3 {
+      top: 9%;
+      left: 60%;
+      height: 14%;
+    }
+
+    .note4 {
+      top: 34%;
+      left: 17%;
+      height: 40%;
+    }
+
+    .note5 {
+      top: 24%;
+      left: 42%;
+      height: 33%;
+    }
+
+    .note6 {
+      top: 22%;
+      left: 80%;
+      height: 31%;
+    }
+
+    .note7 {
+      top: 79%;
+      left: 49%;
+      height: 22%;
+    }
+
+    .note8 {
+      top: 73%;
+      left: 19%;
+      height: 25%;
+    }
+
   }
 }
 

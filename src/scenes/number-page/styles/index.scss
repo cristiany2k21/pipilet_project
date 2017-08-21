@@ -1,13 +1,10 @@
-.wrapper-header-number {
-  text-align: center;
-  font-size: 70px;
-  font-family: 'Roboto Slab', serif;
-  font-weight: lighter;
-  padding: 0 60px;
-}
+#family-children {
+  width: 80%;
+  margin: 0 auto;
 
-.wrapper-image-number {
-  text-align: center;
+  img {
+    width: 100%;
+  }
 }
 
 #wrapper-display-flag {
@@ -16,37 +13,15 @@
   .flag {
     margin: 15px;
     display: inline-block;
+    width: 9%;
 
     img {
       filter: grayscale(100%);
+      width: 100%;
 
       &:hover {
         filter: grayscale(0);
       }
     }
-    div {
-      text-align: center;
-    }
-  }
-}
-
-#wrapper-image-pipilet {
-  position: relative;
-
-  .wrapper-pipilet-number {
-    display: inline-block;
-    text-align: center;
-    width: 50%;
-  }
-
-  .wrapper-rainbow-mandala {
-    display: inline-block;
-    text-align: center;
-    width: 50%;
-  }
-
-  .wrapper-number {
-    position: absolute;
-    top: 15%;
   }
 }

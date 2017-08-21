@@ -2,7 +2,7 @@ import tigers from '../../../images/music-image/two-tigers.png';
 
 export default (
   {
-    "title": "Two Tigers",
+    "id": "eng", "title": "Two Tigers",
     "image": tigers,
     "language": "(English)",
     "couplet": [

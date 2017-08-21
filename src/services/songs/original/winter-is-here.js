@@ -4,8 +4,9 @@ import german from '../../../images/flag/german.jpg';
 
 export default (
   {
+    "id": "german",
     "title": "A, a, a, der Winter, der ist da",
-    "youtubeId":"Faym70ZXXQE",
+    "youtubeId": "Faym70ZXXQE",
     "image": winterComing,
     "sheet": winterComingSheet,
     "flag": german,

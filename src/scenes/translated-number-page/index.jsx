@@ -1,31 +1,29 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
+
+import Language from '../../services/number';
 import HeaderNumber from './components/header';
 import TableNumber from './components/table';
-import { selectLanguageNumber } from '../../action/select-language-number';
+
 import './styles/index.scss';
 
-class TranslatedNumber extends Component {
+const TranslatedNumber = ({
+  numbers
+}) => {
+  return (
+    <div id="translated-number">
+      <HeaderNumber title={numbers.header} flag={numbers.flag}/>
+      <TableNumber
+        language={numbers}
+        littleDraw={numbers.draw["little-draw"]}
+        bigDraw={numbers.draw["big-draw"]}
+      />
+    </div>
+  )
+};
 
-    componentWillMount() {
-      const language = this.props.params.language
-      this.props.dispatch(selectLanguageNumber(language))
-    }
-
-    render() {
-      const { numbers } = this.props;
-
-      return (
-        <div id="translated-number">
-          <HeaderNumber title={numbers.header} flag={numbers.flag}/>
-          <TableNumber language={numbers} />
-        </div>
-      )
-    }
-}
-
-const mapStateToProps = state => ({
-  numbers: state.SelectLanguageNumbers
+const mapStateToProps = (state, props) => ({
+  numbers: Language[props.params.language]
 })
 
 export default connect(mapStateToProps)(TranslatedNumber);

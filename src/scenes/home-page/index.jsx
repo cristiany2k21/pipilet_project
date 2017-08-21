@@ -1,5 +1,4 @@
 import React from 'react';
-import { connect } from 'react-redux'
 import HeaderTitle from './components/header-title';
 import DisplayImage from './components/display-image';
 

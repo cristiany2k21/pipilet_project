@@ -5,8 +5,6 @@ const DisplayImage = ({
   width
 }) => {
 
-  const style = {}
-
   return (
     <div id="wrapper-image">
       <img src={image} width={width}/>

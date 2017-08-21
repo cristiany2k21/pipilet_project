@@ -3,6 +3,9 @@ import { connect } from 'react-redux'
 import { Link } from 'react-router';
 import { changeWebsiteLanguage } from '../../action/website-language';
 import './styles/index.scss';
+import french from '../../images/french_nav.png';
+import english from '../../images/english_nav.png';
+import spanish from '../../images/spanish_nav.png';
 
 const Navbar = ({
   itemsNavbar,
@@ -18,15 +21,15 @@ const Navbar = ({
       <div className="language">
         <ul>
           <li onClick={() => changeLanguage("fr")}><img
-            src="https://cdn.countryflags.com/thumbs/france/flag-3d-round-250.png" height="20" width="20"/></li>
+            src={french} height="22" width="22"/></li>
           <li onClick={() => changeLanguage("eng")}><img
-            src="https://miniworldlyon.com/wp-content/uploads/2016/08/drapeau-anglais-rond.png" height="20" width="20"/>
+            src={english} height="22" width="22"/>
           </li>
           <li onClick={() => changeLanguage("esp")}><img
-            src="https://www.faremoana.ch/images/logos/drapeau-espagnol-detoure-copie.png" height="20" width="20"/></li>
+            src={spanish} height="22" width="22"/></li>
         </ul>
       </div>
-      <div className="navbar">
+      <div className="navigation">
         <ul>
           {
             itemsNavbar.map((item, key) => {

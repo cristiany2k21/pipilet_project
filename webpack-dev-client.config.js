@@ -34,7 +34,8 @@ module.exports = {
           'url-loader',
           'img-loader'
         ]
-      }    ]
+      }
+    ]
   },
   resolve: {
     extensions: ['.scss', '.js', '.jsx', '.jpg', '.png']

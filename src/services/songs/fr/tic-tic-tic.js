@@ -2,6 +2,7 @@ import winterComing from '../../../images/music-image/winter-is-here.jpg';
 
 export default (
   {
+    "id": "fr",
     "title": "Tic, tic, tic, mère de Sleiman",
     "image": winterComing,
     "language": "(Français)",

@@ -1,9 +1,10 @@
-import { CONTACT, HOME, PRESENTATION } from '../../constants/navbar';
-import { SONG, COLORNUMBER } from '../../constants/sidebar';
-import pipiletSong from '../../images/pipilet-song.jpg';
-import pipiletNumberColor from '../../images/pipilet-number-color.jpg';
-import pipiletCooker from '../../images/pipilet-cooker.jpg';
-import pipiletDescription from '../../images/pipilet-description.jpg';
+import information from './information';
+
+import male from '../../images/cook/pipilet_male.jpg';
+import female from '../../images/cook/pipilet_female.jpg';
+
+import colorSpanish from '../color/spanish/';
+import imagePipilet from '../../images/pipilet-description.jpg';
 
 import winterIsHereTranslated from '../songs/spa/winter-is-here';
 import fallFallBallonTranslated from '../songs/spa/fall-fall-ballon';
@@ -11,8 +12,8 @@ import theWashermanTranslated from '../songs/spa/the-washerman';
 import ticTicTicTranslated from '../songs/spa/tic-tic-tic';
 import siMaMaKaTranslated from '../songs/spa/si-ma-ma-ka';
 import theCourtyardOfMyHouseTranslated from '../songs/spa/the-courtyard-of-my-house';
-import giramosalRededorDelMoralTranslated from '../songs/spa/giramos-alrededor-del-moral';
-import llueveTranslated from '../songs/spa/its-rainning';
+import giramosalRededorDelMoralTranslated from '../songs/spa/here-we-go-round-the-mulberry-bush';
+import itsRainningTranslated from '../songs/spa/its-rainning';
 import dosTigresViejosTranslated from '../songs/spa/two-tigers';
 import seHaCasadoRosaTranslated from '../songs/spa/spring-has-come';
 import patACakeTranslated from '../songs/spa/pat-a-cake';
@@ -25,100 +26,193 @@ import ticTicTicOriginal from '../songs/original/tic-tic-tic';
 import siMaMaKaOriginal from '../songs/original/si-ma-ma-ka';
 import theCourtyardOfMyHouseOriginal from '../songs/original/the-courtyard-of-my-house';
 import giramosalRededorDelMoralOriginal from '../songs/original/here-we-go-round-the-mulberry-bush';
-import llueveOriginal from '../songs/original/its-rainning';
+import itsRainningOriginal from '../songs/original/its-rainning';
 import dosTigresViejosOriginal from '../songs/original/two-tigers';
 import seHaCasadoRosaOriginal from '../songs/original/spring-has-come';
 import patACakeOriginal from '../songs/original/pat-a-cake';
 import mondayMorningOriginal from '../songs/original/on-monday-morning';
 
-import french from '../../images/flag/french.png';
-import english from '../../images/flag/english.jpg';
-import india from '../../images/flag/india.jpg';
-import brasil from '../../images/flag/brasil.png';
-import italy from '../../images/flag/italy.png';
-import spanish from '../../images/flag/spanish.png';
-import serbia from '../../images/flag/serbia.png';
-import german from '../../images/flag/german.jpg';
-import china from '../../images/flag/china.jpg';
-import southAfrica from '../../images/flag/south-africa.jpg';
-import tanzania from '../../images/flag/tanzania.jpg';
-import russia from '../../images/flag/russia.jpg';
+import map from '../../images/map.jpg';
+
+import englishRecipe from '../cook/spa/europe/fairy_cakes';
+import frenchRecipe from '../cook/spa/europe/mousseDeChocolate';
+import russiaRecipe from '../cook/spa/europe/manzanasAsadas';
+import germanRecipe from '../cook/spa/europe/galletaDePascua';
+import spanishRecipe from '../cook/spa/europe/macedonia';
+import italyRecipe from '../cook/spa/europe/mouse';
+import serbiaRecipe from '../cook/spa/europe/tarta';
+
+import australiaRecipe from '../cook/spa/oceania/alba';
+import vanuatuRecipe from '../cook/spa/oceania/helado';
+import zelandaRecipe from '../cook/spa/oceania/pavlova';
+
+import keniaRecipe from '../cook/spa/africa/helado';
+import beninRecipe from '../cook/spa/africa/bananas';
+import marocRecipe from '../cook/spa/africa/bizcocho';
+import tunezRecipe from '../cook/spa/africa/ghriyba';
+import egyptRecipe from '../cook/spa/africa/guzeya';
+import madaRecipe from '../cook/spa/africa/malagasy';
+import algeriaRecipe from '../cook/spa/africa/rellenos';
+
+import mexicRecipe from '../cook/spa/america/bizcocho';
+import canadaRecipe from '../cook/spa/america/trempettes';
+import brasilRecipe from '../cook/spa/america/quindim';
+import guyaneRecipe from '../cook/spa/america/mango';
+import chiliRecipe from '../cook/spa/america/cupcakes';
+import haitiRecipe from '../cook/spa/america/banana';
+import argentineRecipe from '../cook/spa/america/alfajores';
+
+import singapurRecipe from '../cook/spa/asia/melocoton';
+import arabieRecipe from '../cook/spa/asia/maskina';
+import indiaRecipe from '../cook/spa/asia/lassi';
+import libanRecipe from '../cook/spa/asia/labneh';
+import chinaRecipe from '../cook/spa/asia/helado';
+import vietnamRecipe from '../cook/spa/asia/che';
+import jordanieRecipe from '../cook/spa/asia/chamia';
 
 export default (
   {
     "lan": "esp",
-    "navbar": [
-      { "title": "Acogida", "url": HOME },
-      { "title": "Presentación", "url": PRESENTATION },
-      { "title": "Contacto", "url": CONTACT }
-    ],
-    "sidebar": [
-      {
-        "title": "¿ TE GUSTARÍA APRENDER 12 IDIOMAS CANTANDO ?",
-        "image": pipiletSong,
-        "alt": "pipilet-song",
-        "url": SONG
-      },
-      {
-        "title": "¿ TE GUSTARÍA APRENDER LOS COLORES Y LOS NÚMEROS EN 12 IDIOMAS ?",
-        "image": pipiletNumberColor,
-        "alt": "pipilet-color-number",
-        "url": COLORNUMBER
-      },
-      {
-        "title": "¿ TE GUSTARÍA APRENDER EN FAMILIA LA RESPOSTERÍA DE LOS CINCO CONTINENTES DEL MUNDO ?",
-        "image": pipiletCooker,
-        "alt": "pipilet-cooker",
-        "url": ""
-      },
-      {
-        "title": "QUIERO SER TU AMIGO. ¿ SABES QUIÊN SOY ?",
-        "image": pipiletDescription,
-        "alt": "pipilet-presentation",
-        "url": ""
-      }
-    ],
+    "navbar": information.getNavbar("Acogida", "Presentación", "Contacto"),
+    "sidebar": information.getSidebar("LOS CANCIONES", "LOS COLORES Y LOS NÚMEROS", "LA REPOSTERÍA", "¿ SABES QUIÊN SOY ?"),
     "songPageContent": {
-      "header": {
-        "title": "APRENDE CANCIONES DEL MUNDO CANTANDO CON"
+      "title": "LOS CANCIONES",
+      "language": {
+        "english": "INGLÉS",
+        "arab": "ARABE",
+        "italy": "ITALIANO",
+        "french": "FRANCÉS",
+        "german": "ALEMÁN",
+        "russia": "RUSO",
+        "china": "CHINO",
+        "spanish": "ESPAÑOL",
+        "india": "HINDI",
+        "africa": "AFRICANO",
+        "portugal": "PORTUGUÉS",
+        "serbia": "SERBIO",
       },
-      "flag": {
-        "selected": false,
-      },
+      "flag": information.getFlagsMusic(),
       "music": [
-        { "translated-song": ticTicTicTranslated, "original-song": ticTicTicOriginal } ,
-        { "translated-song": siMaMaKaTranslated, "original-song": siMaMaKaOriginal } ,
-        { "translated-song": dosTigresViejosTranslated, "original-song": dosTigresViejosOriginal } ,
-        { "translated-song": winterIsHereTranslated, "original-song": winterIsHereOriginal } ,
-        { "translated-song": theWashermanTranslated, "original-song": theWashermanOriginal } ,
-        { "translated-song": fallFallBallonTranslated, "original-song": fallFallBallonOriginal } ,
-        { "translated-song": seHaCasadoRosaTranslated, "original-song": seHaCasadoRosaOriginal } ,
-        { "translated-song": mondayMorningTranslated, "original-song": mondayMorningOriginal} ,
-        { "translated-song": giramosalRededorDelMoralTranslated, "original-song": giramosalRededorDelMoralOriginal } ,
-        { "translated-song": llueveTranslated, "original-song": llueveOriginal },
-        { "translated-song": patACakeTranslated, "original-song": patACakeOriginal } ,
-        { "translated-song": theCourtyardOfMyHouseTranslated, "original-song": theCourtyardOfMyHouseOriginal } ,
+        { "name": "lebanon", "translated-song": ticTicTicTranslated, "original-song": ticTicTicOriginal },
+        { "name": "ghana", "translated-song": siMaMaKaTranslated, "original-song": siMaMaKaOriginal },
+        { "name": "china", "translated-song": dosTigresViejosTranslated, "original-song": dosTigresViejosOriginal },
+        { "name": "german", "translated-song": winterIsHereTranslated, "original-song": winterIsHereOriginal },
+        { "name": "india", "translated-song": theWashermanTranslated, "original-song": theWashermanOriginal },
+        { "name": "brasil", "translated-song": fallFallBallonTranslated, "original-song": fallFallBallonOriginal },
+        { "name": "italy", "translated-song": seHaCasadoRosaTranslated, "original-song": seHaCasadoRosaOriginal },
+        { "name": "french", "translated-song": mondayMorningTranslated, "original-song": mondayMorningOriginal },
+        {
+          "name": "english",
+          "translated-song": giramosalRededorDelMoralTranslated,
+          "original-song": giramosalRededorDelMoralOriginal
+        },
+        { "name": "serbia", "translated-song": itsRainningTranslated, "original-song": itsRainningOriginal },
+        { "name": "russia", "translated-song": patACakeTranslated, "original-song": patACakeOriginal },
+        {
+          "name": "spanish",
+          "translated-song": theCourtyardOfMyHouseTranslated,
+          "original-song": theCourtyardOfMyHouseOriginal
+        },
       ]
     },
     "numberPageContent": {
-      "title": "APRENDE LOS NUMEROS DEL 1 AL 100 EN DIFERENTES LENGUAS DEL MUNDO CON PIPILET MANDALA",
-      "flag": [
-        {"name": "french", "value": french},
-        {"name": "english", "value": english},
-        {"name": "india", "value": india},
-        {"name": "brasil", "value": brasil},
-        {"name": "italy", "value": italy},
-        {"name": "spanish", "value": spanish},
-        {"name": "serbia", "value": serbia},
-        {"name": "german", "value": german},
-        {"name": "china", "value": china},
-        {"name": "southAfrica", "value": southAfrica},
-        {"name": "tanzania", "value": tanzania},
-        {"name": "russia", "value": russia}
-        ]
+      "title": "LOS NUMEROS",
+      "flag": information.getFlags()
     },
-    "TranslatedPageContent": {
-
+    "ColorPageContent": {
+      "title": "LOS COLORES",
+      "flag": information.getFlags()
+    },
+    "colorTranslatedPageContent": {
+      "title": "APRENDIENDO LOS COLORES CON TU AMIGO",
+      "rules": [
+        "En la parte de abajo encontrarás:",
+        "* una sopa de letras con los colores a buscar",
+        "* un mandala para que puedas colorear a tu gusto.",
+        "!Tú eres fuertes seguro que lo harás bien.!",
+      ],
+      "originalLanguage": colorSpanish,
+    },
+    "cookerPageContent": {
+      "title": "LA RESPOSTERÍA",
+      "description": "TU AMIGO HA DECIDIDO RECORRER EL MUNDO Y HA VISITADO LOS CINCO CONTINENTES. RECOPILANDO DELICIOSOS POSTRES DE DIFERENTES PAÍSES DEL MUNDO",
+      "image": map,
+    },
+    "chooseCountryContent": {
+      "america": {
+        "name": "america",
+        "title": "TALLER DE COCINA AMERICANA",
+        "country": [
+          { name: "ARGENTINA", type: female, recipe: argentineRecipe },
+          { name: "BRASIL", type: male, recipe: brasilRecipe },
+          { name: "HAITI", type: female, recipe: haitiRecipe },
+          { name: "CHILE", type: female, recipe: chiliRecipe },
+          { name: "GUAYANAS", type: male, recipe: guyaneRecipe },
+          { name: "MÉJICO", type: female, recipe: mexicRecipe },
+          { name: "USA", type: female, recipe: canadaRecipe },
+          { name: "CANADA", type: male, recipe: canadaRecipe }
+        ],
+      },
+      "oceania": {
+        "name": "oceania",
+        "title": "TALLER DE COCINA DE OCEANÍA",
+        "country": [
+          { name: "AUSTRALIA", type: female, recipe: australiaRecipe },
+          { name: "VANUATU", type: male, recipe: vanuatuRecipe },
+          { name: "NUEVA ZELANDA", type: male, recipe: zelandaRecipe },
+        ]
+      },
+      "europe": {
+        "name": "europe",
+        "title": "TALLER DE COCINA EUROPEA",
+        "country": [
+          { name: "INGLATERRA", type: female, recipe: englishRecipe },
+          { name: "FRANCIA", type: male, recipe: frenchRecipe },
+          { name: "ALEMANIA", type: female, recipe: germanRecipe },
+          { name: "ESPAÑA", type: female, recipe: spanishRecipe },
+          { name: "ITALIA", type: male, recipe: italyRecipe },
+          { name: "RUSIA", type: female, recipe: russiaRecipe },
+          { name: "SERBIA", type: female, recipe: serbiaRecipe },
+        ],
+      },
+      "africa": {
+        "name": "africa",
+        "title": "TALLER DE COCINA AFRICANA",
+        "country": [
+          { name: "BENIN", type: female, recipe: beninRecipe },
+          { name: "KENIA", type: male, recipe: keniaRecipe },
+          { name: "TÚNEZ", type: female, recipe: tunezRecipe },
+          { name: "EGIPTO", type: female, recipe: egyptRecipe },
+          { name: "ARGELIA", type: male, recipe: algeriaRecipe },
+          { name: "MARRUECOS", type: female, recipe: marocRecipe },
+          { name: "MADAGASCAR", type: female, recipe: madaRecipe },
+        ]
+      },
+      "asia": {
+        "name": "asia",
+        "title": "TALLER DE COCINA ASIÁTICA",
+        "country": [
+          { name: "JORDANIA", type: female, recipe: jordanieRecipe },
+          { name: "SINGAPUR", type: male, recipe: singapurRecipe },
+          { name: "VIETNAM", type: female, recipe: vietnamRecipe },
+          { name: "CHINA", type: female, recipe: chinaRecipe },
+          { name: "LÍBANO", type: male, recipe: libanRecipe },
+          { name: "INDIA", type: female, recipe: indiaRecipe },
+          { name: "ARABIA SAUDITA", type: female, recipe: arabieRecipe },
+        ],
+      }
+    },
+    "presentationPageContent": {
+      "image-pipilet": imagePipilet,
+      "text": [
+        "Hola, a todos, niños y niñas:",
+        "Mi nombre es Pipilet Mandala y acabo de llegar a la Tierra. Soy un caracol extraterrestre, que viene desde el planeta Galappar, que es el planeta de la música, del color y del amor.",
+        "Yo no sé hablar, ya que mi forma de comunicación es a través de la música y el color y, en lugar de escritura, me comunico pintando y cantando. ¡Soy un caracol mágico!",
+        "Me gustaría conocerte. ¿Quieres ser mi amigo? Me encanta tener amigos en todos los planetas.         Soy alegre y divertido como tú, y creo que nos vamos a entender bien.",
+        "Deseo ir a la escuela para aprender tu idioma y, también, tu cultura, tu historia. Y quiero poder entenderme con los niños y las niñas de los cinco continentes... y hacer muchos amigos. ¡Y me encanta cocinar!",
+        "Todo el tiempo viajo con mi guitarra y mi caparazón de caracol, que es un mandala, y me sirve de mochila. En ella llevo música, color y mucho amor. Es bonito ¿verdad? Y ahora te voy a contar un secreto. Bueno, mejor... todavía ¡NO! ¡Ven conmigo y lo irás descubriendo!",
+        "¿Quieres divertirte y participar en esta aventura apasionante? Será una experiencia maravillosa. Aprenderemos juntos y sabrás mucho de mi planeta y de mí. ¡Vamos, te espero,  anímate!",
+      ]
     }
   }
 )

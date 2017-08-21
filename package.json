@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "preview": "npm run build:client-dev && npm run build:server && NODE_ENV=development node public/bundle.server.js",
+    "preview": "npm run build:client-dev && npm run build:server && NODE_ENV=development nodemon public/bundle.server.js",
     "start": "node public/bundle.server.js",
     "build:start": "npm run build:client-prod && npm run build:server",
     "build:client-dev": "webpack --config webpack-dev-client.config.js",
@@ -34,6 +34,7 @@
     "react": "^15.5.4",
     "react-css-modules": "^4.5.2",
     "react-dom": "^15.5.4",
+    "react-file-download": "^0.3.4",
     "react-hot-loader": "^3.0.0-beta.7",
     "react-image-smooth-loading": "^1.0.7",
     "react-redux": "^5.0.5",

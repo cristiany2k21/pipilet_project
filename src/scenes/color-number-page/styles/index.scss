@@ -1,26 +1,30 @@
 #wrapper-colornumber {
-  position: relative;
-  overflow: hidden;
 
-  .wrapper-color {
-    opacity: 1;
+  .wrapper-section-ingredient {
+    text-align: center;
+    height: 30vw;
     position: relative;
-    height: 750px;
     width: 100%;
     transition: .5s;
     overflow: hidden;
 
+    .section {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform:  translateY(-50%);
+      width: 100%;
+    }
+
+    .undisplay {
+      transition: .5s;
+      filter: grayscale(100%)
+    }
+
+    &:hover {
+      .undisplay {
+        filter: grayscale(0);
+      }
+    }
   }
-
-  .wrapper-number {
-    opacity: 1;
-    height: 750px;
-    transition: .5s;
-    overflow: hidden;
-
-
-  }
-
-  @import "number/index";
-  @import "color/index";
 }

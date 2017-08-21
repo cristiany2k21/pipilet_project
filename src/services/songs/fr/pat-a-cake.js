@@ -2,6 +2,7 @@ import peintureMains from '../../../images/music-image/pat-a-cake.jpg';
 
 export default (
   {
+    "id": "fr",
     "title": "Frappe des mains",
     "sub-title": "Chanson pour frapper dans les mains",
     "image": peintureMains,

@@ -13,7 +13,7 @@ const store = createStore(reducers);
 render(
   <AppContainer>
     <Provider store={store}>
-      <Router onUpdate={() => window.scrollTo(0, 0)} routes={routes} history={browserHistory}/>
+      <Router onUpdate={() => window.scrollTo(0, 0)} routes={routes} history={browserHistory}  key={Math.random()} />
     </Provider>
   </AppContainer>,
   document.getElementById('app')
@@ -21,11 +21,10 @@ render(
 
 if (module.hot) {
   module.hot.accept('./src/routes', () => {
-    const nextRoute = require('./src/routes');
     render(
       <AppContainer>
         <Provider store={store}>
-          <Router onUpdate={() => window.scrollTo(0, 0)} routes={nextRoute} history={browserHistory}/>
+          <Router onUpdate={() => window.scrollTo(0, 0)} routes={routes} history={browserHistory}  key={Math.random()} />
         </Provider>
       </AppContainer>,
       document.getElementById('app'))

@@ -2,6 +2,7 @@ import winterComing from '../../../images/music-image/winter-is-here.jpg';
 
 export default (
   {
+    "id": "eng",
     "title": "SI MA MA KA",
     "image": winterComing,
     "language": "(English)",

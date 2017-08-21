@@ -1,9 +1,15 @@
-import french from '../../../images/flag/french.png';
+import french from '../../../images/flag/french.jpg';
+import little_draw from '../images/elephant_little_draw_number.png';
+import big_draw from '../images/elephant_big_draw_number.png';
 
 export default (
   {
     "header": "CHIFFRES FRANÇAIS DE 1 À 100",
     "flag": french,
+    "draw": {
+      "little-draw": little_draw,
+      "big-draw": big_draw
+    },
     "numbers": [
       [
         { letter: "1", value: "Un" },

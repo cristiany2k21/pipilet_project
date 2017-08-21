@@ -2,6 +2,7 @@ import springComing from '../../../images/music-image/spring-has-come.jpg';
 
 export default (
   {
+    "id": "fr",
     "title": "Rose s'est mariée",
     "sub-title": "Folk Song (Dialecte sicilien)",
     "image": springComing,

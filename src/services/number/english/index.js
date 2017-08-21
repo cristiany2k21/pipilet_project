@@ -1,9 +1,12 @@
 import english from '../../../images/flag/english.jpg';
+import little_draw from '../images/umbrella_little_draw_number.png';
+import big_draw from '../images/umbrella_big_draw_number.png';
 
 export default (
   {
     "header": "ENGLISH FROM THE 1 TO 100",
     "flag": english,
+    "draw": { "little-draw": little_draw, "big-draw": big_draw },
     "numbers": [
       [
         { letter: "1", value: "One" },

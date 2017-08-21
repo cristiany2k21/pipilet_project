@@ -1,9 +1,10 @@
 import fallFallBallon from '../../../images/music-image/fall-fall-ballon.jpg';
 import fallFallBallonSheet from '../../../images/music-sheet/fall-fall-ballon.png';
-import brasil from '../../../images/flag/brasil.png';
+import brasil from '../../../images/flag/brasil.jpg';
 
 export default (
   {
+    "id": "brasil",
     "title": "Cai, cai balão",
     "sub-title": "Canción infantil",
     "youtubeId": "bpvbBzmQK9E",

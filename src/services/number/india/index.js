@@ -1,9 +1,12 @@
 import india from '../../../images/flag/india.jpg';
+import little_draw from '../images/elephant_little_draw_number.png';
+import big_draw from '../images/elephant_big_draw_number.png';
 
 export default (
   {
     "header": "हहिन्ददी (HINDI) 1 सस100 तक सस",
     "flag": india,
+    "draw": { "little-draw": little_draw, "big-draw": big_draw },
     "numbers": [
       [
         { letter: "1", value: "एक [ek]" },

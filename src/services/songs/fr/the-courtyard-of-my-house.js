@@ -1,7 +1,8 @@
-import laCourDeMaMaison from '../../../images/music-image/the-courtyard-of-my-house.jpg';
+import laCourDeMaMaison from '../../../images/music-image/here-we-go-round-the-mulberry-bush.jpg';
 
 export default (
   {
+    "id": "fr",
     "title": "La cour de ma maison",
     "image": laCourDeMaMaison,
     "language": "(Français)",

@@ -1,8 +1,10 @@
-import laCourDeMaMaison from '../../../images/music-image/the-courtyard-of-my-house.jpg';
+import laCourDeMaMaison from '../../../images/music-image/here-we-go-round-the-mulberry-bush.jpg';
 
 export default (
   {
-    "title": "On tourne autour du buisson de mûres",
+    "id": "fr",
+    "title": "On tourne autour",
+    "second-title": " du buisson de mûres",
     "image": laCourDeMaMaison,
     "language": "(Français)",
     "couplet": [

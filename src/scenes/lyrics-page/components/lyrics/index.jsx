@@ -1,68 +1,20 @@
 import React from 'react';
-import YoutubeVideo from 'react-youtube';
 
+import DisplayLyrics from './component/display-lyrics';
 import "../../styles/index.scss";
-import pipiletSong from "../../../../images/pipilet-song.jpg";
 
 const LyricsSong = ({
   musicTranslated,
-  musicOriginal
+  musicOriginal,
+  sameLyrics
 }) => {
-  return (
-    <div id="wrapper-lyrics-song">
-      <div className="wrapper-original-language">
-        <div className="original-language">
-          <h1>{musicOriginal.title}</h1>
-          <h2>{musicOriginal.language}</h2>
-          {
-            musicOriginal.couplet.map((items, index) => {
-              return (
-                <p key={index}>
-                  {
-                    items.map((item, index) => {
-                      return (
-                        <div key={index}>
-                          {item}
-                        </div>
-                      )
-                    })
-                  }
-                </p>
-              )
-            })
-          }
-          <YoutubeVideo
-            videoId={musicOriginal.youtubeId}
-          />
-        </div>
-      </div>
-      <div className="wrapper-selected-language">
-        <div className="selected-language">
-          <h1>{musicTranslated.title}</h1>
-          <h2>{musicTranslated.language}</h2>
-          {
-            musicTranslated.couplet.map((items, index) => {
-              return (
-                <p key={index}>
-                  {
-                    items.map((item, index) => {
-                      return (
-                        <div key={index}>
-                          {item}
-                        </div>
-                      )
-                    })
-                  }
-                </p>
-              )
-            })
-          }
-        </div>
-        <div className="image-pipilet-song">
-          <img src={pipiletSong} width="250" />
-        </div>
-      </div>
+  const widthWrapper = sameLyrics ? "50%" : "100%";
+  const widthLyrics = !sameLyrics ? "50%" : "100%";
 
+  return (
+    <div style={{ width: widthWrapper }} id="wrapper-lyrics-song">
+      <DisplayLyrics cssExtraClassName="wrapper-original-language" music={musicOriginal} width={widthLyrics} />
+      { !sameLyrics && <DisplayLyrics cssExtraClassName="wrapper-selected-language" music={musicTranslated} width={widthLyrics} /> }
     </div>
   )
 };
