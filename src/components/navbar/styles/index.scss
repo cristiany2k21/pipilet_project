@@ -16,6 +16,11 @@
       margin-left: 10px;
       cursor: pointer;
       text-align: center;
+      transition: .5s;
+
+      &:hover {
+        transform: scale(1.5);
+      }
     }
   }
 

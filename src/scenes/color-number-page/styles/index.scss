@@ -2,17 +2,12 @@
 
   .wrapper-section-ingredient {
     text-align: center;
-    height: 30vw;
-    position: relative;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     transition: .5s;
-    overflow: hidden;
 
     .section {
-      position: absolute;
-      top: 50%;
-      left: 0;
-      transform:  translateY(-50%);
       width: 100%;
     }
 

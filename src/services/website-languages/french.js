@@ -70,6 +70,8 @@ import chinaRecipe from '../cook/fr/asia/helado';
 import vietnamRecipe from '../cook/fr/asia/che';
 import jordanieRecipe from '../cook/fr/asia/chamia';
 
+import { presentation } from '../presentation/french';
+
 export default (
   {
     "lan": "fr",
@@ -106,6 +108,10 @@ export default (
         { "name": "russia", "translated-song": patACakeTranslated, "original-song": patACakeOriginal },
         { "name": "spanish", "translated-song": theCourtyardOfMyHouseTranslated, "original-song": theCourtyardOfMyHouseOriginal },
       ]
+    },
+    "colorNumberContent": {
+      "titleColor":"LES COULEURS",
+      "titleNumber":"LES NOMBRES",
     },
     "numberPageContent": {
       "title": "LES NOMBRES",
@@ -196,15 +202,7 @@ export default (
     },
     "presentationPageContent": {
       "image-pipilet": imagePipilet,
-      "text": [
-        "Bonjour a tous les enfantsl !!!",
-        "Je m’appelle Pipilet Mandala et je viens d’arriver sur Terre il y a peu. Je suis un escargot extraterrestre , je viens de la plantète Galappar,, qui est la planète de la musique, de la couleur et de l’amour.",
-        "Et je ne sais pas parler, puisque mon moyen de communication passe par la musique et la couleur Et à la place de l’écriture, je chante et je peins, je suis un escargot magique!!!",
-        "J’aimerais beaucoup te connaitre et que tu sois mon ami. J’aime avoir des amis sur toutes les planètes : je suis joyeux, sympathique et amusant comme toi et je crois que l’on va bien s’entendre. Je n’en ai aucun doute !",
-        "Je veux aller à l’école pour apprendre ta langue, ta culture, tes coutumes, ton histoire, ta gastronomie, ton folklore ; ton artisanat, etc... Mais aussi, pouvoir comprendre les enfants des cinq continents et me faire beaucoup d’amis . Je suis également très gourmand et j’aime beaucoup cuisiner",
-        "Je voyage tout le temps avec ma guitare et ma carapace d’escargot, qui est un Mandala et qui me sert de sac à dos où j’amène de la musique, de la couleur et beaucoup d’amour . C’est super,  non ? Et bien, je vais te dire un secret. Ou plutôt, NON !.Viens avec moi le découvrir !!",
-        "Tu veux t’amuser et participer à cette aventure passionnante ? ce sera merveilleux ! On apprendra des choses ensemble et tu connaitras beaucoup plus de choses sur ma planète et sur moi !!!",
-      ]
+      "text": presentation
     }
   }
 )

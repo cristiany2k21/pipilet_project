@@ -3,8 +3,6 @@ import { connect } from 'react-redux';
 
 import './style/index.scss';
 
-import Description from './components/description';
-
 const PresentationPage = ({
   presentationPageContent
 }) => {
@@ -13,7 +11,7 @@ const PresentationPage = ({
           <div className="wrapper-image-pipilet">
             <img src={presentationPageContent["image-pipilet"]} />
           </div>
-          <Description text={presentationPageContent.text} />
+          {presentationPageContent.text}
         </div>
     )
 };

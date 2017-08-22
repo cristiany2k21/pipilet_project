@@ -40,6 +40,11 @@
       font-weight: bold;
       font-family: 'Roboto Slab', serif;
       font-weight: lighter;
+      transition: .5s;
+
+      &:hover {
+        transform: scale(1.2);
+      }
     }
 
     .arab {
@@ -105,13 +110,13 @@
 
     .russian {
       top: 80%;
-      left: 64%;
+      left: 4%;
       color: peru;
     }
 
     .portuguese {
       top: 80%;
-      left: 4%;
+      left: 64%;
       color: darkgreen;
     }
 
@@ -137,7 +142,7 @@
 
     .note4 {
       top: 34%;
-      left: 17%;
+      left: 20%;
       height: 40%;
     }
 

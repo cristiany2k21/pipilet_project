@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 68);
+/******/ 	return __webpack_require__(__webpack_require__.s = 99);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -520,7 +520,7 @@ var _siMaMaKa3 = __webpack_require__(310);
 
 var _siMaMaKa4 = _interopRequireDefault(_siMaMaKa3);
 
-var _ghana = __webpack_require__(53);
+var _ghana = __webpack_require__(84);
 
 var _ghana2 = _interopRequireDefault(_ghana);
 
@@ -704,7 +704,7 @@ var _ticTicTic3 = __webpack_require__(312);
 
 var _ticTicTic4 = _interopRequireDefault(_ticTicTic3);
 
-var _lebanon = __webpack_require__(54);
+var _lebanon = __webpack_require__(85);
 
 var _lebanon2 = _interopRequireDefault(_lebanon);
 
@@ -840,9 +840,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _navbar = __webpack_require__(72);
+var _navbar = __webpack_require__(103);
 
-var _sidebar = __webpack_require__(73);
+var _sidebar = __webpack_require__(104);
 
 var _pipiletSong = __webpack_require__(43);
 
@@ -896,11 +896,11 @@ var _china = __webpack_require__(28);
 
 var _china2 = _interopRequireDefault(_china);
 
-var _southAfrica = __webpack_require__(55);
+var _southAfrica = __webpack_require__(86);
 
 var _southAfrica2 = _interopRequireDefault(_southAfrica);
 
-var _tanzania = __webpack_require__(56);
+var _tanzania = __webpack_require__(87);
 
 var _tanzania2 = _interopRequireDefault(_tanzania);
 
@@ -908,11 +908,11 @@ var _russia = __webpack_require__(34);
 
 var _russia2 = _interopRequireDefault(_russia);
 
-var _ghana = __webpack_require__(53);
+var _ghana = __webpack_require__(84);
 
 var _ghana2 = _interopRequireDefault(_ghana);
 
-var _lebanon = __webpack_require__(54);
+var _lebanon = __webpack_require__(85);
 
 var _lebanon2 = _interopRequireDefault(_lebanon);
 
@@ -922,24 +922,24 @@ var _default = {
   getNavbar: function getNavbar(home, presentation, contact) {
     return [{ "title": home, "url": _navbar.HOME }, { "title": presentation, "url": _navbar.PRESENTATION }, { "title": contact, "url": _navbar.CONTACT }];
   },
-  getSidebar: function getSidebar() {
+  getSidebar: function getSidebar(songs, colorsNumbers, recipe, presentation) {
     return [{
-      "title": "LOS CANCIONES",
+      "title": songs,
       "image": _pipiletSong2.default,
       "alt": "pipilet-song",
       "url": _sidebar.SONG
     }, {
-      "title": "LOS COLORES Y LOS NÚMEROS",
+      "title": colorsNumbers,
       "image": _pipiletNumberColor2.default,
       "alt": "pipilet-color-number",
       "url": _sidebar.COLORNUMBER
     }, {
-      "title": "LA REPOSTERÍA",
+      "title": recipe,
       "image": _pipiletCooker2.default,
       "alt": "pipilet-cooker",
       "url": _sidebar.COOKER
     }, {
-      "title": "¿ SABES QUIÊN SOY ?",
+      "title": presentation,
       "image": _pipiletDescription2.default,
       "alt": "pipilet-presentation",
       "url": _sidebar.PRESENTATIONSIDEBAR
@@ -1154,7 +1154,7 @@ var _pipiletNumberColor = __webpack_require__(42);
 
 var _pipiletNumberColor2 = _interopRequireDefault(_pipiletNumberColor);
 
-var _pipiletRainbowLight = __webpack_require__(316);
+var _pipiletRainbowLight = __webpack_require__(317);
 
 var _pipiletRainbowLight2 = _interopRequireDefault(_pipiletRainbowLight);
 
@@ -1348,63 +1348,494 @@ var _temp = function () {
 /* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(4)(undefined);
-// imports
+"use strict";
 
 
-// module
-exports.push([module.i, "#wrapper-header-song{margin:60px 0;display:flex;justify-content:space-around;align-items:center}#wrapper-header-song .wrapper-title-flag .wrapper-title{width:100%}#wrapper-header-song .wrapper-title-flag .title-song{font-size:63px;text-align:center;margin:15px 0}#wrapper-header-song .wrapper-title-flag .flag-song{text-align:center;margin:15px 0;margin:0 auto}#wrapper-lyrics-song{display:inline-block}#wrapper-lyrics-song .wrapper-original-language{vertical-align:top;display:inline-block}#wrapper-lyrics-song .wrapper-selected-language{vertical-align:top;display:inline-block;width:50%}#wrapper-lyrics-song .lyrics-text{display:inline-block;font-size:1.3vw}#wrapper-video-image{display:inline-block;vertical-align:top}#wrapper-video-image span{display:inline-block;width:100%}#wrapper-video-image .wrapper-youtube-video{display:inline-block;vertical-align:middle}#wrapper-video-image .youtube-video{display:inline-block;margin-top:30px;height:21vw;width:100%}#wrapper-video-image .image-pipilet-song{vertical-align:middle;display:inline-block;text-align:center}#wrapper-video-image .image-pipilet-song img{width:13vw}#wrapper-sheet{margin-top:60px;text-align:center}#wrapper-sheet img{width:100%}", ""]);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 
-// exports
+var _pipilet_female = __webpack_require__(2);
 
+var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_female2.default,
+  title: "RECETTE DU BENIN",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "BANANNES DOUCES À LA SAUCE ORANGE",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["4 bananes pas très mures.", "1⁄2 tasse de jus d’orange fraichement pressé.", "1 cuillérée de jus de citron fraichement pressé.", "1⁄2 tasse de sucre roux.", "Glace à la vanille."]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Chauffer le jus d’orange, le jus de citron et le sucre roux dans une casserole pendant 15 minutes. Le jus doit réduire, le mettre ensuite dans un plat.", "Peler les bananes en les coupant par la moitié et les cuisiner dans le plat avec le jus, jusqu’à ce qu’elles soient chaudes.", "Servir immédiatement sur de la glace à la vanille."]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/africa/bananas.js');
+}();
+
+;
 
 /***/ }),
 /* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "2d887239e5a4c3cdd6bcc3829418f7ca.jpg";
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_female = __webpack_require__(2);
+
+var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_female2.default,
+  title: "RECETTE MAROCAINE",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "Biscuit au citron",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["200 g farine.", "150 g sucre.", "100 ml huile.", "4 oeufs.", "zeste d’un citron.", "2 cuillères à soupe de jus de citron."]
+    }, {
+      title: "Pour la décoration:",
+      ingredient: ["Vermicelles au chocolat", "1 yaourt au citron bien crémeux"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Dans un grand saladier, mélanger les oeufs et le sucre jusqu’à complète homogénéité du mélange. Ensuite ajouter l’huile le zeste de citron et les 2 cuillères à soupe de jus de citron. Bien mélanger à nouveau.", "Dans un autre saladier, mélanger la farine et la levure chimique, mélanger ensuite l’ensemble avec la préparation initiale aux oeufs.", "Ceci réalisé, placer la préparation dans un moule fariné et enfourner à 180 degré d’abord avec la chaleur en bas et quand le bas est cuit chaleur en haut pour terminer la cuisson (au total environ une demi heure).", "La cuisson terminée sortir du four et vérifier la cuisson en enfonçant un couteau pointu au centre. La cuisson est terminée si le couteau ressort sec et propre. Il faut alors laisser le gâteau refroidir.", "Une fois à température, démouler et placer le gâteau sur un plat. Il n’y a plus qu’à déguster"]
+    }]
+  }, {
+    title: "Gâteau au flan et chocolat",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["Un paquet et demi de biscuits au beurre (style petits Lu)", "Un peu de lait (pour mouiller les biscuits)", "1 litre de lait (pour le flan)", "2 sachets de flan instantané", "4-5 cuillères à soupe de sucre pour le flan", "200 grammes de chocolate noir", "1 cuillère à soupe de beurre", "20 cl de crème liquide", "Copeaux de noix de coco pour la décoration"]
+    }],
+    sectionPreparation: [{
+      title: "Recette:",
+      preparation: ["Dans un moule carré ou rectangulaire, commencer par faire la base du gâteau: mouiller les biscuits avec le lait et les placer au fond du moule sur 2 couches.", "Préparer le flan comme indiqué sur les sachets de flan instantanés. Globalement placer un peu moins d’un litre de lait dans une casserole et faire chauffer à feu doux avec le sucre. Remuez de temps en temps. Dissoudre la poudre de flan avec le peu de lait réservé. Lorsque le lait commence à bouillir, verser la préparation au flan dissout. Bien remuer jusqu’à ce que l’ensemble recommence à bouillir.", "Laisser refroidir un peu et verser le mélange sur la base du gâteau.", "Préparation du glaçage au chocolat. Faire chauffer la crème liquide et lorsqu’elle commence à bouillir, couper le feu et incorporer le chocolat coupé en copeaux. Remuer. Une fois dissout, ajouter le beurre pour que le glaçage soit brillant.", "Le flan ayant pris dans le moule, verser le glaçage au chocolat sur celui ci et laisser refroidir au réfrigérateur. Sortir 20mn avant de consommer."]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/africa/bizcocho.js');
+}();
+
+;
 
 /***/ }),
 /* 54 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = "data:image/jpeg;base64,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"
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_female = __webpack_require__(2);
+
+var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_female2.default,
+  title: "RECETTE DE TUNISIE",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "GHRIYBA",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["250g d’amandes moulues.", "50g de beurre en pommade.", "100g de sucre glace.", "1 œuf à température ambiante.", "Amandes effilées, entières pour décorer.", "Miel."]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Préchauffer le four à 190°C.", "Mélanger les amandes, le sucre, le beurre et l’œuf jusqu’à obtenir une pate homogène.", "Laisser reposer 30 minutes dans le frigo.", "Faire des boules de la grosseur d’une balle de golf et les disposer en ligne sur une plaque avec dupapier végétal, pour mettre au four.", "Aplatir un peu et mettre la décoration désirée d’amandes.", "Mettre au four pendant 20 minutes (en fonction du four).", "Laisser refroidir sur la plaque.", "Mettre du miel sur les gâteaux avec un pinceau."]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/africa/ghriyba.js');
+}();
+
+;
 
 /***/ }),
 /* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "144ee135de7e419375ae7d2cac0370ed.jpg";
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_female = __webpack_require__(2);
+
+var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_female2.default,
+  title: "RECETTES EGYPTIENNES",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "GUZEYA",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["Verre de noix de coco râpée.", "1 verre de sucre..", "2 blancs d’œufs.", "Essence de vanille", "Beurre en quantité nécessaire.", "Huile en quantité nécessaire."]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Monter les blancs en neige.", "Dans un récipient à part, mélanger la noix de coco, le sucre et la vanille.", "Ajouter les blancs en tournant pour ne pas les casser.", "Graisser le moule avec de l’huile ou du beurre, mettre la pâte sur toute la surface, graisser avec de l’huile et le mettre dans le four à une température moyenne.", "Quand la surface commence à griller, enlever du four et mettre la Guzeya sur une assiette Servir froid"]
+    }]
+  }, {
+    title: "RIZ AU LAIT ET FRUITS SECS",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["2 verres de riz.", "1 verre de sucre", "1 verre de lait", "1 grande cuillérée d’huilee", "Fruits secs écrasés"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Ajouter au riz le lait, le sucre et l’huile dans une casserole à feu constant.", "Rincer le riz 2 ou 3 fois", "Baisser la température jusque cela forme une masse", "Graisser le moule avec de l’huile, mettre les fruits secs dans le moule, mettre la pâte, et la répartir à la main sur toute la surface", "Graisser la surface avec de l’huile, répartir des fruits secs et mettre dans le four jusqu’à ce qu’elle grille", "Servir froid"]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/africa/guzeya.js');
+}();
+
+;
 
 /***/ }),
 /* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "e8c6e3dae90089035d5425e6bcacf7d6.jpg";
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_male = __webpack_require__(3);
+
+var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_male2.default,
+  title: "RECETTE DU KENYA",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "MANGUE GLACÉE",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["2 tasses de mangues.", "1 brique moyenne de crème fraîche.", "Sucre.", "Citron.", "Lait condensé.", "Sel."]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Écraser les mangues en purée.", "Mélanger au batteur la crème fraîche et une demi tasse de sucre, jusqu’à ce que le mélange soit bien épais.", "Ajouter à la purée de mangue 2 cuillerées fine de jus de citron, 1⁄2 tasse de lait condensée et une demie-cuillérée de sel.", "Mélanger la crème et la purée de mangue, et mettre au congélateur."]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/africa/helado.js');
+}();
+
+;
 
 /***/ }),
 /* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "b6dba96536da83c3841fd9b1e4f227dd.png";
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_male = __webpack_require__(3);
+
+var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_male2.default,
+  title: "RECETTE DE MADAGASCAR",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "TORTA MAGALASY DE MADAGASCAR",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["2 tasses de lait.", "1 gousse de vanille.", "4 cuillérées de sucre.", "1 pincée de noix de muscade.", "1 pincée de clou de girofle.", "5 cuillérée de tapioca.", "2 cuillérées de crème patissière.", "4 bananes bien mures.", "30g de beurre.", "4 œufs"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Mélanger dans une casserole, le lait, la vanille, le sucre , la noix de muscade et le clou de girofle, porter juste avant ébullition.", "Retirer du feu, ajouter le tapioca au mélange et remettre le feu doux, laisser cuire 10 minutes et tourner de temps en temps.", "Pendant que le tapioca cuit, préchauffer le four à 180°C.", "Retirer le tapioca du feu, retirer la gousse de vanille et ajouter la crème pâtissière.", "Faire une purée avec les bananes et les ajouter au tapioca.", "Beurrer un moule.", "Incorporer les œufs, un à un au mélange et mélanger avec une spatule.", "Cuire pendant 20 minutes.", "Servir chaud ou tiède dans une assiette à dessert"]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/africa/malagasy.js');
+}();
+
+;
 
 /***/ }),
 /* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "f1c7fecf646ca8c839bcdec5fb9b2b40.png";
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_male = __webpack_require__(3);
+
+var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_male2.default,
+  title: "RECETTES ALGERIENNES",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "Dattes farcies à la pâte d’amande",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["40 Dattes dénoyautées", "150 g d’amande en poudre", "150 g de sucre glace", "1 grande cuillère de margarine à température ambiante", "Quelques gouttes d’eau de fleur d’oranger", "1 blanc d’oeuf", "50 g de sucre semoule", "colorant alimentaire (optionel)"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Dans un récipient, mélanger la poudre d’amande et le sucre glace", "Ajouter la margarine, le blanc d’oeuf et les quelques gouttes d’eau de fleur d’oranger. Mélanger à la main jusqu’à obtention d’une pâte d’amande homogène (beaucoup de personnes ajoutent du colorant alimentaire afin d’obtenir des dattes de toutes les couleurs)", "Prélever un peu de pête d’amande et lui donner une forme de petite quenelle.", "Ouvrir la datte et y introduire la quenelle de pâte d’amande.", "Quand toutes les dattes sont fourrées prendre un couteau pointu et trçaons quelques stries sur la partie visible de la pâte d’amande.", "Une fois ceci fait, saupoudrez de sucre semoule pour décorer."]
+    }]
+  }, {
+    title: "Gâteau de biscuits et chocolat",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["Un paquet de biscuits secs .", "100 g de chocolat noir.", "300 g de beurre.", "150 g de sucre.", "2 oeufs.", "50 g de cacao en poudre"]
+    }],
+    sectionPreparation: [{
+      title: "Recette:",
+      preparation: ["Prendre un moule de service en verre.", "Dans un bol qui passe au micro ondes, faire fondre le beurre et le chocolat juqu’à obtenir un mélange lisse. Ajouter les oeufs, le sucre et le cacao en poudre. Bien mélanger.", "Verser un peu de la préparation au chocolat au fond du moule et recouvrir d’une couche de biscuits. Recommencer jusqu’à utilisation de tous les biscuits et terminer avec du chocolat.", "Placer au réfrigérateur jusqu’à complet refroidissement et servir."]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/africa/rellenos.js');
+}();
+
+;
 
 /***/ }),
 /* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "601b433482479b6fd671b5f9b790ad6b.png";
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_female = __webpack_require__(2);
+
+var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_female2.default,
+  title: "RECETTES D’ARGENTINE",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "Alfajores agentins",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["9 jaunes d’oeuf.", "150 g beurre.", "150 g sucre glace.", "Le zeste d’un citron.", "500 g maïzena.", "1⁄2 sachet de levure chimique."]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Mélanger doucement les 150 g de sucre glace dans les 150 g de beurre ramolli.", "Dans le mélange ainsi constitué, incorporer un à un les 9 jaunes d’oeuf.", "Ajouter l’extrait de vanille et le zeste de citron.", "Tamiser les 500g de Maïzena avec la levure chimique et incorporer le tout avec la préparation au beurre.", "Laisser reposer 1 heure dans le réfrigérateur.", "Une fois la pâte reposée, l’étaler sur une hauteur d’environ 5mm et découper à l’emporte pièce les biscuits", "Disposer tous ces biscuits sur une feuille de cuisson et une plaque de four. Cuire au four de 4 à 5 minutes à une température comprise entre 170o et 180o en surveillant qu’ils ne brûlent pas : la pâte ne doit pas dorer mais les biscuits doivent être cuits à l’intérieur.", "Les sortir du four et laisser refroidir.", "Une fois les biscuits froids, assembler deux biscuits entre une couche de confiture de lait dans lequel on peut ajouter un peu de noix de coco en copeaux."]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/america/alfajores.js');
+}();
+
+;
 
 /***/ }),
 /* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "fa6eaa704f5e0167d0f862cee10f8322.png";
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_female = __webpack_require__(2);
+
+var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_female2.default,
+  title: "RECETTES DE HAITI",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "BANANES AU JUS D’ORANGE",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["4 bananes", "4 oranges", "2 citrons", "125 g de sucre", "un doigt de beurre"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Beurrer le plat qui va aller au four", "Peler les bananes et les couper en rondelles.", "Peler deux oranges et les couper en rondelles.", "Presser les 2 oranges restantes ainsi que les 2 citrons. Réserver le jus.", "Placer au fond du plat une couche de rondelles de bananes puis recouvrir d’une couche de rondelles d’oranges. Saupoudrer le sucre par dessus et verser le jus orange/citron.", "Placer l’ensemble au four à température moyenne. Laisser cuire jusqu’à ce que le dessus brunisse légèrement."]
+    }]
+  }, {
+    title: "BANANES FRITES HAITIENNES",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["3 bananes bien mures", "1 cuillère à soupe de farine", "1/2 cuillère à café de cannelle en poudre", "1/2 cuillère à café d’extrait de vanille", "1 cuillère à soupe de sucre", "1/8 cuillère à café de bicarbonate de soude", "Sucre(optionel)"]
+    }],
+    sectionPreparation: [{
+      title: "Receta para hacer el Mousse:",
+      preparation: ["Mélanger la farine, le sucre, l’extrait de vanille et la cannelle dans un récipient. enduire les rondelles de bananes de cette préparation et frire dans de l’huile très chaude jusqu’à ce obtenir une couleur dorée.", "Placer sur du papier absorbant et servir en ayant saupoudré de sucre."]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/america/banana.js');
+}();
+
+;
 
 /***/ }),
 /* 61 */
@@ -1417,9 +1848,1336 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _pipilet_female = __webpack_require__(2);
+
+var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_female2.default,
+  title: "RECETTES MEXICAINES",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "Gâteau de Nutella",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["1 1⁄2 tasse de farine.", "2 Oeufs", "1 Cuillère à soupe de sucre", "1 1⁄2 tasse de Nutella", "1 Cuillère à soupe d’extrait de vanille", "1 Tasse de lait", "Une pincée de bicarbonate de soude."]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Dans un grand saladier placer les ingrédients secs en premier puis les ingrédients humides.", "Mélanger le tout jusqu’à obtention d’un mélange épais.", "Beurrer le moule et verser le mélange dans celui ci.", "Placer le tout au four à 250° pendant environ 25 minutes. Vérifier la cuisson en piquant le centre avec un couteau pointu. Si celui ci ressort mouillé c’est le gâteau n’est pas cuit, si le couteau ressort sec, il est cuit.", "Ajouter quelques fruits pour la décoration et le tour est joué."]
+    }]
+  }, {
+    title: "Recette de Glace aux Oreo",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["12 biscuit Oreo", "40 cl de crème fraiche liquide", "1 boite de lait concentré"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Briser les biscuits Oréo en petits et gros morceaux et réserver le tout dans un bol.", "Monter la crème en Chantilly dans un grand saladier en aluminium préalablement refroidi au réfrigérateur afin que la crème monte bien.", "Ajouter ensuite le lait concentré et les biscuits brisés. Mélanger doucement l’ensemble. Verser la préparation dans un grand plat de service ou dans les 6 verrines. Laisser refroidir environ 3 heures dans un congélateur ou 6 heures dans un réfrigérateur.", "Une fois le tout bien refroidi, le dessert est prêt ! Nous te conseillons de le consommer rapidement car il va fondre rapidement hors du réfrigérateur!"]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/america/bizcocho.js');
+}();
+
+;
+
+/***/ }),
+/* 62 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_female = __webpack_require__(2);
+
+var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_female2.default,
+  title: "RECETTE CHILIENNE",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "Cupcakes Pour Noël",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["2-1/4 tasse de farine (315g).", "2 oeufs", "1 tasse de lait (240ml).", "1 tasse de sucre (200g).", "1 cuillère à café de vanille.", "1/2 tasse d’huile (120ml).", "2 cuillères à café de levure.", "1/2 boite de fromage frais", "2 tasses de sucre .", "1 cuillère à café de vanille.", "lait (optionel)."]
+    }],
+    sectionPreparation: [{
+      title: "Préparation des Cupcakes:",
+      preparation: ["Comenzamos a preparar la base de esta Receta de Cupcakes para Navidad, encendiendo el horno a fuego mediano y dejando pre-calentar.", "Mientras el horno se calienta colocamos los huevos en un recipiente adecuado y le agregamos el azúcar, batiendo la mezcla hasta que alcance un punto espumoso y su color se aclare.", "Añadimos entonces la vainilla y continuamos batiendo por un minuto mas para incorporar bien todo.", "Agregando de a poco la harina, de forma circular en el recipiente y vamos mezclando suavemente con la ayuda de un batidor.", "Cuando ya la harina este totalmente incorporada reservamos la mezcla.", "Colocamos el papel en los moldes para cupcakes o muffins y añadimos a cada uno un poco de mantequilla para engrasar su superficie.", "Vertemos la base de los cupcakes en cada molde y llevamos al horno pre-calentado.", "Dejamos hornear por alrededor de veinticinco minutos o hasta que al introducir un palito en el centro de los cupcakes, este salga seco y sin restos.", "En ese momento retiramos del horno y dejamos enfriar."]
+    }, {
+      title: "Préparation de la couverture:",
+      preparation: ["Dans un grand bol mettre la moitié de la boîte de fromage frais (type Philadelphia) et placer au four à micro ondes. Faire fondre pendant environ 30 secondes.", "Sortir le bol du micro ondes et ajouter l’extrait de vanille et les 2 tasses de sucre.", "Si on souhaite faire une couverture au chocolat, il faut mélanger 50 grammes de chocolat fondu avec quelques cuillères de cacao maigre en poudre. Bien mélanger le tout jusqu’à obtenir la texture souhaitée. Si le mélange sèche, ajouter un peu de lait, chauffer légèrement quelques secondes au micro ondes et mélanger.", "Quand la couverture est prête, ajouter les colorants de la couleur souhaitée.", "Recouvrir les Cupcakes de Noël de la couverture et décorer comme on le souhaite."]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/america/cupcakes.js');
+}();
+
+;
+
+/***/ }),
+/* 63 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_male = __webpack_require__(3);
+
+var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_male2.default,
+  title: "RECETTES DE LA GUYANE FRANÇAISE",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "MANGO FOOL",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["3-4 mangues bien mures, pelées et coupées", "petits cubes.", "5 cuillères à soupe de sucre.", "Le jus d’un citron et sa peau.", "1 tasse de crème.", "1 cuillère à café d’extrait de vanille.", "1⁄4 cuillère à café de noix de muscade."]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Passer au blender les mangues avec le jus du citron et 2 ou 3 cuillères de sucre.", "Laisser reposer.", "Avec le batteur monter la crème en y incorporant une cuillère de sucre, du zeste de citron et la vanille.", "Une fois la crème montée, verser dans des verres en alternant les couches de purée de mangue et de crème montée. Servir très frais.", "Déguster!"]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/america/mango.js');
+}();
+
+;
+
+/***/ }),
+/* 64 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_male = __webpack_require__(3);
+
+var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_male2.default,
+  title: "RECETTES BRESILIENNES",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "Quindim",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["4 oeufs entiers.", "2 jaunes d’oeuf.", "4 cuillères à soupe de sucre.", "1 boite de lait concentré.", "Noix de coco en copeaux.", "1 boite de lait de coco."]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Battre les 2 jaunes d’oeuf avec les 4 oeufs entiers et les 4 cuillères de sucre.", "Dans le fond du moule, faire du caramel.", "Dans un bol, laisser hydrater la noix de coco en copeaux dans le lait de coco.", "Intégrer le lait concentré à la préparation aux oeufs, .", "Verser le tout dans le moule.", "Faire cuire le tout au bain marie pendant environ 40 mn et c’est prêt!"]
+    }]
+  }, {
+    title: "Mousse de Maracuyá et Fruits de la Passion",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["2 o 3 maracuyá et de fruits de la passion.", "1 boite de lait concentré.", "1 tasse de jus de maracuyá (frais ou congelé).", "1 boite de crème.", "6 oeufs.", "2 feuilles de gélatine.", "1 cuillère à soupe de jus de citron."]
+    }],
+    sectionPreparation: [{
+      title: "Recette:",
+      preparation: ["Faire tremper la gélatine dans de l’eau froide et la dissoudre ensuite dans un peu d’eau chaude", "Dans un grand bol, mélanger le jus de maracuyá, le lait concentré, le jus de citron, la crème), y la gélatine dissoute. Battre jusqu’à complète dissolution.", "Séparer les jaunes et les blancs et battre les blancs jusqu’au point de neige.", "Mélanger délicatement la préparation de maracuyá aux blancs en neige. Faire attention que la mousse ne tombe pas.", "Verser le tout dans un grand plat ou dans des verres individuels et placer le tout au réfrigérateur jusqu’à prise complète.", "Avant de servir, vous pouvez recouvrir la mousse d’un peu de pulpe de maracuyá et un peu de céréales pour le croustillant."]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/america/quindim.js');
+}();
+
+;
+
+/***/ }),
+/* 65 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_male = __webpack_require__(3);
+
+var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_male2.default,
+  title: "RECETTE CANADIENNE",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "Trempettes",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["125 g de farine.", "une pincée de sel", "1 oeuf et un jaune d’oeuf", "300 ml de lait", "15 ml de beurre fondu", "Miel liquide", "beurre."]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Dans un grand saladier, verser la farine et le sel et faire un puit au centre.", "Ajouter dans le puit ainsi fait l'oeuf entier et le jaune d’oeuf.", "Mélanger en tournant doucement et ajouter la moitié du lait.", "A l’aide d’un batteur ou d’un robot, malaxer en ajoutant le beurre fondu jusqu’à obtenir un pâte crémeuse.", "Ajouter le reste de lait et laisser reposer au moins une heure avant de faire les crêpes."]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/america/trempettes.js');
+}();
+
+;
+
+/***/ }),
+/* 66 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_female = __webpack_require__(2);
+
+var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_female2.default,
+  title: "RECETAS DE JORDANIA",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "Chamia",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["Una taza y media de harina de maíz.", "Una taza de azúcar.", "Seis huevos.", "50 gramos de mantequilla.", "Una cucharadita de bicarbonato de sodio.", "Media taza de leche.", "Gotas de esencia de vainilla.", "Almendras para adornar."]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Comienza mezclando la mantequilla con el azúcar en un recipiente hasta que se integren. Por otra parte, haz lo mismo batiendo los huevos con la esencia de vainilla.", "Une ambas preparaciones.", "comienza a incorporar suavemente la harina de maíz, removiendo suavemente hasta que se integre con el resto de la preparación.", "Enmolda la preparación en una fuente previamente aceitada, corta en triángulos con la punta de un cuchillo poner las almendras encima de cada trozo cortado y llevarla a cocinar al horno. Cuando la superficie esté dorada, la Chamia estará lista.", "Sacarla y dejarla enfriar antes de comer."]
+    }]
+  }, {
+    title: "Booza",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["2 vasos de trigo molido muy fino.", "2 vasos de agua.", "2 vasos de azúcar.", "Jenjibre ó canela según te guste y también puedes acompañarla con avellanas tostadas por encima."]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Dejar macerar durante una noche el trigo cubierto con agua.", "Al día siguiente colarlo y cocinarlo con dos vasos de agua hasta que hierva.", "Volver a colarlo y posteriormente mezlar los dos vasos de azúcar con la preparación.", "Colocarlo en un recipiente de vidrio en la heladera y dejarlo que fermente durante tres días.", "Cuando aparezcan burbujas en la superficie ya estrá listo el proceso de fermentación. Retirar y colar. Se sirve el líquido en vasos de vidrio.", "Espolvorear con jenjibre y/o canela, cada comensal a su gusto, y las avellanas tostadas."]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/asia/chamia.js');
+}();
+
+;
+
+/***/ }),
+/* 67 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_female = __webpack_require__(2);
+
+var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_female2.default,
+  title: "RECETAS DE VIETNAM",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "Chè chuối",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["1 c/s de semillas de sésamo.", "3 c/s de tapioca.", "350 ml de agua.", "1 pizca de sal.", "125 ml de leche de coco.", "3 c/s de azúcar.", "1 plátano.", "Mantequilla (un poco)"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["En una sartén se tuestan ligeramente las semillas de sésamo.", "Poner un cazo al fuego con el agua y la llevamos a ebullición. Cuando comience a hervir echamos la tapioca, bajamos el fuego al mínimo, y lo dejamos cocer 20 minutos removiendo de cuando en cuando.", "Añadimos la leche de coco, el azúcar y la sal. Removemos bien y seguimos cociendo por 3 minutos.", "Cortamos el plátano en rodajas. Reservamos algunas para la decoración y el resto las echamos en el cazo removiendo y dejando cocer durante unos minutos hasta que la mezcla espese.", "Lo ponemos en unos cuencos y dejamos templar.", "En una sartén derretimos la mantequilla y freímos ligeramente las rodajas de plátano que hemos reservado.", "Lo servimos decorando con el plátano frito y las semillas de sésamo."]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/asia/che.js');
+}();
+
+;
+
+/***/ }),
+/* 68 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_female = __webpack_require__(2);
+
+var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_female2.default,
+  title: "RECETAS CHINAS",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "Helado Frito.",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["Pan de molde. (2 cortadas por helado)", "1 poco de leche en un bol", "Tarrina helado, del que más te guste (vainilla, chocolate, nata, etc)", "Para el rebozado del helado", "1 vaso 1/2 harina", "1 vaso leche", "1 huevo"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Cortamos los bordes del pan de molde o compramos pan de molde sin corteza.", "Hacemos las bolas de helado. Mojamos los bordes del pan de molde en un poco de leche y colocamos la bola de helado encima del pan.", "Cogemos el otro pan de molde y lo colocamos encima del helado cubriéndolo en forma de rombo (haciendo que se vean 8 picos de pan).", "Lo apretamos bien con las manos hasta que le demos una forma redondita y lo envolvemos en papel de plata y lo metemos en el congelador hasta que se quede igual de duro que una piedra (un día entero).", "Al día siguiente hacemos la masa/rebozado para freír el helado frito y ponemos en un bol el huevo, un vaso y medio de harina y un vaso de leche. Lo batimos bien hasta que se quede sin grumos.", "Calentamos el aceite en un recipiente hondo. Metemos el helado que hemos sacado del congelador en el bol que tenemos la masa y lo embadurnamos bien y lo freímos con cuidado cuando esté el aceite muy caliente. Lo freímos hasta que esté bien dorado.", "Una vez esté bien dorado lo sacamos y lo ponemos en un plato con una servilleta absorbente, para que absorba todo el aceite que le sobra al helado.", "Quitamos la servilleta y ponemos el helado en el plato y le podéis poner por encima lo que queráis.", "Os recomiendo que le pongáis miel ya que sabe mucho mejor y como si te lo hubieran hecho en el restaurante chino.", "También podéis ponerle por encima chocolate, siropes, etc... LO QUE QUERÁIS!! y a disfrutar de vuestro helado frito chino."]
+    }]
+  }, {
+    title: "Flan con cereales de chocolate",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["1litro leche", "200 gr azúcar moreno", "1 sobre flan chino mandarin (o para hacer flanes)", "150gramos cereales tipo arroz inflado", "canela en polvo"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["En un cazo vamos a poner a hervir la leche y el azúcar. Cuando hierva añadimos el sobrecito y removemos con unas varillas para evitar los grumos.", "En cada flanera vamos a poner un puñado de cereales, y verteremos la mezcla de flan, (podemos colarlo por si quedo algún resto).", "Dejaremos enfriar en nevera y en el momento de servir, vamos a ponerles por encima caramelo."]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/asia/helado.js');
+}();
+
+;
+
+/***/ }),
+/* 69 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_male = __webpack_require__(3);
+
+var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_male2.default,
+  title: "RECETAS LIBANESAS",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "Labneh",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["Medio litro de leche", "Una cucharada sopera de yogur"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Calentar la leche hasta unos 45o, o hasta que podamos mantener la punta del dedo dentro de la leche unos 10 segundos, sin quemarnos.", "Diluimos el yogur en un poco de la leche caliente. Lo mezclamos con la leche, que pondremos en una olla, preferentemente, de barro. Removemos con cuchara de madera.", "Tapamos la olla de barro con la tapa o con un plato. Tapamos con un trapo y dejamos reposar 5 o 6 horas. Yo la dejé toda la noche, tapada, en el horno apagado, puesto que tardó en empezar a cuajar.", "Una vez ha tomado consistencia la leche cuajada, ponemos en el frigorífico."]
+    }]
+  }, {
+    title: "Pastel Libanenes de naranja",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["4 huevos.", "450gr. de naranjas enteras.", "200gr. Azúcar.", "1cucharadita de agua de azahar.", "8gr. levadura química", "200gr. almendra molida.", "Azúcar glas para decorar"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Lavar las naranjas y cocerlas cubiertas de agua durante 15 minutos en la olla a presión. Escurrir, dejar enfriar y reservar.", "Triturar las naranjas con la batidora.", "Batir el azúcar junto con los huevos hasta que la mezcla se ponga blanquecina. Añadir el puré de naranja, el azahar y la levadura y seguir batiendo hasta que se integre.", "Añadir la almendra y mezclar de forma manual con una espátula.", "Untar un molde con mantequilla, verter la masa y hornear a 170o durante 60 minutos. Pasado ese tiempo, apagar el horno, abrir la puerta y dejar reposar otros 10 minutos.", "Una vez frío, sacarlo del molde y espolvorear por encima con azúcar glas."]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/asia/labneh.js');
+}();
+
+;
+
+/***/ }),
+/* 70 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_female = __webpack_require__(2);
+
+var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_female2.default,
+  title: "RECETAS INDIAS",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "Lassi de fresa y plátano",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["1 yogur natural sin azúcar", "3 ó 4 fresas", "Medio plátano", "Una medida y media del vaso de yogur con agua", "1 cucharadita de miel", "1 cucharadita de azúcar", "1 golpe de pimienta"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Ponemos todos los ingredientes juntos y a la vez en el vaso de la batidora y trituramos unos minutos hasta que quede bien mezclado y perfectamente molido. probamos de dulzor para rectificar la cantidad de azúcar o de miel si es necesario.", "Dejamos enfriar en la nevera hasta el momento de servir. Servimos bien frío con un poco de menta picada."]
+    }]
+  }, {
+    title: "Panna cotta de thé chaï",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["2 cucharas de café de thé chaï", "60 cl de leche entera", "100 g de leche concentrada azucarada.", "1 hoja de gelatina."]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["1. En una gran cazerola, vertir la leche, y hacerla calentar dulcemente. Adjuntar el té y dejarlo hervir durante 5 minutos. Retirarlo posteriormente del fuego, cubrirlo y dejarlo reposar durante 15 minutos.", "2. Poner la gelatina en agua fría, dejándola ablandar, escúrrela con las manos y ponla dentro del té para derretirla . Mezclalo todo y añade la leche concentrada e introduzcala en la nevera para poder enfríar."]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/asia/lassi.js');
+}();
+
+;
+
+/***/ }),
+/* 71 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_female = __webpack_require__(2);
+
+var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_female2.default,
+  title: "RECETAS DE ARABIA SAUDITA",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "Maskina.",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["2 vasos de harina.", "1 1/2 vaso de azúcar en polvo.", "1 vaso de nata.", "Frutos secos machacados"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Mezclar la harina con el azúcar y la nata.", "Untar el molde con aceite, poner la mezcla igualando la superficie, untarla con aceite y esparcir los frutos secos..", "Meter en horno a temperatura mediana..", "Servir fría."]
+    }]
+  }, {
+    title: "Mohalabeya de kamar el din",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["1/2 kg de zanahoria.", "1/2 kg de zumo de naranja natural.", "2 vasos de agua.", "2 cucharadas grandes de maicena.", "Azúcar"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Cocer la zanahoria, pelarla y batirla en la batidora con el zumo de naranja. Poner a fuego y endulzar con azúcar ( 3 cucharadas grandes ).", "Disolver la maicena en un poco de agua y echarla poco a poco moviendo el zumo hasta conseguir el espesor adecuado. Poner en platos y adornar con frutos secos y coco molido, dejar enfriar. Meter en frigorífico y servir fría."]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/asia/maskina.js');
+}();
+
+;
+
+/***/ }),
+/* 72 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_male = __webpack_require__(3);
+
+var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_male2.default,
+  title: "RECETAS DE SINGAPUR",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "Melocotón con de vainilla",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["Melocotones maduros", "Helado de vainilla", "Avellanas tostadas"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Se pelan los melocotones y se les quita el hueso. Se pasa la carne de los melocotones por la batidora y se reservan en el frigorífico.", "A parte, se pican las avellanas procurando que queden trocitos no muy finos. En una copa se pone un poco de helado de vainilla , una buena parte de puré de melocotón y, finalmente, un puñado de avellanas troceadas y se sirve inmediatamente."]
+    }]
+  }, {
+    title: "Mochi de helado",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["1 vaso de harina de arroz.", "3/4 vaso de agua.", "1/2 vaso de azúcar.", "Helado de cualquier sabor que os guste.", "Harina de arroz para enharinar"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Preparar el helado. Esperar que el helado esté un poco derretido para poder sacarlo y darle forma con facilidad.", "Utilizar un molde de hielo para formar el helado. Congelar el helado de nuevo.", "Ahora vamos a preparar la pasta. Con un batidor manual mezclar bien la harina, el agua y el azúcar en un recipiente.", "Taparlo con un plástico transparente y cocinarlo en el microondas a máxima potencia durante 5 minutos.", "Sacar el recipiente con mucho cuidado. Remover la masa con una cucharada de madera.", "Echarla en una superficie que esté enharinada con mucha cantidad de harina de arroz. Echar más harina de arroz encima de la masa. Enrollar la masa hasta que tenga 2 -3 mm de grosor.", "Utilizar un vaso pequeño de 5 cm de diámetro para dar la forma y cortar la masa.", "Meter la masa en el frigo para que esté frio.", "El paso final, ponemos el relleno en la masa. Enseguida guardarlo de nuevo en el congelador para que se quede firme.", "Sacar los mochis del congelador cuando queráis servirlo y esperad unos minutos para comerlos. Disfrutad!"]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/asia/melocoton.js');
+}();
+
+;
+
+/***/ }),
+/* 73 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_female = __webpack_require__(2);
+
+var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_female2.default,
+  title: "RECETTES ANGLAISES",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "Gâteaux de fée",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["115 g (1⁄2 tasse) de beurre sans sel", "115 g (1⁄2 tasse + 1 cuillère) de sucre semoule", "2 oeufs", "1 petite cuillère d’extrait de vanille", "115 g (7⁄8 tasse) de farine de blé avec levure", "1⁄4 petite cuillère de sell.", "1-2 cuillère à soupe (15-30 ml) de lait"]
+    }, {
+      title: "Pour le glaçage :",
+      ingredient: ["115 g (1 tasse) de sucre glace", "1-2 cuillère à soupe (15-30 ml) d’eau", "Colorants alimentaires de différentes couleurs", "30 g de chocolat au lait", "5 g (1 petite cuillère) de beurre sans sel", "Différentes petites décorations en sucre coloré (petits coeurs, étoiles, fleurs, perles, vermicelles...)"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Préchauffer le four à 180°C et disposer la grille au niveau intermédiaire", "Placer les caissettes à cupcakes dans le moule en silicone et réserver. Tamiser la farine avec le sel et réserver", "Dans le bol du malaxeur, ou dans un grand saladier, mélanger le beurre et le sucre à vitesse moyenne pendant environ 4 à 5 minutes jusqu’à obtenir une texture spongieuse et plus blanchâtre que le beurre. Décoller ce qui reste autour du bol.", "Ajouter les oeufs légèrement battus un à un et mélanger doucement. N’ajouter l’oeuf suivant qu’après complète incorporation du précédent.", "Ajouter l’extrait de vanille et bien mélanger.", "Incorporer la farine en deux fois. Mélanger doucement jusqu’à complète disparition des grumeaux. Incorporer pour finir le lait, une cuillère après l’autre, jusqu’à obtenir la consistance souhaitée (plus ou moins celui d’une glace fondue).", "A l’aide d’une cuillère à glace, remplir les moules et les caissettes à environ les 2⁄3 de leur contenance.", "Placer au four chaud durant 18-20 minutes ou jusqu’à ce que la pâte ait levé et soit dorée. Vérifier que les cupcakes sont cuits en les piquants avec un couteau pointu qui doit ressortir sec. Une fois cuits, les sortir du four et les laisser refroidir 5 minutes. Ensuite les démouler et laisser refroidir complètement sur une grille avant de passer à l’étape de glaçage."]
+    }, {
+      title: "Le glaçage:",
+      preparation: ["D’un côté, placer le sucre glace dans un bol et ajouter une cuillère d’eau et un peu de colorant. Mélanger énergiquement jusqu’à obtenir une pâte homogène.", "Ajouter au besoin un peu d’eau ou de colorant pour obtenir la consistance ou la couleur désirée. D’un autre côté, faire fondre le chocolat avec un peu de lait et ajouter le beurre.", "Étaler le glaçage de sucre ou de chocolat sur les cupcakes et décorer. Ajouter les autres décorations.", "Laisser sécher jusqu’à complète solidification et déguster!", "Se conserve 3 ou 4 jours à température ambiante dans un récipient fermé."]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/europe/fairy_cakes.js');
+}();
+
+;
+
+/***/ }),
+/* 74 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_female = __webpack_require__(2);
+
+var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_female2.default,
+  title: "RECETTES ALLEMANDES",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "Recette de biscuits de Pâques : Osterkekse.",
+    sectionIngredient: [{
+      title: "Ingrédients pour la pâte",
+      ingredient: ["500g de farine.", "250g de beurre.", "200g de sucre.", "2 œufs.", "1 paquet de sucre vanillé.", "Une pointe de cannelle (la pointe d’un"]
+    }, {
+      title: "Ingrédients pour le glaçage",
+      ingredient: ["1 blanc d’œuf.", "1 pincée de sel.", "200g de sucre glace.", "Du colorant alimentaire."]
+    }],
+    sectionPreparation: [{
+      title: "Préparation de la pâte pour les biscuits:",
+      preparation: [" Mettre la farine dans un bol.", " Ajouter à la farine des morceaux de beurre, le sucre, les œufs, le sucre vanillé et la cannelle. Travailler le tout avec les mains jusqu’à obtenir une pate compacte.", " Enrouler la pâte en forme de boule dans un film transparent et laisser reposer dans le frigo entre 30 et 60 minutes.", " Préchauffer le four à 180°C.", " Une fois la pâte froide, enlever le film et à l’aide d’un rouleau ; travailler la pâte jusqu’à obtenir une pâte de 5 millimètres d’épaisseur. Plus fine, les biscuits se casseraient.", " Presser la pâte avec le moule de biscuit choisi et disposer les biscuits sur une plaque de four sur du papier sulfurisé.", " Mettre la plaque dans la partie moyenne du four et enfourner les biscuits pendant 10 minutes, en contrôlant qu’ils ne soient pas trop cuits.", " Une fois cuits, sortir la plaque du four et déposer les biscuits sur une surface plane. Nous recommandons de le faire en tirant le papier sulfurisé. Les laisser refroidir au-dessus du papier avant de procéder à la décoration avec le glaçage."]
+    }, {
+      title: "Elaboration du glaçage",
+      preparation: ["Monter les blancs en neige avec une pointe de sel. On peut utiliser 2 blancs d’œufs si on veut obtenir une plus grande quantité de glaçage.", "Ajouter le sucre glace aux blancs d’œuf et monter jusqu’à obtenir une crème compacte. Si le glaçage est trop liquide, mettre plus de sucre glace.", "La couleur du glaçage obtenu sera blanche. On peut colorer le glaçage avec les couleurs de notre choix, grâce aux colorants alimentaires. Déposer un peu de glaçage dans de petits bols et mélanger avec la couleur de son choix dans chaque bol.", "Remplir du glaçage une seringue de pâtissier pour décorer les biscuits. Sinon, on peut prendre un sac de congélation et le remplir du glaçage, et couper une des pointes du sac. Ou sinon avec une cuillère/couteau manuellement, en fonction de la décoration choisie.", "Décorer les biscuits selon ton goût et ton imagination."]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/europe/galletaDePascua.js');
+}();
+
+;
+
+/***/ }),
+/* 75 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_female = __webpack_require__(2);
+
+var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_female2.default,
+  title: "RECETTES ESPAGNOLES",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "Salade de fruits tropicaux",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["100g de fraises.", "3 oranges.", "2 bananes.", "Raisin vert ou rouge.", "3 tranches d’ananas frais.", "200g de pulpe de melon.", "1 citron.", "Feuilles de menthe.", "Sucre."]
+    }],
+    sectionPreparation: [{
+      title: "Préparation de salade de fruits tropicaux glacée:",
+      preparation: ["Bien laver tous les fruits. Peler 2 oranges et les couper en petits morceaux. Les disposer dans un bol.", "Eplucher les bananes et les couper en rondelles. Les mélanger avec l’orange .", "Enlever les feuilles aux fraises et les couper en deux. Les incorporer dans le bol avec les autres fruits.", "Eplucher l’ananas et couper deux rondelles. Les mettre dans le bol.", "Couper des morceaux de melon et les mettre dans le bol.", "Ajouter les raisins dans le bol.", "Sucrer selon ses gouts.", "Enfin, mettre le jus de citron et le jus d’une orange.", "Mélanger le tout et mettre la salade de fruits au frais avant de la servir."]
+    }]
+  }, {
+    title: "FLAN AUX ŒUFS",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["1⁄2 litre de lait entier.", "4 gros œufs.", "2 jaunes d’œuf.", "1 gousse de vanille ou un morceau de cannelle en branche.", "150g de sucre (pour le flan).", "1 petite cuillère de jus de citron.", "150g de sucre (pour le caramel).", "4 cuillères à soupe d’eau.", "6 moules à flan."]
+    }],
+    sectionPreparation: [{
+      title: "Recette pour faire le flan aux œufs (pour 6 flans):",
+      preparation: ["Pour préparer le caramel, mettre 150 g de sucre dans une casserole. Ajouter une petite cuillère de jus de citron et 4 grosses cuillères d’eau. Pose la casserole à feu moyen et laisse le sucre bouillir. Faire bien attention à ne pas toucher le caramel,  car ça brule beaucoup.", "Quand le caramel a une belle couleur dorée, l’enlever du feu. Verser une cuillère de caramel dans chacun des 6 moules à flan. Et secouer les un peu pour que le caramel se répande bien.", "Maintenant verser dans une casserole propre 1⁄2 litre de lait entier et faire chauffer à feu moyen.", "Ouvrir une gousse de vanille par le milieu en largeur. Enlever les graines de la vanille et verser le tout dans le lait. Laisser cuire jusqu’il soit à point de bouillir et retirer la casserole du feu et laisser reposer 30 minutes.", "Casser 4 gros œufs dans un saladier. Ajouter deux jaunes d’œuf et 150 g de sucre. Remuer légèrement afin que tout se mélange.", "Une fois que le lait a reposé 30 minutes, retirer la gousse de vanille. Allumer le four et le mettre à 160°C, chaleur en haut et en bas.", "Incorporer le lait au saladier avec les œufs et le sucre tout en remuant légèrement. Déverser le mélange dans les 6 moules.", "Mettre les moules dans un plat pour four et remplir le plat d’eau jusqu’à atteindre la moitié de la hauteur des moules. Mettre au four et cuire au bain marie pendant 40 minutes à 160°c,", "Quand les flans sont cuits, les sortir du four. Avec un gant de cuisine, retirer les moules de l’eau et attendre qu’ils refroidissent.", "Recouvrir les flans de papier film et les mettre au frigo pendant au moins 4 heures."]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/europe/macedonia.js');
+}();
+
+;
+
+/***/ }),
+/* 76 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_female = __webpack_require__(2);
+
+var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_female2.default,
+  title: "RECETTES RUSSES",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "“Pommes remplies au four \"Assorti\".",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["Confiture d’abricots- 2 cuillérées", "Des pignons – une cuillérée", "Gingembre en poudre- une pincée", "Sirop de fraises – 2 cuillérées", "Semoule – une cuillérée", "Vanille- une pincée", "Miel- une cuillérée", "Noix- 3 unités", "Eau – 3 cuillérées", "Pommes vertes – 3 unités", "Cannelle- une pincée"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation de la salade de fruits tropicaux glacée:",
+      preparation: ["Laver les pommes et les évider avec un couteau spécial ou habituel. Il se formera alors un trou où l’on pourra verser de la confiture d’abricots.", "Verser dans un moule de l’eau (optionnel). Mettre les pommes dans le moule. Dans la première pomme, mettre de la confiture d’abricot, puis ajouter des pignons et une pincée de gingembre, selon vos gouts.", "Remplir la deuxième pomme avec le sirop de fraises, mélangé avec de la semoule et saupoudrer de vanille.", "Dans la troisième pommes, mettre les noix, remplir avec du miel et saupoudrer de cannelle. Mettre au four préchauffé jusqu’à 200°C pendant 20-30 minutes. Servir chaudes ou froides."]
+    }]
+  }, {
+    title: "Gâteau aux carottes",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["Œufs – 4 unités", "Sucre – 2 tasses", "Beurre", "Huile de tournesol -1,5 tasse", "Farine- 2 tasses", "Carottes rapées : 3 tasses", "Noix 120g", "Cannelle moulue – 2 cuillérées", "Soude – 2 cuillérées", "Sel- une cuillérée"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Mélanger les œufs, le sucre et le beurre. Mélanger à part les ingrédients secs, mélanger le tout et ajouter les carottes et les noix. Mettre la pâte dans un moule et enfourner à 160°C .", "Le gâteau peut se couper en deux tartes. Mettre la crème mascarpone ou une crème fouettée 35%  MG au milieu."]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/europe/manzanasAsadas.js');
+}();
+
+;
+
+/***/ }),
+/* 77 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_male = __webpack_require__(3);
+
+var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_male2.default,
+  title: "RECETTES ITALIENNNES",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "Mousse au chocolat",
+    sectionIngredient: [{
+      title: "Ingrédients pour 4 personnes",
+      ingredient: ["100g de cacao doux.", "40 g de sucre.", "400ml de crème fouettée pour dessert.", "Un peu de vanille."]
+    }],
+    sectionPreparation: [{
+      title: "Préparation de la mousse au chocolat:",
+      preparation: ["Verser le cacao dans une petite casserole, en le faisant chauffer avec un tout petit peu d’eau (10ml) pour qu’il se dissolve. Dans une autre casserole, répéter l’opération avec le sucre. Ensuite, ajouter le cacao dissout avec le sucre et laisser le tout refroidir.", "Mélanger la crème fouettée et la vanille, déverser dans une coupe en verre et ajouter des morceaux de chocolat ou de fruits confits, selon les gouts. Mettre au frigo avant de servir."]
+    }]
+  }, {
+    title: "Saucisson au chocolat",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["100g de beurre (ou margarine).", "200g de chocolat noir 70%.", "2 jaunes d’œuf*", "8 biscuits (80g) au beurre.", "7 biscuits à la cuillère (40g).", "Un mélange de 40g d’amandes pelées, noisettes et de pignons.", "1-2 cuillères de sucre en poudre pour recouvrir."]
+    }],
+    sectionPreparation: [{
+      title: "Recette pour faire le saucisson au chocolat:",
+      preparation: ["Casser le chocolat et le mettre dans une grosse tasse ou récipient résistant à la chaleur. Ajouter le beurre coupé en morceaux et mettre le récipient dans un pot d’eau bouillante (la partie inférieure du récipient ne doit pas toucher l’eau). Faire cuire au bain marie à feu doux, en remuant de temps en temps avec une cuillère en bois.", "Une fois que le mélange cuit et forme un ensemble crémeux et doux, retirer du bain marie et laisser refroidir. Ensuite, ajouter les jaunes d’œuf. Mélanger de manière uniforme et mettre de côté pendant que l’on prépare les biscuits.", "Couper les biscuits en morceaux irréguliers (pour simuler le gras du saucisson) et incorporer au mélange de chocolat (en incluant des miettes) les fruits secs entiers. Remuer jusqu’à obtenir une pate qui puisse se malaxer facilement avec les mains.", "Préparer un grand rectangle de papier aluminium et du papier film. Etendre le papier film d’une longueur de 35 cm et enrouler le mélange et doubler les extrémités pour lui donner une forme de saucisson. Doubler les extrémités du plastique en tournant.", "Enrouler le saucisson en chocolat avec du papier aluminium et le mettre au frais plusieurs heures (minimum 3 heures) ou une nuit pour qu’il durcisse. Pour les plus impatients, le mettre au congélateur pendant une demi-heure.", "Le lendemain, ou quand le saucisson est dur, le faire rouler sur le plan de travail pour lui donner forme et retirer le papier aluminium et le plastique.", "Verser du sucre en poudre sur le plan de travail et faire rouler le saucisson dedans pour bien qu’il s’imprègne. Avec un pinceau, enlever l’excès de sucre avant de le couper en tranches pas très fines et servir de préférence sur une planche de bois pour faire illusion."]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/europe/mouse.js');
+}();
+
+;
+
+/***/ }),
+/* 78 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_male = __webpack_require__(3);
+
+var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_male2.default,
+  title: "RECETTES FRANÇAISES",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "Mousse au chocolat à l’avocat",
+    sectionIngredient: [{
+      title: "Ingrédients pour 2 personnes",
+      ingredient: ["110g de chocolat à pâtisseries, en morceaux", "4 cuillères de lait de coco épaix", "1 avocat mûr", "1⁄2 cuillère d’extrait de vanille", "1 pincée de sel", "3 cuillères à soupe de miel", "1 petite cuillère de zeste d’orange", "1⁄2 cuillère de poivre rouge mouliné"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["fondre le chocolat au bain-marie avec le lait de coco. Mélanger.", "Laisser refroidir et mélanger avec le reste des ingrédients jusqu’à obtenir un mélange homogène."]
+    }]
+  }, {
+    title: "Tarta Tatin",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["200g de farine de blé", "125g de sucre fin", "1 pincée de sel", "1 jaune d’œuf", "25mL d’eau", "60g de beurre", "80g de sucre fin", "1 cuillère à soupe de sucre fin", "1kg de pommes pelées et coupées en tranches", "80g de beurre ramolli et coupé et morceaux"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["tamiser la farine et ajouter 125g de sucre et le sel. Former un puit au centre et remplir du beurre coupé en morceaux. Mélanger jusqu’à obtenir une consistance sablonneuse. Ajouter le jaune d’œuf et l’eau, et pétrir jusqu’à former une boule. Envelopper la pâte dans du film plastique et laisser reposer 1 à 2h au réfrigérateur.", "Faire fondre le beurre un moule de 23cm de diamètre sur un feu moyen. Quand le beurre est fondu, ajouter 80g de sucre et bien mélanger", "Placer les pommes le plus serrées possible dans le moule. Saupoudrer de la cuillère de sucre restant et les laisser caraméliser à feu moyen pendant 12min environ.", "Quand les pommes sont caramélisées, retirer du feu. Laisser le moins possible d’espace entre les pommes.", "Préchauffer le four à 200 degrés", "Sortir la pâte du frigo, l’étaler sur une surface enfarinée. Créer un cercle d’environ 5mm d’épaisseur et d’un diamètre de 3cm de plus que le moule.", "Placer la pâte sur les pommes en bordant les côtés à l’intérieur du moule.", "Enfourner pendant 30min", "Retirer du four et laisser refroidir 10min. Retourner la tarte Tatin sur un plat. Déguster cette tarte seule ou avec un peu de crème fraiche ou une boule de glace à la vanille."]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/europe/mousseDeChocolate.js');
+}();
+
+;
+
+/***/ }),
+/* 79 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_female = __webpack_require__(2);
+
+var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_female2.default,
+  title: "RECETTES SERBES",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "Tarte de Belgrade",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["13 jaunes d’œuf", "10 blancs montés en neige", "275g de sucre", "135g de fruits confits", "1 tablette de chocolat", "2 cuillérées de farine"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Mélanger les jaunes d’œuf avec le sucre jusqu’à obtenir une crème mousseuse.", "Ajouter les amandes, les fruits confits et la farine.", "Fondre le chocolat dans un peu de lait et incorporer le mélange fait précédemment.", "Battre les blancs en neige et mélanger le tout avec attention, jusqu’à obtenir un mélange homogène.", "Verser le résultat dans un moule graissé au préalable avec du beurre, mettre le tout au four et faire reposer pendant 3⁄4 heure.", "Enfin, retirer le gâteau, laisser refroidir et servir."]
+    }]
+  }, {
+    title: "DOUCEUR DE COING DE JAGODINA",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["1 Kg de coing", "1 kg de sucre"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Laver les coings et les cuire dans beaucoup d’eau jusqu’à ce qu’ils ramollissent et que la peau commence à plisser.", "Les égoutter, les éplucher et les couper en morceaux. Les passer au batteur ou presse-purée. Peser la pulpe obtenue et la mélanger avec le même poids de sucre.", "Cuire à feu doux pendant 25 minutes, en remuant le mélange sans arrêt pour éviter qu’il accroche. Afin de voir si la cuisson est idéale, verser une petite portion sur une assiette et voir s’il se solidifie immédiatement.", "Retirer du feu, verser dans un grand moule ou en plusieurs petits et mettre au frigo."]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/europe/tarta.js');
+}();
+
+;
+
+/***/ }),
+/* 80 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_female = __webpack_require__(2);
+
+var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_female2.default,
+  title: "RECETTES AUSTRALIENNES",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "ALBA",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["Sucre", "2 citrons", "Glace au choix"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Mélanger les citrons avec le sucre et prendre son parfum de glace préféré, incorporer et mettre une heure au congélateur."]
+    }]
+  }, {
+    title: "Paletas de Mango",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["3 mangues mures.", "sucre.", "eau.", "1 coupelle pour boules de glace."]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Peler les mangues.", "Couper jusqu’à obtenir la pulpe.", "Mélanger avec le sucre et l’eau.", "Vider le jus dans des petites coupelles à glace et mettre au congélateur"]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/oceania/alba.js');
+}();
+
+;
+
+/***/ }),
+/* 81 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_male = __webpack_require__(3);
+
+var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_male2.default,
+  title: "RECETTE DE VANUATU",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "GLACE A LA MANGUE",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["1 tasse de pulpe de mangue.", "1 tasse de sucre.", "1 tasse de lait.", "1 capsule de lait condensé.", "4 oeufs", "1 cuillère de jus de citron.", "Una pincée de sel."]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Chauffer le lait et éteindre à ébullition.", "Battre les œufs avec le sucre, ajouter le lait chaud peu à peu sans arrêter de battre. Ensuite, ajouter le lait condensé et la pulpe de mangue, le jus de citron et une pincée de sel. Bien mélanger.", "Laisser refroidir, et mettre au congélateur pendant 12 heures.", "Le lendemain, retirer du congélateur et mettre le contenu 30 minutes dans la machine à glace.", "Pour obtenir une texture pour dense de la glace, la laisser ensuite reposer 30 minutes de nouveau au congélateur"]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/oceania/helado.js');
+}();
+
+;
+
+/***/ }),
+/* 82 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pipilet_male = __webpack_require__(3);
+
+var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
+
+var _pipiletCooker = __webpack_require__(0);
+
+var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  flag: _pipilet_male2.default,
+  title: "RECETTES NEO-ZELANDAISES.",
+  imagePipilet: _pipiletCooker2.default,
+  recipe: [{
+    title: "PAVLOVA",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["3 blancs d’oeuf.", "Le double du poids des blancs en sucre", "Quelques gouttes de citron.", "1 petite cuillère de vinaigre", "1 cuillérée de Maizena", "350 ml de crème liquide pour monter les blancs.", "Fraises ou fruits de votre choix"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Monter les blancs en neige avec le sucre. Ajouter ensuite les gouttes de citron, le vinaigre, la maizena, et le sucre versé en pluie. Mélanger le tout jusqu’à obtenir une consistance épaisse et Monter avec le batteur en faisant des pics.", "Dans un papier à four spécial, dessiner des cercles de la taille que vous souhaitez pour les meringues. Prendre une grille pour four et mettre le papier.", "Ensuite, mettre la meringue dans les cercles en les dessinant bien ronds et faisant une espèce de nid, plus de quantité pour les bords et un peu moins au centre. La hauteur est à définir selon vos envies. En moyenne, 3 doigts de hauteur.", "Les mettre dans le four à 140 degrés sans air ou 120 si votre four n’a que l’option air. Pendant 2 heures approximativement.", "Les retirer et les laisser refroidir un moment pour les remplir par la suite.", "Pour les remplir à l’intérieur, donner des petits et doux coups avec une cuillère pour obtenir un trou et les remplir de crème montée.", "Les mettre dans un plat à dessert et les décorer au-dessus avec un peu de crème et de fruits: mangue, framboises, cerises, fraises (selon vos gouts"]
+    }]
+  }, {
+    title: "HOT CROSS BUN",
+    sectionIngredient: [{
+      title: "Ingrédients:",
+      ingredient: ["375 gr de grosse farine.", "4 gr. De levure sèche (12 gr. fraiche).", "1/2 petite cuillère de cannelle.", "1/4 petite cuillère de gingembre.", "1/4 petite cuillère de noix de muscade.", "1/4 petite cuillère de cardamone.", "1/2 petite cuillère de sel.", "1 oeuf.", "175 ml. de lait entier.", "50 gr. de sucre.", "35 gr. de beurre.", "raisins secs (ou morceau de chocolat).", "oeuf battu pour peindre"]
+    }],
+    sectionPreparation: [{
+      title: "Préparation:",
+      preparation: ["Mélanger tous les ingrédients secs dans un bol, les épices, la farine, le sucre, le sel ...", "Dissoudre la levure avec le lait entier et ajouter au mélange précédent avec l’oeuf battu. Bien mélanger et pétrir.", "Ajouter à la pâte le beurre à température ambiante et recommencer à pétrir jusqu’à ce qu’il s’intègre bien. Une fois la pâte homogène et lisse, ajouter les raisins secs ou les morceaux de chocolat. Réserver dans un bol enfariné et recouvrir ; laisser reposer pendant une heure jusqu’à ce qu’elle double de volume.", "Diviser la pâte en petites portions (50- 60 gr.), lui donner la forme de brioche, et réserver sur la plaque du four en ligne et recouvrir pendant 45 minutes.", "Une fois qu’ils ont doublé de volume, les peindre avec l’oeuf battu et faire la pâte pour la croix: pour cela, mélanger la farine avec le sucre glace et ajouter de l’eau jusqu’à obtenir un mélange épais. Une fois obtenu, le mettre une poche pâtissière et dessiner des croix sur les petits pain..", "Mettre au four pendant 15- 20 minutes à 180oC, jusqu’à ce qu’ils soient dorés. Laisser refroidir. C’est pret"]
+    }]
+  }]
+};
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/oceania/pavlova.js');
+}();
+
+;
+
+/***/ }),
+/* 83 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(4)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "#wrapper-header-song{margin:60px 0;display:flex;justify-content:space-around;align-items:center}#wrapper-header-song .wrapper-title-flag .wrapper-title{width:100%}#wrapper-header-song .wrapper-title-flag .title-song{font-size:63px;text-align:center;margin:15px 0}#wrapper-header-song .wrapper-title-flag .flag-song{text-align:center;margin:15px 0;margin:0 auto}#wrapper-lyrics-song{display:inline-block}#wrapper-lyrics-song .wrapper-original-language{vertical-align:top;display:inline-block}#wrapper-lyrics-song .wrapper-selected-language{vertical-align:top;display:inline-block;width:50%}#wrapper-lyrics-song .lyrics-text{display:inline-block;font-size:1.3vw}#wrapper-video-image{display:inline-block;vertical-align:top}#wrapper-video-image span{display:inline-block;width:100%}#wrapper-video-image .wrapper-youtube-video{display:inline-block;vertical-align:middle}#wrapper-video-image .youtube-video{display:inline-block;margin-top:30px;height:21vw;width:100%}#wrapper-video-image .image-pipilet-song{vertical-align:middle;display:inline-block;text-align:center}#wrapper-video-image .image-pipilet-song img{width:13vw}#wrapper-sheet{margin-top:60px;text-align:center}#wrapper-sheet img{width:100%}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 84 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "2d887239e5a4c3cdd6bcc3829418f7ca.jpg";
+
+/***/ }),
+/* 85 */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/jpeg;base64,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"
+
+/***/ }),
+/* 86 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "144ee135de7e419375ae7d2cac0370ed.jpg";
+
+/***/ }),
+/* 87 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "e8c6e3dae90089035d5425e6bcacf7d6.jpg";
+
+/***/ }),
+/* 88 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "b6dba96536da83c3841fd9b1e4f227dd.png";
+
+/***/ }),
+/* 89 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "f1c7fecf646ca8c839bcdec5fb9b2b40.png";
+
+/***/ }),
+/* 90 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "601b433482479b6fd671b5f9b790ad6b.png";
+
+/***/ }),
+/* 91 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fa6eaa704f5e0167d0f862cee10f8322.png";
+
+/***/ }),
+/* 92 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
 var _redux = __webpack_require__(44);
 
-var _chooseLanguage = __webpack_require__(74);
+var _chooseLanguage = __webpack_require__(105);
 
 var _chooseLanguage2 = _interopRequireDefault(_chooseLanguage);
 
@@ -1443,7 +3201,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 62 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1459,55 +3217,55 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouter = __webpack_require__(7);
 
-var _appContainer = __webpack_require__(75);
+var _appContainer = __webpack_require__(106);
 
 var _appContainer2 = _interopRequireDefault(_appContainer);
 
-var _homePage = __webpack_require__(93);
+var _homePage = __webpack_require__(124);
 
 var _homePage2 = _interopRequireDefault(_homePage);
 
-var _songPage = __webpack_require__(106);
+var _songPage = __webpack_require__(137);
 
 var _songPage2 = _interopRequireDefault(_songPage);
 
-var _lyricsPage = __webpack_require__(99);
+var _lyricsPage = __webpack_require__(130);
 
 var _lyricsPage2 = _interopRequireDefault(_lyricsPage);
 
-var _colorNumberPage = __webpack_require__(79);
+var _colorNumberPage = __webpack_require__(110);
 
 var _colorNumberPage2 = _interopRequireDefault(_colorNumberPage);
 
-var _numberPage = __webpack_require__(101);
+var _numberPage = __webpack_require__(132);
 
 var _numberPage2 = _interopRequireDefault(_numberPage);
 
-var _translatedNumberPage = __webpack_require__(125);
+var _translatedNumberPage = __webpack_require__(156);
 
 var _translatedNumberPage2 = _interopRequireDefault(_translatedNumberPage);
 
-var _colorPage = __webpack_require__(81);
+var _colorPage = __webpack_require__(112);
 
 var _colorPage2 = _interopRequireDefault(_colorPage);
 
-var _translatedColorPage = __webpack_require__(116);
+var _translatedColorPage = __webpack_require__(147);
 
 var _translatedColorPage2 = _interopRequireDefault(_translatedColorPage);
 
-var _cookPage = __webpack_require__(85);
+var _cookPage = __webpack_require__(116);
 
 var _cookPage2 = _interopRequireDefault(_cookPage);
 
-var _chooseCountryCook = __webpack_require__(77);
+var _chooseCountryCook = __webpack_require__(108);
 
 var _chooseCountryCook2 = _interopRequireDefault(_chooseCountryCook);
 
-var _displayRecipe = __webpack_require__(90);
+var _displayRecipe = __webpack_require__(121);
 
 var _displayRecipe2 = _interopRequireDefault(_displayRecipe);
 
-var _presentationPage = __webpack_require__(103);
+var _presentationPage = __webpack_require__(134);
 
 var _presentationPage2 = _interopRequireDefault(_presentationPage);
 
@@ -1548,13 +3306,13 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 63 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(__dirname) {
 
-var path = __webpack_require__(337);
+var path = __webpack_require__(338);
 var webpack = __webpack_require__(45);
 
 module.exports = {
@@ -1604,31 +3362,31 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, ""))
 
 /***/ }),
-/* 64 */
+/* 95 */
 /***/ (function(module, exports) {
 
 module.exports = require("express");
 
 /***/ }),
-/* 65 */
+/* 96 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom/server");
 
 /***/ }),
-/* 66 */
+/* 97 */
 /***/ (function(module, exports) {
 
 module.exports = require("webpack-dev-middleware");
 
 /***/ }),
-/* 67 */
+/* 98 */
 /***/ (function(module, exports) {
 
 module.exports = require("webpack-hot-middleware");
 
 /***/ }),
-/* 68 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1638,7 +3396,7 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _express = __webpack_require__(64);
+var _express = __webpack_require__(95);
 
 var _express2 = _interopRequireDefault(_express);
 
@@ -1646,21 +3404,21 @@ var _webpack = __webpack_require__(45);
 
 var _webpack2 = _interopRequireDefault(_webpack);
 
-var _webpackDevClient = __webpack_require__(63);
+var _webpackDevClient = __webpack_require__(94);
 
 var _webpackDevClient2 = _interopRequireDefault(_webpackDevClient);
 
-var _server = __webpack_require__(65);
+var _server = __webpack_require__(96);
 
 var _redux = __webpack_require__(44);
 
 var _reactRouter = __webpack_require__(7);
 
-var _index = __webpack_require__(62);
+var _index = __webpack_require__(93);
 
 var _index2 = _interopRequireDefault(_index);
 
-var _reducers = __webpack_require__(61);
+var _reducers = __webpack_require__(92);
 
 var _reducers2 = _interopRequireDefault(_reducers);
 
@@ -1675,11 +3433,11 @@ var store = (0, _redux.createStore)(_reducers2.default);
 var style = '';
 
 if (process.env.NODE_ENV == 'development') {
-  app.use(__webpack_require__(66)(compiler, {
+  app.use(__webpack_require__(97)(compiler, {
     noInfo: true
   }));
 
-  app.use(__webpack_require__(67)(compiler));
+  app.use(__webpack_require__(98)(compiler));
 } else {
   style = '<link rel="stylesheet" type="text/css" href="/styles.min.css">';
 }
@@ -1735,7 +3493,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 69 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1767,7 +3525,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 70 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1785,7 +3543,7 @@ var _reactRedux = __webpack_require__(5);
 
 var _reactRouter = __webpack_require__(7);
 
-var _websiteLanguage = __webpack_require__(69);
+var _websiteLanguage = __webpack_require__(100);
 
 __webpack_require__(253);
 
@@ -1797,7 +3555,7 @@ var _english_nav = __webpack_require__(295);
 
 var _english_nav2 = _interopRequireDefault(_english_nav);
 
-var _spanish_nav = __webpack_require__(317);
+var _spanish_nav = __webpack_require__(318);
 
 var _spanish_nav2 = _interopRequireDefault(_spanish_nav);
 
@@ -1887,7 +3645,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 71 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1963,7 +3721,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 72 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1992,7 +3750,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 73 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2024,7 +3782,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 74 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2083,7 +3841,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 75 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2099,11 +3857,11 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRedux = __webpack_require__(5);
 
-var _navbar = __webpack_require__(70);
+var _navbar = __webpack_require__(101);
 
 var _navbar2 = _interopRequireDefault(_navbar);
 
-var _sidebar = __webpack_require__(71);
+var _sidebar = __webpack_require__(102);
 
 var _sidebar2 = _interopRequireDefault(_sidebar);
 
@@ -2153,7 +3911,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 76 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2214,7 +3972,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 77 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2230,7 +3988,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRedux = __webpack_require__(5);
 
-var _displayCountry = __webpack_require__(76);
+var _displayCountry = __webpack_require__(107);
 
 var _displayCountry2 = _interopRequireDefault(_displayCountry);
 
@@ -2286,7 +4044,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 78 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2336,7 +4094,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 79 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2350,15 +4108,15 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _familyOwls = __webpack_require__(320);
+var _familyOwls = __webpack_require__(321);
 
 var _familyOwls2 = _interopRequireDefault(_familyOwls);
 
-var _familyChildren = __webpack_require__(319);
+var _familyChildren = __webpack_require__(320);
 
 var _familyChildren2 = _interopRequireDefault(_familyChildren);
 
-var _section = __webpack_require__(78);
+var _section = __webpack_require__(109);
 
 var _section2 = _interopRequireDefault(_section);
 
@@ -2392,7 +4150,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 80 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2406,7 +4164,7 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _twelves_owls = __webpack_require__(318);
+var _twelves_owls = __webpack_require__(319);
 
 var _twelves_owls2 = _interopRequireDefault(_twelves_owls);
 
@@ -2437,7 +4195,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 81 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2457,7 +4215,7 @@ var _headerPage = __webpack_require__(11);
 
 var _headerPage2 = _interopRequireDefault(_headerPage);
 
-var _familyOwls = __webpack_require__(80);
+var _familyOwls = __webpack_require__(111);
 
 var _familyOwls2 = _interopRequireDefault(_familyOwls);
 
@@ -2510,7 +4268,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 82 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2553,7 +4311,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 83 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2571,6 +4329,10 @@ var _pipiletCooker = __webpack_require__(0);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
+var _pipiletMandalaVertical = __webpack_require__(316);
+
+var _pipiletMandalaVertical2 = _interopRequireDefault(_pipiletMandalaVertical);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Footer = function Footer() {
@@ -2585,7 +4347,7 @@ var Footer = function Footer() {
     _react2.default.createElement(
       'div',
       { className: 'wrapper-image' },
-      _react2.default.createElement('img', { src: _pipiletCooker2.default })
+      _react2.default.createElement('img', { src: _pipiletMandalaVertical2.default })
     )
   );
 };
@@ -2607,7 +4369,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 84 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2689,7 +4451,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 85 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2709,39 +4471,39 @@ var _headerPage = __webpack_require__(11);
 
 var _headerPage2 = _interopRequireDefault(_headerPage);
 
-var _description = __webpack_require__(82);
+var _description = __webpack_require__(113);
 
 var _description2 = _interopRequireDefault(_description);
 
-var _map = __webpack_require__(84);
+var _map = __webpack_require__(115);
 
 var _map2 = _interopRequireDefault(_map);
 
-var _footer = __webpack_require__(83);
+var _footer = __webpack_require__(114);
 
 var _footer2 = _interopRequireDefault(_footer);
 
-var _map3 = __webpack_require__(321);
+var _map3 = __webpack_require__(322);
 
 var _map4 = _interopRequireDefault(_map3);
 
-var _map_africa = __webpack_require__(322);
+var _map_africa = __webpack_require__(323);
 
 var _map_africa2 = _interopRequireDefault(_map_africa);
 
-var _map_america = __webpack_require__(323);
+var _map_america = __webpack_require__(324);
 
 var _map_america2 = _interopRequireDefault(_map_america);
 
-var _map_asia = __webpack_require__(324);
+var _map_asia = __webpack_require__(325);
 
 var _map_asia2 = _interopRequireDefault(_map_asia);
 
-var _map_europe = __webpack_require__(325);
+var _map_europe = __webpack_require__(326);
 
 var _map_europe2 = _interopRequireDefault(_map_europe);
 
-var _map_oceania = __webpack_require__(326);
+var _map_oceania = __webpack_require__(327);
 
 var _map_oceania2 = _interopRequireDefault(_map_oceania);
 
@@ -2793,7 +4555,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 86 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2859,7 +4621,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 87 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2923,7 +4685,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 88 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2987,7 +4749,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 89 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3001,11 +4763,11 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ingredient = __webpack_require__(87);
+var _ingredient = __webpack_require__(118);
 
 var _ingredient2 = _interopRequireDefault(_ingredient);
 
-var _preparation = __webpack_require__(88);
+var _preparation = __webpack_require__(119);
 
 var _preparation2 = _interopRequireDefault(_preparation);
 
@@ -3050,7 +4812,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 90 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3066,11 +4828,11 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRedux = __webpack_require__(5);
 
-var _headerRecipe = __webpack_require__(86);
+var _headerRecipe = __webpack_require__(117);
 
 var _headerRecipe2 = _interopRequireDefault(_headerRecipe);
 
-var _recipe = __webpack_require__(89);
+var _recipe = __webpack_require__(120);
 
 var _recipe2 = _interopRequireDefault(_recipe);
 
@@ -3120,7 +4882,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 91 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3165,7 +4927,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 92 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3179,11 +4941,11 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _familyOwls = __webpack_require__(327);
+var _familyOwls = __webpack_require__(328);
 
 var _familyOwls2 = _interopRequireDefault(_familyOwls);
 
-var _pipiletHorizontal = __webpack_require__(330);
+var _pipiletHorizontal = __webpack_require__(331);
 
 var _pipiletHorizontal2 = _interopRequireDefault(_pipiletHorizontal);
 
@@ -3223,7 +4985,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 93 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3237,19 +4999,19 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _headerTitle = __webpack_require__(92);
+var _headerTitle = __webpack_require__(123);
 
 var _headerTitle2 = _interopRequireDefault(_headerTitle);
 
-var _displayImage = __webpack_require__(91);
+var _displayImage = __webpack_require__(122);
 
 var _displayImage2 = _interopRequireDefault(_displayImage);
 
-var _family = __webpack_require__(328);
+var _family = __webpack_require__(329);
 
 var _family2 = _interopRequireDefault(_family);
 
-var _logoPipilet = __webpack_require__(329);
+var _logoPipilet = __webpack_require__(330);
 
 var _logoPipilet2 = _interopRequireDefault(_logoPipilet);
 
@@ -3285,7 +5047,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 94 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3352,7 +5114,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 95 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3429,7 +5191,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 96 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3443,11 +5205,11 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _displayLyrics = __webpack_require__(95);
+var _displayLyrics = __webpack_require__(126);
 
 var _displayLyrics2 = _interopRequireDefault(_displayLyrics);
 
-__webpack_require__(52);
+__webpack_require__(83);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -3484,7 +5246,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 97 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3527,7 +5289,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 98 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3541,7 +5303,7 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactYoutube = __webpack_require__(338);
+var _reactYoutube = __webpack_require__(339);
 
 var _reactYoutube2 = _interopRequireDefault(_reactYoutube);
 
@@ -3590,7 +5352,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 99 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3606,23 +5368,23 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRedux = __webpack_require__(5);
 
-var _header = __webpack_require__(94);
+var _header = __webpack_require__(125);
 
 var _header2 = _interopRequireDefault(_header);
 
-var _lyrics = __webpack_require__(96);
+var _lyrics = __webpack_require__(127);
 
 var _lyrics2 = _interopRequireDefault(_lyrics);
 
-var _videoYoutube = __webpack_require__(98);
+var _videoYoutube = __webpack_require__(129);
 
 var _videoYoutube2 = _interopRequireDefault(_videoYoutube);
 
-var _sheet = __webpack_require__(97);
+var _sheet = __webpack_require__(128);
 
 var _sheet2 = _interopRequireDefault(_sheet);
 
-__webpack_require__(52);
+__webpack_require__(83);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -3675,7 +5437,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 100 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3689,7 +5451,7 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _children = __webpack_require__(331);
+var _children = __webpack_require__(332);
 
 var _children2 = _interopRequireDefault(_children);
 
@@ -3720,7 +5482,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 101 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3740,7 +5502,7 @@ var _headerPage = __webpack_require__(11);
 
 var _headerPage2 = _interopRequireDefault(_headerPage);
 
-var _familyChildren = __webpack_require__(100);
+var _familyChildren = __webpack_require__(131);
 
 var _familyChildren2 = _interopRequireDefault(_familyChildren);
 
@@ -3795,7 +5557,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 102 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3848,7 +5610,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 103 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3866,7 +5628,7 @@ var _reactRedux = __webpack_require__(5);
 
 __webpack_require__(263);
 
-var _description = __webpack_require__(102);
+var _description = __webpack_require__(133);
 
 var _description2 = _interopRequireDefault(_description);
 
@@ -3911,7 +5673,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 104 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3927,7 +5689,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouter = __webpack_require__(7);
 
-var _earthSnow = __webpack_require__(332);
+var _earthSnow = __webpack_require__(333);
 
 var _earthSnow2 = _interopRequireDefault(_earthSnow);
 
@@ -3981,7 +5743,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 105 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4120,7 +5882,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 106 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4140,11 +5902,11 @@ var _headerPage = __webpack_require__(11);
 
 var _headerPage2 = _interopRequireDefault(_headerPage);
 
-var _displayLanguage = __webpack_require__(105);
+var _displayLanguage = __webpack_require__(136);
 
 var _displayLanguage2 = _interopRequireDefault(_displayLanguage);
 
-var _chooseFlag = __webpack_require__(104);
+var _chooseFlag = __webpack_require__(135);
 
 var _chooseFlag2 = _interopRequireDefault(_chooseFlag);
 
@@ -4194,7 +5956,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 107 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4239,7 +6001,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 108 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4287,7 +6049,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 109 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4350,7 +6112,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 110 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4430,7 +6192,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 111 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4444,11 +6206,11 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _listWord = __webpack_require__(110);
+var _listWord = __webpack_require__(141);
 
 var _listWord2 = _interopRequireDefault(_listWord);
 
-var _gridWord = __webpack_require__(109);
+var _gridWord = __webpack_require__(140);
 
 var _gridWord2 = _interopRequireDefault(_gridWord);
 
@@ -4495,7 +6257,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 112 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4509,11 +6271,11 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _header = __webpack_require__(108);
+var _header = __webpack_require__(139);
 
 var _header2 = _interopRequireDefault(_header);
 
-var _motCroise = __webpack_require__(111);
+var _motCroise = __webpack_require__(142);
 
 var _motCroise2 = _interopRequireDefault(_motCroise);
 
@@ -4551,7 +6313,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 113 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4632,7 +6394,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 114 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4715,7 +6477,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 115 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4729,7 +6491,7 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _table = __webpack_require__(114);
+var _table = __webpack_require__(145);
 
 var _table2 = _interopRequireDefault(_table);
 
@@ -4808,7 +6570,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 116 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4824,23 +6586,23 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRedux = __webpack_require__(5);
 
-var _color = __webpack_require__(129);
+var _color = __webpack_require__(160);
 
 var _color2 = _interopRequireDefault(_color);
 
-var _header = __webpack_require__(113);
+var _header = __webpack_require__(144);
 
 var _header2 = _interopRequireDefault(_header);
 
-var _table = __webpack_require__(115);
+var _table = __webpack_require__(146);
 
 var _table2 = _interopRequireDefault(_table);
 
-var _game = __webpack_require__(112);
+var _game = __webpack_require__(143);
 
 var _game2 = _interopRequireDefault(_game);
 
-var _drawing = __webpack_require__(107);
+var _drawing = __webpack_require__(138);
 
 var _drawing2 = _interopRequireDefault(_drawing);
 
@@ -4901,7 +6663,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 117 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4915,7 +6677,7 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _bookNumber = __webpack_require__(334);
+var _bookNumber = __webpack_require__(335);
 
 var _bookNumber2 = _interopRequireDefault(_bookNumber);
 
@@ -4967,7 +6729,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 118 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5010,7 +6772,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 119 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5076,7 +6838,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 120 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5149,7 +6911,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 121 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5163,7 +6925,7 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _handWriteLogo = __webpack_require__(333);
+var _handWriteLogo = __webpack_require__(334);
 
 var _handWriteLogo2 = _interopRequireDefault(_handWriteLogo);
 
@@ -5194,7 +6956,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 122 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5273,7 +7035,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 123 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5346,7 +7108,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 124 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5360,27 +7122,27 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _firstTable = __webpack_require__(119);
+var _firstTable = __webpack_require__(150);
 
 var _firstTable2 = _interopRequireDefault(_firstTable);
 
-var _secondTable = __webpack_require__(122);
+var _secondTable = __webpack_require__(153);
 
 var _secondTable2 = _interopRequireDefault(_secondTable);
 
-var _thirdTable = __webpack_require__(123);
+var _thirdTable = __webpack_require__(154);
 
 var _thirdTable2 = _interopRequireDefault(_thirdTable);
 
-var _fourTable = __webpack_require__(120);
+var _fourTable = __webpack_require__(151);
 
 var _fourTable2 = _interopRequireDefault(_fourTable);
 
-var _handWriteLogo = __webpack_require__(121);
+var _handWriteLogo = __webpack_require__(152);
 
 var _handWriteLogo2 = _interopRequireDefault(_handWriteLogo);
 
-var _bigDraw = __webpack_require__(118);
+var _bigDraw = __webpack_require__(149);
 
 var _bigDraw2 = _interopRequireDefault(_bigDraw);
 
@@ -5424,7 +7186,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 125 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5444,11 +7206,11 @@ var _number = __webpack_require__(203);
 
 var _number2 = _interopRequireDefault(_number);
 
-var _header = __webpack_require__(117);
+var _header = __webpack_require__(148);
 
 var _header2 = _interopRequireDefault(_header);
 
-var _table = __webpack_require__(124);
+var _table = __webpack_require__(155);
 
 var _table2 = _interopRequireDefault(_table);
 
@@ -5497,7 +7259,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 126 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5539,7 +7301,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 127 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5579,7 +7341,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 128 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5621,7 +7383,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 129 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5639,11 +7401,11 @@ var _spanish = __webpack_require__(51);
 
 var _spanish2 = _interopRequireDefault(_spanish);
 
-var _german = __webpack_require__(128);
+var _german = __webpack_require__(159);
 
 var _german2 = _interopRequireDefault(_german);
 
-var _india = __webpack_require__(130);
+var _india = __webpack_require__(161);
 
 var _india2 = _interopRequireDefault(_india);
 
@@ -5651,31 +7413,31 @@ var _english = __webpack_require__(49);
 
 var _english2 = _interopRequireDefault(_english);
 
-var _china = __webpack_require__(127);
+var _china = __webpack_require__(158);
 
 var _china2 = _interopRequireDefault(_china);
 
-var _brasil = __webpack_require__(126);
+var _brasil = __webpack_require__(157);
 
 var _brasil2 = _interopRequireDefault(_brasil);
 
-var _italy = __webpack_require__(131);
+var _italy = __webpack_require__(162);
 
 var _italy2 = _interopRequireDefault(_italy);
 
-var _serbia = __webpack_require__(133);
+var _serbia = __webpack_require__(164);
 
 var _serbia2 = _interopRequireDefault(_serbia);
 
-var _southAfrica = __webpack_require__(134);
+var _southAfrica = __webpack_require__(165);
 
 var _southAfrica2 = _interopRequireDefault(_southAfrica);
 
-var _russia = __webpack_require__(132);
+var _russia = __webpack_require__(163);
 
 var _russia2 = _interopRequireDefault(_russia);
 
-var _tanzania = __webpack_require__(135);
+var _tanzania = __webpack_require__(166);
 
 var _tanzania2 = _interopRequireDefault(_tanzania);
 
@@ -5709,7 +7471,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 130 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5749,7 +7511,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 131 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5791,7 +7553,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 132 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5831,7 +7593,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 133 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5871,7 +7633,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 134 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5911,7 +7673,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 135 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5953,1764 +7715,6 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 136 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_female = __webpack_require__(2);
-
-var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_female2.default,
-  title: "RECETTE DU BENIN",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "BANANNES DOUCES À LA SAUCE ORANGE",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["4 bananes pas très mures.", "1⁄2 tasse de jus d’orange fraichement pressé.", "1 cuillérée de jus de citron fraichement pressé.", "1⁄2 tasse de sucre roux.", "Glace à la vanille."]
-    }],
-    sectionPreparation: [{
-      title: "Préparation.",
-      preparation: ["Chauffer le jus d’orange, le jus de citron et le sucre roux dans une casserole pendant 15 minutes. Le jus doit réduire, le mettre ensuite dans un plat.", "Peler les bananes en les coupant par la moitié et les cuisiner dans le plat avec le jus, jusqu’à ce qu’elles soient chaudes.", "Servir immédiatement sur de la glace à la vanille."]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/africa/bananas.js');
-}();
-
-;
-
-/***/ }),
-/* 137 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_female = __webpack_require__(2);
-
-var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_female2.default,
-  title: "RECETAS MARROQUIES",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "Bizcocho de limón",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["200 g harina.", "150 g azúcar.", "100 ml aceite.", "4 huevos.", "ralladura de un limón.", "2 cucharadas de zumo de limón."]
-    }, {
-      title: "Para la decoración",
-      ingredient: ["fidios de chocolate", "1 yogur de limón cremoso"]
-    }],
-    sectionPreparation: [{
-      title: "Préparation.",
-      preparation: ["Dentro de un bol echamos los huevos y el azúcar, mezclamos todo muy bien, después añadimos el aceite, la ralladura de limón y dos cucharadas de zumo de limón, mezclamos todo de nuevo.", "Aparte en otro bol mezclamos el harina y levadura química y la añadimos a la primera mezcla.", "A continuación ponemos la mezcla en un molde enharinado y lo metemos en el horno a 180 grados sólo de fuego abajo y cuando esté cocido lo pongo el fuego de arriba para que coja más calor (más o menos 30 minutos).", "Cuando lo sacamos de el horno metemos un cuchillo dentro para comprobar si está listo, por lo que si sale limpio, está listo sólo hay que dejarlo enfriar .", "Una vez frío lo sacamos del molde y lo ponemos en una fuente para servir."]
-    }]
-  }, {
-    title: "Tarta de flan y chocolate",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["Un paquete y medio de galletas cuadradas (las que más os gusten)", "Un poco de leche (para mojar las galletas)", "1 litro de leche (para el flan)", "2 sobres de flan", "4-5 cucharadas de azúcar para el flan (según el gusto)", "200 gramos de chocolate negro de repostería", "(para cubrir la tarta)", "1 cuchara grande de mantequilla", "(para fundir el chocolate)", "1 brik pequeño de nata líquida (para fundir el chocolate)", "Coco rallado (para decorar)"]
-    }],
-    sectionPreparation: [{
-      title: "Receta",
-      preparation: ["Cogemos un molde cuadrado. Lo primero que haremos será hacer la base de la tarta. Para ello vamos mojando las galletas en un poco de leche y las vamos colocando sobre el molde. Haremos una base de dos pisos de galletas.", "Hacemos el flan como lo indica el fabricante en el envase. Para ello necesitamos 1 litro de leche. Separamos un poco en un vaso grande y ponemos el resto en un cazo a calentar a fuego medio con el azúcar. Removemos de vez en cuando. En el vaso que hemos separado,  disolvemos los sobres de preparado para flan. Cuando la leche del cazo empiece a hervir,  añadimos el vaso con los polvos del flan sin parar de remover hasta que espese y vuelva a hervir.", "Cuando el flan esté listo lo vertemos sobre nuestra base de galletas.", "Encima del flan ponemos otra capa doble de galletas mojadas en leche.", "Ahora preparamos nuestra cobertura de chocolate. Ponemos a calentar la nata líquida a fuego medio. Cuando hierva apagamos el fuego y añadimos el chocolate a trozos sin parar de remover para que se funda. Cuando se haya fundido añadimos 1 cuchara grande de mantequilla y movemos bien. Esto le dará brillo al chocolate.", "Cuando la cobertura de chocolate esté lista la echamos sobre la última capa de galletas. Decoramos por encima con coco rallado.", "Ahora esperamos que se enfríe un poco y la metemos al frigorífico unas horas antes de servir."]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/africa/bizcocho.js');
-}();
-
-;
-
-/***/ }),
-/* 138 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_female = __webpack_require__(2);
-
-var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_female2.default,
-  title: "RECETTE DE TUNISIE",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "GHRIYBA",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["250g d’amandes moulues.", "50g de beurre en pommade.", "100g de sucre glace.", "1 œuf à température ambiante.", "Amandes effilées, entières pour décorer.", "Miel."]
-    }],
-    sectionPreparation: [{
-      title: "Préparation.",
-      preparation: ["Préchauffer le four à 190°C.", "Mélanger les amandes, le sucre, le beurre et l’œuf jusqu’à obtenir une pate homogène.", "Laisser reposer 30 minutes dans le frigo.", "Faire des boules de la grosseur d’une balle de golf et les disposer en ligne sur une plaque avec dupapier végétal, pour mettre au four.", "Aplatir un peu et mettre la décoration désirée d’amandes.", "Mettre au four pendant 20 minutes (en fonction du four).", "Laisser refroidir sur la plaque.", "Mettre du miel sur les gâteaux avec un pinceau."]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/africa/ghriyba.js');
-}();
-
-;
-
-/***/ }),
-/* 139 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_female = __webpack_require__(2);
-
-var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_female2.default,
-  title: "RECETTES EGYPTIENNES",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "GUZEYA",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["Verre de noix de coco râpée.", "1 verre de sucre..", "2 blancs d’œufs.", "Essence de vanille", "Beurre en quantité nécessaire.", "Huile en quantité nécessaire."]
-    }],
-    sectionPreparation: [{
-      title: "Préparation.",
-      preparation: ["Monter les blancs en neige.", "Dans un récipient à part, mélanger la noix de coco, le sucre et la vanille.", "Ajouter les blancs en tournant pour ne pas les casser.", "Graisser le moule avec de l’huile ou du beurre, mettre la pâte sur toute la surface, graisser avec de l’huile et le mettre dans le four à une température moyenne.", "Quand la surface commence à griller, enlever du four et mettre la Guzeya sur une assiette Servir froid"]
-    }]
-  }, {
-    title: "RIZ AU LAIT ET FRUITS SECS",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["2 verres de riz.", "1 verre de sucre", "1 verre de lait", "1 grande cuillérée d’huilee", "Fruits secs écrasés"]
-    }],
-    sectionPreparation: [{
-      title: "Receta",
-      preparation: ["Ajouter au riz le lait, le sucre et l’huile dans une casserole à feu constant.", "Rincer le riz 2 ou 3 fois", "Baisser la température jusque cela forme une masse", "Graisser le moule avec de l’huile, mettre les fruits secs dans le moule, mettre la pâte, et la répartir à la main sur toute la surface", "Graisser la surface avec de l’huile, répartir des fruits secs et mettre dans le four jusqu’à ce qu’elle grille", "Servir froid"]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/africa/guzeya.js');
-}();
-
-;
-
-/***/ }),
-/* 140 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_male = __webpack_require__(3);
-
-var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_male2.default,
-  title: "RECETTE DU KENYA",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "MANGUE GLACÉE",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["2 tasses de mangues.", "1 brique moyenne de crème fraîche.", "Sucre.", "Citron.", "Lait condensé.", "Sel."]
-    }],
-    sectionPreparation: [{
-      title: "Préparation.",
-      preparation: ["Écraser les mangues en purée.", "Mélanger au batteur la crème fraîche et une demi tasse de sucre, jusqu’à ce que le mélange soit bien épais.", "Ajouter à la purée de mangue 2 cuillerées fine de jus de citron, 1⁄2 tasse de lait condensée et une demie-cuillérée de sel.", "Mélanger la crème et la purée de mangue, et mettre au congélateur."]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/africa/helado.js');
-}();
-
-;
-
-/***/ }),
-/* 141 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_male = __webpack_require__(3);
-
-var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_male2.default,
-  title: "RECETTE DE MADAGASCAR",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "TORTA MAGALASY DE MADAGASCAR",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["2 tasses de lait.", "1 gousse de vanille.", "4 cuillérées de sucre.", "1 pincée de noix de muscade.", "1 pincée de clou de girofle.", "5 cuillérée de tapioca.", "2 cuillérées de crème patissière.", "4 bananes bien mures.", "30g de beurre.", "4 œufs"]
-    }],
-    sectionPreparation: [{
-      title: "Préparation.",
-      preparation: ["Mélanger dans une casserole, le lait, la vanille, le sucre , la noix de muscade et le clou de girofle, porter juste avant ébullition.", "Retirer du feu, ajouter le tapioca au mélange et remettre le feu doux, laisser cuire 10 minutes et tourner de temps en temps.", "Pendant que le tapioca cuit, préchauffer le four à 180°C.", "Retirer le tapioca du feu, retirer la gousse de vanille et ajouter la crème pâtissière.", "Faire une purée avec les bananes et les ajouter au tapioca.", "Beurrer un moule.", "Incorporer les œufs, un à un au mélange et mélanger avec une spatule.", "Cuire pendant 20 minutes.", "Servir chaud ou tiède dans une assiette à dessert"]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/africa/malagasy.js');
-}();
-
-;
-
-/***/ }),
-/* 142 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_male = __webpack_require__(3);
-
-var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_male2.default,
-  title: "RECETTES ALGERIENNES",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "Dattes farcies à la pâte d’amande",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["40 Dattes dénoyautées", "150 g d’amande en poudre", "150 g de sucre glace", "1 grande cuillère de margarine à température ambiante", "Quelques gouttes d’eau de fleur d’oranger", "1 blanc d’oeuf", "50 g de sucre semoule", "colorant alimentaire (optionel)"]
-    }],
-    sectionPreparation: [{
-      title: "Préparation",
-      preparation: ["Dans un récipient, mélanger la poudre d’amande et le sucre glace", "Ajouter la margarine, le blanc d’oeuf et les quelques gouttes d’eau de fleur d’oranger. Mélanger à la main jusqu’à obtention d’une pâte d’amande homogène (beaucoup de personnes ajoutent du colorant alimentaire afin d’obtenir des dattes de toutes les couleurs)", "Prélever un peu de pête d’amande et lui donner une forme de petite quenelle.", "Ouvrir la datte et y introduire la quenelle de pâte d’amande.", "Quand toutes les dattes sont fourrées prendre un couteau pointu et trçaons quelques stries sur la partie visible de la pâte d’amande.", "Une fois ceci fait, saupoudrez de sucre semoule pour décorer."]
-    }]
-  }, {
-    title: "Gâteau de biscuits et chocolat",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["Un paquet de biscuits secs .", "100 g de chocolat noir.", "300 g de beurre.", "150 g de sucre.", "2 oeufs.", "50 g de cacao en poudre"]
-    }],
-    sectionPreparation: [{
-      title: "Recette",
-      preparation: ["Prendre un moule de service en verre.", "Dans un bol qui passe au micro ondes, faire fondre le beurre et le chocolat juqu’à obtenir un mélange lisse. Ajouter les oeufs, le sucre et le cacao en poudre. Bien mélanger.", "Verser un peu de la préparation au chocolat au fond du moule et recouvrir d’une couche de biscuits. Recommencer jusqu’à utilisation de tous les biscuits et terminer avec du chocolat.", "Placer au réfrigérateur jusqu’à complet refroidissement et servir."]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/africa/rellenos.js');
-}();
-
-;
-
-/***/ }),
-/* 143 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_female = __webpack_require__(2);
-
-var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_female2.default,
-  title: "RECETTES D’ARGENTINE",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "Alfajores agentins",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["9 jaunes d’oeuf.", "150 g beurre.", "150 g sucre glace.", "Le zeste d’un citron.", "500 g maïzena.", "1⁄2 sachet de levure chimique."]
-    }],
-    sectionPreparation: [{
-      title: "Preparación",
-      preparation: ["Mélanger doucement les 150 g de sucre glace dans les 150 g de beurre ramolli.", "Dans le mélange ainsi constitué, incorporer un à un les 9 jaunes d’oeuf.", "Ajouter l’extrait de vanille et le zeste de citron.", "Tamiser les 500g de Maïzena avec la levure chimique et incorporer le tout avec la préparation au beurre.", "Laisser reposer 1 heure dans le réfrigérateur.", "Une fois la pâte reposée, l’étaler sur une hauteur d’environ 5mm et découper à l’emporte pièce les biscuits", "Disposer tous ces biscuits sur une feuille de cuisson et une plaque de four. Cuire au four de 4 à 5 minutes à une température comprise entre 170o et 180o en surveillant qu’ils ne brûlent pas : la pâte ne doit pas dorer mais les biscuits doivent être cuits à l’intérieur.", "Les sortir du four et laisser refroidir.", "Une fois les biscuits froids, assembler deux biscuits entre une couche de confiture de lait dans lequel on peut ajouter un peu de noix de coco en copeaux."]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/america/alfajores.js');
-}();
-
-;
-
-/***/ }),
-/* 144 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_female = __webpack_require__(2);
-
-var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_female2.default,
-  title: "RECETTES DE HAITI",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "BANANES AU JUS D’ORANGE",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["4 bananes", "4 oranges", "2 citrons", "125 g de sucre", "un doigt de beurre"]
-    }],
-    sectionPreparation: [{
-      title: "Preparación",
-      preparation: ["Beurrer le plat qui va aller au four", "Peler les bananes et les couper en rondelles.", "Peler deux oranges et les couper en rondelles.", "Presser les 2 oranges restantes ainsi que les 2 citrons. Réserver le jus.", "Placer au fond du plat une couche de rondelles de bananes puis recouvrir d’une couche de rondelles d’oranges. Saupoudrer le sucre par dessus et verser le jus orange/citron.", "Placer l’ensemble au four à température moyenne. Laisser cuire jusqu’à ce que le dessus brunisse légèrement."]
-    }]
-  }, {
-    title: "BANANES FRITES HAITIENNES",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["3 bananes bien mures", "1 cuillère à soupe de farine", "1/2 cuillère à café de cannelle en poudre", "1/2 cuillère à café d’extrait de vanille", "1 cuillère à soupe de sucre", "1/8 cuillère à café de bicarbonate de soude", "Sucre(optionel)"]
-    }],
-    sectionPreparation: [{
-      title: "Receta para hacer el Mousse:",
-      preparation: ["Mélanger la farine, le sucre, l’extrait de vanille et la cannelle dans un récipient. enduire les rondelles de bananes de cette préparation et frire dans de l’huile très chaude jusqu’à ce obtenir une couleur dorée.", "Placer sur du papier absorbant et servir en ayant saupoudré de sucre."]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/america/banana.js');
-}();
-
-;
-
-/***/ }),
-/* 145 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_female = __webpack_require__(2);
-
-var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_female2.default,
-  title: "RECETTES MEXICAINES",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "Gâteau de Nutella",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["1 1⁄2 tasse de farine.", "2 Oeufs", "1 Cuillère à soupe de sucre", "1 1⁄2 tasse de Nutella", "1 Cuillère à soupe d’extrait de vanille", "1 Tasse de lait", "Une pincée de bicarbonate de soude."]
-    }],
-    sectionPreparation: [{
-      title: "Preparación",
-      preparation: ["Dans un grand saladier placer les ingrédients secs en premier puis les ingrédients humides.", "Mélanger le tout jusqu’à obtention d’un mélange épais.", "Beurrer le moule et verser le mélange dans celui ci.", "Placer le tout au four à 250° pendant environ 25 minutes. Vérifier la cuisson en piquant le centre avec un couteau pointu. Si celui ci ressort mouillé c’est le gâteau n’est pas cuit, si le couteau ressort sec, il est cuit.", "Ajouter quelques fruits pour la décoration et le tour est joué."]
-    }]
-  }, {
-    title: "Recette de Glace aux Oreo",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["12 biscuit Oreo", "40 cl de crème fraiche liquide", "1 boite de lait concentré"]
-    }],
-    sectionPreparation: [{
-      title: "Preparación",
-      preparation: ["Briser les biscuits Oréo en petits et gros morceaux et réserver le tout dans un bol.", "Monter la crème en Chantilly dans un grand saladier en aluminium préalablement refroidi au réfrigérateur afin que la crème monte bien.", "Ajouter ensuite le lait concentré et les biscuits brisés. Mélanger doucement l’ensemble. Verser la préparation dans un grand plat de service ou dans les 6 verrines. Laisser refroidir environ 3 heures dans un congélateur ou 6 heures dans un réfrigérateur.", "Une fois le tout bien refroidi, le dessert est prêt ! Nous te conseillons de le consommer rapidement car il va fondre rapidement hors du réfrigérateur!"]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/america/bizcocho.js');
-}();
-
-;
-
-/***/ }),
-/* 146 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_female = __webpack_require__(2);
-
-var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_female2.default,
-  title: "RECETTE CHILIENNE",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "Cupcakes Pour Noël",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["2-1/4 tasse de farine (315g).", "2 oeufs", "1 tasse de lait (240ml).", "1 tasse de sucre (200g).", "1 cuillère à café de vanille.", "1/2 tasse d’huile (120ml).", "2 cuillères à café de levure.", "1/2 boite de fromage frais", "2 tasses de sucre .", "1 cuillère à café de vanille.", "lait (optionel)."]
-    }],
-    sectionPreparation: [{
-      title: "Préparation des Cupcakes",
-      preparation: ["Comenzamos a preparar la base de esta Receta de Cupcakes para Navidad, encendiendo el horno a fuego mediano y dejando pre-calentar.", "Mientras el horno se calienta colocamos los huevos en un recipiente adecuado y le agregamos el azúcar, batiendo la mezcla hasta que alcance un punto espumoso y su color se aclare.", "Añadimos entonces la vainilla y continuamos batiendo por un minuto mas para incorporar bien todo.", "Agregando de a poco la harina, de forma circular en el recipiente y vamos mezclando suavemente con la ayuda de un batidor.", "Cuando ya la harina este totalmente incorporada reservamos la mezcla.", "Colocamos el papel en los moldes para cupcakes o muffins y añadimos a cada uno un poco de mantequilla para engrasar su superficie.", "Vertemos la base de los cupcakes en cada molde y llevamos al horno pre-calentado.", "Dejamos hornear por alrededor de veinticinco minutos o hasta que al introducir un palito en el centro de los cupcakes, este salga seco y sin restos.", "En ese momento retiramos del horno y dejamos enfriar."]
-    }, {
-      title: "Préparation de la couverture:",
-      preparation: ["Dans un grand bol mettre la moitié de la boîte de fromage frais (type Philadelphia) et placer au four à micro ondes. Faire fondre pendant environ 30 secondes.", "Sortir le bol du micro ondes et ajouter l’extrait de vanille et les 2 tasses de sucre.", "Si on souhaite faire une couverture au chocolat, il faut mélanger 50 grammes de chocolat fondu avec quelques cuillères de cacao maigre en poudre. Bien mélanger le tout jusqu’à obtenir la texture souhaitée. Si le mélange sèche, ajouter un peu de lait, chauffer légèrement quelques secondes au micro ondes et mélanger.", "Quand la couverture est prête, ajouter les colorants de la couleur souhaitée.", "Recouvrir les Cupcakes de Noël de la couverture et décorer comme on le souhaite."]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/america/cupcakes.js');
-}();
-
-;
-
-/***/ }),
-/* 147 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_male = __webpack_require__(3);
-
-var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_male2.default,
-  title: "RECETTES DE LA GUYANE FRANÇAISE",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "MANGO FOOL",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["3-4 mangues bien mures, pelées et coupées", "petits cubes.", "5 cuillères à soupe de sucre.", "Le jus d’un citron et sa peau.", "1 tasse de crème.", "1 cuillère à café d’extrait de vanille.", "1⁄4 cuillère à café de noix de muscade."]
-    }],
-    sectionPreparation: [{
-      title: "Preparación",
-      preparation: ["Passer au blender les mangues avec le jus du citron et 2 ou 3 cuillères de sucre.", "Laisser reposer.", "Avec le batteur monter la crème en y incorporant une cuillère de sucre, du zeste de citron et la vanille.", "Une fois la crème montée, verser dans des verres en alternant les couches de purée de mangue et de crème montée. Servir très frais.", "Déguster!"]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/america/mango.js');
-}();
-
-;
-
-/***/ }),
-/* 148 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_male = __webpack_require__(3);
-
-var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_male2.default,
-  title: "RECETTES BRESILIENNES",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "Quindim",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["4 oeufs entiers.", "2 jaunes d’oeuf.", "4 cuillères à soupe de sucre.", "1 boite de lait concentré.", "Noix de coco en copeaux.", "1 boite de lait de coco."]
-    }],
-    sectionPreparation: [{
-      title: "Preparación",
-      preparation: ["Battre les 2 jaunes d’oeuf avec les 4 oeufs entiers et les 4 cuillères de sucre.", "Dans le fond du moule, faire du caramel.", "Dans un bol, laisser hydrater la noix de coco en copeaux dans le lait de coco.", "Intégrer le lait concentré à la préparation aux oeufs, .", "Verser le tout dans le moule.", "Faire cuire le tout au bain marie pendant environ 40 mn et c’est prêt!"]
-    }]
-  }, {
-    title: "Mousse de Maracuyá et Fruits de la Passion",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["2 o 3 maracuyá et de fruits de la passion.", "1 boite de lait concentré.", "1 tasse de jus de maracuyá (frais ou congelé).", "1 boite de crème.", "6 oeufs.", "2 feuilles de gélatine.", "1 cuillère à soupe de jus de citron."]
-    }],
-    sectionPreparation: [{
-      title: "Receta para hacer el Mousse:",
-      preparation: ["Faire tremper la gélatine dans de l’eau froide et la dissoudre ensuite dans un peu d’eau chaude", "Dans un grand bol, mélanger le jus de maracuyá, le lait concentré, le jus de citron, la crème), y la gélatine dissoute. Battre jusqu’à complète dissolution.", "Séparer les jaunes et les blancs et battre les blancs jusqu’au point de neige.", "Mélanger délicatement la préparation de maracuyá aux blancs en neige. Faire attention que la mousse ne tombe pas.", "Verser le tout dans un grand plat ou dans des verres individuels et placer le tout au réfrigérateur jusqu’à prise complète.", "Avant de servir, vous pouvez recouvrir la mousse d’un peu de pulpe de maracuyá et un peu de céréales pour le croustillant."]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/america/quindim.js');
-}();
-
-;
-
-/***/ }),
-/* 149 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_male = __webpack_require__(3);
-
-var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_male2.default,
-  title: "RECETTE CANADIENNE",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "Trempettes",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["125 g de farine.", "une pincée de sel", "1 oeuf et un jaune d’oeuf", "300 ml de lait", "15 ml de beurre fondu", "Miel liquide", "beurre."]
-    }],
-    sectionPreparation: [{
-      title: "Preparación",
-      preparation: ["Dans un grand saladier, verser la farine et le sel et faire un puit au centre.", "Ajouter dans le puit ainsi fait l'oeuf entier et le jaune d’oeuf.", "Mélanger en tournant doucement et ajouter la moitié du lait.", "A l’aide d’un batteur ou d’un robot, malaxer en ajoutant le beurre fondu jusqu’à obtenir un pâte crémeuse.", "Ajouter le reste de lait et laisser reposer au moins une heure avant de faire les crêpes."]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/america/trempettes.js');
-}();
-
-;
-
-/***/ }),
-/* 150 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_female = __webpack_require__(2);
-
-var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_female2.default,
-  title: "RECETAS DE JORDANIA",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "Chamia",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["Una taza y media de harina de maíz.", "Una taza de azúcar.", "Seis huevos.", "50 gramos de mantequilla.", "Una cucharadita de bicarbonato de sodio.", "Media taza de leche.", "Gotas de esencia de vainilla.", "Almendras para adornar."]
-    }],
-    sectionPreparation: [{
-      title: "Préparation.",
-      preparation: ["Comienza mezclando la mantequilla con el azúcar en un recipiente hasta que se integren. Por otra parte, haz lo mismo batiendo los huevos con la esencia de vainilla.", "Une ambas preparaciones.", "comienza a incorporar suavemente la harina de maíz, removiendo suavemente hasta que se integre con el resto de la preparación.", "Enmolda la preparación en una fuente previamente aceitada, corta en triángulos con la punta de un cuchillo poner las almendras encima de cada trozo cortado y llevarla a cocinar al horno. Cuando la superficie esté dorada, la Chamia estará lista.", "Sacarla y dejarla enfriar antes de comer."]
-    }]
-  }, {
-    title: "Booza",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["2 vasos de trigo molido muy fino.", "2 vasos de agua.", "2 vasos de azúcar.", "Jenjibre ó canela según te guste y también puedes acompañarla con avellanas tostadas por encima."]
-    }],
-    sectionPreparation: [{
-      title: "Préparation.",
-      preparation: ["Dejar macerar durante una noche el trigo cubierto con agua.", "Al día siguiente colarlo y cocinarlo con dos vasos de agua hasta que hierva.", "Volver a colarlo y posteriormente mezlar los dos vasos de azúcar con la preparación.", "Colocarlo en un recipiente de vidrio en la heladera y dejarlo que fermente durante tres días.", "Cuando aparezcan burbujas en la superficie ya estrá listo el proceso de fermentación. Retirar y colar. Se sirve el líquido en vasos de vidrio.", "Espolvorear con jenjibre y/o canela, cada comensal a su gusto, y las avellanas tostadas."]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/asia/chamia.js');
-}();
-
-;
-
-/***/ }),
-/* 151 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_female = __webpack_require__(2);
-
-var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_female2.default,
-  title: "RECETAS DE VIETNAM",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "Chè chuối",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["1 c/s de semillas de sésamo.", "3 c/s de tapioca.", "350 ml de agua.", "1 pizca de sal.", "125 ml de leche de coco.", "3 c/s de azúcar.", "1 plátano.", "Mantequilla (un poco)"]
-    }],
-    sectionPreparation: [{
-      title: "Préparation.",
-      preparation: ["En una sartén se tuestan ligeramente las semillas de sésamo.", "Poner un cazo al fuego con el agua y la llevamos a ebullición. Cuando comience a hervir echamos la tapioca, bajamos el fuego al mínimo, y lo dejamos cocer 20 minutos removiendo de cuando en cuando.", "Añadimos la leche de coco, el azúcar y la sal. Removemos bien y seguimos cociendo por 3 minutos.", "Cortamos el plátano en rodajas. Reservamos algunas para la decoración y el resto las echamos en el cazo removiendo y dejando cocer durante unos minutos hasta que la mezcla espese.", "Lo ponemos en unos cuencos y dejamos templar.", "En una sartén derretimos la mantequilla y freímos ligeramente las rodajas de plátano que hemos reservado.", "Lo servimos decorando con el plátano frito y las semillas de sésamo."]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/asia/che.js');
-}();
-
-;
-
-/***/ }),
-/* 152 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_female = __webpack_require__(2);
-
-var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_female2.default,
-  title: "RECETAS CHINAS",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "Helado Frito.",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["Pan de molde. (2 cortadas por helado)", "1 poco de leche en un bol", "Tarrina helado, del que más te guste (vainilla, chocolate, nata, etc)", "Para el rebozado del helado", "1 vaso 1/2 harina", "1 vaso leche", "1 huevo"]
-    }],
-    sectionPreparation: [{
-      title: "Préparation.",
-      preparation: ["Cortamos los bordes del pan de molde o compramos pan de molde sin corteza.", "Hacemos las bolas de helado. Mojamos los bordes del pan de molde en un poco de leche y colocamos la bola de helado encima del pan.", "Cogemos el otro pan de molde y lo colocamos encima del helado cubriéndolo en forma de rombo (haciendo que se vean 8 picos de pan).", "Lo apretamos bien con las manos hasta que le demos una forma redondita y lo envolvemos en papel de plata y lo metemos en el congelador hasta que se quede igual de duro que una piedra (un día entero).", "Al día siguiente hacemos la masa/rebozado para freír el helado frito y ponemos en un bol el huevo, un vaso y medio de harina y un vaso de leche. Lo batimos bien hasta que se quede sin grumos.", "Calentamos el aceite en un recipiente hondo. Metemos el helado que hemos sacado del congelador en el bol que tenemos la masa y lo embadurnamos bien y lo freímos con cuidado cuando esté el aceite muy caliente. Lo freímos hasta que esté bien dorado.", "Una vez esté bien dorado lo sacamos y lo ponemos en un plato con una servilleta absorbente, para que absorba todo el aceite que le sobra al helado.", "Quitamos la servilleta y ponemos el helado en el plato y le podéis poner por encima lo que queráis.", "Os recomiendo que le pongáis miel ya que sabe mucho mejor y como si te lo hubieran hecho en el restaurante chino.", "También podéis ponerle por encima chocolate, siropes, etc... LO QUE QUERÁIS!! y a disfrutar de vuestro helado frito chino."]
-    }]
-  }, {
-    title: "Flan con cereales de chocolate",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["1litro leche", "200 gr azúcar moreno", "1 sobre flan chino mandarin (o para hacer flanes)", "150gramos cereales tipo arroz inflado", "canela en polvo"]
-    }],
-    sectionPreparation: [{
-      title: "Préparation.",
-      preparation: ["En un cazo vamos a poner a hervir la leche y el azúcar. Cuando hierva añadimos el sobrecito y removemos con unas varillas para evitar los grumos.", "En cada flanera vamos a poner un puñado de cereales, y verteremos la mezcla de flan, (podemos colarlo por si quedo algún resto).", "Dejaremos enfriar en nevera y en el momento de servir, vamos a ponerles por encima caramelo."]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/asia/helado.js');
-}();
-
-;
-
-/***/ }),
-/* 153 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_male = __webpack_require__(3);
-
-var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_male2.default,
-  title: "RECETAS LIBANESAS",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "Labneh",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["Medio litro de leche", "Una cucharada sopera de yogur"]
-    }],
-    sectionPreparation: [{
-      title: "Préparation.",
-      preparation: ["Calentar la leche hasta unos 45o, o hasta que podamos mantener la punta del dedo dentro de la leche unos 10 segundos, sin quemarnos.", "Diluimos el yogur en un poco de la leche caliente. Lo mezclamos con la leche, que pondremos en una olla, preferentemente, de barro. Removemos con cuchara de madera.", "Tapamos la olla de barro con la tapa o con un plato. Tapamos con un trapo y dejamos reposar 5 o 6 horas. Yo la dejé toda la noche, tapada, en el horno apagado, puesto que tardó en empezar a cuajar.", "Una vez ha tomado consistencia la leche cuajada, ponemos en el frigorífico."]
-    }]
-  }, {
-    title: "Pastel Libanenes de naranja",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["4 huevos.", "450gr. de naranjas enteras.", "200gr. Azúcar.", "1cucharadita de agua de azahar.", "8gr. levadura química", "200gr. almendra molida.", "Azúcar glas para decorar"]
-    }],
-    sectionPreparation: [{
-      title: "Préparation.",
-      preparation: ["Lavar las naranjas y cocerlas cubiertas de agua durante 15 minutos en la olla a presión. Escurrir, dejar enfriar y reservar.", "Triturar las naranjas con la batidora.", "Batir el azúcar junto con los huevos hasta que la mezcla se ponga blanquecina. Añadir el puré de naranja, el azahar y la levadura y seguir batiendo hasta que se integre.", "Añadir la almendra y mezclar de forma manual con una espátula.", "Untar un molde con mantequilla, verter la masa y hornear a 170o durante 60 minutos. Pasado ese tiempo, apagar el horno, abrir la puerta y dejar reposar otros 10 minutos.", "Una vez frío, sacarlo del molde y espolvorear por encima con azúcar glas."]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/asia/labneh.js');
-}();
-
-;
-
-/***/ }),
-/* 154 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_female = __webpack_require__(2);
-
-var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_female2.default,
-  title: "RECETAS INDIAS",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "Lassi de fresa y plátano",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["1 yogur natural sin azúcar", "3 ó 4 fresas", "Medio plátano", "Una medida y media del vaso de yogur con agua", "1 cucharadita de miel", "1 cucharadita de azúcar", "1 golpe de pimienta"]
-    }],
-    sectionPreparation: [{
-      title: "Préparation.",
-      preparation: ["Ponemos todos los ingredientes juntos y a la vez en el vaso de la batidora y trituramos unos minutos hasta que quede bien mezclado y perfectamente molido. probamos de dulzor para rectificar la cantidad de azúcar o de miel si es necesario.", "Dejamos enfriar en la nevera hasta el momento de servir. Servimos bien frío con un poco de menta picada."]
-    }]
-  }, {
-    title: "Panna cotta de thé chaï",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["2 cucharas de café de thé chaï", "60 cl de leche entera", "100 g de leche concentrada azucarada.", "1 hoja de gelatina."]
-    }],
-    sectionPreparation: [{
-      title: "Préparation.",
-      preparation: ["1. En una gran cazerola, vertir la leche, y hacerla calentar dulcemente. Adjuntar el té y dejarlo hervir durante 5 minutos. Retirarlo posteriormente del fuego, cubrirlo y dejarlo reposar durante 15 minutos.", "2. Poner la gelatina en agua fría, dejándola ablandar, escúrrela con las manos y ponla dentro del té para derretirla . Mezclalo todo y añade la leche concentrada e introduzcala en la nevera para poder enfríar."]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/asia/lassi.js');
-}();
-
-;
-
-/***/ }),
-/* 155 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_female = __webpack_require__(2);
-
-var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_female2.default,
-  title: "RECETAS DE ARABIA SAUDITA",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "Maskina.",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["2 vasos de harina.", "1 1/2 vaso de azúcar en polvo.", "1 vaso de nata.", "Frutos secos machacados"]
-    }],
-    sectionPreparation: [{
-      title: "Préparation.",
-      preparation: ["Mezclar la harina con el azúcar y la nata.", "Untar el molde con aceite, poner la mezcla igualando la superficie, untarla con aceite y esparcir los frutos secos..", "Meter en horno a temperatura mediana..", "Servir fría."]
-    }]
-  }, {
-    title: "Mohalabeya de kamar el din",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["1/2 kg de zanahoria.", "1/2 kg de zumo de naranja natural.", "2 vasos de agua.", "2 cucharadas grandes de maicena.", "Azúcar"]
-    }],
-    sectionPreparation: [{
-      title: "Préparation.",
-      preparation: ["Cocer la zanahoria, pelarla y batirla en la batidora con el zumo de naranja. Poner a fuego y endulzar con azúcar ( 3 cucharadas grandes ).", "Disolver la maicena en un poco de agua y echarla poco a poco moviendo el zumo hasta conseguir el espesor adecuado. Poner en platos y adornar con frutos secos y coco molido, dejar enfriar. Meter en frigorífico y servir fría."]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/asia/maskina.js');
-}();
-
-;
-
-/***/ }),
-/* 156 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_male = __webpack_require__(3);
-
-var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_male2.default,
-  title: "RECETAS DE SINGAPUR",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "Melocotón con de vainilla",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["Melocotones maduros", "Helado de vainilla", "Avellanas tostadas"]
-    }],
-    sectionPreparation: [{
-      title: "Préparation.",
-      preparation: ["Se pelan los melocotones y se les quita el hueso. Se pasa la carne de los melocotones por la batidora y se reservan en el frigorífico.", "A parte, se pican las avellanas procurando que queden trocitos no muy finos. En una copa se pone un poco de helado de vainilla , una buena parte de puré de melocotón y, finalmente, un puñado de avellanas troceadas y se sirve inmediatamente."]
-    }]
-  }, {
-    title: "Mochi de helado",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["1 vaso de harina de arroz.", "3/4 vaso de agua.", "1/2 vaso de azúcar.", "Helado de cualquier sabor que os guste.", "Harina de arroz para enharinar"]
-    }],
-    sectionPreparation: [{
-      title: "Préparation.",
-      preparation: ["Preparar el helado. Esperar que el helado esté un poco derretido para poder sacarlo y darle forma con facilidad.", "Utilizar un molde de hielo para formar el helado. Congelar el helado de nuevo.", "Ahora vamos a preparar la pasta. Con un batidor manual mezclar bien la harina, el agua y el azúcar en un recipiente.", "Taparlo con un plástico transparente y cocinarlo en el microondas a máxima potencia durante 5 minutos.", "Sacar el recipiente con mucho cuidado. Remover la masa con una cucharada de madera.", "Echarla en una superficie que esté enharinada con mucha cantidad de harina de arroz. Echar más harina de arroz encima de la masa. Enrollar la masa hasta que tenga 2 -3 mm de grosor.", "Utilizar un vaso pequeño de 5 cm de diámetro para dar la forma y cortar la masa.", "Meter la masa en el frigo para que esté frio.", "El paso final, ponemos el relleno en la masa. Enseguida guardarlo de nuevo en el congelador para que se quede firme.", "Sacar los mochis del congelador cuando queráis servirlo y esperad unos minutos para comerlos. Disfrutad!"]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/asia/melocoton.js');
-}();
-
-;
-
-/***/ }),
-/* 157 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_female = __webpack_require__(2);
-
-var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_female2.default,
-  title: "RECETTES ANGLAISES",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "Gâteaux de fée",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["115 g (1⁄2 tasse) de beurre sans sel", "115 g (1⁄2 tasse + 1 cuillère) de sucre semoule", "2 oeufs", "1 petite cuillère d’extrait de vanille", "115 g (7⁄8 tasse) de farine de blé avec levure", "1⁄4 petite cuillère de sell.", "1-2 cuillère à soupe (15-30 ml) de lait"]
-    }, {
-      title: "Pour le glaçage :",
-      ingredient: ["115 g (1 tasse) de sucre glace", "1-2 cuillère à soupe (15-30 ml) d’eau", "Colorants alimentaires de différentes couleurs", "30 g de chocolat au lait", "5 g (1 petite cuillère) de beurre sans sel", "Différentes petites décorations en sucre coloré (petits coeurs, étoiles, fleurs, perles, vermicelles...)"]
-    }],
-    sectionPreparation: [{
-      title: "Preparación",
-      preparation: ["Préchauffer le four à 180°C et disposer la grille au niveau intermédiaire", "Placer les caissettes à cupcakes dans le moule en silicone et réserver. Tamiser la farine avec le sel et réserver", "Dans le bol du malaxeur, ou dans un grand saladier, mélanger le beurre et le sucre à vitesse moyenne pendant environ 4 à 5 minutes jusqu’à obtenir une texture spongieuse et plus blanchâtre que le beurre. Décoller ce qui reste autour du bol.", "Ajouter les oeufs légèrement battus un à un et mélanger doucement. N’ajouter l’oeuf suivant qu’après complète incorporation du précédent.", "Ajouter l’extrait de vanille et bien mélanger.", "Incorporer la farine en deux fois. Mélanger doucement jusqu’à complète disparition des grumeaux. Incorporer pour finir le lait, une cuillère après l’autre, jusqu’à obtenir la consistance souhaitée (plus ou moins celui d’une glace fondue).", "A l’aide d’une cuillère à glace, remplir les moules et les caissettes à environ les 2⁄3 de leur contenance.", "Placer au four chaud durant 18-20 minutes ou jusqu’à ce que la pâte ait levé et soit dorée. Vérifier que les cupcakes sont cuits en les piquants avec un couteau pointu qui doit ressortir sec. Une fois cuits, les sortir du four et les laisser refroidir 5 minutes. Ensuite les démouler et laisser refroidir complètement sur une grille avant de passer à l’étape de glaçage."]
-    }, {
-      title: "Le glaçage:",
-      preparation: ["D’un côté, placer le sucre glace dans un bol et ajouter une cuillère d’eau et un peu de colorant. Mélanger énergiquement jusqu’à obtenir une pâte homogène.", "Ajouter au besoin un peu d’eau ou de colorant pour obtenir la consistance ou la couleur désirée. D’un autre côté, faire fondre le chocolat avec un peu de lait et ajouter le beurre.", "Étaler le glaçage de sucre ou de chocolat sur les cupcakes et décorer. Ajouter les autres décorations.", "Laisser sécher jusqu’à complète solidification et déguster!", "Se conserve 3 ou 4 jours à température ambiante dans un récipient fermé."]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/europe/fairy_cakes.js');
-}();
-
-;
-
-/***/ }),
-/* 158 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_female = __webpack_require__(2);
-
-var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_female2.default,
-  title: "RECETTES ALLEMANDES",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "Recette de biscuits de Pâques : Osterkekse.",
-    sectionIngredient: [{
-      title: "Ingrédients pour la pâte",
-      ingredient: ["500g de farine.", "250g de beurre.", "200g de sucre.", "2 œufs.", "1 paquet de sucre vanillé.", "Une pointe de cannelle (la pointe d’un"]
-    }, {
-      title: "Ingrédients pour le glaçage",
-      ingredient: ["1 blanc d’œuf.", "1 pincée de sel.", "200g de sucre glace.", "Du colorant alimentaire."]
-    }],
-    sectionPreparation: [{
-      title: "Préparation de la pâte pour les biscuits",
-      preparation: [" Mettre la farine dans un bol.", " Ajouter à la farine des morceaux de beurre, le sucre, les œufs, le sucre vanillé et la cannelle. Travailler le tout avec les mains jusqu’à obtenir une pate compacte.", " Enrouler la pâte en forme de boule dans un film transparent et laisser reposer dans le frigo entre 30 et 60 minutes.", " Préchauffer le four à 180°C.", " Une fois la pâte froide, enlever le film et à l’aide d’un rouleau ; travailler la pâte jusqu’à obtenir une pâte de 5 millimètres d’épaisseur. Plus fine, les biscuits se casseraient.", " Presser la pâte avec le moule de biscuit choisi et disposer les biscuits sur une plaque de four sur du papier sulfurisé.", " Mettre la plaque dans la partie moyenne du four et enfourner les biscuits pendant 10 minutes, en contrôlant qu’ils ne soient pas trop cuits.", " Une fois cuits, sortir la plaque du four et déposer les biscuits sur une surface plane. Nous recommandons de le faire en tirant le papier sulfurisé. Les laisser refroidir au-dessus du papier avant de procéder à la décoration avec le glaçage."]
-    }, {
-      title: "Elaboration du glaçage",
-      preparation: ["Monter les blancs en neige avec une pointe de sel. On peut utiliser 2 blancs d’œufs si on veut obtenir une plus grande quantité de glaçage.", "Ajouter le sucre glace aux blancs d’œuf et monter jusqu’à obtenir une crème compacte. Si le glaçage est trop liquide, mettre plus de sucre glace.", "La couleur du glaçage obtenu sera blanche. On peut colorer le glaçage avec les couleurs de notre choix, grâce aux colorants alimentaires. Déposer un peu de glaçage dans de petits bols et mélanger avec la couleur de son choix dans chaque bol.", "Remplir du glaçage une seringue de pâtissier pour décorer les biscuits. Sinon, on peut prendre un sac de congélation et le remplir du glaçage, et couper une des pointes du sac. Ou sinon avec une cuillère/couteau manuellement, en fonction de la décoration choisie.", "Décorer les biscuits selon ton goût et ton imagination."]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/europe/galletaDePascua.js');
-}();
-
-;
-
-/***/ }),
-/* 159 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_female = __webpack_require__(2);
-
-var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_female2.default,
-  title: "RECETTES ESPAGNOLES",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "Salade de fruits tropicaux",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["100g de fraises.", "3 oranges.", "2 bananes.", "Raisin vert ou rouge.", "3 tranches d’ananas frais.", "200g de pulpe de melon.", "1 citron.", "Feuilles de menthe.", "Sucre."]
-    }],
-    sectionPreparation: [{
-      title: "Préparation de salade de fruits tropicaux glacée:",
-      preparation: ["Bien laver tous les fruits. Peler 2 oranges et les couper en petits morceaux. Les disposer dans un bol.", "Eplucher les bananes et les couper en rondelles. Les mélanger avec l’orange .", "Enlever les feuilles aux fraises et les couper en deux. Les incorporer dans le bol avec les autres fruits.", "Eplucher l’ananas et couper deux rondelles. Les mettre dans le bol.", "Couper des morceaux de melon et les mettre dans le bol.", "Ajouter les raisins dans le bol.", "Sucrer selon ses gouts.", "Enfin, mettre le jus de citron et le jus d’une orange.", "Mélanger le tout et mettre la salade de fruits au frais avant de la servir."]
-    }]
-  }, {
-    title: "FLAN AUX ŒUFS",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["1⁄2 litre de lait entier.", "4 gros œufs.", "2 jaunes d’œuf.", "1 gousse de vanille ou un morceau de cannelle en branche.", "150g de sucre (pour le flan).", "1 petite cuillère de jus de citron.", "150g de sucre (pour le caramel).", "4 cuillères à soupe d’eau.", "6 moules à flan."]
-    }],
-    sectionPreparation: [{
-      title: "Recette pour faire le flan aux œufs (pour 6 flans)",
-      preparation: ["Pour préparer le caramel, mettre 150 g de sucre dans une casserole. Ajouter une petite cuillère de jus de citron et 4 grosses cuillères d’eau. Pose la casserole à feu moyen et laisse le sucre bouillir. Faire bien attention à ne pas toucher le caramel,  car ça brule beaucoup.", "Quand le caramel a une belle couleur dorée, l’enlever du feu. Verser une cuillère de caramel dans chacun des 6 moules à flan. Et secouer les un peu pour que le caramel se répande bien.", "Maintenant verser dans une casserole propre 1⁄2 litre de lait entier et faire chauffer à feu moyen.", "Ouvrir une gousse de vanille par le milieu en largeur. Enlever les graines de la vanille et verser le tout dans le lait. Laisser cuire jusqu’il soit à point de bouillir et retirer la casserole du feu et laisser reposer 30 minutes.", "Casser 4 gros œufs dans un saladier. Ajouter deux jaunes d’œuf et 150 g de sucre. Remuer légèrement afin que tout se mélange.", "Une fois que le lait a reposé 30 minutes, retirer la gousse de vanille. Allumer le four et le mettre à 160°C, chaleur en haut et en bas.", "Incorporer le lait au saladier avec les œufs et le sucre tout en remuant légèrement. Déverser le mélange dans les 6 moules.", "Mettre les moules dans un plat pour four et remplir le plat d’eau jusqu’à atteindre la moitié de la hauteur des moules. Mettre au four et cuire au bain marie pendant 40 minutes à 160°c,", "Quand les flans sont cuits, les sortir du four. Avec un gant de cuisine, retirer les moules de l’eau et attendre qu’ils refroidissent.", "Recouvrir les flans de papier film et les mettre au frigo pendant au moins 4 heures."]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/europe/macedonia.js');
-}();
-
-;
-
-/***/ }),
-/* 160 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_female = __webpack_require__(2);
-
-var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_female2.default,
-  title: "RECETTES RUSSES",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "“Pommes remplies au four \"Assorti\".",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["Confiture d’abricots- 2 cuillérées", "Des pignons – une cuillérée", "Gingembre en poudre- une pincée", "Sirop de fraises – 2 cuillérées", "Semoule – une cuillérée", "Vanille- une pincée", "Miel- une cuillérée", "Noix- 3 unités", "Eau – 3 cuillérées", "Pommes vertes – 3 unités", "Cannelle- une pincée"]
-    }],
-    sectionPreparation: [{
-      title: "Préparation de la salade de fruits tropicaux glacée",
-      preparation: ["Laver les pommes et les évider avec un couteau spécial ou habituel. Il se formera alors un trou où l’on pourra verser de la confiture d’abricots.", "Verser dans un moule de l’eau (optionnel). Mettre les pommes dans le moule. Dans la première pomme, mettre de la confiture d’abricot, puis ajouter des pignons et une pincée de gingembre, selon vos gouts.", "Remplir la deuxième pomme avec le sirop de fraises, mélangé avec de la semoule et saupoudrer de vanille.", "Dans la troisième pommes, mettre les noix, remplir avec du miel et saupoudrer de cannelle. Mettre au four préchauffé jusqu’à 200°C pendant 20-30 minutes. Servir chaudes ou froides."]
-    }]
-  }, {
-    title: "Gâteau aux carottes",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["Œufs – 4 unités", "Sucre – 2 tasses", "Beurre", "Huile de tournesol -1,5 tasse", "Farine- 2 tasses", "Carottes rapées : 3 tasses", "Noix 120g", "Cannelle moulue – 2 cuillérées", "Soude – 2 cuillérées", "Sel- une cuillérée"]
-    }],
-    sectionPreparation: [{
-      title: "Preparación",
-      preparation: ["Mélanger les œufs, le sucre et le beurre. Mélanger à part les ingrédients secs, mélanger le tout et ajouter les carottes et les noix. Mettre la pâte dans un moule et enfourner à 160°C .", "Le gâteau peut se couper en deux tartes. Mettre la crème mascarpone ou une crème fouettée 35%  MG au milieu."]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/europe/manzanasAsadas.js');
-}();
-
-;
-
-/***/ }),
-/* 161 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_male = __webpack_require__(3);
-
-var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_male2.default,
-  title: "RECETTES ITALIENNNES",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "Mousse au chocolat",
-    sectionIngredient: [{
-      title: "Ingrédients pour 4 personnes",
-      ingredient: ["100g de cacao doux.", "40 g de sucre.", "400ml de crème fouettée pour dessert.", "Un peu de vanille."]
-    }],
-    sectionPreparation: [{
-      title: "Préparation de la mousse au chocolat.",
-      preparation: ["Verser le cacao dans une petite casserole, en le faisant chauffer avec un tout petit peu d’eau (10ml) pour qu’il se dissolve. Dans une autre casserole, répéter l’opération avec le sucre. Ensuite, ajouter le cacao dissout avec le sucre et laisser le tout refroidir.", "Mélanger la crème fouettée et la vanille, déverser dans une coupe en verre et ajouter des morceaux de chocolat ou de fruits confits, selon les gouts. Mettre au frigo avant de servir."]
-    }]
-  }, {
-    title: "Saucisson au chocolat",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["100g de beurre (ou margarine).", "200g de chocolat noir 70%.", "2 jaunes d’œuf*", "8 biscuits (80g) au beurre.", "7 biscuits à la cuillère (40g).", "Un mélange de 40g d’amandes pelées, noisettes et de pignons.", "1-2 cuillères de sucre en poudre pour recouvrir."]
-    }],
-    sectionPreparation: [{
-      title: "Recette pour faire le saucisson au chocolat",
-      preparation: ["Casser le chocolat et le mettre dans une grosse tasse ou récipient résistant à la chaleur. Ajouter le beurre coupé en morceaux et mettre le récipient dans un pot d’eau bouillante (la partie inférieure du récipient ne doit pas toucher l’eau). Faire cuire au bain marie à feu doux, en remuant de temps en temps avec une cuillère en bois.", "Une fois que le mélange cuit et forme un ensemble crémeux et doux, retirer du bain marie et laisser refroidir. Ensuite, ajouter les jaunes d’œuf. Mélanger de manière uniforme et mettre de côté pendant que l’on prépare les biscuits.", "Couper les biscuits en morceaux irréguliers (pour simuler le gras du saucisson) et incorporer au mélange de chocolat (en incluant des miettes) les fruits secs entiers. Remuer jusqu’à obtenir une pate qui puisse se malaxer facilement avec les mains.", "Préparer un grand rectangle de papier aluminium et du papier film. Etendre le papier film d’une longueur de 35 cm et enrouler le mélange et doubler les extrémités pour lui donner une forme de saucisson. Doubler les extrémités du plastique en tournant.", "Enrouler le saucisson en chocolat avec du papier aluminium et le mettre au frais plusieurs heures (minimum 3 heures) ou une nuit pour qu’il durcisse. Pour les plus impatients, le mettre au congélateur pendant une demi-heure.", "Le lendemain, ou quand le saucisson est dur, le faire rouler sur le plan de travail pour lui donner forme et retirer le papier aluminium et le plastique.", "Verser du sucre en poudre sur le plan de travail et faire rouler le saucisson dedans pour bien qu’il s’imprègne. Avec un pinceau, enlever l’excès de sucre avant de le couper en tranches pas très fines et servir de préférence sur une planche de bois pour faire illusion."]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/europe/mouse.js');
-}();
-
-;
-
-/***/ }),
-/* 162 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_male = __webpack_require__(3);
-
-var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_male2.default,
-  title: "RECETTES FRANÇAISES",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "Mousse au chocolat à l’avocat",
-    sectionIngredient: [{
-      title: "Ingrédients pour 2 personnes",
-      ingredient: ["110g de chocolat à pâtisseries, en morceaux", "4 cuillères de lait de coco épaix", "1 avocat mûr", "1⁄2 cuillère d’extrait de vanille", "1 pincée de sel", "3 cuillères à soupe de miel", "1 petite cuillère de zeste d’orange", "1⁄2 cuillère de poivre rouge mouliné"]
-    }],
-    sectionPreparation: [{
-      title: "Preparación",
-      preparation: ["fondre le chocolat au bain-marie avec le lait de coco. Mélanger.", "Laisser refroidir et mélanger avec le reste des ingrédients jusqu’à obtenir un mélange homogène."]
-    }]
-  }, {
-    title: "Tarta Tatin",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["200g de farine de blé", "125g de sucre fin", "1 pincée de sel", "1 jaune d’œuf", "25mL d’eau", "60g de beurre", "80g de sucre fin", "1 cuillère à soupe de sucre fin", "1kg de pommes pelées et coupées en tranches", "80g de beurre ramolli et coupé et morceaux"]
-    }],
-    sectionPreparation: [{
-      title: "Preparación",
-      preparation: ["tamiser la farine et ajouter 125g de sucre et le sel. Former un puit au centre et remplir du beurre coupé en morceaux. Mélanger jusqu’à obtenir une consistance sablonneuse. Ajouter le jaune d’œuf et l’eau, et pétrir jusqu’à former une boule. Envelopper la pâte dans du film plastique et laisser reposer 1 à 2h au réfrigérateur.", "Faire fondre le beurre un moule de 23cm de diamètre sur un feu moyen. Quand le beurre est fondu, ajouter 80g de sucre et bien mélanger", "Placer les pommes le plus serrées possible dans le moule. Saupoudrer de la cuillère de sucre restant et les laisser caraméliser à feu moyen pendant 12min environ.", "Quand les pommes sont caramélisées, retirer du feu. Laisser le moins possible d’espace entre les pommes.", "Préchauffer le four à 200 degrés", "Sortir la pâte du frigo, l’étaler sur une surface enfarinée. Créer un cercle d’environ 5mm d’épaisseur et d’un diamètre de 3cm de plus que le moule.", "Placer la pâte sur les pommes en bordant les côtés à l’intérieur du moule.", "Enfourner pendant 30min", "Retirer du four et laisser refroidir 10min. Retourner la tarte Tatin sur un plat. Déguster cette tarte seule ou avec un peu de crème fraiche ou une boule de glace à la vanille."]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/europe/mousseDeChocolate.js');
-}();
-
-;
-
-/***/ }),
-/* 163 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_female = __webpack_require__(2);
-
-var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_female2.default,
-  title: "RECETTES SERBES",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "Tarte de Belgrade",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["13 jaunes d’œuf", "10 blancs montés en neige", "275g de sucre", "135g de fruits confits", "1 tablette de chocolat", "2 cuillérées de farine"]
-    }],
-    sectionPreparation: [{
-      title: "Préparation.",
-      preparation: ["Mélanger les jaunes d’œuf avec le sucre jusqu’à obtenir une crème mousseuse.", "Ajouter les amandes, les fruits confits et la farine.", "Fondre le chocolat dans un peu de lait et incorporer le mélange fait précédemment.", "Battre les blancs en neige et mélanger le tout avec attention, jusqu’à obtenir un mélange homogène.", "Verser le résultat dans un moule graissé au préalable avec du beurre, mettre le tout au four et faire reposer pendant 3⁄4 heure.", "Enfin, retirer le gâteau, laisser refroidir et servir."]
-    }]
-  }, {
-    title: "DOUCEUR DE COING DE JAGODINA",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["1 Kg de coing", "1 kg de sucre"]
-    }],
-    sectionPreparation: [{
-      title: "Préparation:",
-      preparation: ["Laver les coings et les cuire dans beaucoup d’eau jusqu’à ce qu’ils ramollissent et que la peau commence à plisser.", "Les égoutter, les éplucher et les couper en morceaux. Les passer au batteur ou presse-purée. Peser la pulpe obtenue et la mélanger avec le même poids de sucre.", "Cuire à feu doux pendant 25 minutes, en remuant le mélange sans arrêt pour éviter qu’il accroche. Afin de voir si la cuisson est idéale, verser une petite portion sur une assiette et voir s’il se solidifie immédiatement.", "Retirer du feu, verser dans un grand moule ou en plusieurs petits et mettre au frigo."]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/europe/tarta.js');
-}();
-
-;
-
-/***/ }),
-/* 164 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_female = __webpack_require__(2);
-
-var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_female2.default,
-  title: "RECETTES AUSTRALIENNES",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "ALBA",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["Sucre", "2 citrons", "Glace au choix"]
-    }],
-    sectionPreparation: [{
-      title: "Préparation.",
-      preparation: ["Mélanger les citrons avec le sucre et prendre son parfum de glace préféré, incorporer et mettre une heure au congélateur."]
-    }]
-  }, {
-    title: "Paletas de Mango",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["3 mangues mures.", "sucre.", "eau.", "1 coupelle pour boules de glace."]
-    }],
-    sectionPreparation: [{
-      title: "Préparation:",
-      preparation: ["Peler les mangues.", "Couper jusqu’à obtenir la pulpe.", "Mélanger avec le sucre et l’eau.", "Vider le jus dans des petites coupelles à glace et mettre au congélateur"]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/oceania/alba.js');
-}();
-
-;
-
-/***/ }),
-/* 165 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_male = __webpack_require__(3);
-
-var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_male2.default,
-  title: "RECETTE DE VANUATU",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "GLACE A LA MANGUE",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["1 tasse de pulpe de mangue.", "1 tasse de sucre.", "1 tasse de lait.", "1 capsule de lait condensé.", "4 oeufs", "1 cuillère de jus de citron.", "Una pincée de sel."]
-    }],
-    sectionPreparation: [{
-      title: "Préparation:.",
-      preparation: ["Chauffer le lait et éteindre à ébullition.", "Battre les œufs avec le sucre, ajouter le lait chaud peu à peu sans arrêter de battre. Ensuite, ajouter le lait condensé et la pulpe de mangue, le jus de citron et une pincée de sel. Bien mélanger.", "Laisser refroidir, et mettre au congélateur pendant 12 heures.", "Le lendemain, retirer du congélateur et mettre le contenu 30 minutes dans la machine à glace.", "Pour obtenir une texture pour dense de la glace, la laisser ensuite reposer 30 minutes de nouveau au congélateur"]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/oceania/helado.js');
-}();
-
-;
-
-/***/ }),
-/* 166 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pipilet_male = __webpack_require__(3);
-
-var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
-
-var _pipiletCooker = __webpack_require__(0);
-
-var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = {
-  flag: _pipilet_male2.default,
-  title: "RECETTES NEO-ZELANDAISES.",
-  imagePipilet: _pipiletCooker2.default,
-  recipe: [{
-    title: "PAVLOVA",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["3 blancs d’oeuf.", "Le double du poids des blancs en sucre", "Quelques gouttes de citron.", "1 petite cuillère de vinaigre", "1 cuillérée de Maizena", "350 ml de crème liquide pour monter les blancs.", "Fraises ou fruits de votre choix"]
-    }],
-    sectionPreparation: [{
-      title: "Préparation:.",
-      preparation: ["Monter les blancs en neige avec le sucre. Ajouter ensuite les gouttes de citron, le vinaigre, la maizena, et le sucre versé en pluie. Mélanger le tout jusqu’à obtenir une consistance épaisse et Monter avec le batteur en faisant des pics.", "Dans un papier à four spécial, dessiner des cercles de la taille que vous souhaitez pour les meringues. Prendre une grille pour four et mettre le papier.", "Ensuite, mettre la meringue dans les cercles en les dessinant bien ronds et faisant une espèce de nid, plus de quantité pour les bords et un peu moins au centre. La hauteur est à définir selon vos envies. En moyenne, 3 doigts de hauteur.", "Les mettre dans le four à 140 degrés sans air ou 120 si votre four n’a que l’option air. Pendant 2 heures approximativement.", "Les retirer et les laisser refroidir un moment pour les remplir par la suite.", "Pour les remplir à l’intérieur, donner des petits et doux coups avec une cuillère pour obtenir un trou et les remplir de crème montée.", "Les mettre dans un plat à dessert et les décorer au-dessus avec un peu de crème et de fruits: mangue, framboises, cerises, fraises (selon vos gouts"]
-    }]
-  }, {
-    title: "HOT CROSS BUN",
-    sectionIngredient: [{
-      title: "Ingrédients:",
-      ingredient: ["375 gr de grosse farine.", "4 gr. De levure sèche (12 gr. fraiche).", "1/2 petite cuillère de cannelle.", "1/4 petite cuillère de gingembre.", "1/4 petite cuillère de noix de muscade.", "1/4 petite cuillère de cardamone.", "1/2 petite cuillère de sel.", "1 oeuf.", "175 ml. de lait entier.", "50 gr. de sucre.", "35 gr. de beurre.", "raisins secs (ou morceau de chocolat).", "oeuf battu pour peindre"]
-    }],
-    sectionPreparation: [{
-      title: "Préparation:",
-      preparation: ["Mélanger tous les ingrédients secs dans un bol, les épices, la farine, le sucre, le sel ...", "Dissoudre la levure avec le lait entier et ajouter au mélange précédent avec l’oeuf battu. Bien mélanger et pétrir.", "Ajouter à la pâte le beurre à température ambiante et recommencer à pétrir jusqu’à ce qu’il s’intègre bien. Une fois la pâte homogène et lisse, ajouter les raisins secs ou les morceaux de chocolat. Réserver dans un bol enfariné et recouvrir ; laisser reposer pendant une heure jusqu’à ce qu’elle double de volume.", "Diviser la pâte en petites portions (50- 60 gr.), lui donner la forme de brioche, et réserver sur la plaque du four en ligne et recouvrir pendant 45 minutes.", "Une fois qu’ils ont doublé de volume, les peindre avec l’oeuf battu et faire la pâte pour la croix: pour cela, mélanger la farine avec le sucre glace et ajouter de l’eau jusqu’à obtenir un mélange épais. Une fois obtenu, le mettre une poche pâtissière et dessiner des croix sur les petits pain..", "Mettre au four pendant 15- 20 minutes à 180oC, jusqu’à ce qu’ils soient dorés. Laisser refroidir. C’est pret"]
-    }]
-  }]
-};
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/cook/fr/oceania/pavlova.js');
-}();
-
-;
-
-/***/ }),
 /* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7738,11 +7742,11 @@ var _default = {
   recipe: [{
     title: "BANANAS DULCES EN SALSA DE NARANJA",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["4 plátanos poco maduros.", "1⁄2 taza de jugo de naranja recién exprimido", "1 cucharada de jugo de limón fresco exprimido", "1⁄2 taza de azúcar morena", "Helado de vainilla"]
     }],
     sectionPreparation: [{
-      title: "Preparación.",
+      title: "Preparación:",
       preparation: ["Calentar el jugo de naranja, jugo de limón y el azúcar moreno en una sartén durante unos 15 minutos. Debe reducir y espesar en un jarabe.", "Pelar los plátanos o bananas, cortándolos por la mitad y cocinar en el jarabe hasta que se caliente.", "Servir inmediatamente sobre el helado de vainilla."]
     }]
   }]
@@ -7788,24 +7792,24 @@ var _default = {
   recipe: [{
     title: "Bizcocho de limón",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["200 g harina.", "150 g azúcar.", "100 ml aceite.", "4 huevos.", "ralladura de un limón.", "2 cucharadas de zumo de limón."]
     }, {
       title: "Para la decoración",
       ingredient: ["fidios de chocolate", "1 yogur de limón cremoso"]
     }],
     sectionPreparation: [{
-      title: "Preparación.",
+      title: "Preparación:",
       preparation: ["Dentro de un bol echamos los huevos y el azúcar, mezclamos todo muy bien, después añadimos el aceite, la ralladura de limón y dos cucharadas de zumo de limón, mezclamos todo de nuevo.", "Aparte en otro bol mezclamos el harina y levadura química y la añadimos a la primera mezcla.", "A continuación ponemos la mezcla en un molde enharinado y lo metemos en el horno a 180 grados sólo de fuego abajo y cuando esté cocido lo pongo el fuego de arriba para que coja más calor (más o menos 30 minutos).", "Cuando lo sacamos de el horno metemos un cuchillo dentro para comprobar si está listo, por lo que si sale limpio, está listo sólo hay que dejarlo enfriar .", "Una vez frío lo sacamos del molde y lo ponemos en una fuente para servir."]
     }]
   }, {
     title: "Tarta de flan y chocolate",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["Un paquete y medio de galletas cuadradas (las que más os gusten)", "Un poco de leche (para mojar las galletas)", "1 litro de leche (para el flan)", "2 sobres de flan", "4-5 cucharadas de azúcar para el flan (según el gusto)", "200 gramos de chocolate negro de repostería", "(para cubrir la tarta)", "1 cuchara grande de mantequilla", "(para fundir el chocolate)", "1 brik pequeño de nata líquida (para fundir el chocolate)", "Coco rallado (para decorar)"]
     }],
     sectionPreparation: [{
-      title: "Receta",
+      title: "Receta:",
       preparation: ["Cogemos un molde cuadrado. Lo primero que haremos será hacer la base de la tarta. Para ello vamos mojando las galletas en un poco de leche y las vamos colocando sobre el molde. Haremos una base de dos pisos de galletas.", "Hacemos el flan como lo indica el fabricante en el envase. Para ello necesitamos 1 litro de leche. Separamos un poco en un vaso grande y ponemos el resto en un cazo a calentar a fuego medio con el azúcar. Removemos de vez en cuando. En el vaso que hemos separado,  disolvemos los sobres de preparado para flan. Cuando la leche del cazo empiece a hervir,  añadimos el vaso con los polvos del flan sin parar de remover hasta que espese y vuelva a hervir.", "Cuando el flan esté listo lo vertemos sobre nuestra base de galletas.", "Encima del flan ponemos otra capa doble de galletas mojadas en leche.", "Ahora preparamos nuestra cobertura de chocolate. Ponemos a calentar la nata líquida a fuego medio. Cuando hierva apagamos el fuego y añadimos el chocolate a trozos sin parar de remover para que se funda. Cuando se haya fundido añadimos 1 cuchara grande de mantequilla y movemos bien. Esto le dará brillo al chocolate.", "Cuando la cobertura de chocolate esté lista la echamos sobre la última capa de galletas. Decoramos por encima con coco rallado.", "Ahora esperamos que se enfríe un poco y la metemos al frigorífico unas horas antes de servir."]
     }]
   }]
@@ -7851,11 +7855,11 @@ var _default = {
   recipe: [{
     title: "GHRIYBA",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["250 gr. de almendra molida", "50 gr. de mantequilla en pomada", "100 gr. de azúcar glas", "1 huevo a temperatura ambiente", "Almendras fileteadas, enteras o dátiles, como en mi caso, para decorar", "Miel para rociar"]
     }],
     sectionPreparation: [{
-      title: "Preparación.",
+      title: "Preparación:",
       preparation: ["Precalentar el horno y dejarlo a 190o.", "Mezclar las almendras, el azúcar, la mantequilla y el huevo hasta tener una pasta homogénea.", "Dejar reposar 30 minutos en el frigorífico.", "Hacer bolas del tamaño de una pelota de golf y poner en bandeja de horno con papel vegetal.", "Aplanar un poco y colocar el adorno deseado.", "Hornear unos 20 minutos dependiendo de hornos.", "Dejar enfriar en la propia rejilla del horno.", "Con un pincel huntar la ghriyba con miel."]
     }]
   }]
@@ -7901,21 +7905,21 @@ var _default = {
   recipe: [{
     title: "GUZEYA",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["1 vaso de coco rallado", "1 vaso de azúcar", "Clara de 2 huevos", "Esencia de vainilla", "Mantequilla en cantidad necesaria.", "Aceite en cantidad necesaria."]
     }],
     sectionPreparation: [{
-      title: "Preparación.",
+      title: "Preparación:",
       preparation: ["Batir la clara hasta que se endurezca.", "En un recipiente aparte mezclar el coco, el azúcar y la vainilla.", "Añadir la clara con movimiento envolvente para unificar.", "Untar el molde con aceite o mantequilla derridita, poner la masa igualando la superficie, untar con aceite y meter en el horno a temperatura mediana.", "Cuando esté la superficie tostada, sacar del horno y volcar La Guzeya en un plato.", "Servir fría."]
     }]
   }, {
     title: "Arroz con leche y frutos secos",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["2 vasos de arroz", "1 vaso de azúcar", "1 vaso de leche", "1 cucharada grande de aceite", "Frutos secos machacados"]
     }],
     sectionPreparation: [{
-      title: "Receta",
+      title: "Receta:",
       preparation: ["Moler el arroz 2/ 3 veces.", "Añadir leche, azúcar y aceite y poner al fuego moviendo constantemente.", "Bajar la temperatura hasta que forme una masa.", "Untar el molde con aceite, esparcir los frutos secos, poner la masa, igualar la superficie con lamano.", "Untar la superficie con aceite, esparcir frutos secos y meter en el horno hasta que esté tostada.", "Servir fría."]
     }]
   }]
@@ -7961,11 +7965,11 @@ var _default = {
   recipe: [{
     title: "MANGO HELADO",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["2 tazas de mangos .", "Un brick mediano de nata.", "Azúcar.", "Cáscara de limón.", "Leche condensada.", "Sal."]
     }],
     sectionPreparation: [{
-      title: "Preparación.",
+      title: "Preparación:",
       preparation: ["Machacar las 2 tazas de mango, haciendo un puré de ellos.", "En la batidora echar la nata, 1/2 taza de azúcar hasta quedar bien espesa.", "Unir al puré de los mangos 2 cucharadas de cáscara de limón finas, 1/2 taza de leche condensada y media cucharilla de sal.", "Unir la nata con todo ello y ponerlo en el congelador."]
     }]
   }]
@@ -8011,11 +8015,11 @@ var _default = {
   recipe: [{
     title: "TORTA MAGALASY DE MADAGASCAR",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["2 tazas de leche", "1 vaina de vainilla", "4 cucharadas de azúcar", "1 pizca de nuez moscada", "1 pizca de clavo de olor", "5 cucharadas de tapioca", "2 cucharadas de crema", "4 bananas bien maduras", "30 g de mantequilla", "4 huevos"]
     }],
     sectionPreparation: [{
-      title: "Preparación.",
+      title: "Preparación:",
       preparation: ["Mezclar en una cacerola, la leche, la vainilla, el azúcar, la nuez moscada y el clavo, llevar a punto de ebullición.", "Retirar del fuego, agregar la tapioca a la mezcla y volver a poner a fuego lento, dejar cocer 10 minutos, y revolver de vez en cuando.", "Mientras se cocina la tapioca, precalentar el horno a 180 grados.", "Retire la tapioca de fuego, retirar la vaina de vainilla y agregar la crema.", "Hacer un puré con las bananas y agregarlas a la tapioca.", "Enmantecar un molde.", "Incorporar los huevos, uno a uno a la mezcla mientras se bate con una espátula.", "Cocinar por 20 minutos.", "Servir caliente o tibia en el plato de Postre."]
     }]
   }]
@@ -8061,21 +8065,21 @@ var _default = {
   recipe: [{
     title: "Dátiles rellenos de pasta de almendras",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["40 dátiles sin hueso (dependiendo del tamaño)", "150 gramos de almendra molida en polvo", "150 gramos de azúcar glas", "1 cuchara grande de margarina a temperaturaambiente", "Unas gotitas de agua de azahar", "1 clara de huevo", "50 gramos de azúcar normal (para decorar)", "colorante alimenticio (opcional)"]
     }],
     sectionPreparation: [{
-      title: "Preparación de la macedonia de frutas tropicales helada.",
+      title: "Preparación de la macedonia de frutas tropicales helada:",
       preparation: ["En un recipiente mezclamos la almendra molida con el azúcar glas y mezclamos.", "Añadimos la margarina, la clara de huevo y unas gotitas de agua de azahar al gusto. Mezclamos con las manos hasta obtener una pasta de almendras homogénea. (Mucha gente le pone colorantes alimentarios a la masa para hacer dátiles de distintos colores.", "Cogemos un poco de pasta de almendra y le damos la forma de un dátil.", "Abrimos el dátil y lo rellenamos con la pasta de almendras.", "Cuando los tengamos todos rellenos cogemos un cuchillo muy afilado y trazamos algunas estrías en la parte que sobresale de la pasta de dátil para decorarlo.", "Cuando estén todos decorados con estrías los pasamos por azúcar normal para decorarlos."]
     }]
   }, {
     title: "Tarta de galletas y chocolate",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["Un paquete de galletas redondas.", "100 grs de chocolate de cobertura.", "300 grs de mantequilla.", "150 grs de azúcar.", "2 huevos.", "50 grs de cacao en polvo"]
     }],
     sectionPreparation: [{
-      title: "Receta",
+      title: "Receta:",
       preparation: ["1. Utilizar un molde de cristal.", "2. En un recipiente apto para microondas, derretir la mantequilla y el chocolate cortado en trozos hasta que se funda, retirar y añadir los huevos, el azúcar y el cacao en polvo. Batir bien.", "3. Poner una capa de esta mezcla en el fondo del molde cubrir con una capa de galletas, por capa así sucesivamente acabando con una capa de chocolate.", "4. Una vez terminada, ponerla en el frigorífico hasta que quede bien consistente."]
     }]
   }]
@@ -8121,11 +8125,11 @@ var _default = {
   recipe: [{
     title: "MANGO FOOL",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["9 yemas de huevo", "150 gr. mantequilla", "150 gr. azúcar glas.", "1 limón rallado", "500 gr. maicena", "1 cucharadita de levadura Royal"]
     }],
     sectionPreparation: [{
-      title: "Preparación",
+      title: "Preparación:",
       preparation: ["Batir 150grs de manteca con 150grs de azúcar glas.", "Luego ir agregano de una en una las yemas hasta un total de 9 yemas mientras se bate.", "Añadir la esencia de vainilla y la ralladura de limón.", "Aparte tamizar 500grs de maizena con 1cucharadita de polvo para hornear (Royal).", "Añadir 500 grs de maizena y una cucharadita de levadura royal.", "Posteriormente dejamos descansar la masa como mínimo 1hora. en la nevera.", "Una vez enfriada pasamos a estirar la masa, dejando unos 50 cm de altura, cortamos la masa con un molde que tengamos redondo, para realizar los alfajores.", "Colocarmos todos los alfajores cortados en una placa de horno entre 170o a 180o, aproximadamente unos 4 a 5 minutos, controlando que no se quemen. La masa no se debe de dorar pero si debe de estar hecha por dentro.", "Posteriormente los sacamos del horno, dejándolos enfriar.", "Una vez enfriados los alfajores se pasará a poner una capa de dulce de leche entre dos los dos alfajores y se le añadirá también algo de coco rallado"]
     }]
   }]
@@ -8171,17 +8175,17 @@ var _default = {
   recipe: [{
     title: "BANANA AL ZUMO DE NARANJA",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["4 bananas", "4 naranjas", "2 limones", "125 g de azúcar", "Un copo de manteca"]
     }],
     sectionPreparation: [{
-      title: "Preparación",
+      title: "Preparación:",
       preparation: ["Se enmanteca una cazuela térmica.", "Se pelan las bananas y se cortan en rodajitas.", "Se pelan dos naranjas, se cortan en rodajas.", "Se exprime la pulpa de las naranjas restantes y de los limones y se deja aparte el zumo.", "Se colocan en la cazuela las rodajitas de banana; posteriormente colocamos las naranjas cortadas en rodajas encima de los plátanos, se espolvorea con el azúcar y se rocía con el zumo que se había apartado.", "Se introduce el recipiente en el horno a calor moderado y se deja hasta que la superficie se coloree ligeramente."]
     }]
   }, {
     title: "PLÁTANO FRITO HAITIANO",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["3 plátanos maduros", "1 cucharada de harina", "1/2 cucharadita de canela en polvo", "1/2 cucharadita de extracto de vainilla", "1 cucharada de azúcar", "1/8 cdta de bicarbonato de soda", "Azúcar (opcional)"]
     }],
     sectionPreparation: [{
@@ -8231,21 +8235,21 @@ var _default = {
   recipe: [{
     title: "Bizcocho de nutella",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["1 taza y 1/2 Harina.", "2 Huevos", "1 cucharada de azúcar", "1 taza y 1/2 de Nutella", "1 cucharada de extracto de vainilla", "1 taza leche", "Una pizca de bicarbonato."]
     }],
     sectionPreparation: [{
-      title: "Preparación",
+      title: "Preparación:",
       preparation: ["En un envase grande, echar los ingredientes secos primeros y luego los más líquidos.", "Mezcla todo hasta obtener una mezcla espesa.", "Finalmente, llena la bandeja o taza toda de mantequilla, luego echa la mezcla del bizcocho.", "Si es en bandeja usaras el horno a 250° para que en las observaciones te sientas seguro y en 25 minutos o más con un palillo introdúcelo en el bizcocho, si sale mojado no esta hecho y si no sale nada es que ya esta.", "Añade frutas para la decoración."]
     }]
   }, {
     title: "Receta de Helado de Oreo",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["12 Unidades Galleta Oreo", "2 Botes Crema de leche fresca", "1 Lata Leche condensada"]
     }],
     sectionPreparation: [{
-      title: "Preparación",
+      title: "Preparación:",
       preparation: ["Rompe las galletas Oreo en trozos más o menos pequeños y resérvalos en un bol.", "Después bate la crema de leche en un bol de aluminio previamente enfriado en la nevera a ser posible, para que la crema quede espesa y hacer como una chantilly.", "Luego añade la leche condensada y las galletas y mézclalo todo bien. Seguidamente, vierte el preparado en una bandeja de horno o en un molde para hacer helados y guárdalo en el refrigerador durante al menos 6 horas, o en el congelador durante 3 horas.", "Una vez pasado ese tiempo, el de helado de Oreo fácil ¡está listo para servir! Te recomendamos que lo consumas rápidamente ya que se derrite muy rápido si no está en la nevera."]
     }]
   }]
@@ -8291,11 +8295,11 @@ var _default = {
   recipe: [{
     title: "Cupcakes Para Navidad",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["2-1/4 Tazas de harina (315g).", "2 Huevos completos (yema y clara).", "1 Taza de leche (240ml).", "1 Taza de azúcar (200g).", "1 Cucharadita de vainilla.", "1/2 Taza de aceite (120ml).", "2 Cucharaditas de polvos de hornear.", "1/2 Paquete de queso crema", "2 Tazas de azúcar .", "1 Cucharadita de vainilla.", "Leche (opcional)."]
     }],
     sectionPreparation: [{
-      title: "Preparación Cupcakes",
+      title: "Preparación Cupcakes:",
       preparation: ["Comenzamos a preparar la base de esta Receta de Cupcakes para Navidad, encendiendo el horno a fuego mediano y dejando pre-calentar.", "Mientras el horno se calienta colocamos los huevos en un recipiente adecuado y le agregamos el azúcar, batiendo la mezcla hasta que alcance un punto espumoso y su color se aclare.", "Añadimos entonces la vainilla y continuamos batiendo por un minuto mas para incorporar bien todo.", "Agregando de a poco la harina, de forma circular en el recipiente y vamos mezclando suavemente con la ayuda de un batidor.", "Cuando ya la harina este totalmente incorporada reservamos la mezcla.", "Colocamos el papel en los moldes para cupcakes o muffins y añadimos a cada uno un poco de mantequilla para engrasar su superficie.", "Vertemos la base de los cupcakes en cada molde y llevamos al horno pre-calentado.", "Dejamos hornear por alrededor de veinticinco minutos o hasta que al introducir un palito en el centro de los cupcakes, este salga seco y sin restos.", "En ese momento retiramos del horno y dejamos enfriar."]
     }, {
       title: "Preparando la cobertura:",
@@ -8344,11 +8348,11 @@ var _default = {
   recipe: [{
     title: "MANGO FOOL",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["3-4 mangos maduros, pelados, cortados en trozosgrandes", "5 cucharadas de azúcar", "1 cáscara de limón y jugo", "1 taza de crema de leche", "1 cucharadita de extracto de vainilla", "1⁄4 cucharadita de nuez moscada"]
     }],
     sectionPreparation: [{
-      title: "Preparación",
+      title: "Preparación:",
       preparation: ["Mezclar los mangos en una licuadora o procesador de alimentos junto con el jugo de limón y unas 2-3 cucharadas de azúcar.", "Dejalo a un lado.", "Con una batidora combinar la crema de leche, con 1 cucharada de azúcar, la ralladura de limón y la vainilla.", "Mezclar el jugo de limón y el azúcar adicional.", "Bate a alta velocidad hasta que se formen picos.", "Para el montaje, dividir la mitad del puré de mango entre los vasos; alternar la crema batida, el puré y los cubitos de mando de acuerdo con sus preferencias. Enfriar hasta que esté listo para servir."]
     }]
   }]
@@ -8394,17 +8398,17 @@ var _default = {
   recipe: [{
     title: "Quindim",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["4 huevos", "2 yemas", "4 cuch azúcar", "1 lata leche condensada", "Coco rallado", "1 bote leche de coco"]
     }],
     sectionPreparation: [{
-      title: "Preparación",
+      title: "Preparación:",
       preparation: ["Batir los 2 huevos y las 4 yemas con las 4 cucharadas de azúcar.", "Acaramelar un molde.", "En un bowl colocar el coco rallado junto a la leche de coco para que se hidrate.", "Agregarle una lata de leche condensada y los huevos batidos.", "Pasar todo al molde.", "Cocinar en un molde a baño María unos 40 minutos. Y listo!"]
     }]
   }, {
     title: "Mousse de Maracuyá o Fruta de la pasión",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["2 o 3 piezas de maracuyá o fruta de la pasión", "1 lata de leche condensada", "1 taza de jugo de maracuyá (fresco o congelado)", "1 lata de crema de leche", "6 huevos", "2 hojas de gelatina sin sabor"]
     }],
     sectionPreparation: [{
@@ -8454,11 +8458,11 @@ var _default = {
   recipe: [{
     title: "Trempettes",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["125 gr de harina .", "una pizca de sal", "1 huevo y 1 yema de huevo", "300 ml de leche", "15 ml de mantequilla derretida", "Miel de arce pura", "mantequilla"]
     }],
     sectionPreparation: [{
-      title: "Preparación",
+      title: "Preparación:",
       preparation: ["Coloca la harina y la sal un recipiente grande, luego haz un hueco en el centro de la harina.", "Pon dentro del hueco que has hecho el huevo entero y la yema de otro.", "Incorpora lentamente la mitad de la leche revolviendo continuamente.", "Con ayuda de un batidor, introduce la mantequilla derretida y bate todo hasta obtener una masa cremosa.", "Posteriormente agrega el resto de la leche y déjalo en reposo durante una hora antes de hacer los crepes."]
     }]
   }]
@@ -8504,21 +8508,21 @@ var _default = {
   recipe: [{
     title: "Chamia",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["Una taza y media de harina de maíz.", "Una taza de azúcar.", "Seis huevos.", "50 gramos de mantequilla.", "Una cucharadita de bicarbonato de sodio.", "Media taza de leche.", "Gotas de esencia de vainilla.", "Almendras para adornar."]
     }],
     sectionPreparation: [{
-      title: "Preparación.",
+      title: "Preparación:",
       preparation: ["Comienza mezclando la mantequilla con el azúcar en un recipiente hasta que se integren. Por otra parte, haz lo mismo batiendo los huevos con la esencia de vainilla.", "Une ambas preparaciones.", "comienza a incorporar suavemente la harina de maíz, removiendo suavemente hasta que se integre con el resto de la preparación.", "Enmolda la preparación en una fuente previamente aceitada, corta en triángulos con la punta de un cuchillo poner las almendras encima de cada trozo cortado y llevarla a cocinar al horno. Cuando la superficie esté dorada, la Chamia estará lista.", "Sacarla y dejarla enfriar antes de comer."]
     }]
   }, {
     title: "Booza",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["2 vasos de trigo molido muy fino.", "2 vasos de agua.", "2 vasos de azúcar.", "Jenjibre ó canela según te guste y también puedes acompañarla con avellanas tostadas por encima."]
     }],
     sectionPreparation: [{
-      title: "Preparación.",
+      title: "Preparación:",
       preparation: ["Dejar macerar durante una noche el trigo cubierto con agua.", "Al día siguiente colarlo y cocinarlo con dos vasos de agua hasta que hierva.", "Volver a colarlo y posteriormente mezlar los dos vasos de azúcar con la preparación.", "Colocarlo en un recipiente de vidrio en la heladera y dejarlo que fermente durante tres días.", "Cuando aparezcan burbujas en la superficie ya estrá listo el proceso de fermentación. Retirar y colar. Se sirve el líquido en vasos de vidrio.", "Espolvorear con jenjibre y/o canela, cada comensal a su gusto, y las avellanas tostadas."]
     }]
   }]
@@ -8564,11 +8568,11 @@ var _default = {
   recipe: [{
     title: "Chè chuối",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["1 c/s de semillas de sésamo.", "3 c/s de tapioca.", "350 ml de agua.", "1 pizca de sal.", "125 ml de leche de coco.", "3 c/s de azúcar.", "1 plátano.", "Mantequilla (un poco)"]
     }],
     sectionPreparation: [{
-      title: "Preparación.",
+      title: "Preparación:",
       preparation: ["En una sartén se tuestan ligeramente las semillas de sésamo.", "Poner un cazo al fuego con el agua y la llevamos a ebullición. Cuando comience a hervir echamos la tapioca, bajamos el fuego al mínimo, y lo dejamos cocer 20 minutos removiendo de cuando en cuando.", "Añadimos la leche de coco, el azúcar y la sal. Removemos bien y seguimos cociendo por 3 minutos.", "Cortamos el plátano en rodajas. Reservamos algunas para la decoración y el resto las echamos en el cazo removiendo y dejando cocer durante unos minutos hasta que la mezcla espese.", "Lo ponemos en unos cuencos y dejamos templar.", "En una sartén derretimos la mantequilla y freímos ligeramente las rodajas de plátano que hemos reservado.", "Lo servimos decorando con el plátano frito y las semillas de sésamo."]
     }]
   }]
@@ -8614,21 +8618,21 @@ var _default = {
   recipe: [{
     title: "Helado Frito.",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["Pan de molde. (2 cortadas por helado)", "1 poco de leche en un bol", "Tarrina helado, del que más te guste (vainilla, chocolate, nata, etc)", "Para el rebozado del helado", "1 vaso 1/2 harina", "1 vaso leche", "1 huevo"]
     }],
     sectionPreparation: [{
-      title: "Preparación.",
+      title: "Preparación:",
       preparation: ["Cortamos los bordes del pan de molde o compramos pan de molde sin corteza.", "Hacemos las bolas de helado. Mojamos los bordes del pan de molde en un poco de leche y colocamos la bola de helado encima del pan.", "Cogemos el otro pan de molde y lo colocamos encima del helado cubriéndolo en forma de rombo (haciendo que se vean 8 picos de pan).", "Lo apretamos bien con las manos hasta que le demos una forma redondita y lo envolvemos en papel de plata y lo metemos en el congelador hasta que se quede igual de duro que una piedra (un día entero).", "Al día siguiente hacemos la masa/rebozado para freír el helado frito y ponemos en un bol el huevo, un vaso y medio de harina y un vaso de leche. Lo batimos bien hasta que se quede sin grumos.", "Calentamos el aceite en un recipiente hondo. Metemos el helado que hemos sacado del congelador en el bol que tenemos la masa y lo embadurnamos bien y lo freímos con cuidado cuando esté el aceite muy caliente. Lo freímos hasta que esté bien dorado.", "Una vez esté bien dorado lo sacamos y lo ponemos en un plato con una servilleta absorbente, para que absorba todo el aceite que le sobra al helado.", "Quitamos la servilleta y ponemos el helado en el plato y le podéis poner por encima lo que queráis.", "Os recomiendo que le pongáis miel ya que sabe mucho mejor y como si te lo hubieran hecho en el restaurante chino.", "También podéis ponerle por encima chocolate, siropes, etc... LO QUE QUERÁIS!! y a disfrutar de vuestro helado frito chino."]
     }]
   }, {
     title: "Flan con cereales de chocolate",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["1litro leche", "200 gr azúcar moreno", "1 sobre flan chino mandarin (o para hacer flanes)", "150gramos cereales tipo arroz inflado", "canela en polvo"]
     }],
     sectionPreparation: [{
-      title: "Preparación.",
+      title: "Preparación:",
       preparation: ["En un cazo vamos a poner a hervir la leche y el azúcar. Cuando hierva añadimos el sobrecito y removemos con unas varillas para evitar los grumos.", "En cada flanera vamos a poner un puñado de cereales, y verteremos la mezcla de flan, (podemos colarlo por si quedo algún resto).", "Dejaremos enfriar en nevera y en el momento de servir, vamos a ponerles por encima caramelo."]
     }]
   }]
@@ -8674,21 +8678,21 @@ var _default = {
   recipe: [{
     title: "Labneh",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["Medio litro de leche", "Una cucharada sopera de yogur"]
     }],
     sectionPreparation: [{
-      title: "Preparación.",
+      title: "Preparación:",
       preparation: ["Calentar la leche hasta unos 45o, o hasta que podamos mantener la punta del dedo dentro de la leche unos 10 segundos, sin quemarnos.", "Diluimos el yogur en un poco de la leche caliente. Lo mezclamos con la leche, que pondremos en una olla, preferentemente, de barro. Removemos con cuchara de madera.", "Tapamos la olla de barro con la tapa o con un plato. Tapamos con un trapo y dejamos reposar 5 o 6 horas. Yo la dejé toda la noche, tapada, en el horno apagado, puesto que tardó en empezar a cuajar.", "Una vez ha tomado consistencia la leche cuajada, ponemos en el frigorífico."]
     }]
   }, {
     title: "Pastel Libanenes de naranja",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["4 huevos.", "450gr. de naranjas enteras.", "200gr. Azúcar.", "1cucharadita de agua de azahar.", "8gr. levadura química", "200gr. almendra molida.", "Azúcar glas para decorar"]
     }],
     sectionPreparation: [{
-      title: "Preparación.",
+      title: "Preparación:",
       preparation: ["Lavar las naranjas y cocerlas cubiertas de agua durante 15 minutos en la olla a presión. Escurrir, dejar enfriar y reservar.", "Triturar las naranjas con la batidora.", "Batir el azúcar junto con los huevos hasta que la mezcla se ponga blanquecina. Añadir el puré de naranja, el azahar y la levadura y seguir batiendo hasta que se integre.", "Añadir la almendra y mezclar de forma manual con una espátula.", "Untar un molde con mantequilla, verter la masa y hornear a 170o durante 60 minutos. Pasado ese tiempo, apagar el horno, abrir la puerta y dejar reposar otros 10 minutos.", "Una vez frío, sacarlo del molde y espolvorear por encima con azúcar glas."]
     }]
   }]
@@ -8734,21 +8738,21 @@ var _default = {
   recipe: [{
     title: "Lassi de fresa y plátano",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["1 yogur natural sin azúcar", "3 ó 4 fresas", "Medio plátano", "Una medida y media del vaso de yogur con agua", "1 cucharadita de miel", "1 cucharadita de azúcar", "1 golpe de pimienta"]
     }],
     sectionPreparation: [{
-      title: "Preparación.",
+      title: "Preparación:",
       preparation: ["Ponemos todos los ingredientes juntos y a la vez en el vaso de la batidora y trituramos unos minutos hasta que quede bien mezclado y perfectamente molido. probamos de dulzor para rectificar la cantidad de azúcar o de miel si es necesario.", "Dejamos enfriar en la nevera hasta el momento de servir. Servimos bien frío con un poco de menta picada."]
     }]
   }, {
     title: "Panna cotta de thé chaï",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["2 cucharas de café de thé chaï", "60 cl de leche entera", "100 g de leche concentrada azucarada.", "1 hoja de gelatina."]
     }],
     sectionPreparation: [{
-      title: "Preparación.",
+      title: "Preparación:",
       preparation: ["1. En una gran cazerola, vertir la leche, y hacerla calentar dulcemente. Adjuntar el té y dejarlo hervir durante 5 minutos. Retirarlo posteriormente del fuego, cubrirlo y dejarlo reposar durante 15 minutos.", "2. Poner la gelatina en agua fría, dejándola ablandar, escúrrela con las manos y ponla dentro del té para derretirla . Mezclalo todo y añade la leche concentrada e introduzcala en la nevera para poder enfríar."]
     }]
   }]
@@ -8794,21 +8798,21 @@ var _default = {
   recipe: [{
     title: "Maskina.",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["2 vasos de harina.", "1 1/2 vaso de azúcar en polvo.", "1 vaso de nata.", "Frutos secos machacados"]
     }],
     sectionPreparation: [{
-      title: "Preparación.",
+      title: "Preparación:",
       preparation: ["Mezclar la harina con el azúcar y la nata.", "Untar el molde con aceite, poner la mezcla igualando la superficie, untarla con aceite y esparcir los frutos secos..", "Meter en horno a temperatura mediana..", "Servir fría."]
     }]
   }, {
     title: "Mohalabeya de kamar el din",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["1/2 kg de zanahoria.", "1/2 kg de zumo de naranja natural.", "2 vasos de agua.", "2 cucharadas grandes de maicena.", "Azúcar"]
     }],
     sectionPreparation: [{
-      title: "Preparación.",
+      title: "Preparación:",
       preparation: ["Cocer la zanahoria, pelarla y batirla en la batidora con el zumo de naranja. Poner a fuego y endulzar con azúcar ( 3 cucharadas grandes ).", "Disolver la maicena en un poco de agua y echarla poco a poco moviendo el zumo hasta conseguir el espesor adecuado. Poner en platos y adornar con frutos secos y coco molido, dejar enfriar. Meter en frigorífico y servir fría."]
     }]
   }]
@@ -8854,21 +8858,21 @@ var _default = {
   recipe: [{
     title: "Melocotón con de vainilla",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["Melocotones maduros", "Helado de vainilla", "Avellanas tostadas"]
     }],
     sectionPreparation: [{
-      title: "Preparación.",
+      title: "Preparación:",
       preparation: ["Se pelan los melocotones y se les quita el hueso. Se pasa la carne de los melocotones por la batidora y se reservan en el frigorífico.", "A parte, se pican las avellanas procurando que queden trocitos no muy finos. En una copa se pone un poco de helado de vainilla , una buena parte de puré de melocotón y, finalmente, un puñado de avellanas troceadas y se sirve inmediatamente."]
     }]
   }, {
     title: "Mochi de helado",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["1 vaso de harina de arroz.", "3/4 vaso de agua.", "1/2 vaso de azúcar.", "Helado de cualquier sabor que os guste.", "Harina de arroz para enharinar"]
     }],
     sectionPreparation: [{
-      title: "Preparación.",
+      title: "Preparación:",
       preparation: ["Preparar el helado. Esperar que el helado esté un poco derretido para poder sacarlo y darle forma con facilidad.", "Utilizar un molde de hielo para formar el helado. Congelar el helado de nuevo.", "Ahora vamos a preparar la pasta. Con un batidor manual mezclar bien la harina, el agua y el azúcar en un recipiente.", "Taparlo con un plástico transparente y cocinarlo en el microondas a máxima potencia durante 5 minutos.", "Sacar el recipiente con mucho cuidado. Remover la masa con una cucharada de madera.", "Echarla en una superficie que esté enharinada con mucha cantidad de harina de arroz. Echar más harina de arroz encima de la masa. Enrollar la masa hasta que tenga 2 -3 mm de grosor.", "Utilizar un vaso pequeño de 5 cm de diámetro para dar la forma y cortar la masa.", "Meter la masa en el frigo para que esté frio.", "El paso final, ponemos el relleno en la masa. Enseguida guardarlo de nuevo en el congelador para que se quede firme.", "Sacar los mochis del congelador cuando queráis servirlo y esperad unos minutos para comerlos. Disfrutad!"]
     }]
   }]
@@ -8914,11 +8918,11 @@ var _default = {
   recipe: [{
     title: "Fairy Cakes",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["115 g (1⁄2 cup) de mantequilla sin sal", "115 g (1⁄2 cup + 1 cucharada) de azúcar superfino", "2 huevos", "1 cucharadita de extracto puro de vainilla", "115 g (7⁄8 cup) de harina de trigo (self-raising flour)", "1⁄4 cucharadita de sal.", "1-2 cucharadas (15-30 ml) de leche", "115 g (1 cup) de azúcar glass", "1-2 cucharadas (15-30 ml) de agua", "Colorantes alimentarios en pasta variados", "30 g (1 oz) de chocolate con leche", "5 g (1 cucharadita) de mantequilla sin sal", "Decoraciones de colores variadas (nonpareils, cristales de azúcar, perlitas, flores...)"]
     }],
     sectionPreparation: [{
-      title: "Preparación",
+      title: "Preparación:",
       preparation: ["Precalentamos el horno (eléctrico) a 180oC y colocamos la rejilla a media altura.", "Colocamos las cápsulas de papel en el molde y reservamos.", "Tamizamos juntos la harina y la sal y también reservamos.", "En el cuenco de nuestra amasadora o en un cuenco grande mezclamos la mantequilla junto con el azúcar a velocidad media-alta hasta conseguir una textura esponjosa y un color más pálido (unos 4 ó 5 minutos). Despegamos los restos de masa de las paredes y fondo del cuenco (este proceso lo iremos repitiendo conforme vamos añadiendo ingredientes nuevos)", "Añadimos y mezclamos más despacio los huevos ligeramente batidos y de uno en uno; no añadiremos el siguiente hasta que el anterior no se haya integrado del todo.", "Añadimos el extracto de vainilla y mezclamos hasta integrar. Ahora añadimos la harina en 2 tandas y mezclamos lo justo hasta que prácticamente no quede rastro de ella.", "Finalmente, agregamos la leche, una cucharada detrás de otra, hasta comprobar que conseguimos la consistencia deseada (algo así como el helado cuando empieza a derretirse).", "Con ayuda de una cuchara de helado, rellenamos las cápsulas hasta 2⁄3 de su capacidad.", "Horneamos durante 18-20 minutos o hasta que hayan subido y adquirido un tono dorado.", "Comprobaremos si están hechos cuando al insertar una brocheta (o cake tester) en el centro ésta limpia de masa o migas.", "Una vez horneados, lo sacamos del horno y lo dejamos enfriar en el molde durante unos 5 minutos. Pasado este tiempo, desmoldamos y dejamos enfriar por completo sobre una rejilla antes de glasear."]
     }]
   }]
@@ -8964,14 +8968,14 @@ var _default = {
   recipe: [{
     title: "Receta de galletas de Pascua: Osterkekse.",
     sectionIngredient: [{
-      title: "Ingredientes para la masa",
+      title: "Ingredientes para la masa:",
       ingredient: ["500 g Mehl – harina.", "250 g Butter – mantequilla.", "200 g Zucker – azúcar.", "2 Eier – huevos.", "1 Päckchen Vanillezucker – paquete azúcar de vainilla.", "Messerspitze Zimt – un poquitín de canela (la puntita de un cuchillo)"]
     }, {
       title: "Ingredientes para el glaseado",
       ingredient: ["1 Eiweiß – clara de huevo", "1 Prise Salz – pellizco de sal", "200 g Puderzucker – azúcar glass", "bunte Lebensmittelfarbe – colorante alimentario"]
     }],
     sectionPreparation: [{
-      title: "Preparación de la masa para las galletas",
+      title: "Preparación de la masa para las galletas:",
       preparation: ["Poner la harina en un bol.", "Añadir en el bol de la harina: la mantequilla cortada en trocitos, el azúcar, los huevos, el azúcar de vainilla y la canela. Trabajar todo con las manos de fuera hacia dentro hasta conseguir una masa compacta.", "Envolver la masa como si fuera una pelota en un papel transparente (film) y dejar reposar en la nevera entre 30 y 60 minutos.", "Precalentar el horno a 180 grados.", "Cuando se haya enfriado la masa, quitaremos el papel film y, con la ayuda de un rodillo, la iremos trabajando hasta obtener una capa de unos 5 milímetros de grosor. Más fina no, de lo contrario las galletas se romperán.", "Presionar con el molde de galletas escogido sobre la masa e ir depositándolas en la bandeja del horno que habremos cubierto previamente con papel de hornear.", "Colocar la bandeja en la parte media del horno y hornear las galletas unos 10 minutos, controlando que no se doren demasiado.", "Una vez horneadas, sacar la bandeja del horno y depositar las galletas con mucho cuidado sobre una superficie plana. Se recomienda hacerlo tirando del papel de hornear. Dejarlas enfriar encima del papel antes de proceder a decorarlas con el glaseado."]
     }, {
       title: "Elaboración del glaseado",
@@ -9020,21 +9024,21 @@ var _default = {
   recipe: [{
     title: "Macedonia de frutas tropicales.",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["100 gr. de fresas", "3 naranjas", "2 plátanos", "Uvas verdes o moradas", "2 rodajas de piña natural", "200 gr. de pulpa de sandía", "1 limón", "Azúcar", "Hojas de menta"]
     }],
     sectionPreparation: [{
-      title: "Preparación de la macedonia de frutas tropicales helada",
+      title: "Preparación de la macedonia de frutas tropicales helada:",
       preparation: ["Lavar bien todas las frutas. Pelar 2 naranjas y cortarlas en trozos pequeños. Disponerlos en un bol.", "Pelar los plátanos y cortarlos en rodajas. Mezclarlos con la naranja.", "Quitar las hojas a las fresas y cortarlas por la mitad. Añadirlas al bol con las demás frutas.", "Pelar la piña y picar dos rodajas. Llevarlas al bol.", "Cortar unos trozos de sandía y añadirlos al bol.", "Añadir las uvas sin el tallo al bol.", "Añadir el azúcar al gusto", "Y por último, añadir el zumo del limón y de una naranja."]
     }]
   }, {
     title: "Flan de huevo",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["1/2 litro de leche entera", "4 huevos grandes (", "2 yemas de huevo", "1 vaina de vainilla o 1 trozo de canela en rama", "150 gramos de azúcar (para el flan)", "150 gramos de azúcar (para el caramelo)", "4 cucharadas de agua", "1 cucharada pequeña de zumo de limón", "6 flaneras (6 moldes para flan)"]
     }],
     sectionPreparation: [{
-      title: "Receta para hacer Flan de Huevo",
+      title: "Receta para hacer Flan de Huevo:",
       preparation: ["Para preparar el caramelo echa 150 gramos de azúcar en un cazo. Añade una cucharada pequeña de zumo de limón y 4 cucharadas de agua. Pon el cazo a fuego medio y deja que se derrita el azúcar. Debes tener cuidado de no tocar el caramelo porque quema mucho.", "Cuando el caramelo tenga un bonito color dorado apartamos del fuego. Vierte una cucharada de caramelo en cada uno de los 6 moldes. Y muévelos un poco para que se extienda bien el caramelo.", "Ahora echa en un cazo limpio medio litro de leche entera y ponlo a fuego medio.", "Abre una vaina de vainilla por la mitad a lo largo. Saca las semillas de la vainilla y echa todo a la leche. Lo dejamos al fuego hasta que esté a punto de hervir, entonces apartamos el cazo del fuego, lo tapamos con un plato y dejamos reposar 30 minutos.", "Pon 4 huevos grandes en un cuenco. Añade dos yemas de huevo y 150 gramos de azúcar. Bate ligeramente hasta que se mezcle todo.", "Cuando hayan pasado los 30 minutos de reposo de la leche retiramos la vaina de vainilla. Encendemos el horno y lo ponemos a 160oC con calor arriba y abajo.", "Incorpora la leche al cuenco con los huevos y el azúcar mientras bates ligeramente. Ahora coloca un colador sobre una jarra y cuela la mezcla del flan. Repártela entre los seis moldes o flaneras.", "Coloca los moldes en una fuente para horno y llena la fuente con agua hasta alcanzar la mitad de la altura de los moldes. Mete en el horno y cuece al baño maría durante 40 minutos a 160oC.", "Cuando los flanes estén cuajados sácalos del horno. Con un guante de cocina saca los moldes del agua y deja que se enfríen.", "Luego cúbrelos con papel film y mételos en el frigorífico durante al menos 4 horas.", "Cuando estén bien fríos pasa un cuchillo por el filo del flan. Vuelca la flanera sobre un plato pequeño y eso es todo. Ya tenemos listo nuestro flan de huevo así que fuera de la cocina y a comer!!!"]
     }]
   }]
@@ -9080,21 +9084,21 @@ var _default = {
   recipe: [{
     title: "Manzanas asadas al horno \"Assorti\".",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["Confitura de albaricoque - 2 cucharaditas", "Piñones - 1 cucharadita", "Jengibre molido - 1 pizca", "Sirope de fresa - 2 cucharaditas", "Sémola - 1 cucharadita", "Vainilla - 1 pizca", "Miel – 1 cucharadita", "Nueces - 3 unidades", "Agua - 3 cucharadas", "Manzanas verdes - 3 unidades", "Canela - 1 pizca"]
     }],
     sectionPreparation: [{
-      title: "Preparación",
+      title: "Preparación:",
       preparation: ["Lavar las manzanas y descorazonarlas con un cuchillo especial o habitual. Se puede cortar de lado a lado. Entonces en el molde se formará una capa de mermelada.", "Verter en el molde agua (opcional). Poner las manzanas en el molde. En la primera manzana poner la mermelada de albaricoque, a continuación, añadir los piñones y una pizca de jengibre, si lo desea.", "La segunda manzana rellenar con el sirope de la mermelada de fresa mezclado con sémola y espolvorear con la vainilla.", "En la tercera manzana poner las nueces picadas, llenar con miel y espolvorear con canela.", "Asar en el horno precalentado hasta 200oC durante 20-30 minutos. Servir calientes o frías"]
     }]
   }, {
     title: "Pastel de zanahoria",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["Huevos - 4 unidades", "Azúcar - 2 tazas", "Aceite de girasol - 1,5 tazas", "Harina - 2 tazas", "Zanahorias ralladas - 3 tazas", "Nueces 120 g (se puede con pacanas, es más sabroso)", "Canela molida - 2 cucharaditas", "Soda - 2 cucharaditas", "Sal - 1 cucharadita"]
     }],
     sectionPreparation: [{
-      title: "Preparación",
+      title: "Preparación:",
       preparation: ["Mezclar los huevos, azúcar y la mantequilla. Aparte mezclar los ingredientes secos, mezclar todo y añadir las zanahorias y las nueces. Colocar la masa en el molde y hornear a 160oC.", "El pastel se puede cortar en dos tortas y echar la crema de mascarpone o crema de un 35% batida.", "Servir una vez esté frío."]
     }]
   }]
@@ -9140,21 +9144,21 @@ var _default = {
   recipe: [{
     title: "Mousse de chocolate.",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["100 gramos de cacao dulce.", "50 gramos de azúcar.", "0,4 litros de nata batida para postres.", "un poco de vainilla."]
     }],
     sectionPreparation: [{
-      title: "Preparación del mousse de chocolate.",
+      title: "Preparación del mousse de chocolate:",
       preparation: ["Eche el cacao a una pequeña cacerola, caliéntalo junto a poquito de agua (0,1 litros) hasta que se disuelva. En otra cacerola repita la operación con el azúcar. Después, une el cacao disuelto al azúcar y déjalo enfriar.", "Una la nata batida y la vainilla, vierta en una copa de cristal y, si quiere, añada trozos de chocolate o fruta confitada. Guarde en el frigorífico antes de servir."]
     }]
   }, {
     title: "Salami de chocolate",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["200g de chocolate negro 70%", "100 g de mantequilla (o margarina)", "2 yemas de huevo", "8 galletas (80g) de mantequilla", "7 bizcochos de soletilla (40g)", "Una mezcla de 40 g de almendras peladas, avellanas y piñones", "1-2 cucharadas de azúcar en polvo para recubrimiento"]
     }],
     sectionPreparation: [{
-      title: "Receta para hacer el Salami de chocolate",
+      title: "Receta para hacer el Salami de chocolate:",
       preparation: ["Picar el chocolate y colocar en un tazón o recipiente resistente al calor. Añadir la mantequilla cortada en trozos y colocar el recipiente sobre una olla de agua hirviendo (la parte inferior del recipiente no debe tocar el agua). Derretir al baño maría a fuego lento, revolviendo de vez en cuando con una cuchara de madera.", "Una vez que la mezcla se derrite y forma una mezcla cremosa y suave, retirar del baño de agua y dejar enfriar. A continuación, añadir las yemas de huevo. Mezclar de manera uniforme y reservarmientras preparamos las galletas.", "Cortar las galletas en trozos irregulares (para simular la grasa del salami) e incorporar a la mezcla de chocolate (incluyendo migas) junto con los frutos secos enteros. Amasar hasta que quede una pasta que se pueda moldear fácilmente con las manos.", "Colocar un rectángulo grande de papel de aluminio sobre la encimera y situar encima un rectángulo de papel film. Extender la mezcla con una longitud de unos 35 cm y luego doblar la envoltura de plástico en los extremos para darle forma de salchichón. Doblar los extremos de la envoltura de plástico en un movimiento de tornillo.", "Envolver el salami de chocolate con papel aluminio y colocarlo en la nevera varias horas (mínimo 3 horas) o una noche para que se endurezca. Para los impacientes se puede introducir en el congelador durante media hora.", "Al día siguiente, o cuando el salami esté duro, hacerlo rodar un poco en la encimera para moldear más la forma y luego retirar el papel aluminio y el plástico.", "Echar el azúcar en polvo en la encimera de trabajo y hacer rodar el salami para que se impregne bien. Con un pincel, quitar el exceso de azúcar antes de cortar unas rodajas no muy finas y servir preferentemente en un tablero de madera para completar el parecido."]
     }]
   }]
@@ -9200,21 +9204,21 @@ var _default = {
   recipe: [{
     title: "Mousse de chocolate con aguacate",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["110 gramos de chocolate para repostería, troceado", "4 cucharadas de leche espesa de coco (tómala de la parte superior de la lata)", "1 aguacate maduro", "1/2 cucharadita de extracto de vainilla", "1 pizca de sal marina", "3 cucharadas de miel.", "1 cucharadita de ralladura de naranja"]
     }],
     sectionPreparation: [{
-      title: "Preparación",
+      title: "Preparación:",
       preparation: ["1. Derrite el chocolate a baño María junto con la leche de coco, mezclando hasta incorporar completamente. Deja enfriar y vierte dentro del procesador de alimentos junto con el resto de los ingredientes. Procesa hasta tener una mezcla homogénea y suave.", "2. Vierte dentro de dulceras y refrigera para servir bien frío. Decora a tu gusto."]
     }]
   }, {
     title: "Tarta Tatin",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["Masa", "200 gramos de harina de trigo", "125 gramos de azúcar refinada", "1 pizca de sal", "1 yema de huevo", "25 mililitros de agua", "Relleno", "60 gramos de mantequilla", "80 gramos de azúcar refinada", "1 cucharada de azúcar refinada", "1 kilo de manzanas, peladas, descorazonadas y cuarteadas.", "80 gramos de mantequilla, suavizada y troceada"]
     }],
     sectionPreparation: [{
-      title: "Preparación",
+      title: "Preparación:",
       preparation: ["Cierne la harina en un tazón y agrega 125 gramos de azúcar y una pizca de sal. forma un pozo en el centro y llena con la mantequilla troceada. Frota hasta tener una consistencia arenosa. Agrega la yema y el agua, y amasa hasta formar una bola. Envuelve la masa en un plástico adherente y deja  reposar dentro del refrigerador de 1 a 2 horas.", "Derrite la mantequilla en un molde de aluminio de 23 centímetros de diámetro sobre fuego medio. Cuando la mantequilla se haya derretido, agrega 80 gramos de azúcar y mezcla bien.", "Acomoda las manzanas lo más apretadas posible en el molde, con el lado redondo hacia abajo. Espolvorea con la cucharada de azúcar restante y deja que se caramelicen a fuego medio durante aproximadamente 12 minutos.", "Cuando las manzanas estén caramelizadas y un poco suaves, retira del fuego. Si las manzanas se encogieron o existen espacios entre trozos, júntalas de nuevo con cuidado, tratando de que queden en el centro y minimizando el espacio entre ellas. Permite que se enfríen un poco mientras terminas de preparar la masa.", "Precalienta el horno a 200 °C.", "Saca la masa del refrigerador, desenvuelve y coloca sobre una superficie plana enharinada. Extiende con un rodillo enharinado formando un círculo de aproximadamente 5 milímetros de grueso y un diámetro 3 centímetros más grande que el molde, alrededor de 29 centímetros.", "Coloca la masa sobre las manzanas, doblando las orillas hacia los lados interiores del molde.", "Hornea en el horno precalentado durante 30 minutos.", "Retira del horno y deja enfriar 10 minutos, luego voltea sobre un platón. Disfruta esta tarta tibia sola o acompañada de un poco de crema de leche francesa, \"crème fraîche\"."]
     }]
   }]
@@ -9260,21 +9264,21 @@ var _default = {
   recipe: [{
     title: "Tarta de Belgrado",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["13 yemas de huevo.", "10 claras a punto de nieve.", "275 gramos de azúcar .", "270 gramos da almendras molidas.", "135 gramos de frutas confitadas", "1 tableta de chocolate", "2 cucharada de harina.", "Mantequilla o margarina para engrasar el molde."]
     }],
     sectionPreparation: [{
-      title: "Preparación.",
+      title: "Preparación:",
       preparation: ["1. Mezclar las yemas con el azúcar, hasta obtener una crema espumosa.", "2. Añadir, las almendras picadas, la fruta confitada y la harina.", "3. Fundir el chocolate en un poco de leche e incorporar en ella la mezcla obtenida previamente.", "4. Batir las claras a punto de nieve y mezclarlo todo con cuidado, hasta obtener una mezcla homogénea.", "5. Verter el resultado en un molde previamente untado con la mantequilla, ponerlo todo al horno y dejarlo allí durante 3⁄4 de hora.", "6. Finalmente, retirar el pastel, dejar que se enfríe y servir.", "Para decorar la tarta se aconseja añadir por encima almendras turradas y partidas por la mitad, o bien azúcar glass al gusto"]
     }]
   }, {
     title: "DULCE DE MEMBRILLO DESDE JAGODINA",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["1 Kg de membrillos", "1 Kg de azúcar"]
     }],
     sectionPreparation: [{
-      title: "Preparación",
+      title: "Preparación:",
       preparation: ["Lavar los membrillos y cocerlos en agua abundante hasta que estén tiernos y la piel empiece a agrietarse.", "Escurrirlos, pelarlos y cortarlos en trozos. Pasarlos por un pasapurés o la batidora.", "Pesar la pulpa obtenida y mezclarla con el mismo peso de azúcar.", "Cocer a fuego suave durante unos 25 minutos, removiendo la mezcla continuamente para evitar que se pegue.", "La prueba de que la cocción está en su punto es que, al verter una pequeña porción sobre un plato, ésta cuaja de inmediato.", "Retirar del fuego, verter en un molde grande o en varios pequeños y refrigerar."]
     }]
   }]
@@ -9320,21 +9324,21 @@ var _default = {
   recipe: [{
     title: "ALBA",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["Azúcar.", "2 limones.", "helado a gusto."]
     }],
     sectionPreparation: [{
-      title: "Preparación.",
+      title: "Preparación:",
       preparation: ["mezclar el azúcar con los limones y poner el gusto preferido del helado y luego colocar una hora en el congelador."]
     }]
   }, {
     title: "Paletas de Mango",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["3 mangos, maduros.", "azúcar.", "agua la que necesite.", "1 molde para paletas de hielo."]
     }],
     sectionPreparation: [{
-      title: "Preparación",
+      title: "Preparación:",
       preparation: ["Pelar los mangos. Cortas hasta dejar la pura pulpa. Licuarlo junto con el azúcar y el agua. Vaciar el jugo en pequeños moldes y ponerlo a congelar."]
     }]
   }]
@@ -9380,11 +9384,11 @@ var _default = {
   recipe: [{
     title: "HELADO DE MANGO",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["1 taza de pulpa de mango.", "1 taza de azúcar.", "1 taza de leche.", "1 lata de leche condensada.", "4 huevos.", "1 cucharada de jugo de limón.", "Una pizca de sal."]
     }],
     sectionPreparation: [{
-      title: "Preparación.",
+      title: "Preparación:",
       preparation: ["Calentar la leche y apagar el fuego justo antes de que comience la ebullición.", "Batir los huevos con el azúcar, añadir la leche caliente poco a poco sin dejar de batir. Acontinuación, añadir la leche condensada y la pulpa de mango, jugo de limón y una pizca de sal. Mezclar bien.", "Deje enfriar, luego poner en el congelador por 12 horas.", "Al día siguientes se saca del congelador y pasamos a removerla durante 30 minutos dentro de la máquina para hacer helados.", "Para obtener una textura más firme del helado, la dejamos posteriormente reposar durante 30 minutos en el congelador de nuevo. Y ya está lista para degustar, BUEN PROVECHO!!!"]
     }]
   }]
@@ -9430,21 +9434,21 @@ var _default = {
   recipe: [{
     title: "PAVLOVA",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["3 claras de huevo.", "El doble del peso de las claras en azúcar", "Unas gotas de limón.", "1 cucharadita de vinagre", "1 cucharada de Maizena", "350 ml de nata líquida para montar.", "Fresas o frutas a elección"]
     }],
     sectionPreparation: [{
-      title: "Preparación.",
+      title: "Preparación:",
       preparation: ["Montar las claras con el azúcar. Para eso ponemos las claras en la batidora y las batimos hasta que estén espumosas. Luego agregamos las gotas de limón, el vinagre, la maizena, y en forma de lluvia el azúcar. Lo batimos todo hasta que tenga una consistencia firme y al levantar el batidor,  haga picos.", "En un papel de horno especial repostería, vamos a dibujar unos círculos del tamaño que quieras que tengan los merengues. Vamos a tomar una fuente para horno, y colocamos el papel.", "Posteriormente colocamos el merengue por adentro de los círculos, tratando de que queden redondos, y haciendo una especie de nido, mas cantidad por los bordes y un poco mas ligero por adentro. La altura la vas a decidir vos. Dependiendo del tamaño que quieras que tenga, unos 3 dedos de alto.", "Colocarlos en el horno a 140 grados sin aire y 120 si tu horno solo tiene la opción de aire. Por aproximadamente 2 horas.", "Los retiras y los dejas enfriar un rato, para luego pasar a rellenarlos.", "Para rellenarlos por dentro daremos unos pequeños y suaves golpes con una cuchara para obtener un hueco en su interior y pasar al relleno, poniéndoles la nata montada.", "Colocarlos en un plato de postre y encima decorarlos un un poco de nata y cubiertos de frutas: mango, frambuesas, cerezas, fresas ( eso a tu voluntad). !Buen provecho!!!!"]
     }]
   }, {
     title: "HOT CROSS BUN",
     sectionIngredient: [{
-      title: "Ingredientes",
+      title: "Ingredientes:",
       ingredient: ["375 gr. de harina de fuerza.", "4 gr. de levadura seca (12 gr. fresca).", "1/2 cucharadita de canela.", "1/4 cucharadita de jengibre..", "1/4 cucharadita de nuez moscada.", "1/4 cucharadita de cardamomo.", "1/2 cucharadita de sal.", "1 huevo.", "175 ml. de leche templada.", "50 gr. de azúcar.", "35 gr. de mantequilla.", "un puñado de pasas (o trocitos de chocolate).", "huevo batido para pintar"]
     }],
     sectionPreparation: [{
-      title: "Preparación",
+      title: "Preparación:",
       preparation: ["Mezclar todos los ingredientes secos en un bol, las especias, harina, azúcar, sal...", "Disolver la levadura con la leche templada y añadir a la mezcla anterior junto con el huevo batido. Mezclar bien y amasar.", "Añadir a la masa la mantequilla a temperatura ambiente y volver a amasar hasta integrarla bien. Una vez la masa queda homogénea y lisa, añadir las pasas o trocitos de chocolate. Reservar en un bol enharinado y tapar, dejando reposar durante 1 hora hasta que duplique su tamaño.", "Dividir la masa en pequeñas porciones (50- 60 gr.), darle forma de panecillo, y reservar sobre la bandeja del horno tapadas durante unos 45 minutos.", "Una vez veas duplicado el volumen, pasa a pintarlos con el huevo batido y haz la masa para la cruz: para esto debes de mezclar la harina con el azúcar glass y añadir el agua hasta tener una mezcla espesa. Una vez obtenida ponla sobre una mangera pastelera y pasa hacer hacer las cruces sobre los panecillos.", "Hornear durante 15- 20 minutos a 180oC, hasta que estén dorados. Dejar enfriar y ¡Listos!"]
     }]
   }]
@@ -9477,11 +9481,11 @@ var _brasil = __webpack_require__(27);
 
 var _brasil2 = _interopRequireDefault(_brasil);
 
-var _bike_little_draw_number = __webpack_require__(58);
+var _bike_little_draw_number = __webpack_require__(89);
 
 var _bike_little_draw_number2 = _interopRequireDefault(_bike_little_draw_number);
 
-var _bike_big_draw_number = __webpack_require__(57);
+var _bike_big_draw_number = __webpack_require__(88);
 
 var _bike_big_draw_number2 = _interopRequireDefault(_bike_big_draw_number);
 
@@ -9573,11 +9577,11 @@ var _english = __webpack_require__(29);
 
 var _english2 = _interopRequireDefault(_english);
 
-var _umbrella_little_draw_number = __webpack_require__(60);
+var _umbrella_little_draw_number = __webpack_require__(91);
 
 var _umbrella_little_draw_number2 = _interopRequireDefault(_umbrella_little_draw_number);
 
-var _umbrella_big_draw_number = __webpack_require__(59);
+var _umbrella_big_draw_number = __webpack_require__(90);
 
 var _umbrella_big_draw_number2 = _interopRequireDefault(_umbrella_big_draw_number);
 
@@ -9672,11 +9676,11 @@ var _german = __webpack_require__(31);
 
 var _german2 = _interopRequireDefault(_german);
 
-var _bird_little_draw_number = __webpack_require__(336);
+var _bird_little_draw_number = __webpack_require__(337);
 
 var _bird_little_draw_number2 = _interopRequireDefault(_bird_little_draw_number);
 
-var _bird_big_draw_number = __webpack_require__(335);
+var _bird_big_draw_number = __webpack_require__(336);
 
 var _bird_big_draw_number2 = _interopRequireDefault(_bird_big_draw_number);
 
@@ -9856,11 +9860,11 @@ var _italy = __webpack_require__(33);
 
 var _italy2 = _interopRequireDefault(_italy);
 
-var _umbrella_little_draw_number = __webpack_require__(60);
+var _umbrella_little_draw_number = __webpack_require__(91);
 
 var _umbrella_little_draw_number2 = _interopRequireDefault(_umbrella_little_draw_number);
 
-var _umbrella_big_draw_number = __webpack_require__(59);
+var _umbrella_big_draw_number = __webpack_require__(90);
 
 var _umbrella_big_draw_number2 = _interopRequireDefault(_umbrella_big_draw_number);
 
@@ -9996,7 +10000,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _southAfrica = __webpack_require__(55);
+var _southAfrica = __webpack_require__(86);
 
 var _southAfrica2 = _interopRequireDefault(_southAfrica);
 
@@ -10048,11 +10052,11 @@ var _spanish = __webpack_require__(36);
 
 var _spanish2 = _interopRequireDefault(_spanish);
 
-var _bike_little_draw_number = __webpack_require__(58);
+var _bike_little_draw_number = __webpack_require__(89);
 
 var _bike_little_draw_number2 = _interopRequireDefault(_bike_little_draw_number);
 
-var _bike_big_draw_number = __webpack_require__(57);
+var _bike_big_draw_number = __webpack_require__(88);
 
 var _bike_big_draw_number2 = _interopRequireDefault(_bike_big_draw_number);
 
@@ -10092,7 +10096,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _tanzania = __webpack_require__(56);
+var _tanzania = __webpack_require__(87);
 
 var _tanzania2 = _interopRequireDefault(_tanzania);
 
@@ -11386,6 +11390,14 @@ var _information = __webpack_require__(26);
 
 var _information2 = _interopRequireDefault(_information);
 
+var _pipilet_male = __webpack_require__(3);
+
+var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
+
+var _pipilet_female = __webpack_require__(2);
+
+var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
+
 var _english = __webpack_require__(49);
 
 var _english2 = _interopRequireDefault(_english);
@@ -11494,6 +11506,130 @@ var _map = __webpack_require__(37);
 
 var _map2 = _interopRequireDefault(_map);
 
+var _fairy_cakes = __webpack_require__(73);
+
+var _fairy_cakes2 = _interopRequireDefault(_fairy_cakes);
+
+var _mousseDeChocolate = __webpack_require__(78);
+
+var _mousseDeChocolate2 = _interopRequireDefault(_mousseDeChocolate);
+
+var _manzanasAsadas = __webpack_require__(76);
+
+var _manzanasAsadas2 = _interopRequireDefault(_manzanasAsadas);
+
+var _galletaDePascua = __webpack_require__(74);
+
+var _galletaDePascua2 = _interopRequireDefault(_galletaDePascua);
+
+var _macedonia = __webpack_require__(75);
+
+var _macedonia2 = _interopRequireDefault(_macedonia);
+
+var _mouse = __webpack_require__(77);
+
+var _mouse2 = _interopRequireDefault(_mouse);
+
+var _tarta = __webpack_require__(79);
+
+var _tarta2 = _interopRequireDefault(_tarta);
+
+var _alba = __webpack_require__(80);
+
+var _alba2 = _interopRequireDefault(_alba);
+
+var _helado = __webpack_require__(81);
+
+var _helado2 = _interopRequireDefault(_helado);
+
+var _pavlova = __webpack_require__(82);
+
+var _pavlova2 = _interopRequireDefault(_pavlova);
+
+var _helado3 = __webpack_require__(56);
+
+var _helado4 = _interopRequireDefault(_helado3);
+
+var _bananas = __webpack_require__(52);
+
+var _bananas2 = _interopRequireDefault(_bananas);
+
+var _bizcocho = __webpack_require__(53);
+
+var _bizcocho2 = _interopRequireDefault(_bizcocho);
+
+var _ghriyba = __webpack_require__(54);
+
+var _ghriyba2 = _interopRequireDefault(_ghriyba);
+
+var _guzeya = __webpack_require__(55);
+
+var _guzeya2 = _interopRequireDefault(_guzeya);
+
+var _malagasy = __webpack_require__(57);
+
+var _malagasy2 = _interopRequireDefault(_malagasy);
+
+var _rellenos = __webpack_require__(58);
+
+var _rellenos2 = _interopRequireDefault(_rellenos);
+
+var _bizcocho3 = __webpack_require__(61);
+
+var _bizcocho4 = _interopRequireDefault(_bizcocho3);
+
+var _trempettes = __webpack_require__(65);
+
+var _trempettes2 = _interopRequireDefault(_trempettes);
+
+var _quindim = __webpack_require__(64);
+
+var _quindim2 = _interopRequireDefault(_quindim);
+
+var _mango = __webpack_require__(63);
+
+var _mango2 = _interopRequireDefault(_mango);
+
+var _cupcakes = __webpack_require__(62);
+
+var _cupcakes2 = _interopRequireDefault(_cupcakes);
+
+var _banana = __webpack_require__(60);
+
+var _banana2 = _interopRequireDefault(_banana);
+
+var _alfajores = __webpack_require__(59);
+
+var _alfajores2 = _interopRequireDefault(_alfajores);
+
+var _melocoton = __webpack_require__(72);
+
+var _melocoton2 = _interopRequireDefault(_melocoton);
+
+var _maskina = __webpack_require__(71);
+
+var _maskina2 = _interopRequireDefault(_maskina);
+
+var _lassi = __webpack_require__(70);
+
+var _lassi2 = _interopRequireDefault(_lassi);
+
+var _labneh = __webpack_require__(69);
+
+var _labneh2 = _interopRequireDefault(_labneh);
+
+var _helado5 = __webpack_require__(68);
+
+var _helado6 = _interopRequireDefault(_helado5);
+
+var _che = __webpack_require__(67);
+
+var _che2 = _interopRequireDefault(_che);
+
+var _chamia = __webpack_require__(66);
+
+var _chamia2 = _interopRequireDefault(_chamia);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _default = {
@@ -11536,6 +11672,33 @@ var _default = {
     "title": "RECIPES",
     "description": "YOUR FRIEND MADE THE TOUR OF FIVE CONTINENTES AND BROUGHT BACK VARIOUS DELICIOUS RECIPES OF CONTRIES OF THE WORLD.",
     "image": _map2.default
+  },
+  "chooseCountryContent": {
+    "america": {
+      "name": "america",
+      "title": "AMERICAN COOKING WORKSHOP",
+      "country": [{ name: "ARGENTINA", type: _pipilet_female2.default, recipe: _alfajores2.default }, { name: "BRAZIL", type: _pipilet_male2.default, recipe: _quindim2.default }, { name: "HAITI", type: _pipilet_female2.default, recipe: _banana2.default }, { name: "CHILE", type: _pipilet_female2.default, recipe: _cupcakes2.default }, { name: "FRENCH GUIANA", type: _pipilet_male2.default, recipe: _mango2.default }, { name: "MEXICO", type: _pipilet_female2.default, recipe: _bizcocho4.default }, { name: "USA", type: _pipilet_female2.default, recipe: _trempettes2.default }, { name: "CANADA", type: _pipilet_male2.default, recipe: _trempettes2.default }]
+    },
+    "oceania": {
+      "name": "oceania",
+      "title": "SOUTH SEA ISLANDS COOKING WORKSHOP",
+      "country": [{ name: "AUSTRALIA", type: _pipilet_female2.default, recipe: _alba2.default }, { name: "VANUATU", type: _pipilet_male2.default, recipe: _helado2.default }, { name: "NEW ZEALAND", type: _pipilet_male2.default, recipe: _pavlova2.default }]
+    },
+    "europe": {
+      "name": "europe",
+      "title": "EUROPEAN COOKING WORKSHOP",
+      "country": [{ name: "ENGLAND", type: _pipilet_female2.default, recipe: _fairy_cakes2.default }, { name: "FRANCE", type: _pipilet_male2.default, recipe: _mousseDeChocolate2.default }, { name: "GERMANY", type: _pipilet_female2.default, recipe: _galletaDePascua2.default }, { name: "SPAIN", type: _pipilet_female2.default, recipe: _macedonia2.default }, { name: "ITALY", type: _pipilet_male2.default, recipe: _mouse2.default }, { name: "RUSSIA", type: _pipilet_female2.default, recipe: _manzanasAsadas2.default }, { name: "SERBIE", type: _pipilet_female2.default, recipe: _tarta2.default }]
+    },
+    "africa": {
+      "name": "africa",
+      "title": "TALLER DE COCINA AFRICANA",
+      "country": [{ name: "BENIN", type: _pipilet_female2.default, recipe: _bananas2.default }, { name: "KENYA", type: _pipilet_male2.default, recipe: _helado4.default }, { name: "TUNISIE", type: _pipilet_female2.default, recipe: _ghriyba2.default }, { name: "EGYPTE", type: _pipilet_female2.default, recipe: _guzeya2.default }, { name: "ALGERIE", type: _pipilet_male2.default, recipe: _rellenos2.default }, { name: "MAROC", type: _pipilet_female2.default, recipe: _bizcocho2.default }, { name: "MADAGASCAR", type: _pipilet_female2.default, recipe: _malagasy2.default }]
+    },
+    "asia": {
+      "name": "asia",
+      "title": "ASIAN COOKING WORKSHOP",
+      "country": [{ name: "JORDAN", type: _pipilet_female2.default, recipe: _chamia2.default }, { name: "SINGAPORE", type: _pipilet_male2.default, recipe: _melocoton2.default }, { name: "VIETNAM", type: _pipilet_female2.default, recipe: _che2.default }, { name: "CHINA", type: _pipilet_female2.default, recipe: _helado6.default }, { name: "LEBANON", type: _pipilet_male2.default, recipe: _labneh2.default }, { name: "INDIA", type: _pipilet_female2.default, recipe: _lassi2.default }, { name: "SOUDI ARABIE", type: _pipilet_female2.default, recipe: _maskina2.default }]
+    }
   },
   "presentationPageContent": {
     "image-pipilet": _pipiletDescription2.default,
@@ -11686,127 +11849,127 @@ var _map = __webpack_require__(37);
 
 var _map2 = _interopRequireDefault(_map);
 
-var _fairy_cakes = __webpack_require__(157);
+var _fairy_cakes = __webpack_require__(73);
 
 var _fairy_cakes2 = _interopRequireDefault(_fairy_cakes);
 
-var _mousseDeChocolate = __webpack_require__(162);
+var _mousseDeChocolate = __webpack_require__(78);
 
 var _mousseDeChocolate2 = _interopRequireDefault(_mousseDeChocolate);
 
-var _manzanasAsadas = __webpack_require__(160);
+var _manzanasAsadas = __webpack_require__(76);
 
 var _manzanasAsadas2 = _interopRequireDefault(_manzanasAsadas);
 
-var _galletaDePascua = __webpack_require__(158);
+var _galletaDePascua = __webpack_require__(74);
 
 var _galletaDePascua2 = _interopRequireDefault(_galletaDePascua);
 
-var _macedonia = __webpack_require__(159);
+var _macedonia = __webpack_require__(75);
 
 var _macedonia2 = _interopRequireDefault(_macedonia);
 
-var _mouse = __webpack_require__(161);
+var _mouse = __webpack_require__(77);
 
 var _mouse2 = _interopRequireDefault(_mouse);
 
-var _tarta = __webpack_require__(163);
+var _tarta = __webpack_require__(79);
 
 var _tarta2 = _interopRequireDefault(_tarta);
 
-var _alba = __webpack_require__(164);
+var _alba = __webpack_require__(80);
 
 var _alba2 = _interopRequireDefault(_alba);
 
-var _helado = __webpack_require__(165);
+var _helado = __webpack_require__(81);
 
 var _helado2 = _interopRequireDefault(_helado);
 
-var _pavlova = __webpack_require__(166);
+var _pavlova = __webpack_require__(82);
 
 var _pavlova2 = _interopRequireDefault(_pavlova);
 
-var _helado3 = __webpack_require__(140);
+var _helado3 = __webpack_require__(56);
 
 var _helado4 = _interopRequireDefault(_helado3);
 
-var _bananas = __webpack_require__(136);
+var _bananas = __webpack_require__(52);
 
 var _bananas2 = _interopRequireDefault(_bananas);
 
-var _bizcocho = __webpack_require__(137);
+var _bizcocho = __webpack_require__(53);
 
 var _bizcocho2 = _interopRequireDefault(_bizcocho);
 
-var _ghriyba = __webpack_require__(138);
+var _ghriyba = __webpack_require__(54);
 
 var _ghriyba2 = _interopRequireDefault(_ghriyba);
 
-var _guzeya = __webpack_require__(139);
+var _guzeya = __webpack_require__(55);
 
 var _guzeya2 = _interopRequireDefault(_guzeya);
 
-var _malagasy = __webpack_require__(141);
+var _malagasy = __webpack_require__(57);
 
 var _malagasy2 = _interopRequireDefault(_malagasy);
 
-var _rellenos = __webpack_require__(142);
+var _rellenos = __webpack_require__(58);
 
 var _rellenos2 = _interopRequireDefault(_rellenos);
 
-var _bizcocho3 = __webpack_require__(145);
+var _bizcocho3 = __webpack_require__(61);
 
 var _bizcocho4 = _interopRequireDefault(_bizcocho3);
 
-var _trempettes = __webpack_require__(149);
+var _trempettes = __webpack_require__(65);
 
 var _trempettes2 = _interopRequireDefault(_trempettes);
 
-var _quindim = __webpack_require__(148);
+var _quindim = __webpack_require__(64);
 
 var _quindim2 = _interopRequireDefault(_quindim);
 
-var _mango = __webpack_require__(147);
+var _mango = __webpack_require__(63);
 
 var _mango2 = _interopRequireDefault(_mango);
 
-var _cupcakes = __webpack_require__(146);
+var _cupcakes = __webpack_require__(62);
 
 var _cupcakes2 = _interopRequireDefault(_cupcakes);
 
-var _banana = __webpack_require__(144);
+var _banana = __webpack_require__(60);
 
 var _banana2 = _interopRequireDefault(_banana);
 
-var _alfajores = __webpack_require__(143);
+var _alfajores = __webpack_require__(59);
 
 var _alfajores2 = _interopRequireDefault(_alfajores);
 
-var _melocoton = __webpack_require__(156);
+var _melocoton = __webpack_require__(72);
 
 var _melocoton2 = _interopRequireDefault(_melocoton);
 
-var _maskina = __webpack_require__(155);
+var _maskina = __webpack_require__(71);
 
 var _maskina2 = _interopRequireDefault(_maskina);
 
-var _lassi = __webpack_require__(154);
+var _lassi = __webpack_require__(70);
 
 var _lassi2 = _interopRequireDefault(_lassi);
 
-var _labneh = __webpack_require__(153);
+var _labneh = __webpack_require__(69);
 
 var _labneh2 = _interopRequireDefault(_labneh);
 
-var _helado5 = __webpack_require__(152);
+var _helado5 = __webpack_require__(68);
 
 var _helado6 = _interopRequireDefault(_helado5);
 
-var _che = __webpack_require__(151);
+var _che = __webpack_require__(67);
 
 var _che2 = _interopRequireDefault(_che);
 
-var _chamia = __webpack_require__(150);
+var _chamia = __webpack_require__(66);
 
 var _chamia2 = _interopRequireDefault(_chamia);
 
@@ -11872,7 +12035,7 @@ var _default = {
     "africa": {
       "name": "africa",
       "title": "TALLER DE COCINA AFRICANA",
-      "country": [{ name: "BENIN", type: _pipilet_female2.default, recipe: _bananas2.default }, { name: "KENIA", type: _pipilet_male2.default, recipe: _helado4.default }, { name: "TÚNEZ", type: _pipilet_female2.default, recipe: _ghriyba2.default }, { name: "EGIPTO", type: _pipilet_female2.default, recipe: _guzeya2.default }, { name: "ARGELIA", type: _pipilet_male2.default, recipe: _rellenos2.default }, { name: "MARRUECOS", type: _pipilet_female2.default, recipe: _bizcocho2.default }, { name: "MADAGASCAR", type: _pipilet_female2.default, recipe: _malagasy2.default }]
+      "country": [{ name: "BENIN", type: _pipilet_female2.default, recipe: _bananas2.default }, { name: "KENYA", type: _pipilet_male2.default, recipe: _helado4.default }, { name: "TUNISIE", type: _pipilet_female2.default, recipe: _ghriyba2.default }, { name: "EGYPTE", type: _pipilet_female2.default, recipe: _guzeya2.default }, { name: "ALGERIE", type: _pipilet_male2.default, recipe: _rellenos2.default }, { name: "MAROC", type: _pipilet_female2.default, recipe: _bizcocho2.default }, { name: "MADAGASCAR", type: _pipilet_female2.default, recipe: _malagasy2.default }]
     },
     "asia": {
       "name": "asia",
@@ -12283,7 +12446,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/spanish.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/english.js');
 }();
 
 ;
@@ -12479,7 +12642,7 @@ exports = module.exports = __webpack_require__(4)(undefined);
 
 
 // module
-exports.push([module.i, "#wrapper-header .wrapper-image{display:inline-block;width:20%;text-align:center;vertical-align:middle}#wrapper-header .wrapper-image img{width:11vw}#wrapper-language{height:20vw;margin-bottom:30px;display:flex}#wrapper-language .wrapper-image{width:30%;text-align:center;vertical-align:top}#wrapper-language .wrapper-image img{height:100%}#wrapper-language .wrapper-display-language{width:70%;height:100%;position:relative}#wrapper-language .wrapper-display-language .absolute-language{position:absolute;font-size:1.2vw;font-weight:700;font-family:Roboto Slab,serif;font-weight:lighter}#wrapper-language .wrapper-display-language .arab{top:10%;left:2%;color:#00bfff}#wrapper-language .wrapper-display-language .english{top:10%;left:46%;color:#00008b}#wrapper-language .wrapper-display-language .indian{top:17%;left:71%;color:#ff1493}#wrapper-language .wrapper-display-language .french{top:44%;left:69%;color:#00bfff}#wrapper-language .wrapper-display-language .african{top:30%;left:29%;color:#006400}#wrapper-language .wrapper-display-language .serbia{top:50%;left:54%;color:#ff8c00}#wrapper-language .wrapper-display-language .italian{top:35%;left:4%;color:#00008b}#wrapper-language .wrapper-display-language .spanish{top:60%;left:11%;color:peru}#wrapper-language .wrapper-display-language .china{top:70%;left:36%;color:#ff1493}#wrapper-language .wrapper-display-language .germany{top:73%;left:80%;color:#ff8c00}#wrapper-language .wrapper-display-language .russian{top:80%;left:64%;color:peru}#wrapper-language .wrapper-display-language .portuguese{top:80%;left:4%;color:#006400}#wrapper-language .wrapper-display-language .note1{top:78%;left:93%;height:18%;transform:rotate(10deg)}#wrapper-language .wrapper-display-language .note2{top:10%;left:12%;height:25%;transform:rotate(13deg)}#wrapper-language .wrapper-display-language .note3{top:9%;left:60%;height:14%}#wrapper-language .wrapper-display-language .note4{top:34%;left:17%;height:40%}#wrapper-language .wrapper-display-language .note5{top:24%;left:42%;height:33%}#wrapper-language .wrapper-display-language .note6{top:22%;left:80%;height:31%}#wrapper-language .wrapper-display-language .note7{top:79%;left:49%;height:22%}#wrapper-language .wrapper-display-language .note8{top:73%;left:19%;height:25%}#wrapper-flag,#wrapper-flag .wrapper-circle{position:relative;overflow:hidden}#wrapper-flag .wrapper-circle{padding:60px;width:100%;transition:.4s}#wrapper-flag .circle-container{position:relative;width:35vw;height:35vw;padding:0;border-radius:50%;list-style:none;box-sizing:content-box;margin:0 auto;z-index:2}#wrapper-flag .circle-container>*{display:block;position:absolute;top:50%;left:50%;width:6vw;height:6vw;margin:-3vw}#wrapper-flag .circle-container>:first-of-type{transform:rotate(0deg) translate(17.5vw) rotate(0deg)}#wrapper-flag .circle-container>:nth-of-type(2){transform:rotate(30deg) translate(17.5vw) rotate(-30deg)}#wrapper-flag .circle-container>:nth-of-type(3){transform:rotate(60deg) translate(17.5vw) rotate(-60deg)}#wrapper-flag .circle-container>:nth-of-type(4){transform:rotate(90deg) translate(17.5vw) rotate(-90deg)}#wrapper-flag .circle-container>:nth-of-type(5){transform:rotate(120deg) translate(17.5vw) rotate(-120deg)}#wrapper-flag .circle-container>:nth-of-type(6){transform:rotate(150deg) translate(17.5vw) rotate(-150deg)}#wrapper-flag .circle-container>:nth-of-type(7){transform:rotate(180deg) translate(17.5vw) rotate(-180deg)}#wrapper-flag .circle-container>:nth-of-type(8){transform:rotate(210deg) translate(17.5vw) rotate(-210deg)}#wrapper-flag .circle-container>:nth-of-type(9){transform:rotate(240deg) translate(17.5vw) rotate(-240deg)}#wrapper-flag .circle-container>:nth-of-type(10){transform:rotate(270deg) translate(17.5vw) rotate(-270deg)}#wrapper-flag .circle-container>:nth-of-type(11){transform:rotate(300deg) translate(17.5vw) rotate(-300deg)}#wrapper-flag .circle-container>:nth-of-type(12){transform:rotate(330deg) translate(17.5vw) rotate(-330deg)}#wrapper-flag .circle-container img{display:block;width:100%;border-radius:50%;filter:grayscale(100%)}#wrapper-flag .circle-container img:hover{filter:grayscale(0)!important}#wrapper-flag .shift-cirle{width:80%}#wrapper-flag .children-earth{position:absolute;top:50%;left:50%;width:25vw;height:25vw;transform:translate(-50%,-50%)}#wrapper-flag .show-list-music{position:absolute;border-radius:10px;top:-65vw;right:5%;border:1px solid #000;background:#f8f8f8;z-index:2;transition:.4s}#wrapper-flag .show-list-music ul{list-style-type:none;padding:0;margin:0}#wrapper-flag .show-list-music ul li{padding:10px;font-size:1.2vw;font-family:Raleway,sans-serif}#wrapper-flag .show-list-music ul li:hover{background:#fff}#wrapper-flag .shift-dropdown{top:20px}", ""]);
+exports.push([module.i, "#wrapper-header .wrapper-image{display:inline-block;width:20%;text-align:center;vertical-align:middle}#wrapper-header .wrapper-image img{width:11vw}#wrapper-language{height:20vw;margin-bottom:30px;display:flex}#wrapper-language .wrapper-image{width:30%;text-align:center;vertical-align:top}#wrapper-language .wrapper-image img{height:100%}#wrapper-language .wrapper-display-language{width:70%;height:100%;position:relative}#wrapper-language .wrapper-display-language .absolute-language{position:absolute;font-size:1.2vw;font-weight:700;font-family:Roboto Slab,serif;font-weight:lighter}#wrapper-language .wrapper-display-language .arab{top:10%;left:2%;color:#00bfff}#wrapper-language .wrapper-display-language .english{top:10%;left:46%;color:#00008b}#wrapper-language .wrapper-display-language .indian{top:17%;left:71%;color:#ff1493}#wrapper-language .wrapper-display-language .french{top:44%;left:69%;color:#00bfff}#wrapper-language .wrapper-display-language .african{top:30%;left:29%;color:#006400}#wrapper-language .wrapper-display-language .serbia{top:50%;left:54%;color:#ff8c00}#wrapper-language .wrapper-display-language .italian{top:35%;left:4%;color:#00008b}#wrapper-language .wrapper-display-language .spanish{top:60%;left:11%;color:peru}#wrapper-language .wrapper-display-language .china{top:70%;left:36%;color:#ff1493}#wrapper-language .wrapper-display-language .germany{top:63%;left:80%;color:#ff8c00}#wrapper-language .wrapper-display-language .russian{top:80%;left:64%;color:peru}#wrapper-language .wrapper-display-language .portuguese{top:80%;left:4%;color:#006400}#wrapper-language .wrapper-display-language .note1{top:78%;left:93%;height:18%;transform:rotate(10deg)}#wrapper-language .wrapper-display-language .note2{top:10%;left:12%;height:25%;transform:rotate(13deg)}#wrapper-language .wrapper-display-language .note3{top:9%;left:60%;height:14%}#wrapper-language .wrapper-display-language .note4{top:34%;left:17%;height:40%}#wrapper-language .wrapper-display-language .note5{top:24%;left:42%;height:33%}#wrapper-language .wrapper-display-language .note6{top:22%;left:80%;height:31%}#wrapper-language .wrapper-display-language .note7{top:79%;left:49%;height:22%}#wrapper-language .wrapper-display-language .note8{top:73%;left:19%;height:25%}#wrapper-flag,#wrapper-flag .wrapper-circle{position:relative;overflow:hidden}#wrapper-flag .wrapper-circle{padding:60px;width:100%;transition:.4s}#wrapper-flag .circle-container{position:relative;width:35vw;height:35vw;padding:0;border-radius:50%;list-style:none;box-sizing:content-box;margin:0 auto;z-index:2}#wrapper-flag .circle-container>*{display:block;position:absolute;top:50%;left:50%;width:6vw;height:6vw;margin:-3vw}#wrapper-flag .circle-container>:first-of-type{transform:rotate(0deg) translate(17.5vw) rotate(0deg)}#wrapper-flag .circle-container>:nth-of-type(2){transform:rotate(30deg) translate(17.5vw) rotate(-30deg)}#wrapper-flag .circle-container>:nth-of-type(3){transform:rotate(60deg) translate(17.5vw) rotate(-60deg)}#wrapper-flag .circle-container>:nth-of-type(4){transform:rotate(90deg) translate(17.5vw) rotate(-90deg)}#wrapper-flag .circle-container>:nth-of-type(5){transform:rotate(120deg) translate(17.5vw) rotate(-120deg)}#wrapper-flag .circle-container>:nth-of-type(6){transform:rotate(150deg) translate(17.5vw) rotate(-150deg)}#wrapper-flag .circle-container>:nth-of-type(7){transform:rotate(180deg) translate(17.5vw) rotate(-180deg)}#wrapper-flag .circle-container>:nth-of-type(8){transform:rotate(210deg) translate(17.5vw) rotate(-210deg)}#wrapper-flag .circle-container>:nth-of-type(9){transform:rotate(240deg) translate(17.5vw) rotate(-240deg)}#wrapper-flag .circle-container>:nth-of-type(10){transform:rotate(270deg) translate(17.5vw) rotate(-270deg)}#wrapper-flag .circle-container>:nth-of-type(11){transform:rotate(300deg) translate(17.5vw) rotate(-300deg)}#wrapper-flag .circle-container>:nth-of-type(12){transform:rotate(330deg) translate(17.5vw) rotate(-330deg)}#wrapper-flag .circle-container img{display:block;width:100%;border-radius:50%;filter:grayscale(100%)}#wrapper-flag .circle-container img:hover{filter:grayscale(0)!important}#wrapper-flag .shift-cirle{width:80%}#wrapper-flag .children-earth{position:absolute;top:50%;left:50%;width:25vw;height:25vw;transform:translate(-50%,-50%)}#wrapper-flag .show-list-music{position:absolute;border-radius:10px;top:-65vw;right:5%;border:1px solid #000;background:#f8f8f8;z-index:2;transition:.4s}#wrapper-flag .show-list-music ul{list-style-type:none;padding:0;margin:0}#wrapper-flag .show-list-music ul li{padding:10px;font-size:1.2vw;font-family:Raleway,sans-serif}#wrapper-flag .show-list-music ul li:hover{background:#fff}#wrapper-flag .shift-dropdown{top:20px}", ""]);
 
 // exports
 
@@ -12818,136 +12981,142 @@ module.exports = __webpack_require__.p + "62a5162139aa0a2fcbacf269e8835dd8.jpg";
 /* 316 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "51f7ea3e2c48b51c2879062aa6573119.jpg";
+module.exports = __webpack_require__.p + "bd6d5e1d9231b302e9b1cb1435165ec5.png";
 
 /***/ }),
 /* 317 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "a2661f9be690a1b31dab33ce4ad8100a.png";
+module.exports = __webpack_require__.p + "51f7ea3e2c48b51c2879062aa6573119.jpg";
 
 /***/ }),
 /* 318 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "150cc79d6fa8a892175aff21c1536661.jpg";
+module.exports = __webpack_require__.p + "a2661f9be690a1b31dab33ce4ad8100a.png";
 
 /***/ }),
 /* 319 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "4ba4aee9c31d87da1b3bec27bc26ccda.jpg";
+module.exports = __webpack_require__.p + "150cc79d6fa8a892175aff21c1536661.jpg";
 
 /***/ }),
 /* 320 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "3fa65dc47ee9bd88d3a99a0257d3039d.jpg";
+module.exports = __webpack_require__.p + "4ba4aee9c31d87da1b3bec27bc26ccda.jpg";
 
 /***/ }),
 /* 321 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "e93a645731ac509724eb900f8d451a24.jpg";
+module.exports = __webpack_require__.p + "3fa65dc47ee9bd88d3a99a0257d3039d.jpg";
 
 /***/ }),
 /* 322 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "e44185be63ac8e555449c694f7c00fa9.jpg";
+module.exports = __webpack_require__.p + "e93a645731ac509724eb900f8d451a24.jpg";
 
 /***/ }),
 /* 323 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "a235ff6c0e2a4b68949dff9210ac89e8.jpg";
+module.exports = __webpack_require__.p + "e44185be63ac8e555449c694f7c00fa9.jpg";
 
 /***/ }),
 /* 324 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "b12f730502a7734f37740c9c4af2aecc.jpg";
+module.exports = __webpack_require__.p + "a235ff6c0e2a4b68949dff9210ac89e8.jpg";
 
 /***/ }),
 /* 325 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "9528ed3f49d659932314cf3d775b99d6.jpg";
+module.exports = __webpack_require__.p + "b12f730502a7734f37740c9c4af2aecc.jpg";
 
 /***/ }),
 /* 326 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "eb7260f0c7574ad13e4bbfc75253754e.jpg";
+module.exports = __webpack_require__.p + "9528ed3f49d659932314cf3d775b99d6.jpg";
 
 /***/ }),
 /* 327 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "da5a416d3281d45575cc6399942dd870.jpg";
+module.exports = __webpack_require__.p + "eb7260f0c7574ad13e4bbfc75253754e.jpg";
 
 /***/ }),
 /* 328 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "ebfb0bdfbf22b5c0653838d2e4e90f41.jpg";
+module.exports = __webpack_require__.p + "da5a416d3281d45575cc6399942dd870.jpg";
 
 /***/ }),
 /* 329 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "f8921d4944594c74d38481a0812f45c8.jpg";
+module.exports = __webpack_require__.p + "ebfb0bdfbf22b5c0653838d2e4e90f41.jpg";
 
 /***/ }),
 /* 330 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "62a5162139aa0a2fcbacf269e8835dd8.jpg";
+module.exports = __webpack_require__.p + "f8921d4944594c74d38481a0812f45c8.jpg";
 
 /***/ }),
 /* 331 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "223e3ca6338c9985d62aff6501af4731.jpg";
+module.exports = __webpack_require__.p + "62a5162139aa0a2fcbacf269e8835dd8.jpg";
 
 /***/ }),
 /* 332 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "01e1c14a23a1a86664e48389a5bef30f.jpg";
+module.exports = __webpack_require__.p + "223e3ca6338c9985d62aff6501af4731.jpg";
 
 /***/ }),
 /* 333 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "6b423e2025d01201bf2076913b088cda.png";
+module.exports = __webpack_require__.p + "01e1c14a23a1a86664e48389a5bef30f.jpg";
 
 /***/ }),
 /* 334 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "3890a3b6a5eeb10c37bad81f138374d0.png";
+module.exports = __webpack_require__.p + "6b423e2025d01201bf2076913b088cda.png";
 
 /***/ }),
 /* 335 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "4da4356919ecaa8827ba15cb54febca8.png";
+module.exports = __webpack_require__.p + "3890a3b6a5eeb10c37bad81f138374d0.png";
 
 /***/ }),
 /* 336 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "c7972a110f53280e8d8bae9ce1903603.png";
+module.exports = __webpack_require__.p + "4da4356919ecaa8827ba15cb54febca8.png";
 
 /***/ }),
 /* 337 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "c7972a110f53280e8d8bae9ce1903603.png";
+
+/***/ }),
+/* 338 */
 /***/ (function(module, exports) {
 
 module.exports = require("path");
 
 /***/ }),
-/* 338 */
+/* 339 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-youtube");

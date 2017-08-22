@@ -21,12 +21,12 @@ const Navbar = ({
       <div className="language">
         <ul>
           <li onClick={() => changeLanguage("fr")}><img
-            src={french} height="22" width="22"/></li>
+            src={french} height="27" width="27"/></li>
           <li onClick={() => changeLanguage("eng")}><img
-            src={english} height="22" width="22"/>
+            src={english} height="27" width="27"/>
           </li>
           <li onClick={() => changeLanguage("esp")}><img
-            src={spanish} height="22" width="22"/></li>
+            src={spanish} height="27" width="27"/></li>
         </ul>
       </div>
       <div className="navigation">

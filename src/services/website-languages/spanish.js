@@ -70,6 +70,8 @@ import chinaRecipe from '../cook/spa/asia/helado';
 import vietnamRecipe from '../cook/spa/asia/che';
 import jordanieRecipe from '../cook/spa/asia/chamia';
 
+import { presentation } from '../presentation/spanish';
+
 export default (
   {
     "lan": "esp",
@@ -101,19 +103,15 @@ export default (
         { "name": "brasil", "translated-song": fallFallBallonTranslated, "original-song": fallFallBallonOriginal },
         { "name": "italy", "translated-song": seHaCasadoRosaTranslated, "original-song": seHaCasadoRosaOriginal },
         { "name": "french", "translated-song": mondayMorningTranslated, "original-song": mondayMorningOriginal },
-        {
-          "name": "english",
-          "translated-song": giramosalRededorDelMoralTranslated,
-          "original-song": giramosalRededorDelMoralOriginal
-        },
+        { "name": "english", "translated-song": giramosalRededorDelMoralTranslated, "original-song": giramosalRededorDelMoralOriginal },
         { "name": "serbia", "translated-song": itsRainningTranslated, "original-song": itsRainningOriginal },
         { "name": "russia", "translated-song": patACakeTranslated, "original-song": patACakeOriginal },
-        {
-          "name": "spanish",
-          "translated-song": theCourtyardOfMyHouseTranslated,
-          "original-song": theCourtyardOfMyHouseOriginal
-        },
+        { "name": "spanish", "translated-song": theCourtyardOfMyHouseTranslated, "original-song": theCourtyardOfMyHouseOriginal },
       ]
+    },
+    "colorNumberContent": {
+      "titleColor":"LOS COLORES",
+      "titleNumber":"LOS NUMEROS",
     },
     "numberPageContent": {
       "title": "LOS NUMEROS",
@@ -204,15 +202,7 @@ export default (
     },
     "presentationPageContent": {
       "image-pipilet": imagePipilet,
-      "text": [
-        "Hola, a todos, niños y niñas:",
-        "Mi nombre es Pipilet Mandala y acabo de llegar a la Tierra. Soy un caracol extraterrestre, que viene desde el planeta Galappar, que es el planeta de la música, del color y del amor.",
-        "Yo no sé hablar, ya que mi forma de comunicación es a través de la música y el color y, en lugar de escritura, me comunico pintando y cantando. ¡Soy un caracol mágico!",
-        "Me gustaría conocerte. ¿Quieres ser mi amigo? Me encanta tener amigos en todos los planetas.         Soy alegre y divertido como tú, y creo que nos vamos a entender bien.",
-        "Deseo ir a la escuela para aprender tu idioma y, también, tu cultura, tu historia. Y quiero poder entenderme con los niños y las niñas de los cinco continentes... y hacer muchos amigos. ¡Y me encanta cocinar!",
-        "Todo el tiempo viajo con mi guitarra y mi caparazón de caracol, que es un mandala, y me sirve de mochila. En ella llevo música, color y mucho amor. Es bonito ¿verdad? Y ahora te voy a contar un secreto. Bueno, mejor... todavía ¡NO! ¡Ven conmigo y lo irás descubriendo!",
-        "¿Quieres divertirte y participar en esta aventura apasionante? Será una experiencia maravillosa. Aprenderemos juntos y sabrás mucho de mi planeta y de mí. ¡Vamos, te espero,  anímate!",
-      ]
+      "text": presentation
     }
   }
 )
