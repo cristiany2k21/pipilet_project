@@ -1,4 +1,4 @@
-import german from '../../../images/flag/german.jpg';
+import german from '../../../images/flag/german.png';
 import little_draw from '../images/bird_little_draw_number.png';
 import big_draw from '../images/bird_big_draw_number.png';
 

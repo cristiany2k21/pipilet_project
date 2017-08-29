@@ -3,7 +3,7 @@ import HeaderTitle from './components/header-title';
 import DisplayImage from './components/display-image';
 
 import family from './images/family.jpg';
-import logoPipilet from './images/logo-pipilet.jpg';
+import logoPipilet from '../../images/pipilet-rainbow.jpg';
 
 import './styles/index.scss';
 

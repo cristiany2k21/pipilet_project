@@ -5,16 +5,31 @@ import HeaderPage from '../../../../components/header-page';
 const Section = ({
   path,
   image,
-  title
+  title,
+  logo,
+  extraClassName
 }) => {
   return (
     <div>
-      <HeaderPage title={title}/>
-      <Link to={path}>
-        <div className="wrapper-section-ingredient">
-          <img className="section undisplay" src={image}/>
-        </div>
-      </Link>
+      <HeaderPage title={title} logo={logo}/>
+      <div className="wrapper-section-color-number">
+        {
+          image.map((item, index) => {
+            console.log('item ------> ', item);
+            return (
+              <div key={index} className="wrapper-owls">
+                <div className="owls-inner">
+                  <img src={item.image}/>
+                  {
+                    item.countryName.map((item, index) => <Link key={index} to={`${path}/${item}`}
+                                                                className={`border ${extraClassName}_${index} width_${extraClassName}`}></Link>)
+                  }
+                </div>
+              </div>
+            )
+          })
+        }
+      </div>
     </div>
   )
 };

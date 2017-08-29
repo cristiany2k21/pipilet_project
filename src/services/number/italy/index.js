@@ -1,4 +1,4 @@
-import italy from '../../../images/flag/italy.jpg';
+import italy from '../../../images/flag/italy.png';
 import little_draw from '../images/umbrella_little_draw_number.png';
 import big_draw from '../images/umbrella_big_draw_number.png';
 

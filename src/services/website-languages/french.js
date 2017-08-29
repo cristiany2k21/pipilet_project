@@ -72,6 +72,9 @@ import jordanieRecipe from '../cook/fr/asia/chamia';
 
 import { presentation } from '../presentation/french';
 
+import owls_1 from '../../scenes/color-number-page/images/fr/owls-1.png';
+import owls_2 from '../../scenes/color-number-page/images/fr/owls-2.png';
+
 export default (
   {
     "lan": "fr",
@@ -103,15 +106,43 @@ export default (
         { "name": "brasil", "translated-song": fallFallBallonTranslated, "original-song": fallFallBallonOriginal },
         { "name": "italy", "translated-song": seHaCasadoRosaTranslated, "original-song": seHaCasadoRosaOriginal },
         { "name": "french", "translated-song": mondayMorningTranslated, "original-song": mondayMorningOriginal },
-        { "name": "english", "translated-song": giramosalRededorDelMoralTranslated, "original-song": giramosalRededorDelMoralOriginal },
+        {
+          "name": "english",
+          "translated-song": giramosalRededorDelMoralTranslated,
+          "original-song": giramosalRededorDelMoralOriginal
+        },
         { "name": "serbia", "translated-song": itsRainningTranslated, "original-song": itsRainningOriginal },
         { "name": "russia", "translated-song": patACakeTranslated, "original-song": patACakeOriginal },
-        { "name": "spanish", "translated-song": theCourtyardOfMyHouseTranslated, "original-song": theCourtyardOfMyHouseOriginal },
+        {
+          "name": "spanish",
+          "translated-song": theCourtyardOfMyHouseTranslated,
+          "original-song": theCourtyardOfMyHouseOriginal
+        },
       ]
     },
     "colorNumberContent": {
-      "titleColor":"LES COULEURS",
-      "titleNumber":"LES NOMBRES",
+      "titleColor": "LES COULEURS",
+      "owls": [
+        {
+          image: owls_1,
+          countryName: [
+            "french",
+            "india",
+            "spanish",
+            "russia"
+          ]
+        },
+        {
+          image: owls_2,
+          countryName: [
+            "german",
+            "serbia",
+            "italy",
+            "china"
+          ]
+        }
+      ],
+      "titleNumber": "LES NOMBRES",
     },
     "numberPageContent": {
       "title": "LES NOMBRES",

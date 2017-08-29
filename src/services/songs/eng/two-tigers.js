@@ -1,4 +1,4 @@
-import tigers from '../../../images/music-image/two-tigers.png';
+import tigers from '../../../images/music-image/two-tigers.jpg';
 
 export default (
   {

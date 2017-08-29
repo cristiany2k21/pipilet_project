@@ -72,11 +72,14 @@ import jordanieRecipe from '../cook/fr/asia/chamia';
 
 import { presentation } from '../presentation/english';
 
+import owls_1 from '../../scenes/color-number-page/images/eng/owls-1.png';
+import owls_2 from '../../scenes/color-number-page/images/eng/owls-2.png';
+
 export default (
   {
     "lan": "eng",
     "navbar": information.getNavbar("Home", "Presentation", "Contact"),
-    "sidebar": information.getSidebar("SONGS", "COLORS AND NUMBERS", "PASTRIES", "DO YOU KNOW WHO AM I ?"),
+    "sidebar": information.getSidebar("SONGS", "COLORS AND NUMBERS", "PASTRIES", "DO YOU KNOW WHO I AM ?"),
     "songPageContent": {
       "title": "SONGS",
       "language": {
@@ -111,6 +114,26 @@ export default (
     },
     "colorNumberContent": {
       "titleColor":"COLORS",
+      "owls": [
+        {
+          image: owls_1,
+          countryName: [
+            "french",
+            "india",
+            "spanish",
+            "russia"
+          ]
+        },
+        {
+          image: owls_2,
+          countryName: [
+            "german",
+            "serbia",
+            "italy",
+            "china"
+          ]
+        }
+      ],
       "titleNumber":"NUMBERS",
     },
     "numberPageContent": {

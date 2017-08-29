@@ -1,7 +1,10 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
+import logo from '../../images/pipilet-song.jpg';
+
 import HeaderPage from '../../components/header-page';
+import Footer from '../../components/footer';
 import DisplayLanguageSong from './components/display-language';
 import ChooseFlag from './components/choose-flag';
 
@@ -14,9 +17,10 @@ const SongPage = ({
 }) => {
   return (
     <div>
-      <HeaderPage title={title}/>
+      <HeaderPage title={title} logo={logo} />
       <DisplayLanguageSong language={language} />
       <ChooseFlag flag={flag} />
+      <Footer />
     </div>
   )
 };

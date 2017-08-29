@@ -1,4 +1,4 @@
-import serbia from '../../../images/flag/serbia.jpg';
+import serbia from '../../../images/flag/serbia.png';
 import little_draw from '../images/elephant_little_draw_number.png';
 import big_draw from '../images/elephant_big_draw_number.png';
 

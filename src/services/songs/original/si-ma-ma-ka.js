@@ -1,6 +1,6 @@
 import siMaMaKa from '../../../images/music-image/si-ma-ma-ka.jpg';
 import siMaMaKaSheet from '../../../images/music-sheet/si-ma-ma-ka.png';
-import ghana from '../../../images/flag/ghana.jpg';
+import ghana from '../../../images/flag/ghana.png';
 
 export default (
   {

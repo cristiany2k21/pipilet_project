@@ -1,24 +1,107 @@
 #wrapper-colornumber {
 
-  .wrapper-section-ingredient {
-    text-align: center;
+  .wrapper-section-color-number {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
     transition: .5s;
 
-    .section {
-      width: 100%;
+    .wrapper-owls + .wrapper-owls {
+      margin-top: 60px;
     }
 
-    .undisplay {
-      transition: .5s;
-      filter: grayscale(100%)
-    }
+    .wrapper-owls {
+      width: 90%;
 
-    &:hover {
-      .undisplay {
-        filter: grayscale(0);
+      .owls-inner {
+        position: relative;
+
+        .border {
+          position: absolute;
+          flex-wrap: wrap;
+        }
+
+        .width_color {
+          width: 23%;
+          height: 100%;
+        }
+
+        .width_number {
+          width: 13%;
+          height: 50%;
+        }
+
+        .color_0 {
+          top: 0;
+          left: 2%;
+        }
+        .color_1 {
+          top: 0;
+          left: 26%;
+        }
+        .color_2 {
+          top: 0;
+          left: 50.5%;
+        }
+        .color_3 {
+          top: 0;
+          left: 75%;
+        }
+
+        .number_0 {
+          top: 0;
+          left: 6%;
+        }
+        .number_1 {
+          top: 0;
+          left: 19%;
+        }
+        .number_2 {
+          top: 0;
+          left: 33%;
+        }
+        .number_3 {
+          top: 0;
+          left: 50%;
+        }
+        .number_4 {
+          top: 00%;
+          left: 69%;
+        }
+        .number_5 {
+          top: 0%;
+          left: 86%;
+        }
+        .number_6 {
+          top: 50%;
+          left: 6%;
+        }
+        .number_7 {
+          top: 50%;
+          left: 22%;
+        }
+        .number_8 {
+          top: 50%;
+          left: 39%;
+        }
+        .number_9 {
+          top: 50%;
+          left: 55%;
+        }
+        .number_10 {
+          top: 50%;
+          left: 71%;
+        }
+        .number_11 {
+          top: 50%;
+          left: 86%;
+        }
+      }
+
+      img {
+        max-height: 100%;
+        max-width: 100%;
       }
     }
   }

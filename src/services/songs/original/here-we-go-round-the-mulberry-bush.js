@@ -1,6 +1,6 @@
 import hereWeGo from '../../../images/music-image/here-we-go-round-the-mulberry-bush.jpg';
 import hereWeGoSheet from '../../../images/music-sheet/here-we-go-round-the-mulberry-bush.png';
-import english from '../../../images/flag/english.jpg';
+import english from '../../../images/flag/english.png';
 
 export default (
   {

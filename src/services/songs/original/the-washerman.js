@@ -1,5 +1,5 @@
 import theWasherman from '../../../images/music-image/the-washerman.jpg';
-import india from '../../../images/flag/india.jpg';
+import india from '../../../images/flag/india.png';
 
 export default (
   {

@@ -1,6 +1,6 @@
 import React from 'react';
 import pipiletNumber from '../../images/pipilet-number-color.jpg';
-import pipiletRainbow from '../../images/pipilet-rainbow-light.jpg';
+import pipiletRainbow from '../../images/pipilet-rainbow.jpg';
 
 import './style/index.scss';
 

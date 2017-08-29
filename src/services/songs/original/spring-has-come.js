@@ -1,5 +1,5 @@
 import springComing from '../../../images/music-image/spring-has-come.jpg';
-import italy from '../../../images/flag/italy.jpg';
+import italy from '../../../images/flag/italy.png';
 
 export default (
   {

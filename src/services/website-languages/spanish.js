@@ -72,13 +72,18 @@ import jordanieRecipe from '../cook/spa/asia/chamia';
 
 import { presentation } from '../presentation/spanish';
 
+import owls_1 from '../../scenes/color-number-page/images/esp/owls-1.png';
+import owls_2 from '../../scenes/color-number-page/images/esp/owls-2.png';
+
+import number from '../../scenes/color-number-page/images/numberDoc.png';
+
 export default (
   {
     "lan": "esp",
     "navbar": information.getNavbar("Acogida", "Presentación", "Contacto"),
-    "sidebar": information.getSidebar("LOS CANCIONES", "LOS COLORES Y LOS NÚMEROS", "LA REPOSTERÍA", "¿ SABES QUIÊN SOY ?"),
+    "sidebar": information.getSidebar("LAS CANCIONES", "LOS COLORES Y LOS NÚMEROS", "LA REPOSTERÍA", "¿ SABES QUIÊN SOY ?"),
     "songPageContent": {
-      "title": "LOS CANCIONES",
+      "title": "LAS CANCIONES",
       "language": {
         "english": "INGLÉS",
         "arab": "ARABE",
@@ -111,7 +116,46 @@ export default (
     },
     "colorNumberContent": {
       "titleColor":"LOS COLORES",
+      "owls": [
+        {
+          image: owls_1,
+          countryName: [
+            "french",
+            "india",
+            "spanish",
+            "russia"
+          ]
+        },
+        {
+          image: owls_2,
+          countryName: [
+            "german",
+            "serbia",
+            "italy",
+            "china"
+          ]
+        }
+      ],
       "titleNumber":"LOS NUMEROS",
+      "imageNumber": [
+        {
+          image: number,
+          countryName: [
+            "french",
+            "china",
+            "german",
+            "spanish",
+            "italy",
+            "serbia",
+            "brasil",
+            "india",
+            "english",
+            "tanzania",
+            "southAfrica",
+            "russia",
+          ]
+        }
+        ]
     },
     "numberPageContent": {
       "title": "LOS NUMEROS",

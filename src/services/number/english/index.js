@@ -1,4 +1,4 @@
-import english from '../../../images/flag/english.jpg';
+import english from '../../../images/flag/english.png';
 import little_draw from '../images/umbrella_little_draw_number.png';
 import big_draw from '../images/umbrella_big_draw_number.png';
 

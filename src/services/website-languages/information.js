@@ -6,19 +6,19 @@ import pipiletNumberColor from '../../images/pipilet-number-color.jpg';
 import pipiletCooker from '../../images/pipilet-cooker.jpg';
 import pipiletDescription from '../../images/pipilet-description.jpg';
 
-import french from '../../images/flag/french.jpg';
-import english from '../../images/flag/english.jpg';
-import india from '../../images/flag/india.jpg';
-import brasil from '../../images/flag/brasil.jpg';
-import italy from '../../images/flag/italy.jpg';
+import french from '../../images/flag/french.png';
+import english from '../../images/flag/english.png';
+import india from '../../images/flag/india.png';
+import brasil from '../../images/flag/brasil.png';
+import italy from '../../images/flag/italy.png';
 import spanish from '../../images/flag/spanish.png';
-import serbia from '../../images/flag/serbia.jpg';
-import german from '../../images/flag/german.jpg';
-import china from '../../images/flag/china.jpg';
+import serbia from '../../images/flag/serbia.png';
+import german from '../../images/flag/german.png';
+import china from '../../images/flag/china.png';
 import southAfrica from '../../images/flag/south-africa.jpg';
 import tanzania from '../../images/flag/tanzania.jpg';
-import russia from '../../images/flag/russia.jpg';
-import ghana from '../../images/flag/ghana.jpg';
+import russia from '../../images/flag/russia.png';
+import ghana from '../../images/flag/ghana.png';
 import lebanon from '../../images/flag/lebanon.jpg';
 
 export default ({

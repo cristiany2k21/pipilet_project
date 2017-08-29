@@ -1,4 +1,4 @@
-import brasil from '../../../images/flag/brasil.jpg';
+import brasil from '../../../images/flag/brasil.png';
 import little_draw from '../images/bike_little_draw_number.png';
 import big_draw from '../images/bike_big_draw_number.png';
 

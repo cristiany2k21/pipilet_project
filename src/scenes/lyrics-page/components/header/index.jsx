@@ -14,12 +14,12 @@ const HeaderLyrics = ({
           </div>
         </div>
         <div className="flag-song">
-          <img src={imageFlag} alt={`${title}-image`} width="300"/>
+          <img src={imageFlag} alt={`${title}-image`}/>
         </div>
       </div>
 
       <div className="wrapper-image-song">
-        <img src={`${image}`} alt={`${title}-image`} width="500"/>
+        <img src={`${image}`} alt={`${title}-image`}/>
       </div>
     </div>
   )

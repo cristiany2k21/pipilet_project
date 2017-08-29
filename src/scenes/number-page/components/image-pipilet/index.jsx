@@ -1,6 +1,6 @@
 import React from 'react';
 import pipiletNumber from '../../../../images/pipilet-number-color.jpg';
-import pipiletRainbow from '../../../../images/pipilet-rainbow-dark.jpg';
+import pipiletRainbow from '../../../../images/pipilet-rainbow.jpg';
 
 const ImagePipilet = () => {
     return (

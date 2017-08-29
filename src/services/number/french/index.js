@@ -1,4 +1,4 @@
-import french from '../../../images/flag/french.jpg';
+import french from '../../../images/flag/french.png';
 import little_draw from '../images/elephant_little_draw_number.png';
 import big_draw from '../images/elephant_big_draw_number.png';
 

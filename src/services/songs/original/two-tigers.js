@@ -1,6 +1,6 @@
-import tigers from '../../../images/music-image/two-tigers.png';
+import tigers from '../../../images/music-image/two-tigers.jpg';
 import tigersSheet from '../../../images/music-sheet/two-tigers.jpg';
-import china from '../../../images/flag/china.jpg';
+import china from '../../../images/flag/china.png';
 
 export default (
   {

@@ -1,5 +1,5 @@
 import patACake from '../../../images/music-image/pat-a-cake.jpg';
-import russia from '../../../images/flag/russia.jpg';
+import russia from '../../../images/flag/russia.png';
 
 export default (
   {
