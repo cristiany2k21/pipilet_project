@@ -12,7 +12,7 @@ export default (
         { letter: "1", value: "One" },
         { letter: "11", value: "Eleven" },
         { letter: "21", value: "Twenty one" },
-        { letter: "31", value: "hirty one" },
+        { letter: "31", value: "Thirty one" },
       ],
       [
         { letter: "2", value: "Two" },
@@ -35,7 +35,7 @@ export default (
       [
         { letter: "5", value: "Five" },
         { letter: "15", value: "Fifteen" },
-        { letter: "25", value: "Vingh cinq" },
+        { letter: "25", value: "Twenty five" },
         { letter: "35", value: "Thirty five" },
       ],
       [
@@ -60,7 +60,7 @@ export default (
         { letter: "9", value: "Nine" },
         { letter: "19", value: "Nineteen" },
         { letter: "29", value: "Twenty nine" },
-        { letter: "39", value: "Thirty nive" },
+        { letter: "39", value: "Thirty nine" },
       ],
       [
         { letter: "10", value: "Ten" },

@@ -8,11 +8,11 @@ export default ({
     "GELB",
     "WEISS",
     "BLAU",
-    "ORANGE",
+    "ORANGEFARBEN",
     "GRÜN",
     "SCHWARZ",
     "BRAUN",
-    "FUSCHIA",
+    "LILA",
     "ROSA",
   ],
   "game": {

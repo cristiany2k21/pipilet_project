@@ -17,13 +17,13 @@ export default (
       [
         { letter: "2", value: "Zwei" },
         { letter: "12", value: "Zwölf" },
-        { letter: "22", value: "Zweiunwanzig" },
+        { letter: "22", value: "Zweiundzwanzig" },
         { letter: "32", value: "Zweiunddreißig" },
       ],
       [
         { letter: "3", value: "Drei" },
-        { letter: "13", value: "dreizehn" },
-        { letter: "23", value: "Dreiundzwanzing" },
+        { letter: "13", value: "Dreizehn" },
+        { letter: "23", value: "Dreiundzwanzig" },
         { letter: "33", value: "Dreiunddreißig" },
       ],
       [
@@ -34,7 +34,7 @@ export default (
       ],
       [
         { letter: "5", value: "Fünf" },
-        { letter: "15", value: "fünfzehn" },
+        { letter: "15", value: "Fünfzehn" },
         { letter: "25", value: "Fünfundzwanzig" },
         { letter: "35", value: "Fünfunddreißig" },
       ],
@@ -70,7 +70,7 @@ export default (
       ]
     ],
     "ten-numbers": [
-      { letter: "50", value: "Füfzig" },
+      { letter: "50", value: "Fünfzig" },
       { letter: "60", value: "Sechzig" },
       { letter: "70", value: "Siebzig" },
       { letter: "80", value: "Achtzig" },

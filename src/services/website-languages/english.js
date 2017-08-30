@@ -74,6 +74,9 @@ import { presentation } from '../presentation/english';
 
 import owls_1 from '../../scenes/color-number-page/images/eng/owls-1.png';
 import owls_2 from '../../scenes/color-number-page/images/eng/owls-2.png';
+import owls_3 from '../../scenes/color-number-page/images/eng/owls-3.png';
+
+import children from '../../scenes/color-number-page/images/eng/children.png';
 
 export default (
   {
@@ -132,9 +135,38 @@ export default (
             "italy",
             "china"
           ]
+        },
+        {
+          image: owls_3,
+          countryName: [
+            "english",
+            "tanzania",
+            "brasil",
+            "southAfrica"
+          ]
         }
       ],
       "titleNumber":"NUMBERS",
+      "imageNumber": [
+        {
+          image: children,
+          countryName: [
+            "french",
+            "china",
+            "german",
+            "spanish",
+            "italy",
+            "serbia",
+            "brasil",
+            "india",
+            "english",
+            "tanzania",
+            "russia",
+            "southAfrica",
+          ]
+        }
+      ]
+
     },
     "numberPageContent": {
       "title": "NUMBERS",

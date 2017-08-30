@@ -19,8 +19,7 @@ export const presentation =
       <p>
         Je ne sais pas parler, puisque mon moyen de
         communication passe par la musique et la <span className="blue">couleur</span>.<br/>
-        Et à la place de l’écriture, je <span className="orange">chante</span> et je <span className="blue">peins</span>,
-        <span className="brown">je suis un escargot magique!!!</span>
+        Et à la place de l’écriture, je <span className="orange">chante</span> et je <span className="blue">peins</span>, <span className="brown">je suis un escargot magique!!!</span>
       </p>
       <p>
         J’aimerais beaucoup te connaitre et <span className="green">que tu sois mon</span> ami. <br/>
@@ -47,8 +46,14 @@ export const presentation =
       <p className="center">
         <span className="red">Allez, je t’attends, rejoins moi !!!!!</span>
       </p>
-    </div>
-    <div className="wrapper-image">
-      <img src={universe}/>
+      <div className="wrapper-image">
+        <img src={universe}/>
+      </div>
+      <p className="center">
+        Ceci est ma planète le “<span className="green">Planète Galappar</span>” ,qui est la planète de la <span className="yellow">musique</span>, de la <span className="blue">couleur</span> et de <span className="red">l’amour</span>.
+      </p>
+      <p className="center">
+        Elle est belle,non?
+      </p>
     </div>
   </div>

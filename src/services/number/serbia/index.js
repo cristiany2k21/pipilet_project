@@ -50,8 +50,8 @@ export default (
       ]
     ],
     "ten-numbers": [
-      { letter: "21", value: "двадесет [dvadését]" },
-      { letter: "22", value: "двадесет [један dvadesét tédan]" },
+      { letter: "21", value: "Двадесет један [dvadését]" },
+      { letter: "22", value: "двадесет два [један dvadesét tédan]" },
       { letter: "30", value: "тридесет [tridéssét]" },
       { letter: "40", value: "четрдесет [chetrdéssét]" },
       { letter: "50", value: "педесет [pédéssét]" },

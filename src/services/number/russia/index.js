@@ -21,37 +21,37 @@ export default (
         { letter: "13", value: "тринадцать [trinacatj]" },
       ],
       [
-        { letter: "4", value: "четыре [chityre]" },
+        { letter: "4", value: "четыре [tchetirié]" },
         { letter: "14", value: "четырнадцать [chityrnacatj]" },
       ],
       [
-        { letter: "5", value: "пять [pjatj]" },
+        { letter: "5", value: "пять [pyat]" },
         { letter: "15", value: "пятнадцать [pitnacatj]" },
       ],
       [
-        { letter: "6", value: "шесть [shestj]" },
+        { letter: "6", value: "шесть [chiést]" },
         { letter: "16", value: "шестнадцать [shysnacatj]" },
       ],
       [
-        { letter: "7", value: "семь [semj]" },
+        { letter: "7", value: "семь [siém]" },
         { letter: "17", value: "семнадцать [simjnacatj]" },
       ],
       [
-        { letter: "8", value: "восемь [vosemj]" },
+        { letter: "8", value: "восемь [vossiém']" },
         { letter: "18", value: "восемнадцать [vosimnacatj]" },
       ],
       [
-        { letter: "9", value: "девять [devjatj]" },
+        { letter: "9", value: "девять [diéviat]" },
         { letter: "19", value: "девятнадцать [divitnacatj]" },
       ],
       [
-        { letter: "10", value: "десять [desjatj]" },
+        { letter: "10", value: "десять [diéciat]" },
         { letter: "20", value: "двадцать [dvacatj]" },
       ]
     ],
     "ten-numbers": [
-      { letter: "21", value: "двадцать один [dvacatj odin]" },
-      { letter: "22", value: "двадцать [dvacatj dva]" },
+      { letter: "21", value: "Двадцать один [dvacatj odin]" },
+      { letter: "22", value: "Двадцать два [dvacatj dva]" },
       { letter: "30", value: "тридцать [tricatj]" },
       { letter: "40", value: "сорок [sorok]" },
       { letter: "50", value: "пятьдесят [pjatjdisjat]" },

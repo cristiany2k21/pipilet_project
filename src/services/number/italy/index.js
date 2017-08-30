@@ -16,7 +16,7 @@ export default (
       ],
       [
         { letter: "2", value: "Due" },
-        { letter: "12", value: "Duodici" },
+        { letter: "12", value: "Dodici" },
         { letter: "22", value: "Ventidue" },
         { letter: "32", value: "Trentadue" },
       ],

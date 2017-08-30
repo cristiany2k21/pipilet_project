@@ -9,14 +9,14 @@ export default (
     "draw": { "little-draw": little_draw, "big-draw": big_draw },
     "numbers": [
       [
-        { letter: "1", value: "Moia" },
+        { letter: "1", value: "Moja" },
         { letter: "11", value: "Kumi na moja" },
         { letter: "21", value: "Ishirini na moja" },
         { letter: "31", value: "Thelathini na moja" },
       ],
       [
         { letter: "2", value: "Mbili" },
-        { letter: "12", value: "Kuma na mbili" },
+        { letter: "12", value: "Kumi na mbili" },
         { letter: "22", value: "Ishirini na mbili" },
         { letter: "32", value: "Thelathini na mbili" },
       ],
@@ -70,7 +70,7 @@ export default (
       ]
     ],
     "ten-numbers": [
-      { letter: "50", value: "Hansini" },
+      { letter: "50", value: "Hamsini" },
       { letter: "60", value: "Sitini" },
       { letter: "70", value: "Sabini" },
       { letter: "80", value: "Themanini" },

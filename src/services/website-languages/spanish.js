@@ -1,3 +1,5 @@
+import React from'react';
+
 import information from './information';
 
 import male from '../../images/cook/pipilet_male.jpg';
@@ -74,8 +76,9 @@ import { presentation } from '../presentation/spanish';
 
 import owls_1 from '../../scenes/color-number-page/images/esp/owls-1.png';
 import owls_2 from '../../scenes/color-number-page/images/esp/owls-2.png';
+import owls_3 from '../../scenes/color-number-page/images/esp/owls-3.png';
 
-import number from '../../scenes/color-number-page/images/numberDoc.png';
+import children from '../../scenes/color-number-page/images/esp/children.png';
 
 export default (
   {
@@ -108,14 +111,22 @@ export default (
         { "name": "brasil", "translated-song": fallFallBallonTranslated, "original-song": fallFallBallonOriginal },
         { "name": "italy", "translated-song": seHaCasadoRosaTranslated, "original-song": seHaCasadoRosaOriginal },
         { "name": "french", "translated-song": mondayMorningTranslated, "original-song": mondayMorningOriginal },
-        { "name": "english", "translated-song": giramosalRededorDelMoralTranslated, "original-song": giramosalRededorDelMoralOriginal },
+        {
+          "name": "english",
+          "translated-song": giramosalRededorDelMoralTranslated,
+          "original-song": giramosalRededorDelMoralOriginal
+        },
         { "name": "serbia", "translated-song": itsRainningTranslated, "original-song": itsRainningOriginal },
         { "name": "russia", "translated-song": patACakeTranslated, "original-song": patACakeOriginal },
-        { "name": "spanish", "translated-song": theCourtyardOfMyHouseTranslated, "original-song": theCourtyardOfMyHouseOriginal },
+        {
+          "name": "spanish",
+          "translated-song": theCourtyardOfMyHouseTranslated,
+          "original-song": theCourtyardOfMyHouseOriginal
+        },
       ]
     },
     "colorNumberContent": {
-      "titleColor":"LOS COLORES",
+      "titleColor": "LOS COLORES",
       "owls": [
         {
           image: owls_1,
@@ -134,12 +145,21 @@ export default (
             "italy",
             "china"
           ]
+        },
+        {
+          image: owls_3,
+          countryName: [
+            "english",
+            "tanzania",
+            "brasil",
+            "southAfrica"
+          ]
         }
       ],
-      "titleNumber":"LOS NUMEROS",
+      "titleNumber": "LOS NUMEROS",
       "imageNumber": [
         {
-          image: number,
+          image: children,
           countryName: [
             "french",
             "china",
@@ -151,11 +171,11 @@ export default (
             "india",
             "english",
             "tanzania",
-            "southAfrica",
             "russia",
+            "southAfrica",
           ]
         }
-        ]
+      ]
     },
     "numberPageContent": {
       "title": "LOS NUMEROS",
@@ -177,7 +197,10 @@ export default (
     },
     "cookerPageContent": {
       "title": "LA RESPOSTERÍA",
-      "description": "TU AMIGO HA DECIDIDO RECORRER EL MUNDO Y HA VISITADO LOS CINCO CONTINENTES. RECOPILANDO DELICIOSOS POSTRES DE DIFERENTES PAÍSES DEL MUNDO",
+      "description":
+        <div>
+          <span className="red"><b>TU AMIGO HA</b></span> DECIDIDO RECORRER <span className="dodgerblue"><b>EL MUNDO</b></span> Y HA VISITADO <span className="green"><b>LOS CINCO CONTINENTES</b></span>. RECOPILANDO DELICIOSOS POSTRES DE <span className="yellow"><b>DIFERENTES PAÍSES DEL MUNDO</b></span>
+        </div>,
       "image": map,
     },
     "chooseCountryContent": {

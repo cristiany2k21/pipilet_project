@@ -130,16 +130,40 @@
 
   .wrapper-footer {
     margin-top: 30px;
+    height: 300px;
     width: 100%;
 
-    .wrapper-image{
+    .wrapper-image {
+      vertical-align: middle;
+      height: 100%;
       width: 50%;
       display: inline-block;
       text-align: center;
 
       img {
-        width: 60%;
+        max-height: 100%;
+        max-width: 100%;
       }
     }
   }
+}
+
+
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.yellow {
+  color: #eabe00;
+}
+.dodgerblue {
+  color: dodgerblue;
+}
+.brown {
+  color: brown;
+}
+.purple {
+  color: #9370db;
 }

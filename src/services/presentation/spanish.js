@@ -37,8 +37,10 @@ export const presentation =
         maravillosa. Aprenderemos juntos y sabrás mucho de mi planeta y de mí. ¡Vamos, te espero,
         anímate!</span>
       </p>
-    </div>
     <div className="wrapper-image">
       <img src={universe} />
+    </div>
+      <p className="center">Este es mi planeta: <span className="green">el planeta Galappar</span> el planeta de la <span className="yellow">música</span>, el <span className="dodgerblue">color</span> y el <span className="red">amor</span>.</p>
+      <p className="center">¿A qué es bonito?</p>
     </div>
   </div>

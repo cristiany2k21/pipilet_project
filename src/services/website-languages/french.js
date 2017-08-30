@@ -74,6 +74,9 @@ import { presentation } from '../presentation/french';
 
 import owls_1 from '../../scenes/color-number-page/images/fr/owls-1.png';
 import owls_2 from '../../scenes/color-number-page/images/fr/owls-2.png';
+import owls_3 from '../../scenes/color-number-page/images/fr/owls-3.png';
+
+import children from '../../scenes/color-number-page/images/fr/children.png';
 
 export default (
   {
@@ -140,9 +143,37 @@ export default (
             "italy",
             "china"
           ]
+        },
+        {
+          image: owls_3,
+          countryName: [
+            "english",
+            "tanzania",
+            "brasil",
+            "southAfrica"
+          ]
         }
       ],
       "titleNumber": "LES NOMBRES",
+      "imageNumber": [
+        {
+          image: children,
+          countryName: [
+            "french",
+            "china",
+            "german",
+            "spanish",
+            "italy",
+            "serbia",
+            "brasil",
+            "india",
+            "english",
+            "tanzania",
+            "russia",
+            "southAfrica",
+          ]
+        }
+      ]
     },
     "numberPageContent": {
       "title": "LES NOMBRES",
