@@ -6,6 +6,7 @@
     display: inline-block;
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    font-weight: 100;
     font-size: 1.7vw;
   }
 
@@ -14,14 +15,6 @@
     width: 60%;
     display: inline-block;
     position: relative;
-
-    .map_africa,
-    .map_america,
-    .map_asia,
-    .map_europe,
-    .map_oceania {
-      display: none;
-    }
 
     .absolute {
       position: absolute;

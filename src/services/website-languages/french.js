@@ -32,7 +32,7 @@ import seHaCasadoRosaOriginal from '../songs/original/spring-has-come';
 import patACakeOriginal from '../songs/original/pat-a-cake';
 import mondayMorningOriginal from '../songs/original/on-monday-morning';
 
-import map from '../../images/map.jpg';
+import map from '../../images/map.png';
 
 import englishRecipe from '../cook/fr/europe/fairy_cakes';
 import frenchRecipe from '../cook/fr/europe/mousseDeChocolate';

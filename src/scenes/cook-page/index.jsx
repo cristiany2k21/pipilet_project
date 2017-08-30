@@ -14,7 +14,6 @@ import './style/index.scss';
 const CookPage = ({
   cookerPageContent
 }) => {
-  console.log('cookerPageContent ------> ', cookerPageContent.description);
     return (
         <div id="wrapper-cooker-page">
           <HeaderPage title={cookerPageContent.title} logo={cooker} />

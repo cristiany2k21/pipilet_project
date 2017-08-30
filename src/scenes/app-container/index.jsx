@@ -1,5 +1,5 @@
 import React from 'react';
-import { connect } from 'react-redux'
+import connect from 'react-redux/lib/connect/connect'
 import Navbar from '../../components/navbar';
 import Sidebar from '../../components/sidebar';
 import './styles/index.scss';

@@ -15,7 +15,6 @@ const Section = ({
       <div className="wrapper-section-color-number">
         {
           image.map((item, index) => {
-            console.log('item ------> ', item);
             return (
               <div key={index} className="wrapper-owls">
                 <div className="owls-inner">

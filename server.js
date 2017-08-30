@@ -28,6 +28,12 @@ else {
 
 app.use(express.static('public'));
 
+app.get('*.js', function (req, res, next) {
+  req.url = req.url + '.gz';
+  res.set('Content-Encoding', 'gzip');
+  next();
+});
+
 app.get('*', (req, res) => {
   match({ routes: routes, location: req.url }, (err, redirect, props) => {
     if (err) {
@@ -55,7 +61,6 @@ function renderPage(appHtml) {
         <title>My First React Router App</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Quattrocento+Sans|Work+Sans:100,200,300" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">
         ${style}
