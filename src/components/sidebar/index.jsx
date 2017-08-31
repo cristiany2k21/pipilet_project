@@ -15,6 +15,7 @@ const Sidebar = ({
           {
             sidebar.map((item, index) => {
               const image = item.image;
+              console.log('image ------> ', image);
               return (
                 <Link key={index} to={`/${item.url}`}>
                   <div className="wrapper-item">
