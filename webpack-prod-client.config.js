@@ -14,7 +14,7 @@ module.exports = {
       {
         test: /\.js$|.jsx$/,
         loader: 'babel-loader',
-        exclude: [/node_modules/, /dist/, /bower_components/],
+        exclude: [/node_modules/, /public/, /bower_components/],
         query: {
           presets: [
             ['es2015']
@@ -26,7 +26,7 @@ module.exports = {
         exclude: [/node_modules/, /dist/],
         use: ExtractTextPlugin.extract([
           'css-loader?minimize',
-          'sass-loader?includePaths[]=./node_modules'
+          'sass-loader'
         ]),
       }, {
         test: /\.(jpe?g|png|gif|svg)$/i,
