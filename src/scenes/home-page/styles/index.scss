@@ -1,8 +1,11 @@
 #wrapper-headertitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+
   .wrapper-tree-bird {
-    display: inline-block;
-    vertical-align: middle;
-    width: 50%;
+    width: 30%;
 
     img {
       width: 100%;
@@ -11,8 +14,6 @@
 
   .wrapper-title {
     width: 50%;
-    display: inline-block;
-    vertical-align: middle;
 
     img {
       width: 100%;
@@ -25,7 +26,7 @@
   text-align: center;
 
   img {
-    width: 55%;
+    width: 75%;
   }
 }
 

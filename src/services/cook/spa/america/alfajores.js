@@ -1,5 +1,6 @@
 import littleGirl from '../../../../images/cook/pipilet_female.jpg';
 import pipiletCooker from '../../../../images/pipilet-cooker.jpg';
+import image from '../../../../images/cook/recipe/americana/argentine.jpg';
 
 export default ({
   flag: littleGirl,
@@ -8,6 +9,7 @@ export default ({
   recipe: [
     {
       title: "MANGO FOOL",
+      image: image,
       sectionIngredient: [
         {
           title: "Ingredientes:",

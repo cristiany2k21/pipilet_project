@@ -1,10 +1,12 @@
 import React from 'react';
 
 const Ingredient = ({
-  sectionIngredient
+  sectionIngredient,
+  image
 }) => {
   return (
     <div className="wrapper-section-ingredient">
+      <img src={image} />
       {
         sectionIngredient.map((items, index) => (
           <div key={index}>

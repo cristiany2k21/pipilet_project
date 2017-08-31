@@ -1,24 +1,32 @@
 import React from 'react';
-import { connect } from 'react-redux';
-
-import logoColor from '../../images/pipilet-number-color.jpg';
-
-import Section from './component/section';
+import connect from 'react-redux/lib/connect/connect';
+import Link from 'react-router/lib/Link';
+import logoNumbercolor from '../../images/pipilet-number-color.jpg';
+import allColor from '../../images/all-colors.png';
+import allNumber from '../../images/all-number.png';
 import Footer from '../../components/footer';
-
+import Header from '../../components/header-page';
 import './styles/index.scss';
 
 const ColorNumber = ({
   titleColor,
-  imageColor,
   titleNumber,
-  imageNumber
 }) => {
 
   return (
     <div id="wrapper-colornumber">
-      <Section path="/color" image={imageColor} title={titleColor} logo={logoColor} extraClassName="color" />
-      <Section path="/number" image={imageNumber} title={titleNumber} logo={logoColor} extraClassName="number" />
+      <Header title={titleColor} logo={logoNumbercolor}/>
+      <div className="wrapper-all-image">
+        <Link to="">
+          <img src={allColor}/>
+        </Link>
+      </div>
+      <Header title={titleNumber} logo={logoNumbercolor}/>
+      <div className="wrapper-all-image">
+        <Link to="">
+          <img src={allNumber}/>
+        </Link>
+      </div>
       <Footer />
     </div>
   )

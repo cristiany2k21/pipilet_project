@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
-import HeaderPage from '../../../../components/header-page';
+import HeaderPage from '../../components/header-page';
 
 const Section = ({
   path,

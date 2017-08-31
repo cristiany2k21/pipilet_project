@@ -13,7 +13,7 @@ const Recipe = ({
               return (
                 <div className="wrapper-recipe-map" key={index}>
                   <div className="wrapper-title">{item.title}</div>
-                  <Ingredient sectionIngredient={item.sectionIngredient} />
+                  <Ingredient sectionIngredient={item.sectionIngredient} image={item.image} />
                   <Preparation sectionPreparation={item.sectionPreparation} />
                 </div>
 
