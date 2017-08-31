@@ -24,6 +24,6 @@ const TranslatedNumber = ({
 
 const mapStateToProps = (state, props) => ({
   numbers: Language[props.params.language]
-})
+});
 
 export default connect(mapStateToProps)(TranslatedNumber);

@@ -45,4 +45,4 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(), //HMR
     new webpack.NoEmitOnErrorsPlugin(), //HMR
   ],
-}
+};

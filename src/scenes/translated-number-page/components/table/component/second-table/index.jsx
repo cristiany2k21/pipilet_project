@@ -27,6 +27,6 @@ const SecondTable = ({
       </div>
     </div>
   )
-}
+};
 
 export default SecondTable;

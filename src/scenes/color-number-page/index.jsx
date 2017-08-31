@@ -37,6 +37,6 @@ const mapStateToProps = state => ({
   imageColor: state.ChooseLanguage.colorNumberContent.imageColor,
   titleNumber: state.ChooseLanguage.colorNumberContent.titleNumber,
   imageNumber: state.ChooseLanguage.colorNumberContent.imageNumber
-})
+});
 
 export default connect(mapStateToProps)(ColorNumber);

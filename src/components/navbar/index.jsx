@@ -14,7 +14,7 @@ const Navbar = ({
 
   const changeLanguage = (country) => {
     dispatch(changeWebsiteLanguage(country))
-  }
+  };
 
   return (
     <div id="wrapper-navbar">

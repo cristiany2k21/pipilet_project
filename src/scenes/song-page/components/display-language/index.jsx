@@ -12,11 +12,11 @@ const DisplayLanguageSong = ({
 
   const activateItem = country => {
 
-  }
+  };
 
   const desactivateItem = country => {
 
-  }
+  };
 
   return (
     <div id="wrapper-language">

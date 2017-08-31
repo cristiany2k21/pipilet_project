@@ -29,7 +29,7 @@ const TableColor = ({
     brown,
     purple,
     pink,
-  ]
+  ];
   return (
     <div id="wrapper-table">
       <ColumnTable images={colors} title=" "/>

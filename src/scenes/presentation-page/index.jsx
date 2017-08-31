@@ -18,5 +18,5 @@ const PresentationPage = ({
 
 const mapStateToProps = state => {
   return state.ChooseLanguage;
-}
+};
 export default connect(mapStateToProps)(PresentationPage);

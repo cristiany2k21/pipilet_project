@@ -14,10 +14,10 @@ const AppContainer = ({ children, navbar, sidebar }) => {
       <Sidebar sidebar={sidebar}/>
     </div>
   )
-}
+};
 
 const mapStateToProps = state => {
   return state.ChooseLanguage
-}
+};
 
 export default connect(mapStateToProps)(AppContainer);

@@ -18,6 +18,6 @@ const HomeContainer = () => {
       <Footer />
     </div>
   )
-}
+};
 
 export default HomeContainer;

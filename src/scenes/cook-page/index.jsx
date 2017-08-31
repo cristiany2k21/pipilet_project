@@ -26,6 +26,6 @@ const CookPage = ({
 
 const mapStateToProps = state => {
   return state.ChooseLanguage;
-}
+};
 
 export default connect(mapStateToProps)(CookPage);

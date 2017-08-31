@@ -43,4 +43,4 @@ export const presentation =
       <p className="center">Este es mi planeta: <span className="green">el planeta Galappar</span> el planeta de la <span className="yellow">música</span>, el <span className="dodgerblue">color</span> y el <span className="red">amor</span>.</p>
       <p className="center">¿A qué es bonito?</p>
     </div>
-  </div>
+  </div>;

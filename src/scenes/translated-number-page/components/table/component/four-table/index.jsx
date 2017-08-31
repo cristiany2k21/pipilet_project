@@ -21,6 +21,6 @@ const FourTable = ({
       }
       </tbody>
     </table>
-  </div>
+  </div>;
 
 export default FourTable;

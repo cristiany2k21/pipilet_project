@@ -15,7 +15,7 @@ const TranslatedColor = ({
   translatedColor
 }) => {
 
-  let sameLanguage = (colorPage.originalLanguage.id == translatedColor.id) ? true : false
+  let sameLanguage = (colorPage.originalLanguage.id == translatedColor.id);
 
   return (
     <div id="wrapper-translated-color">
@@ -40,7 +40,7 @@ const TranslatedColor = ({
 const mapStateToProps = (state, props) => ({
     translatedColor: Language[props.params.language],
     colorPage: state.ChooseLanguage.colorTranslatedPageContent
-})
+});
 
 export default connect(mapStateToProps)(TranslatedColor);
 

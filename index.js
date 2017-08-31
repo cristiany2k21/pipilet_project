@@ -17,7 +17,7 @@ render(
     </Provider>
   </AppContainer>,
   document.getElementById('app')
-)
+);
 
 if (module.hot) {
   module.hot.accept('./src/routes', () => {

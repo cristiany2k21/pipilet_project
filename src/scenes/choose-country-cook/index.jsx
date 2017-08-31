@@ -25,6 +25,6 @@ const ChooseCountryCook = ({
 
 const mapStateToProps = (state, props) => ({
   continent: state.ChooseLanguage.chooseCountryContent[props.params.continent]
-})
+});
 
 export default connect(mapStateToProps)(ChooseCountryCook);

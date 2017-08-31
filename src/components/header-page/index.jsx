@@ -11,7 +11,7 @@ export default ({
     "dodgerblue",
     "brown",
     "yellowgreen",
-  ]
+  ];
 
   const generateColorTitle = title => {
     return (
@@ -24,7 +24,7 @@ export default ({
         }
       </div>
     )
-  }
+  };
   return (
     <div id="wrapper-title-logo">
       <div className="wrapper-logo">

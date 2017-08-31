@@ -56,4 +56,4 @@ export const presentation =
         Elle est belle,non?
       </p>
     </div>
-  </div>
+  </div>;

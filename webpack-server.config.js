@@ -1,6 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
-var fs = require('fs')
+var fs = require('fs');
 
 module.exports = {
   entry: path.resolve(__dirname, 'server.js'),
@@ -36,7 +36,7 @@ module.exports = {
   externals: fs.readdirSync(path.resolve(__dirname, 'node_modules')).concat([
     'react-dom/server', 'react/addons',
   ]).reduce(function (ext, mod) {
-    ext[mod] = 'commonjs ' + mod
+    ext[mod] = 'commonjs ' + mod;
     return ext
   }, {}),
   resolve: {
@@ -48,4 +48,4 @@ module.exports = {
     __filename: true,
     __dirname: true
   },
-}
+};

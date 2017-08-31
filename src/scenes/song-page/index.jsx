@@ -29,6 +29,6 @@ const mapStateToProps = state => ({
   title: state.ChooseLanguage.songPageContent.title,
   language: state.ChooseLanguage.songPageContent.language,
   flag: state.ChooseLanguage.songPageContent.flag,
-})
+});
 
 export default connect(mapStateToProps)(SongPage);

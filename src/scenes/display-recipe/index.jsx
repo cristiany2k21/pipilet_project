@@ -20,12 +20,12 @@ const DisplayRecipe = ({
 
 const mapStateToProps = (state, props) => {
   const continent = props.params.continent;
-  const index = props.params.id
-  const allCountry = state.ChooseLanguage.chooseCountryContent[continent].country
+  const index = props.params.id;
+  const allCountry = state.ChooseLanguage.chooseCountryContent[continent].country;
 
   return {
     recipeCountry: allCountry[index].recipe
   }
-}
+};
 
 export default connect(mapStateToProps)(DisplayRecipe);

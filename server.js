@@ -45,13 +45,13 @@ app.get('*', (req, res) => {
         <Provider store={store}>
           <RouterContext {...props}/>
         </Provider>
-      )
+      );
       res.send(renderPage(appHtml))
     } else {
       res.status(404).send('Not Found')
     }
   })
-})
+});
 function renderPage(appHtml) {
   return `
     <!doctype html public="storage">
@@ -75,7 +75,7 @@ function renderPage(appHtml) {
    `
 };
 
-var PORT = process.env.PORT || 8081
+var PORT = process.env.PORT || 8081;
 app.listen(PORT, function() {
   console.log('Production Express server running at localhost:' + PORT)
 });

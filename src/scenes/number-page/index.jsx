@@ -20,6 +20,6 @@ const NumberPage = ({
 const mapStateToProps = state => ({
   titleNumber: state.ChooseLanguage.numberPageContent.titleNumber,
   imageNumber: state.ChooseLanguage.numberPageContent.imageNumber,
-})
+});
 
 export default connect(mapStateToProps)(NumberPage);

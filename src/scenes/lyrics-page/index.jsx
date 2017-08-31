@@ -12,10 +12,10 @@ const LyricsPage = ({ songPageContent, params }) => {
   const language = params.language;
   const index = songPageContent.music.map(index => index.name).indexOf(language);
   const music = songPageContent.music[index];
-  const musicTranslated = music['translated-song']
-  const musicOriginal = music['original-song']
-  const title = musicOriginal["second-title"] ? `${musicOriginal.title} ${musicOriginal["second-title"]}` : musicOriginal.title
-  let sameLryics = (musicTranslated.id == musicOriginal.id) ? true : false
+  const musicTranslated = music['translated-song'];
+  const musicOriginal = music['original-song'];
+  const title = musicOriginal["second-title"] ? `${musicOriginal.title} ${musicOriginal["second-title"]}` : musicOriginal.title;
+  let sameLryics = (musicTranslated.id == musicOriginal.id);
 
   return (
     <div>

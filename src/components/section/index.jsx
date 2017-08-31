@@ -20,8 +20,9 @@ const Section = ({
                 <div className="owls-inner">
                   <img src={item.image}/>
                   {
-                    item.countryName.map((item, index) => <Link key={index} to={`${path}/${item}`}
-                                                                className={`border ${extraClassName}_${index} width_${extraClassName}`}></Link>)
+                    item.countryName.map((item, index) =>
+                      <Link key={index} to={`${path}/${item}`} className={`border ${extraClassName}_${index} width_${extraClassName}`} />
+                    )
                   }
                 </div>
               </div>

@@ -197,6 +197,11 @@ export default (
         "!Tú eres fuertes seguro que lo harás bien.!",
       ],
       "originalLanguage": colorSpanish,
+      "translated": [
+        {
+          "id": "china",
+        }
+      ]
     },
     "cookerPageContent": {
       "title": "LA RESPOSTERÍA",

@@ -21,6 +21,6 @@ const ColorPage = ({
 const mapStateToProps = state => ({
   titleColor: state.ChooseLanguage.colorPageContent.titleColor,
   imageColor: state.ChooseLanguage.colorPageContent.owls,
-})
+});
 
 export default connect(mapStateToProps)(ColorPage)

@@ -21,6 +21,6 @@ const ThirdTable = ({
       }
       </tbody>
     </table>
-  </div>
+  </div>;
 
 export default ThirdTable;
