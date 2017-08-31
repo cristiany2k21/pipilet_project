@@ -78,6 +78,10 @@ import owls_3 from '../../scenes/color-number-page/images/eng/owls-3.png';
 
 import children from '../../scenes/color-number-page/images/eng/children.png';
 
+import allColorEng from '../../images/all-colors-eng.png';
+import allNumberEsp from '../../scenes/color-number-page/images/eng/children.png';
+
+
 export default (
   {
     "lan": "eng",
@@ -116,7 +120,13 @@ export default (
       ]
     },
     "colorNumberContent": {
-      "titleColor":"COLORS",
+      "titleColor": "COLORS",
+      "imageColor": allColorEng,
+      "titleNumber": "NUMBERS",
+      "imageNumber": allNumberEsp
+    },
+    "colorPageContent": {
+      "titleColor": "COLORS",
       "owls": [
         {
           image: owls_1,
@@ -146,7 +156,9 @@ export default (
           ]
         }
       ],
-      "titleNumber":"NUMBERS",
+    },
+    "numberPageContent": {
+      "titleNumber": "NUMBERS",
       "imageNumber": [
         {
           image: children,
@@ -166,15 +178,6 @@ export default (
           ]
         }
       ]
-
-    },
-    "numberPageContent": {
-      "title": "NUMBERS",
-      "flag": information.getFlags()
-    },
-    "ColorPageContent": {
-      "title": "COLORS",
-      "flag": information.getFlags()
     },
     "colorTranslatedPageContent": {
       "title": "LEARN COLORS WITH YOUR FRIEND",

@@ -78,6 +78,10 @@ import owls_3 from '../../scenes/color-number-page/images/fr/owls-3.png';
 
 import children from '../../scenes/color-number-page/images/fr/children.png';
 
+
+import allColorFr from '../../images/all-colors-fr.png';
+import allNumberEsp from '../../scenes/color-number-page/images/fr/children.png';
+
 export default (
   {
     "lan": "fr",
@@ -125,6 +129,12 @@ export default (
     },
     "colorNumberContent": {
       "titleColor": "LES COULEURS",
+      "imageColor": allColorFr,
+      "titleNumber": "LES NOMBRES",
+      "imageNumber": allNumberEsp
+    },
+    "colorPageContent": {
+      "titleColor": "LES COULEURS",
       "owls": [
         {
           image: owls_1,
@@ -154,6 +164,8 @@ export default (
           ]
         }
       ],
+    },
+    "numberPageContent": {
       "titleNumber": "LES NOMBRES",
       "imageNumber": [
         {
@@ -174,14 +186,6 @@ export default (
           ]
         }
       ]
-    },
-    "numberPageContent": {
-      "title": "LES NOMBRES",
-      "flag": information.getFlags()
-    },
-    "ColorPageContent": {
-      "title": "LES COULEURS",
-      "flag": information.getFlags()
     },
     "colorTranslatedPageContent": {
       "title": "APPREND LES COULEURS AVEC TON AMI",

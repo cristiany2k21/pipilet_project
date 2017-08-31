@@ -80,6 +80,9 @@ import owls_3 from '../../scenes/color-number-page/images/esp/owls-3.png';
 
 import children from '../../scenes/color-number-page/images/esp/children.png';
 
+import allColorEsp from '../../images/all-colors-esp.png';
+import allNumberEsp from '../../scenes/color-number-page/images/esp/children.png';
+
 export default (
   {
     "lan": "esp",
@@ -127,6 +130,12 @@ export default (
     },
     "colorNumberContent": {
       "titleColor": "LOS COLORES",
+      "imageColor": allColorEsp,
+      "titleNumber": "LOS NUMEROS",
+      "imageNumber": allNumberEsp
+    },
+    "colorPageContent": {
+      "titleColor": "LOS COLORES",
       "owls": [
         {
           image: owls_1,
@@ -156,6 +165,8 @@ export default (
           ]
         }
       ],
+    },
+    "numberPageContent": {
       "titleNumber": "LOS NUMEROS",
       "imageNumber": [
         {
@@ -176,14 +187,6 @@ export default (
           ]
         }
       ]
-    },
-    "numberPageContent": {
-      "title": "LOS NUMEROS",
-      "flag": information.getFlags()
-    },
-    "ColorPageContent": {
-      "title": "LOS COLORES",
-      "flag": information.getFlags()
     },
     "colorTranslatedPageContent": {
       "title": "APRENDIENDO LOS COLORES CON TU AMIGO",
