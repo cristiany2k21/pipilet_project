@@ -1,8 +1,7 @@
 import draw from '../../../images/colors/french_draw.png';
 
 export default ({
-  "id": "fr",
-  "title": "FRANÇAIS",
+  "id": "french",
   "colors": [
     "ROUGE",
     "JAUNE",
@@ -16,7 +15,7 @@ export default ({
     "ROSE",
   ],
   "game": {
-    "title": "MOTS MELANGÉS",
+    "subTitle": "MOTS MELANGÉS",
     "language": "Français",
     "words": [
       "Jaune",

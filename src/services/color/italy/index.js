@@ -2,7 +2,6 @@ import draw from '../../../images/colors/italy_draw.png';
 
 export default ({
   "id": "italy",
-  "title": "ITALIANO",
   "colors": [
     "ROSSO",
     "GIALLO",
@@ -16,7 +15,7 @@ export default ({
     "ROSA",
   ],
   "game": {
-    "title": "ZUPPA DI PAROLE",
+    "subTitle": "ZUPPA DI PAROLE",
     "language": "Italiano",
     "words": [
       "Giallo",

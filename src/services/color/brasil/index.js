@@ -2,7 +2,6 @@ import draw from '../../../images/colors/brasil_draw.png';
 
 export default ({
   "id": "brasil",
-  "title": "PORTUGÊS",
   "colors": [
     "VERMELHO",
     "AMARELO",
@@ -16,7 +15,7 @@ export default ({
     "ROSA",
   ],
   "game": {
-    "title": "SOPA DE LETRAS",
+    "subTitle": "SOPA DE LETRAS",
     "language": "Portugês",
     "words": [
       "Amarelo ",

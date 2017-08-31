@@ -1,8 +1,7 @@
 import draw from '../../../images/colors/german_draw.png';
 
 export default ({
-  "id": "deutsch",
-  "title": "DEUTSCH",
+  "id": "german",
   "colors": [
     "ROT",
     "GELB",
@@ -16,7 +15,7 @@ export default ({
     "ROSA",
   ],
   "game": {
-    "title": "WORTSUCHE",
+    "subTitle": "WORTSUCHE",
     "language": "Deutsch",
     "words": [
       "Gelb",

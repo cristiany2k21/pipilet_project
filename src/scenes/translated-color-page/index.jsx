@@ -9,13 +9,15 @@ import Drawing from './components/drawing';
 
 import './style/index.scss';
 
-
 const TranslatedColor = ({
   colorPage,
   translatedColor
 }) => {
 
-  let sameLanguage = (colorPage.originalLanguage.id == translatedColor.id);
+  const sameLanguage = (colorPage.originalLanguage.id == translatedColor.id);
+  const idTranslatedColor = translatedColor.id;
+  const index = colorPage.translated.map(index => index.id).indexOf(idTranslatedColor);
+  const colorTranslated = colorPage.translated[index];
 
   return (
     <div id="wrapper-translated-color">
@@ -23,13 +25,17 @@ const TranslatedColor = ({
         title={colorPage.title}
         rules={colorPage.rules}/>
       <TableColor
+        headerFirstColumn={colorPage.headerFirstColumn}
+        headerThirdColumn={colorTranslated.name}
+        headerFourColumn={colorTranslated.subSubTitle}
+        subTitle={colorTranslated.subTitle}
         originalColor={colorPage.originalLanguage}
         translatedColor={translatedColor}
         sameLanguage={sameLanguage}
       />
       { translatedColor.game &&
       <Game
-        originalGame={colorPage.originalLanguage.game}
+        originalGame={colorPage.originalLanguage.data.game}
         translatedGame={translatedColor.game}
         sameLanguage={sameLanguage} /> }
       <Drawing draw={translatedColor.drawing} />

@@ -187,7 +187,26 @@ export default (
         "* A mandala that you can colour the way you want.",
         "You are strong no doubt that you will manage!",
       ],
-      "originalLanguage": colorEnglish,
+      "headerFirstColumn": "LEARNS COLORS IN",
+      "originalLanguage": {
+        "id": "english",
+        "name": "ENGLISH",
+        "data": information.englishColor
+      },
+      "translated": [
+        { "id": "brasil", "name": "PORTUGUESE", "data": information.brasilColor },
+        { "id": "china", "name": "CHINESE", "subTitle":"IS WRITTEN", "subSubTitle":"IT’S PRONOUNCED", "data": information.chinaColor },
+        { "id": "english", "name": "ENGLISH", "data": information.englishColor },
+        { "id": "french", "name": "FRENCH", "data": information.frenchColor },
+        { "id": "german", "name": "GERMAN", "data": information.germanColor },
+        { "id": "india", "name": "HINDI", "subTitle":"IS WRITTEN", "subSubTitle":"IT’S PRONOUNCED", "data": information.indiaColor },
+        { "id": "italy", "name": "ITALIAN", "data": information.italyColor },
+        { "id": "russia", "name": "RUSSIAN", "subTitle":"IS WRITTEN", "subSubTitle":"IT’S PRONOUNCED", "data": information.russiaColor },
+        { "id": "serbia", "name": "SERBIO", "subTitle":"IS WRITTEN", "subSubTitle":"IT’S PRONOUNCED", "data": information.serbiaColor },
+        { "id": "arab", "name": "ARABE", "subTitle":"IS WRITTEN", "subSubTitle":"IT’S PRONOUNCED", "data": information.southColor },
+        { "id": "spanish", "name": "SPANISH", "data": information.spanishColor },
+        { "id": "tanzania", "name": "SWAHILI", "data": information.tanzaniaColor },
+      ]
     },
     "cookerPageContent": {
       "title": "RECIPES",

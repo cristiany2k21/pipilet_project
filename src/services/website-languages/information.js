@@ -21,6 +21,19 @@ import russia from '../../images/flag/russia.png';
 import ghana from '../../images/flag/ghana.png';
 import lebanon from '../../images/flag/lebanon.jpg';
 
+import tanzaniaColor from '../color/tanzania';
+import spanishColor from '../color/spanish';
+import southColor from '../color/south-africa';
+import serbiaColor from '../color/serbia';
+import russiaColor from '../color/russia';
+import italyColor from '../color/italy';
+import indiaColor from '../color/india';
+import germanColor from '../color/german';
+import frenchColor from '../color/french';
+import englishColor from '../color/english';
+import chinaColor from '../color/china';
+import brasilColor from '../color/brasil';
+
 export default ({
   getNavbar: (home, presentation, contact) => [
     { "title": home, "url": HOME },
@@ -80,5 +93,17 @@ export default ({
     { "name": "lebanon", "value": lebanon },
     { "name": "ghana", "value": ghana },
     { "name": "russia", "value": russia }
-  ]
+  ],
+  tanzaniaColor,
+  spanishColor,
+  southColor,
+  serbiaColor,
+  russiaColor,
+  italyColor,
+  indiaColor,
+  germanColor,
+  frenchColor,
+  englishColor,
+  chinaColor,
+  brasilColor,
 })

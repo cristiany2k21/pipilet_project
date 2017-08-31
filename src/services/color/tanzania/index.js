@@ -1,8 +1,7 @@
 import draw from '../../../images/colors/tanzanie_draw.png';
 
 export default ({
-  "id": "tanzanie",
-  "title": "SWAHILI",
+  "id": "tanzania",
   "colors": [
     "Buluu",
     "Njano",
@@ -16,7 +15,7 @@ export default ({
     "Waridi",
   ],
   "game": {
-    "title": "SOPA DE LETRAS",
+    "subTitle": "SOPA DE LETRAS",
     "language": "Swahili",
     "words": [
       "Njano",

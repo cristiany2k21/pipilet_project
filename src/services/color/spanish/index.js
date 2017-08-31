@@ -1,8 +1,7 @@
 import draw from '../../../images/colors/spanish_draw.png';
 
 export default ({
-  "id": "esp",
-  "title": "ESPAÑOL",
+  "id": "spanish",
   "colors": [
     "ROJO",
     "AMARILLO",
@@ -16,7 +15,7 @@ export default ({
     "ROSA",
   ],
   "game": {
-    "title": "SOPA DE LETRAS",
+    "subTitle": "SOPA DE LETRAS",
     "language": "Español",
     "words": [
       "Amarillo",

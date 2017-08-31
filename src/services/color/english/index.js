@@ -1,8 +1,7 @@
 import draw from '../../../images/colors/english_draw.png';
 
 export default ({
-  "id": "eng",
-  "title": "ENGLISH",
+  "id": "english",
   "colors": [
     "RED",
     "YELLOW",
@@ -16,7 +15,7 @@ export default ({
     "PINK",
   ],
   "game": {
-    "title": "MIX",
+    "subTitle": "MIX",
     "language": "English",
     "words": [
       "Yellow",

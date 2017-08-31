@@ -3,14 +3,16 @@ import React from 'react';
 const ColumnTable = ({
   color,
   images,
-  title
+  title,
+  subTitle
 }) => {
   return (
     <table>
       <thead>
       <tr>
         <td>
-          {title}
+          {!subTitle && title}
+          {subTitle && <div>{subTitle}</div>}
         </td>
       </tr>
       </thead>

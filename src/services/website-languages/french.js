@@ -195,7 +195,26 @@ export default (
         "* un mandala à colorier comme tu veux",
         "Tu est fort pas de doute que tu reussiras !",
       ],
-      "originalLanguage": colorFrench,
+      "headerFirstColumn": "LES COULEURS EN",
+      "originalLanguage": {
+        "id": "french",
+        "name": "FRANÇAISE",
+        "data": information.frenchColor
+      },
+      "translated": [
+        { "id": "brasil", "name": "PORTUGAIS", "data": information.brasilColor },
+        { "id": "china", "name": "CHINOIS", "subTitle":"S’ÉCRIT", "subSubTitle":"SE PRONONCE", "data": information.chinaColor },
+        { "id": "english", "name": "ANGLAIS", "data": information.englishColor },
+        { "id": "french", "name": "FRANÇAISE", "data": information.frenchColor },
+        { "id": "german", "name": "ALLEMAND", "data": information.germanColor },
+        { "id": "india", "name": "INDIEN", "subTitle":"S’ÉCRIT", "subSubTitle":"SE PRONONCE", "data": information.indiaColor },
+        { "id": "italy", "name": "ITALIEN", "data": information.italyColor },
+        { "id": "russia", "name": "RUSSE", "subTitle":"S’ÉCRIT", "subSubTitle":"SE PRONONCE", "data": information.russiaColor },
+        { "id": "serbia", "name": "SERBE", "subTitle":"S’ÉCRIT", "subSubTitle":"SE PRONONCE", "data": information.serbiaColor },
+        { "id": "arab", "name": "ARABE", "subTitle":"S’ÉCRIT", "subSubTitle":"SE PRONONCE", "data": information.southColor },
+        { "id": "spanish", "name": "ESPAGNOL", "data": information.spanishColor },
+        { "id": "tanzania", "name": "SWAHILI", "data": information.tanzaniaColor },
+      ]
     },
     "cookerPageContent": {
       "title": "LES RECETTES",

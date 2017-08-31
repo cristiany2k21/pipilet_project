@@ -15,7 +15,11 @@ import yellow from '../../../../images/colors/yellow.png';
 const TableColor = ({
   originalColor,
   translatedColor,
-  sameLanguage
+  sameLanguage,
+  headerFirstColumn,
+  headerThirdColumn,
+  headerFourColumn,
+  subTitle
 }) => {
 
   const colors = [
@@ -30,11 +34,14 @@ const TableColor = ({
     purple,
     pink,
   ];
+
+  console.log('translatedColor ------> ', translatedColor);
   return (
     <div id="wrapper-table">
-      <ColumnTable images={colors} title=" "/>
-      <ColumnTable color={originalColor.colors} title={originalColor.title}/>
-      { !sameLanguage && <ColumnTable color={translatedColor.colors} title={translatedColor.title}/> }
+      <ColumnTable images={colors} title={`${headerFirstColumn} ${headerThirdColumn}`}/>
+      <ColumnTable color={originalColor.data.colors} title={originalColor.name}/>
+      { !sameLanguage && <ColumnTable color={translatedColor.colors} title={headerThirdColumn} subTitle={subTitle} /> }
+      { headerFourColumn && <ColumnTable color={translatedColor.write} title={headerFourColumn} />}
     </div>
   )
 };

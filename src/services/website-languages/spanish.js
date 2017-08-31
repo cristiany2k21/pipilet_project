@@ -196,19 +196,34 @@ export default (
         "* un mandala para que puedas colorear a tu gusto.",
         "!Tú eres fuertes seguro que lo harás bien.!",
       ],
-      "originalLanguage": colorSpanish,
+      "headerFirstColumn": "APRENDIENDO LOS COLORES EN",
+      "originalLanguage": {
+        "id": "spanish",
+        "name": "ESPAÑOL",
+        "data": information.spanishColor
+      },
       "translated": [
-        {
-          "id": "china",
-        }
+        { "id": "brasil", "name": "PORTUGÉS", "data": information.brasilColor },
+        { "id": "china", "name": "CHINO", "subTitle":"SE ESCRIBE", "subSubTitle":"SE PRONUNCIA", "data": information.chinaColor },
+        { "id": "english", "name": "INGLÉS", "data": information.englishColor },
+        { "id": "french", "name": "FRANCÉS", "data": information.frenchColor },
+        { "id": "german", "name": "ALEMAN", "data": information.germanColor },
+        { "id": "india", "name": "HINDI", "subTitle":"SE ESCRIBE", "subSubTitle":"SE PRONUNCIA", "data": information.indiaColor },
+        { "id": "italy", "name": "ITALIANO", "data": information.italyColor },
+        { "id": "russia", "name": "RUSO", "subTitle":"SE ESCRIBE", "subSubTitle":"SE PRONUNCIA", "data": information.russiaColor },
+        { "id": "serbia", "name": "SERBIO", "subTitle":"SE ESCRIBE", "subSubTitle":"SE PRONUNCIA", "data": information.serbiaColor },
+        { "id": "arab", "name": "ARABE", "subTitle":"SE ESCRIBE", "subSubTitle":"SE PRONUNCIA", "data": information.southColor },
+        { "id": "spanish", "name": "ESPAÑOL", "data": information.spanishColor },
+        { "id": "tanzania", "name": "SWAHILI", "data": information.tanzaniaColor },
       ]
     },
     "cookerPageContent": {
       "title": "LA RESPOSTERÍA",
-      "description":
-        <div>
-          <span className="red"><b>TU AMIGO HA</b></span> DECIDIDO RECORRER <span className="dodgerblue"><b>EL MUNDO</b></span> Y HA VISITADO <span className="green"><b>LOS CINCO CONTINENTES</b></span>. RECOPILANDO DELICIOSOS POSTRES DE <span className="yellow"><b>DIFERENTES PAÍSES DEL MUNDO</b></span>
-        </div>,
+      "description": <div>
+        <span className="red"><b>TU AMIGO HA</b></span> DECIDIDO RECORRER <span
+        className="dodgerblue"><b>EL MUNDO</b></span> Y HA VISITADO <span className="green"><b>LOS CINCO CONTINENTES</b></span>.
+        RECOPILANDO DELICIOSOS POSTRES DE <span className="yellow"><b>DIFERENTES PAÍSES DEL MUNDO</b></span>
+      </div>,
       "image": map,
     },
     "chooseCountryContent": {
