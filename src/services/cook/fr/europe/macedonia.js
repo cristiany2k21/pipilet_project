@@ -1,4 +1,6 @@
 import littleGirl from '../../../../images/cook/pipilet_female.jpg';
+import image from '../../../../images/cook/recipe/europe/spanish.jpg';
+import image2 from '../../../../images/cook/recipe/europe/spanish2.jpeg';
 import pipiletCooker from '../../../../images/pipilet-cooker.jpg';
 
 export default ({
@@ -8,6 +10,7 @@ export default ({
   recipe: [
     {
       title: "Salade de fruits tropicaux",
+      image: image,
       sectionIngredient: [
         {
           title: "Ingrédients:",
@@ -43,6 +46,7 @@ export default ({
     },
     {
       title: "FLAN AUX ŒUFS",
+      image: image2,
       sectionIngredient: [
         {
           title: "Ingrédients:",

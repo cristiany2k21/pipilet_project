@@ -46,29 +46,29 @@ import australiaRecipe from '../cook/fr/oceania/alba';
 import vanuatuRecipe from '../cook/fr/oceania/helado';
 import zelandaRecipe from '../cook/fr/oceania/pavlova';
 
-import keniaRecipe from '../cook/fr/africa/helado';
-import beninRecipe from '../cook/fr/africa/bananas';
-import marocRecipe from '../cook/fr/africa/bizcocho';
-import tunezRecipe from '../cook/fr/africa/ghriyba';
-import egyptRecipe from '../cook/fr/africa/guzeya';
+import keniaRecipe from '../cook/fr/africa/kenya';
+import beninRecipe from '../cook/fr/africa/benin';
+import marocRecipe from '../cook/fr/africa/maroc';
+import tunezRecipe from '../cook/fr/africa/tunisie';
+import egyptRecipe from '../cook/fr/africa/egypt';
 import madaRecipe from '../cook/fr/africa/malagasy';
-import algeriaRecipe from '../cook/fr/africa/rellenos';
+import algeriaRecipe from '../cook/fr/africa/algerie';
 
-import mexicRecipe from '../cook/fr/america/bizcocho';
-import canadaRecipe from '../cook/fr/america/trempettes';
+import mexicRecipe from '../cook/fr/america/mexique';
+import canadaRecipe from '../cook/fr/america/canada';
 import brasilRecipe from '../cook/fr/america/quindim';
-import guyaneRecipe from '../cook/fr/america/mango';
-import chiliRecipe from '../cook/fr/america/cupcakes';
-import haitiRecipe from '../cook/fr/america/banana';
-import argentineRecipe from '../cook/fr/america/alfajores';
+import guyaneRecipe from '../cook/fr/america/guyane';
+import chiliRecipe from '../cook/fr/america/chilie';
+import haitiRecipe from '../cook/fr/america/haiti';
+import argentineRecipe from '../cook/fr/america/argentine';
 
-import singapurRecipe from '../cook/fr/asia/melocoton';
+import singapurRecipe from '../cook/fr/asia/singapour';
 import arabieRecipe from '../cook/fr/asia/maskina';
-import indiaRecipe from '../cook/fr/asia/lassi';
-import libanRecipe from '../cook/fr/asia/labneh';
-import chinaRecipe from '../cook/fr/asia/helado';
-import vietnamRecipe from '../cook/fr/asia/che';
-import jordanieRecipe from '../cook/fr/asia/chamia';
+import indiaRecipe from '../cook/fr/asia/india';
+import libanRecipe from '../cook/fr/asia/liban';
+import chinaRecipe from '../cook/fr/asia/china';
+import vietnamRecipe from '../cook/fr/asia/vietnam';
+import jordanieRecipe from '../cook/fr/asia/jordanie';
 
 import { presentation } from '../presentation/english';
 

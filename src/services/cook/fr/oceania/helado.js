@@ -1,4 +1,5 @@
 import littleMan from '../../../../images/cook/pipilet_male.jpg';
+import image from '../../../../images/cook/recipe/oceania/vanuatu.jpg';
 import pipiletCooker from '../../../../images/pipilet-cooker.jpg';
 
 export default ({
@@ -8,6 +9,7 @@ export default ({
   recipe: [
     {
       title: "GLACE A LA MANGUE",
+      image: image,
       sectionIngredient: [
         {
           title: "Ingrédients:",

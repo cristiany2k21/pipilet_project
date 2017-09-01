@@ -1,4 +1,6 @@
 import littleMan from '../../../../images/cook/pipilet_male.jpg';
+import image from '../../../../images/cook/recipe/oceania/zelande.jpg';
+import image2 from '../../../../images/cook/recipe/oceania/zelande2.jpg';
 import pipiletCooker from '../../../../images/pipilet-cooker.jpg';
 
 export default ({
@@ -8,6 +10,7 @@ export default ({
   recipe: [
     {
       title: "PAVLOVA",
+      image: image,
       sectionIngredient: [
         {
           title: "Ingrédients:",
@@ -39,6 +42,7 @@ export default ({
     },
     {
       title: "HOT CROSS BUN",
+      image: image2,
       sectionIngredient: [
         {
           title: "Ingrédients:",

@@ -1,4 +1,6 @@
 import littleMan from '../../../../images/cook/pipilet_male.jpg';
+import image from '../../../../images/cook/recipe/europe/italy.jpg';
+import image2 from '../../../../images/cook/recipe/europe/italy2.jpeg';
 import pipiletCooker from '../../../../images/pipilet-cooker.jpg';
 
 export default ({
@@ -8,6 +10,7 @@ export default ({
   recipe: [
     {
       title: "Mousse au chocolat",
+      image: image,
       sectionIngredient: [
         {
           title: "Ingrédients pour 4 personnes",
@@ -31,6 +34,7 @@ export default ({
     },
     {
       title: "Saucisson au chocolat",
+      image: image2,
       sectionIngredient: [
         {
           title: "Ingrédients:",

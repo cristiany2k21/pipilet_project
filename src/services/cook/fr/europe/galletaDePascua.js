@@ -1,4 +1,5 @@
 import littleGirl from '../../../../images/cook/pipilet_female.jpg';
+import image from '../../../../images/cook/recipe/europe/german.jpg';
 import pipiletCooker from '../../../../images/pipilet-cooker.jpg';
 
 export default ({
@@ -8,6 +9,7 @@ export default ({
   recipe: [
     {
       title: "Recette de biscuits de Pâques : Osterkekse.",
+      image: image,
       sectionIngredient: [
         {
           title: "Ingrédients pour la pâte",

@@ -1,4 +1,6 @@
 import littleMan from '../../../../images/cook/pipilet_male.jpg';
+import image from '../../../../images/cook/recipe/europe/french.jpg';
+import image2 from '../../../../images/cook/recipe/europe/french2.jpg';
 import pipiletCooker from '../../../../images/pipilet-cooker.jpg';
 
 export default ({
@@ -8,6 +10,7 @@ export default ({
   recipe: [
     {
       title: "Mousse au chocolat à l’avocat",
+      image: image,
       sectionIngredient: [
         {
           title: "Ingrédients pour 2 personnes",
@@ -35,6 +38,7 @@ export default ({
     },
     {
       title: "Tarta Tatin",
+      image: image2,
       sectionIngredient: [
         {
           title: "Ingrédients:",

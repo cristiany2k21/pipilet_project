@@ -1,4 +1,6 @@
 import littleGirl from '../../../../images/cook/pipilet_female.jpg';
+import image from '../../../../images/cook/recipe/europe/russia.jpg';
+import image2 from '../../../../images/cook/recipe/europe/russia2.jpeg';
 import pipiletCooker from '../../../../images/pipilet-cooker.jpg';
 
 export default ({
@@ -8,6 +10,7 @@ export default ({
   recipe: [
     {
       title: "“Pommes remplies au four \"Assorti\".",
+      image: image,
       sectionIngredient: [
         {
           title: "Ingrédients:",
@@ -40,6 +43,7 @@ export default ({
     },
     {
       title: "Gâteau aux carottes",
+      image: image2,
       sectionIngredient: [
         {
           title: "Ingrédients:",

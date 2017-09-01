@@ -1,4 +1,6 @@
 import littleGirl from '../../../../images/cook/pipilet_female.jpg';
+import image from '../../../../images/cook/recipe/europe/serbia.jpg';
+import image2 from '../../../../images/cook/recipe/europe/serbia2.jpg';
 import pipiletCooker from '../../../../images/pipilet-cooker.jpg';
 
 export default ({
@@ -8,6 +10,7 @@ export default ({
   recipe: [
     {
       title: "Tarte de Belgrade",
+      image: image,
       sectionIngredient: [
         {
           title: "Ingrédients:",
@@ -37,6 +40,7 @@ export default ({
     },
     {
       title: "DOUCEUR DE COING DE JAGODINA",
+      image: image2,
       sectionIngredient: [
         {
           title: "Ingrédients:",

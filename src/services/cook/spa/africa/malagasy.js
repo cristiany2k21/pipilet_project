@@ -1,5 +1,6 @@
 import littleMan from '../../../../images/cook/pipilet_male.jpg';
 import pipiletCooker from '../../../../images/pipilet-cooker.jpg';
+import image from '../../../../images/cook/recipe/africa/malagasy.jpg';
 
 export default ({
   flag: littleMan,
@@ -8,6 +9,8 @@ export default ({
   recipe: [
     {
       title: "TORTA MAGALASY DE MADAGASCAR",
+      image: image,
+
       sectionIngredient: [
         {
           title: "Ingredientes:",

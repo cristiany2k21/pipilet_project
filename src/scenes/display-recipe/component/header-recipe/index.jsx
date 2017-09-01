@@ -7,7 +7,7 @@ const HeaderRecipe = ({
 }) => {
     return (
         <div className="wrapper-header-recipe" >
-          <div className="wrapper-image">
+          <div className="wrapper-image-girl-man">
             <img src={flag}/>
           </div>
           <div className="wrapper-title">

@@ -1,4 +1,6 @@
 import littleGirl from '../../../../images/cook/pipilet_female.jpg';
+import image from '../../../../images/cook/recipe/oceania/australie.jpg';
+import image2 from '../../../../images/cook/recipe/oceania/australie2.jpg';
 import pipiletCooker from '../../../../images/pipilet-cooker.jpg';
 
 export default ({
@@ -8,6 +10,7 @@ export default ({
   recipe: [
     {
       title: "ALBA",
+      image: image,
       sectionIngredient: [
         {
           title: "Ingrédients:",
@@ -29,6 +32,7 @@ export default ({
     },
     {
       title: "Paletas de Mango",
+      image: image2,
       sectionIngredient: [
         {
           title: "Ingrédients:",

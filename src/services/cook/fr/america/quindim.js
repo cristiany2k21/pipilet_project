@@ -1,4 +1,6 @@
 import littleMan from '../../../../images/cook/pipilet_male.jpg';
+import image from '../../../../images/cook/recipe/america/brasil.jpg';
+import image2 from '../../../../images/cook/recipe/america/brasil-2.jpg';
 import pipiletCooker from '../../../../images/pipilet-cooker.jpg';
 
 export default ({
@@ -8,6 +10,7 @@ export default ({
   recipe: [
     {
       title: "Quindim",
+      image: image,
       sectionIngredient: [
         {
           title: "Ingrédients:",
@@ -37,6 +40,7 @@ export default ({
     },
     {
       title: "Mousse de Maracuyá et Fruits de la Passion",
+      image: image2,
       sectionIngredient: [
         {
           title: "Ingrédients:",

@@ -36,41 +36,42 @@ import mondayMorningOriginal from '../songs/original/on-monday-morning';
 
 import map from '../../images/map.png';
 
-import englishRecipe from '../cook/spa/europe/fairy_cakes';
-import frenchRecipe from '../cook/spa/europe/mousseDeChocolate';
-import russiaRecipe from '../cook/spa/europe/manzanasAsadas';
-import germanRecipe from '../cook/spa/europe/galletaDePascua';
-import spanishRecipe from '../cook/spa/europe/macedonia';
-import italyRecipe from '../cook/spa/europe/mouse';
-import serbiaRecipe from '../cook/spa/europe/tarta';
+import englishRecipe from '../cook/spa/europe/english';
+import frenchRecipe from '../cook/spa/europe/french';
+import russiaRecipe from '../cook/spa/europe/russia';
+import germanRecipe from '../cook/spa/europe/german';
+import spanishRecipe from '../cook/spa/europe/spanish';
+import italyRecipe from '../cook/spa/europe/italy';
+import serbiaRecipe from '../cook/spa/europe/serbia';
 
-import australiaRecipe from '../cook/spa/oceania/alba';
-import vanuatuRecipe from '../cook/spa/oceania/helado';
-import zelandaRecipe from '../cook/spa/oceania/pavlova';
+import australiaRecipe from '../cook/spa/oceania/australie';
+import vanuatuRecipe from '../cook/spa/oceania/vanuatu';
+import zelandaRecipe from '../cook/spa/oceania/zelande';
 
-import keniaRecipe from '../cook/spa/africa/helado';
-import beninRecipe from '../cook/spa/africa/bananas';
-import marocRecipe from '../cook/spa/africa/bizcocho';
-import tunezRecipe from '../cook/spa/africa/ghriyba';
-import egyptRecipe from '../cook/spa/africa/guzeya';
+import keniaRecipe from '../cook/spa/africa/kenya';
+import beninRecipe from '../cook/spa/africa/benin';
+import marocRecipe from '../cook/spa/africa/maroc';
+import tunezRecipe from '../cook/spa/africa/tunisie';
+import egyptRecipe from '../cook/spa/africa/egypte';
 import madaRecipe from '../cook/spa/africa/malagasy';
-import algeriaRecipe from '../cook/spa/africa/rellenos';
+import algeriaRecipe from '../cook/spa/africa/algerie';
 
-import mexicRecipe from '../cook/spa/america/bizcocho';
-import canadaRecipe from '../cook/spa/america/trempettes';
-import brasilRecipe from '../cook/spa/america/quindim';
-import guyaneRecipe from '../cook/spa/america/mango';
-import chiliRecipe from '../cook/spa/america/cupcakes';
-import haitiRecipe from '../cook/spa/america/banana';
-import argentineRecipe from '../cook/spa/america/alfajores';
+import mexicRecipe from '../cook/spa/america/mexico';
+import canadaRecipe from '../cook/spa/america/canadien';
+import brasilRecipe from '../cook/spa/america/brasil';
+import guyaneRecipe from '../cook/spa/america/guyane';
+import chiliRecipe from '../cook/spa/america/chilie';
+import haitiRecipe from '../cook/spa/america/haiti';
+import argentineRecipe from '../cook/spa/america/argentine';
+import UsaRecipe from '../cook/spa/america/usa';
 
-import singapurRecipe from '../cook/spa/asia/melocoton';
-import arabieRecipe from '../cook/spa/asia/maskina';
-import indiaRecipe from '../cook/spa/asia/lassi';
-import libanRecipe from '../cook/spa/asia/labneh';
-import chinaRecipe from '../cook/spa/asia/helado';
-import vietnamRecipe from '../cook/spa/asia/che';
-import jordanieRecipe from '../cook/spa/asia/chamia';
+import singapurRecipe from '../cook/spa/asia/singapour';
+import arabieRecipe from '../cook/spa/asia/arabia';
+import indiaRecipe from '../cook/spa/asia/india';
+import libanRecipe from '../cook/spa/asia/liban';
+import chinaRecipe from '../cook/spa/asia/china';
+import vietnamRecipe from '../cook/spa/asia/vietnam';
+import jordanieRecipe from '../cook/spa/asia/jordania';
 
 import { presentation } from '../presentation/spanish';
 
@@ -237,7 +238,7 @@ export default (
           { name: "CHILE", type: female, recipe: chiliRecipe },
           { name: "GUAYANAS", type: male, recipe: guyaneRecipe },
           { name: "MÉJICO", type: female, recipe: mexicRecipe },
-          { name: "USA", type: female, recipe: canadaRecipe },
+          { name: "USA", type: female, recipe: UsaRecipe },
           { name: "CANADA", type: male, recipe: canadaRecipe }
         ],
       },
