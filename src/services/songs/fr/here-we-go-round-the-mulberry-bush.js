@@ -1,8 +1,10 @@
 import laCourDeMaMaison from '../../../images/music-image/here-we-go-round-the-mulberry-bush.jpg';
+import download from '../../download/songs/fr/here-we-go-round-the-mulberry-bush.pdf';
 
 export default (
   {
     "id": "fr",
+    "download": download,
     "title": "On tourne autour",
     "second-title": " du buisson de mûres",
     "image": laCourDeMaMaison,

@@ -1,10 +1,12 @@
 import peintureMains from '../../../images/music-image/pat-a-cake.jpg';
+import download from '../../download/songs/eng/on-monday-morning.pdf';
 
 export default (
   {
     "id": "eng",
     "title": "On Monday Morning",
     "sub-title": "Children's Song",
+    "download": download,
     "image": peintureMains,
     "language": "(English)",
     "couplet": [

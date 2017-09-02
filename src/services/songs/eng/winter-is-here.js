@@ -1,8 +1,11 @@
 import winterComing from '../../../images/music-image/winter-is-here.jpg';
+import download from '../../download/songs/eng/winter_is_here.pdf';
 
 export default (
   {
-    "id": "eng", "title": "A, a, a, l'hiver est là",
+    "id": "eng",
+    "title": "A, a, a, l'hiver est là",
+    "download": download,
     "image": winterComing,
     "language": "(English)",
     "couplet": [

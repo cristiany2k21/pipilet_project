@@ -1,7 +1,7 @@
 import React from 'react';
 
 import DisplayLyrics from './component/display-lyrics';
-import "../../styles/index.scss";
+import "../../styles/index.sass";
 
 const LyricsSong = ({
   musicTranslated,

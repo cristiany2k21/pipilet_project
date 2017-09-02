@@ -1,10 +1,12 @@
 import laCourDeMaMaison from '../../../images/music-image/here-we-go-round-the-mulberry-bush.jpg';
+import download from '../../download/songs/eng/here-we-go-round-the-mulberry-bush.pdf';
 
 export default (
   {
     "id": "eng",
     "title": "Here We Go Round",
     "second-title": "the Mulberry Bush",
+    "download": download,
     "image": laCourDeMaMaison,
     "language": "(English)",
     "couplet": [

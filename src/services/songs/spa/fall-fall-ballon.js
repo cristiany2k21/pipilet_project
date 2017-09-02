@@ -1,6 +1,9 @@
-export default (
+import download from '../../download/songs/esp/fall-fall-ballon.pdf';
+
+export default   (
   {
     "id": "esp",
+    "download": download,
     "title": "Cae, cae, globo",
     "language": "(Español)",
     "couplet": [

@@ -1,8 +1,11 @@
 import winterComing from '../../../images/music-image/winter-is-here.jpg';
+import download from '../../download/songs/eng/the-washerman.pdf';
 
 export default (
   {
-    "id": "eng", "title": "The Washerman",
+    "id": "eng",
+    "title": "The Washerman",
+    "download": download,
     "image": winterComing,
     "language": "(English)",
     "couplet": [

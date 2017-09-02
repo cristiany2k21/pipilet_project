@@ -1,6 +1,9 @@
-export default (
+import download from '../../download/songs/esp/the-courtyard-of-my-house.pdf';
+
+export default   (
   {
     "id": "esp",
+    "download": download,
     "title": "El patio de mi casa",
     "language": "(Español)",
     "couplet": [

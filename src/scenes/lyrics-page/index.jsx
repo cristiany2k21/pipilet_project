@@ -5,7 +5,7 @@ import LyricsSong from './components/lyrics';
 import VideoYoutube from './components/video-youtube';
 import Sheet from './components/sheet';
 
-import './styles/index.scss';
+import './styles/index.sass';
 
 const LyricsPage = ({ songPageContent, params }) => {
 
@@ -19,7 +19,11 @@ const LyricsPage = ({ songPageContent, params }) => {
 
   return (
     <div>
-      <HeaderLyrics title={title} image={musicOriginal.image} imageFlag={musicOriginal.flag}/>
+      <HeaderLyrics title={title}
+                    image={musicOriginal.image}
+                    imageFlag={musicOriginal.flag}
+                    nameDownload={musicTranslated.title}
+                    download={musicTranslated.download} />
       <LyricsSong musicTranslated={musicTranslated} musicOriginal={musicOriginal} sameLyrics={sameLryics}/>
       <VideoYoutube music={musicOriginal} sameLyrics={sameLryics}/>
       {musicOriginal.sheet && <Sheet sheet={musicOriginal.sheet}/>}

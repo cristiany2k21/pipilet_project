@@ -1,6 +1,9 @@
-export default (
+import download from '../../download/songs/esp/winter-is-here.pdf';
+
+export default   (
   {
     "id": "esp",
+    "download": download,
     "title": "A, a, a, el invierno llego ya",
     "language": "(Español)",
     "couplet": [
@@ -34,7 +37,6 @@ export default (
         "Y conduzco cada vez más deprisa.",
         "U, u, u, ¡ahora sé qué hacer!"
       ]
-
     ]
   }
 )

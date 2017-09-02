@@ -1,8 +1,10 @@
 import winterComing from '../../../images/music-image/winter-is-here.jpg';
+import download from '../../download/songs/fr/si-ma-ma-ka.pdf';
 
 export default (
   {
     "id": "fr",
+    "download": download,
     "title": "SI MA MA KA",
     "image": winterComing,
     "language": "(Français)",

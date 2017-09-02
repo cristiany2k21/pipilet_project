@@ -1,8 +1,10 @@
 import winterComing from '../../../images/music-image/winter-is-here.jpg';
+import download from '../../download/songs/fr/winter-is-here.pdf';
 
 export default (
   {
     "id": "fr",
+    "download": download,
     "title": "A, a, a, l'hiver est là",
     "image": winterComing,
     "language": "(Français)",

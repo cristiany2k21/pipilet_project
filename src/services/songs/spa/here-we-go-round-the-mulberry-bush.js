@@ -1,6 +1,9 @@
-export default (
+import download from '../../download/songs/esp/here-we-go-round-the-mulberry-bush.pdf';
+
+export default   (
   {
     "id": "esp",
+    "download": download,
     "title": "Giramos alrededor",
     "second-title": "del moral",
     "language": "(Español)",

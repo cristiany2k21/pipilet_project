@@ -1,6 +1,9 @@
-export default (
+import download from '../../download/songs/esp/the-washerman.pdf';
+
+export default   (
   {
     "id": "esp",
+    "download": download,
     "title": "El lavandero",
     "language": "(Español)",
     "couplet": [

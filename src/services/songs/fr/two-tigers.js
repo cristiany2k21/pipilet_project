@@ -1,8 +1,10 @@
 import tigers from '../../../images/music-image/two-tigers.jpg';
+import download from '../../download/songs/fr/two-tigers.pdf';
 
 export default (
   {
     "id": "fr",
+    "download": download,
     "title": "Deux vieux tigres",
     "image": tigers,
     "language": "(Français)",

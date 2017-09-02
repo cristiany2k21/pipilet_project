@@ -1,6 +1,9 @@
-export default (
+import download from '../../download/songs/esp/two-tigers.pdf';
+
+export default   (
   {
     "id": "esp",
+    "download": download,
     "title": "Dos tigres viejos",
     "language": "(Español)",
     "couplet": [

@@ -1,6 +1,9 @@
-export default (
+import download from '../../download/songs/esp/si-ma-ma-ka.pdf';
+
+export default   (
   {
     "id": "esp",
+    "download": download,
     "title": "SI MA MA KA",
     "language": "(Español)",
     "couplet": [

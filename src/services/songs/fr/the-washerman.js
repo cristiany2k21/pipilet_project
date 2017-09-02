@@ -1,8 +1,10 @@
 import winterComing from '../../../images/music-image/winter-is-here.jpg';
+import download from '../../download/songs/fr/the-washerman.pdf';
 
 export default (
   {
     "id": "fr",
+    "download": download,
     "title": "Le blanchisseur",
     "image": winterComing,
     "language": "(Français)",

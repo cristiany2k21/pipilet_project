@@ -1,8 +1,10 @@
 import peintureMains from '../../../images/music-image/pat-a-cake.jpg';
+import download from '../../download/songs/fr/pat-a-cake.pdf';
 
 export default (
   {
     "id": "fr",
+    "download": download,
     "title": "Frappe des mains",
     "sub-title": "Chanson pour frapper dans les mains",
     "image": peintureMains,

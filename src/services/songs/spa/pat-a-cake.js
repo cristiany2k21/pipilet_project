@@ -1,6 +1,9 @@
-export default (
+import download from '../../download/songs/esp/pat-a-cake.pdf';
+
+export default   (
   {
     "id": "esp",
+    "download": download,
     "title": "Bate las manos",
     "sub-title": "Canción para jugar a las palmas",
     "language": "(Español)",

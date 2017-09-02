@@ -1,8 +1,10 @@
 import rainning from '../../../images/music-image/its-rainning.jpg';
+// import download from '../../download/songs/fr/';
 
 export default (
   {
     "id": "fr",
+    // "download": download,
     "title": "Il pleut",
     "sub-title": "Chanson traditionnelle",
     "image": rainning,

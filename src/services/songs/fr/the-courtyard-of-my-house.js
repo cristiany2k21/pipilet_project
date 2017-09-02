@@ -1,8 +1,10 @@
 import laCourDeMaMaison from '../../../images/music-image/here-we-go-round-the-mulberry-bush.jpg';
+import download from '../../download/songs/fr/the-courtyard-of-my-house.pdf';
 
 export default (
   {
     "id": "fr",
+    "download": download,
     "title": "La cour de ma maison",
     "image": laCourDeMaMaison,
     "language": "(Français)",

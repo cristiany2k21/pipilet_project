@@ -1,10 +1,16 @@
 import React from 'react';
+import iconDownload from '../../../../images/icon-download.jpg';
+import a from '../../../../services/download/songs/eng/winter_is_here.pdf';
 
 const HeaderLyrics = ({
   title,
   image,
-  imageFlag
+  imageFlag,
+  nameDownload,
+  download
 }) => {
+  const nameFile = `${nameDownload.toLowerCase()}.pdf`;
+
   return (
     <div id="wrapper-header-song">
       <div className="wrapper-title-flag">
@@ -15,6 +21,11 @@ const HeaderLyrics = ({
         </div>
         <div className="flag-song">
           <img src={imageFlag} alt={`${title}-image`}/>
+        </div>
+        <div className="wrapper-icon-download">
+          <a href={download} download={nameFile}>
+            <img src={iconDownload} alt={`${title}-image`}/>
+          </a>
         </div>
       </div>
 

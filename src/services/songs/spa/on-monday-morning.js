@@ -1,6 +1,9 @@
-export default (
+import download from '../../download/songs/esp/on-monday-morning.pdf';
+
+export default   (
   {
     "id": "esp",
+    "download": download,
     "title": "El lunes por la mañana",
     "sub-title": "Canción infantil",
     "language": "(Español)",

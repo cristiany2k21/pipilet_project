@@ -1,8 +1,10 @@
 import fallFallBallon from '../../../images/music-image/fall-fall-ballon.jpg';
+import download from '../../download/songs/fr/fall-fall-ballon.pdf';
 
 export default (
   {
     "id": "fr",
+    "download": download,
     "title": "Tombe, tombe, ballon",
     "sub-title": "Chanson enfantine",
     "image": fallFallBallon,

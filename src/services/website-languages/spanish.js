@@ -5,7 +5,6 @@ import information from './information';
 import male from '../../images/cook/pipilet_male.jpg';
 import female from '../../images/cook/pipilet_female.jpg';
 
-import colorSpanish from '../color/spanish/';
 import imagePipilet from '../../images/pipilet-description.jpg';
 
 import winterIsHereTranslated from '../songs/spa/winter-is-here';

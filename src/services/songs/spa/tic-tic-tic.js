@@ -1,6 +1,9 @@
-export default (
+import download from '../../download/songs/esp/tic-tic-tic.pdf';
+
+export default   (
   {
     "id": "esp",
+    "download": download,
     "title": "Tic, tic, tic, madre de Sleiman",
     "language": "(Español)",
     "couplet": [

@@ -1,8 +1,10 @@
 import winterComing from '../../../images/music-image/winter-is-here.jpg';
+import download from '../../download/songs/fr/tic-tic-tic.pdf';
 
 export default (
   {
     "id": "fr",
+    "download": download,
     "title": "Tic, tic, tic, mère de Sleiman",
     "image": winterComing,
     "language": "(Français)",

@@ -1,8 +1,11 @@
 import winterComing from '../../../images/music-image/winter-is-here.jpg';
+import download from '../../download/songs/eng/pat-a-cake.pdf';
 
 export default (
   {
-    "id": "eng", "title": "Pat-a-cake",
+    "id": "eng",
+    "title": "Pat-a-cake",
+    "download": download,
     "image": winterComing,
     "language": "(English)",
     "couplet": [
