@@ -1,9 +1,9 @@
-// import download from '../../download/songs/esp/';
+import download from '../../download/songs/esp/its-rainning.pdf';
 
 export default   (
   {
     "id": "esp",
-    // "download": download,
+    "download": download,
     "title": "Llueve",
     "language": "(Español)",
     "couplet": [

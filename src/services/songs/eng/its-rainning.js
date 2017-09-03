@@ -1,11 +1,11 @@
 import rainning from '../../../images/music-image/its-rainning.jpg';
-// import download from '../../download/songs/eng/winter_is_here.pdf';
+import download from '../../download/songs/eng/its-rainning.pdf';
 
 export default (
   {
     "id": "eng",
     "title": "It's Raining",
-    // "download": download,
+    "download": download,
     "image": rainning,
     "language": "(English)",
     "couplet": [

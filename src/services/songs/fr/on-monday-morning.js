@@ -1,10 +1,10 @@
 import peintureMains from '../../../images/music-image/pat-a-cake.jpg';
-// import download from '../../download/songs/fr/';
+import download from '../../download/songs/fr/on-monday-morning.pdf';
 
 export default (
   {
     "id": "fr",
-    // "download": download,
+    "download": download,
     "title": "Lundi matin",
     "sub-title": "Chanson enfantine",
     "image": peintureMains,

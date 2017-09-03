@@ -1,9 +1,9 @@
-// import download from '../../download/songs/esp/';
+import download from '../../download/songs/esp/spring-has-come.pdf';
 
 export default   (
   {
     "id": "esp",
-    // "download": download,
+    "download": download,
     "title": "Se ha casado rosa",
     "sub-title": "Canción Folk (Dialecto siciliano)",
     "language": "(Español)",

@@ -1,10 +1,10 @@
 import springComing from '../../../images/music-image/spring-has-come.jpg';
-// import download from '../../download/songs/fr/';
+import download from '../../download/songs/fr/spring-has-come.pdf';
 
 export default (
   {
     "id": "fr",
-    // "download": download,
+    "download": download,
     "title": "Rose s'est mariée",
     "sub-title": "Folk Song (Dialecte sicilien)",
     "image": springComing,
