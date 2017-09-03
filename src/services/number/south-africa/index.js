@@ -1,12 +1,17 @@
 import southAfrica from '../../../images/flag/south-africa.jpg';
 import little_draw from '../images/elephant_little_draw_number.png';
 import big_draw from '../images/elephant_big_draw_number.png';
+import download from '../../download/number/arabe.pdf';
 
 export default (
   {
     "header": "الإنجليزية من 1 إلى 100",
     "flag": southAfrica,
-    "draw": { "little-draw": little_draw, "big-draw": big_draw },
+    "download": download,
+    "draw": {
+      "little-draw": little_draw,
+      "big-draw": big_draw
+    },
     "numbers": [
       [
         { letter: "1", value: "واحد [wahed]" },

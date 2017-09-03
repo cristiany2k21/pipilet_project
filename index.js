@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';
 import reducers from './src/reducers';
 import routes from './src/routes'
 import { AppContainer } from 'react-hot-loader';
-import './src/style/index.scss';
+import './src/style/index.sass';
 
 const store = createStore(reducers);
 

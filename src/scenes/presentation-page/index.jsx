@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import './style/index.scss';
+import './style/index.sass';
 
 const PresentationPage = ({
   presentationPageContent

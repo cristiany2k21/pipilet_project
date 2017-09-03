@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux'
 import { Link } from 'react-router';
 import { changeWebsiteLanguage } from '../../action/website-language';
-import './styles/index.scss';
+import './styles/index.sass';
 import french from '../../images/french_nav.png';
 import english from '../../images/english_nav.png';
 import spanish from '../../images/spanish_nav.png';

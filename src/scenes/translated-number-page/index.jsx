@@ -5,7 +5,7 @@ import Language from '../../services/number';
 import HeaderNumber from './components/header';
 import TableNumber from './components/table';
 
-import './styles/index.scss';
+import './styles/index.sass';
 
 const TranslatedNumber = ({
   numbers
@@ -14,6 +14,7 @@ const TranslatedNumber = ({
     <div id="translated-number">
       <HeaderNumber title={numbers.header} flag={numbers.flag}/>
       <TableNumber
+        download={numbers.download}
         language={numbers}
         littleDraw={numbers.draw["little-draw"]}
         bigDraw={numbers.draw["big-draw"]}

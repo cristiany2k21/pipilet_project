@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 import DisplayCountry from './component/display-country';
 
-import './style/index.scss';
+import './style/index.sass';
 
 const ChooseCountryCook = ({
   continent

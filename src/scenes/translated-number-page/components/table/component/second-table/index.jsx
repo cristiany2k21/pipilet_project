@@ -1,13 +1,20 @@
 import React from 'react';
+import logoDownload from '../../../../../../images/icon-download.jpg';
 
 const SecondTable = ({
   language,
-  draw
+  draw,
+  download
 }) => {
   return (
     <div className="wrapper-second-table">
-      <div className="wrapper-little-draw hidden">
-        <img src={draw} className="little-draw"/>
+      <div className="wrapper-logo-download">
+        <a
+          href={download}
+          download={download}
+        >
+          <img src={logoDownload} className="little-draw"/>
+        </a>
       </div>
       <table className="second-table">
         <tbody>

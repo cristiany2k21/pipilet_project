@@ -1,12 +1,17 @@
 import spanish from '../../../images/flag/spanish.png';
 import little_draw from '../images/bike_little_draw_number.png';
 import big_draw from '../images/bike_big_draw_number.png';
+import download from '../../download/number/spanish.pdf';
 
 export default (
   {
     "header": "ESPAÑOL NÚMEROS DEL 1 AL 100",
     "flag": spanish,
-    "draw": { "little-draw": little_draw, "big-draw": big_draw },
+    "download": download,
+    "draw": {
+      "little-draw": little_draw,
+      "big-draw": big_draw
+    },
     "numbers": [
       [
         { letter: "1", value: "Uno" },

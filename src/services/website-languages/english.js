@@ -3,7 +3,6 @@ import information from './information';
 import male from '../../images/cook/pipilet_male.jpg';
 import female from '../../images/cook/pipilet_female.jpg';
 
-import colorEnglish from '../color/english';
 import imagePipilet from '../../images/pipilet-description.jpg';
 
 import winterIsHereTranslated from '../songs/eng/winter-is-here';
@@ -70,6 +69,18 @@ import chinaRecipe from '../cook/fr/asia/china';
 import vietnamRecipe from '../cook/fr/asia/vietnam';
 import jordanieRecipe from '../cook/fr/asia/jordanie';
 
+import arabeColorDownload from '../download/colors/eng/arabe.pdf';
+import brasilColorDownload from '../download/colors/eng/brasil.pdf';
+import chinaColorDownload from '../download/colors/eng/china.pdf';
+import frenchColorDownload from '../download/colors/eng/french.pdf';
+import germanColorDownload from '../download/colors/eng/german.pdf';
+import indiaColorDownload from '../download/colors/eng/india.pdf';
+import italyColorDownload from '../download/colors/eng/italy.pdf';
+import russiaColorDownload from '../download/colors/eng/russia.pdf';
+import serbiaColorDownload from '../download/colors/eng/serbia.pdf';
+import spanishColorDownload from '../download/colors/eng/spanish.pdf';
+import swahiliColorDownload from '../download/colors/eng/swahili.pdf';
+
 import { presentation } from '../presentation/english';
 
 import owls_1 from '../../scenes/color-number-page/images/eng/owls-1.png';
@@ -113,10 +124,18 @@ export default (
         { "name": "brasil", "translated-song": fallFallBallonTranslated, "original-song": fallFallBallonOriginal },
         { "name": "italy", "translated-song": seHaCasadoRosaTranslated, "original-song": seHaCasadoRosaOriginal },
         { "name": "french", "translated-song": mondayMorningTranslated, "original-song": mondayMorningOriginal },
-        { "name": "english", "translated-song": giramosalRededorDelMoralTranslated, "original-song": giramosalRededorDelMoralOriginal },
+        {
+          "name": "english",
+          "translated-song": giramosalRededorDelMoralTranslated,
+          "original-song": giramosalRededorDelMoralOriginal
+        },
         { "name": "serbia", "translated-song": itsRainningTranslated, "original-song": itsRainningOriginal },
         { "name": "russia", "translated-song": patACakeTranslated, "original-song": patACakeOriginal },
-        { "name": "spanish", "translated-song": theCourtyardOfMyHouseTranslated, "original-song": theCourtyardOfMyHouseOriginal },
+        {
+          "name": "spanish",
+          "translated-song": theCourtyardOfMyHouseTranslated,
+          "original-song": theCourtyardOfMyHouseOriginal
+        },
       ]
     },
     "colorNumberContent": {
@@ -194,18 +213,53 @@ export default (
         "data": information.englishColor
       },
       "translated": [
-        { "id": "brasil", "name": "PORTUGUESE", "data": information.brasilColor },
-        { "id": "china", "name": "CHINESE", "subTitle":"IS WRITTEN", "subSubTitle":"IT’S PRONOUNCED", "data": information.chinaColor },
-        { "id": "english", "name": "ENGLISH", "data": information.englishColor },
-        { "id": "french", "name": "FRENCH", "data": information.frenchColor },
-        { "id": "german", "name": "GERMAN", "data": information.germanColor },
-        { "id": "india", "name": "HINDI", "subTitle":"IS WRITTEN", "subSubTitle":"IT’S PRONOUNCED", "data": information.indiaColor },
-        { "id": "italy", "name": "ITALIAN", "data": information.italyColor },
-        { "id": "russia", "name": "RUSSIAN", "subTitle":"IS WRITTEN", "subSubTitle":"IT’S PRONOUNCED", "data": information.russiaColor },
-        { "id": "serbia", "name": "SERBIO", "subTitle":"IS WRITTEN", "subSubTitle":"IT’S PRONOUNCED", "data": information.serbiaColor },
-        { "id": "arab", "name": "ARABE", "subTitle":"IS WRITTEN", "subSubTitle":"IT’S PRONOUNCED", "data": information.southColor },
-        { "id": "spanish", "name": "SPANISH", "data": information.spanishColor },
-        { "id": "tanzania", "name": "SWAHILI", "data": information.tanzaniaColor },
+        {
+          "id": "arab",
+          "name": "ARABE",
+          "subTitle": "IS WRITTEN",
+          "subSubTitle": "IT’S PRONOUNCED",
+          "data": information.southColor,
+          download: arabeColorDownload
+        },
+        { "id": "brasil", "name": "PORTUGUESE", "data": information.brasilColor, download: brasilColorDownload },
+        {
+          "id": "china",
+          "name": "CHINESE",
+          "subTitle": "IS WRITTEN",
+          "subSubTitle": "IT’S PRONOUNCED",
+          "data": information.chinaColor,
+          download: chinaColorDownload
+        },
+        { "id": "english", "name": "ENGLISH", "data": information.englishColor, download: chinaColorDownload },
+        { "id": "french", "name": "FRENCH", "data": information.frenchColor, download: frenchColorDownload },
+        { "id": "german", "name": "GERMAN", "data": information.germanColor, download: germanColorDownload },
+        {
+          "id": "india",
+          "name": "HINDI",
+          "subTitle": "IS WRITTEN",
+          "subSubTitle": "IT’S PRONOUNCED",
+          "data": information.indiaColor,
+          download: indiaColorDownload
+        },
+        { "id": "italy", "name": "ITALIAN", "data": information.italyColor, download: italyColorDownload },
+        {
+          "id": "russia",
+          "name": "RUSSIAN",
+          "subTitle": "IS WRITTEN",
+          "subSubTitle": "IT’S PRONOUNCED",
+          "data": information.russiaColor,
+          download: russiaColorDownload
+        },
+        {
+          "id": "serbia",
+          "name": "SERBIO",
+          "subTitle": "IS WRITTEN",
+          "subSubTitle": "IT’S PRONOUNCED",
+          "data": information.serbiaColor,
+          download: serbiaColorDownload
+        },
+        { "id": "spanish", "name": "SPANISH", "data": information.spanishColor, download: spanishColorDownload },
+        { "id": "tanzania", "name": "SWAHILI", "data": information.tanzaniaColor, download: swahiliColorDownload },
       ]
     },
     "cookerPageContent": {

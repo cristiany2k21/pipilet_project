@@ -9,7 +9,7 @@ import Footer from '../../components/footer';
 
 import map from './images/map.png';
 
-import './style/index.scss';
+import './style/index.sass';
 
 const CookPage = ({
   cookerPageContent

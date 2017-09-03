@@ -1,12 +1,17 @@
 import tanzania from '../../../images/flag/tanzania.jpg';
 import little_draw from '../images/elephant_little_draw_number.png';
 import big_draw from '../images/elephant_big_draw_number.png';
+import download from '../../download/number/swahili.pdf';
 
 export default (
   {
     "header": "ESPAÑOL NÚMEROS DEL 1 AL 100",
     "flag": tanzania,
-    "draw": { "little-draw": little_draw, "big-draw": big_draw },
+    "download": download,
+    "draw": {
+      "little-draw": little_draw,
+      "big-draw": big_draw
+    },
     "numbers": [
       [
         { letter: "1", value: "Moja" },

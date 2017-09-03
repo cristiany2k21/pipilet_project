@@ -1,12 +1,17 @@
 import german from '../../../images/flag/german.png';
 import little_draw from '../images/bird_little_draw_number.png';
 import big_draw from '../images/bird_big_draw_number.png';
+import download from '../../download/number/german.pdf';
 
 export default (
   {
     "header": "ANZAHLEN DEN 1 BEL DEN 100",
     "flag": german,
-    "draw": { "little-draw": little_draw, "big-draw": big_draw },
+    "download": download,
+    "draw": {
+      "little-draw": little_draw,
+      "big-draw": big_draw
+    },
     "numbers": [
       [
         { letter: "1", value: "Eins" },

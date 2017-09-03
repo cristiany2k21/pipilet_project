@@ -6,7 +6,7 @@ const HeaderNumber = ({
   flag
 }) => {
   return (
-    <div>
+    <div className="wrapper-flag-title-book">
       <div className="wrapper-flag">
         <img src={flag} alt=""/>
       </div>

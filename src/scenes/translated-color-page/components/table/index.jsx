@@ -35,7 +35,6 @@ const TableColor = ({
     pink,
   ];
 
-  console.log('translatedColor ------> ', translatedColor);
   return (
     <div id="wrapper-table">
       <ColumnTable images={colors} title={`${headerFirstColumn} ${headerThirdColumn}`}/>

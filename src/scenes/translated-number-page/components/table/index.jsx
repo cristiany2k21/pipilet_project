@@ -9,12 +9,13 @@ import BigDraw from './component/big-draw';
 const TableNumber = ({
   language,
   littleDraw,
-  bigDraw
+  bigDraw,
+  download
 }) => {
   return (
     <div id="table-number">
       <FirstTable language={language}/>
-      <SecondTable language={language} draw={littleDraw}/>
+      <SecondTable language={language} draw={littleDraw} download={download} />
       <div className="wrapper-third-four">
         <ThirdTable language={language}/>
         <FourTable language={language}/>

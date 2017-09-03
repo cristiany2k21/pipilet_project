@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
-import './styles/index.scss';
+import './styles/index.sass';
 
 const Sidebar = ({
   sidebar

@@ -1,12 +1,17 @@
 import serbia from '../../../images/flag/serbia.png';
 import little_draw from '../images/elephant_little_draw_number.png';
 import big_draw from '../images/elephant_big_draw_number.png';
+import download from '../../download/number/serbia.pdf';
 
 export default (
   {
     "header": "Бројеви на Српском од 1 до 100",
     "flag": serbia,
-    "draw": { "little-draw": little_draw, "big-draw": big_draw },
+    "download": download,
+    "draw": {
+      "little-draw": little_draw,
+      "big-draw": big_draw
+    },
     "numbers": [
       [
         { letter: "1", value: "један [yedan]" },

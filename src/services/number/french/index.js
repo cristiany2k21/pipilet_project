@@ -1,11 +1,13 @@
 import french from '../../../images/flag/french.png';
 import little_draw from '../images/elephant_little_draw_number.png';
 import big_draw from '../images/elephant_big_draw_number.png';
+import download from '../../download/number/french.pdf';
 
 export default (
   {
     "header": "CHIFFRES FRANÇAIS DE 1 À 100",
     "flag": french,
+    "download": download,
     "draw": {
       "little-draw": little_draw,
       "big-draw": big_draw

@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import HeaderRecipe from './component/header-recipe';
 import Recipe from './component/recipe';
 
-import './style/index.scss';
+import './style/index.sass';
 
 const DisplayRecipe = ({
   recipeCountry

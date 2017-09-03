@@ -7,7 +7,7 @@ import DisplayImage from './components/display-image';
 
 import family from './images/family.jpg';
 
-import './styles/index.scss';
+import './styles/index.sass';
 
 const HomeContainer = () => {
 

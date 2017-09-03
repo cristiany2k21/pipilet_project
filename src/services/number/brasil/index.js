@@ -1,12 +1,17 @@
 import brasil from '../../../images/flag/brasil.png';
 import little_draw from '../images/bike_little_draw_number.png';
 import big_draw from '../images/bike_big_draw_number.png';
+import download from '../../download/number/brasil.pdf';
 
 export default (
   {
     "header": "BRASIL NÚMEROS DO 1 AOS 100",
     "flag": brasil,
-    "draw": { "little-draw": little_draw, "big-draw": big_draw },
+   "download": download,
+    "draw": {
+      "little-draw": little_draw,
+      "big-draw": big_draw
+    },
     "numbers": [
       [
         { letter: "1", value: "Um/Uma" },

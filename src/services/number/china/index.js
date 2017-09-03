@@ -1,12 +1,17 @@
 import china from '../../../images/flag/china.png';
 import little_draw from '../images/elephant_little_draw_number.png';
 import big_draw from '../images/elephant_big_draw_number.png';
+import download from '../../download/number/china.pdf';
 
 export default (
   {
     "header": "中国 编号从 1 到 100",
     "flag": china,
-    "draw": { "little-draw": little_draw, "big-draw": big_draw },
+    "download": download,
+    "draw": {
+      "little-draw": little_draw,
+      "big-draw": big_draw
+    },
     "numbers": [
       [
         { letter: "1", value: "一 [yī]" },

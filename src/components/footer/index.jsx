@@ -1,7 +1,7 @@
 import React from 'react';
 import footerLogo from '../../images/pipilet-rainbow.jpg';
 
-import './style/index.scss';
+import './style/index.sass';
 
 const Footer = () => {
     return (

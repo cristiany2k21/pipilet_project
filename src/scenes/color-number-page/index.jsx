@@ -4,7 +4,7 @@ import Link from 'react-router/lib/Link';
 import logoNumbercolor from '../../images/pipilet-number-color.jpg';
 import Footer from '../../components/footer';
 import Header from '../../components/header-page';
-import './styles/index.scss';
+import './styles/index.sass';
 
 const ColorNumber = ({
   titleColor,

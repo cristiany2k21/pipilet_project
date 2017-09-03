@@ -8,7 +8,7 @@ import Footer from '../../components/footer';
 import DisplayLanguageSong from './components/display-language';
 import ChooseFlag from './components/choose-flag';
 
-import './styles/index.scss';
+import './styles/index.sass';
 
 const SongPage = ({
   title,

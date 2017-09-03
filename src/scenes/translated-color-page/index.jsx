@@ -7,7 +7,7 @@ import TableColor from './components/table';
 import Game from './components/game';
 import Drawing from './components/drawing';
 
-import './style/index.scss';
+import './style/index.sass';
 
 const TranslatedColor = ({
   colorPage,
@@ -23,7 +23,10 @@ const TranslatedColor = ({
     <div id="wrapper-translated-color">
       <HeaderColor
         title={colorPage.title}
-        rules={colorPage.rules}/>
+        rules={colorPage.rules}
+        download={colorTranslated.download}
+        nameDownload={`${colorTranslated.name} COLOR.pdf`}
+      />
       <TableColor
         headerFirstColumn={colorPage.headerFirstColumn}
         headerThirdColumn={colorTranslated.name}

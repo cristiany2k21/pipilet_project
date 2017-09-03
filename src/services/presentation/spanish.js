@@ -1,7 +1,7 @@
 import React from 'react';
 import universe from "../../images/universe.jpg";
 
-import './style/index.scss';
+import './style/index.sass';
 
 export const presentation =
   <div id="wrapper-text-image">

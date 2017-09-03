@@ -70,6 +70,19 @@ import chinaRecipe from '../cook/fr/asia/china';
 import vietnamRecipe from '../cook/fr/asia/vietnam';
 import jordanieRecipe from '../cook/fr/asia/jordanie';
 
+import swahiliColorDownload from '../download/colors/fr/swahili.pdf';
+import spanishColorDownload from '../download/colors/fr/spanish.pdf';
+import serbiaColorDownload from '../download/colors/fr/serbia.pdf';
+import russiaColorDownload from '../download/colors/fr/russia.pdf';
+import italyColorDownload from '../download/colors/fr/italy.pdf';
+import indiaColorDownload from '../download/colors/fr/india.pdf';
+import germanColorDownload from '../download/colors/fr/german.pdf';
+import englishColorDownload from '../download/colors/fr/english.pdf';
+import chinaColorDownload from '../download/colors/fr/china.pdf';
+import brasilColorDownload from '../download/colors/fr/brasil.pdf';
+import arabeColorDownload from '../download/colors/fr/arabe.pdf';
+// import  from '../download/colors/fr/';
+
 import { presentation } from '../presentation/french';
 
 import owls_1 from '../../scenes/color-number-page/images/fr/owls-1.png';
@@ -202,18 +215,53 @@ export default (
         "data": information.frenchColor
       },
       "translated": [
-        { "id": "brasil", "name": "PORTUGAIS", "data": information.brasilColor },
-        { "id": "china", "name": "CHINOIS", "subTitle":"S’ÉCRIT", "subSubTitle":"SE PRONONCE", "data": information.chinaColor },
-        { "id": "english", "name": "ANGLAIS", "data": information.englishColor },
-        { "id": "french", "name": "FRANÇAISE", "data": information.frenchColor },
-        { "id": "german", "name": "ALLEMAND", "data": information.germanColor },
-        { "id": "india", "name": "INDIEN", "subTitle":"S’ÉCRIT", "subSubTitle":"SE PRONONCE", "data": information.indiaColor },
-        { "id": "italy", "name": "ITALIEN", "data": information.italyColor },
-        { "id": "russia", "name": "RUSSE", "subTitle":"S’ÉCRIT", "subSubTitle":"SE PRONONCE", "data": information.russiaColor },
-        { "id": "serbia", "name": "SERBE", "subTitle":"S’ÉCRIT", "subSubTitle":"SE PRONONCE", "data": information.serbiaColor },
-        { "id": "arab", "name": "ARABE", "subTitle":"S’ÉCRIT", "subSubTitle":"SE PRONONCE", "data": information.southColor },
-        { "id": "spanish", "name": "ESPAGNOL", "data": information.spanishColor },
-        { "id": "tanzania", "name": "SWAHILI", "data": information.tanzaniaColor },
+        { "id": "brasil", "name": "PORTUGAIS", "data": information.brasilColor, download: brasilColorDownload },
+        {
+          "id": "china",
+          "name": "CHINOIS",
+          "subTitle": "S’ÉCRIT",
+          "subSubTitle": "SE PRONONCE",
+          "data": information.chinaColor,
+          download: chinaColorDownload
+        },
+        { "id": "english", "name": "ANGLAIS", "data": information.englishColor, download: englishColorDownload },
+        { "id": "french", "name": "FRANÇAIS", "data": information.frenchColor, download: englishColorDownload },
+        { "id": "german", "name": "ALLEMAND", "data": information.germanColor, download: germanColorDownload },
+        {
+          "id": "india",
+          "name": "INDIEN",
+          "subTitle": "S’ÉCRIT",
+          "subSubTitle": "SE PRONONCE",
+          "data": information.indiaColor,
+          download: indiaColorDownload
+        },
+        { "id": "italy", "name": "ITALIEN", "data": information.italyColor, download: italyColorDownload },
+        {
+          "id": "russia",
+          "name": "RUSSE",
+          "subTitle": "S’ÉCRIT",
+          "subSubTitle": "SE PRONONCE",
+          "data": information.russiaColor,
+          download: russiaColorDownload
+        },
+        {
+          "id": "serbia",
+          "name": "SERBE",
+          "subTitle": "S’ÉCRIT",
+          "subSubTitle": "SE PRONONCE",
+          "data": information.serbiaColor,
+          download: serbiaColorDownload
+        },
+        {
+          "id": "arab",
+          "name": "ARABE",
+          "subTitle": "S’ÉCRIT",
+          "subSubTitle": "SE PRONONCE",
+          "data": information.southColor,
+          download: arabeColorDownload
+        },
+        { "id": "spanish", "name": "ESPAGNOL", "data": information.spanishColor, download: spanishColorDownload },
+        { "id": "tanzania", "name": "SWAHILI", "data": information.tanzaniaColor, download: swahiliColorDownload },
       ]
     },
     "cookerPageContent": {
