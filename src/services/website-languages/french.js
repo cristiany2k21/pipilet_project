@@ -81,7 +81,7 @@ import englishColorDownload from '../download/colors/fr/english.pdf';
 import chinaColorDownload from '../download/colors/fr/china.pdf';
 import brasilColorDownload from '../download/colors/fr/brasil.pdf';
 import arabeColorDownload from '../download/colors/fr/arabe.pdf';
-// import  from '../download/colors/fr/';
+import frenchColorDownload from '../download/colors/fr/french.pdf';
 
 import { presentation } from '../presentation/french';
 
@@ -216,50 +216,15 @@ export default (
       },
       "translated": [
         { "id": "brasil", "name": "PORTUGAIS", "data": information.brasilColor, download: brasilColorDownload },
-        {
-          "id": "china",
-          "name": "CHINOIS",
-          "subTitle": "S’ÉCRIT",
-          "subSubTitle": "SE PRONONCE",
-          "data": information.chinaColor,
-          download: chinaColorDownload
-        },
+        { "id": "china", "name": "CHINOIS", "subTitle": "S’ÉCRIT", "subSubTitle": "SE PRONONCE", "data": information.chinaColor, download: chinaColorDownload },
         { "id": "english", "name": "ANGLAIS", "data": information.englishColor, download: englishColorDownload },
-        { "id": "french", "name": "FRANÇAIS", "data": information.frenchColor, download: englishColorDownload },
+        { "id": "french", "name": "FRANÇAIS", "data": information.frenchColor, download: frenchColorDownload },
         { "id": "german", "name": "ALLEMAND", "data": information.germanColor, download: germanColorDownload },
-        {
-          "id": "india",
-          "name": "INDIEN",
-          "subTitle": "S’ÉCRIT",
-          "subSubTitle": "SE PRONONCE",
-          "data": information.indiaColor,
-          download: indiaColorDownload
-        },
+        { "id": "india", "name": "INDIEN", "subTitle": "S’ÉCRIT", "subSubTitle": "SE PRONONCE", "data": information.indiaColor, download: indiaColorDownload },
         { "id": "italy", "name": "ITALIEN", "data": information.italyColor, download: italyColorDownload },
-        {
-          "id": "russia",
-          "name": "RUSSE",
-          "subTitle": "S’ÉCRIT",
-          "subSubTitle": "SE PRONONCE",
-          "data": information.russiaColor,
-          download: russiaColorDownload
-        },
-        {
-          "id": "serbia",
-          "name": "SERBE",
-          "subTitle": "S’ÉCRIT",
-          "subSubTitle": "SE PRONONCE",
-          "data": information.serbiaColor,
-          download: serbiaColorDownload
-        },
-        {
-          "id": "arab",
-          "name": "ARABE",
-          "subTitle": "S’ÉCRIT",
-          "subSubTitle": "SE PRONONCE",
-          "data": information.southColor,
-          download: arabeColorDownload
-        },
+        { "id": "russia", "name": "RUSSE", "subTitle": "S’ÉCRIT", "subSubTitle": "SE PRONONCE", "data": information.russiaColor, download: russiaColorDownload },
+        { "id": "serbia", "name": "SERBE", "subTitle": "S’ÉCRIT", "subSubTitle": "SE PRONONCE", "data": information.serbiaColor, download: serbiaColorDownload },
+        { "id": "arab", "name": "ARABE", "subTitle": "S’ÉCRIT", "subSubTitle": "SE PRONONCE", "data": information.southColor, download: arabeColorDownload },
         { "id": "spanish", "name": "ESPAGNOL", "data": information.spanishColor, download: spanishColorDownload },
         { "id": "tanzania", "name": "SWAHILI", "data": information.tanzaniaColor, download: swahiliColorDownload },
       ]
