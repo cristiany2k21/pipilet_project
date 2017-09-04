@@ -81,6 +81,7 @@ import germanColorDownload from '../download/colors/esp/german.pdf';
 import indiaColorDownload from '../download/colors/esp/india.pdf';
 import italyColorDownload from '../download/colors/esp/italy.pdf';
 import russiaColorDownload from '../download/colors/esp/russia.pdf';
+import spanishColorDownload from '../download/colors/esp/spanish.pdf';
 import serbiaColorDownload from '../download/colors/esp/serbia.pdf';
 import swahiliColorDownload from '../download/colors/esp/swahili.pdf';
 
@@ -225,7 +226,7 @@ export default (
         { "id": "russia", "name": "RUSO", "subTitle":"SE ESCRIBE", "subSubTitle":"SE PRONUNCIA", "data": information.russiaColor, download: russiaColorDownload },
         { "id": "serbia", "name": "SERBIO", "subTitle":"SE ESCRIBE", "subSubTitle":"SE PRONUNCIA", "data": information.serbiaColor, download: serbiaColorDownload },
         { "id": "arab", "name": "ARABE", "subTitle":"SE ESCRIBE", "subSubTitle":"SE PRONUNCIA", "data": information.southColor, download: arabeColorDownload },
-        { "id": "spanish", "name": "ESPAÑOL", "data": information.spanishColor, download: arabeColorDownload },
+        { "id": "spanish", "name": "ESPAÑOL", "data": information.spanishColor, download: spanishColorDownload },
         { "id": "tanzania", "name": "SWAHILI", "data": information.tanzaniaColor, download: swahiliColorDownload },
       ]
     },
