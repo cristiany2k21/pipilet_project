@@ -16,7 +16,6 @@ export default ({
   ],
   "game": {
     "subTitle": "SOPA DE LETRAS",
-    "language": "Swahili",
     "words": [
       "Njano",
       "Eusi",

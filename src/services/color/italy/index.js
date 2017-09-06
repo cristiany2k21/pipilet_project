@@ -16,7 +16,6 @@ export default ({
   ],
   "game": {
     "subTitle": "ZUPPA DI PAROLE",
-    "language": "Italiano",
     "words": [
       "Giallo",
       "Nero",

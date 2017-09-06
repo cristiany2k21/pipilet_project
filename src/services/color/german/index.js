@@ -5,18 +5,17 @@ export default ({
   "colors": [
     "ROT",
     "GELB",
-    "WEISS",
+    "WEIiß",
     "BLAU",
-    "ORANGEFARBEN",
+    "ORANGE",
     "GRÜN",
     "SCHWARZ",
     "BRAUN",
-    "LILA",
+    "FUSCHIA",
     "ROSA",
   ],
   "game": {
     "subTitle": "WORTSUCHE",
-    "language": "Deutsch",
     "words": [
       "Gelb",
       "Schwar",
@@ -25,7 +24,7 @@ export default ({
       "Braun",
       "Rot",
       "Orange",
-      "Weiss",
+      "Weliß",
     ],
     "grid": [
       ["s", "a", "t", "e", "f", "t", "m"],
@@ -36,7 +35,8 @@ export default ({
       ["r", "o", "s", "a", "n", "n", "a"],
       ["z", "l", "p", "a", "t", "g", "s"],
       ["m", "a", "r", "i", "a", "e", "g"],
-      ["l", "a", "s", "s", "i", "e", "w"],
+      ["l", "a", "ß", "i", "l", "e", "w"],
+
     ]
   },
   "drawing": [

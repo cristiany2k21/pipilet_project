@@ -16,7 +16,6 @@ export default ({
   ],
   "game": {
     "subTitle": "MOTS MELANGÉS",
-    "language": "Français",
     "words": [
       "Jaune",
       "Noir",

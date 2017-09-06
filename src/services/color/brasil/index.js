@@ -16,7 +16,6 @@ export default ({
   ],
   "game": {
     "subTitle": "SOPA DE LETRAS",
-    "language": "Portugês",
     "words": [
       "Amarelo ",
       "Preto ",

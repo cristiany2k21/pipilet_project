@@ -7,11 +7,13 @@ import './style/index.sass';
 const Game = ({
   originalGame,
   translatedGame,
-  sameLanguage
+  sameLanguage,
+  secondLanguage,
+  firstLanguage
 }) => {
   return (
     <div id="wrapper-game">
-      <MotCroise original={originalGame} translated={translatedGame} sameLanguage={sameLanguage}/>
+      <MotCroise firstLanguage={firstLanguage} secondLanguage={secondLanguage} original={originalGame} translated={translatedGame} sameLanguage={sameLanguage}/>
     </div>
   )
 };

@@ -40,7 +40,10 @@ const TranslatedColor = ({
       <Game
         originalGame={colorPage.originalLanguage.data.game}
         translatedGame={translatedColor.game}
-        sameLanguage={sameLanguage} /> }
+        sameLanguage={sameLanguage}
+        secondLanguage={colorTranslated.name}
+        firstLanguage={colorPage.originalLanguage.name} />
+      }
       <Drawing draw={translatedColor.drawing} />
     </div>
   )

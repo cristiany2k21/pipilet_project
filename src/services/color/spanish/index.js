@@ -8,15 +8,14 @@ export default ({
     "BLANCO",
     "AZUL",
     "NARANJA",
-    "VERT",
+    "VERDE",
     "NEGGRO",
     "MARRÓN",
-    "VIOLETTE",
+    "VIOLETA",
     "ROSA",
   ],
   "game": {
     "subTitle": "SOPA DE LETRAS",
-    "language": "Español",
     "words": [
       "Amarillo",
       "Negro",
@@ -25,7 +24,7 @@ export default ({
       "Marrón",
       "Rojo",
       "Naranja",
-      "Blanc",
+      "Blanco",
     ],
     "grid": [
       ["n", "a", "r", "a", "n", "j", "a"],

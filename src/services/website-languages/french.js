@@ -211,7 +211,7 @@ export default (
       "headerFirstColumn": "LES COULEURS EN",
       "originalLanguage": {
         "id": "french",
-        "name": "FRANÇAISE",
+        "name": "FRANÇAIS",
         "data": information.frenchColor
       },
       "translated": [

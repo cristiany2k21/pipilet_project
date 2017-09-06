@@ -16,7 +16,6 @@ export default ({
   ],
   "game": {
     "subTitle": "MIX",
-    "language": "English",
     "words": [
       "Yellow",
       "Black",

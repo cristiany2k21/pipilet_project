@@ -22,7 +22,7 @@ export default (
       [
         { letter: "2", value: "Two" },
         { letter: "12", value: "Twelve" },
-        { letter: "22", value: "Twenty twp" },
+        { letter: "22", value: "Twenty two" },
         { letter: "32", value: "Thirty two" },
       ],
       [
