@@ -95,11 +95,25 @@ import children from '../../scenes/color-number-page/images/fr/children.png';
 import allColorFr from '../../images/all-colors-fr.png';
 import allNumberEsp from '../../scenes/color-number-page/images/fr/children.png';
 
+const navbar = [
+  "Accueil",
+  "Présentation",
+  "Mandala Mandala",
+  "Contact"
+];
+
+const sidebar = [
+  "LES CHANSONS",
+  "LES COULEURS ET LES CHIFFRES",
+  "LES PÂTISSERERIES",
+  "SAIS-TU QUI JE SUIS ?"
+];
+
 export default (
   {
     "lan": "fr",
-    "navbar": information.getNavbar("Accueil", "Présentation", "Contact"),
-    "sidebar": information.getSidebar("LES CHANSONS", "LES COULEURS ET LES CHIFFRES", "LES PÂTISSERERIES", "SAIS-TU QUI JE SUIS ?"),
+    "navbar": information.getNavbar(navbar, sidebar),
+    "sidebar": information.getSidebar(navbar),
     "songPageContent": {
       "title": "LES CHANSONS",
       "language": {

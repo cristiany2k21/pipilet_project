@@ -35,32 +35,40 @@ import chinaColor from '../color/china';
 import brasilColor from '../color/brasil';
 
 export default ({
-  getNavbar: (home, presentation, contact) => [
-    { "title": home, "url": HOME },
-    { "title": presentation, "url": PRESENTATION },
-    { "title": contact, "url": CONTACT }
-  ],
-  getSidebar: (songs, colorsNumbers, recipe, presentation) => [
+  getNavbar: (navbar, sidebar) => [
+    { "title": navbar[0], "subNavbar": [], "url": HOME },
+    { "title": navbar[1], "subNavbar": [], "url": PRESENTATION },
     {
-      "title": songs,
+      "title": navbar[2], "subNavbar": [
+      { "title": sidebar[0], "url": SONG },
+      { "title": sidebar[1], "url": COLORNUMBER },
+      { "title": sidebar[2], "url": COOKER },
+      { "title": sidebar[3], "url": PRESENTATIONSIDEBAR },
+    ],
+    },
+    { "title": navbar[3], "subNavbar": [], "url": CONTACT }
+  ],
+  getSidebar: (sidebar) => [
+    {
+      "title": sidebar[0],
       "image": pipiletSong,
       "alt": "pipilet-song",
       "url": SONG
     },
     {
-      "title": colorsNumbers,
+      "title": sidebar[1],
       "image": pipiletNumberColor,
       "alt": "pipilet-color-number",
       "url": COLORNUMBER
     },
     {
-      "title": recipe,
+      "title": sidebar[2],
       "image": pipiletCooker,
       "alt": "pipilet-cooker",
       "url": COOKER
     },
     {
-      "title": presentation,
+      "title": sidebar[3],
       "image": pipiletDescription,
       "alt": "pipilet-presentation",
       "url": PRESENTATIONSIDEBAR

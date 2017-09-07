@@ -1,4 +1,4 @@
-import React from'react';
+import React from 'react';
 
 import information from './information';
 
@@ -96,11 +96,25 @@ import children from '../../scenes/color-number-page/images/esp/children.png';
 import allColorEsp from '../../images/all-colors-esp.png';
 import allNumberEsp from '../../scenes/color-number-page/images/esp/children.png';
 
+const navbar = [
+  "Acogida",
+  "Presentación",
+  "Pipilet Mandala",
+  "Contacto"
+];
+
+const sidebar = [
+  "LAS CANCIONES",
+  "LOS COLORES Y LOS NÚMEROS",
+  "LA REPOSTERÍA",
+  "¿ SABES QUIÊN SOY ?"
+];
+
 export default (
   {
     "lan": "esp",
-    "navbar": information.getNavbar("Acogida", "Presentación", "Contacto"),
-    "sidebar": information.getSidebar("LAS CANCIONES", "LOS COLORES Y LOS NÚMEROS", "LA REPOSTERÍA", "¿ SABES QUIÊN SOY ?"),
+    "navbar": information.getNavbar(navbar, sidebar),
+    "sidebar": information.getSidebar(sidebar),
     "songPageContent": {
       "title": "LAS CANCIONES",
       "language": {
@@ -217,15 +231,50 @@ export default (
       },
       "translated": [
         { "id": "brasil", "name": "PORTUGÉS", "data": information.brasilColor, download: brasilColorDownload },
-        { "id": "china", "name": "CHINO", "subTitle":"SE ESCRIBE", "subSubTitle":"SE PRONUNCIA", "data": information.chinaColor, download: chinaColorDownload },
+        {
+          "id": "china",
+          "name": "CHINO",
+          "subTitle": "SE ESCRIBE",
+          "subSubTitle": "SE PRONUNCIA",
+          "data": information.chinaColor,
+          download: chinaColorDownload
+        },
         { "id": "english", "name": "INGLÉS", "data": information.englishColor, download: englishColorDownload },
         { "id": "french", "name": "FRANCÉS", "data": information.frenchColor, download: frenchColorDownload },
         { "id": "german", "name": "ALEMAN", "data": information.germanColor, download: germanColorDownload },
-        { "id": "india", "name": "HINDI", "subTitle":"SE ESCRIBE", "subSubTitle":"SE PRONUNCIA", "data": information.indiaColor, download: indiaColorDownload },
+        {
+          "id": "india",
+          "name": "HINDI",
+          "subTitle": "SE ESCRIBE",
+          "subSubTitle": "SE PRONUNCIA",
+          "data": information.indiaColor,
+          download: indiaColorDownload
+        },
         { "id": "italy", "name": "ITALIANO", "data": information.italyColor, download: italyColorDownload },
-        { "id": "russia", "name": "RUSO", "subTitle":"SE ESCRIBE", "subSubTitle":"SE PRONUNCIA", "data": information.russiaColor, download: russiaColorDownload },
-        { "id": "serbia", "name": "SERBIO", "subTitle":"SE ESCRIBE", "subSubTitle":"SE PRONUNCIA", "data": information.serbiaColor, download: serbiaColorDownload },
-        { "id": "arab", "name": "ARABE", "subTitle":"SE ESCRIBE", "subSubTitle":"SE PRONUNCIA", "data": information.southColor, download: arabeColorDownload },
+        {
+          "id": "russia",
+          "name": "RUSO",
+          "subTitle": "SE ESCRIBE",
+          "subSubTitle": "SE PRONUNCIA",
+          "data": information.russiaColor,
+          download: russiaColorDownload
+        },
+        {
+          "id": "serbia",
+          "name": "SERBIO",
+          "subTitle": "SE ESCRIBE",
+          "subSubTitle": "SE PRONUNCIA",
+          "data": information.serbiaColor,
+          download: serbiaColorDownload
+        },
+        {
+          "id": "arab",
+          "name": "ARABE",
+          "subTitle": "SE ESCRIBE",
+          "subSubTitle": "SE PRONUNCIA",
+          "data": information.southColor,
+          download: arabeColorDownload
+        },
         { "id": "spanish", "name": "ESPAÑOL", "data": information.spanishColor, download: spanishColorDownload },
         { "id": "tanzania", "name": "SWAHILI", "data": information.tanzaniaColor, download: swahiliColorDownload },
       ]

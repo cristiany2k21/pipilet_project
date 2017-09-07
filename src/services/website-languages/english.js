@@ -92,12 +92,26 @@ import children from '../../scenes/color-number-page/images/eng/children.png';
 import allColorEng from '../../images/all-colors-eng.png';
 import allNumberEsp from '../../scenes/color-number-page/images/eng/children.png';
 
+const navbar = [
+  "Home",
+  "Presentation",
+  "Mandala Mandala",
+  "Contact"
+];
+
+const sidebar = [
+  "SONGS",
+  "COLORS AND NUMBERS",
+  "PASTRIES",
+  "DO YOU KNOW WHO I AM ?"
+];
+
 
 export default (
   {
     "lan": "eng",
-    "navbar": information.getNavbar("Home", "Presentation", "Contact"),
-    "sidebar": information.getSidebar("SONGS", "COLORS AND NUMBERS", "PASTRIES", "DO YOU KNOW WHO I AM ?"),
+    "navbar": information.getNavbar(navbar, sidebar),
+    "sidebar": information.getSidebar(navbar, sidebar),
     "songPageContent": {
       "title": "SONGS",
       "language": {

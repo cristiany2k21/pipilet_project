@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router';
+import Link from 'react-router/lib/Link';
 import './styles/index.sass';
 
 const Sidebar = ({
@@ -9,7 +9,7 @@ const Sidebar = ({
     <div id="wrapper-sidebar">
       <div style={{"position": "relative"}}>
         <div className="or-spacer-vertical right">
-          <div className="mask"></div>
+          <div className="mask"/>
         </div>
         <div>
           {
