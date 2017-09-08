@@ -2,14 +2,12 @@
   padding: 30px
   background: #fc5600
   position: relative
-
   .language
     display: inline-block
     position: absolute
     top: 50%
     left: 0
     transform: translateY(-50%)
-
     ul li
       display: inline-block
       margin-right: 10px
@@ -17,7 +15,6 @@
       cursor: pointer
       text-align: center
       transition: .5s
-
       &:hover
         transform: scale(1.5)
 
@@ -26,18 +23,14 @@
     text-align: center
     width: 100%
     margin: 0
-
     ul
       padding: 0
       margin: 0
-
     li
       display: inline-block
       position: relative
-
     li + li
       margin-left: 60px
-
     ul li a
       transition: .4s
       text-decoration: none
@@ -45,27 +38,55 @@
       font-size: 1.8em
       padding: 20px 0
       font-family: 'Work Sans', sans-serif
-
       &:hover
         border-top: 3px solid white
         border-bottom: 3px solid white
         padding: 6px 0
+    ul li:hover > ul.wrapper-dropdown-menu
+      perspective: 1000px
+      .wrapper-dropdown
+        display: block
+      li
+        @for $i from 1 to 5
+          div:nth-child(#{$i})
+            animation:
+              name: display-dropdown
+              duration: (300ms * ($i + 1)) - 300ms
+              fill-mode: forwards
 
-    .wrapper-subnavbar
-      display: flex
-      width: 150%
-      flex-direction: column
-      text-align: left
+  .wrapper-dropdown-menu
+    color: white
+    font-family: 'Work Sans', sans-serif
+    font-size: 29px
+    position: relative
+    .wrapper-dropdown
+      padding-top: 60px
+      width: 120%
       position: absolute
-      left: -15
-      top: 63
-      color: black
-      white-space: nowrap
-      background-color: #fff
-      .subNavbar
-        display: flex
-        flex-wrap: nowrap
-        border: 1px solid #fc5600
-        li
-          font-size: 18px
-          padding: 15px
+      top: 0
+      left: -10
+      text-align: left
+      font-size: 7px
+      display: none
+      .dropdown
+        opacity: 0
+        padding: 15px 10px
+        background: #fc5600
+        a
+          color: white
+
+@keyframes display-dropdown
+  0%
+    opacity: 0
+    -webkit-transform: rotateY(-90deg) translateY(30px)
+    -moz-transform: rotateY(-90deg) translateY(30px)
+    -ms-transform: rotateY(-90deg) translateY(30px)
+    -o-transform: rotateY(-90deg) translateY(30px)
+    transform: rotateY(-90deg) translateY(30px)
+  100%
+    opacity: 1
+    -webkit-transform: rotateY(0deg) translateY(0px)
+    -moz-transform: rotateY(0deg) translateY(0px)
+    -ms-transform: rotateY(0deg) translateY(0px)
+    -o-transform: rotateY(0deg) translateY(0px)
+    transform: rotateY(0deg) translateY(0px)

@@ -1,5 +1,6 @@
 import React from 'react';
-import { IndexRoute, Route } from 'react-router'
+import Route from 'react-router/lib/Route'
+import IndexRoute from 'react-router/lib/IndexRoute'
 import AppContainer from '../scenes/app-container';
 import HomeContainer from '../scenes/home-page';
 import SongPage from '../scenes/song-page';
@@ -13,21 +14,23 @@ import CookerPage from '../scenes/cook-page';
 import ChooseCountryCook from '../scenes/choose-country-cook';
 import DisplayRecipe from '../scenes/display-recipe';
 import PresentationPage from '../scenes/presentation-page';
+import WhoAreWe from '../services/who-are-we/french';
 
 export default (
   <Route path="/" component={AppContainer}>
-    <IndexRoute component={HomeContainer}/>
-    <Route path="/home" component={HomeContainer}/>
-    <Route path="/song" component={SongPage}/>
-    <Route path="/song/:language" component={LyricsPage}/>
-    <Route path="/colorNumber" component={ColorNumberPage}/>
-    <Route path="/number" component={NumberPage}/>
-    <Route path="/number/:language" component={TranslatedNumberPage}/>
-    <Route path="/color" component={ColorPage}/>
-    <Route path="/color/:language" component={TranslatedColor}/>
-    <Route path="/cooker" component={CookerPage}/>
-    <Route path="/cooker/:continent" component={ChooseCountryCook}/>
-    <Route path="/cooker/:continent/:id" component={DisplayRecipe}/>
-    <Route path="/presentation" component={PresentationPage}/>
+    <IndexRoute component={HomeContainer} />
+    <Route path="/home" component={HomeContainer} />
+    <Route path="/song" component={SongPage} />
+    <Route path="/song/:language" component={LyricsPage} />
+    <Route path="/colorNumber" component={ColorNumberPage} />
+    <Route path="/number" component={NumberPage} />
+    <Route path="/number/:language" component={TranslatedNumberPage} />
+    <Route path="/color" component={ColorPage} />
+    <Route path="/color/:language" component={TranslatedColor} />
+    <Route path="/cooker" component={CookerPage} />
+    <Route path="/cooker/:continent" component={ChooseCountryCook} />
+    <Route path="/cooker/:continent/:id" component={DisplayRecipe} />
+    <Route path="/presentation" component={PresentationPage} />
+    <Route path="/whoarewe" component={WhoAreWe} />
   </Route>
 )

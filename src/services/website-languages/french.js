@@ -91,9 +91,10 @@ import owls_3 from '../../scenes/color-number-page/images/fr/owls-3.png';
 
 import children from '../../scenes/color-number-page/images/fr/children.png';
 
-
 import allColorFr from '../../images/all-colors-fr.png';
 import allNumberEsp from '../../scenes/color-number-page/images/fr/children.png';
+
+import WhoAreWe from '../who-are-we/french';
 
 const navbar = [
   "Accueil",
@@ -315,6 +316,7 @@ export default (
     "presentationPageContent": {
       "image-pipilet": imagePipilet,
       "text": presentation
-    }
+    },
+    "whoarewe": WhoAreWe
   }
 )

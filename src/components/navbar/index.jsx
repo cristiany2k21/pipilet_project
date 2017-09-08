@@ -1,8 +1,9 @@
 import React from 'react';
 import connect from 'react-redux/lib/connect/connect'
-import Link from 'react-router/lib/Link';
 import { changeWebsiteLanguage } from '../../action/website-language';
 import './styles/index.sass';
+import SimpleItem from './components/simple-item';
+import DropdownMenu from './components/dropdown';
 import french from '../../images/french_nav.png';
 import english from '../../images/english_nav.png';
 import spanish from '../../images/spanish_nav.png';
@@ -35,9 +36,8 @@ const Navbar = ({
             itemsNavbar.map((item, key) => {
                 return (
                   <li key={key}>
-                    <Link to={`/${item.url}`}>
-                      {item.title}
-                    </Link>
+                    { item.url && <SimpleItem item={item} />}
+                    { !item.url && <DropdownMenu item={item} />}
                   </li>
                 )
               }
