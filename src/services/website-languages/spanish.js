@@ -96,7 +96,7 @@ import children from '../../scenes/color-number-page/images/esp/children.png';
 import allColorEsp from '../../images/all-colors-esp.png';
 import allNumberEsp from '../../scenes/color-number-page/images/esp/children.png';
 
-import WhoAreWe from '../who-are-we/spanish';
+import { whoarewe } from '../who-are-we/spanish';
 
 const navbar = [
   "Acogida",
@@ -358,6 +358,8 @@ export default (
       "image-pipilet": imagePipilet,
       "text": presentation
     },
-    "whoarewe": WhoAreWe
+    "WhoarewePageContent": {
+      "whoarewe": whoarewe
+    }
   }
 )

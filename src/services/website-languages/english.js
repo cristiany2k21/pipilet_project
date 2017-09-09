@@ -92,6 +92,8 @@ import children from '../../scenes/color-number-page/images/eng/children.png';
 import allColorEng from '../../images/all-colors-eng.png';
 import allNumberEsp from '../../scenes/color-number-page/images/eng/children.png';
 
+import { whoarewe } from '../who-are-we/spanish';
+
 const navbar = [
   "Home",
   "Presentation",
@@ -348,6 +350,9 @@ export default (
     "presentationPageContent": {
       "image-pipilet": imagePipilet,
       "text": presentation
+    },
+    "WhoarewePageContent": {
+      "whoarewe": whoarewe
     }
   }
 )

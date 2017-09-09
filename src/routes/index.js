@@ -14,7 +14,7 @@ import CookerPage from '../scenes/cook-page';
 import ChooseCountryCook from '../scenes/choose-country-cook';
 import DisplayRecipe from '../scenes/display-recipe';
 import PresentationPage from '../scenes/presentation-page';
-import WhoAreWe from '../services/who-are-we/french';
+import WhoAreWe from '../scenes/who-are-we';
 
 export default (
   <Route path="/" component={AppContainer}>

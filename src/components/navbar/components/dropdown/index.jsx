@@ -8,13 +8,13 @@ const DropdownMenu = ({
     <ul className="wrapper-dropdown-menu">
       {item.title}
       <li className="wrapper-dropdown">
-      {item.subNavbar.map((item, index) => (
-        <div className="dropdown">
-          <Link to={`/${item.url}`}>
-            {item.title}
-          </Link>
-        </div>
-      ))}
+        {item.subNavbar.map((item, index) => (
+          <div key={index} className="dropdown">
+            <Link to={`/${item.url}`}>
+              {item.title}
+            </Link>
+          </div>
+        ))}
       </li>
     </ul>
   );
