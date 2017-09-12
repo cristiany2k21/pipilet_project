@@ -2,6 +2,8 @@ import React from 'react';
 import Link from 'react-router/lib/Link';
 import EarthSnow from '../../images/earth-snow.jpg';
 
+import './style/choose-flag.sass';
+
 const ChooseFlag = ({
   flag
 }) => {
