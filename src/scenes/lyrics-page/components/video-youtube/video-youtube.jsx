@@ -2,6 +2,8 @@ import React from 'react';
 import YoutubeVideo from 'react-youtube';
 import pipiletSong from "../../../../images/pipilet-song.jpg";
 
+import './style/video-youtube.sass';
+
 const VideoYoutube = ({
   music,
   sameLyrics

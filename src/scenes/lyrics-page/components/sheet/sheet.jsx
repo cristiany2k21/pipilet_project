@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './style/sheet.sass';
+
 const sheetMusic = ({
   sheet
 }) => {

@@ -1,6 +1,7 @@
 import React from 'react';
 import iconDownload from '../../../../images/icon-download.jpg';
-import a from '../../../../services/download/songs/eng/winter_is_here.pdf';
+
+import './style/header.sass';
 
 const HeaderLyrics = ({
   title,
