@@ -2,10 +2,10 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 import Language from '../../services/number';
-import HeaderNumber from './components/header';
-import TableNumber from './components/table';
+import HeaderNumber from './components/header/header';
+import TableNumber from './components/table/table';
 
-import './styles/index.sass';
+import './styles/translated-number-page.sass';
 
 const TranslatedNumber = ({
   numbers

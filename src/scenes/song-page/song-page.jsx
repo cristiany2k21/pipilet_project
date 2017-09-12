@@ -5,10 +5,10 @@ import logo from '../../images/pipilet-song.jpg';
 
 import HeaderPage from '../../components/header-page';
 import Footer from '../../components/footer';
-import DisplayLanguageSong from './components/display-language';
-import ChooseFlag from './components/choose-flag';
+import DisplayLanguageSong from './components/display-language/display-language';
+import ChooseFlag from './components/choose-flag/choose-flag';
 
-import './styles/index.sass';
+import './styles/song-page.sass';
 
 const SongPage = ({
   title,

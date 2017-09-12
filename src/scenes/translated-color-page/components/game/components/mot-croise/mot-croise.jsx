@@ -1,7 +1,7 @@
 import React from 'react';
 
-import ListWords from './components/list-word';
-import GridWord from './components/grid-word';
+import ListWords from './components/list-word/list-word';
+import GridWord from './components/grid-word/grid-word';
 const MotCroise = ({
   original,
   translated,

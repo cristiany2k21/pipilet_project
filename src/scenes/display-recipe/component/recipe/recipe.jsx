@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Ingredient from './component/ingredient';
-import Preparation from './component/preparation';
+import Ingredient from './component/ingredient/ingredient';
+import Preparation from './component/preparation/preparation';
 
 const Recipe = ({
   recipe

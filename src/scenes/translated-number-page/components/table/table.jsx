@@ -1,10 +1,10 @@
 import React from 'react';
-import FirstTable from './component/first-table';
-import SecondTable from './component/second-table';
-import ThirdTable from './component/third-table';
-import FourTable from './component/four-table';
-import HandWriteLogo from './component/hand-write-logo';
-import BigDraw from './component/big-draw';
+import FirstTable from './component/first-table/first-table';
+import SecondTable from './component/second-table/second-table';
+import ThirdTable from './component/third-table/third-table';
+import FourTable from './component/four-table/four-table';
+import HandWriteLogo from './component/hand-write-logo/hand-write-logo';
+import BigDraw from './component/big-draw/big-draw';
 
 const TableNumber = ({
   language,

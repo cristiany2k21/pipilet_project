@@ -4,7 +4,7 @@ import logoColor from '../../images/pipilet-number-color.jpg';
 import Section from '../../components/section';
 import Footer from '../../components/footer';
 
-import './style/index.sass';
+import './style/color-page.sass';
 
 const ColorPage = ({
   titleColor,

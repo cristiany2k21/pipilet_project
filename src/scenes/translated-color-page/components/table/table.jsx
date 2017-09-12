@@ -1,5 +1,5 @@
 import React from 'react';
-import ColumnTable from './component/table';
+import ColumnTable from './component/table/table';
 
 import black from '../../../../images/colors/black.png';
 import blue from '../../../../images/colors/blue.png';

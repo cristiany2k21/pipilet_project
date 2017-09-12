@@ -3,13 +3,13 @@ import { connect } from 'react-redux';
 import HeaderPage from '../../components/header-page';
 import cooker from '../../images/pipilet-cooker.jpg';
 
-import Description from './components/description';
-import Map from './components/map';
+import Description from './components/description/description';
+import Map from './components/map/map';
 import Footer from '../../components/footer';
 
 import map from './images/map.png';
 
-import './style/index.sass';
+import './style/cook-page.sass';
 
 const CookPage = ({
   cookerPageContent

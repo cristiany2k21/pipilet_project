@@ -1,12 +1,12 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import HeaderLyrics from './components/header';
-import LyricsSong from './components/lyrics';
-import VideoYoutube from './components/video-youtube';
+import HeaderLyrics from './components/header/header';
+import LyricsSong from './components/lyrics/lyrics';
+import VideoYoutube from './components/video-youtube/video-youtube';
 import InformationSong from './components/information-song/information-song';
-import Sheet from './components/sheet';
+import Sheet from './components/sheet/sheet';
 
-import './styles/index.sass';
+import './styles/lyrics-page.sass';
 
 const LyricsPage = ({ songPageContent, params }) => {
 

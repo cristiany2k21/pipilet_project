@@ -1,10 +1,10 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import HeaderRecipe from './component/header-recipe';
-import Recipe from './component/recipe';
+import HeaderRecipe from './component/header-recipe/header-recipe';
+import Recipe from './component/recipe/recipe';
 
-import './style/index.sass';
+import './style/display-recipe.sass';
 
 const DisplayRecipe = ({
   recipeCountry

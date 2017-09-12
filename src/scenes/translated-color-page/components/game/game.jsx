@@ -1,8 +1,8 @@
 import React from 'react';
 
-import MotCroise from './components/mot-croise';
+import MotCroise from './components/mot-croise/mot-croise';
 
-import './style/index.sass';
+import './style/game.sass';
 
 const Game = ({
   originalGame,

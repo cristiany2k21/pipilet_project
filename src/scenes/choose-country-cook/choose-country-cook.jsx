@@ -1,9 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import DisplayCountry from './component/display-country';
+import DisplayCountry from './component/display-country/display-country';
 
-import './style/index.sass';
+import './style/choose-country-cook.sass';
 
 const ChooseCountryCook = ({
   continent

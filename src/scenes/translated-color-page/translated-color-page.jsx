@@ -2,12 +2,12 @@ import React from 'react';
 import { connect } from 'react-redux';
 import Language from '../../services/color';
 
-import HeaderColor from './components/header';
-import TableColor from './components/table';
-import Game from './components/game';
-import Drawing from './components/drawing';
+import HeaderColor from './components/header/header';
+import TableColor from './components/table/table';
+import Game from './components/game/game';
+import Drawing from './components/drawing/drawing';
 
-import './style/index.sass';
+import './style/translated-color-page.sass';
 
 const TranslatedColor = ({
   colorPage,

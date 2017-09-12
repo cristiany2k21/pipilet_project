@@ -2,12 +2,12 @@ import React from 'react';
 
 import Footer from '../../components/footer';
 
-import HeaderTitle from './components/header-title';
-import DisplayImage from './components/display-image';
+import HeaderTitle from './components/header-title/header-title';
+import DisplayImage from './components/display-image/display-image';
 
 import family from './images/family.jpg';
 
-import './styles/index.sass';
+import './styles/home-page.sass';
 
 const HomeContainer = () => {
 
