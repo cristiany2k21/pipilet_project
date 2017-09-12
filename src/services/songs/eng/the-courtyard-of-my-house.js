@@ -33,6 +33,12 @@ export default (
         "Stretch, stretch",
         "For the devil must pass by."
       ],
-    ]
+    ],
+	  information: {
+		  title: 'Game Instructions:',
+		  description: [
+			"The children form a circle holding hands and walk around singing the first part of the song. When they reach \"agáchate y vuélvete agachar\" they should squat twice. When they reach \"chocolate\" they stop walking around and go forwards raising their arms. Then on \"estirar...\" they go backwards stretching their arms to form a large circle without letting go of each others' hands."
+		  ]
+	  }
   }
 )

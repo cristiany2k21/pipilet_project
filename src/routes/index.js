@@ -4,12 +4,12 @@ import IndexRoute from 'react-router/lib/IndexRoute'
 import AppContainer from '../scenes/app-container/app-container';
 import HomeContainer from '../scenes/home-page/home-page';
 import SongPage from '../scenes/song-page/song-page';
-import LyricsPage from '../scenes/lyrics-page/';
+import LyricsPage from '../scenes/lyrics-page/lyrics-page';
 import ColorNumberPage from '../scenes/color-number-page/color-number-page';
-import TranslatedNumberPage from '../scenes/translated-number-page/';
+import TranslatedNumberPage from '../scenes/translated-number-page/translated-number-page';
 import NumberPage from '../scenes/number-page/number-page';
 import ColorPage from '../scenes/color-page/color-page';
-import TranslatedColor from '../scenes/translated-color-page/';
+import TranslatedColor from '../scenes/translated-color-page/translated-color-page';
 import CookerPage from '../scenes/cook-page/cook-page';
 import ChooseCountryCook from '../scenes/choose-country-cook/choose-country-cook';
 import DisplayRecipe from '../scenes/display-recipe/display-recipe';

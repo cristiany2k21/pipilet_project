@@ -20,6 +20,23 @@ export default   (
         "La bebida fermentada está dulce,",
         "Abuelita es muy buena."
       ],
-    ]
+    ],
+	  information: {
+		  title: 'Transliteración:',
+		  description: [
+			  "Ladushki, ladushki",
+			  "Gde byli?",
+			  "-U babushki.",
+			  "Chto eli?",
+			  "- Kashku.",
+			  "Chto pili?",
+			  "-Brazhku.",
+			  "Kashka maslen'ka",
+			  "Brazhka sladen'ka",
+			  "Babushka dobren'ka!",
+			  "Sh como en inglés",
+			  "Zh = como una \"j\" francesa",
+		  ]
+	  }
   }
 )

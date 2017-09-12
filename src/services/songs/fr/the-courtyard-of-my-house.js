@@ -33,6 +33,17 @@ export default (
         "Tirez, tirez",
         "Car le diable doit passer."
       ],
-    ]
+    ],
+	  information: {
+		  title: 'Règles du jeu',
+		  description: [
+			  "Les enfants forment une ronde en se donnant la main et tournent sur la première partie de la\n" +
+			  "chanson. Quand ils arrivent au morceau \"agáchate y vuélvete agachar\" ils doivent s'accroupir deux\n" +
+			  "fois. Ils s'arrêtent de tourner en arrivant à \"chocolate\" et ils avancent vers le centre en levant les\n" +
+			  "bras. Au contraire, sur la partie finale \"estirar...\" ils s'éloignent du centre en étirant les bras le plus\n" +
+			  "possible pour former un grand cercle sans se lâcher les mains."
+		  ]
+	  }
+
   }
 )

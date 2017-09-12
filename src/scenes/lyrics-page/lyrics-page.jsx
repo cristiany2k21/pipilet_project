@@ -6,8 +6,6 @@ import VideoYoutube from './components/video-youtube/video-youtube';
 import InformationSong from './components/information-song/information-song';
 import Sheet from './components/sheet/sheet';
 
-import './styles/lyrics-page.sass';
-
 const LyricsPage = ({ songPageContent, params }) => {
 
   const language = params.language;
@@ -27,7 +25,7 @@ const LyricsPage = ({ songPageContent, params }) => {
                     download={musicTranslated.download} />
       <LyricsSong musicTranslated={musicTranslated} musicOriginal={musicOriginal} sameLyrics={sameLryics}/>
       <VideoYoutube music={musicOriginal} sameLyrics={sameLryics}/>
-	    <InformationSong />
+	    {musicTranslated.information && <InformationSong information={musicTranslated.information} />}
       {musicOriginal.sheet && <Sheet sheet={musicOriginal.sheet}/>}
     </div>
   )
