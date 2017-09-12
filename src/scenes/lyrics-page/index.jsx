@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import HeaderLyrics from './components/header';
 import LyricsSong from './components/lyrics';
 import VideoYoutube from './components/video-youtube';
+import InformationSong from './components/information-song/information-song';
 import Sheet from './components/sheet';
 
 import './styles/index.sass';
@@ -26,6 +27,7 @@ const LyricsPage = ({ songPageContent, params }) => {
                     download={musicTranslated.download} />
       <LyricsSong musicTranslated={musicTranslated} musicOriginal={musicOriginal} sameLyrics={sameLryics}/>
       <VideoYoutube music={musicOriginal} sameLyrics={sameLryics}/>
+	    <InformationSong />
       {musicOriginal.sheet && <Sheet sheet={musicOriginal.sheet}/>}
     </div>
   )
