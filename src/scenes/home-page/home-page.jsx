@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Footer from '../../components/footer';
+import Footer from '../../components/footer/footer';
 
 import HeaderTitle from './components/header-title/header-title';
 import DisplayImage from './components/display-image/display-image';

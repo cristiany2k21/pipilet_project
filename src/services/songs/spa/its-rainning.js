@@ -16,8 +16,8 @@ export default (
 				"En el bosque, el árbol crece, alto y delgado."
 			],
 			[
-				"Debajo el árbol está sentada mi hermana, estoy asu lado",
-				"Debajo el árbol está sentada mi hermana, estoy asu lado."
+				"Debajo el árbol está sentada mi hermana, estoy a su lado",
+				"Debajo el árbol está sentada mi hermana, estoy a su lado."
 			],
 		],
 		information: {

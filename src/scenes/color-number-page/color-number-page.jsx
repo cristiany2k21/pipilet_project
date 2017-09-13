@@ -2,7 +2,7 @@ import React from 'react';
 import connect from 'react-redux/lib/connect/connect';
 import Link from 'react-router/lib/Link';
 import logoNumbercolor from '../../images/pipilet-number-color.jpg';
-import Footer from '../../components/footer';
+import Footer from '../../components/footer/footer';
 import Header from '../../components/header-page';
 import './styles/color-number-page.sass';
 

@@ -5,7 +5,7 @@ import cooker from '../../images/pipilet-cooker.jpg';
 
 import Description from './components/description/description';
 import Map from './components/map/map';
-import Footer from '../../components/footer';
+import Footer from '../../components/footer/footer';
 
 import map from './images/map.png';
 
