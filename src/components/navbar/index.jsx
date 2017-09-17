@@ -1,7 +1,7 @@
 import React from 'react';
 import connect from 'react-redux/lib/connect/connect'
 import { changeWebsiteLanguage } from '../../action/website-language';
-import './styles/index.sass';
+import './styles/navbar.sass';
 import SimpleItem from './components/simple-item';
 import DropdownMenu from './components/dropdown';
 import french from '../../images/french_nav.png';
