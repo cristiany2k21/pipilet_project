@@ -1,3 +1,4 @@
+import React from 'react';
 import information from './information';
 
 import male from '../../images/cook/pipilet_male.jpg';
@@ -113,7 +114,7 @@ export default (
   {
     "lan": "eng",
     "navbar": information.getNavbar(navbar, sidebar),
-    "sidebar": information.getSidebar(navbar, sidebar),
+    "sidebar": information.getSidebar(sidebar),
     "songPageContent": {
       "title": "SONGS",
       "language": {
@@ -280,7 +281,12 @@ export default (
     },
     "cookerPageContent": {
       "title": "RECIPES",
-      "description": "YOUR FRIEND MADE THE TOUR OF FIVE CONTINENTES AND BROUGHT BACK VARIOUS DELICIOUS RECIPES OF CONTRIES OF THE WORLD.",
+      "description":
+	      <div>
+		      <span className="red"><b>YOUR FRIEND</b></span> MADE THE TOUR <span
+		      className="dodgerblue"><b>OF FIVE CONTINENTES</b></span> AND BROUGHT BACK<span className="green"><b>VARIOUS DELICIOUS </b></span>.
+		      RECIPES OF <span className="yellow"><b>CONTRIES OF THE WORLD</b></span>
+	      </div>,
       "image": map,
     },
     "chooseCountryContent": {

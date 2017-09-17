@@ -1,3 +1,4 @@
+import React from 'react';
 import information from './information';
 
 import male from '../../images/cook/pipilet_male.jpg';
@@ -114,7 +115,7 @@ export default (
   {
     "lan": "fr",
     "navbar": information.getNavbar(navbar, sidebar),
-    "sidebar": information.getSidebar(navbar),
+    "sidebar": information.getSidebar(sidebar),
     "songPageContent": {
       "title": "LES CHANSONS",
       "language": {
@@ -246,7 +247,12 @@ export default (
     },
     "cookerPageContent": {
       "title": "LES RECETTES",
-      "description": "TON AMI A FAIL LE TOUR DES CINQ CONTINENTS ET NOTÉ DIFFÉRENTS RECETTES DÉLICIEUSES DE DIFFÉRENTS PAYS DU MONDE.",
+      "description":
+	      <div>
+		      <span className="red"><b>TON AMI</b></span> A FAIL LE TOUR  <span
+		      className="dodgerblue"><b>DES CINQ CONTINENTS</b></span> ET NOTÉ DIFFÉRENTS <span className="green"><b>RECETTES DÉLICIEUSES </b></span>.
+		      DE DIFFÉRENTS  <span className="yellow"><b>PAYS DU MONDE</b></span>
+	      </div>,
       "image": map,
     },
     "chooseCountryContent": {
