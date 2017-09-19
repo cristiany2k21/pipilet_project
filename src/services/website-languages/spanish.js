@@ -1,10 +1,9 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
-
 import information from './information';
 
 import male from '../../images/cook/pipilet_male.jpg';
 import female from '../../images/cook/pipilet_female.jpg';
-
 import imagePipilet from '../../images/pipilet-description.jpg';
 
 import winterIsHereTranslated from '../songs/spa/winter-is-here';
@@ -99,267 +98,343 @@ import allNumberEsp from '../../scenes/color-number-page/images/esp/children.png
 import { whoarewe } from '../who-are-we/spanish';
 
 const navbar = [
-  "Acogida",
-  "Presentación",
-  "Pipilet Mandala",
-  "Contacto"
+	'Acogida',
+	'Presentación',
+	'Pipilet Mandala',
+	'Contacto'
 ];
 
 const sidebar = [
-  "LAS CANCIONES",
-  "LOS COLORES Y LOS NÚMEROS",
-  "LA REPOSTERÍA",
-  "¿ SABES QUIÊN SOY ?"
+	'LAS CANCIONES',
+	'LOS COLORES Y LOS NÚMEROS',
+	'LA REPOSTERÍA',
+	'¿ SABES QUIÊN SOY ?'
 ];
 
 export default (
-  {
-    "lan": "esp",
-    "navbar": information.getNavbar(navbar, sidebar),
-    "sidebar": information.getSidebar(sidebar),
-    "songPageContent": {
-      "title": "LAS CANCIONES",
-      "language": {
-        "english": "INGLÉS",
-        "arab": "ARABE",
-        "italy": "ITALIANO",
-        "french": "FRANCÉS",
-        "german": "ALEMÁN",
-        "russia": "RUSO",
-        "china": "CHINO",
-        "spanish": "ESPAÑOL",
-        "india": "HINDI",
-        "africa": "AFRICANO",
-        "portugal": "PORTUGUÉS",
-        "serbia": "SERBIO",
-      },
-      "flag": information.getFlagsMusic(),
-      "music": [
-        { "name": "lebanon", "translated-song": ticTicTicTranslated, "original-song": ticTicTicOriginal },
-        { "name": "ghana", "translated-song": siMaMaKaTranslated, "original-song": siMaMaKaOriginal },
-        { "name": "china", "translated-song": dosTigresViejosTranslated, "original-song": dosTigresViejosOriginal },
-        { "name": "german", "translated-song": winterIsHereTranslated, "original-song": winterIsHereOriginal },
-        { "name": "india", "translated-song": theWashermanTranslated, "original-song": theWashermanOriginal },
-        { "name": "brasil", "translated-song": fallFallBallonTranslated, "original-song": fallFallBallonOriginal },
-        { "name": "italy", "translated-song": seHaCasadoRosaTranslated, "original-song": seHaCasadoRosaOriginal },
-        { "name": "french", "translated-song": mondayMorningTranslated, "original-song": mondayMorningOriginal },
-        {
-          "name": "english",
-          "translated-song": giramosalRededorDelMoralTranslated,
-          "original-song": giramosalRededorDelMoralOriginal
-        },
-        { "name": "serbia", "translated-song": itsRainningTranslated, "original-song": itsRainningOriginal },
-        { "name": "russia", "translated-song": patACakeTranslated, "original-song": patACakeOriginal },
-        {
-          "name": "spanish",
-          "translated-song": theCourtyardOfMyHouseTranslated,
-          "original-song": theCourtyardOfMyHouseOriginal
-        },
-      ]
-    },
-    "colorNumberContent": {
-      "titleColor": "LOS COLORES",
-      "imageColor": allColorEsp,
-      "titleNumber": "LOS NUMEROS",
-      "imageNumber": allNumberEsp
-    },
-    "colorPageContent": {
-      "titleColor": "LOS COLORES",
-      "owls": [
-        {
-          image: owls_1,
-          countryName: [
-            "french",
-            "india",
-            "spanish",
-            "russia"
-          ]
-        },
-        {
-          image: owls_2,
-          countryName: [
-            "german",
-            "serbia",
-            "italy",
-            "china"
-          ]
-        },
-        {
-          image: owls_3,
-          countryName: [
-            "english",
-            "tanzania",
-            "brasil",
-            "southAfrica"
-          ]
-        }
-      ],
-    },
-    "numberPageContent": {
-      "titleNumber": "LOS NUMEROS",
-      "imageNumber": [
-        {
-          image: children,
-          countryName: [
-            "french",
-            "china",
-            "german",
-            "spanish",
-            "italy",
-            "serbia",
-            "brasil",
-            "india",
-            "english",
-            "tanzania",
-            "russia",
-            "southAfrica",
-          ]
-        }
-      ]
-    },
-    "colorTranslatedPageContent": {
-      "title": "APRENDIENDO LOS COLORES CON TU AMIGO",
-      "rules": [
-        "En la parte de abajo encontrarás:",
-        "* una sopa de letras con los colores a buscar",
-        "* un mandala para que puedas colorear a tu gusto.",
-        "!Tú eres fuertes seguro que lo harás bien.!",
-      ],
-      "headerFirstColumn": "APRENDIENDO LOS COLORES EN",
-      "originalLanguage": {
-        "id": "spanish",
-        "name": "ESPAÑOL",
-        "data": information.spanishColor
-      },
-      "translated": [
-        { "id": "brasil", "name": "PORTUGÉS", "data": information.brasilColor, download: brasilColorDownload },
-        {
-          "id": "china",
-          "name": "CHINO",
-          "subTitle": "SE ESCRIBE",
-          "subSubTitle": "SE PRONUNCIA",
-          "data": information.chinaColor,
-          download: chinaColorDownload
-        },
-        { "id": "english", "name": "INGLÉS", "data": information.englishColor, download: englishColorDownload },
-        { "id": "french", "name": "FRANCÉS", "data": information.frenchColor, download: frenchColorDownload },
-        { "id": "german", "name": "ALEMAN", "data": information.germanColor, download: germanColorDownload },
-        {
-          "id": "india",
-          "name": "HINDI",
-          "subTitle": "SE ESCRIBE",
-          "subSubTitle": "SE PRONUNCIA",
-          "data": information.indiaColor,
-          download: indiaColorDownload
-        },
-        { "id": "italy", "name": "ITALIANO", "data": information.italyColor, download: italyColorDownload },
-        {
-          "id": "russia",
-          "name": "RUSO",
-          "subTitle": "SE ESCRIBE",
-          "subSubTitle": "SE PRONUNCIA",
-          "data": information.russiaColor,
-          download: russiaColorDownload
-        },
-        {
-          "id": "serbia",
-          "name": "SERBIO",
-          "subTitle": "SE ESCRIBE",
-          "subSubTitle": "SE PRONUNCIA",
-          "data": information.serbiaColor,
-          download: serbiaColorDownload
-        },
-        {
-          "id": "arab",
-          "name": "ARABE",
-          "subTitle": "SE ESCRIBE",
-          "subSubTitle": "SE PRONUNCIA",
-          "data": information.southColor,
-          download: arabeColorDownload
-        },
-        { "id": "spanish", "name": "ESPAÑOL", "data": information.spanishColor, download: spanishColorDownload },
-        { "id": "tanzania", "name": "SWAHILI", "data": information.tanzaniaColor, download: swahiliColorDownload },
-      ]
-    },
-    "cookerPageContent": {
-      "title": "LA RESPOSTERÍA",
-      "description": <div>
-        <span className="red"><b>TU AMIGO HA</b></span> DECIDIDO RECORRER <span
-        className="dodgerblue"><b>EL MUNDO</b></span> Y HA VISITADO <span className="green"><b>LOS CINCO CONTINENTES</b></span>.
-        RECOPILANDO DELICIOSOS POSTRES DE <span className="yellow"><b>DIFERENTES PAÍSES DEL MUNDO</b></span>
-      </div>,
-      "image": map,
-    },
-    "chooseCountryContent": {
-      "america": {
-        "name": "america",
-        "title": "TALLER DE COCINA AMERICANA",
-        "country": [
-          { name: "ARGENTINA", type: female, recipe: argentineRecipe },
-          { name: "BRASIL", type: male, recipe: brasilRecipe },
-          { name: "HAITI", type: female, recipe: haitiRecipe },
-          { name: "CHILE", type: female, recipe: chiliRecipe },
-          { name: "GUAYANAS", type: male, recipe: guyaneRecipe },
-          { name: "MÉJICO", type: female, recipe: mexicRecipe },
-          { name: "USA", type: female, recipe: UsaRecipe },
-          { name: "CANADA", type: male, recipe: canadaRecipe }
-        ],
-      },
-      "oceania": {
-        "name": "oceania",
-        "title": "TALLER DE COCINA DE OCEANÍA",
-        "country": [
-          { name: "AUSTRALIA", type: female, recipe: australiaRecipe },
-          { name: "VANUATU", type: male, recipe: vanuatuRecipe },
-          { name: "NUEVA ZELANDA", type: male, recipe: zelandaRecipe },
-        ]
-      },
-      "europe": {
-        "name": "europe",
-        "title": "TALLER DE COCINA EUROPEA",
-        "country": [
-          { name: "INGLATERRA", type: female, recipe: englishRecipe },
-          { name: "FRANCIA", type: male, recipe: frenchRecipe },
-          { name: "ALEMANIA", type: female, recipe: germanRecipe },
-          { name: "ESPAÑA", type: female, recipe: spanishRecipe },
-          { name: "ITALIA", type: male, recipe: italyRecipe },
-          { name: "RUSIA", type: female, recipe: russiaRecipe },
-          { name: "SERBIA", type: female, recipe: serbiaRecipe },
-        ],
-      },
-      "africa": {
-        "name": "africa",
-        "title": "TALLER DE COCINA AFRICANA",
-        "country": [
-          { name: "BENIN", type: female, recipe: beninRecipe },
-          { name: "KENIA", type: male, recipe: keniaRecipe },
-          { name: "TÚNEZ", type: female, recipe: tunezRecipe },
-          { name: "EGIPTO", type: female, recipe: egyptRecipe },
-          { name: "ARGELIA", type: male, recipe: algeriaRecipe },
-          { name: "MARRUECOS", type: female, recipe: marocRecipe },
-          { name: "MADAGASCAR", type: female, recipe: madaRecipe },
-        ]
-      },
-      "asia": {
-        "name": "asia",
-        "title": "TALLER DE COCINA ASIÁTICA",
-        "country": [
-          { name: "JORDANIA", type: female, recipe: jordanieRecipe },
-          { name: "SINGAPUR", type: male, recipe: singapurRecipe },
-          { name: "VIETNAM", type: female, recipe: vietnamRecipe },
-          { name: "CHINA", type: female, recipe: chinaRecipe },
-          { name: "LÍBANO", type: male, recipe: libanRecipe },
-          { name: "INDIA", type: female, recipe: indiaRecipe },
-          { name: "ARABIA SAUDITA", type: female, recipe: arabieRecipe },
-        ],
-      }
-    },
-    "presentationPageContent": {
-      "image-pipilet": imagePipilet,
-      "text": presentation
-    },
-    "WhoarewePageContent": {
-      "whoarewe": whoarewe
-    }
-  }
-)
+{
+	lan: 'esp',
+	navbar: information.getNavbar(navbar, sidebar),
+	sidebar: information.getSidebar(sidebar),
+	songPageContent: {
+		title: 'LAS CANCIONES',
+		language: {
+			english: 'INGLÉS',
+			arab: 'ARABE',
+			italy: 'ITALIANO',
+			french: 'FRANCÉS',
+			german: 'ALEMÁN',
+			russia: 'RUSO',
+			china: 'CHINO',
+			spanish: 'ESPAÑOL',
+			india: 'HINDI',
+			africa: 'AFRICANO',
+			portugal: 'PORTUGUÉS',
+			serbia: 'SERBIO'
+		},
+		flag: information.getFlagsMusic(),
+		music: [
+			{
+				name: 'lebanon',
+				'translated-song': ticTicTicTranslated,
+				'original-song': ticTicTicOriginal
+			},
+			{
+				name: 'ghana',
+				'translated-song': siMaMaKaTranslated,
+				'original-song': siMaMaKaOriginal
+			},
+			{
+				name: 'china',
+				'translated-song': dosTigresViejosTranslated,
+				'original-song': dosTigresViejosOriginal
+			},
+			{
+				name: 'german',
+				'translated-song': winterIsHereTranslated,
+				'original-song': winterIsHereOriginal
+			},
+			{
+				name: 'india',
+				'translated-song': theWashermanTranslated,
+				'original-song': theWashermanOriginal
+			},
+			{
+				name: 'brasil',
+				'translated-song': fallFallBallonTranslated,
+				'original-song': fallFallBallonOriginal
+			},
+			{
+				name: 'italy',
+				'translated-song': seHaCasadoRosaTranslated,
+				'original-song': seHaCasadoRosaOriginal
+			},
+			{
+				name: 'french',
+				'translated-song': mondayMorningTranslated,
+				'original-song': mondayMorningOriginal
+			},
+			{
+				name: 'english',
+				'translated-song': giramosalRededorDelMoralTranslated,
+				'original-song': giramosalRededorDelMoralOriginal
+			},
+			{
+				name: 'serbia',
+				'translated-song': itsRainningTranslated,
+				'original-song': itsRainningOriginal
+			},
+			{
+				name: 'russia',
+				'translated-song': patACakeTranslated,
+				'original-song': patACakeOriginal
+			},
+			{
+				name: 'spanish',
+				'translated-song': theCourtyardOfMyHouseTranslated,
+				'original-song': theCourtyardOfMyHouseOriginal
+			}
+		]
+	},
+	colorNumberContent: {
+		titleColor: 'LOS COLORES',
+		imageColor: allColorEsp,
+		titleNumber: 'LOS NUMEROS',
+		imageNumber: allNumberEsp
+	},
+	colorPageContent: {
+		titleColor: 'LOS COLORES',
+		owls: [
+			{
+				image: owls_1,
+				countryName: [
+					'french',
+					'india',
+					'spanish',
+					'russia'
+				]
+			},
+			{
+				image: owls_2,
+				countryName: [
+					'german',
+					'serbia',
+					'italy',
+					'china'
+				]
+			},
+			{
+				image: owls_3,
+				countryName: [
+					'english',
+					'tanzania',
+					'brasil',
+					'southAfrica'
+				]
+			}
+		]
+	},
+	numberPageContent: {
+		titleNumber: 'LOS NUMEROS',
+		imageNumber: [
+			{
+				image: children,
+				countryName: [
+					'french',
+					'china',
+					'german',
+					'spanish',
+					'italy',
+					'serbia',
+					'brasil',
+					'india',
+					'english',
+					'tanzania',
+					'russia',
+					'southAfrica'
+				]
+			}
+		]
+	},
+	colorTranslatedPageContent: {
+		title: 'APRENDIENDO LOS COLORES CON TU AMIGO',
+		rules: [
+			'En la parte de abajo encontrarás:',
+			'* una sopa de letras con los colores a buscar',
+			'* un mandala para que puedas colorear a tu gusto.',
+			'!Tú eres fuertes seguro que lo harás bien.!'
+		],
+		headerFirstColumn: 'APRENDIENDO LOS COLORES EN',
+		originalLanguage: {
+			id: 'spanish',
+			name: 'ESPAÑOL',
+			data: information.spanishColor
+		},
+		translated: [
+			{
+				id: 'brasil',
+				name: 'PORTUGÉS',
+				data: information.brasilColor,
+				download: brasilColorDownload
+			},
+			{
+				id: 'china',
+				name: 'CHINO',
+				subTitle: 'SE ESCRIBE',
+				subSubTitle: 'SE PRONUNCIA',
+				data: information.chinaColor,
+				download: chinaColorDownload
+			},
+			{
+				id: 'english',
+				name: 'INGLÉS',
+				data: information.englishColor,
+				download: englishColorDownload
+			},
+			{
+				id: 'french',
+				name: 'FRANCÉS',
+				data: information.frenchColor,
+				download: frenchColorDownload
+			},
+			{
+				id: 'german',
+				name: 'ALEMAN',
+				data: information.germanColor,
+				download: germanColorDownload
+			},
+			{
+				id: 'india',
+				name: 'HINDI',
+				subTitle: 'SE ESCRIBE',
+				subSubTitle: 'SE PRONUNCIA',
+				data: information.indiaColor,
+				download: indiaColorDownload
+			},
+			{
+				id: 'italy',
+				name: 'ITALIANO',
+				data: information.italyColor,
+				download: italyColorDownload
+			},
+			{
+				id: 'russia',
+				name: 'RUSO',
+				subTitle: 'SE ESCRIBE',
+				subSubTitle: 'SE PRONUNCIA',
+				data: information.russiaColor,
+				download: russiaColorDownload
+			},
+			{
+				id: 'serbia',
+				name: 'SERBIO',
+				subTitle: 'SE ESCRIBE',
+				subSubTitle: 'SE PRONUNCIA',
+				data: information.serbiaColor,
+				download: serbiaColorDownload
+			},
+			{
+				id: 'arab',
+				name: 'ARABE',
+				subTitle: 'SE ESCRIBE',
+				subSubTitle: 'SE PRONUNCIA',
+				data: information.southColor,
+				download: arabeColorDownload
+			},
+			{
+				id: 'spanish',
+				name: 'ESPAÑOL',
+				data: information.spanishColor,
+				download: spanishColorDownload
+			},
+			{
+				id: 'tanzania',
+				name: 'SWAHILI',
+				data: information.tanzaniaColor,
+				download: swahiliColorDownload
+			}
+		]
+	},
+	cookerPageContent: {
+		title: 'LA RESPOSTERÍA',
+		description: <div>
+			<span className="red"><b>TU AMIGO HA</b></span> DECIDIDO RECORRER <span
+		className="dodgerblue"><b>EL MUNDO</b></span> Y HA VISITADO <span
+		className="green"><b>LOS CINCO CONTINENTES</b></span>.
+			RECOPILANDO DELICIOSOS POSTRES DE <span className="yellow"><b>DIFERENTES PAÍSES DEL MUNDO</b></span>
+		</div>,
+		image: map
+	},
+	chooseCountryContent: {
+		america: {
+			name: 'america',
+			title: 'TALLER DE COCINA AMERICANA',
+			country: [
+				{name: 'ARGENTINA', type: female, recipe: argentineRecipe},
+				{name: 'BRASIL', type: male, recipe: brasilRecipe},
+				{name: 'HAITI', type: female, recipe: haitiRecipe},
+				{name: 'CHILE', type: female, recipe: chiliRecipe},
+				{name: 'GUAYANAS', type: male, recipe: guyaneRecipe},
+				{name: 'MÉJICO', type: female, recipe: mexicRecipe},
+				{name: 'USA', type: female, recipe: UsaRecipe},
+				{name: 'CANADA', type: male, recipe: canadaRecipe}
+			]
+		},
+		oceania: {
+			name: 'oceania',
+			title: 'TALLER DE COCINA DE OCEANÍA',
+			country: [
+				{name: 'AUSTRALIA', type: female, recipe: australiaRecipe},
+				{name: 'VANUATU', type: male, recipe: vanuatuRecipe},
+				{name: 'NUEVA ZELANDA', type: male, recipe: zelandaRecipe}
+			]
+		},
+		europe: {
+			name: 'europe',
+			title: 'TALLER DE COCINA EUROPEA',
+			country: [
+				{name: 'INGLATERRA', type: female, recipe: englishRecipe},
+				{name: 'FRANCIA', type: male, recipe: frenchRecipe},
+				{name: 'ALEMANIA', type: female, recipe: germanRecipe},
+				{name: 'ESPAÑA', type: female, recipe: spanishRecipe},
+				{name: 'ITALIA', type: male, recipe: italyRecipe},
+				{name: 'RUSIA', type: female, recipe: russiaRecipe},
+				{name: 'SERBIA', type: female, recipe: serbiaRecipe}
+			]
+		},
+		africa: {
+			name: 'africa',
+			title: 'TALLER DE COCINA AFRICANA',
+			country: [
+				{name: 'BENIN', type: female, recipe: beninRecipe},
+				{name: 'KENIA', type: male, recipe: keniaRecipe},
+				{name: 'TÚNEZ', type: female, recipe: tunezRecipe},
+				{name: 'EGIPTO', type: female, recipe: egyptRecipe},
+				{name: 'ARGELIA', type: male, recipe: algeriaRecipe},
+				{name: 'MARRUECOS', type: female, recipe: marocRecipe},
+				{name: 'MADAGASCAR', type: female, recipe: madaRecipe}
+			]
+		},
+		asia: {
+			name: 'asia',
+			title: 'TALLER DE COCINA ASIÁTICA',
+			country: [
+				{name: 'JORDANIA', type: female, recipe: jordanieRecipe},
+				{name: 'SINGAPUR', type: male, recipe: singapurRecipe},
+				{name: 'VIETNAM', type: female, recipe: vietnamRecipe},
+				{name: 'CHINA', type: female, recipe: chinaRecipe},
+				{name: 'LÍBANO', type: male, recipe: libanRecipe},
+				{name: 'INDIA', type: female, recipe: indiaRecipe},
+				{name: 'ARABIA SAUDITA', type: female, recipe: arabieRecipe}
+			]
+		}
+	},
+	presentationPageContent: {
+		'image-pipilet': imagePipilet,
+		text: presentation
+	},
+	WhoarewePageContent: {
+		whoarewe: whoarewe
+	}
+}
+);

@@ -3,9 +3,8 @@ import french from './french';
 import english from './english';
 
 export default (
-  [
-    spanish,
-    french,
-    english
-  ]
-)
+[
+	spanish,
+	french,
+	english
+]);
