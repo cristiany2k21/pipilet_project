@@ -5,19 +5,19 @@ import Sidebar from '../../components/sidebar';
 import './styles/index.sass';
 
 const AppContainer = ({ children, navbar, sidebar }) => {
-  return (
-    <div className="o-container">
-      <Navbar itemsNavbar={navbar}/>
-      <div className="wrapper-content">
-        {children}
-      </div>
-      <Sidebar sidebar={sidebar}/>
-    </div>
-  )
+	return (
+		<div className="o-container">
+			<Navbar itemsNavbar={navbar}/>
+			<div className="wrapper-content">
+				{children}
+			</div>
+			<Sidebar sidebar={sidebar}/>
+		</div>
+	)
 };
 
 const mapStateToProps = state => {
-  return state.ChooseLanguage
+	return state.ChooseLanguage
 };
 
 export default connect(mapStateToProps)(AppContainer);

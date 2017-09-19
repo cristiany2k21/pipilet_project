@@ -1,18 +1,22 @@
 import React from 'react';
 import express from 'express';
-import Webpack from "webpack";
-import webpackConfig from "./webpack-dev-client.config";
+import Webpack from 'webpack';
+import webpackConfig from './webpack-dev-client.config';
 import { renderToString } from 'react-dom/server';
-import { createStore } from 'redux';
-import { match, RouterContext } from 'react-router'
+import { createStore, applyMiddleware } from 'redux';
+import { match, RouterContext } from 'react-router';
 import routes from './src/routes/index';
 import reducers from './src/reducers';
 import { Provider } from 'react-redux';
+import logger from 'redux-logger';
 
 const compiler = Webpack(webpackConfig);
 const app = express();
 
-const store = createStore(reducers);
+const store = createStore(
+  reducers,
+  applyMiddleware(logger),
+);
 let style = '';
 
 if (process.env.NODE_ENV == 'development') {
@@ -21,9 +25,8 @@ if (process.env.NODE_ENV == 'development') {
   }));
 
   app.use(require('webpack-hot-middleware')(compiler));
-}
-else {
-  style = '<link rel="stylesheet" type="text/css" href="/styles.min.css">'
+} else {
+  style = '<link rel="stylesheet" type="text/css" href="/styles.min.css">';
 }
 
 app.use(express.static('public'));
@@ -37,20 +40,20 @@ app.get('*.js', function (req, res, next) {
 app.get('*', (req, res) => {
   match({ routes: routes, location: req.url }, (err, redirect, props) => {
     if (err) {
-      res.status(500).send(err.message)
+      res.status(500).send(err.message);
     } else if (redirect) {
-      res.redirect(redirect.pathname + redirect.search)
+      res.redirect(redirect.pathname + redirect.search);
     } else if (props) {
       const appHtml = renderToString(
         <Provider store={store}>
           <RouterContext {...props}/>
         </Provider>
       );
-      res.send(renderPage(appHtml))
+      res.send(renderPage(appHtml));
     } else {
-      res.status(404).send('Not Found')
+      res.status(404).send('Not Found');
     }
-  })
+  });
 });
 function renderPage(appHtml) {
   return `
@@ -72,10 +75,10 @@ function renderPage(appHtml) {
         <script src="/bundle.client.js"></script>
       </body>
     </html
-   `
+   `;
 };
 
 var PORT = process.env.PORT || 8081;
-app.listen(PORT, function() {
-  console.log('Production Express server running at localhost:' + PORT)
+app.listen(PORT, function () {
+  console.log('Production Express server running at localhost:' + PORT);
 });
