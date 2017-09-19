@@ -34,7 +34,6 @@
     "react": "^15.5.4",
     "react-css-modules": "^4.7.1",
     "react-dom": "^15.5.4",
-    "react-file-download": "^0.3.4",
     "react-hot-loader": "^3.0.0-beta.7",
     "react-image-smooth-loading": "^1.0.7",
     "react-redux": "^5.0.6",
