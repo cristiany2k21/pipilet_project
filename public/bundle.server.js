@@ -4369,7 +4369,7 @@ exports = module.exports = __webpack_require__(4)(undefined);
 
 
 // module
-exports.push([module.i, ".wrapper-who-are-we{padding:60px;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;display:flex;flex-direction:column;align-items:center;position:relative}.wrapper-who-are-we .header-who-are-we{height:180px;width:100%;display:flex;justify-content:space-between;align-items:flex-end}.wrapper-who-are-we .header-who-are-we img{height:100%}.wrapper-who-are-we .header-who-are-we .hidden{visibility:hidden}.wrapper-who-are-we .header-who-are-we .text{display:flex;flex-direction:column}.wrapper-who-are-we .wrapper-image-tree{height:300px}.wrapper-who-are-we .wrapper-image-tree img{max-width:100%;max-height:100%}", ""]);
+exports.push([module.i, ".wrapper-who-are-we{padding:60px;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;display:flex;flex-direction:column;align-items:center;position:relative}.wrapper-who-are-we .header-who-are-we{height:180px;width:100%;display:flex;z-index:-1;justify-content:space-between;align-items:flex-end}.wrapper-who-are-we .header-who-are-we img{height:100%}.wrapper-who-are-we .header-who-are-we .hidden{visibility:hidden}.wrapper-who-are-we .header-who-are-we .text{display:flex;flex-direction:column}.wrapper-who-are-we .wrapper-image-tree{height:300px}.wrapper-who-are-we .wrapper-image-tree img{max-width:100%;max-height:100%}", ""]);
 
 // exports
 
@@ -15296,81 +15296,73 @@ var _french4 = __webpack_require__(319);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var navbar = ["Accueil", "Présentation", "Mandala Mandala", "Contact"];
+var navbar = ['Accueil', 'Présentation', 'Mandala Mandala', 'Contact'];
 
-var sidebar = ["LES CHANSONS", "LES COULEURS ET LES CHIFFRES", "LES PÂTISSERERIES", "SAIS-TU QUI JE SUIS ?"];
+var sidebar = ['LES CHANSONS', 'LES COULEURS ET LES CHIFFRES', 'LES PÂTISSERERIES', 'SAIS-TU QUI JE SUIS ?'];
 
 var _default = {
-  "lan": "fr",
-  "navbar": _information2.default.getNavbar(navbar, sidebar),
-  "sidebar": _information2.default.getSidebar(sidebar),
-  "songPageContent": {
-    "title": "LES CHANSONS",
-    "language": {
-      "english": "ANGLAIS",
-      "arab": "ARABE",
-      "italy": "ITALIEN",
-      "french": "FRANÇAIS",
-      "german": "ALLEMAND",
-      "russia": "RUSSE",
-      "china": "CHINOIS",
-      "spanish": "ESPAGNOL",
-      "india": "INDE",
-      "africa": "AFRICAIN",
-      "portugal": "PORTUGAIS",
-      "serbia": "SERBIE"
+  lan: 'fr',
+  navbar: _information2.default.getNavbar(navbar, sidebar),
+  sidebar: _information2.default.getSidebar(sidebar),
+  songPageContent: {
+    title: 'LES CHANSONS',
+    language: {
+      english: 'ANGLAIS',
+      arab: 'ARABE',
+      italy: 'ITALIEN',
+      french: 'FRANÇAIS',
+      german: 'ALLEMAND',
+      russia: 'RUSSE',
+      china: 'CHINOIS',
+      spanish: 'ESPAGNOL',
+      india: 'INDE',
+      africa: 'AFRICAIN',
+      portugal: 'PORTUGAIS',
+      serbia: 'SERBIE'
     },
-    "flag": _information2.default.getFlagsMusic(),
-    "music": [{ "name": "lebanon", "translated-song": _ticTicTic2.default, "original-song": _ticTicTic4.default }, { "name": "ghana", "translated-song": _siMaMaKa2.default, "original-song": _siMaMaKa4.default }, { "name": "china", "translated-song": _twoTigers2.default, "original-song": _twoTigers4.default }, { "name": "german", "translated-song": _winterIsHere2.default, "original-song": _winterIsHere4.default }, { "name": "india", "translated-song": _theWasherman2.default, "original-song": _theWasherman4.default }, { "name": "brasil", "translated-song": _fallFallBallon2.default, "original-song": _fallFallBallon4.default }, { "name": "italy", "translated-song": _springHasCome2.default, "original-song": _springHasCome4.default }, { "name": "french", "translated-song": _onMondayMorning2.default, "original-song": _onMondayMorning4.default }, {
-      "name": "english",
-      "translated-song": _hereWeGoRoundTheMulberryBush2.default,
-      "original-song": _hereWeGoRoundTheMulberryBush4.default
-    }, { "name": "serbia", "translated-song": _itsRainning2.default, "original-song": _itsRainning4.default }, { "name": "russia", "translated-song": _patACake2.default, "original-song": _patACake4.default }, {
-      "name": "spanish",
-      "translated-song": _theCourtyardOfMyHouse2.default,
-      "original-song": _theCourtyardOfMyHouse4.default
-    }]
+    flag: _information2.default.getFlagsMusic(),
+    music: [{ name: 'lebanon', 'translated-song': _ticTicTic2.default, 'original-song': _ticTicTic4.default }, { name: 'ghana', 'translated-song': _siMaMaKa2.default, 'original-song': _siMaMaKa4.default }, { name: 'china', 'translated-song': _twoTigers2.default, 'original-song': _twoTigers4.default }, { name: 'german', 'translated-song': _winterIsHere2.default, 'original-song': _winterIsHere4.default }, { name: 'india', 'translated-song': _theWasherman2.default, 'original-song': _theWasherman4.default }, { name: 'brasil', 'translated-song': _fallFallBallon2.default, 'original-song': _fallFallBallon4.default }, { name: 'italy', 'translated-song': _springHasCome2.default, 'original-song': _springHasCome4.default }, { name: 'french', 'translated-song': _onMondayMorning2.default, 'original-song': _onMondayMorning4.default }, { name: 'english', 'translated-song': _hereWeGoRoundTheMulberryBush2.default, 'original-song': _hereWeGoRoundTheMulberryBush4.default }, { name: 'serbia', 'translated-song': _itsRainning2.default, 'original-song': _itsRainning4.default }, { name: 'russia', 'translated-song': _patACake2.default, 'original-song': _patACake4.default }, { name: 'spanish', 'translated-song': _theCourtyardOfMyHouse2.default, 'original-song': _theCourtyardOfMyHouse4.default }]
   },
-  "colorNumberContent": {
-    "titleColor": "LES COULEURS",
-    "imageColor": _allColorsFr2.default,
-    "titleNumber": "LES NOMBRES",
-    "imageNumber": _children2.default
+  colorNumberContent: {
+    titleColor: 'LES COULEURS',
+    imageColor: _allColorsFr2.default,
+    titleNumber: 'LES NOMBRES',
+    imageNumber: _children2.default
   },
-  "colorPageContent": {
-    "titleColor": "LES COULEURS",
-    "owls": [{
+  colorPageContent: {
+    titleColor: 'LES COULEURS',
+    owls: [{
       image: _owls2.default,
-      countryName: ["french", "india", "spanish", "russia"]
+      countryName: ['french', 'india', 'spanish', 'russia']
     }, {
       image: _owls4.default,
-      countryName: ["german", "serbia", "italy", "china"]
+      countryName: ['german', 'serbia', 'italy', 'china']
     }, {
       image: _owls6.default,
-      countryName: ["english", "tanzania", "brasil", "southAfrica"]
+      countryName: ['english', 'tanzania', 'brasil', 'southAfrica']
     }]
   },
-  "numberPageContent": {
-    "titleNumber": "LES NOMBRES",
-    "imageNumber": [{
+  numberPageContent: {
+    titleNumber: 'LES NOMBRES',
+    imageNumber: [{
       image: _children2.default,
-      countryName: ["french", "china", "german", "spanish", "italy", "serbia", "brasil", "india", "english", "tanzania", "russia", "southAfrica"]
+      countryName: ['french', 'china', 'german', 'spanish', 'italy', 'serbia', 'brasil', 'india', 'english', 'tanzania', 'russia', 'southAfrica']
     }]
   },
-  "colorTranslatedPageContent": {
-    "title": "APPREND LES COULEURS AVEC TON AMI",
-    "rules": ["En bas tu trouveras:", "* un jeu de mots melangés sur le theme des couleurs", "* un mandala à colorier comme tu veux", "Tu est fort pas de doute que tu reussiras !"],
-    "headerFirstColumn": "LES COULEURS EN",
-    "originalLanguage": {
-      "id": "french",
-      "name": "FRANÇAIS",
-      "data": _information2.default.frenchColor
+  colorTranslatedPageContent: {
+    title: 'APPREND LES COULEURS AVEC TON AMI',
+    rules: ['En bas tu trouveras:', '* un jeu de mots melangés sur le theme des couleurs', '* un mandala à colorier comme tu veux', 'Tu est fort pas de doute que tu reussiras !'],
+    headerFirstColumn: 'LES COULEURS EN',
+    originalLanguage: {
+      id: 'french',
+      name: 'FRANÇAIS',
+      data: _information2.default.frenchColor
     },
-    "translated": [{ "id": "brasil", "name": "PORTUGAIS", "data": _information2.default.brasilColor, download: _brasil2.default }, { "id": "china", "name": "CHINOIS", "subTitle": "S’ÉCRIT", "subSubTitle": "SE PRONONCE", "data": _information2.default.chinaColor, download: _china4.default }, { "id": "english", "name": "ANGLAIS", "data": _information2.default.englishColor, download: _english2.default }, { "id": "french", "name": "FRANÇAIS", "data": _information2.default.frenchColor, download: _french2.default }, { "id": "german", "name": "ALLEMAND", "data": _information2.default.germanColor, download: _german2.default }, { "id": "india", "name": "INDIEN", "subTitle": "S’ÉCRIT", "subSubTitle": "SE PRONONCE", "data": _information2.default.indiaColor, download: _india4.default }, { "id": "italy", "name": "ITALIEN", "data": _information2.default.italyColor, download: _italy2.default }, { "id": "russia", "name": "RUSSE", "subTitle": "S’ÉCRIT", "subSubTitle": "SE PRONONCE", "data": _information2.default.russiaColor, download: _russia2.default }, { "id": "serbia", "name": "SERBE", "subTitle": "S’ÉCRIT", "subSubTitle": "SE PRONONCE", "data": _information2.default.serbiaColor, download: _serbia2.default }, { "id": "arab", "name": "ARABE", "subTitle": "S’ÉCRIT", "subSubTitle": "SE PRONONCE", "data": _information2.default.southColor, download: _arabe2.default }, { "id": "spanish", "name": "ESPAGNOL", "data": _information2.default.spanishColor, download: _spanish2.default }, { "id": "tanzania", "name": "SWAHILI", "data": _information2.default.tanzaniaColor, download: _swahili2.default }]
+    translated: [{ id: 'brasil', name: 'PORTUGAIS', data: _information2.default.brasilColor, download: _brasil2.default }, { id: 'china', name: 'CHINOIS', subTitle: 'S’ÉCRIT', subSubTitle: 'SE PRONONCE', data: _information2.default.chinaColor, download: _china4.default }, { id: 'english', name: 'ANGLAIS', data: _information2.default.englishColor, download: _english2.default }, { id: 'french', name: 'FRANÇAIS', data: _information2.default.frenchColor, download: _french2.default }, { id: 'german', name: 'ALLEMAND', data: _information2.default.germanColor, download: _german2.default }, { id: 'india', name: 'INDIEN', subTitle: 'S’ÉCRIT', subSubTitle: 'SE PRONONCE', data: _information2.default.indiaColor, download: _india4.default }, { id: 'italy', name: 'ITALIEN', data: _information2.default.italyColor, download: _italy2.default }, { id: 'russia', name: 'RUSSE', subTitle: 'S’ÉCRIT', subSubTitle: 'SE PRONONCE', data: _information2.default.russiaColor, download: _russia2.default }, { id: 'serbia', name: 'SERBE', subTitle: 'S’ÉCRIT', subSubTitle: 'SE PRONONCE', data: _information2.default.serbiaColor, download: _serbia2.default }, { id: 'arab', name: 'ARABE', subTitle: 'S’ÉCRIT', subSubTitle: 'SE PRONONCE', data: _information2.default.southColor, download: _arabe2.default }, { id: 'spanish', name: 'ESPAGNOL', data: _information2.default.spanishColor, download: _spanish2.default }, { id: 'tanzania', name: 'SWAHILI', data: _information2.default.tanzaniaColor, download: _swahili2.default }]
   },
-  "cookerPageContent": {
-    "title": "LES RECETTES",
-    "description": _react2.default.createElement(
+  cookerPageContent: {
+    title: 'LES RECETTES',
+    description: _react2.default.createElement(
       'div',
       null,
       _react2.default.createElement(
@@ -15382,7 +15374,7 @@ var _default = {
           'TON AMI'
         )
       ),
-      ' A FAIL LE TOUR  ',
+      ' A FAIT LE TOUR  ',
       _react2.default.createElement(
         'span',
         {
@@ -15414,41 +15406,41 @@ var _default = {
         )
       )
     ),
-    "image": _map2.default
+    image: _map2.default
   },
-  "chooseCountryContent": {
-    "america": {
-      "name": "america",
-      "title": "ATELIER DE CUISINE AMÉRICAINE",
-      "country": [{ name: "ARGENTINE", type: _pipilet_female2.default, recipe: _argentine2.default }, { name: "BRÉSIL", type: _pipilet_male2.default, recipe: _quindim2.default }, { name: "HAÏTI", type: _pipilet_female2.default, recipe: _haiti2.default }, { name: "CHILI", type: _pipilet_female2.default, recipe: _chilie2.default }, { name: "GUAYANE.F", type: _pipilet_male2.default, recipe: _guyane2.default }, { name: "MEXIQUE", type: _pipilet_female2.default, recipe: _mexique2.default }, { name: "USA", type: _pipilet_female2.default, recipe: _usa2.default }, { name: "CANADA", type: _pipilet_male2.default, recipe: _canada2.default }]
+  chooseCountryContent: {
+    america: {
+      name: 'america',
+      title: 'ATELIER DE CUISINE AMÉRICAINE',
+      country: [{ name: 'ARGENTINE', type: _pipilet_female2.default, recipe: _argentine2.default }, { name: 'BRÉSIL', type: _pipilet_male2.default, recipe: _quindim2.default }, { name: 'HAÏTI', type: _pipilet_female2.default, recipe: _haiti2.default }, { name: 'CHILI', type: _pipilet_female2.default, recipe: _chilie2.default }, { name: 'GUAYANE.F', type: _pipilet_male2.default, recipe: _guyane2.default }, { name: 'MEXIQUE', type: _pipilet_female2.default, recipe: _mexique2.default }, { name: 'USA', type: _pipilet_female2.default, recipe: _usa2.default }, { name: 'CANADA', type: _pipilet_male2.default, recipe: _canada2.default }]
     },
-    "oceania": {
-      "name": "oceania",
-      "title": "ATELIER DE CUISINE DE L’OCÉANIE",
-      "country": [{ name: "AUSTRALIE", type: _pipilet_female2.default, recipe: _alba2.default }, { name: "VANUATU", type: _pipilet_male2.default, recipe: _helado2.default }, { name: "NOUVELLE ZÉLANDE", type: _pipilet_male2.default, recipe: _pavlova2.default }]
+    oceania: {
+      name: 'oceania',
+      title: 'ATELIER DE CUISINE DE L’OCÉANIE',
+      country: [{ name: 'AUSTRALIE', type: _pipilet_female2.default, recipe: _alba2.default }, { name: 'VANUATU', type: _pipilet_male2.default, recipe: _helado2.default }, { name: 'NOUVELLE ZÉLANDE', type: _pipilet_male2.default, recipe: _pavlova2.default }]
     },
-    "europe": {
-      "name": "europe",
-      "title": "ATELIER DE CUISINE EUROPÉENNE",
-      "country": [{ name: "ANGLETERRE", type: _pipilet_female2.default, recipe: _fairy_cakes2.default }, { name: "FRANCE", type: _pipilet_male2.default, recipe: _mousseDeChocolate2.default }, { name: "ALLEMAGNE", type: _pipilet_female2.default, recipe: _galletaDePascua2.default }, { name: "ESPAGNE", type: _pipilet_female2.default, recipe: _macedonia2.default }, { name: "ITALIE", type: _pipilet_male2.default, recipe: _mouse2.default }, { name: "RUSSIE", type: _pipilet_female2.default, recipe: _manzanasAsadas2.default }, { name: "SERBIE", type: _pipilet_female2.default, recipe: _tarta2.default }]
+    europe: {
+      name: 'europe',
+      title: 'ATELIER DE CUISINE EUROPÉENNE',
+      country: [{ name: 'ANGLETERRE', type: _pipilet_female2.default, recipe: _fairy_cakes2.default }, { name: 'FRANCE', type: _pipilet_male2.default, recipe: _mousseDeChocolate2.default }, { name: 'ALLEMAGNE', type: _pipilet_female2.default, recipe: _galletaDePascua2.default }, { name: 'ESPAGNE', type: _pipilet_female2.default, recipe: _macedonia2.default }, { name: 'ITALIE', type: _pipilet_male2.default, recipe: _mouse2.default }, { name: 'RUSSIE', type: _pipilet_female2.default, recipe: _manzanasAsadas2.default }, { name: 'SERBIE', type: _pipilet_female2.default, recipe: _tarta2.default }]
     },
-    "africa": {
-      "name": "africa",
-      "title": "TALLER DE COCINA AFRICANA",
-      "country": [{ name: "BENIN", type: _pipilet_female2.default, recipe: _benin2.default }, { name: "KENYA", type: _pipilet_male2.default, recipe: _kenya2.default }, { name: "TUNISIE", type: _pipilet_female2.default, recipe: _tunisie2.default }, { name: "EGYPTE", type: _pipilet_female2.default, recipe: _egypt2.default }, { name: "ALGERIE", type: _pipilet_male2.default, recipe: _algerie2.default }, { name: "MAROC", type: _pipilet_female2.default, recipe: _maroc2.default }, { name: "MADAGASCAR", type: _pipilet_female2.default, recipe: _malagasy2.default }]
+    africa: {
+      name: 'africa',
+      title: 'TALLER DE COCINA AFRICANA',
+      country: [{ name: 'BENIN', type: _pipilet_female2.default, recipe: _benin2.default }, { name: 'KENYA', type: _pipilet_male2.default, recipe: _kenya2.default }, { name: 'TUNISIE', type: _pipilet_female2.default, recipe: _tunisie2.default }, { name: 'EGYPTE', type: _pipilet_female2.default, recipe: _egypt2.default }, { name: 'ALGERIE', type: _pipilet_male2.default, recipe: _algerie2.default }, { name: 'MAROC', type: _pipilet_female2.default, recipe: _maroc2.default }, { name: 'MADAGASCAR', type: _pipilet_female2.default, recipe: _malagasy2.default }]
     },
-    "asia": {
-      "name": "asia",
-      "title": "ATELIER DE CUISINE ASIATIQUE",
-      "country": [{ name: "JORDANIE", type: _pipilet_female2.default, recipe: _jordanie2.default }, { name: "SINGAPOUR", type: _pipilet_male2.default, recipe: _singapour2.default }, { name: "VIETNAM", type: _pipilet_female2.default, recipe: _vietnam2.default }, { name: "CHINE", type: _pipilet_female2.default, recipe: _china2.default }, { name: "LÍBAN", type: _pipilet_male2.default, recipe: _liban2.default }, { name: "INDE", type: _pipilet_female2.default, recipe: _india2.default }, { name: "ARABIE SAUDITE", type: _pipilet_female2.default, recipe: _maskina2.default }]
+    asia: {
+      name: 'asia',
+      title: 'ATELIER DE CUISINE ASIATIQUE',
+      country: [{ name: 'JORDANIE', type: _pipilet_female2.default, recipe: _jordanie2.default }, { name: 'SINGAPOUR', type: _pipilet_male2.default, recipe: _singapour2.default }, { name: 'VIETNAM', type: _pipilet_female2.default, recipe: _vietnam2.default }, { name: 'CHINE', type: _pipilet_female2.default, recipe: _china2.default }, { name: 'LÍBAN', type: _pipilet_male2.default, recipe: _liban2.default }, { name: 'INDE', type: _pipilet_female2.default, recipe: _india2.default }, { name: 'ARABIE SAUDITE', type: _pipilet_female2.default, recipe: _maskina2.default }]
     }
   },
-  "presentationPageContent": {
-    "image-pipilet": _pipiletDescription2.default,
-    "text": _french3.presentation
+  presentationPageContent: {
+    'image-pipilet': _pipiletDescription2.default,
+    text: _french3.presentation
   },
-  "WhoarewePageContent": {
-    "whoarewe": _french4.whoarewe
+  WhoarewePageContent: {
+    whoarewe: _french4.whoarewe
   }
 };
 exports.default = _default;
