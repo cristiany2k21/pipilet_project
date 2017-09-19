@@ -1,5 +1,5 @@
 import React from 'react';
-import universe from "../../images/universe.jpg";
+import universe from '../../images/universe.jpg';
 
 import './style/index.sass';
 
