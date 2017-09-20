@@ -5280,67 +5280,68 @@ var store = (0, _redux.createStore)(_reducers2.default, (0, _redux.applyMiddlewa
 var style = '';
 
 if (process.env.NODE_ENV == 'development') {
-  app.use(__webpack_require__(171)(compiler, {
-    noInfo: true
-  }));
+	app.use(__webpack_require__(171)(compiler, {
+		noInfo: true
+	}));
 
-  app.use(__webpack_require__(172)(compiler));
+	app.use(__webpack_require__(172)(compiler));
 } else {
-  style = '<link rel="stylesheet" type="text/css" href="/styles.min.css">';
+	style = '<link rel="stylesheet" type="text/css" href="/styles.min.css">';
 }
 
 app.use(_express2.default.static('public'));
 
 app.get('*.js', function (req, res, next) {
-  req.url = req.url + '.gz';
-  res.set('Content-Encoding', 'gzip');
-  next();
+	req.url = req.url + '.gz';
+	res.set('Content-Encoding', 'gzip');
+	next();
 });
 
 app.get('*', function (req, res) {
-  (0, _reactRouter.match)({ routes: _index2.default, location: req.url }, function (err, redirect, props) {
-    if (err) {
-      res.status(500).send(err.message);
-    } else if (redirect) {
-      res.redirect(redirect.pathname + redirect.search);
-    } else if (props) {
-      var appHtml = (0, _server.renderToString)(_react2.default.createElement(
-        _reactRedux.Provider,
-        { store: store },
-        _react2.default.createElement(_reactRouter.RouterContext, props)
-      ));
-      res.send(renderPage(appHtml));
-    } else {
-      res.status(404).send('Not Found');
-    }
-  });
+	(0, _reactRouter.match)({ routes: _index2.default, location: req.url }, function (err, redirect, props) {
+		if (err) {
+			res.status(500).send(err.message);
+		} else if (redirect) {
+			res.redirect(redirect.pathname + redirect.search);
+		} else if (props) {
+			var appHtml = (0, _server.renderToString)(_react2.default.createElement(
+				_reactRedux.Provider,
+				{ store: store },
+				_react2.default.createElement(_reactRouter.RouterContext, props)
+			));
+			res.send(renderPage(appHtml));
+		} else {
+			res.status(404).send('Not Found');
+		}
+	});
 });
+
 function renderPage(appHtml) {
-  return '\n    <!doctype html public="storage">\n    <html>\n      <head>\n        <meta charset=utf-8/>\n        <title>My First React Router App</title>\n        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">\n        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">\n        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Quattrocento+Sans|Work+Sans:100,200,300" rel="stylesheet">\n        <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">\n        ' + style + '\n      </head>\n      <body>\n      <div id="app">\n        ' + (process.env.NODE_ENV === 'production' ? appHtml : '<div>' + appHtml + '</div>') + '\n      </div>\n        <script src="/bundle.client.js"></script>\n      </body>\n    </html\n   ';
+	return '\n    <!doctype html public="storage">\n    <html>\n      <head>\n        <meta charset=utf-8/>\n        <title>My First React Router App</title>\n        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">\n        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">\n        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Quattrocento+Sans|Work+Sans:100,200,300" rel="stylesheet">\n        <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">\n        ' + style + '\n      </head>\n      <body>\n      <div id="app">\n        ' + (process.env.NODE_ENV === 'production' ? appHtml : '<div>' + appHtml + '</div>') + '\n      </div>\n        <script src="/bundle.client.js"></script>\n      </body>\n    </html\n   ';
 };
 
 var PORT = process.env.PORT || 8081;
 app.listen(PORT, function () {
-  console.log('Production Express server running at localhost:' + PORT);
+	console.log('Production Express server running at localhost:' + PORT);
 });
 ;
 
 var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
 
-  __REACT_HOT_LOADER__.register(renderPage, 'renderPage', '/Users/mavrickduchamp/Documents/pipiletMandala/server.js');
+	__REACT_HOT_LOADER__.register(renderPage, 'renderPage', '/Users/mavrickduchamp/Documents/pipiletMandala/server.js');
 
-  __REACT_HOT_LOADER__.register(PORT, 'PORT', '/Users/mavrickduchamp/Documents/pipiletMandala/server.js');
+	__REACT_HOT_LOADER__.register(PORT, 'PORT', '/Users/mavrickduchamp/Documents/pipiletMandala/server.js');
 
-  __REACT_HOT_LOADER__.register(compiler, 'compiler', '/Users/mavrickduchamp/Documents/pipiletMandala/server.js');
+	__REACT_HOT_LOADER__.register(compiler, 'compiler', '/Users/mavrickduchamp/Documents/pipiletMandala/server.js');
 
-  __REACT_HOT_LOADER__.register(app, 'app', '/Users/mavrickduchamp/Documents/pipiletMandala/server.js');
+	__REACT_HOT_LOADER__.register(app, 'app', '/Users/mavrickduchamp/Documents/pipiletMandala/server.js');
 
-  __REACT_HOT_LOADER__.register(store, 'store', '/Users/mavrickduchamp/Documents/pipiletMandala/server.js');
+	__REACT_HOT_LOADER__.register(store, 'store', '/Users/mavrickduchamp/Documents/pipiletMandala/server.js');
 
-  __REACT_HOT_LOADER__.register(style, 'style', '/Users/mavrickduchamp/Documents/pipiletMandala/server.js');
+	__REACT_HOT_LOADER__.register(style, 'style', '/Users/mavrickduchamp/Documents/pipiletMandala/server.js');
 }();
 
 ;
