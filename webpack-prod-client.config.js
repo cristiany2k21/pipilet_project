@@ -31,8 +31,29 @@ module.exports = {
 			}, {
 				test: /\.(jpe?g|png|gif|svg|pdf)$/i,
 				use: [
-					'file-loader?hash=sha512&digest=hex&name=[ext]_[name].[ext]',
-					'image-webpack-loader?bypassOnDebug&optimizationLevel=7&interlaced=false'
+					{
+						loader: 'file-loader',
+						options: {
+							query: {
+								name: '[ext]_[name].[ext]'
+							}
+						}
+					}, {
+						loader: 'image-webpack-loader',
+						options: {
+							query: {
+								mozjpeg: {
+									progressive: true
+								},
+								gifsicle: {
+									interlaced: true
+								},
+								optipng: {
+									optimizationLevel: 7
+								}
+							}
+						}
+					}
 				]
 			}
 		]

@@ -26,8 +26,29 @@ module.exports = {
 			}, {
 				test: /\.(jpe?g|png|gif|svg|pdf)$/i,
 				use: [
-					'url-loader?limit=30000',
-					'img-loader'
+					{
+						loader: 'file-loader',
+						options: {
+							query: {
+								name: '[ext]_[name].[ext]'
+							}
+						}
+					}, {
+						loader: 'image-webpack-loader',
+						options: {
+							query: {
+								mozjpeg: {
+									progressive: true
+								},
+								gifsicle: {
+									interlaced: true
+								},
+								optipng: {
+									optimizationLevel: 7
+								}
+							}
+						}
+					}
 				]
 			}
 		]
