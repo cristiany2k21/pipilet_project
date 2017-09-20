@@ -28,6 +28,7 @@
     "file-loader": "^0.11.2",
     "fs": "0.0.1-security",
     "image-webpack-loader": "^3.4.2",
+    "imagemin-webpack-plugin": "^1.5.2",
     "img-loader": "^2.0.0",
     "node-sass": "^4.5.3",
     "path": "^0.12.7",

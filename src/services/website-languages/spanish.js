@@ -98,7 +98,7 @@ import allNumberEsp from '../../scenes/color-number-page/images/esp/children.png
 import { whoarewe } from '../who-are-we/spanish';
 
 const navbar = [
-	'Acogida',
+	'Inicio',
 	'Presentación',
 	'Pipilet Mandala',
 	'Contacto'
