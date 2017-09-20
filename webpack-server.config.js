@@ -29,9 +29,7 @@ module.exports = {
 					{
 						loader: 'file-loader',
 						options: {
-							query: {
-								name: '[ext]_[name].[ext]'
-							}
+							name: '[ext]_[name].[ext]'
 						}
 					}, {
 						loader: 'image-webpack-loader',
