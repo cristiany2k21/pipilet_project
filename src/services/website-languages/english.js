@@ -85,14 +85,14 @@ import swahiliColorDownload from '../download/colors/eng/swahili.pdf';
 
 import { presentation } from '../presentation/english';
 
-import owls_1 from '../../scenes/color-number-page/images/eng/owls-1.png';
-import owls_2 from '../../scenes/color-number-page/images/eng/owls-2.png';
-import owls_3 from '../../scenes/color-number-page/images/eng/owls-3.png';
+import owls_1 from '../../scenes/color-page/images/eng/owls-1.png';
+import owls_2 from '../../scenes/color-page/images/eng/owls-2.png';
+import owls_3 from '../../scenes/color-page/images/eng/owls-3.png';
 
-import children from '../../scenes/color-number-page/images/eng/children.png';
+import children from '../../scenes/color-page/images/eng/children.png';
 
 import allColorEng from '../../images/all-colors-eng.png';
-import allNumberEsp from '../../scenes/color-number-page/images/eng/children.png';
+import allNumberEsp from '../../scenes/color-page/images/eng/children.png';
 
 import { whoarewe } from '../who-are-we/spanish';
 

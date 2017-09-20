@@ -76,7 +76,7 @@ module.exports = require("react");
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "4ab2701ef251f05388bd2df413cf10bd.jpg";
+module.exports = __webpack_require__.p + "af5e89ee7fbab88398521c73d4930783.jpg";
 
 /***/ }),
 /* 2 */
@@ -546,7 +546,7 @@ module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QImUGhvdG9
 /* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "3a121873433e565d57d5b6c891e5670a.jpg";
+module.exports = __webpack_require__.p + "973bc422cf0a1f2bb286aec98a521b93.jpg";
 
 /***/ }),
 /* 15 */
@@ -627,7 +627,7 @@ module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QHEUGhvdG9
 /* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "1b7b0a08dbbc8b27fec88835693a5f3e.jpg";
+module.exports = __webpack_require__.p + "1c0f6ce5f4845fd3fc3c401ca2fb70aa.jpg";
 
 /***/ }),
 /* 18 */
@@ -1222,7 +1222,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 
 var _navbar = __webpack_require__(179);
@@ -1352,62 +1352,62 @@ var _brasil4 = _interopRequireDefault(_brasil3);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _default = {
-  getNavbar: function getNavbar(navbar, sidebar) {
-    return [{ "title": navbar[0], "subNavbar": [], "url": _navbar.HOME }, { "title": navbar[1], "subNavbar": [], "url": _navbar.PRESENTATION }, {
-      "title": navbar[2], "subNavbar": [{ "title": sidebar[0], "url": _sidebar.SONG }, { "title": sidebar[1], "url": _sidebar.COLORNUMBER }, { "title": sidebar[2], "url": _sidebar.COOKER }, { "title": sidebar[3], "url": _sidebar.PRESENTATIONSIDEBAR }]
-    }, { "title": navbar[3], "subNavbar": [], "url": _navbar.CONTACT }];
-  },
-  getSidebar: function getSidebar(sidebar) {
-    return [{
-      "title": sidebar[0],
-      "image": _pipiletSong2.default,
-      "alt": "pipilet-song",
-      "url": _sidebar.SONG
-    }, {
-      "title": sidebar[1],
-      "image": _pipiletNumberColor2.default,
-      "alt": "pipilet-color-number",
-      "url": _sidebar.COLORNUMBER
-    }, {
-      "title": sidebar[2],
-      "image": _pipiletCooker2.default,
-      "alt": "pipilet-cooker",
-      "url": _sidebar.COOKER
-    }, {
-      "title": sidebar[3],
-      "image": _pipiletDescription2.default,
-      "alt": "pipilet-presentation",
-      "url": _sidebar.PRESENTATIONSIDEBAR
-    }];
-  },
-  getFlags: function getFlags() {
-    return [{ "name": "french", "value": _french2.default }, { "name": "english", "value": _english2.default }, { "name": "india", "value": _india2.default }, { "name": "brasil", "value": _brasil2.default }, { "name": "italy", "value": _italy2.default }, { "name": "spanish", "value": _spanish2.default }, { "name": "serbia", "value": _serbia2.default }, { "name": "german", "value": _german2.default }, { "name": "china", "value": _china2.default }, { "name": "southAfrica", "value": _southAfrica2.default }, { "name": "tanzania", "value": _tanzania2.default }, { "name": "russia", "value": _russia2.default }];
-  },
-  getFlagsMusic: function getFlagsMusic() {
-    return [{ "name": "french", "value": _french2.default }, { "name": "english", "value": _english2.default }, { "name": "india", "value": _india2.default }, { "name": "brasil", "value": _brasil2.default }, { "name": "italy", "value": _italy2.default }, { "name": "spanish", "value": _spanish2.default }, { "name": "serbia", "value": _serbia2.default }, { "name": "german", "value": _german2.default }, { "name": "china", "value": _china2.default }, { "name": "lebanon", "value": _lebanon2.default }, { "name": "ghana", "value": _ghana2.default }, { "name": "russia", "value": _russia2.default }];
-  },
-  tanzaniaColor: _tanzania4.default,
-  spanishColor: _spanish4.default,
-  southColor: _southAfrica4.default,
-  serbiaColor: _serbia4.default,
-  russiaColor: _russia4.default,
-  italyColor: _italy4.default,
-  indiaColor: _india4.default,
-  germanColor: _german4.default,
-  frenchColor: _french4.default,
-  englishColor: _english4.default,
-  chinaColor: _china4.default,
-  brasilColor: _brasil4.default
+	getNavbar: function getNavbar(navbar, sidebar) {
+		return [{ title: navbar[0], subNavbar: [], url: _navbar.HOME }, { title: navbar[1], subNavbar: [], url: _navbar.PRESENTATION }, {
+			title: navbar[2], subNavbar: [{ title: sidebar[0], url: _sidebar.SONG }, { title: sidebar[1], url: _sidebar.COLORNUMBER }, { title: sidebar[2], url: _sidebar.COOKER }, { title: sidebar[3], url: _sidebar.PRESENTATIONSIDEBAR }]
+		}, { title: navbar[3], subNavbar: [], url: _navbar.CONTACT }];
+	},
+	getSidebar: function getSidebar(sidebar) {
+		return [{
+			title: sidebar[0],
+			image: _pipiletSong2.default,
+			alt: 'pipilet-song',
+			url: _sidebar.SONG
+		}, {
+			title: sidebar[1],
+			image: _pipiletNumberColor2.default,
+			alt: 'pipilet-color-number',
+			url: _sidebar.COLORNUMBER
+		}, {
+			title: sidebar[2],
+			image: _pipiletCooker2.default,
+			alt: 'pipilet-cooker',
+			url: _sidebar.COOKER
+		}, {
+			title: sidebar[3],
+			image: _pipiletDescription2.default,
+			alt: 'pipilet-presentation',
+			url: _sidebar.PRESENTATIONSIDEBAR
+		}];
+	},
+	getFlags: function getFlags() {
+		return [{ name: 'french', value: _french2.default }, { name: 'english', value: _english2.default }, { name: 'india', value: _india2.default }, { name: 'brasil', value: _brasil2.default }, { name: 'italy', value: _italy2.default }, { name: 'spanish', value: _spanish2.default }, { name: 'serbia', value: _serbia2.default }, { name: 'german', value: _german2.default }, { name: 'china', value: _china2.default }, { name: 'southAfrica', value: _southAfrica2.default }, { name: 'tanzania', value: _tanzania2.default }, { name: 'russia', value: _russia2.default }];
+	},
+	getFlagsMusic: function getFlagsMusic() {
+		return [{ name: 'french', value: _french2.default }, { name: 'english', value: _english2.default }, { name: 'india', value: _india2.default }, { name: 'brasil', value: _brasil2.default }, { name: 'italy', value: _italy2.default }, { name: 'spanish', value: _spanish2.default }, { name: 'serbia', value: _serbia2.default }, { name: 'german', value: _german2.default }, { name: 'china', value: _china2.default }, { name: 'lebanon', value: _lebanon2.default }, { name: 'ghana', value: _ghana2.default }, { name: 'russia', value: _russia2.default }];
+	},
+	tanzaniaColor: _tanzania4.default,
+	spanishColor: _spanish4.default,
+	southColor: _southAfrica4.default,
+	serbiaColor: _serbia4.default,
+	russiaColor: _russia4.default,
+	italyColor: _italy4.default,
+	indiaColor: _india4.default,
+	germanColor: _german4.default,
+	frenchColor: _french4.default,
+	englishColor: _english4.default,
+	chinaColor: _china4.default,
+	brasilColor: _brasil4.default
 };
 exports.default = _default;
 ;
 
 var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/information.js');
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/information.js');
 }();
 
 ;
@@ -1532,7 +1532,7 @@ module.exports = __webpack_require__.p + "8399e25c6574ce55ee85c18c353c6a69.jpg";
 /* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "d3441b62b542db8128625f3e669794c1.jpg";
+module.exports = __webpack_require__.p + "9fce98a3f51bdb7fa3fa40cfa6b50b63.jpg";
 
 /***/ }),
 /* 53 */
@@ -1656,7 +1656,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 
 var _brasil_draw = __webpack_require__(373);
@@ -1666,24 +1666,24 @@ var _brasil_draw2 = _interopRequireDefault(_brasil_draw);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _default = {
-  "id": "brasil",
-  "colors": ["VERMELHO", "AMARELO", "BRANCO", "AZUL", "LARANJA", "VERDE", "PRETO", "MARROM", "ROXO", "ROSA"],
-  "game": {
-    "subTitle": "SOPA DE LETRAS",
-    "words": ["Amarelo ", "Preto ", "Rosa ", "Verde ", "Marrom ", "Vermelho ", "Laranja ", "Branco "],
-    "grid": [["v", "e", "r", "d", "e", "p", "a"], ["e", "v", "t", "r", "e", "l", "m"], ["r", "e", "p", "r", "e", "t", "o"], ["m", "t", "t", "o", "s", "o", "r"], ["e", "z", "x", "s", "a", "l", "r"], ["l", "a", "r", "a", "n", "j", "a"], ["h", "o", "p", "c", "e", "i", "m"], ["o", "c", "n", "a", "r", "b", "h"], ["a", "m", "a", "r", "e", "l", "o"]]
-  },
-  "drawing": [_brasil_draw2.default]
+	id: 'brasil',
+	colors: ['VERMELHO', 'AMARELO', 'BRANCO', 'AZUL', 'LARANJA', 'VERDE', 'PRETO', 'MARROM', 'ROXO', 'ROSA'],
+	game: {
+		subTitle: 'SOPA DE LETRAS',
+		words: ['Amarelo ', 'Preto ', 'Rosa ', 'Verde ', 'Marrom ', 'Vermelho ', 'Laranja ', 'Branco '],
+		grid: [['v', 'e', 'r', 'd', 'e', 'p', 'a'], ['e', 'v', 't', 'r', 'e', 'l', 'm'], ['r', 'e', 'p', 'r', 'e', 't', 'o'], ['m', 't', 't', 'o', 's', 'o', 'r'], ['e', 'z', 'x', 's', 'a', 'l', 'r'], ['l', 'a', 'r', 'a', 'n', 'j', 'a'], ['h', 'o', 'p', 'c', 'e', 'i', 'm'], ['o', 'c', 'n', 'a', 'r', 'b', 'h'], ['a', 'm', 'a', 'r', 'e', 'l', 'o']]
+	},
+	drawing: [_brasil_draw2.default]
 };
 exports.default = _default;
 ;
 
 var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/brasil/index.js");
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/brasil/index.js');
 }();
 
 ;
@@ -1696,7 +1696,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 
 var _china_draw_ = __webpack_require__(375);
@@ -1710,20 +1710,20 @@ var _china_draw_4 = _interopRequireDefault(_china_draw_3);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _default = {
-  "id": "china",
-  "colors": ["红", "黄", "白", "蓝", "橙", "绿", "黑", "棕", "紫", "粉红"],
-  "write": ["Hong", "Huang", "Bai", "Lan", "Chen", "Lü", "Hei", "Zong", "Zi", "Fen hong"],
-  "drawing": [_china_draw_2.default, _china_draw_4.default]
+	id: 'china',
+	colors: ['红', '黄', '白', '蓝', '橙', '绿', '黑', '棕', '紫', '粉红'],
+	write: ['Hong', 'Huang', 'Bai', 'Lan', 'Chen', 'Lü', 'Hei', 'Zong', 'Zi', 'Fen hong'],
+	drawing: [_china_draw_2.default, _china_draw_4.default]
 };
 exports.default = _default;
 ;
 
 var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/china/index.js');
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/china/index.js');
 }();
 
 ;
@@ -1736,7 +1736,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 
 var _english_draw = __webpack_require__(377);
@@ -1746,24 +1746,24 @@ var _english_draw2 = _interopRequireDefault(_english_draw);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _default = {
-  "id": "english",
-  "colors": ["RED", "YELLOW", "WHITE", "BLUE", "ORANGE", "GREEN", "BLACK", "BROWN", "PURPLE", "PINK"],
-  "game": {
-    "subTitle": "MIX",
-    "words": ["Yellow", "Black", "Pink", "Green", "Brown", "Red", "Orange", "White"],
-    "grid": [["w", "k", "c", "a", "l", "b", "o"], ["h", "t", "e", "o", "d", "e", "r"], ["i", "m", "e", "i", "k", "z", "a"], ["t", "e", "k", "l", "j", "e", "n"], ["e", "r", "n", "e", "e", "r", "g"], ["b", "p", "i", "o", "n", "c", "e"], ["r", "e", "p", "a", "m", "d", "s"], ["o", "n", "w", "o", "r", "b", "s"], ["y", "e", "l", "l", "o", "w", "t"]]
-  },
-  "drawing": [_english_draw2.default]
+	id: 'english',
+	colors: ['RED', 'YELLOW', 'WHITE', 'BLUE', 'ORANGE', 'GREEN', 'BLACK', 'BROWN', 'PURPLE', 'PINK'],
+	game: {
+		subTitle: 'MIX',
+		words: ['Yellow', 'Black', 'Pink', 'Green', 'Brown', 'Red', 'Orange', 'White'],
+		grid: [['w', 'k', 'c', 'a', 'l', 'b', 'o'], ['h', 't', 'e', 'o', 'd', 'e', 'r'], ['i', 'm', 'e', 'i', 'k', 'z', 'a'], ['t', 'e', 'k', 'l', 'j', 'e', 'n'], ['e', 'r', 'n', 'e', 'e', 'r', 'g'], ['b', 'p', 'i', 'o', 'n', 'c', 'e'], ['r', 'e', 'p', 'a', 'm', 'd', 's'], ['o', 'n', 'w', 'o', 'r', 'b', 's'], ['y', 'e', 'l', 'l', 'o', 'w', 't']]
+	},
+	drawing: [_english_draw2.default]
 };
 exports.default = _default;
 ;
 
 var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/english/index.js");
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/english/index.js');
 }();
 
 ;
@@ -1776,7 +1776,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 
 var _french_draw = __webpack_require__(378);
@@ -1786,24 +1786,24 @@ var _french_draw2 = _interopRequireDefault(_french_draw);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _default = {
-  "id": "french",
-  "colors": ["ROUGE", "JAUNE", "BLANC", "BLEU", "ORANGE", "VERT", "NOIR", "MARRON", "VIOLET", "ROSE"],
-  "game": {
-    "subTitle": "MOTS MELANGÉS",
-    "words": ["Jaune", "Noir", "Rose", "Vert", "Marron", "Rouge", "Orange", "Blanc"],
-    "grid": [["P", "C", "E", "I", "V", "V", "R"], ["J", "A", "U", "N", "E", "O", "O"], ["T", "H", "T", "O", "R", "S", "U"], ["M", "G", "P", "I", "T", "H", "G"], ["E", "S", "O", "R", "Y", "R", "E"], ["X", "B", "L", "A", "N", "C", "T"], ["Z", "T", "O", "S", "P", "R", "U"], ["A", "M", "A", "R", "R", "O", "N"], ["O", "R", "A", "N", "G", "E", "S"]]
-  },
-  "drawing": [_french_draw2.default]
+	id: 'french',
+	colors: ['ROUGE', 'JAUNE', 'BLANC', 'BLEU', 'ORANGE', 'VERT', 'NOIR', 'MARRON', 'VIOLET', 'ROSE'],
+	game: {
+		subTitle: 'MOTS MELANGÉS',
+		words: ['Jaune', 'Noir', 'Rose', 'Vert', 'Marron', 'Rouge', 'Orange', 'Blanc'],
+		grid: [['P', 'C', 'E', 'I', 'V', 'V', 'R'], ['J', 'A', 'U', 'N', 'E', 'O', 'O'], ['T', 'H', 'T', 'O', 'R', 'S', 'U'], ['M', 'G', 'P', 'I', 'T', 'H', 'G'], ['E', 'S', 'O', 'R', 'Y', 'R', 'E'], ['X', 'B', 'L', 'A', 'N', 'C', 'T'], ['Z', 'T', 'O', 'S', 'P', 'R', 'U'], ['A', 'M', 'A', 'R', 'R', 'O', 'N'], ['O', 'R', 'A', 'N', 'G', 'E', 'S']]
+	},
+	drawing: [_french_draw2.default]
 };
 exports.default = _default;
 ;
 
 var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/french/index.js");
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/french/index.js');
 }();
 
 ;
@@ -1816,7 +1816,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 
 var _german_draw = __webpack_require__(379);
@@ -1826,24 +1826,24 @@ var _german_draw2 = _interopRequireDefault(_german_draw);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _default = {
-  "id": "german",
-  "colors": ["ROT", "GELB", "WEIiß", "BLAU", "ORANGE", "GRÜN", "SCHWARZ", "BRAUN", "FUSCHIA", "ROSA"],
-  "game": {
-    "subTitle": "WORTSUCHE",
-    "words": ["Gelb", "Schwar", "Rosa", "Grün", "Braun", "Rot", "Orange", "Weliß"],
-    "grid": [["s", "a", "t", "e", "f", "t", "m"], ["c", "g", "e", "l", "b", "h", "t"], ["h", "r", "m", "s", "r", "o", "t"], ["w", "ü", "b", "c", "a", "r", "e"], ["a", "n", "l", "m", "u", "a", "n"], ["r", "o", "s", "a", "n", "n", "a"], ["z", "l", "p", "a", "t", "g", "s"], ["m", "a", "r", "i", "a", "e", "g"], ["l", "a", "ß", "i", "l", "e", "w"]]
-  },
-  "drawing": [_german_draw2.default]
+	id: 'german',
+	colors: ['ROT', 'GELB', 'WEIiß', 'BLAU', 'ORANGE', 'GRÜN', 'SCHWARZ', 'BRAUN', 'FUSCHIA', 'ROSA'],
+	game: {
+		subTitle: 'WORTSUCHE',
+		words: ['Gelb', 'Schwar', 'Rosa', 'Grün', 'Braun', 'Rot', 'Orange', 'Weliß'],
+		grid: [['s', 'a', 't', 'e', 'f', 't', 'm'], ['c', 'g', 'e', 'l', 'b', 'h', 't'], ['h', 'r', 'm', 's', 'r', 'o', 't'], ['w', 'ü', 'b', 'c', 'a', 'r', 'e'], ['a', 'n', 'l', 'm', 'u', 'a', 'n'], ['r', 'o', 's', 'a', 'n', 'n', 'a'], ['z', 'l', 'p', 'a', 't', 'g', 's'], ['m', 'a', 'r', 'i', 'a', 'e', 'g'], ['l', 'a', 'ß', 'i', 'l', 'e', 'w']]
+	},
+	drawing: [_german_draw2.default]
 };
 exports.default = _default;
 ;
 
 var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/german/index.js");
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/german/index.js');
 }();
 
 ;
@@ -1856,7 +1856,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 
 var _india_draw_ = __webpack_require__(381);
@@ -1870,21 +1870,21 @@ var _india_draw_4 = _interopRequireDefault(_india_draw_3);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _default = {
-  "id": "india",
-  "subTitle": "Se escribe",
-  "colors": ["लखल", "पपलख", "सफवद", "नपलख", "नखरहगप", "गपन", "कखलख", "भभरख", "बगनपब", "गगलखबप"],
-  "write": ["laal", "peela", "saphed", "neela", "naarangee", "green", "kaala", "bhoora", "bainganee", "gulaabee"],
-  "drawing": [_india_draw_2.default, _india_draw_4.default]
+	id: 'india',
+	subTitle: 'Se escribe',
+	colors: ['लखल', 'पपलख', 'सफवद', 'नपलख', 'नखरहगप', 'गपन', 'कखलख', 'भभरख', 'बगनपब', 'गगलखबप'],
+	write: ['laal', 'peela', 'saphed', 'neela', 'naarangee', 'green', 'kaala', 'bhoora', 'bainganee', 'gulaabee'],
+	drawing: [_india_draw_2.default, _india_draw_4.default]
 };
 exports.default = _default;
 ;
 
 var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/india/index.js');
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/india/index.js');
 }();
 
 ;
@@ -1897,7 +1897,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 
 var _italy_draw = __webpack_require__(383);
@@ -1907,24 +1907,24 @@ var _italy_draw2 = _interopRequireDefault(_italy_draw);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _default = {
-  "id": "italy",
-  "colors": ["ROSSO", "GIALLO", "BIANCO", "AZZURRO", "ARANCIONE", "VERDE", "NERO", "MARRONE", "VIOLA", "ROSA"],
-  "game": {
-    "subTitle": "ZUPPA DI PAROLE",
-    "words": ["Giallo", "Nero", "Rosa", "Verde", "Marrone", "Rosso", "Arancione", "Bianco"],
-    "grid": [["p", "a", "c", "n", "a", "i", "b"], ["i", "r", "o", "s", "a", "n", "l"], ["e", "a", "r", "l", "t", "g", "r"], ["n", "n", "e", "p", "j", "i", "t"], ["o", "c", "n", "i", "s", "a", "e"], ["r", "i", "t", "u", "s", "l", "d"], ["r", "o", "s", "s", "o", "l", "r"], ["a", "n", "f", "a", "v", "o", "e"], ["m", "e", "m", "o", "x", "w", "v"]]
-  },
-  "drawing": [_italy_draw2.default]
+	id: 'italy',
+	colors: ['ROSSO', 'GIALLO', 'BIANCO', 'AZZURRO', 'ARANCIONE', 'VERDE', 'NERO', 'MARRONE', 'VIOLA', 'ROSA'],
+	game: {
+		subTitle: 'ZUPPA DI PAROLE',
+		words: ['Giallo', 'Nero', 'Rosa', 'Verde', 'Marrone', 'Rosso', 'Arancione', 'Bianco'],
+		grid: [['p', 'a', 'c', 'n', 'a', 'i', 'b'], ['i', 'r', 'o', 's', 'a', 'n', 'l'], ['e', 'a', 'r', 'l', 't', 'g', 'r'], ['n', 'n', 'e', 'p', 'j', 'i', 't'], ['o', 'c', 'n', 'i', 's', 'a', 'e'], ['r', 'i', 't', 'u', 's', 'l', 'd'], ['r', 'o', 's', 's', 'o', 'l', 'r'], ['a', 'n', 'f', 'a', 'v', 'o', 'e'], ['m', 'e', 'm', 'o', 'x', 'w', 'v']]
+	},
+	drawing: [_italy_draw2.default]
 };
 exports.default = _default;
 ;
 
 var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/italy/index.js");
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/italy/index.js');
 }();
 
 ;
@@ -1937,7 +1937,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 
 var _russia_draw_ = __webpack_require__(388);
@@ -1951,21 +1951,21 @@ var _russia_draw_4 = _interopRequireDefault(_russia_draw_3);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _default = {
-  "id": "russia",
-  "subTitle": "Se escribe",
-  "colors": ["красный", "желтый", "белый", "синий", "оранжевый", "зеленый", "черный", "коричневый", "фиолетовый", "мальваva]"],
-  "write": ["krasnyy", "zheltyy", "belyy", "siniy", "oranzhevyy", "zelenyy", "chernyy", "korichnevyy", "fioletovyy", "mal"],
-  "drawing": [_russia_draw_2.default, _russia_draw_4.default]
+	id: 'russia',
+	subTitle: 'Se escribe',
+	colors: ['красный', 'желтый', 'белый', 'синий', 'оранжевый', 'зеленый', 'черный', 'коричневый', 'фиолетовый', 'мальваva]'],
+	write: ['krasnyy', 'zheltyy', 'belyy', 'siniy', 'oranzhevyy', 'zelenyy', 'chernyy', 'korichnevyy', 'fioletovyy', 'mal'],
+	drawing: [_russia_draw_2.default, _russia_draw_4.default]
 };
 exports.default = _default;
 ;
 
 var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/russia/index.js');
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/russia/index.js');
 }();
 
 ;
@@ -1978,7 +1978,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 
 var _serb_draw_ = __webpack_require__(390);
@@ -1992,21 +1992,21 @@ var _serb_draw_4 = _interopRequireDefault(_serb_draw_3);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _default = {
-  "id": "serbia",
-  "subTitle": "Se escribe",
-  "colors": ["Црвена", "Жута", "Бела", "Плава", "Наранђаста", "Зелена", "Црна", "Браон", "Љубичаста", "Розе"],
-  "write": ["Tsrvena", "Juta como la « je » francesa.", "Bela", "Plava", "Narandjasta", "Zelena", "Crna", "Braon", "Ljubitchasta", "Roze"],
-  "drawing": [_serb_draw_2.default, _serb_draw_4.default]
+	id: 'serbia',
+	subTitle: 'Se escribe',
+	colors: ['Црвена', 'Жута', 'Бела', 'Плава', 'Наранђаста', 'Зелена', 'Црна', 'Браон', 'Љубичаста', 'Розе'],
+	write: ['Tsrvena', 'Juta como la « je » francesa.', 'Bela', 'Plava', 'Narandjasta', 'Zelena', 'Crna', 'Braon', 'Ljubitchasta', 'Roze'],
+	drawing: [_serb_draw_2.default, _serb_draw_4.default]
 };
 exports.default = _default;
 ;
 
 var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/serbia/index.js');
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/serbia/index.js');
 }();
 
 ;
@@ -2019,7 +2019,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 
 var _arab_draw_ = __webpack_require__(369);
@@ -2033,20 +2033,20 @@ var _arab_draw_4 = _interopRequireDefault(_arab_draw_3);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _default = {
-  "id": "arab",
-  "colors": ["أحمر", "أصفر", "أبىض", "أزرق", "البرتقالي", "أخضر", "أسود", "البني", "بنفسجي", "وردي"],
-  "write": ["ahmar", "asfar", "ibyad", "azrak", "Al bourtoukali", "Akhdar (k+h= Jotta Spanish)", "Aswad", "Bouni", "Banafsaji", "wardi"],
-  "drawing": [_arab_draw_2.default, _arab_draw_4.default]
+	id: 'arab',
+	colors: ['أحمر', 'أصفر', 'أبىض', 'أزرق', 'البرتقالي', 'أخضر', 'أسود', 'البني', 'بنفسجي', 'وردي'],
+	write: ['ahmar', 'asfar', 'ibyad', 'azrak', 'Al bourtoukali', 'Akhdar (k+h= Jotta Spanish)', 'Aswad', 'Bouni', 'Banafsaji', 'wardi'],
+	drawing: [_arab_draw_2.default, _arab_draw_4.default]
 };
 exports.default = _default;
 ;
 
 var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/south-africa/index.js');
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/south-africa/index.js');
 }();
 
 ;
@@ -2059,7 +2059,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 
 var _spanish_draw = __webpack_require__(392);
@@ -2069,24 +2069,24 @@ var _spanish_draw2 = _interopRequireDefault(_spanish_draw);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _default = {
-  "id": "spanish",
-  "colors": ["ROJO", "AMARILLO", "BLANCO", "AZUL", "NARANJA", "VERDE", "NEGGRO", "MARRÓN", "VIOLETA", "ROSA"],
-  "game": {
-    "subTitle": "SOPA DE LETRAS",
-    "words": ["Amarillo", "Negro", "Rosa", "Verde", "Marrón", "Rojo", "Naranja", "Blanco"],
-    "grid": [["n", "a", "r", "a", "n", "j", "a"], ["b", "n", "o", "r", "r", "a", "m"], ["t", "l", "s", "t", "x", "z", "a"], ["v", "a", "a", "y", "ñ", "s", "r"], ["e", "k", "t", "n", "q", "r", "i"], ["r", "m", "o", "e", "c", "h", "l"], ["d", "a", "l", "g", "r", "o", "l"], ["e", "v", "e", "r", "d", "e", "o"], ["p", "o", "j", "o", "r", "s", "a"]]
-  },
-  "drawing": [_spanish_draw2.default]
+	id: 'spanish',
+	colors: ['ROJO', 'AMARILLO', 'BLANCO', 'AZUL', 'NARANJA', 'VERDE', 'NEGRO', 'MARRÓN', 'VIOLETA', 'ROSA'],
+	game: {
+		subTitle: 'SOPA DE LETRAS',
+		words: ['Amarillo', 'Negro', 'Rosa', 'Verde', 'Marrón', 'Rojo', 'Naranja', 'Blanco'],
+		grid: [['n', 'a', 'r', 'a', 'n', 'j', 'a'], ['b', 'n', 'o', 'r', 'r', 'a', 'm'], ['t', 'l', 's', 't', 'x', 'z', 'a'], ['v', 'a', 'a', 'y', 'ñ', 's', 'r'], ['e', 'k', 't', 'n', 'q', 'r', 'i'], ['r', 'm', 'o', 'e', 'c', 'h', 'l'], ['d', 'a', 'l', 'g', 'r', 'o', 'l'], ['e', 'v', 'e', 'r', 'd', 'e', 'o'], ['p', 'o', 'j', 'o', 'r', 's', 'a']]
+	},
+	drawing: [_spanish_draw2.default]
 };
 exports.default = _default;
 ;
 
 var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/spanish/index.js");
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/spanish/index.js');
 }();
 
 ;
@@ -2099,7 +2099,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 
 var _tanzanie_draw = __webpack_require__(393);
@@ -2109,24 +2109,24 @@ var _tanzanie_draw2 = _interopRequireDefault(_tanzanie_draw);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _default = {
-  "id": "tanzania",
-  "colors": ["Buluu", "Njano", "Eupe", "Bluu", "Machungwa", "Kiyani", "Eusi", "Hadharan/Hanja", "Violet", "Waridi"],
-  "game": {
-    "subTitle": "SOPA DE LETRAS",
-    "words": ["Njano", "Eusi", "Waridi", "Kiyani", "Hadharan", "Buluu", "Machungwa", "Eupe"],
-    "grid": [["I", "N", "A", "Y", "I", "K", "A"], ["T", "G", "M", "E", "T", "H", "W"], ["U", "K", "B", "O", "T", "A", "G"], ["X", "M", "U", "E", "W", "D", "N"], ["I", "O", "L", "I", "A", "H", "U"], ["S", "E", "U", "A", "R", "A", "H"], ["U", "A", "U", "Z", "I", "R", "C"], ["E", "U", "P", "R", "D", "A", "A"], ["O", "N", "A", "J", "I", "N", "M"]]
-  },
-  "drawing": [_tanzanie_draw2.default]
+	'id': 'tanzania',
+	'colors': ['Buluu', 'Njano', 'Eupe', 'Bluu', 'Machungwa', 'Kiyani', 'Eusi', 'Hadharan/Hanja', 'Violet', 'Waridi'],
+	'game': {
+		'subTitle': 'SOPA DE LETRAS',
+		'words': ['Njano', 'Eusi', 'Waridi', 'Kiyani', 'Hadharan', 'Buluu', 'Machungwa', 'Eupe'],
+		'grid': [['I', 'N', 'A', 'Y', 'I', 'K', 'A'], ['T', 'G', 'M', 'E', 'T', 'H', 'W'], ['U', 'K', 'B', 'O', 'T', 'A', 'G'], ['X', 'M', 'U', 'E', 'W', 'D', 'N'], ['I', 'O', 'L', 'I', 'A', 'H', 'U'], ['S', 'E', 'U', 'A', 'R', 'A', 'H'], ['U', 'A', 'U', 'Z', 'I', 'R', 'C'], ['E', 'U', 'P', 'R', 'D', 'A', 'A'], ['O', 'N', 'A', 'J', 'I', 'N', 'M']]
+	},
+	'drawing': [_tanzanie_draw2.default]
 };
 exports.default = _default;
 ;
 
 var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/tanzania/index.js");
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/tanzania/index.js');
 }();
 
 ;
@@ -5758,7 +5758,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -5776,36 +5776,38 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var initialState = _extends({}, _websiteLanguages2.default[0]);
 
 function ChooseLanguage() {
-  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialState;
-  var action = arguments[1];
+	var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialState;
+	var action = arguments[1];
 
-  switch (action.type) {
-    case _language.CHANGE_LANGUAGE:
-      {
-        var language = {};
+	switch (action.type) {
+		case _language.CHANGE_LANGUAGE:
+			{
+				var language = {};
 
-        _websiteLanguages2.default.forEach(function (item) {
-          if (item.lan === action.country) language = item;
-        });
-        return _extends({}, language);
-      };
+				_websiteLanguages2.default.forEach(function (item) {
+					if (item.lan === action.country) {
+						language = item;
+					}
+				});
+				return _extends({}, language);
+			}
 
-    default:
-      {
-        return state;
-      }
-  }
+		default:
+			{
+				return state;
+			}
+	}
 }
 ;
 
 var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
 
-  __REACT_HOT_LOADER__.register(ChooseLanguage, 'ChooseLanguage', '/Users/mavrickduchamp/Documents/pipiletMandala/src/reducers/chooseLanguage.js');
+	__REACT_HOT_LOADER__.register(ChooseLanguage, 'ChooseLanguage', '/Users/mavrickduchamp/Documents/pipiletMandala/src/reducers/chooseLanguage.js');
 
-  __REACT_HOT_LOADER__.register(initialState, 'initialState', '/Users/mavrickduchamp/Documents/pipiletMandala/src/reducers/chooseLanguage.js');
+	__REACT_HOT_LOADER__.register(initialState, 'initialState', '/Users/mavrickduchamp/Documents/pipiletMandala/src/reducers/chooseLanguage.js');
 }();
 
 ;
@@ -6023,7 +6025,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 
 var _react = __webpack_require__(0);
@@ -6055,46 +6057,44 @@ __webpack_require__(326);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var ColorNumber = function ColorNumber(_ref) {
-  var titleColor = _ref.titleColor,
-      imageColor = _ref.imageColor,
-      titleNumber = _ref.titleNumber,
-      imageNumber = _ref.imageNumber;
-
-
-  return _react2.default.createElement(
-    'div',
-    { id: 'wrapper-colornumber' },
-    _react2.default.createElement(_headerPage2.default, { title: titleColor, logo: _pipiletNumberColor2.default }),
-    _react2.default.createElement(
-      'div',
-      { className: 'wrapper-all-image' },
-      _react2.default.createElement(
-        _Link2.default,
-        { to: '/color' },
-        _react2.default.createElement('img', { src: imageColor })
-      )
-    ),
-    _react2.default.createElement(_headerPage2.default, { title: titleNumber, logo: _pipiletNumberColor2.default }),
-    _react2.default.createElement(
-      'div',
-      { className: 'wrapper-all-image' },
-      _react2.default.createElement(
-        _Link2.default,
-        { to: '/number' },
-        _react2.default.createElement('img', { src: imageNumber })
-      )
-    ),
-    _react2.default.createElement(_footer2.default, null)
-  );
+	var titleColor = _ref.titleColor,
+	    imageColor = _ref.imageColor,
+	    titleNumber = _ref.titleNumber,
+	    imageNumber = _ref.imageNumber;
+	return _react2.default.createElement(
+		'div',
+		{ id: 'wrapper-colornumber' },
+		_react2.default.createElement(_headerPage2.default, { title: titleColor, logo: _pipiletNumberColor2.default }),
+		_react2.default.createElement(
+			'div',
+			{ className: 'wrapper-all-image' },
+			_react2.default.createElement(
+				_Link2.default,
+				{ to: '/color' },
+				_react2.default.createElement('img', { src: imageColor })
+			)
+		),
+		_react2.default.createElement(_headerPage2.default, { title: titleNumber, logo: _pipiletNumberColor2.default }),
+		_react2.default.createElement(
+			'div',
+			{ className: 'wrapper-all-image' },
+			_react2.default.createElement(
+				_Link2.default,
+				{ to: '/number' },
+				_react2.default.createElement('img', { src: imageNumber })
+			)
+		),
+		_react2.default.createElement(_footer2.default, null)
+	);
 };
 
 var mapStateToProps = function mapStateToProps(state) {
-  return {
-    titleColor: state.ChooseLanguage.colorNumberContent.titleColor,
-    imageColor: state.ChooseLanguage.colorNumberContent.imageColor,
-    titleNumber: state.ChooseLanguage.colorNumberContent.titleNumber,
-    imageNumber: state.ChooseLanguage.colorNumberContent.imageNumber
-  };
+	return {
+		titleColor: state.ChooseLanguage.colorNumberContent.titleColor,
+		imageColor: state.ChooseLanguage.colorNumberContent.imageColor,
+		titleNumber: state.ChooseLanguage.colorNumberContent.titleNumber,
+		imageNumber: state.ChooseLanguage.colorNumberContent.imageNumber
+	};
 };
 
 var _default = (0, _connect2.default)(mapStateToProps)(ColorNumber);
@@ -6103,15 +6103,15 @@ exports.default = _default;
 ;
 
 var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
 
-  __REACT_HOT_LOADER__.register(ColorNumber, 'ColorNumber', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-number-page/color-number-page.jsx');
+	__REACT_HOT_LOADER__.register(ColorNumber, 'ColorNumber', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-number-page/color-number-page.jsx');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-number-page/color-number-page.jsx');
+	__REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-number-page/color-number-page.jsx');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-number-page/color-number-page.jsx');
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-number-page/color-number-page.jsx');
 }();
 
 ;
@@ -6124,7 +6124,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 
 var _react = __webpack_require__(0);
@@ -6152,22 +6152,23 @@ __webpack_require__(327);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var ColorPage = function ColorPage(_ref) {
-  var titleColor = _ref.titleColor,
-      imageColor = _ref.imageColor;
+	var titleColor = _ref.titleColor,
+	    imageColor = _ref.imageColor;
 
-  return _react2.default.createElement(
-    'div',
-    { id: 'wrapper-color-page' },
-    _react2.default.createElement(_section2.default, { path: '/color', image: imageColor, title: titleColor, logo: _pipiletNumberColor2.default, extraClassName: 'color' }),
-    _react2.default.createElement(_footer2.default, null)
-  );
+	return _react2.default.createElement(
+		'div',
+		{ id: 'wrapper-color-page' },
+		_react2.default.createElement(_section2.default, { path: '/color', image: imageColor, title: titleColor,
+			logo: _pipiletNumberColor2.default, extraClassName: 'color' }),
+		_react2.default.createElement(_footer2.default, null)
+	);
 };
 
 var mapStateToProps = function mapStateToProps(state) {
-  return {
-    titleColor: state.ChooseLanguage.colorPageContent.titleColor,
-    imageColor: state.ChooseLanguage.colorPageContent.owls
-  };
+	return {
+		titleColor: state.ChooseLanguage.colorPageContent.titleColor,
+		imageColor: state.ChooseLanguage.colorPageContent.owls
+	};
 };
 
 var _default = (0, _connect2.default)(mapStateToProps)(ColorPage);
@@ -6176,15 +6177,15 @@ exports.default = _default;
 ;
 
 var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
 
-  __REACT_HOT_LOADER__.register(ColorPage, 'ColorPage', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-page/color-page.jsx');
+	__REACT_HOT_LOADER__.register(ColorPage, 'ColorPage', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-page/color-page.jsx');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-page/color-page.jsx');
+	__REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-page/color-page.jsx');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-page/color-page.jsx');
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-page/color-page.jsx');
 }();
 
 ;
@@ -9217,7 +9218,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 
 var _french = __webpack_require__(61);
@@ -9271,28 +9272,28 @@ var _tanzania2 = _interopRequireDefault(_tanzania);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _default = {
-  french: _french2.default,
-  spanish: _spanish2.default,
-  german: _german2.default,
-  india: _india2.default,
-  english: _english2.default,
-  china: _china2.default,
-  brasil: _brasil2.default,
-  italy: _italy2.default,
-  serbia: _serbia2.default,
-  southAfrica: _southAfrica2.default,
-  russia: _russia2.default,
-  tanzania: _tanzania2.default
+	french: _french2.default,
+	spanish: _spanish2.default,
+	german: _german2.default,
+	india: _india2.default,
+	english: _english2.default,
+	china: _china2.default,
+	brasil: _brasil2.default,
+	italy: _italy2.default,
+	serbia: _serbia2.default,
+	southAfrica: _southAfrica2.default,
+	russia: _russia2.default,
+	tanzania: _tanzania2.default
 };
 exports.default = _default;
 ;
 
 var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/index.js');
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/color/index.js');
 }();
 
 ;
@@ -14439,7 +14440,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 
 var _react = __webpack_require__(0);
@@ -14756,209 +14757,285 @@ var _spanish3 = __webpack_require__(101);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var navbar = ["Home", "Presentation", "Mandala Mandala", "Contact"];
+/* eslint-disable no-unused-vars */
+var navbar = ['Home', 'Presentation', 'Mandala Mandala', 'Contact'];
 
-var sidebar = ["SONGS", "COLORS AND NUMBERS", "PASTRIES", "DO YOU KNOW WHO I AM ?"];
+var sidebar = ['SONGS', 'COLORS AND NUMBERS', 'PASTRIES', 'DO YOU KNOW WHO I AM ?'];
 
 var _default = {
-  "lan": "eng",
-  "navbar": _information2.default.getNavbar(navbar, sidebar),
-  "sidebar": _information2.default.getSidebar(sidebar),
-  "songPageContent": {
-    "title": "SONGS",
-    "language": {
-      "english": "ENGLISH",
-      "arab": "ARABIC",
-      "italy": "ITALIAN",
-      "french": "FRENCH",
-      "german": "GERMAN",
-      "russia": "RUSSIA",
-      "china": "CHINESE",
-      "spanish": "SPANISH",
-      "india": "INDIA",
-      "africa": "SWAHILI",
-      "portugal": "PORTUGUESE",
-      "serbia": "SERBA"
-    },
-    "flag": _information2.default.getFlagsMusic(),
-    "music": [{ "name": "lebanon", "translated-song": _ticTicTic2.default, "original-song": _ticTicTic4.default }, { "name": "ghana", "translated-song": _siMaMaKa2.default, "original-song": _siMaMaKa4.default }, { "name": "china", "translated-song": _twoTigers2.default, "original-song": _twoTigers4.default }, { "name": "german", "translated-song": _winterIsHere2.default, "original-song": _winterIsHere4.default }, { "name": "india", "translated-song": _theWasherman2.default, "original-song": _theWasherman4.default }, { "name": "brasil", "translated-song": _fallFallBallon2.default, "original-song": _fallFallBallon4.default }, { "name": "italy", "translated-song": _springHasCome2.default, "original-song": _springHasCome4.default }, { "name": "french", "translated-song": _onMondayMorning2.default, "original-song": _onMondayMorning4.default }, {
-      "name": "english",
-      "translated-song": _hereWeGoRoundTheMulberryBush2.default,
-      "original-song": _hereWeGoRoundTheMulberryBush4.default
-    }, { "name": "serbia", "translated-song": _itsRainning2.default, "original-song": _itsRainning4.default }, { "name": "russia", "translated-song": _patACake2.default, "original-song": _patACake4.default }, {
-      "name": "spanish",
-      "translated-song": _theCourtyardOfMyHouse2.default,
-      "original-song": _theCourtyardOfMyHouse4.default
-    }]
-  },
-  "colorNumberContent": {
-    "titleColor": "COLORS",
-    "imageColor": _allColorsEng2.default,
-    "titleNumber": "NUMBERS",
-    "imageNumber": _children2.default
-  },
-  "colorPageContent": {
-    "titleColor": "COLORS",
-    "owls": [{
-      image: _owls2.default,
-      countryName: ["french", "india", "spanish", "russia"]
-    }, {
-      image: _owls4.default,
-      countryName: ["german", "serbia", "italy", "china"]
-    }, {
-      image: _owls6.default,
-      countryName: ["english", "tanzania", "brasil", "southAfrica"]
-    }]
-  },
-  "numberPageContent": {
-    "titleNumber": "NUMBERS",
-    "imageNumber": [{
-      image: _children2.default,
-      countryName: ["french", "china", "german", "spanish", "italy", "serbia", "brasil", "india", "english", "tanzania", "russia", "southAfrica"]
-    }]
-  },
-  "colorTranslatedPageContent": {
-    "title": "LEARN COLORS WITH YOUR FRIEND",
-    "rules": ["Under you will find:", "* Mixed words in french with colours as a theme", "* A mandala that you can colour the way you want.", "You are strong no doubt that you will manage!"],
-    "headerFirstColumn": "LEARNS COLORS IN",
-    "originalLanguage": {
-      "id": "english",
-      "name": "ENGLISH",
-      "data": _information2.default.englishColor
-    },
-    "translated": [{
-      "id": "arab",
-      "name": "ARABE",
-      "subTitle": "IS WRITTEN",
-      "subSubTitle": "IT’S PRONOUNCED",
-      "data": _information2.default.southColor,
-      download: _arabe2.default
-    }, { "id": "brasil", "name": "PORTUGUESE", "data": _information2.default.brasilColor, download: _brasil2.default }, {
-      "id": "china",
-      "name": "CHINESE",
-      "subTitle": "IS WRITTEN",
-      "subSubTitle": "IT’S PRONOUNCED",
-      "data": _information2.default.chinaColor,
-      download: _china4.default
-    }, { "id": "english", "name": "ENGLISH", "data": _information2.default.englishColor, download: _china4.default }, { "id": "french", "name": "FRENCH", "data": _information2.default.frenchColor, download: _french2.default }, { "id": "german", "name": "GERMAN", "data": _information2.default.germanColor, download: _german2.default }, {
-      "id": "india",
-      "name": "HINDI",
-      "subTitle": "IS WRITTEN",
-      "subSubTitle": "IT’S PRONOUNCED",
-      "data": _information2.default.indiaColor,
-      download: _india4.default
-    }, { "id": "italy", "name": "ITALIAN", "data": _information2.default.italyColor, download: _italy2.default }, {
-      "id": "russia",
-      "name": "RUSSIAN",
-      "subTitle": "IS WRITTEN",
-      "subSubTitle": "IT’S PRONOUNCED",
-      "data": _information2.default.russiaColor,
-      download: _russia2.default
-    }, {
-      "id": "serbia",
-      "name": "SERBIO",
-      "subTitle": "IS WRITTEN",
-      "subSubTitle": "IT’S PRONOUNCED",
-      "data": _information2.default.serbiaColor,
-      download: _serbia2.default
-    }, { "id": "spanish", "name": "SPANISH", "data": _information2.default.spanishColor, download: _spanish2.default }, { "id": "tanzania", "name": "SWAHILI", "data": _information2.default.tanzaniaColor, download: _swahili2.default }]
-  },
-  "cookerPageContent": {
-    "title": "RECIPES",
-    "description": _react2.default.createElement(
-      'div',
-      null,
-      _react2.default.createElement(
-        'span',
-        { className: 'red' },
-        _react2.default.createElement(
-          'b',
-          null,
-          'YOUR FRIEND'
-        )
-      ),
-      ' MADE THE TOUR ',
-      _react2.default.createElement(
-        'span',
-        {
-          className: 'dodgerblue' },
-        _react2.default.createElement(
-          'b',
-          null,
-          'OF FIVE CONTINENTES'
-        )
-      ),
-      ' AND BROUGHT BACK',
-      _react2.default.createElement(
-        'span',
-        { className: 'green' },
-        _react2.default.createElement(
-          'b',
-          null,
-          'VARIOUS DELICIOUS '
-        )
-      ),
-      '. RECIPES OF ',
-      _react2.default.createElement(
-        'span',
-        { className: 'yellow' },
-        _react2.default.createElement(
-          'b',
-          null,
-          'CONTRIES OF THE WORLD'
-        )
-      )
-    ),
-    "image": _map2.default
-  },
-  "chooseCountryContent": {
-    "america": {
-      "name": "america",
-      "title": "AMERICAN COOKING WORKSHOP",
-      "country": [{ name: "ARGENTINA", type: _pipilet_female2.default, recipe: _argentine2.default }, { name: "BRAZIL", type: _pipilet_male2.default, recipe: _quindim2.default }, { name: "HAITI", type: _pipilet_female2.default, recipe: _haiti2.default }, { name: "CHILE", type: _pipilet_female2.default, recipe: _chilie2.default }, { name: "FRENCH GUIANA", type: _pipilet_male2.default, recipe: _guyane2.default }, { name: "MEXICO", type: _pipilet_female2.default, recipe: _mexique2.default }, { name: "USA", type: _pipilet_female2.default, recipe: _canada2.default }, { name: "CANADA", type: _pipilet_male2.default, recipe: _canada2.default }]
-    },
-    "oceania": {
-      "name": "oceania",
-      "title": "SOUTH SEA ISLANDS COOKING WORKSHOP",
-      "country": [{ name: "AUSTRALIA", type: _pipilet_female2.default, recipe: _alba2.default }, { name: "VANUATU", type: _pipilet_male2.default, recipe: _helado2.default }, { name: "NEW ZEALAND", type: _pipilet_male2.default, recipe: _pavlova2.default }]
-    },
-    "europe": {
-      "name": "europe",
-      "title": "EUROPEAN COOKING WORKSHOP",
-      "country": [{ name: "ENGLAND", type: _pipilet_female2.default, recipe: _fairy_cakes2.default }, { name: "FRANCE", type: _pipilet_male2.default, recipe: _mousseDeChocolate2.default }, { name: "GERMANY", type: _pipilet_female2.default, recipe: _galletaDePascua2.default }, { name: "SPAIN", type: _pipilet_female2.default, recipe: _macedonia2.default }, { name: "ITALY", type: _pipilet_male2.default, recipe: _mouse2.default }, { name: "RUSSIA", type: _pipilet_female2.default, recipe: _manzanasAsadas2.default }, { name: "SERBIE", type: _pipilet_female2.default, recipe: _tarta2.default }]
-    },
-    "africa": {
-      "name": "africa",
-      "title": "TALLER DE COCINA AFRICANA",
-      "country": [{ name: "BENIN", type: _pipilet_female2.default, recipe: _benin2.default }, { name: "KENYA", type: _pipilet_male2.default, recipe: _kenya2.default }, { name: "TUNISIE", type: _pipilet_female2.default, recipe: _tunisie2.default }, { name: "EGYPTE", type: _pipilet_female2.default, recipe: _egypt2.default }, { name: "ALGERIE", type: _pipilet_male2.default, recipe: _algerie2.default }, { name: "MAROC", type: _pipilet_female2.default, recipe: _maroc2.default }, { name: "MADAGASCAR", type: _pipilet_female2.default, recipe: _malagasy2.default }]
-    },
-    "asia": {
-      "name": "asia",
-      "title": "ASIAN COOKING WORKSHOP",
-      "country": [{ name: "JORDAN", type: _pipilet_female2.default, recipe: _jordanie2.default }, { name: "SINGAPORE", type: _pipilet_male2.default, recipe: _singapour2.default }, { name: "VIETNAM", type: _pipilet_female2.default, recipe: _vietnam2.default }, { name: "CHINA", type: _pipilet_female2.default, recipe: _china2.default }, { name: "LEBANON", type: _pipilet_male2.default, recipe: _liban2.default }, { name: "INDIA", type: _pipilet_female2.default, recipe: _india2.default }, { name: "SOUDI ARABIE", type: _pipilet_female2.default, recipe: _maskina2.default }]
-    }
-  },
-  "presentationPageContent": {
-    "image-pipilet": _pipiletDescription2.default,
-    "text": _english.presentation
-  },
-  "WhoarewePageContent": {
-    "whoarewe": _spanish3.whoarewe
-  }
+	lan: 'eng',
+	navbar: _information2.default.getNavbar(navbar, sidebar),
+	sidebar: _information2.default.getSidebar(sidebar),
+	songPageContent: {
+		title: 'SONGS',
+		language: {
+			english: 'ENGLISH',
+			arab: 'ARABIC',
+			italy: 'ITALIAN',
+			french: 'FRENCH',
+			german: 'GERMAN',
+			russia: 'RUSSIA',
+			china: 'CHINESE',
+			spanish: 'SPANISH',
+			india: 'INDIA',
+			africa: 'SWAHILI',
+			portugal: 'PORTUGUESE',
+			serbia: 'SERBA'
+		},
+		flag: _information2.default.getFlagsMusic(),
+		music: [{
+			name: 'lebanon', translatedsong: _ticTicTic2.default,
+			originalsong: _ticTicTic4.default
+		}, {
+			name: 'ghana',
+			translatedsong: _siMaMaKa2.default,
+			originalsong: _siMaMaKa4.default
+		}, {
+			name: 'china',
+			translatedsong: _twoTigers2.default,
+			originalsong: _twoTigers4.default
+		}, {
+			name: 'german',
+			translatedsong: _winterIsHere2.default,
+			originalsong: _winterIsHere4.default
+		}, {
+			name: 'india',
+			translatedsong: _theWasherman2.default,
+			originalsong: _theWasherman4.default
+		}, {
+			name: 'brasil',
+			translatedsong: _fallFallBallon2.default,
+			originalsong: _fallFallBallon4.default
+		}, {
+			name: 'italy',
+			translatedsong: _springHasCome2.default,
+			originalsong: _springHasCome4.default
+		}, {
+			name: 'french',
+			translatedsong: _onMondayMorning2.default,
+			originalsong: _onMondayMorning4.default
+		}, {
+			name: 'english',
+			translatedsong: _hereWeGoRoundTheMulberryBush2.default,
+			originalsong: _hereWeGoRoundTheMulberryBush4.default
+		}, {
+			name: 'serbia',
+			translatedsong: _itsRainning2.default,
+			originalsong: _itsRainning4.default
+		}, {
+			name: 'russia',
+			translatedsong: _patACake2.default,
+			originalsong: _patACake4.default
+		}, {
+			name: 'spanish',
+			translatedsong: _theCourtyardOfMyHouse2.default,
+			originalsong: _theCourtyardOfMyHouse4.default
+		}]
+	},
+	colorNumberContent: {
+		titleColor: 'COLORS',
+		imageColor: _allColorsEng2.default,
+		titleNumber: 'NUMBERS',
+		imageNumber: _children2.default
+	},
+	colorPageContent: {
+		titleColor: 'COLORS',
+		owls: [{
+			image: _owls2.default,
+			countryName: ['french', 'india', 'spanish', 'russia']
+		}, {
+			image: _owls4.default,
+			countryName: ['german', 'serbia', 'italy', 'china']
+		}, {
+			image: _owls6.default,
+			countryName: ['english', 'tanzania', 'brasil', 'southAfrica']
+		}]
+	},
+	numberPageContent: {
+		titleNumber: 'NUMBERS',
+		imageNumber: [{
+			image: _children2.default,
+			countryName: ['french', 'china', 'german', 'spanish', 'italy', 'serbia', 'brasil', 'india', 'english', 'tanzania', 'russia', 'southAfrica']
+		}]
+	},
+	colorTranslatedPageContent: {
+		title: 'LEARN COLORS WITH YOUR FRIEND',
+		rules: ['Under you will find:', '* Mixed words in french with colours as a theme', '* A mandala that you can colour the way you want.', 'You are strong no doubt that you will manage!'],
+		headerFirstColumn: 'LEARNS COLORS IN',
+		originalLanguage: {
+			id: 'english',
+			name: 'ENGLISH',
+			data: _information2.default.englishColor
+		},
+		translated: [{
+			id: 'arab',
+			name: 'ARABE',
+			subTitle: 'IS WRITTEN',
+			subSubTitle: 'IT’S PRONOUNCED',
+			data: _information2.default.southColor,
+			download: _arabe2.default
+		}, {
+			id: 'brasil',
+			name: 'PORTUGUESE',
+			data: _information2.default.brasilColor,
+			download: _brasil2.default
+		}, {
+			id: 'china',
+			name: 'CHINESE',
+			subTitle: 'IS WRITTEN',
+			subSubTitle: 'IT’S PRONOUNCED',
+			data: _information2.default.chinaColor,
+			download: _china4.default
+		}, {
+			id: 'english',
+			name: 'ENGLISH',
+			data: _information2.default.englishColor,
+			download: _china4.default
+		}, {
+			id: 'french',
+			name: 'FRENCH',
+			data: _information2.default.frenchColor,
+			download: _french2.default
+		}, {
+			id: 'german',
+			name: 'GERMAN',
+			data: _information2.default.germanColor,
+			download: _german2.default
+		}, {
+			id: 'india',
+			name: 'HINDI',
+			subTitle: 'IS WRITTEN',
+			subSubTitle: 'IT’S PRONOUNCED',
+			data: _information2.default.indiaColor,
+			download: _india4.default
+		}, {
+			id: 'italy',
+			name: 'ITALIAN',
+			data: _information2.default.italyColor,
+			download: _italy2.default
+		}, {
+			id: 'russia',
+			name: 'RUSSIAN',
+			subTitle: 'IS WRITTEN',
+			subSubTitle: 'IT’S PRONOUNCED',
+			data: _information2.default.russiaColor,
+			download: _russia2.default
+		}, {
+			id: 'serbia',
+			name: 'SERBIO',
+			subTitle: 'IS WRITTEN',
+			subSubTitle: 'IT’S PRONOUNCED',
+			data: _information2.default.serbiaColor,
+			download: _serbia2.default
+		}, {
+			id: 'spanish',
+			name: 'SPANISH',
+			data: _information2.default.spanishColor,
+			download: _spanish2.default
+		}, {
+			id: 'tanzania',
+			name: 'SWAHILI',
+			data: _information2.default.tanzaniaColor,
+			download: _swahili2.default
+		}]
+	},
+	cookerPageContent: {
+		title: 'RECIPES',
+		description: _react2.default.createElement(
+			'div',
+			null,
+			_react2.default.createElement(
+				'span',
+				{ className: 'red' },
+				_react2.default.createElement(
+					'b',
+					null,
+					'YOUR FRIEND'
+				)
+			),
+			' MADE THE TOUR ',
+			_react2.default.createElement(
+				'span',
+				{
+					className: 'dodgerblue' },
+				_react2.default.createElement(
+					'b',
+					null,
+					'OF FIVE CONTINENTES'
+				)
+			),
+			' AND BROUGHT BACK',
+			_react2.default.createElement(
+				'span',
+				{ className: 'green' },
+				_react2.default.createElement(
+					'b',
+					null,
+					'VARIOUS DELICIOUS '
+				)
+			),
+			'. RECIPES OF ',
+			_react2.default.createElement(
+				'span',
+				{
+					className: 'yellow' },
+				_react2.default.createElement(
+					'b',
+					null,
+					'CONTRIES OF THE WORLD'
+				)
+			)
+		),
+		image: _map2.default
+	},
+	chooseCountryContent: {
+		america: {
+			name: 'america',
+			title: 'AMERICAN COOKING WORKSHOP',
+			country: [{ name: 'ARGENTINA', type: _pipilet_female2.default, recipe: _argentine2.default }, { name: 'BRAZIL', type: _pipilet_male2.default, recipe: _quindim2.default }, { name: 'HAITI', type: _pipilet_female2.default, recipe: _haiti2.default }, { name: 'CHILE', type: _pipilet_female2.default, recipe: _chilie2.default }, { name: 'FRENCH GUIANA', type: _pipilet_male2.default, recipe: _guyane2.default }, { name: 'MEXICO', type: _pipilet_female2.default, recipe: _mexique2.default }, { name: 'USA', type: _pipilet_female2.default, recipe: _canada2.default }, { name: 'CANADA', type: _pipilet_male2.default, recipe: _canada2.default }]
+		},
+		oceania: {
+			name: 'oceania',
+			title: 'SOUTH SEA ISLANDS COOKING WORKSHOP',
+			country: [{ name: 'AUSTRALIA', type: _pipilet_female2.default, recipe: _alba2.default }, { name: 'VANUATU', type: _pipilet_male2.default, recipe: _helado2.default }, { name: 'NEW ZEALAND', type: _pipilet_male2.default, recipe: _pavlova2.default }]
+		},
+		europe: {
+			name: 'europe',
+			title: 'EUROPEAN COOKING WORKSHOP',
+			country: [{ name: 'ENGLAND', type: _pipilet_female2.default, recipe: _fairy_cakes2.default }, { name: 'FRANCE', type: _pipilet_male2.default, recipe: _mousseDeChocolate2.default }, { name: 'GERMANY', type: _pipilet_female2.default, recipe: _galletaDePascua2.default }, { name: 'SPAIN', type: _pipilet_female2.default, recipe: _macedonia2.default }, { name: 'ITALY', type: _pipilet_male2.default, recipe: _mouse2.default }, { name: 'RUSSIA', type: _pipilet_female2.default, recipe: _manzanasAsadas2.default }, { name: 'SERBIE', type: _pipilet_female2.default, recipe: _tarta2.default }]
+		},
+		africa: {
+			name: 'africa',
+			title: 'TALLER DE COCINA AFRICANA',
+			country: [{ name: 'BENIN', type: _pipilet_female2.default, recipe: _benin2.default }, { name: 'KENYA', type: _pipilet_male2.default, recipe: _kenya2.default }, { name: 'TUNISIE', type: _pipilet_female2.default, recipe: _tunisie2.default }, { name: 'EGYPTE', type: _pipilet_female2.default, recipe: _egypt2.default }, { name: 'ALGERIE', type: _pipilet_male2.default, recipe: _algerie2.default }, { name: 'MAROC', type: _pipilet_female2.default, recipe: _maroc2.default }, { name: 'MADAGASCAR', type: _pipilet_female2.default, recipe: _malagasy2.default }]
+		},
+		asia: {
+			name: 'asia',
+			title: 'ASIAN COOKING WORKSHOP',
+			country: [{ name: 'JORDAN', type: _pipilet_female2.default, recipe: _jordanie2.default }, { name: 'SINGAPORE', type: _pipilet_male2.default, recipe: _singapour2.default }, { name: 'VIETNAM', type: _pipilet_female2.default, recipe: _vietnam2.default }, { name: 'CHINA', type: _pipilet_female2.default, recipe: _china2.default }, { name: 'LEBANON', type: _pipilet_male2.default, recipe: _liban2.default }, { name: 'INDIA', type: _pipilet_female2.default, recipe: _india2.default }, { name: 'SOUDI ARABIE', type: _pipilet_female2.default, recipe: _maskina2.default }]
+		}
+	},
+	presentationPageContent: {
+		imagepipilet: _pipiletDescription2.default,
+		text: _english.presentation
+	},
+	WhoarewePageContent: {
+		whoarewe: _spanish3.whoarewe
+	}
 };
 exports.default = _default;
 ;
 
 var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
 
-  __REACT_HOT_LOADER__.register(navbar, 'navbar', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/english.js');
+	__REACT_HOT_LOADER__.register(navbar, 'navbar', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/english.js');
 
-  __REACT_HOT_LOADER__.register(sidebar, 'sidebar', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/english.js');
+	__REACT_HOT_LOADER__.register(sidebar, 'sidebar', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/english.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/english.js');
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/english.js');
 }();
 
 ;
@@ -14971,7 +15048,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 
 var _react = __webpack_require__(0);
@@ -15296,166 +15373,285 @@ var _french4 = __webpack_require__(319);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+/* eslint-disable no-unused-vars */
 var navbar = ['Accueil', 'Présentation', 'Mandala Mandala', 'Contact'];
 
 var sidebar = ['LES CHANSONS', 'LES COULEURS ET LES CHIFFRES', 'LES PÂTISSERERIES', 'SAIS-TU QUI JE SUIS ?'];
 
 var _default = {
-  lan: 'fr',
-  navbar: _information2.default.getNavbar(navbar, sidebar),
-  sidebar: _information2.default.getSidebar(sidebar),
-  songPageContent: {
-    title: 'LES CHANSONS',
-    language: {
-      english: 'ANGLAIS',
-      arab: 'ARABE',
-      italy: 'ITALIEN',
-      french: 'FRANÇAIS',
-      german: 'ALLEMAND',
-      russia: 'RUSSE',
-      china: 'CHINOIS',
-      spanish: 'ESPAGNOL',
-      india: 'INDE',
-      africa: 'AFRICAIN',
-      portugal: 'PORTUGAIS',
-      serbia: 'SERBIE'
-    },
-    flag: _information2.default.getFlagsMusic(),
-    music: [{ name: 'lebanon', 'translated-song': _ticTicTic2.default, 'original-song': _ticTicTic4.default }, { name: 'ghana', 'translated-song': _siMaMaKa2.default, 'original-song': _siMaMaKa4.default }, { name: 'china', 'translated-song': _twoTigers2.default, 'original-song': _twoTigers4.default }, { name: 'german', 'translated-song': _winterIsHere2.default, 'original-song': _winterIsHere4.default }, { name: 'india', 'translated-song': _theWasherman2.default, 'original-song': _theWasherman4.default }, { name: 'brasil', 'translated-song': _fallFallBallon2.default, 'original-song': _fallFallBallon4.default }, { name: 'italy', 'translated-song': _springHasCome2.default, 'original-song': _springHasCome4.default }, { name: 'french', 'translated-song': _onMondayMorning2.default, 'original-song': _onMondayMorning4.default }, { name: 'english', 'translated-song': _hereWeGoRoundTheMulberryBush2.default, 'original-song': _hereWeGoRoundTheMulberryBush4.default }, { name: 'serbia', 'translated-song': _itsRainning2.default, 'original-song': _itsRainning4.default }, { name: 'russia', 'translated-song': _patACake2.default, 'original-song': _patACake4.default }, { name: 'spanish', 'translated-song': _theCourtyardOfMyHouse2.default, 'original-song': _theCourtyardOfMyHouse4.default }]
-  },
-  colorNumberContent: {
-    titleColor: 'LES COULEURS',
-    imageColor: _allColorsFr2.default,
-    titleNumber: 'LES NOMBRES',
-    imageNumber: _children2.default
-  },
-  colorPageContent: {
-    titleColor: 'LES COULEURS',
-    owls: [{
-      image: _owls2.default,
-      countryName: ['french', 'india', 'spanish', 'russia']
-    }, {
-      image: _owls4.default,
-      countryName: ['german', 'serbia', 'italy', 'china']
-    }, {
-      image: _owls6.default,
-      countryName: ['english', 'tanzania', 'brasil', 'southAfrica']
-    }]
-  },
-  numberPageContent: {
-    titleNumber: 'LES NOMBRES',
-    imageNumber: [{
-      image: _children2.default,
-      countryName: ['french', 'china', 'german', 'spanish', 'italy', 'serbia', 'brasil', 'india', 'english', 'tanzania', 'russia', 'southAfrica']
-    }]
-  },
-  colorTranslatedPageContent: {
-    title: 'APPREND LES COULEURS AVEC TON AMI',
-    rules: ['En bas tu trouveras:', '* un jeu de mots melangés sur le theme des couleurs', '* un mandala à colorier comme tu veux', 'Tu est fort pas de doute que tu reussiras !'],
-    headerFirstColumn: 'LES COULEURS EN',
-    originalLanguage: {
-      id: 'french',
-      name: 'FRANÇAIS',
-      data: _information2.default.frenchColor
-    },
-    translated: [{ id: 'brasil', name: 'PORTUGAIS', data: _information2.default.brasilColor, download: _brasil2.default }, { id: 'china', name: 'CHINOIS', subTitle: 'S’ÉCRIT', subSubTitle: 'SE PRONONCE', data: _information2.default.chinaColor, download: _china4.default }, { id: 'english', name: 'ANGLAIS', data: _information2.default.englishColor, download: _english2.default }, { id: 'french', name: 'FRANÇAIS', data: _information2.default.frenchColor, download: _french2.default }, { id: 'german', name: 'ALLEMAND', data: _information2.default.germanColor, download: _german2.default }, { id: 'india', name: 'INDIEN', subTitle: 'S’ÉCRIT', subSubTitle: 'SE PRONONCE', data: _information2.default.indiaColor, download: _india4.default }, { id: 'italy', name: 'ITALIEN', data: _information2.default.italyColor, download: _italy2.default }, { id: 'russia', name: 'RUSSE', subTitle: 'S’ÉCRIT', subSubTitle: 'SE PRONONCE', data: _information2.default.russiaColor, download: _russia2.default }, { id: 'serbia', name: 'SERBE', subTitle: 'S’ÉCRIT', subSubTitle: 'SE PRONONCE', data: _information2.default.serbiaColor, download: _serbia2.default }, { id: 'arab', name: 'ARABE', subTitle: 'S’ÉCRIT', subSubTitle: 'SE PRONONCE', data: _information2.default.southColor, download: _arabe2.default }, { id: 'spanish', name: 'ESPAGNOL', data: _information2.default.spanishColor, download: _spanish2.default }, { id: 'tanzania', name: 'SWAHILI', data: _information2.default.tanzaniaColor, download: _swahili2.default }]
-  },
-  cookerPageContent: {
-    title: 'LES RECETTES',
-    description: _react2.default.createElement(
-      'div',
-      null,
-      _react2.default.createElement(
-        'span',
-        { className: 'red' },
-        _react2.default.createElement(
-          'b',
-          null,
-          'TON AMI'
-        )
-      ),
-      ' A FAIT LE TOUR  ',
-      _react2.default.createElement(
-        'span',
-        {
-          className: 'dodgerblue' },
-        _react2.default.createElement(
-          'b',
-          null,
-          'DES CINQ CONTINENTS'
-        )
-      ),
-      ' ET NOT\xC9 DIFF\xC9RENTS ',
-      _react2.default.createElement(
-        'span',
-        { className: 'green' },
-        _react2.default.createElement(
-          'b',
-          null,
-          'RECETTES D\xC9LICIEUSES '
-        )
-      ),
-      '. DE DIFF\xC9RENTS  ',
-      _react2.default.createElement(
-        'span',
-        { className: 'yellow' },
-        _react2.default.createElement(
-          'b',
-          null,
-          'PAYS DU MONDE'
-        )
-      )
-    ),
-    image: _map2.default
-  },
-  chooseCountryContent: {
-    america: {
-      name: 'america',
-      title: 'ATELIER DE CUISINE AMÉRICAINE',
-      country: [{ name: 'ARGENTINE', type: _pipilet_female2.default, recipe: _argentine2.default }, { name: 'BRÉSIL', type: _pipilet_male2.default, recipe: _quindim2.default }, { name: 'HAÏTI', type: _pipilet_female2.default, recipe: _haiti2.default }, { name: 'CHILI', type: _pipilet_female2.default, recipe: _chilie2.default }, { name: 'GUAYANE.F', type: _pipilet_male2.default, recipe: _guyane2.default }, { name: 'MEXIQUE', type: _pipilet_female2.default, recipe: _mexique2.default }, { name: 'USA', type: _pipilet_female2.default, recipe: _usa2.default }, { name: 'CANADA', type: _pipilet_male2.default, recipe: _canada2.default }]
-    },
-    oceania: {
-      name: 'oceania',
-      title: 'ATELIER DE CUISINE DE L’OCÉANIE',
-      country: [{ name: 'AUSTRALIE', type: _pipilet_female2.default, recipe: _alba2.default }, { name: 'VANUATU', type: _pipilet_male2.default, recipe: _helado2.default }, { name: 'NOUVELLE ZÉLANDE', type: _pipilet_male2.default, recipe: _pavlova2.default }]
-    },
-    europe: {
-      name: 'europe',
-      title: 'ATELIER DE CUISINE EUROPÉENNE',
-      country: [{ name: 'ANGLETERRE', type: _pipilet_female2.default, recipe: _fairy_cakes2.default }, { name: 'FRANCE', type: _pipilet_male2.default, recipe: _mousseDeChocolate2.default }, { name: 'ALLEMAGNE', type: _pipilet_female2.default, recipe: _galletaDePascua2.default }, { name: 'ESPAGNE', type: _pipilet_female2.default, recipe: _macedonia2.default }, { name: 'ITALIE', type: _pipilet_male2.default, recipe: _mouse2.default }, { name: 'RUSSIE', type: _pipilet_female2.default, recipe: _manzanasAsadas2.default }, { name: 'SERBIE', type: _pipilet_female2.default, recipe: _tarta2.default }]
-    },
-    africa: {
-      name: 'africa',
-      title: 'TALLER DE COCINA AFRICANA',
-      country: [{ name: 'BENIN', type: _pipilet_female2.default, recipe: _benin2.default }, { name: 'KENYA', type: _pipilet_male2.default, recipe: _kenya2.default }, { name: 'TUNISIE', type: _pipilet_female2.default, recipe: _tunisie2.default }, { name: 'EGYPTE', type: _pipilet_female2.default, recipe: _egypt2.default }, { name: 'ALGERIE', type: _pipilet_male2.default, recipe: _algerie2.default }, { name: 'MAROC', type: _pipilet_female2.default, recipe: _maroc2.default }, { name: 'MADAGASCAR', type: _pipilet_female2.default, recipe: _malagasy2.default }]
-    },
-    asia: {
-      name: 'asia',
-      title: 'ATELIER DE CUISINE ASIATIQUE',
-      country: [{ name: 'JORDANIE', type: _pipilet_female2.default, recipe: _jordanie2.default }, { name: 'SINGAPOUR', type: _pipilet_male2.default, recipe: _singapour2.default }, { name: 'VIETNAM', type: _pipilet_female2.default, recipe: _vietnam2.default }, { name: 'CHINE', type: _pipilet_female2.default, recipe: _china2.default }, { name: 'LÍBAN', type: _pipilet_male2.default, recipe: _liban2.default }, { name: 'INDE', type: _pipilet_female2.default, recipe: _india2.default }, { name: 'ARABIE SAUDITE', type: _pipilet_female2.default, recipe: _maskina2.default }]
-    }
-  },
-  presentationPageContent: {
-    'image-pipilet': _pipiletDescription2.default,
-    text: _french3.presentation
-  },
-  WhoarewePageContent: {
-    whoarewe: _french4.whoarewe
-  }
+	lan: 'fr',
+	navbar: _information2.default.getNavbar(navbar, sidebar),
+	sidebar: _information2.default.getSidebar(sidebar),
+	songPageContent: {
+		title: 'LES CHANSONS',
+		language: {
+			english: 'ANGLAIS',
+			arab: 'ARABE',
+			italy: 'ITALIEN',
+			french: 'FRANÇAIS',
+			german: 'ALLEMAND',
+			russia: 'RUSSE',
+			china: 'CHINOIS',
+			spanish: 'ESPAGNOL',
+			india: 'INDE',
+			africa: 'AFRICAIN',
+			portugal: 'PORTUGAIS',
+			serbia: 'SERBIE'
+		},
+		flag: _information2.default.getFlagsMusic(),
+		music: [{
+			name: 'lebanon',
+			'translated-song': _ticTicTic2.default,
+			'original-song': _ticTicTic4.default
+		}, {
+			name: 'ghana',
+			'translated-song': _siMaMaKa2.default,
+			'original-song': _siMaMaKa4.default
+		}, {
+			name: 'china',
+			'translated-song': _twoTigers2.default,
+			'original-song': _twoTigers4.default
+		}, {
+			name: 'german',
+			'translated-song': _winterIsHere2.default,
+			'original-song': _winterIsHere4.default
+		}, {
+			name: 'india',
+			'translated-song': _theWasherman2.default,
+			'original-song': _theWasherman4.default
+		}, {
+			name: 'brasil',
+			'translated-song': _fallFallBallon2.default,
+			'original-song': _fallFallBallon4.default
+		}, {
+			name: 'italy',
+			'translated-song': _springHasCome2.default,
+			'original-song': _springHasCome4.default
+		}, {
+			name: 'french',
+			'translated-song': _onMondayMorning2.default,
+			'original-song': _onMondayMorning4.default
+		}, {
+			name: 'english',
+			'translated-song': _hereWeGoRoundTheMulberryBush2.default,
+			'original-song': _hereWeGoRoundTheMulberryBush4.default
+		}, {
+			name: 'serbia',
+			'translated-song': _itsRainning2.default,
+			'original-song': _itsRainning4.default
+		}, {
+			name: 'russia',
+			'translated-song': _patACake2.default,
+			'original-song': _patACake4.default
+		}, {
+			name: 'spanish',
+			'translated-song': _theCourtyardOfMyHouse2.default,
+			'original-song': _theCourtyardOfMyHouse4.default
+		}]
+	},
+	colorNumberContent: {
+		titleColor: 'LES COULEURS',
+		imageColor: _allColorsFr2.default,
+		titleNumber: 'LES NOMBRES',
+		imageNumber: _children2.default
+	},
+	colorPageContent: {
+		titleColor: 'LES COULEURS',
+		owls: [{
+			image: _owls2.default,
+			countryName: ['french', 'india', 'spanish', 'russia']
+		}, {
+			image: _owls4.default,
+			countryName: ['german', 'serbia', 'italy', 'china']
+		}, {
+			image: _owls6.default,
+			countryName: ['english', 'tanzania', 'brasil', 'southAfrica']
+		}]
+	},
+	numberPageContent: {
+		titleNumber: 'LES NOMBRES',
+		imageNumber: [{
+			image: _children2.default,
+			countryName: ['french', 'china', 'german', 'spanish', 'italy', 'serbia', 'brasil', 'india', 'english', 'tanzania', 'russia', 'southAfrica']
+		}]
+	},
+	colorTranslatedPageContent: {
+		title: 'APPREND LES COULEURS AVEC TON AMI',
+		rules: ['En bas tu trouveras:', '* un jeu de mots melangés sur le theme des couleurs', '* un mandala à colorier comme tu veux', 'Tu est fort pas de doute que tu reussiras !'],
+		headerFirstColumn: 'LES COULEURS EN',
+		originalLanguage: {
+			id: 'french',
+			name: 'FRANÇAIS',
+			data: _information2.default.frenchColor
+		},
+		translated: [{
+			id: 'brasil',
+			name: 'PORTUGAIS',
+			data: _information2.default.brasilColor,
+			download: _brasil2.default
+		}, {
+			id: 'china',
+			name: 'CHINOIS',
+			subTitle: 'S’ÉCRIT',
+			subSubTitle: 'SE PRONONCE',
+			data: _information2.default.chinaColor,
+			download: _china4.default
+		}, {
+			id: 'english',
+			name: 'ANGLAIS',
+			data: _information2.default.englishColor,
+			download: _english2.default
+		}, {
+			id: 'french',
+			name: 'FRANÇAIS',
+			data: _information2.default.frenchColor,
+			download: _french2.default
+		}, {
+			id: 'german',
+			name: 'ALLEMAND',
+			data: _information2.default.germanColor,
+			download: _german2.default
+		}, {
+			id: 'india',
+			name: 'INDIEN',
+			subTitle: 'S’ÉCRIT',
+			subSubTitle: 'SE PRONONCE',
+			data: _information2.default.indiaColor,
+			download: _india4.default
+		}, {
+			id: 'italy',
+			name: 'ITALIEN',
+			data: _information2.default.italyColor,
+			download: _italy2.default
+		}, {
+			id: 'russia',
+			name: 'RUSSE',
+			subTitle: 'S’ÉCRIT',
+			subSubTitle: 'SE PRONONCE',
+			data: _information2.default.russiaColor,
+			download: _russia2.default
+		}, {
+			id: 'serbia',
+			name: 'SERBE',
+			subTitle: 'S’ÉCRIT',
+			subSubTitle: 'SE PRONONCE',
+			data: _information2.default.serbiaColor,
+			download: _serbia2.default
+		}, {
+			id: 'arab',
+			name: 'ARABE',
+			subTitle: 'S’ÉCRIT',
+			subSubTitle: 'SE PRONONCE',
+			data: _information2.default.southColor,
+			download: _arabe2.default
+		}, {
+			id: 'spanish',
+			name: 'ESPAGNOL',
+			data: _information2.default.spanishColor,
+			download: _spanish2.default
+		}, {
+			id: 'tanzania',
+			name: 'SWAHILI',
+			data: _information2.default.tanzaniaColor,
+			download: _swahili2.default
+		}]
+	},
+	cookerPageContent: {
+		title: 'LES RECETTES',
+		description: _react2.default.createElement(
+			'div',
+			null,
+			_react2.default.createElement(
+				'span',
+				{ className: 'red' },
+				_react2.default.createElement(
+					'b',
+					null,
+					'TON AMI'
+				)
+			),
+			' A FAIT LE TOUR ',
+			_react2.default.createElement(
+				'span',
+				{
+					className: 'dodgerblue' },
+				_react2.default.createElement(
+					'b',
+					null,
+					'DES CINQ CONTINENTS'
+				)
+			),
+			' ET NOT\xC9 DIFF\xC9RENTS',
+			_react2.default.createElement(
+				'span',
+				{ className: 'green' },
+				_react2.default.createElement(
+					'b',
+					null,
+					'RECETTES D\xC9LICIEUSES '
+				)
+			),
+			'. DE DIFF\xC9RENTS ',
+			_react2.default.createElement(
+				'span',
+				{ className: 'yellow' },
+				_react2.default.createElement(
+					'b',
+					null,
+					'PAYS DU MONDE'
+				)
+			)
+		),
+		image: _map2.default
+	},
+	chooseCountryContent: {
+		america: {
+			name: 'america',
+			title: 'ATELIER DE CUISINE AMÉRICAINE',
+			country: [{ name: 'ARGENTINE', type: _pipilet_female2.default, recipe: _argentine2.default }, { name: 'BRÉSIL', type: _pipilet_male2.default, recipe: _quindim2.default }, { name: 'HAÏTI', type: _pipilet_female2.default, recipe: _haiti2.default }, { name: 'CHILI', type: _pipilet_female2.default, recipe: _chilie2.default }, { name: 'GUAYANE.F', type: _pipilet_male2.default, recipe: _guyane2.default }, { name: 'MEXIQUE', type: _pipilet_female2.default, recipe: _mexique2.default }, { name: 'USA', type: _pipilet_female2.default, recipe: _usa2.default }, { name: 'CANADA', type: _pipilet_male2.default, recipe: _canada2.default }]
+		},
+		oceania: {
+			name: 'oceania',
+			title: 'ATELIER DE CUISINE DE L’OCÉANIE',
+			country: [{ name: 'AUSTRALIE', type: _pipilet_female2.default, recipe: _alba2.default }, { name: 'VANUATU', type: _pipilet_male2.default, recipe: _helado2.default }, { name: 'NOUVELLE ZÉLANDE', type: _pipilet_male2.default, recipe: _pavlova2.default }]
+		},
+		europe: {
+			name: 'europe',
+			title: 'ATELIER DE CUISINE EUROPÉENNE',
+			country: [{ name: 'ANGLETERRE', type: _pipilet_female2.default, recipe: _fairy_cakes2.default }, { name: 'FRANCE', type: _pipilet_male2.default, recipe: _mousseDeChocolate2.default }, { name: 'ALLEMAGNE', type: _pipilet_female2.default, recipe: _galletaDePascua2.default }, { name: 'ESPAGNE', type: _pipilet_female2.default, recipe: _macedonia2.default }, { name: 'ITALIE', type: _pipilet_male2.default, recipe: _mouse2.default }, { name: 'RUSSIE', type: _pipilet_female2.default, recipe: _manzanasAsadas2.default }, { name: 'SERBIE', type: _pipilet_female2.default, recipe: _tarta2.default }]
+		},
+		africa: {
+			name: 'africa',
+			title: 'TALLER DE COCINA AFRICANA',
+			country: [{ name: 'BENIN', type: _pipilet_female2.default, recipe: _benin2.default }, { name: 'KENYA', type: _pipilet_male2.default, recipe: _kenya2.default }, { name: 'TUNISIE', type: _pipilet_female2.default, recipe: _tunisie2.default }, { name: 'EGYPTE', type: _pipilet_female2.default, recipe: _egypt2.default }, { name: 'ALGERIE', type: _pipilet_male2.default, recipe: _algerie2.default }, { name: 'MAROC', type: _pipilet_female2.default, recipe: _maroc2.default }, { name: 'MADAGASCAR', type: _pipilet_female2.default, recipe: _malagasy2.default }]
+		},
+		asia: {
+			name: 'asia',
+			title: 'ATELIER DE CUISINE ASIATIQUE',
+			country: [{ name: 'JORDANIE', type: _pipilet_female2.default, recipe: _jordanie2.default }, { name: 'SINGAPOUR', type: _pipilet_male2.default, recipe: _singapour2.default }, { name: 'VIETNAM', type: _pipilet_female2.default, recipe: _vietnam2.default }, { name: 'CHINE', type: _pipilet_female2.default, recipe: _china2.default }, { name: 'LÍBAN', type: _pipilet_male2.default, recipe: _liban2.default }, { name: 'INDE', type: _pipilet_female2.default, recipe: _india2.default }, { name: 'ARABIE SAUDITE', type: _pipilet_female2.default, recipe: _maskina2.default }]
+		}
+	},
+	presentationPageContent: {
+		'image-pipilet': _pipiletDescription2.default,
+		text: _french3.presentation
+	},
+	WhoarewePageContent: {
+		whoarewe: _french4.whoarewe
+	}
 };
 exports.default = _default;
 ;
 
 var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
 
-  __REACT_HOT_LOADER__.register(navbar, 'navbar', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/french.js');
+	__REACT_HOT_LOADER__.register(navbar, 'navbar', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/french.js');
 
-  __REACT_HOT_LOADER__.register(sidebar, 'sidebar', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/french.js');
+	__REACT_HOT_LOADER__.register(sidebar, 'sidebar', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/french.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/french.js');
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/french.js');
 }();
 
 ;
@@ -15468,7 +15664,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 
 var _spanish = __webpack_require__(318);
@@ -15490,11 +15686,11 @@ exports.default = _default;
 ;
 
 var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/index.js');
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/index.js');
 }();
 
 ;
@@ -15507,7 +15703,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 
 var _react = __webpack_require__(0);
@@ -15832,209 +16028,286 @@ var _spanish6 = __webpack_require__(101);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var navbar = ["Acogida", "Presentación", "Pipilet Mandala", "Contacto"];
+/* eslint-disable no-unused-vars */
+var navbar = ['Acogida', 'Presentación', 'Pipilet Mandala', 'Contacto'];
 
-var sidebar = ["LAS CANCIONES", "LOS COLORES Y LOS NÚMEROS", "LA REPOSTERÍA", "¿ SABES QUIÊN SOY ?"];
+var sidebar = ['LAS CANCIONES', 'LOS COLORES Y LOS NÚMEROS', 'LA REPOSTERÍA', '¿ SABES QUIÊN SOY ?'];
 
 var _default = {
-  "lan": "esp",
-  "navbar": _information2.default.getNavbar(navbar, sidebar),
-  "sidebar": _information2.default.getSidebar(sidebar),
-  "songPageContent": {
-    "title": "LAS CANCIONES",
-    "language": {
-      "english": "INGLÉS",
-      "arab": "ARABE",
-      "italy": "ITALIANO",
-      "french": "FRANCÉS",
-      "german": "ALEMÁN",
-      "russia": "RUSO",
-      "china": "CHINO",
-      "spanish": "ESPAÑOL",
-      "india": "HINDI",
-      "africa": "AFRICANO",
-      "portugal": "PORTUGUÉS",
-      "serbia": "SERBIO"
-    },
-    "flag": _information2.default.getFlagsMusic(),
-    "music": [{ "name": "lebanon", "translated-song": _ticTicTic2.default, "original-song": _ticTicTic4.default }, { "name": "ghana", "translated-song": _siMaMaKa2.default, "original-song": _siMaMaKa4.default }, { "name": "china", "translated-song": _twoTigers2.default, "original-song": _twoTigers4.default }, { "name": "german", "translated-song": _winterIsHere2.default, "original-song": _winterIsHere4.default }, { "name": "india", "translated-song": _theWasherman2.default, "original-song": _theWasherman4.default }, { "name": "brasil", "translated-song": _fallFallBallon2.default, "original-song": _fallFallBallon4.default }, { "name": "italy", "translated-song": _springHasCome2.default, "original-song": _springHasCome4.default }, { "name": "french", "translated-song": _onMondayMorning2.default, "original-song": _onMondayMorning4.default }, {
-      "name": "english",
-      "translated-song": _hereWeGoRoundTheMulberryBush2.default,
-      "original-song": _hereWeGoRoundTheMulberryBush4.default
-    }, { "name": "serbia", "translated-song": _itsRainning2.default, "original-song": _itsRainning4.default }, { "name": "russia", "translated-song": _patACake2.default, "original-song": _patACake4.default }, {
-      "name": "spanish",
-      "translated-song": _theCourtyardOfMyHouse2.default,
-      "original-song": _theCourtyardOfMyHouse4.default
-    }]
-  },
-  "colorNumberContent": {
-    "titleColor": "LOS COLORES",
-    "imageColor": _allColorsEsp2.default,
-    "titleNumber": "LOS NUMEROS",
-    "imageNumber": _children2.default
-  },
-  "colorPageContent": {
-    "titleColor": "LOS COLORES",
-    "owls": [{
-      image: _owls2.default,
-      countryName: ["french", "india", "spanish", "russia"]
-    }, {
-      image: _owls4.default,
-      countryName: ["german", "serbia", "italy", "china"]
-    }, {
-      image: _owls6.default,
-      countryName: ["english", "tanzania", "brasil", "southAfrica"]
-    }]
-  },
-  "numberPageContent": {
-    "titleNumber": "LOS NUMEROS",
-    "imageNumber": [{
-      image: _children2.default,
-      countryName: ["french", "china", "german", "spanish", "italy", "serbia", "brasil", "india", "english", "tanzania", "russia", "southAfrica"]
-    }]
-  },
-  "colorTranslatedPageContent": {
-    "title": "APRENDIENDO LOS COLORES CON TU AMIGO",
-    "rules": ["En la parte de abajo encontrarás:", "* una sopa de letras con los colores a buscar", "* un mandala para que puedas colorear a tu gusto.", "!Tú eres fuertes seguro que lo harás bien.!"],
-    "headerFirstColumn": "APRENDIENDO LOS COLORES EN",
-    "originalLanguage": {
-      "id": "spanish",
-      "name": "ESPAÑOL",
-      "data": _information2.default.spanishColor
-    },
-    "translated": [{ "id": "brasil", "name": "PORTUGÉS", "data": _information2.default.brasilColor, download: _brasil4.default }, {
-      "id": "china",
-      "name": "CHINO",
-      "subTitle": "SE ESCRIBE",
-      "subSubTitle": "SE PRONUNCIA",
-      "data": _information2.default.chinaColor,
-      download: _china4.default
-    }, { "id": "english", "name": "INGLÉS", "data": _information2.default.englishColor, download: _english4.default }, { "id": "french", "name": "FRANCÉS", "data": _information2.default.frenchColor, download: _french4.default }, { "id": "german", "name": "ALEMAN", "data": _information2.default.germanColor, download: _german4.default }, {
-      "id": "india",
-      "name": "HINDI",
-      "subTitle": "SE ESCRIBE",
-      "subSubTitle": "SE PRONUNCIA",
-      "data": _information2.default.indiaColor,
-      download: _india4.default
-    }, { "id": "italy", "name": "ITALIANO", "data": _information2.default.italyColor, download: _italy4.default }, {
-      "id": "russia",
-      "name": "RUSO",
-      "subTitle": "SE ESCRIBE",
-      "subSubTitle": "SE PRONUNCIA",
-      "data": _information2.default.russiaColor,
-      download: _russia4.default
-    }, {
-      "id": "serbia",
-      "name": "SERBIO",
-      "subTitle": "SE ESCRIBE",
-      "subSubTitle": "SE PRONUNCIA",
-      "data": _information2.default.serbiaColor,
-      download: _serbia4.default
-    }, {
-      "id": "arab",
-      "name": "ARABE",
-      "subTitle": "SE ESCRIBE",
-      "subSubTitle": "SE PRONUNCIA",
-      "data": _information2.default.southColor,
-      download: _arabe2.default
-    }, { "id": "spanish", "name": "ESPAÑOL", "data": _information2.default.spanishColor, download: _spanish4.default }, { "id": "tanzania", "name": "SWAHILI", "data": _information2.default.tanzaniaColor, download: _swahili2.default }]
-  },
-  "cookerPageContent": {
-    "title": "LA RESPOSTERÍA",
-    "description": _react2.default.createElement(
-      'div',
-      null,
-      _react2.default.createElement(
-        'span',
-        { className: 'red' },
-        _react2.default.createElement(
-          'b',
-          null,
-          'TU AMIGO HA'
-        )
-      ),
-      ' DECIDIDO RECORRER ',
-      _react2.default.createElement(
-        'span',
-        {
-          className: 'dodgerblue' },
-        _react2.default.createElement(
-          'b',
-          null,
-          'EL MUNDO'
-        )
-      ),
-      ' Y HA VISITADO ',
-      _react2.default.createElement(
-        'span',
-        { className: 'green' },
-        _react2.default.createElement(
-          'b',
-          null,
-          'LOS CINCO CONTINENTES'
-        )
-      ),
-      '. RECOPILANDO DELICIOSOS POSTRES DE ',
-      _react2.default.createElement(
-        'span',
-        { className: 'yellow' },
-        _react2.default.createElement(
-          'b',
-          null,
-          'DIFERENTES PA\xCDSES DEL MUNDO'
-        )
-      )
-    ),
-    "image": _map2.default
-  },
-  "chooseCountryContent": {
-    "america": {
-      "name": "america",
-      "title": "TALLER DE COCINA AMERICANA",
-      "country": [{ name: "ARGENTINA", type: _pipilet_female2.default, recipe: _argentine2.default }, { name: "BRASIL", type: _pipilet_male2.default, recipe: _brasil2.default }, { name: "HAITI", type: _pipilet_female2.default, recipe: _haiti2.default }, { name: "CHILE", type: _pipilet_female2.default, recipe: _chilie2.default }, { name: "GUAYANAS", type: _pipilet_male2.default, recipe: _guyane2.default }, { name: "MÉJICO", type: _pipilet_female2.default, recipe: _mexico2.default }, { name: "USA", type: _pipilet_female2.default, recipe: _usa2.default }, { name: "CANADA", type: _pipilet_male2.default, recipe: _canadien2.default }]
-    },
-    "oceania": {
-      "name": "oceania",
-      "title": "TALLER DE COCINA DE OCEANÍA",
-      "country": [{ name: "AUSTRALIA", type: _pipilet_female2.default, recipe: _australie2.default }, { name: "VANUATU", type: _pipilet_male2.default, recipe: _vanuatu2.default }, { name: "NUEVA ZELANDA", type: _pipilet_male2.default, recipe: _zelande2.default }]
-    },
-    "europe": {
-      "name": "europe",
-      "title": "TALLER DE COCINA EUROPEA",
-      "country": [{ name: "INGLATERRA", type: _pipilet_female2.default, recipe: _english2.default }, { name: "FRANCIA", type: _pipilet_male2.default, recipe: _french2.default }, { name: "ALEMANIA", type: _pipilet_female2.default, recipe: _german2.default }, { name: "ESPAÑA", type: _pipilet_female2.default, recipe: _spanish2.default }, { name: "ITALIA", type: _pipilet_male2.default, recipe: _italy2.default }, { name: "RUSIA", type: _pipilet_female2.default, recipe: _russia2.default }, { name: "SERBIA", type: _pipilet_female2.default, recipe: _serbia2.default }]
-    },
-    "africa": {
-      "name": "africa",
-      "title": "TALLER DE COCINA AFRICANA",
-      "country": [{ name: "BENIN", type: _pipilet_female2.default, recipe: _benin2.default }, { name: "KENIA", type: _pipilet_male2.default, recipe: _kenya2.default }, { name: "TÚNEZ", type: _pipilet_female2.default, recipe: _tunisie2.default }, { name: "EGIPTO", type: _pipilet_female2.default, recipe: _egypte2.default }, { name: "ARGELIA", type: _pipilet_male2.default, recipe: _algerie2.default }, { name: "MARRUECOS", type: _pipilet_female2.default, recipe: _maroc2.default }, { name: "MADAGASCAR", type: _pipilet_female2.default, recipe: _malagasy2.default }]
-    },
-    "asia": {
-      "name": "asia",
-      "title": "TALLER DE COCINA ASIÁTICA",
-      "country": [{ name: "JORDANIA", type: _pipilet_female2.default, recipe: _jordania2.default }, { name: "SINGAPUR", type: _pipilet_male2.default, recipe: _singapour2.default }, { name: "VIETNAM", type: _pipilet_female2.default, recipe: _vietnam2.default }, { name: "CHINA", type: _pipilet_female2.default, recipe: _china2.default }, { name: "LÍBANO", type: _pipilet_male2.default, recipe: _liban2.default }, { name: "INDIA", type: _pipilet_female2.default, recipe: _india2.default }, { name: "ARABIA SAUDITA", type: _pipilet_female2.default, recipe: _arabia2.default }]
-    }
-  },
-  "presentationPageContent": {
-    "image-pipilet": _pipiletDescription2.default,
-    "text": _spanish5.presentation
-  },
-  "WhoarewePageContent": {
-    "whoarewe": _spanish6.whoarewe
-  }
+	lan: 'esp',
+	navbar: _information2.default.getNavbar(navbar, sidebar),
+	sidebar: _information2.default.getSidebar(sidebar),
+	songPageContent: {
+		title: 'LAS CANCIONES',
+		language: {
+			english: 'INGLÉS',
+			arab: 'ARABE',
+			italy: 'ITALIANO',
+			french: 'FRANCÉS',
+			german: 'ALEMÁN',
+			russia: 'RUSO',
+			china: 'CHINO',
+			spanish: 'ESPAÑOL',
+			india: 'HINDI',
+			africa: 'AFRICANO',
+			portugal: 'PORTUGUÉS',
+			serbia: 'SERBIO'
+		},
+		flag: _information2.default.getFlagsMusic(),
+		music: [{
+			name: 'lebanon',
+			'translated-song': _ticTicTic2.default,
+			'original-song': _ticTicTic4.default
+		}, {
+			name: 'ghana',
+			'translated-song': _siMaMaKa2.default,
+			'original-song': _siMaMaKa4.default
+		}, {
+			name: 'china',
+			'translated-song': _twoTigers2.default,
+			'original-song': _twoTigers4.default
+		}, {
+			name: 'german',
+			'translated-song': _winterIsHere2.default,
+			'original-song': _winterIsHere4.default
+		}, {
+			name: 'india',
+			'translated-song': _theWasherman2.default,
+			'original-song': _theWasherman4.default
+		}, {
+			name: 'brasil',
+			'translated-song': _fallFallBallon2.default,
+			'original-song': _fallFallBallon4.default
+		}, {
+			name: 'italy',
+			'translated-song': _springHasCome2.default,
+			'original-song': _springHasCome4.default
+		}, {
+			name: 'french',
+			'translated-song': _onMondayMorning2.default,
+			'original-song': _onMondayMorning4.default
+		}, {
+			name: 'english',
+			'translated-song': _hereWeGoRoundTheMulberryBush2.default,
+			'original-song': _hereWeGoRoundTheMulberryBush4.default
+		}, {
+			name: 'serbia',
+			'translated-song': _itsRainning2.default,
+			'original-song': _itsRainning4.default
+		}, {
+			name: 'russia',
+			'translated-song': _patACake2.default,
+			'original-song': _patACake4.default
+		}, {
+			name: 'spanish',
+			'translated-song': _theCourtyardOfMyHouse2.default,
+			'original-song': _theCourtyardOfMyHouse4.default
+		}]
+	},
+	colorNumberContent: {
+		titleColor: 'LOS COLORES',
+		imageColor: _allColorsEsp2.default,
+		titleNumber: 'LOS NUMEROS',
+		imageNumber: _children2.default
+	},
+	colorPageContent: {
+		titleColor: 'LOS COLORES',
+		owls: [{
+			image: _owls2.default,
+			countryName: ['french', 'india', 'spanish', 'russia']
+		}, {
+			image: _owls4.default,
+			countryName: ['german', 'serbia', 'italy', 'china']
+		}, {
+			image: _owls6.default,
+			countryName: ['english', 'tanzania', 'brasil', 'southAfrica']
+		}]
+	},
+	numberPageContent: {
+		titleNumber: 'LOS NUMEROS',
+		imageNumber: [{
+			image: _children2.default,
+			countryName: ['french', 'china', 'german', 'spanish', 'italy', 'serbia', 'brasil', 'india', 'english', 'tanzania', 'russia', 'southAfrica']
+		}]
+	},
+	colorTranslatedPageContent: {
+		title: 'APRENDIENDO LOS COLORES CON TU AMIGO',
+		rules: ['En la parte de abajo encontrarás:', '* una sopa de letras con los colores a buscar', '* un mandala para que puedas colorear a tu gusto.', '!Tú eres fuertes seguro que lo harás bien.!'],
+		headerFirstColumn: 'APRENDIENDO LOS COLORES EN',
+		originalLanguage: {
+			id: 'spanish',
+			name: 'ESPAÑOL',
+			data: _information2.default.spanishColor
+		},
+		translated: [{
+			id: 'brasil',
+			name: 'PORTUGÉS',
+			data: _information2.default.brasilColor,
+			download: _brasil4.default
+		}, {
+			id: 'china',
+			name: 'CHINO',
+			subTitle: 'SE ESCRIBE',
+			subSubTitle: 'SE PRONUNCIA',
+			data: _information2.default.chinaColor,
+			download: _china4.default
+		}, {
+			id: 'english',
+			name: 'INGLÉS',
+			data: _information2.default.englishColor,
+			download: _english4.default
+		}, {
+			id: 'french',
+			name: 'FRANCÉS',
+			data: _information2.default.frenchColor,
+			download: _french4.default
+		}, {
+			id: 'german',
+			name: 'ALEMAN',
+			data: _information2.default.germanColor,
+			download: _german4.default
+		}, {
+			id: 'india',
+			name: 'HINDI',
+			subTitle: 'SE ESCRIBE',
+			subSubTitle: 'SE PRONUNCIA',
+			data: _information2.default.indiaColor,
+			download: _india4.default
+		}, {
+			id: 'italy',
+			name: 'ITALIANO',
+			data: _information2.default.italyColor,
+			download: _italy4.default
+		}, {
+			id: 'russia',
+			name: 'RUSO',
+			subTitle: 'SE ESCRIBE',
+			subSubTitle: 'SE PRONUNCIA',
+			data: _information2.default.russiaColor,
+			download: _russia4.default
+		}, {
+			id: 'serbia',
+			name: 'SERBIO',
+			subTitle: 'SE ESCRIBE',
+			subSubTitle: 'SE PRONUNCIA',
+			data: _information2.default.serbiaColor,
+			download: _serbia4.default
+		}, {
+			id: 'arab',
+			name: 'ARABE',
+			subTitle: 'SE ESCRIBE',
+			subSubTitle: 'SE PRONUNCIA',
+			data: _information2.default.southColor,
+			download: _arabe2.default
+		}, {
+			id: 'spanish',
+			name: 'ESPAÑOL',
+			data: _information2.default.spanishColor,
+			download: _spanish4.default
+		}, {
+			id: 'tanzania',
+			name: 'SWAHILI',
+			data: _information2.default.tanzaniaColor,
+			download: _swahili2.default
+		}]
+	},
+	cookerPageContent: {
+		title: 'LA RESPOSTERÍA',
+		description: _react2.default.createElement(
+			'div',
+			null,
+			_react2.default.createElement(
+				'span',
+				{ className: 'red' },
+				_react2.default.createElement(
+					'b',
+					null,
+					'TU AMIGO HA'
+				)
+			),
+			' DECIDIDO RECORRER ',
+			_react2.default.createElement(
+				'span',
+				{
+					className: 'dodgerblue' },
+				_react2.default.createElement(
+					'b',
+					null,
+					'EL MUNDO'
+				)
+			),
+			' Y HA VISITADO ',
+			_react2.default.createElement(
+				'span',
+				{
+					className: 'green' },
+				_react2.default.createElement(
+					'b',
+					null,
+					'LOS CINCO CONTINENTES'
+				)
+			),
+			'. RECOPILANDO DELICIOSOS POSTRES DE ',
+			_react2.default.createElement(
+				'span',
+				{ className: 'yellow' },
+				_react2.default.createElement(
+					'b',
+					null,
+					'DIFERENTES PA\xCDSES DEL MUNDO'
+				)
+			)
+		),
+		image: _map2.default
+	},
+	chooseCountryContent: {
+		america: {
+			name: 'america',
+			title: 'TALLER DE COCINA AMERICANA',
+			country: [{ name: 'ARGENTINA', type: _pipilet_female2.default, recipe: _argentine2.default }, { name: 'BRASIL', type: _pipilet_male2.default, recipe: _brasil2.default }, { name: 'HAITI', type: _pipilet_female2.default, recipe: _haiti2.default }, { name: 'CHILE', type: _pipilet_female2.default, recipe: _chilie2.default }, { name: 'GUAYANAS', type: _pipilet_male2.default, recipe: _guyane2.default }, { name: 'MÉJICO', type: _pipilet_female2.default, recipe: _mexico2.default }, { name: 'USA', type: _pipilet_female2.default, recipe: _usa2.default }, { name: 'CANADA', type: _pipilet_male2.default, recipe: _canadien2.default }]
+		},
+		oceania: {
+			name: 'oceania',
+			title: 'TALLER DE COCINA DE OCEANÍA',
+			country: [{ name: 'AUSTRALIA', type: _pipilet_female2.default, recipe: _australie2.default }, { name: 'VANUATU', type: _pipilet_male2.default, recipe: _vanuatu2.default }, { name: 'NUEVA ZELANDA', type: _pipilet_male2.default, recipe: _zelande2.default }]
+		},
+		europe: {
+			name: 'europe',
+			title: 'TALLER DE COCINA EUROPEA',
+			country: [{ name: 'INGLATERRA', type: _pipilet_female2.default, recipe: _english2.default }, { name: 'FRANCIA', type: _pipilet_male2.default, recipe: _french2.default }, { name: 'ALEMANIA', type: _pipilet_female2.default, recipe: _german2.default }, { name: 'ESPAÑA', type: _pipilet_female2.default, recipe: _spanish2.default }, { name: 'ITALIA', type: _pipilet_male2.default, recipe: _italy2.default }, { name: 'RUSIA', type: _pipilet_female2.default, recipe: _russia2.default }, { name: 'SERBIA', type: _pipilet_female2.default, recipe: _serbia2.default }]
+		},
+		africa: {
+			name: 'africa',
+			title: 'TALLER DE COCINA AFRICANA',
+			country: [{ name: 'BENIN', type: _pipilet_female2.default, recipe: _benin2.default }, { name: 'KENIA', type: _pipilet_male2.default, recipe: _kenya2.default }, { name: 'TÚNEZ', type: _pipilet_female2.default, recipe: _tunisie2.default }, { name: 'EGIPTO', type: _pipilet_female2.default, recipe: _egypte2.default }, { name: 'ARGELIA', type: _pipilet_male2.default, recipe: _algerie2.default }, { name: 'MARRUECOS', type: _pipilet_female2.default, recipe: _maroc2.default }, { name: 'MADAGASCAR', type: _pipilet_female2.default, recipe: _malagasy2.default }]
+		},
+		asia: {
+			name: 'asia',
+			title: 'TALLER DE COCINA ASIÁTICA',
+			country: [{ name: 'JORDANIA', type: _pipilet_female2.default, recipe: _jordania2.default }, { name: 'SINGAPUR', type: _pipilet_male2.default, recipe: _singapour2.default }, { name: 'VIETNAM', type: _pipilet_female2.default, recipe: _vietnam2.default }, { name: 'CHINA', type: _pipilet_female2.default, recipe: _china2.default }, { name: 'LÍBANO', type: _pipilet_male2.default, recipe: _liban2.default }, { name: 'INDIA', type: _pipilet_female2.default, recipe: _india2.default }, { name: 'ARABIA SAUDITA', type: _pipilet_female2.default, recipe: _arabia2.default }]
+		}
+	},
+	presentationPageContent: {
+		'image-pipilet': _pipiletDescription2.default,
+		text: _spanish5.presentation
+	},
+	WhoarewePageContent: {
+		whoarewe: _spanish6.whoarewe
+	}
 };
 exports.default = _default;
 ;
 
 var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
 
-  __REACT_HOT_LOADER__.register(navbar, 'navbar', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/spanish.js');
+	__REACT_HOT_LOADER__.register(navbar, 'navbar', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/spanish.js');
 
-  __REACT_HOT_LOADER__.register(sidebar, 'sidebar', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/spanish.js');
+	__REACT_HOT_LOADER__.register(sidebar, 'sidebar', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/spanish.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/spanish.js');
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/services/website-languages/spanish.js');
 }();
 
 ;
@@ -16455,7 +16728,7 @@ exports = module.exports = __webpack_require__(4)(undefined);
 
 
 // module
-exports.push([module.i, ".container-information-song{margin-top:60;display:flex;flex-direction:column;justify-content:flex-start;font-family:Helvetica Neue,Helvetica,Arial,sans-serif}.container-information-song .wrapper-title-information{color:#fba432;font-size:34px}.container-information-song .wrapper-rules{margin-top:15px;line-height:2}", ""]);
+exports.push([module.i, ".container-information-song{margin-top:60px;display:flex;flex-direction:column;justify-content:flex-start;font-family:Helvetica Neue,Helvetica,Arial,sans-serif}.container-information-song .wrapper-title-information{color:#fba432;font-size:34px}.container-information-song .wrapper-rules{margin-top:15px;line-height:2}", ""]);
 
 // exports
 
@@ -17964,19 +18237,19 @@ function _resetWarned() {
 /* 366 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "58226248de75cdcbc2fe1f0cd63aff15.png";
+module.exports = __webpack_require__.p + "ec77579e44b26b1c51df4995672be49b.png";
 
 /***/ }),
 /* 367 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "69bbf5530c631417f85156cca814f897.png";
+module.exports = __webpack_require__.p + "547b5abb3b0be9865d39849bd4ef87cd.png";
 
 /***/ }),
 /* 368 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "d0c030a95e153e04f35fe6550fb1f5e4.png";
+module.exports = __webpack_require__.p + "ce77084f38466af35b5e7578e36e2a36.png";
 
 /***/ }),
 /* 369 */
@@ -18282,19 +18555,19 @@ module.exports = __webpack_require__.p + "b9cc3a056546bde22ebc6b0eab53a5d6.png";
 /* 419 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "2b6dee82e3d075a55ea9289df5ba9f6e.png";
+module.exports = __webpack_require__.p + "eb8b69e409d156c1915047a604400f29.png";
 
 /***/ }),
 /* 420 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "427e5cbd6daffa2aaa697067210d087f.png";
+module.exports = __webpack_require__.p + "2471f894fe14daa3def54e4813c816dd.png";
 
 /***/ }),
 /* 421 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "fcb81b9d295bb09bbb3d0e6f6e18e02e.png";
+module.exports = __webpack_require__.p + "0d8c8a20e66c13a6f3e8457872f34714.png";
 
 /***/ }),
 /* 422 */
@@ -18306,19 +18579,19 @@ module.exports = __webpack_require__.p + "72567873ce497fe870d8c2f406dbe32b.png";
 /* 423 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "3b1304096dfb1d5959be17d73f9806ad.png";
+module.exports = __webpack_require__.p + "d12144b9df4c1917cb8c6a0e276205d8.png";
 
 /***/ }),
 /* 424 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "12a28bbf0f67e2c7f0dc7d2094aa4094.png";
+module.exports = __webpack_require__.p + "d0e9bfe72a4b4acea311384a7636b9f9.png";
 
 /***/ }),
 /* 425 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "6a9e0f8e71a8508d55fc67f098da36ca.png";
+module.exports = __webpack_require__.p + "754f8e9c02408672ba0323d58291edea.png";
 
 /***/ }),
 /* 426 */
@@ -18330,19 +18603,19 @@ module.exports = __webpack_require__.p + "b4fc31486768c83c64fc64922f50e185.png";
 /* 427 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "30b5e1b74157856a084e241b940e8511.png";
+module.exports = __webpack_require__.p + "3c4c6a8ec4e0ddc5ea11251569f5ba21.png";
 
 /***/ }),
 /* 428 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "7972a48a7f796b11d8b6d2f50c483b00.png";
+module.exports = __webpack_require__.p + "94f8cf859af8f8215613090008b64913.png";
 
 /***/ }),
 /* 429 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "6485412c62c513d9561a96c92ffdfb16.png";
+module.exports = __webpack_require__.p + "b5c1b7eee83bc060967b736a19e909b3.png";
 
 /***/ }),
 /* 430 */

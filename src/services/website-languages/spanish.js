@@ -86,14 +86,14 @@ import swahiliColorDownload from '../download/colors/esp/swahili.pdf';
 
 import { presentation } from '../presentation/spanish';
 
-import owls_1 from '../../scenes/color-number-page/images/esp/owls-1.png';
-import owls_2 from '../../scenes/color-number-page/images/esp/owls-2.png';
-import owls_3 from '../../scenes/color-number-page/images/esp/owls-3.png';
+import owls_1 from '../../scenes/color-page/images/esp/owls-1.png';
+import owls_2 from '../../scenes/color-page/images/esp/owls-2.png';
+import owls_3 from '../../scenes/color-page/images/esp/owls-3.png';
 
-import children from '../../scenes/color-number-page/images/esp/children.png';
+import children from '../../scenes/color-page/images/esp/children.png';
 
 import allColorEsp from '../../images/all-colors-esp.png';
-import allNumberEsp from '../../scenes/color-number-page/images/esp/children.png';
+import allNumberEsp from '../../scenes/color-page/images/esp/children.png';
 
 import { whoarewe } from '../who-are-we/spanish';
 

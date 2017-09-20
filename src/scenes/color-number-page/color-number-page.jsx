@@ -7,36 +7,33 @@ import Header from '../../components/header-page';
 import './styles/color-number-page.sass';
 
 const ColorNumber = ({
-  titleColor,
-  imageColor,
-  titleNumber,
-  imageNumber
-}) => {
-
-  return (
-    <div id="wrapper-colornumber">
-      <Header title={titleColor} logo={logoNumbercolor}/>
-      <div className="wrapper-all-image">
-        <Link to="/color">
-          <img src={imageColor}/>
-        </Link>
-      </div>
-      <Header title={titleNumber} logo={logoNumbercolor}/>
-      <div className="wrapper-all-image">
-        <Link to="/number">
-          <img src={imageNumber}/>
-        </Link>
-      </div>
-      <Footer />
-    </div>
-  )
-};
+   titleColor,
+   imageColor,
+   titleNumber,
+   imageNumber
+}) => (
+<div id="wrapper-colornumber">
+	<Header title={titleColor} logo={logoNumbercolor}/>
+	<div className="wrapper-all-image">
+		<Link to="/color">
+			<img src={imageColor}/>
+		</Link>
+	</div>
+	<Header title={titleNumber} logo={logoNumbercolor}/>
+	<div className="wrapper-all-image">
+		<Link to="/number">
+			<img src={imageNumber}/>
+		</Link>
+	</div>
+	<Footer/>
+</div>
+);
 
 const mapStateToProps = state => ({
-  titleColor: state.ChooseLanguage.colorNumberContent.titleColor,
-  imageColor: state.ChooseLanguage.colorNumberContent.imageColor,
-  titleNumber: state.ChooseLanguage.colorNumberContent.titleNumber,
-  imageNumber: state.ChooseLanguage.colorNumberContent.imageNumber
+	titleColor: state.ChooseLanguage.colorNumberContent.titleColor,
+	imageColor: state.ChooseLanguage.colorNumberContent.imageColor,
+	titleNumber: state.ChooseLanguage.colorNumberContent.titleNumber,
+	imageNumber: state.ChooseLanguage.colorNumberContent.imageNumber
 });
 
 export default connect(mapStateToProps)(ColorNumber);
