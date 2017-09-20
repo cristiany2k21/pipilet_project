@@ -13,16 +13,16 @@ import tanzania from './tanzania';
 
 
 export default ({
-  french,
-  spanish,
-  german,
-  india,
-  english,
-  china,
-  brasil,
-  italy,
-  serbia,
-  southAfrica,
-  russia,
-  tanzania,
-})
+	french,
+	spanish,
+	german,
+	india,
+	english,
+	china,
+	brasil,
+	italy,
+	serbia,
+	southAfrica,
+	russia,
+	tanzania
+});
