@@ -59,6 +59,9 @@ app.get('*', (req, res) => {
 		}
 	});
 });
+{/*<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">*/}
+	{/*<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Quattrocento+Sans|Work+Sans:100,200,300" rel="stylesheet">*/}
+		{/*<link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">*/}
 
 function renderPage(appHtml) {
 	return `
@@ -68,9 +71,6 @@ function renderPage(appHtml) {
         <meta charset=utf-8/>
         <title>My First React Router App</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Quattrocento+Sans|Work+Sans:100,200,300" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">
         ${style}
       </head>
       <body>

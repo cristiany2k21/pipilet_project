@@ -5315,9 +5315,12 @@ app.get('*', function (req, res) {
 		}
 	});
 });
+{/*<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">*/}
+{/*<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Quattrocento+Sans|Work+Sans:100,200,300" rel="stylesheet">*/}
+{/*<link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">*/}
 
 function renderPage(appHtml) {
-	return '\n    <!doctype html public="storage">\n    <html>\n      <head>\n        <meta charset=utf-8/>\n        <title>My First React Router App</title>\n        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">\n        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">\n        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Quattrocento+Sans|Work+Sans:100,200,300" rel="stylesheet">\n        <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">\n        ' + style + '\n      </head>\n      <body>\n      <div id="app">\n        ' + (process.env.NODE_ENV === 'production' ? appHtml : '<div>' + appHtml + '</div>') + '\n      </div>\n        <script src="/bundle.client.js"></script>\n      </body>\n    </html\n   ';
+	return '\n    <!doctype html public="storage">\n    <html>\n      <head>\n        <meta charset=utf-8/>\n        <title>My First React Router App</title>\n        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">\n        ' + style + '\n      </head>\n      <body>\n      <div id="app">\n        ' + (process.env.NODE_ENV === 'production' ? appHtml : '<div>' + appHtml + '</div>') + '\n      </div>\n        <script src="/bundle.client.js"></script>\n      </body>\n    </html\n   ';
 };
 
 var PORT = process.env.PORT || 8081;
