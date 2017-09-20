@@ -29,7 +29,7 @@ module.exports = {
 					{
 						loader: 'file-loader',
 						options: {
-							name: '[ext]_[name].[ext]'
+							name: '[ext]_[name]_server.[ext]'
 						}
 					}, {
 						loader: 'image-webpack-loader',

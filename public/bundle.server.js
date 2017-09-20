@@ -76,19 +76,19 @@ module.exports = require("react");
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_pipilet-cooker.jpg";
+module.exports = __webpack_require__.p + "jpg_pipilet-cooker_server.jpg";
 
 /***/ }),
 /* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_pipilet_female.jpg";
+module.exports = __webpack_require__.p + "jpg_pipilet_female_server.jpg";
 
 /***/ }),
 /* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_pipilet_male.jpg";
+module.exports = __webpack_require__.p + "jpg_pipilet_male_server.jpg";
 
 /***/ }),
 /* 4 */
@@ -176,7 +176,7 @@ function toComment(sourceMap) {
 /* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_winter-is-here.jpg";
+module.exports = __webpack_require__.p + "jpg_winter-is-here_server.jpg";
 
 /***/ }),
 /* 6 */
@@ -235,13 +235,13 @@ var _temp = function () {
 /* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_elephant_big_draw_number.png";
+module.exports = __webpack_require__.p + "png_elephant_big_draw_number_server.png";
 
 /***/ }),
 /* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_elephant_little_draw_number.png";
+module.exports = __webpack_require__.p + "png_elephant_little_draw_number_server.png";
 
 /***/ }),
 /* 10 */
@@ -540,13 +540,13 @@ exports.default = createConnect();
 /* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_here-we-go-round-the-mulberry-bush.jpg";
+module.exports = __webpack_require__.p + "jpg_here-we-go-round-the-mulberry-bush_server.jpg";
 
 /***/ }),
 /* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_pipilet-number-color.jpg";
+module.exports = __webpack_require__.p + "jpg_pipilet-number-color_server.jpg";
 
 /***/ }),
 /* 15 */
@@ -621,13 +621,13 @@ var _temp = function () {
 /* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_pat-a-cake.jpg";
+module.exports = __webpack_require__.p + "jpg_pat-a-cake_server.jpg";
 
 /***/ }),
 /* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_pipilet-description.jpg";
+module.exports = __webpack_require__.p + "jpg_pipilet-description_server.jpg";
 
 /***/ }),
 /* 18 */
@@ -1430,115 +1430,115 @@ exports.push([module.i, "#wrapper-text-image .wrapper-text{font-family:Helvetica
 /* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_brasil.png";
+module.exports = __webpack_require__.p + "png_brasil_server.png";
 
 /***/ }),
 /* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_china.png";
+module.exports = __webpack_require__.p + "png_china_server.png";
 
 /***/ }),
 /* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_english.png";
+module.exports = __webpack_require__.p + "png_english_server.png";
 
 /***/ }),
 /* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_french.png";
+module.exports = __webpack_require__.p + "png_french_server.png";
 
 /***/ }),
 /* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_german.png";
+module.exports = __webpack_require__.p + "png_german_server.png";
 
 /***/ }),
 /* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_india.png";
+module.exports = __webpack_require__.p + "png_india_server.png";
 
 /***/ }),
 /* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_italy.png";
+module.exports = __webpack_require__.p + "png_italy_server.png";
 
 /***/ }),
 /* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_russia.png";
+module.exports = __webpack_require__.p + "png_russia_server.png";
 
 /***/ }),
 /* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_serbia.png";
+module.exports = __webpack_require__.p + "png_serbia_server.png";
 
 /***/ }),
 /* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_spanish.png";
+module.exports = __webpack_require__.p + "png_spanish_server.png";
 
 /***/ }),
 /* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_icon-download.jpg";
+module.exports = __webpack_require__.p + "jpg_icon-download_server.jpg";
 
 /***/ }),
 /* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_map.png";
+module.exports = __webpack_require__.p + "png_map_server.png";
 
 /***/ }),
 /* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_fall-fall-ballon.jpg";
+module.exports = __webpack_require__.p + "jpg_fall-fall-ballon_server.jpg";
 
 /***/ }),
 /* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_its-rainning.jpg";
+module.exports = __webpack_require__.p + "jpg_its-rainning_server.jpg";
 
 /***/ }),
 /* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_spring-has-come.jpg";
+module.exports = __webpack_require__.p + "jpg_spring-has-come_server.jpg";
 
 /***/ }),
 /* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_two-tigers.jpg";
+module.exports = __webpack_require__.p + "jpg_two-tigers_server.jpg";
 
 /***/ }),
 /* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_pipilet-rainbow.jpg";
+module.exports = __webpack_require__.p + "jpg_pipilet-rainbow_server.jpg";
 
 /***/ }),
 /* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_pipilet-song.jpg";
+module.exports = __webpack_require__.p + "jpg_pipilet-song_server.jpg";
 
 /***/ }),
 /* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_universe.jpg";
+module.exports = __webpack_require__.p + "jpg_universe_server.jpg";
 
 /***/ }),
 /* 54 */
@@ -4378,337 +4378,337 @@ exports.push([module.i, ".wrapper-who-are-we{padding:60px;font-family:Helvetica 
 /* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_color_tree.jpg";
+module.exports = __webpack_require__.p + "jpg_color_tree_server.jpg";
 
 /***/ }),
 /* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_algerie1.jpg";
+module.exports = __webpack_require__.p + "jpg_algerie1_server.jpg";
 
 /***/ }),
 /* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_algerie2.jpg";
+module.exports = __webpack_require__.p + "jpg_algerie2_server.jpg";
 
 /***/ }),
 /* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_benin.jpg";
+module.exports = __webpack_require__.p + "jpg_benin_server.jpg";
 
 /***/ }),
 /* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_kenya.jpg";
+module.exports = __webpack_require__.p + "jpg_kenya_server.jpg";
 
 /***/ }),
 /* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_malagasy.jpg";
+module.exports = __webpack_require__.p + "jpg_malagasy_server.jpg";
 
 /***/ }),
 /* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_maroc.jpg";
+module.exports = __webpack_require__.p + "jpg_maroc_server.jpg";
 
 /***/ }),
 /* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_tunisie.jpg";
+module.exports = __webpack_require__.p + "jpg_tunisie_server.jpg";
 
 /***/ }),
 /* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_argentine.jpg";
+module.exports = __webpack_require__.p + "jpg_argentine_server.jpg";
 
 /***/ }),
 /* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_brasil-2.jpg";
+module.exports = __webpack_require__.p + "jpg_brasil-2_server.jpg";
 
 /***/ }),
 /* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_brasil.jpg";
+module.exports = __webpack_require__.p + "jpg_brasil_server.jpg";
 
 /***/ }),
 /* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_canada.jpg";
+module.exports = __webpack_require__.p + "jpg_canada_server.jpg";
 
 /***/ }),
 /* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_chilie.jpg";
+module.exports = __webpack_require__.p + "jpg_chilie_server.jpg";
 
 /***/ }),
 /* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_guyane.jpg";
+module.exports = __webpack_require__.p + "jpg_guyane_server.jpg";
 
 /***/ }),
 /* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_haiti.jpg";
+module.exports = __webpack_require__.p + "jpg_haiti_server.jpg";
 
 /***/ }),
 /* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_haiti2.jpg";
+module.exports = __webpack_require__.p + "jpg_haiti2_server.jpg";
 
 /***/ }),
 /* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_mexico-nutella.jpg";
+module.exports = __webpack_require__.p + "jpg_mexico-nutella_server.jpg";
 
 /***/ }),
 /* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_mexico-oreo.jpg";
+module.exports = __webpack_require__.p + "jpg_mexico-oreo_server.jpg";
 
 /***/ }),
 /* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_usa1.jpg";
+module.exports = __webpack_require__.p + "jpg_usa1_server.jpg";
 
 /***/ }),
 /* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_usa2.jpg";
+module.exports = __webpack_require__.p + "jpg_usa2_server.jpg";
 
 /***/ }),
 /* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_arabia.jpg";
+module.exports = __webpack_require__.p + "jpg_arabia_server.jpg";
 
 /***/ }),
 /* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_arabia2.jpg";
+module.exports = __webpack_require__.p + "jpg_arabia2_server.jpg";
 
 /***/ }),
 /* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_china.jpg";
+module.exports = __webpack_require__.p + "jpg_china_server.jpg";
 
 /***/ }),
 /* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_china2.jpg";
+module.exports = __webpack_require__.p + "jpg_china2_server.jpg";
 
 /***/ }),
 /* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_india.jpg";
+module.exports = __webpack_require__.p + "jpg_india_server.jpg";
 
 /***/ }),
 /* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_india2.jpg";
+module.exports = __webpack_require__.p + "jpg_india2_server.jpg";
 
 /***/ }),
 /* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_jordania2.jpg";
+module.exports = __webpack_require__.p + "jpg_jordania2_server.jpg";
 
 /***/ }),
 /* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_liban.png";
+module.exports = __webpack_require__.p + "png_liban_server.png";
 
 /***/ }),
 /* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpeg_liban2.jpeg";
+module.exports = __webpack_require__.p + "jpeg_liban2_server.jpeg";
 
 /***/ }),
 /* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_singapour.jpg";
+module.exports = __webpack_require__.p + "jpg_singapour_server.jpg";
 
 /***/ }),
 /* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_singapour2.jpg";
+module.exports = __webpack_require__.p + "jpg_singapour2_server.jpg";
 
 /***/ }),
 /* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_english.jpg";
+module.exports = __webpack_require__.p + "jpg_english_server.jpg";
 
 /***/ }),
 /* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_french.jpg";
+module.exports = __webpack_require__.p + "jpg_french_server.jpg";
 
 /***/ }),
 /* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_french2.jpg";
+module.exports = __webpack_require__.p + "jpg_french2_server.jpg";
 
 /***/ }),
 /* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_german.jpg";
+module.exports = __webpack_require__.p + "jpg_german_server.jpg";
 
 /***/ }),
 /* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_italy.jpg";
+module.exports = __webpack_require__.p + "jpg_italy_server.jpg";
 
 /***/ }),
 /* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpeg_italy2.jpeg";
+module.exports = __webpack_require__.p + "jpeg_italy2_server.jpeg";
 
 /***/ }),
 /* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_russia.jpg";
+module.exports = __webpack_require__.p + "jpg_russia_server.jpg";
 
 /***/ }),
 /* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpeg_russia2.jpeg";
+module.exports = __webpack_require__.p + "jpeg_russia2_server.jpeg";
 
 /***/ }),
 /* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_serbia.jpg";
+module.exports = __webpack_require__.p + "jpg_serbia_server.jpg";
 
 /***/ }),
 /* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_serbia2.jpg";
+module.exports = __webpack_require__.p + "jpg_serbia2_server.jpg";
 
 /***/ }),
 /* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_spanish.jpg";
+module.exports = __webpack_require__.p + "jpg_spanish_server.jpg";
 
 /***/ }),
 /* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpeg_spanish2.jpeg";
+module.exports = __webpack_require__.p + "jpeg_spanish2_server.jpeg";
 
 /***/ }),
 /* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_australie.jpg";
+module.exports = __webpack_require__.p + "jpg_australie_server.jpg";
 
 /***/ }),
 /* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_australie2.jpg";
+module.exports = __webpack_require__.p + "jpg_australie2_server.jpg";
 
 /***/ }),
 /* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_vanuatu.jpg";
+module.exports = __webpack_require__.p + "jpg_vanuatu_server.jpg";
 
 /***/ }),
 /* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_zelande.jpg";
+module.exports = __webpack_require__.p + "jpg_zelande_server.jpg";
 
 /***/ }),
 /* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_zelande2.jpg";
+module.exports = __webpack_require__.p + "jpg_zelande2_server.jpg";
 
 /***/ }),
 /* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_ghana.png";
+module.exports = __webpack_require__.p + "png_ghana_server.png";
 
 /***/ }),
 /* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_lebanon.jpg";
+module.exports = __webpack_require__.p + "jpg_lebanon_server.jpg";
 
 /***/ }),
 /* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_south-africa.jpg";
+module.exports = __webpack_require__.p + "jpg_south-africa_server.jpg";
 
 /***/ }),
 /* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_tanzania.jpg";
+module.exports = __webpack_require__.p + "jpg_tanzania_server.jpg";
 
 /***/ }),
 /* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_bike_big_draw_number.png";
+module.exports = __webpack_require__.p + "png_bike_big_draw_number_server.png";
 
 /***/ }),
 /* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_bike_little_draw_number.png";
+module.exports = __webpack_require__.p + "png_bike_little_draw_number_server.png";
 
 /***/ }),
 /* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_umbrella_big_draw_number.png";
+module.exports = __webpack_require__.p + "png_umbrella_big_draw_number_server.png";
 
 /***/ }),
 /* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_umbrella_little_draw_number.png";
+module.exports = __webpack_require__.p + "png_umbrella_little_draw_number_server.png";
 
 /***/ }),
 /* 159 */
@@ -16877,937 +16877,937 @@ exports.push([module.i, "#translated-number{padding:60px}#translated-number .wra
 /* 343 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_all-colors-eng.png";
+module.exports = __webpack_require__.p + "png_all-colors-eng_server.png";
 
 /***/ }),
 /* 344 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_all-colors-esp.png";
+module.exports = __webpack_require__.p + "png_all-colors-esp_server.png";
 
 /***/ }),
 /* 345 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_all-colors-fr.png";
+module.exports = __webpack_require__.p + "png_all-colors-fr_server.png";
 
 /***/ }),
 /* 346 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_arab_draw_1.png";
+module.exports = __webpack_require__.p + "png_arab_draw_1_server.png";
 
 /***/ }),
 /* 347 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_arab_draw_2.png";
+module.exports = __webpack_require__.p + "png_arab_draw_2_server.png";
 
 /***/ }),
 /* 348 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_black.png";
+module.exports = __webpack_require__.p + "png_black_server.png";
 
 /***/ }),
 /* 349 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_blue.png";
+module.exports = __webpack_require__.p + "png_blue_server.png";
 
 /***/ }),
 /* 350 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_brasil_draw.png";
+module.exports = __webpack_require__.p + "png_brasil_draw_server.png";
 
 /***/ }),
 /* 351 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_brown.png";
+module.exports = __webpack_require__.p + "png_brown_server.png";
 
 /***/ }),
 /* 352 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_china_draw_1.png";
+module.exports = __webpack_require__.p + "png_china_draw_1_server.png";
 
 /***/ }),
 /* 353 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_china_draw_2.png";
+module.exports = __webpack_require__.p + "png_china_draw_2_server.png";
 
 /***/ }),
 /* 354 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_english_draw.png";
+module.exports = __webpack_require__.p + "png_english_draw_server.png";
 
 /***/ }),
 /* 355 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_french_draw.png";
+module.exports = __webpack_require__.p + "png_french_draw_server.png";
 
 /***/ }),
 /* 356 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_german_draw.png";
+module.exports = __webpack_require__.p + "png_german_draw_server.png";
 
 /***/ }),
 /* 357 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_green.png";
+module.exports = __webpack_require__.p + "png_green_server.png";
 
 /***/ }),
 /* 358 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_india_draw_1.png";
+module.exports = __webpack_require__.p + "png_india_draw_1_server.png";
 
 /***/ }),
 /* 359 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_india_draw_2.png";
+module.exports = __webpack_require__.p + "png_india_draw_2_server.png";
 
 /***/ }),
 /* 360 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_italy_draw.png";
+module.exports = __webpack_require__.p + "png_italy_draw_server.png";
 
 /***/ }),
 /* 361 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_orange.png";
+module.exports = __webpack_require__.p + "png_orange_server.png";
 
 /***/ }),
 /* 362 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_pink.png";
+module.exports = __webpack_require__.p + "png_pink_server.png";
 
 /***/ }),
 /* 363 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_purple.png";
+module.exports = __webpack_require__.p + "png_purple_server.png";
 
 /***/ }),
 /* 364 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_red.png";
+module.exports = __webpack_require__.p + "png_red_server.png";
 
 /***/ }),
 /* 365 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_russia_draw_1.png";
+module.exports = __webpack_require__.p + "png_russia_draw_1_server.png";
 
 /***/ }),
 /* 366 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_russia_draw_2.png";
+module.exports = __webpack_require__.p + "png_russia_draw_2_server.png";
 
 /***/ }),
 /* 367 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_serb_draw_1.png";
+module.exports = __webpack_require__.p + "png_serb_draw_1_server.png";
 
 /***/ }),
 /* 368 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_serb_draw_2.png";
+module.exports = __webpack_require__.p + "png_serb_draw_2_server.png";
 
 /***/ }),
 /* 369 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_spanish_draw.png";
+module.exports = __webpack_require__.p + "png_spanish_draw_server.png";
 
 /***/ }),
 /* 370 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_tanzanie_draw.png";
+module.exports = __webpack_require__.p + "png_tanzanie_draw_server.png";
 
 /***/ }),
 /* 371 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_white.png";
+module.exports = __webpack_require__.p + "png_white_server.png";
 
 /***/ }),
 /* 372 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_yellow.png";
+module.exports = __webpack_require__.p + "png_yellow_server.png";
 
 /***/ }),
 /* 373 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_english_nav.png";
+module.exports = __webpack_require__.p + "png_english_nav_server.png";
 
 /***/ }),
 /* 374 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_french_nav.png";
+module.exports = __webpack_require__.p + "png_french_nav_server.png";
 
 /***/ }),
 /* 375 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_note-1.png";
+module.exports = __webpack_require__.p + "png_note-1_server.png";
 
 /***/ }),
 /* 376 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_note-2.png";
+module.exports = __webpack_require__.p + "png_note-2_server.png";
 
 /***/ }),
 /* 377 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_note-3.png";
+module.exports = __webpack_require__.p + "png_note-3_server.png";
 
 /***/ }),
 /* 378 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_note-4.png";
+module.exports = __webpack_require__.p + "png_note-4_server.png";
 
 /***/ }),
 /* 379 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_on-monday-morning.jpg";
+module.exports = __webpack_require__.p + "jpg_on-monday-morning_server.jpg";
 
 /***/ }),
 /* 380 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_si-ma-ma-ka.jpg";
+module.exports = __webpack_require__.p + "jpg_si-ma-ma-ka_server.jpg";
 
 /***/ }),
 /* 381 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_the-courtyard-of-my-house.jpg";
+module.exports = __webpack_require__.p + "jpg_the-courtyard-of-my-house_server.jpg";
 
 /***/ }),
 /* 382 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_the-washerman.jpg";
+module.exports = __webpack_require__.p + "jpg_the-washerman_server.jpg";
 
 /***/ }),
 /* 383 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_tic-tic-tic.jpg";
+module.exports = __webpack_require__.p + "jpg_tic-tic-tic_server.jpg";
 
 /***/ }),
 /* 384 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_fall-fall-ballon.png";
+module.exports = __webpack_require__.p + "png_fall-fall-ballon_server.png";
 
 /***/ }),
 /* 385 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_here-we-go-round-the-mulberry-bush.png";
+module.exports = __webpack_require__.p + "png_here-we-go-round-the-mulberry-bush_server.png";
 
 /***/ }),
 /* 386 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_its-rainning.png";
+module.exports = __webpack_require__.p + "png_its-rainning_server.png";
 
 /***/ }),
 /* 387 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_on-monday-morning.png";
+module.exports = __webpack_require__.p + "png_on-monday-morning_server.png";
 
 /***/ }),
 /* 388 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_si-ma-ma-ka.png";
+module.exports = __webpack_require__.p + "png_si-ma-ma-ka_server.png";
 
 /***/ }),
 /* 389 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_the-courtyard-of-my-house.png";
+module.exports = __webpack_require__.p + "png_the-courtyard-of-my-house_server.png";
 
 /***/ }),
 /* 390 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_tic-tic-tic.jpg";
+module.exports = __webpack_require__.p + "jpg_tic-tic-tic_server.jpg";
 
 /***/ }),
 /* 391 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_two-tigers.jpg";
+module.exports = __webpack_require__.p + "jpg_two-tigers_server.jpg";
 
 /***/ }),
 /* 392 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_winter-is-here.png";
+module.exports = __webpack_require__.p + "png_winter-is-here_server.png";
 
 /***/ }),
 /* 393 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_pipilet-horizontal.jpg";
+module.exports = __webpack_require__.p + "jpg_pipilet-horizontal_server.jpg";
 
 /***/ }),
 /* 394 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_spanish_nav.png";
+module.exports = __webpack_require__.p + "png_spanish_nav_server.png";
 
 /***/ }),
 /* 395 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_children.png";
+module.exports = __webpack_require__.p + "png_children_server.png";
 
 /***/ }),
 /* 396 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_owls-1.png";
+module.exports = __webpack_require__.p + "png_owls-1_server.png";
 
 /***/ }),
 /* 397 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_owls-2.png";
+module.exports = __webpack_require__.p + "png_owls-2_server.png";
 
 /***/ }),
 /* 398 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_owls-3.png";
+module.exports = __webpack_require__.p + "png_owls-3_server.png";
 
 /***/ }),
 /* 399 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_children.png";
+module.exports = __webpack_require__.p + "png_children_server.png";
 
 /***/ }),
 /* 400 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_owls-1.png";
+module.exports = __webpack_require__.p + "png_owls-1_server.png";
 
 /***/ }),
 /* 401 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_owls-2.png";
+module.exports = __webpack_require__.p + "png_owls-2_server.png";
 
 /***/ }),
 /* 402 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_owls-3.png";
+module.exports = __webpack_require__.p + "png_owls-3_server.png";
 
 /***/ }),
 /* 403 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_children.png";
+module.exports = __webpack_require__.p + "png_children_server.png";
 
 /***/ }),
 /* 404 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_owls-1.png";
+module.exports = __webpack_require__.p + "png_owls-1_server.png";
 
 /***/ }),
 /* 405 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_owls-2.png";
+module.exports = __webpack_require__.p + "png_owls-2_server.png";
 
 /***/ }),
 /* 406 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_owls-3.png";
+module.exports = __webpack_require__.p + "png_owls-3_server.png";
 
 /***/ }),
 /* 407 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_map.png";
+module.exports = __webpack_require__.p + "png_map_server.png";
 
 /***/ }),
 /* 408 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_family-owls.jpg";
+module.exports = __webpack_require__.p + "jpg_family-owls_server.jpg";
 
 /***/ }),
 /* 409 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_family.jpg";
+module.exports = __webpack_require__.p + "jpg_family_server.jpg";
 
 /***/ }),
 /* 410 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_pipilet-horizontal.jpg";
+module.exports = __webpack_require__.p + "jpg_pipilet-horizontal_server.jpg";
 
 /***/ }),
 /* 411 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_earth-snow.jpg";
+module.exports = __webpack_require__.p + "jpg_earth-snow_server.jpg";
 
 /***/ }),
 /* 412 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_hand-write-logo.png";
+module.exports = __webpack_require__.p + "png_hand-write-logo_server.png";
 
 /***/ }),
 /* 413 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_book-number.png";
+module.exports = __webpack_require__.p + "png_book-number_server.png";
 
 /***/ }),
 /* 414 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_arabe.pdf";
+module.exports = __webpack_require__.p + "pdf_arabe_server.pdf";
 
 /***/ }),
 /* 415 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_brasil.pdf";
+module.exports = __webpack_require__.p + "pdf_brasil_server.pdf";
 
 /***/ }),
 /* 416 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_china.pdf";
+module.exports = __webpack_require__.p + "pdf_china_server.pdf";
 
 /***/ }),
 /* 417 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_french.pdf";
+module.exports = __webpack_require__.p + "pdf_french_server.pdf";
 
 /***/ }),
 /* 418 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_german.pdf";
+module.exports = __webpack_require__.p + "pdf_german_server.pdf";
 
 /***/ }),
 /* 419 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_india.pdf";
+module.exports = __webpack_require__.p + "pdf_india_server.pdf";
 
 /***/ }),
 /* 420 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_italy.pdf";
+module.exports = __webpack_require__.p + "pdf_italy_server.pdf";
 
 /***/ }),
 /* 421 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_russia.pdf";
+module.exports = __webpack_require__.p + "pdf_russia_server.pdf";
 
 /***/ }),
 /* 422 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_serbia.pdf";
+module.exports = __webpack_require__.p + "pdf_serbia_server.pdf";
 
 /***/ }),
 /* 423 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_spanish.pdf";
+module.exports = __webpack_require__.p + "pdf_spanish_server.pdf";
 
 /***/ }),
 /* 424 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_swahili.pdf";
+module.exports = __webpack_require__.p + "pdf_swahili_server.pdf";
 
 /***/ }),
 /* 425 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_arabe.pdf";
+module.exports = __webpack_require__.p + "pdf_arabe_server.pdf";
 
 /***/ }),
 /* 426 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_brasil.pdf";
+module.exports = __webpack_require__.p + "pdf_brasil_server.pdf";
 
 /***/ }),
 /* 427 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_china.pdf";
+module.exports = __webpack_require__.p + "pdf_china_server.pdf";
 
 /***/ }),
 /* 428 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_english.pdf";
+module.exports = __webpack_require__.p + "pdf_english_server.pdf";
 
 /***/ }),
 /* 429 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_french.pdf";
+module.exports = __webpack_require__.p + "pdf_french_server.pdf";
 
 /***/ }),
 /* 430 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_german.pdf";
+module.exports = __webpack_require__.p + "pdf_german_server.pdf";
 
 /***/ }),
 /* 431 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_india.pdf";
+module.exports = __webpack_require__.p + "pdf_india_server.pdf";
 
 /***/ }),
 /* 432 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_italy.pdf";
+module.exports = __webpack_require__.p + "pdf_italy_server.pdf";
 
 /***/ }),
 /* 433 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_russia.pdf";
+module.exports = __webpack_require__.p + "pdf_russia_server.pdf";
 
 /***/ }),
 /* 434 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_serbia.pdf";
+module.exports = __webpack_require__.p + "pdf_serbia_server.pdf";
 
 /***/ }),
 /* 435 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_spanish.pdf";
+module.exports = __webpack_require__.p + "pdf_spanish_server.pdf";
 
 /***/ }),
 /* 436 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_swahili.pdf";
+module.exports = __webpack_require__.p + "pdf_swahili_server.pdf";
 
 /***/ }),
 /* 437 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_arabe.pdf";
+module.exports = __webpack_require__.p + "pdf_arabe_server.pdf";
 
 /***/ }),
 /* 438 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_brasil.pdf";
+module.exports = __webpack_require__.p + "pdf_brasil_server.pdf";
 
 /***/ }),
 /* 439 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_china.pdf";
+module.exports = __webpack_require__.p + "pdf_china_server.pdf";
 
 /***/ }),
 /* 440 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_english.pdf";
+module.exports = __webpack_require__.p + "pdf_english_server.pdf";
 
 /***/ }),
 /* 441 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_french.pdf";
+module.exports = __webpack_require__.p + "pdf_french_server.pdf";
 
 /***/ }),
 /* 442 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_german.pdf";
+module.exports = __webpack_require__.p + "pdf_german_server.pdf";
 
 /***/ }),
 /* 443 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_india.pdf";
+module.exports = __webpack_require__.p + "pdf_india_server.pdf";
 
 /***/ }),
 /* 444 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_italy.pdf";
+module.exports = __webpack_require__.p + "pdf_italy_server.pdf";
 
 /***/ }),
 /* 445 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_russia.pdf";
+module.exports = __webpack_require__.p + "pdf_russia_server.pdf";
 
 /***/ }),
 /* 446 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_serbia.pdf";
+module.exports = __webpack_require__.p + "pdf_serbia_server.pdf";
 
 /***/ }),
 /* 447 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_spanish.pdf";
+module.exports = __webpack_require__.p + "pdf_spanish_server.pdf";
 
 /***/ }),
 /* 448 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_swahili.pdf";
+module.exports = __webpack_require__.p + "pdf_swahili_server.pdf";
 
 /***/ }),
 /* 449 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_arabe.pdf";
+module.exports = __webpack_require__.p + "pdf_arabe_server.pdf";
 
 /***/ }),
 /* 450 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_brasil.pdf";
+module.exports = __webpack_require__.p + "pdf_brasil_server.pdf";
 
 /***/ }),
 /* 451 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_china.pdf";
+module.exports = __webpack_require__.p + "pdf_china_server.pdf";
 
 /***/ }),
 /* 452 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_english.pdf";
+module.exports = __webpack_require__.p + "pdf_english_server.pdf";
 
 /***/ }),
 /* 453 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_french.pdf";
+module.exports = __webpack_require__.p + "pdf_french_server.pdf";
 
 /***/ }),
 /* 454 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_german.pdf";
+module.exports = __webpack_require__.p + "pdf_german_server.pdf";
 
 /***/ }),
 /* 455 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_india.pdf";
+module.exports = __webpack_require__.p + "pdf_india_server.pdf";
 
 /***/ }),
 /* 456 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_italy.pdf";
+module.exports = __webpack_require__.p + "pdf_italy_server.pdf";
 
 /***/ }),
 /* 457 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_russia.pdf";
+module.exports = __webpack_require__.p + "pdf_russia_server.pdf";
 
 /***/ }),
 /* 458 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_serbia.pdf";
+module.exports = __webpack_require__.p + "pdf_serbia_server.pdf";
 
 /***/ }),
 /* 459 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_spanish.pdf";
+module.exports = __webpack_require__.p + "pdf_spanish_server.pdf";
 
 /***/ }),
 /* 460 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_swahili.pdf";
+module.exports = __webpack_require__.p + "pdf_swahili_server.pdf";
 
 /***/ }),
 /* 461 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_fall-fall-ballon.pdf";
+module.exports = __webpack_require__.p + "pdf_fall-fall-ballon_server.pdf";
 
 /***/ }),
 /* 462 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_here-we-go-round-the-mulberry-bush.pdf";
+module.exports = __webpack_require__.p + "pdf_here-we-go-round-the-mulberry-bush_server.pdf";
 
 /***/ }),
 /* 463 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_its-rainning.pdf";
+module.exports = __webpack_require__.p + "pdf_its-rainning_server.pdf";
 
 /***/ }),
 /* 464 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_on-monday-morning.pdf";
+module.exports = __webpack_require__.p + "pdf_on-monday-morning_server.pdf";
 
 /***/ }),
 /* 465 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_pat-a-cake.pdf";
+module.exports = __webpack_require__.p + "pdf_pat-a-cake_server.pdf";
 
 /***/ }),
 /* 466 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_si-ma-ma-ka.pdf";
+module.exports = __webpack_require__.p + "pdf_si-ma-ma-ka_server.pdf";
 
 /***/ }),
 /* 467 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_spring-has-come-eng.pdf";
+module.exports = __webpack_require__.p + "pdf_spring-has-come-eng_server.pdf";
 
 /***/ }),
 /* 468 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_the-courtyard-of-my-house.pdf";
+module.exports = __webpack_require__.p + "pdf_the-courtyard-of-my-house_server.pdf";
 
 /***/ }),
 /* 469 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_the-washerman.pdf";
+module.exports = __webpack_require__.p + "pdf_the-washerman_server.pdf";
 
 /***/ }),
 /* 470 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_tic-tic-tic.pdf";
+module.exports = __webpack_require__.p + "pdf_tic-tic-tic_server.pdf";
 
 /***/ }),
 /* 471 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_two-tigers.pdf";
+module.exports = __webpack_require__.p + "pdf_two-tigers_server.pdf";
 
 /***/ }),
 /* 472 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_winter_is_here.pdf";
+module.exports = __webpack_require__.p + "pdf_winter_is_here_server.pdf";
 
 /***/ }),
 /* 473 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_fall-fall-ballon.pdf";
+module.exports = __webpack_require__.p + "pdf_fall-fall-ballon_server.pdf";
 
 /***/ }),
 /* 474 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_here-we-go-round-the-mulberry-bush.pdf";
+module.exports = __webpack_require__.p + "pdf_here-we-go-round-the-mulberry-bush_server.pdf";
 
 /***/ }),
 /* 475 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_its-rainning.pdf";
+module.exports = __webpack_require__.p + "pdf_its-rainning_server.pdf";
 
 /***/ }),
 /* 476 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_on-monday-morning.pdf";
+module.exports = __webpack_require__.p + "pdf_on-monday-morning_server.pdf";
 
 /***/ }),
 /* 477 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_pat-a-cake.pdf";
+module.exports = __webpack_require__.p + "pdf_pat-a-cake_server.pdf";
 
 /***/ }),
 /* 478 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_si-ma-ma-ka.pdf";
+module.exports = __webpack_require__.p + "pdf_si-ma-ma-ka_server.pdf";
 
 /***/ }),
 /* 479 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_spring-has-come.pdf";
+module.exports = __webpack_require__.p + "pdf_spring-has-come_server.pdf";
 
 /***/ }),
 /* 480 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_the-courtyard-of-my-house.pdf";
+module.exports = __webpack_require__.p + "pdf_the-courtyard-of-my-house_server.pdf";
 
 /***/ }),
 /* 481 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_the-washerman.pdf";
+module.exports = __webpack_require__.p + "pdf_the-washerman_server.pdf";
 
 /***/ }),
 /* 482 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_tic-tic-tic.pdf";
+module.exports = __webpack_require__.p + "pdf_tic-tic-tic_server.pdf";
 
 /***/ }),
 /* 483 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_two-tigers.pdf";
+module.exports = __webpack_require__.p + "pdf_two-tigers_server.pdf";
 
 /***/ }),
 /* 484 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_winter-is-here.pdf";
+module.exports = __webpack_require__.p + "pdf_winter-is-here_server.pdf";
 
 /***/ }),
 /* 485 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_fall-fall-ballon.pdf";
+module.exports = __webpack_require__.p + "pdf_fall-fall-ballon_server.pdf";
 
 /***/ }),
 /* 486 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_here-we-go-round-the-mulberry-bush.pdf";
+module.exports = __webpack_require__.p + "pdf_here-we-go-round-the-mulberry-bush_server.pdf";
 
 /***/ }),
 /* 487 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_its-rainning.pdf";
+module.exports = __webpack_require__.p + "pdf_its-rainning_server.pdf";
 
 /***/ }),
 /* 488 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_on-monday-morning.pdf";
+module.exports = __webpack_require__.p + "pdf_on-monday-morning_server.pdf";
 
 /***/ }),
 /* 489 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_pat-a-cake.pdf";
+module.exports = __webpack_require__.p + "pdf_pat-a-cake_server.pdf";
 
 /***/ }),
 /* 490 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_si-ma-ma-ka.pdf";
+module.exports = __webpack_require__.p + "pdf_si-ma-ma-ka_server.pdf";
 
 /***/ }),
 /* 491 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_spring-has-come.pdf";
+module.exports = __webpack_require__.p + "pdf_spring-has-come_server.pdf";
 
 /***/ }),
 /* 492 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_the-courtyard-of-my-house.pdf";
+module.exports = __webpack_require__.p + "pdf_the-courtyard-of-my-house_server.pdf";
 
 /***/ }),
 /* 493 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_the-washerman.pdf";
+module.exports = __webpack_require__.p + "pdf_the-washerman_server.pdf";
 
 /***/ }),
 /* 494 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_tic-tic-tic.pdf";
+module.exports = __webpack_require__.p + "pdf_tic-tic-tic_server.pdf";
 
 /***/ }),
 /* 495 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_two-tigers.pdf";
+module.exports = __webpack_require__.p + "pdf_two-tigers_server.pdf";
 
 /***/ }),
 /* 496 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_winter-is-here.pdf";
+module.exports = __webpack_require__.p + "pdf_winter-is-here_server.pdf";
 
 /***/ }),
 /* 497 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_bird_big_draw_number.png";
+module.exports = __webpack_require__.p + "png_bird_big_draw_number_server.png";
 
 /***/ }),
 /* 498 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_bird_little_draw_number.png";
+module.exports = __webpack_require__.p + "png_bird_little_draw_number_server.png";
 
 /***/ }),
 /* 499 */
