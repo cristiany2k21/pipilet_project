@@ -16029,7 +16029,7 @@ var _spanish6 = __webpack_require__(101);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /* eslint-disable no-unused-vars */
-var navbar = ['Acogida', 'Presentación', 'Pipilet Mandala', 'Contacto'];
+var navbar = ['Inicio', 'Presentación', 'Pipilet Mandala', 'Contacto'];
 
 var sidebar = ['LAS CANCIONES', 'LOS COLORES Y LOS NÚMEROS', 'LA REPOSTERÍA', '¿ SABES QUIÊN SOY ?'];
 
