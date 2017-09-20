@@ -76,7 +76,7 @@ module.exports = require("react");
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "af5e89ee7fbab88398521c73d4930783.jpg";
+module.exports = __webpack_require__.p + "4ab2701ef251f05388bd2df413cf10bd.jpg";
 
 /***/ }),
 /* 2 */
@@ -546,7 +546,7 @@ module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QImUGhvdG9
 /* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "973bc422cf0a1f2bb286aec98a521b93.jpg";
+module.exports = __webpack_require__.p + "3a121873433e565d57d5b6c891e5670a.jpg";
 
 /***/ }),
 /* 15 */
@@ -627,7 +627,7 @@ module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QHEUGhvdG9
 /* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "1c0f6ce5f4845fd3fc3c401ca2fb70aa.jpg";
+module.exports = __webpack_require__.p + "1b7b0a08dbbc8b27fec88835693a5f3e.jpg";
 
 /***/ }),
 /* 18 */
@@ -1532,7 +1532,7 @@ module.exports = __webpack_require__.p + "8399e25c6574ce55ee85c18c353c6a69.jpg";
 /* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "9fce98a3f51bdb7fa3fa40cfa6b50b63.jpg";
+module.exports = __webpack_require__.p + "d3441b62b542db8128625f3e669794c1.jpg";
 
 /***/ }),
 /* 53 */
@@ -5758,7 +5758,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-	value: true
+  value: true
 });
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -5776,38 +5776,36 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var initialState = _extends({}, _websiteLanguages2.default[0]);
 
 function ChooseLanguage() {
-	var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialState;
-	var action = arguments[1];
+  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialState;
+  var action = arguments[1];
 
-	switch (action.type) {
-		case _language.CHANGE_LANGUAGE:
-			{
-				var language = {};
+  switch (action.type) {
+    case _language.CHANGE_LANGUAGE:
+      {
+        var language = {};
 
-				_websiteLanguages2.default.forEach(function (item) {
-					if (item.lan === action.country) {
-						language = item;
-					}
-				});
-				return _extends({}, language);
-			}
+        _websiteLanguages2.default.forEach(function (item) {
+          if (item.lan === action.country) language = item;
+        });
+        return _extends({}, language);
+      };
 
-		default:
-			{
-				return state;
-			}
-	}
+    default:
+      {
+        return state;
+      }
+  }
 }
 ;
 
 var _temp = function () {
-	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-		return;
-	}
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
 
-	__REACT_HOT_LOADER__.register(ChooseLanguage, 'ChooseLanguage', '/Users/mavrickduchamp/Documents/pipiletMandala/src/reducers/chooseLanguage.js');
+  __REACT_HOT_LOADER__.register(ChooseLanguage, 'ChooseLanguage', '/Users/mavrickduchamp/Documents/pipiletMandala/src/reducers/chooseLanguage.js');
 
-	__REACT_HOT_LOADER__.register(initialState, 'initialState', '/Users/mavrickduchamp/Documents/pipiletMandala/src/reducers/chooseLanguage.js');
+  __REACT_HOT_LOADER__.register(initialState, 'initialState', '/Users/mavrickduchamp/Documents/pipiletMandala/src/reducers/chooseLanguage.js');
 }();
 
 ;
@@ -6025,7 +6023,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-	value: true
+  value: true
 });
 
 var _react = __webpack_require__(0);
@@ -6057,44 +6055,46 @@ __webpack_require__(326);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var ColorNumber = function ColorNumber(_ref) {
-	var titleColor = _ref.titleColor,
-	    imageColor = _ref.imageColor,
-	    titleNumber = _ref.titleNumber,
-	    imageNumber = _ref.imageNumber;
-	return _react2.default.createElement(
-		'div',
-		{ id: 'wrapper-colornumber' },
-		_react2.default.createElement(_headerPage2.default, { title: titleColor, logo: _pipiletNumberColor2.default }),
-		_react2.default.createElement(
-			'div',
-			{ className: 'wrapper-all-image' },
-			_react2.default.createElement(
-				_Link2.default,
-				{ to: '/color' },
-				_react2.default.createElement('img', { src: imageColor })
-			)
-		),
-		_react2.default.createElement(_headerPage2.default, { title: titleNumber, logo: _pipiletNumberColor2.default }),
-		_react2.default.createElement(
-			'div',
-			{ className: 'wrapper-all-image' },
-			_react2.default.createElement(
-				_Link2.default,
-				{ to: '/number' },
-				_react2.default.createElement('img', { src: imageNumber })
-			)
-		),
-		_react2.default.createElement(_footer2.default, null)
-	);
+  var titleColor = _ref.titleColor,
+      imageColor = _ref.imageColor,
+      titleNumber = _ref.titleNumber,
+      imageNumber = _ref.imageNumber;
+
+
+  return _react2.default.createElement(
+    'div',
+    { id: 'wrapper-colornumber' },
+    _react2.default.createElement(_headerPage2.default, { title: titleColor, logo: _pipiletNumberColor2.default }),
+    _react2.default.createElement(
+      'div',
+      { className: 'wrapper-all-image' },
+      _react2.default.createElement(
+        _Link2.default,
+        { to: '/color' },
+        _react2.default.createElement('img', { src: imageColor })
+      )
+    ),
+    _react2.default.createElement(_headerPage2.default, { title: titleNumber, logo: _pipiletNumberColor2.default }),
+    _react2.default.createElement(
+      'div',
+      { className: 'wrapper-all-image' },
+      _react2.default.createElement(
+        _Link2.default,
+        { to: '/number' },
+        _react2.default.createElement('img', { src: imageNumber })
+      )
+    ),
+    _react2.default.createElement(_footer2.default, null)
+  );
 };
 
 var mapStateToProps = function mapStateToProps(state) {
-	return {
-		titleColor: state.ChooseLanguage.colorNumberContent.titleColor,
-		imageColor: state.ChooseLanguage.colorNumberContent.imageColor,
-		titleNumber: state.ChooseLanguage.colorNumberContent.titleNumber,
-		imageNumber: state.ChooseLanguage.colorNumberContent.imageNumber
-	};
+  return {
+    titleColor: state.ChooseLanguage.colorNumberContent.titleColor,
+    imageColor: state.ChooseLanguage.colorNumberContent.imageColor,
+    titleNumber: state.ChooseLanguage.colorNumberContent.titleNumber,
+    imageNumber: state.ChooseLanguage.colorNumberContent.imageNumber
+  };
 };
 
 var _default = (0, _connect2.default)(mapStateToProps)(ColorNumber);
@@ -6103,15 +6103,15 @@ exports.default = _default;
 ;
 
 var _temp = function () {
-	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-		return;
-	}
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
 
-	__REACT_HOT_LOADER__.register(ColorNumber, 'ColorNumber', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-number-page/color-number-page.jsx');
+  __REACT_HOT_LOADER__.register(ColorNumber, 'ColorNumber', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-number-page/color-number-page.jsx');
 
-	__REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-number-page/color-number-page.jsx');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-number-page/color-number-page.jsx');
 
-	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-number-page/color-number-page.jsx');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-number-page/color-number-page.jsx');
 }();
 
 ;
@@ -6124,7 +6124,7 @@ var _temp = function () {
 
 
 Object.defineProperty(exports, "__esModule", {
-	value: true
+  value: true
 });
 
 var _react = __webpack_require__(0);
@@ -6152,23 +6152,22 @@ __webpack_require__(327);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var ColorPage = function ColorPage(_ref) {
-	var titleColor = _ref.titleColor,
-	    imageColor = _ref.imageColor;
+  var titleColor = _ref.titleColor,
+      imageColor = _ref.imageColor;
 
-	return _react2.default.createElement(
-		'div',
-		{ id: 'wrapper-color-page' },
-		_react2.default.createElement(_section2.default, { path: '/color', image: imageColor, title: titleColor,
-			logo: _pipiletNumberColor2.default, extraClassName: 'color' }),
-		_react2.default.createElement(_footer2.default, null)
-	);
+  return _react2.default.createElement(
+    'div',
+    { id: 'wrapper-color-page' },
+    _react2.default.createElement(_section2.default, { path: '/color', image: imageColor, title: titleColor, logo: _pipiletNumberColor2.default, extraClassName: 'color' }),
+    _react2.default.createElement(_footer2.default, null)
+  );
 };
 
 var mapStateToProps = function mapStateToProps(state) {
-	return {
-		titleColor: state.ChooseLanguage.colorPageContent.titleColor,
-		imageColor: state.ChooseLanguage.colorPageContent.owls
-	};
+  return {
+    titleColor: state.ChooseLanguage.colorPageContent.titleColor,
+    imageColor: state.ChooseLanguage.colorPageContent.owls
+  };
 };
 
 var _default = (0, _connect2.default)(mapStateToProps)(ColorPage);
@@ -6177,15 +6176,15 @@ exports.default = _default;
 ;
 
 var _temp = function () {
-	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-		return;
-	}
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
 
-	__REACT_HOT_LOADER__.register(ColorPage, 'ColorPage', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-page/color-page.jsx');
+  __REACT_HOT_LOADER__.register(ColorPage, 'ColorPage', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-page/color-page.jsx');
 
-	__REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-page/color-page.jsx');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-page/color-page.jsx');
 
-	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-page/color-page.jsx');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/color-page/color-page.jsx');
 }();
 
 ;
@@ -18237,19 +18236,19 @@ function _resetWarned() {
 /* 366 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "ec77579e44b26b1c51df4995672be49b.png";
+module.exports = __webpack_require__.p + "58226248de75cdcbc2fe1f0cd63aff15.png";
 
 /***/ }),
 /* 367 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "547b5abb3b0be9865d39849bd4ef87cd.png";
+module.exports = __webpack_require__.p + "69bbf5530c631417f85156cca814f897.png";
 
 /***/ }),
 /* 368 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "ce77084f38466af35b5e7578e36e2a36.png";
+module.exports = __webpack_require__.p + "d0c030a95e153e04f35fe6550fb1f5e4.png";
 
 /***/ }),
 /* 369 */
@@ -18555,19 +18554,19 @@ module.exports = __webpack_require__.p + "b9cc3a056546bde22ebc6b0eab53a5d6.png";
 /* 419 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "eb8b69e409d156c1915047a604400f29.png";
+module.exports = __webpack_require__.p + "2b6dee82e3d075a55ea9289df5ba9f6e.png";
 
 /***/ }),
 /* 420 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "2471f894fe14daa3def54e4813c816dd.png";
+module.exports = __webpack_require__.p + "427e5cbd6daffa2aaa697067210d087f.png";
 
 /***/ }),
 /* 421 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "0d8c8a20e66c13a6f3e8457872f34714.png";
+module.exports = __webpack_require__.p + "fcb81b9d295bb09bbb3d0e6f6e18e02e.png";
 
 /***/ }),
 /* 422 */
@@ -18579,19 +18578,19 @@ module.exports = __webpack_require__.p + "72567873ce497fe870d8c2f406dbe32b.png";
 /* 423 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "d12144b9df4c1917cb8c6a0e276205d8.png";
+module.exports = __webpack_require__.p + "3b1304096dfb1d5959be17d73f9806ad.png";
 
 /***/ }),
 /* 424 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "d0e9bfe72a4b4acea311384a7636b9f9.png";
+module.exports = __webpack_require__.p + "12a28bbf0f67e2c7f0dc7d2094aa4094.png";
 
 /***/ }),
 /* 425 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "754f8e9c02408672ba0323d58291edea.png";
+module.exports = __webpack_require__.p + "6a9e0f8e71a8508d55fc67f098da36ca.png";
 
 /***/ }),
 /* 426 */
@@ -18603,19 +18602,19 @@ module.exports = __webpack_require__.p + "b4fc31486768c83c64fc64922f50e185.png";
 /* 427 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "3c4c6a8ec4e0ddc5ea11251569f5ba21.png";
+module.exports = __webpack_require__.p + "30b5e1b74157856a084e241b940e8511.png";
 
 /***/ }),
 /* 428 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "94f8cf859af8f8215613090008b64913.png";
+module.exports = __webpack_require__.p + "7972a48a7f796b11d8b6d2f50c483b00.png";
 
 /***/ }),
 /* 429 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "b5c1b7eee83bc060967b736a19e909b3.png";
+module.exports = __webpack_require__.p + "6485412c62c513d9561a96c92ffdfb16.png";
 
 /***/ }),
 /* 430 */
