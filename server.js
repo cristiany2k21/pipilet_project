@@ -14,49 +14,54 @@ const compiler = Webpack(webpackConfig);
 const app = express();
 
 const store = createStore(
-  reducers,
-  applyMiddleware(logger),
+reducers,
+applyMiddleware(logger)
 );
 let style = '';
 
 if (process.env.NODE_ENV == 'development') {
-  app.use(require('webpack-dev-middleware')(compiler, {
-    noInfo: true,
-  }));
+	app.use(require('webpack-dev-middleware')(compiler, {
+		noInfo: true
+	}));
 
-  app.use(require('webpack-hot-middleware')(compiler));
-} else {
-  style = '<link rel="stylesheet" type="text/css" href="/styles.min.css">';
+	app.use(require('webpack-hot-middleware')(compiler));
+}
+else {
+	style = '<link rel="stylesheet" type="text/css" href="/styles.min.css">';
 }
 
 app.use(express.static('public'));
 
 app.get('*.js', function (req, res, next) {
-  req.url = req.url + '.gz';
-  res.set('Content-Encoding', 'gzip');
-  next();
+	req.url = req.url + '.gz';
+	res.set('Content-Encoding', 'gzip');
+	next();
 });
 
 app.get('*', (req, res) => {
-  match({ routes: routes, location: req.url }, (err, redirect, props) => {
-    if (err) {
-      res.status(500).send(err.message);
-    } else if (redirect) {
-      res.redirect(redirect.pathname + redirect.search);
-    } else if (props) {
-      const appHtml = renderToString(
-        <Provider store={store}>
-          <RouterContext {...props}/>
-        </Provider>
-      );
-      res.send(renderPage(appHtml));
-    } else {
-      res.status(404).send('Not Found');
-    }
-  });
+	match({routes: routes, location: req.url}, (err, redirect, props) => {
+		if (err) {
+			res.status(500).send(err.message);
+		}
+		else if (redirect) {
+			res.redirect(redirect.pathname + redirect.search);
+		}
+		else if (props) {
+			const appHtml = renderToString(
+			<Provider store={store}>
+				<RouterContext {...props}/>
+			</Provider>
+			);
+			res.send(renderPage(appHtml));
+		}
+		else {
+			res.status(404).send('Not Found');
+		}
+	});
 });
+
 function renderPage(appHtml) {
-  return `
+	return `
     <!doctype html public="storage">
     <html>
       <head>
@@ -80,5 +85,5 @@ function renderPage(appHtml) {
 
 var PORT = process.env.PORT || 8081;
 app.listen(PORT, function () {
-  console.log('Production Express server running at localhost:' + PORT);
+	console.log('Production Express server running at localhost:' + PORT);
 });
