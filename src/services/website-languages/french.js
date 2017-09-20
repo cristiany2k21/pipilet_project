@@ -87,14 +87,14 @@ import frenchColorDownload from '../download/colors/fr/french.pdf';
 
 import { presentation } from '../presentation/french';
 
-import owls1 from '../../scenes/color-page/images/fr/owls-1.png';
-import owls2 from '../../scenes/color-page/images/fr/owls-2.png';
-import owls3 from '../../scenes/color-page/images/fr/owls-3.png';
+import owls1 from '../../scenes/color-number-page/images/fr/owls-1.png';
+import owls2 from '../../scenes/color-number-page/images/fr/owls-2.png';
+import owls3 from '../../scenes/color-number-page/images/fr/owls-3.png';
 
-import children from '../../scenes/color-page/images/fr/children.png';
+import children from '../../scenes/color-number-page/images/fr/children.png';
 
 import allColorFr from '../../images/all-colors-fr.png';
-import allNumberEsp from '../../scenes/color-page/images/fr/children.png';
+import allNumberEsp from '../../scenes/color-number-page/images/fr/children.png';
 
 import { whoarewe } from '../who-are-we/french';
 

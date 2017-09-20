@@ -9,7 +9,7 @@ const HeaderColor = ({
   download,
   nameDownload
 }) => {
-	return (
+  return (
     <div id="wrapper-header">
       <div className="wrapper-image-pipilet">
         <img src={pipilet} alt=""/>
@@ -34,7 +34,7 @@ const HeaderColor = ({
         </div>
       </div>
     </div>
-	);
+  )
 };
 
 export default HeaderColor;
