@@ -39,16 +39,14 @@ module.exports = {
 					}, {
 						loader: 'image-webpack-loader',
 						options: {
-							query: {
-								mozjpeg: {
-									progressive: true
-								},
-								gifsicle: {
-									interlaced: true
-								},
-								optipng: {
-									optimizationLevel: 7
-								}
+							mozjpeg: {
+								progressive: true
+							},
+							gifsicle: {
+								interlaced: true
+							},
+							optipng: {
+								optimizationLevel: 7
 							}
 						}
 					}
