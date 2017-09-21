@@ -7135,10 +7135,10 @@ var DisplayLyrics = function DisplayLyrics(_ref) {
 	    music = _ref.music,
 	    width = _ref.width;
 
+	console.log('music ------> ', music);
 	return _react2.default.createElement(
 		'div',
-		{ style: { width: width },
-			className: cssExtraClassName },
+		{ style: { width: width }, className: cssExtraClassName },
 		_react2.default.createElement(
 			'div',
 			{ className: 'lyrics-text' },
@@ -7414,8 +7414,10 @@ var LyricsPage = function LyricsPage(_ref) {
 		return index.name;
 	}).indexOf(language);
 	var music = songPageContent.music[index];
+	console.log('music ------> ', music);
 	var musicTranslated = music['translated-song'];
 	var musicOriginal = music['original-song'];
+	console.log('musicOriginal ------> ', musicOriginal);
 	var title = musicOriginal['second-title'] ? musicOriginal.title + ' ' + musicOriginal['second-title'] : musicOriginal.title;
 	var sameLryics = musicTranslated.id === musicOriginal.id;
 
@@ -14893,52 +14895,52 @@ var _default = {
 		},
 		flag: _information2.default.getFlagsMusic(),
 		music: [{
-			name: 'lebanon', translatedsong: _ticTicTic2.default,
-			originalsong: _ticTicTic4.default
+			name: 'lebanon', 'translated-song': _ticTicTic2.default,
+			'original-song': _ticTicTic4.default
 		}, {
 			name: 'ghana',
-			translatedsong: _siMaMaKa2.default,
-			originalsong: _siMaMaKa4.default
+			'translated-song': _siMaMaKa2.default,
+			'original-song': _siMaMaKa4.default
 		}, {
 			name: 'china',
-			translatedsong: _twoTigers2.default,
-			originalsong: _twoTigers4.default
+			'translated-song': _twoTigers2.default,
+			'original-song': _twoTigers4.default
 		}, {
 			name: 'german',
-			translatedsong: _winterIsHere2.default,
-			originalsong: _winterIsHere4.default
+			'translated-song': _winterIsHere2.default,
+			'original-song': _winterIsHere4.default
 		}, {
 			name: 'india',
-			translatedsong: _theWasherman2.default,
-			originalsong: _theWasherman4.default
+			'translated-song': _theWasherman2.default,
+			'original-song': _theWasherman4.default
 		}, {
 			name: 'brasil',
-			translatedsong: _fallFallBallon2.default,
-			originalsong: _fallFallBallon4.default
+			'translated-song': _fallFallBallon2.default,
+			'original-song': _fallFallBallon4.default
 		}, {
 			name: 'italy',
-			translatedsong: _springHasCome2.default,
-			originalsong: _springHasCome4.default
+			'translated-song': _springHasCome2.default,
+			'original-song': _springHasCome4.default
 		}, {
 			name: 'french',
-			translatedsong: _onMondayMorning2.default,
-			originalsong: _onMondayMorning4.default
+			'translated-song': _onMondayMorning2.default,
+			'original-song': _onMondayMorning4.default
 		}, {
 			name: 'english',
-			translatedsong: _hereWeGoRoundTheMulberryBush2.default,
-			originalsong: _hereWeGoRoundTheMulberryBush4.default
+			'translated-song': _hereWeGoRoundTheMulberryBush2.default,
+			'original-song': _hereWeGoRoundTheMulberryBush4.default
 		}, {
 			name: 'serbia',
-			translatedsong: _itsRainning2.default,
-			originalsong: _itsRainning4.default
+			'translated-song': _itsRainning2.default,
+			'original-song': _itsRainning4.default
 		}, {
 			name: 'russia',
-			translatedsong: _patACake2.default,
-			originalsong: _patACake4.default
+			'translated-song': _patACake2.default,
+			'original-song': _patACake4.default
 		}, {
 			name: 'spanish',
-			translatedsong: _theCourtyardOfMyHouse2.default,
-			originalsong: _theCourtyardOfMyHouse4.default
+			'translated-song': _theCourtyardOfMyHouse2.default,
+			'original-song': _theCourtyardOfMyHouse4.default
 		}]
 	},
 	colorNumberContent: {
