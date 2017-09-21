@@ -1,5 +1,5 @@
 import springComing from '../../../images/music-image/spring-has-come.jpg';
-import download from '../../download/songs/eng/song_eng_spring-has-come-eng.pdf';
+import download from '../../download/songs/eng/song_eng_spring-has-come.pdf';
 
 export default (
 {
