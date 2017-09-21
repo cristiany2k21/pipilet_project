@@ -8,7 +8,7 @@ export default ({
 	imagePipilet: pipiletCooker,
 	recipe: [
 		{
-			title: 'MANGO FOOL',
+			title: 'Alfajores argentinos',
 			image: image,
 
 			sectionIngredient: [
