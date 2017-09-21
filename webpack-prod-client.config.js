@@ -34,7 +34,7 @@ module.exports = {
 					{
 						loader: 'file-loader',
 						options: {
-							name: '[ext]_[name].[ext]'
+							name: '[ext]_[name].[hash].[ext]'
 						}
 					}, {
 						loader: 'image-webpack-loader',
@@ -46,7 +46,7 @@ module.exports = {
 								interlaced: true
 							},
 							optipng: {
-								optimizationLevel: 7
+								optimizationLevel: 0
 							}
 						}
 					}
