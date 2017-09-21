@@ -15,9 +15,9 @@ export default ({
 				{
 					title: 'Ingredientes:',
 					ingredient: [
-						'2-1/4 Tazas de harina (315g).',
+						'2-1/4 de Tazas de harina 315g.',
 						'2 Huevos completos (yema y clara).',
-						'1 Taza de leche.',
+						'1 Taza de leche 240 ml.',
 						'1 Taza de azúcar.',
 						'1 Cucharadita de vainilla.',
 						'1/2 Taza de aceite (120ml).',

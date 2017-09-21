@@ -101,7 +101,8 @@ import { whoarewe } from '../who-are-we/french';
 const navbar = [
 	'Accueil',
 	'Présentation',
-	'Mandala Mandala',
+	'Pipilet Mandala',
+	'Vidéos',
 	'Contact'
 ];
 

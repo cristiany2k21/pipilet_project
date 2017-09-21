@@ -73,6 +73,7 @@ import jordanieRecipe from '../cook/fr/asia/jordanie';
 
 import arabeColorDownload from '../download/colors/eng/color_eng_arabe.pdf';
 import brasilColorDownload from '../download/colors/eng/color_eng_brasil.pdf';
+// import englishColorDownload from '../download/colors/eng/color_eng_';
 import chinaColorDownload from '../download/colors/eng/color_eng_china.pdf';
 import frenchColorDownload from '../download/colors/eng/color_eng_french.pdf';
 import germanColorDownload from '../download/colors/eng/color_eng_german.pdf';
@@ -99,7 +100,8 @@ import { whoarewe } from '../who-are-we/spanish';
 const navbar = [
 	'Home',
 	'Presentation',
-	'Mandala Mandala',
+	'Pipilet Mandala',
+	'Videos',
 	'Contact'
 ];
 
@@ -296,7 +298,7 @@ export default (
 				id: 'english',
 				name: 'ENGLISH',
 				data: information.englishColor,
-				download: chinaColorDownload
+				download: chinaColorDownload //TODO a changer par le bon pays
 			},
 			{
 				id: 'french',

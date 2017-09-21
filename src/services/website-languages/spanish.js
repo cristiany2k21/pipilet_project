@@ -101,6 +101,7 @@ const navbar = [
 	'Inicio',
 	'Presentación',
 	'Pipilet Mandala',
+	'Videos',
 	'Contacto'
 ];
 
