@@ -34,7 +34,7 @@ module.exports = {
 					{
 						loader: 'file-loader',
 						options: {
-							name: '[ext]_[name].[hash:2].[ext]'
+							name: '[ext]_[name].[ext]'
 						}
 					}, {
 						loader: 'image-webpack-loader',
