@@ -5,7 +5,6 @@ const DisplayLyrics = ({
    music,
    width
 }) => {
-	console.log('music ------> ', music);
 	return (
 	<div style={{width: width}} className={cssExtraClassName}>
 		<div className="lyrics-text">

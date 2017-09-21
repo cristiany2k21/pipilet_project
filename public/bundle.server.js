@@ -7135,7 +7135,6 @@ var DisplayLyrics = function DisplayLyrics(_ref) {
 	    music = _ref.music,
 	    width = _ref.width;
 
-	console.log('music ------> ', music);
 	return _react2.default.createElement(
 		'div',
 		{ style: { width: width }, className: cssExtraClassName },
@@ -7414,10 +7413,8 @@ var LyricsPage = function LyricsPage(_ref) {
 		return index.name;
 	}).indexOf(language);
 	var music = songPageContent.music[index];
-	console.log('music ------> ', music);
 	var musicTranslated = music['translated-song'];
 	var musicOriginal = music['original-song'];
-	console.log('musicOriginal ------> ', musicOriginal);
 	var title = musicOriginal['second-title'] ? musicOriginal.title + ' ' + musicOriginal['second-title'] : musicOriginal.title;
 	var sameLryics = musicTranslated.id === musicOriginal.id;
 
