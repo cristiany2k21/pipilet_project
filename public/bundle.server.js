@@ -264,13 +264,13 @@ var _createReactClass2 = _interopRequireDefault(_createReactClass);
 
 var _propTypes = __webpack_require__(11);
 
-var _invariant = __webpack_require__(18);
+var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
-var _PropTypes = __webpack_require__(519);
+var _PropTypes = __webpack_require__(581);
 
-var _ContextUtils = __webpack_require__(517);
+var _ContextUtils = __webpack_require__(579);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -415,27 +415,27 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 exports.createConnect = createConnect;
 
-var _connectAdvanced = __webpack_require__(508);
+var _connectAdvanced = __webpack_require__(570);
 
 var _connectAdvanced2 = _interopRequireDefault(_connectAdvanced);
 
-var _shallowEqual = __webpack_require__(516);
+var _shallowEqual = __webpack_require__(578);
 
 var _shallowEqual2 = _interopRequireDefault(_shallowEqual);
 
-var _mapDispatchToProps = __webpack_require__(509);
+var _mapDispatchToProps = __webpack_require__(571);
 
 var _mapDispatchToProps2 = _interopRequireDefault(_mapDispatchToProps);
 
-var _mapStateToProps = __webpack_require__(510);
+var _mapStateToProps = __webpack_require__(572);
 
 var _mapStateToProps2 = _interopRequireDefault(_mapStateToProps);
 
-var _mergeProps = __webpack_require__(511);
+var _mergeProps = __webpack_require__(573);
 
 var _mergeProps2 = _interopRequireDefault(_mergeProps);
 
-var _selectorFactory = __webpack_require__(512);
+var _selectorFactory = __webpack_require__(574);
 
 var _selectorFactory2 = _interopRequireDefault(_selectorFactory);
 
@@ -622,34 +622,40 @@ var _temp = function () {
 /* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_pat-a-cake.jpg";
+module.exports = __webpack_require__.p + "jpg_icon-download.jpg";
 
 /***/ }),
 /* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_pipilet-description.jpg";
+module.exports = __webpack_require__.p + "jpg_pat-a-cake.jpg";
 
 /***/ }),
 /* 18 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = require("invariant");
+module.exports = __webpack_require__.p + "jpg_pipilet-description.jpg";
 
 /***/ }),
 /* 19 */
 /***/ (function(module, exports) {
 
-module.exports = require("react-router");
+module.exports = require("invariant");
 
 /***/ }),
 /* 20 */
 /***/ (function(module, exports) {
 
-module.exports = require("redux");
+module.exports = require("react-router");
 
 /***/ }),
 /* 21 */
+/***/ (function(module, exports) {
+
+module.exports = require("redux");
+
+/***/ }),
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -667,7 +673,7 @@ var _fallFallBallon3 = __webpack_require__(384);
 
 var _fallFallBallon4 = _interopRequireDefault(_fallFallBallon3);
 
-var _brasil = __webpack_require__(35);
+var _brasil = __webpack_require__(36);
 
 var _brasil2 = _interopRequireDefault(_brasil);
 
@@ -698,7 +704,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -716,7 +722,7 @@ var _hereWeGoRoundTheMulberryBush3 = __webpack_require__(385);
 
 var _hereWeGoRoundTheMulberryBush4 = _interopRequireDefault(_hereWeGoRoundTheMulberryBush3);
 
-var _english = __webpack_require__(37);
+var _english = __webpack_require__(38);
 
 var _english2 = _interopRequireDefault(_english);
 
@@ -747,7 +753,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -765,7 +771,7 @@ var _itsRainning3 = __webpack_require__(386);
 
 var _itsRainning4 = _interopRequireDefault(_itsRainning3);
 
-var _serbia = __webpack_require__(43);
+var _serbia = __webpack_require__(44);
 
 var _serbia2 = _interopRequireDefault(_serbia);
 
@@ -795,7 +801,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -813,7 +819,7 @@ var _onMondayMorning3 = __webpack_require__(387);
 
 var _onMondayMorning4 = _interopRequireDefault(_onMondayMorning3);
 
-var _french = __webpack_require__(38);
+var _french = __webpack_require__(39);
 
 var _french2 = _interopRequireDefault(_french);
 
@@ -844,7 +850,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -854,11 +860,11 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _patACake = __webpack_require__(16);
+var _patACake = __webpack_require__(17);
 
 var _patACake2 = _interopRequireDefault(_patACake);
 
-var _russia = __webpack_require__(42);
+var _russia = __webpack_require__(43);
 
 var _russia2 = _interopRequireDefault(_russia);
 
@@ -888,7 +894,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -936,7 +942,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -950,7 +956,7 @@ var _springHasCome = __webpack_require__(49);
 
 var _springHasCome2 = _interopRequireDefault(_springHasCome);
 
-var _italy = __webpack_require__(41);
+var _italy = __webpack_require__(42);
 
 var _italy2 = _interopRequireDefault(_italy);
 
@@ -980,7 +986,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -998,7 +1004,7 @@ var _theCourtyardOfMyHouse3 = __webpack_require__(389);
 
 var _theCourtyardOfMyHouse4 = _interopRequireDefault(_theCourtyardOfMyHouse3);
 
-var _spanish = __webpack_require__(44);
+var _spanish = __webpack_require__(45);
 
 var _spanish2 = _interopRequireDefault(_spanish);
 
@@ -1029,7 +1035,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 29 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1043,7 +1049,7 @@ var _theWasherman = __webpack_require__(382);
 
 var _theWasherman2 = _interopRequireDefault(_theWasherman);
 
-var _india = __webpack_require__(40);
+var _india = __webpack_require__(41);
 
 var _india2 = _interopRequireDefault(_india);
 
@@ -1072,7 +1078,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1120,7 +1126,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1138,7 +1144,7 @@ var _twoTigers3 = __webpack_require__(391);
 
 var _twoTigers4 = _interopRequireDefault(_twoTigers3);
 
-var _china = __webpack_require__(36);
+var _china = __webpack_require__(37);
 
 var _china2 = _interopRequireDefault(_china);
 
@@ -1168,7 +1174,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1186,7 +1192,7 @@ var _winterIsHere3 = __webpack_require__(392);
 
 var _winterIsHere4 = _interopRequireDefault(_winterIsHere3);
 
-var _german = __webpack_require__(39);
+var _german = __webpack_require__(40);
 
 var _german2 = _interopRequireDefault(_german);
 
@@ -1216,7 +1222,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1242,43 +1248,43 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _pipiletDescription = __webpack_require__(17);
+var _pipiletDescription = __webpack_require__(18);
 
 var _pipiletDescription2 = _interopRequireDefault(_pipiletDescription);
 
-var _french = __webpack_require__(38);
+var _french = __webpack_require__(39);
 
 var _french2 = _interopRequireDefault(_french);
 
-var _english = __webpack_require__(37);
+var _english = __webpack_require__(38);
 
 var _english2 = _interopRequireDefault(_english);
 
-var _india = __webpack_require__(40);
+var _india = __webpack_require__(41);
 
 var _india2 = _interopRequireDefault(_india);
 
-var _brasil = __webpack_require__(35);
+var _brasil = __webpack_require__(36);
 
 var _brasil2 = _interopRequireDefault(_brasil);
 
-var _italy = __webpack_require__(41);
+var _italy = __webpack_require__(42);
 
 var _italy2 = _interopRequireDefault(_italy);
 
-var _spanish = __webpack_require__(44);
+var _spanish = __webpack_require__(45);
 
 var _spanish2 = _interopRequireDefault(_spanish);
 
-var _serbia = __webpack_require__(43);
+var _serbia = __webpack_require__(44);
 
 var _serbia2 = _interopRequireDefault(_serbia);
 
-var _german = __webpack_require__(39);
+var _german = __webpack_require__(40);
 
 var _german2 = _interopRequireDefault(_german);
 
-var _china = __webpack_require__(36);
+var _china = __webpack_require__(37);
 
 var _china2 = _interopRequireDefault(_china);
 
@@ -1290,7 +1296,7 @@ var _tanzania = __webpack_require__(154);
 
 var _tanzania2 = _interopRequireDefault(_tanzania);
 
-var _russia = __webpack_require__(42);
+var _russia = __webpack_require__(43);
 
 var _russia2 = _interopRequireDefault(_russia);
 
@@ -1414,7 +1420,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -1428,70 +1434,64 @@ exports.push([module.i, "#wrapper-text-image .wrapper-text{font-family:Helvetica
 
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "png_brasil.png";
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "png_china.png";
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "png_english.png";
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "png_french.png";
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "png_german.png";
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "png_india.png";
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "png_italy.png";
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "png_russia.png";
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "png_serbia.png";
 
 /***/ }),
-/* 44 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "png_spanish.png";
-
-/***/ }),
 /* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_icon-download.jpg";
+module.exports = __webpack_require__.p + "png_spanish.png";
 
 /***/ }),
 /* 46 */
@@ -4742,7 +4742,7 @@ module.exports = __webpack_require__.p + "png_umbrella_little_draw_number.png";
 /* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var root = __webpack_require__(505);
+var root = __webpack_require__(567);
 
 /** Built-in value references. */
 var Symbol = root.Symbol;
@@ -4844,7 +4844,7 @@ function wrapMapToPropsFunc(mapToProps, methodName) {
 exports.__esModule = true;
 exports.default = verifyPlainObject;
 
-var _isPlainObject = __webpack_require__(507);
+var _isPlainObject = __webpack_require__(569);
 
 var _isPlainObject2 = _interopRequireDefault(_isPlainObject);
 
@@ -5032,7 +5032,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _redux = __webpack_require__(20);
+var _redux = __webpack_require__(21);
 
 var _chooseLanguage = __webpack_require__(181);
 
@@ -5072,11 +5072,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Route = __webpack_require__(520);
+var _Route = __webpack_require__(582);
 
 var _Route2 = _interopRequireDefault(_Route);
 
-var _IndexRoute = __webpack_require__(518);
+var _IndexRoute = __webpack_require__(580);
 
 var _IndexRoute2 = _interopRequireDefault(_IndexRoute);
 
@@ -5177,7 +5177,7 @@ var _temp = function () {
 "use strict";
 /* WEBPACK VAR INJECTION */(function(__dirname) {
 
-var path = __webpack_require__(523);
+var path = __webpack_require__(585);
 var webpack = __webpack_require__(55);
 
 module.exports = {
@@ -5300,9 +5300,9 @@ var _webpackDevClient2 = _interopRequireDefault(_webpackDevClient);
 
 var _server = __webpack_require__(169);
 
-var _redux = __webpack_require__(20);
+var _redux = __webpack_require__(21);
 
-var _reactRouter = __webpack_require__(19);
+var _reactRouter = __webpack_require__(20);
 
 var _index = __webpack_require__(166);
 
@@ -6021,7 +6021,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouter = __webpack_require__(19);
+var _reactRouter = __webpack_require__(20);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -6300,7 +6300,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouter = __webpack_require__(19);
+var _reactRouter = __webpack_require__(20);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -6519,36 +6519,41 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _iconDownload = __webpack_require__(16);
+
+var _iconDownload2 = _interopRequireDefault(_iconDownload);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Ingredient = function Ingredient(_ref) {
 	var sectionIngredient = _ref.sectionIngredient,
-	    image = _ref.image;
+	    image = _ref.image,
+	    download = _ref.download;
 
 	return _react2.default.createElement(
-		"div",
-		{ className: "wrapper-section-ingredient" },
+		'div',
+		{ className: 'wrapper-section-ingredient' },
 		_react2.default.createElement(
-			"div",
-			{ className: "wrapper-all-recipe" },
+			'div',
+			{ className: 'wrapper-all-recipe' },
 			sectionIngredient.map(function (items, index) {
 				return _react2.default.createElement(
-					"div",
-					{ key: index, className: "wrapper-recipe" },
+					'div',
+					{ key: index, className: 'wrapper-recipe' },
 					_react2.default.createElement(
-						"div",
-						{ className: "inner-recipe" },
+						'div',
+						{ className: 'inner-recipe' },
 						_react2.default.createElement(
-							"div",
-							{ className: "wrapper-title-section" },
+							'div',
+							{ className: 'wrapper-title-section' },
 							items.title
 						),
 						_react2.default.createElement(
-							"ul",
+							'ul',
 							null,
 							items.ingredient.map(function (item, index) {
 								return _react2.default.createElement(
-									"li",
+									'li',
 									{ key: index },
 									item
 								);
@@ -6559,9 +6564,21 @@ var Ingredient = function Ingredient(_ref) {
 			})
 		),
 		_react2.default.createElement(
-			"div",
-			{ className: "wrapper-logo-recipe" },
-			_react2.default.createElement("img", { src: image })
+			'div',
+			{ className: 'wrapper-logo-download' },
+			_react2.default.createElement(
+				'a',
+				{
+					href: download,
+					download: download
+				},
+				_react2.default.createElement('img', { src: _iconDownload2.default, className: 'little-draw' })
+			)
+		),
+		_react2.default.createElement(
+			'div',
+			{ className: 'wrapper-logo-recipe' },
+			_react2.default.createElement('img', { src: image })
 		)
 	);
 };
@@ -6575,9 +6592,9 @@ var _temp = function () {
 		return;
 	}
 
-	__REACT_HOT_LOADER__.register(Ingredient, "Ingredient", "/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/display-recipe/component/recipe/component/ingredient/ingredient.jsx");
+	__REACT_HOT_LOADER__.register(Ingredient, 'Ingredient', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/display-recipe/component/recipe/component/ingredient/ingredient.jsx');
 
-	__REACT_HOT_LOADER__.register(_default, "default", "/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/display-recipe/component/recipe/component/ingredient/ingredient.jsx");
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/mavrickduchamp/Documents/pipiletMandala/src/scenes/display-recipe/component/recipe/component/ingredient/ingredient.jsx');
 }();
 
 ;
@@ -6672,7 +6689,8 @@ var _preparation2 = _interopRequireDefault(_preparation);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Recipe = function Recipe(_ref) {
-	var recipe = _ref.recipe;
+	var recipe = _ref.recipe,
+	    download = _ref.download;
 
 	return _react2.default.createElement(
 		'div',
@@ -6687,7 +6705,9 @@ var Recipe = function Recipe(_ref) {
 					item.title
 				),
 				_react2.default.createElement(_ingredient2.default, { sectionIngredient: item.sectionIngredient,
-					image: item.image }),
+					image: item.image,
+					download: download
+				}),
 				_react2.default.createElement(_preparation2.default, { sectionPreparation: item.sectionPreparation })
 			);
 		})
@@ -6740,14 +6760,15 @@ __webpack_require__(329);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var DisplayRecipe = function DisplayRecipe(_ref) {
-	var recipeCountry = _ref.recipeCountry;
+	var recipeCountry = _ref.recipeCountry,
+	    downloadRecipe = _ref.downloadRecipe;
 
 
 	return _react2.default.createElement(
 		'div',
 		{ id: 'wrapper-display-recipe' },
 		_react2.default.createElement(_headerRecipe2.default, { title: recipeCountry.title, flag: recipeCountry.flag }),
-		_react2.default.createElement(_recipe2.default, { recipe: recipeCountry.recipe })
+		_react2.default.createElement(_recipe2.default, { recipe: recipeCountry.recipe, download: downloadRecipe })
 	);
 };
 
@@ -6757,7 +6778,8 @@ var mapStateToProps = function mapStateToProps(state, props) {
 	var allCountry = state.ChooseLanguage.chooseCountryContent[continent].country;
 
 	return {
-		recipeCountry: allCountry[index].recipe
+		recipeCountry: allCountry[index].recipe,
+		downloadRecipe: allCountry[index].downloadRecipe
 	};
 };
 
@@ -6959,7 +6981,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _iconDownload = __webpack_require__(45);
+var _iconDownload = __webpack_require__(16);
 
 var _iconDownload2 = _interopRequireDefault(_iconDownload);
 
@@ -7286,7 +7308,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactYoutube = __webpack_require__(524);
+var _reactYoutube = __webpack_require__(586);
 
 var _reactYoutube2 = _interopRequireDefault(_reactYoutube);
 
@@ -8244,7 +8266,7 @@ var _pipiletHorizontal = __webpack_require__(393);
 
 var _pipiletHorizontal2 = _interopRequireDefault(_pipiletHorizontal);
 
-var _iconDownload = __webpack_require__(45);
+var _iconDownload = __webpack_require__(16);
 
 var _iconDownload2 = _interopRequireDefault(_iconDownload);
 
@@ -8926,7 +8948,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _iconDownload = __webpack_require__(45);
+var _iconDownload = __webpack_require__(16);
 
 var _iconDownload2 = _interopRequireDefault(_iconDownload);
 
@@ -10078,7 +10100,7 @@ var _default = {
 
 		sectionIngredient: [{
 			title: 'Ingredientes:',
-			ingredient: ['2-1/4 Tazas de harina (315g).', '2 Huevos completos (yema y clara).', '1 Taza de leche.', '1 Taza de azúcar.', '1 Cucharadita de vainilla.', '1/2 Taza de aceite (120ml).', '2 Cucharaditas de polvos de hornear.', '1/2 Paquete de queso crema', '2 Tazas de azúcar .', '1 Cucharadita de vainilla.', 'Leche (opcional).']
+			ingredient: ['2-1/4 de Tazas de harina 315g.', '2 Huevos completos (yema y clara).', '1 Taza de leche 240 ml.', '1 Taza de azúcar.', '1 Cucharadita de vainilla.', '1/2 Taza de aceite (120ml).', '2 Cucharaditas de polvos de hornear.', '1/2 Paquete de queso crema', '2 Tazas de azúcar .', '1 Cucharadita de vainilla.', 'Leche (opcional).']
 		}],
 		sectionPreparation: [{
 			title: 'Preparación Cupcakes:',
@@ -11524,7 +11546,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _brasil = __webpack_require__(35);
+var _brasil = __webpack_require__(36);
 
 var _brasil2 = _interopRequireDefault(_brasil);
 
@@ -11536,7 +11558,7 @@ var _bike_big_draw_number = __webpack_require__(155);
 
 var _bike_big_draw_number2 = _interopRequireDefault(_bike_big_draw_number);
 
-var _number_brasil = __webpack_require__(450);
+var _number_brasil = __webpack_require__(512);
 
 var _number_brasil2 = _interopRequireDefault(_number_brasil);
 
@@ -11580,7 +11602,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _china = __webpack_require__(36);
+var _china = __webpack_require__(37);
 
 var _china2 = _interopRequireDefault(_china);
 
@@ -11592,7 +11614,7 @@ var _elephant_big_draw_number = __webpack_require__(8);
 
 var _elephant_big_draw_number2 = _interopRequireDefault(_elephant_big_draw_number);
 
-var _number_china = __webpack_require__(451);
+var _number_china = __webpack_require__(513);
 
 var _number_china2 = _interopRequireDefault(_number_china);
 
@@ -11636,7 +11658,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _english = __webpack_require__(37);
+var _english = __webpack_require__(38);
 
 var _english2 = _interopRequireDefault(_english);
 
@@ -11648,7 +11670,7 @@ var _umbrella_big_draw_number = __webpack_require__(157);
 
 var _umbrella_big_draw_number2 = _interopRequireDefault(_umbrella_big_draw_number);
 
-var _number_english = __webpack_require__(452);
+var _number_english = __webpack_require__(514);
 
 var _number_english2 = _interopRequireDefault(_number_english);
 
@@ -11692,7 +11714,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _french = __webpack_require__(38);
+var _french = __webpack_require__(39);
 
 var _french2 = _interopRequireDefault(_french);
 
@@ -11704,7 +11726,7 @@ var _elephant_big_draw_number = __webpack_require__(8);
 
 var _elephant_big_draw_number2 = _interopRequireDefault(_elephant_big_draw_number);
 
-var _number_french = __webpack_require__(453);
+var _number_french = __webpack_require__(515);
 
 var _number_french2 = _interopRequireDefault(_number_french);
 
@@ -11748,19 +11770,19 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _german = __webpack_require__(39);
+var _german = __webpack_require__(40);
 
 var _german2 = _interopRequireDefault(_german);
 
-var _bird_little_draw_number = __webpack_require__(498);
+var _bird_little_draw_number = __webpack_require__(560);
 
 var _bird_little_draw_number2 = _interopRequireDefault(_bird_little_draw_number);
 
-var _bird_big_draw_number = __webpack_require__(497);
+var _bird_big_draw_number = __webpack_require__(559);
 
 var _bird_big_draw_number2 = _interopRequireDefault(_bird_big_draw_number);
 
-var _number_german = __webpack_require__(454);
+var _number_german = __webpack_require__(516);
 
 var _number_german2 = _interopRequireDefault(_number_german);
 
@@ -11892,7 +11914,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _india = __webpack_require__(40);
+var _india = __webpack_require__(41);
 
 var _india2 = _interopRequireDefault(_india);
 
@@ -11904,7 +11926,7 @@ var _elephant_big_draw_number = __webpack_require__(8);
 
 var _elephant_big_draw_number2 = _interopRequireDefault(_elephant_big_draw_number);
 
-var _number_india = __webpack_require__(455);
+var _number_india = __webpack_require__(517);
 
 var _number_india2 = _interopRequireDefault(_number_india);
 
@@ -11948,7 +11970,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _italy = __webpack_require__(41);
+var _italy = __webpack_require__(42);
 
 var _italy2 = _interopRequireDefault(_italy);
 
@@ -11960,7 +11982,7 @@ var _umbrella_big_draw_number = __webpack_require__(157);
 
 var _umbrella_big_draw_number2 = _interopRequireDefault(_umbrella_big_draw_number);
 
-var _number_italy = __webpack_require__(456);
+var _number_italy = __webpack_require__(518);
 
 var _number_italy2 = _interopRequireDefault(_number_italy);
 
@@ -12004,7 +12026,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _russia = __webpack_require__(42);
+var _russia = __webpack_require__(43);
 
 var _russia2 = _interopRequireDefault(_russia);
 
@@ -12016,7 +12038,7 @@ var _elephant_big_draw_number = __webpack_require__(8);
 
 var _elephant_big_draw_number2 = _interopRequireDefault(_elephant_big_draw_number);
 
-var _number_russia = __webpack_require__(457);
+var _number_russia = __webpack_require__(519);
 
 var _number_russia2 = _interopRequireDefault(_number_russia);
 
@@ -12060,7 +12082,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _serbia = __webpack_require__(43);
+var _serbia = __webpack_require__(44);
 
 var _serbia2 = _interopRequireDefault(_serbia);
 
@@ -12072,7 +12094,7 @@ var _elephant_big_draw_number = __webpack_require__(8);
 
 var _elephant_big_draw_number2 = _interopRequireDefault(_elephant_big_draw_number);
 
-var _number_serbia = __webpack_require__(458);
+var _number_serbia = __webpack_require__(520);
 
 var _number_serbia2 = _interopRequireDefault(_number_serbia);
 
@@ -12128,7 +12150,7 @@ var _elephant_big_draw_number = __webpack_require__(8);
 
 var _elephant_big_draw_number2 = _interopRequireDefault(_elephant_big_draw_number);
 
-var _number_arabe = __webpack_require__(449);
+var _number_arabe = __webpack_require__(511);
 
 var _number_arabe2 = _interopRequireDefault(_number_arabe);
 
@@ -12172,7 +12194,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _spanish = __webpack_require__(44);
+var _spanish = __webpack_require__(45);
 
 var _spanish2 = _interopRequireDefault(_spanish);
 
@@ -12184,7 +12206,7 @@ var _bike_big_draw_number = __webpack_require__(155);
 
 var _bike_big_draw_number2 = _interopRequireDefault(_bike_big_draw_number);
 
-var _number_spanish = __webpack_require__(459);
+var _number_spanish = __webpack_require__(521);
 
 var _number_spanish2 = _interopRequireDefault(_number_spanish);
 
@@ -12240,7 +12262,7 @@ var _elephant_big_draw_number = __webpack_require__(8);
 
 var _elephant_big_draw_number2 = _interopRequireDefault(_elephant_big_draw_number);
 
-var _number_swahili = __webpack_require__(460);
+var _number_swahili = __webpack_require__(522);
 
 var _number_swahili2 = _interopRequireDefault(_number_swahili);
 
@@ -12293,7 +12315,7 @@ var _universe = __webpack_require__(53);
 
 var _universe2 = _interopRequireDefault(_universe);
 
-__webpack_require__(34);
+__webpack_require__(35);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12531,7 +12553,7 @@ var _universe = __webpack_require__(53);
 
 var _universe2 = _interopRequireDefault(_universe);
 
-__webpack_require__(34);
+__webpack_require__(35);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12783,7 +12805,7 @@ var _universe = __webpack_require__(53);
 
 var _universe2 = _interopRequireDefault(_universe);
 
-__webpack_require__(34);
+__webpack_require__(35);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -13027,7 +13049,7 @@ var _fallFallBallon = __webpack_require__(47);
 
 var _fallFallBallon2 = _interopRequireDefault(_fallFallBallon);
 
-var _song_eng_fallFallBallon = __webpack_require__(461);
+var _song_eng_fallFallBallon = __webpack_require__(523);
 
 var _song_eng_fallFallBallon2 = _interopRequireDefault(_song_eng_fallFallBallon);
 
@@ -13070,7 +13092,7 @@ var _hereWeGoRoundTheMulberryBush = __webpack_require__(13);
 
 var _hereWeGoRoundTheMulberryBush2 = _interopRequireDefault(_hereWeGoRoundTheMulberryBush);
 
-var _song_eng_hereWeGoRoundTheMulberryBush = __webpack_require__(462);
+var _song_eng_hereWeGoRoundTheMulberryBush = __webpack_require__(524);
 
 var _song_eng_hereWeGoRoundTheMulberryBush2 = _interopRequireDefault(_song_eng_hereWeGoRoundTheMulberryBush);
 
@@ -13113,7 +13135,7 @@ var _itsRainning = __webpack_require__(48);
 
 var _itsRainning2 = _interopRequireDefault(_itsRainning);
 
-var _song_eng_itsRainning = __webpack_require__(463);
+var _song_eng_itsRainning = __webpack_require__(525);
 
 var _song_eng_itsRainning2 = _interopRequireDefault(_song_eng_itsRainning);
 
@@ -13155,11 +13177,11 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _patACake = __webpack_require__(16);
+var _patACake = __webpack_require__(17);
 
 var _patACake2 = _interopRequireDefault(_patACake);
 
-var _song_eng_onMondayMorning = __webpack_require__(464);
+var _song_eng_onMondayMorning = __webpack_require__(526);
 
 var _song_eng_onMondayMorning2 = _interopRequireDefault(_song_eng_onMondayMorning);
 
@@ -13202,7 +13224,7 @@ var _winterIsHere = __webpack_require__(5);
 
 var _winterIsHere2 = _interopRequireDefault(_winterIsHere);
 
-var _song_eng_patACake = __webpack_require__(465);
+var _song_eng_patACake = __webpack_require__(527);
 
 var _song_eng_patACake2 = _interopRequireDefault(_song_eng_patACake);
 
@@ -13248,7 +13270,7 @@ var _winterIsHere = __webpack_require__(5);
 
 var _winterIsHere2 = _interopRequireDefault(_winterIsHere);
 
-var _song_eng_siMaMaKa = __webpack_require__(466);
+var _song_eng_siMaMaKa = __webpack_require__(528);
 
 var _song_eng_siMaMaKa2 = _interopRequireDefault(_song_eng_siMaMaKa);
 
@@ -13290,7 +13312,7 @@ var _springHasCome = __webpack_require__(49);
 
 var _springHasCome2 = _interopRequireDefault(_springHasCome);
 
-var _song_eng_springHasComeEng = __webpack_require__(467);
+var _song_eng_springHasComeEng = __webpack_require__(529);
 
 var _song_eng_springHasComeEng2 = _interopRequireDefault(_song_eng_springHasComeEng);
 
@@ -13333,7 +13355,7 @@ var _hereWeGoRoundTheMulberryBush = __webpack_require__(13);
 
 var _hereWeGoRoundTheMulberryBush2 = _interopRequireDefault(_hereWeGoRoundTheMulberryBush);
 
-var _song_eng_theCourtyardOfMyHouse = __webpack_require__(468);
+var _song_eng_theCourtyardOfMyHouse = __webpack_require__(530);
 
 var _song_eng_theCourtyardOfMyHouse2 = _interopRequireDefault(_song_eng_theCourtyardOfMyHouse);
 
@@ -13379,7 +13401,7 @@ var _winterIsHere = __webpack_require__(5);
 
 var _winterIsHere2 = _interopRequireDefault(_winterIsHere);
 
-var _song_eng_theWasherman = __webpack_require__(469);
+var _song_eng_theWasherman = __webpack_require__(531);
 
 var _song_eng_theWasherman2 = _interopRequireDefault(_song_eng_theWasherman);
 
@@ -13421,7 +13443,7 @@ var _winterIsHere = __webpack_require__(5);
 
 var _winterIsHere2 = _interopRequireDefault(_winterIsHere);
 
-var _song_eng_ticTicTic = __webpack_require__(470);
+var _song_eng_ticTicTic = __webpack_require__(532);
 
 var _song_eng_ticTicTic2 = _interopRequireDefault(_song_eng_ticTicTic);
 
@@ -13463,7 +13485,7 @@ var _twoTigers = __webpack_require__(50);
 
 var _twoTigers2 = _interopRequireDefault(_twoTigers);
 
-var _song_eng_twoTigers = __webpack_require__(471);
+var _song_eng_twoTigers = __webpack_require__(533);
 
 var _song_eng_twoTigers2 = _interopRequireDefault(_song_eng_twoTigers);
 
@@ -13505,7 +13527,7 @@ var _winterIsHere = __webpack_require__(5);
 
 var _winterIsHere2 = _interopRequireDefault(_winterIsHere);
 
-var _song_eng_winter_is_here = __webpack_require__(472);
+var _song_eng_winter_is_here = __webpack_require__(534);
 
 var _song_eng_winter_is_here2 = _interopRequireDefault(_song_eng_winter_is_here);
 
@@ -13547,7 +13569,7 @@ var _fallFallBallon = __webpack_require__(47);
 
 var _fallFallBallon2 = _interopRequireDefault(_fallFallBallon);
 
-var _song_fr_fallFallBallon = __webpack_require__(485);
+var _song_fr_fallFallBallon = __webpack_require__(547);
 
 var _song_fr_fallFallBallon2 = _interopRequireDefault(_song_fr_fallFallBallon);
 
@@ -13590,7 +13612,7 @@ var _hereWeGoRoundTheMulberryBush = __webpack_require__(13);
 
 var _hereWeGoRoundTheMulberryBush2 = _interopRequireDefault(_hereWeGoRoundTheMulberryBush);
 
-var _song_fr_hereWeGoRoundTheMulberryBush = __webpack_require__(486);
+var _song_fr_hereWeGoRoundTheMulberryBush = __webpack_require__(548);
 
 var _song_fr_hereWeGoRoundTheMulberryBush2 = _interopRequireDefault(_song_fr_hereWeGoRoundTheMulberryBush);
 
@@ -13633,7 +13655,7 @@ var _itsRainning = __webpack_require__(48);
 
 var _itsRainning2 = _interopRequireDefault(_itsRainning);
 
-var _song_fr_itsRainning = __webpack_require__(487);
+var _song_fr_itsRainning = __webpack_require__(549);
 
 var _song_fr_itsRainning2 = _interopRequireDefault(_song_fr_itsRainning);
 
@@ -13676,11 +13698,11 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _patACake = __webpack_require__(16);
+var _patACake = __webpack_require__(17);
 
 var _patACake2 = _interopRequireDefault(_patACake);
 
-var _song_fr_onMondayMorning = __webpack_require__(488);
+var _song_fr_onMondayMorning = __webpack_require__(550);
 
 var _song_fr_onMondayMorning2 = _interopRequireDefault(_song_fr_onMondayMorning);
 
@@ -13719,11 +13741,11 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _patACake = __webpack_require__(16);
+var _patACake = __webpack_require__(17);
 
 var _patACake2 = _interopRequireDefault(_patACake);
 
-var _song_fr_patACake = __webpack_require__(489);
+var _song_fr_patACake = __webpack_require__(551);
 
 var _song_fr_patACake2 = _interopRequireDefault(_song_fr_patACake);
 
@@ -13770,7 +13792,7 @@ var _winterIsHere = __webpack_require__(5);
 
 var _winterIsHere2 = _interopRequireDefault(_winterIsHere);
 
-var _song_fr_siMaMaKa = __webpack_require__(490);
+var _song_fr_siMaMaKa = __webpack_require__(552);
 
 var _song_fr_siMaMaKa2 = _interopRequireDefault(_song_fr_siMaMaKa);
 
@@ -13812,7 +13834,7 @@ var _springHasCome = __webpack_require__(49);
 
 var _springHasCome2 = _interopRequireDefault(_springHasCome);
 
-var _song_fr_springHasCome = __webpack_require__(491);
+var _song_fr_springHasCome = __webpack_require__(553);
 
 var _song_fr_springHasCome2 = _interopRequireDefault(_song_fr_springHasCome);
 
@@ -13855,7 +13877,7 @@ var _hereWeGoRoundTheMulberryBush = __webpack_require__(13);
 
 var _hereWeGoRoundTheMulberryBush2 = _interopRequireDefault(_hereWeGoRoundTheMulberryBush);
 
-var _song_fr_theCourtyardOfMyHouse = __webpack_require__(492);
+var _song_fr_theCourtyardOfMyHouse = __webpack_require__(554);
 
 var _song_fr_theCourtyardOfMyHouse2 = _interopRequireDefault(_song_fr_theCourtyardOfMyHouse);
 
@@ -13902,7 +13924,7 @@ var _winterIsHere = __webpack_require__(5);
 
 var _winterIsHere2 = _interopRequireDefault(_winterIsHere);
 
-var _song_fr_theWasherman = __webpack_require__(493);
+var _song_fr_theWasherman = __webpack_require__(555);
 
 var _song_fr_theWasherman2 = _interopRequireDefault(_song_fr_theWasherman);
 
@@ -13944,7 +13966,7 @@ var _winterIsHere = __webpack_require__(5);
 
 var _winterIsHere2 = _interopRequireDefault(_winterIsHere);
 
-var _song_fr_ticTicTic = __webpack_require__(494);
+var _song_fr_ticTicTic = __webpack_require__(556);
 
 var _song_fr_ticTicTic2 = _interopRequireDefault(_song_fr_ticTicTic);
 
@@ -13986,7 +14008,7 @@ var _twoTigers = __webpack_require__(50);
 
 var _twoTigers2 = _interopRequireDefault(_twoTigers);
 
-var _song_fr_twoTigers = __webpack_require__(495);
+var _song_fr_twoTigers = __webpack_require__(557);
 
 var _song_fr_twoTigers2 = _interopRequireDefault(_song_fr_twoTigers);
 
@@ -14028,7 +14050,7 @@ var _winterIsHere = __webpack_require__(5);
 
 var _winterIsHere2 = _interopRequireDefault(_winterIsHere);
 
-var _song_fr_winterIsHere = __webpack_require__(496);
+var _song_fr_winterIsHere = __webpack_require__(558);
 
 var _song_fr_winterIsHere2 = _interopRequireDefault(_song_fr_winterIsHere);
 
@@ -14066,7 +14088,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_fallFallBallon = __webpack_require__(473);
+var _song_esp_fallFallBallon = __webpack_require__(535);
 
 var _song_esp_fallFallBallon2 = _interopRequireDefault(_song_esp_fallFallBallon);
 
@@ -14103,7 +14125,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_hereWeGoRoundTheMulberryBush = __webpack_require__(474);
+var _song_esp_hereWeGoRoundTheMulberryBush = __webpack_require__(536);
 
 var _song_esp_hereWeGoRoundTheMulberryBush2 = _interopRequireDefault(_song_esp_hereWeGoRoundTheMulberryBush);
 
@@ -14141,7 +14163,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_itsRainning = __webpack_require__(475);
+var _song_esp_itsRainning = __webpack_require__(537);
 
 var _song_esp_itsRainning2 = _interopRequireDefault(_song_esp_itsRainning);
 
@@ -14182,7 +14204,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_onMondayMorning = __webpack_require__(476);
+var _song_esp_onMondayMorning = __webpack_require__(538);
 
 var _song_esp_onMondayMorning2 = _interopRequireDefault(_song_esp_onMondayMorning);
 
@@ -14220,7 +14242,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_patACake = __webpack_require__(477);
+var _song_esp_patACake = __webpack_require__(539);
 
 var _song_esp_patACake2 = _interopRequireDefault(_song_esp_patACake);
 
@@ -14262,7 +14284,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_siMaMaKa = __webpack_require__(478);
+var _song_esp_siMaMaKa = __webpack_require__(540);
 
 var _song_esp_siMaMaKa2 = _interopRequireDefault(_song_esp_siMaMaKa);
 
@@ -14299,7 +14321,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_springHasCome = __webpack_require__(479);
+var _song_esp_springHasCome = __webpack_require__(541);
 
 var _song_esp_springHasCome2 = _interopRequireDefault(_song_esp_springHasCome);
 
@@ -14337,7 +14359,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_theCourtyardOfMyHouse = __webpack_require__(480);
+var _song_esp_theCourtyardOfMyHouse = __webpack_require__(542);
 
 var _song_esp_theCourtyardOfMyHouse2 = _interopRequireDefault(_song_esp_theCourtyardOfMyHouse);
 
@@ -14378,7 +14400,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_theWasherman = __webpack_require__(481);
+var _song_esp_theWasherman = __webpack_require__(543);
 
 var _song_esp_theWasherman2 = _interopRequireDefault(_song_esp_theWasherman);
 
@@ -14415,7 +14437,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_ticTicTic = __webpack_require__(482);
+var _song_esp_ticTicTic = __webpack_require__(544);
 
 var _song_esp_ticTicTic2 = _interopRequireDefault(_song_esp_ticTicTic);
 
@@ -14452,7 +14474,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_twoTigers = __webpack_require__(483);
+var _song_esp_twoTigers = __webpack_require__(545);
 
 var _song_esp_twoTigers2 = _interopRequireDefault(_song_esp_twoTigers);
 
@@ -14489,7 +14511,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_winterIsHere = __webpack_require__(484);
+var _song_esp_winterIsHere = __webpack_require__(546);
 
 var _song_esp_winterIsHere2 = _interopRequireDefault(_song_esp_winterIsHere);
 
@@ -14530,7 +14552,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _information = __webpack_require__(33);
+var _information = __webpack_require__(34);
 
 var _information2 = _interopRequireDefault(_information);
 
@@ -14542,7 +14564,7 @@ var _pipilet_female = __webpack_require__(2);
 
 var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
 
-var _pipiletDescription = __webpack_require__(17);
+var _pipiletDescription = __webpack_require__(18);
 
 var _pipiletDescription2 = _interopRequireDefault(_pipiletDescription);
 
@@ -14594,51 +14616,51 @@ var _onMondayMorning = __webpack_require__(282);
 
 var _onMondayMorning2 = _interopRequireDefault(_onMondayMorning);
 
-var _winterIsHere3 = __webpack_require__(32);
+var _winterIsHere3 = __webpack_require__(33);
 
 var _winterIsHere4 = _interopRequireDefault(_winterIsHere3);
 
-var _fallFallBallon3 = __webpack_require__(21);
+var _fallFallBallon3 = __webpack_require__(22);
 
 var _fallFallBallon4 = _interopRequireDefault(_fallFallBallon3);
 
-var _theWasherman3 = __webpack_require__(29);
+var _theWasherman3 = __webpack_require__(30);
 
 var _theWasherman4 = _interopRequireDefault(_theWasherman3);
 
-var _ticTicTic3 = __webpack_require__(30);
+var _ticTicTic3 = __webpack_require__(31);
 
 var _ticTicTic4 = _interopRequireDefault(_ticTicTic3);
 
-var _siMaMaKa3 = __webpack_require__(26);
+var _siMaMaKa3 = __webpack_require__(27);
 
 var _siMaMaKa4 = _interopRequireDefault(_siMaMaKa3);
 
-var _theCourtyardOfMyHouse3 = __webpack_require__(28);
+var _theCourtyardOfMyHouse3 = __webpack_require__(29);
 
 var _theCourtyardOfMyHouse4 = _interopRequireDefault(_theCourtyardOfMyHouse3);
 
-var _hereWeGoRoundTheMulberryBush3 = __webpack_require__(22);
+var _hereWeGoRoundTheMulberryBush3 = __webpack_require__(23);
 
 var _hereWeGoRoundTheMulberryBush4 = _interopRequireDefault(_hereWeGoRoundTheMulberryBush3);
 
-var _itsRainning3 = __webpack_require__(23);
+var _itsRainning3 = __webpack_require__(24);
 
 var _itsRainning4 = _interopRequireDefault(_itsRainning3);
 
-var _twoTigers3 = __webpack_require__(31);
+var _twoTigers3 = __webpack_require__(32);
 
 var _twoTigers4 = _interopRequireDefault(_twoTigers3);
 
-var _springHasCome3 = __webpack_require__(27);
+var _springHasCome3 = __webpack_require__(28);
 
 var _springHasCome4 = _interopRequireDefault(_springHasCome3);
 
-var _patACake3 = __webpack_require__(25);
+var _patACake3 = __webpack_require__(26);
 
 var _patACake4 = _interopRequireDefault(_patACake3);
 
-var _onMondayMorning3 = __webpack_require__(24);
+var _onMondayMorning3 = __webpack_require__(25);
 
 var _onMondayMorning4 = _interopRequireDefault(_onMondayMorning3);
 
@@ -14778,39 +14800,43 @@ var _color_eng_brasil = __webpack_require__(415);
 
 var _color_eng_brasil2 = _interopRequireDefault(_color_eng_brasil);
 
+var _color_eng_english = __webpack_require__(417);
+
+var _color_eng_english2 = _interopRequireDefault(_color_eng_english);
+
 var _color_eng_china = __webpack_require__(416);
 
 var _color_eng_china2 = _interopRequireDefault(_color_eng_china);
 
-var _color_eng_french = __webpack_require__(417);
+var _color_eng_french = __webpack_require__(418);
 
 var _color_eng_french2 = _interopRequireDefault(_color_eng_french);
 
-var _color_eng_german = __webpack_require__(418);
+var _color_eng_german = __webpack_require__(419);
 
 var _color_eng_german2 = _interopRequireDefault(_color_eng_german);
 
-var _color_eng_india = __webpack_require__(419);
+var _color_eng_india = __webpack_require__(420);
 
 var _color_eng_india2 = _interopRequireDefault(_color_eng_india);
 
-var _color_eng_italy = __webpack_require__(420);
+var _color_eng_italy = __webpack_require__(421);
 
 var _color_eng_italy2 = _interopRequireDefault(_color_eng_italy);
 
-var _color_eng_russia = __webpack_require__(421);
+var _color_eng_russia = __webpack_require__(422);
 
 var _color_eng_russia2 = _interopRequireDefault(_color_eng_russia);
 
-var _color_eng_serbia = __webpack_require__(422);
+var _color_eng_serbia = __webpack_require__(423);
 
 var _color_eng_serbia2 = _interopRequireDefault(_color_eng_serbia);
 
-var _color_eng_spanish = __webpack_require__(423);
+var _color_eng_spanish = __webpack_require__(424);
 
 var _color_eng_spanish2 = _interopRequireDefault(_color_eng_spanish);
 
-var _color_eng_swahili = __webpack_require__(424);
+var _color_eng_swahili = __webpack_require__(425);
 
 var _color_eng_swahili2 = _interopRequireDefault(_color_eng_swahili);
 
@@ -14840,9 +14866,7 @@ var _spanish = __webpack_require__(101);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-/* eslint-disable no-unused-vars */
-var navbar = ['Home', 'Presentation', 'Pipilet Mandala', 'Videos', 'Contact'];
-// import englishColorDownload from '../download/colors/eng/color_eng_';
+var navbar = ['Home', 'Presentation', 'Pipilet Mandala', 'Videos', 'Contact']; /* eslint-disable no-unused-vars */
 
 
 var sidebar = ['SONGS', 'COLORS AND NUMBERS', 'PASTRIES', 'DO YOU KNOW WHO I AM ?'];
@@ -14975,7 +14999,7 @@ var _default = {
 			id: 'english',
 			name: 'ENGLISH',
 			data: _information2.default.englishColor,
-			download: _color_eng_china2.default //TODO a changer par le bon pays
+			download: _color_eng_english2.default
 		}, {
 			id: 'french',
 			name: 'FRENCH',
@@ -15140,7 +15164,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _information = __webpack_require__(33);
+var _information = __webpack_require__(34);
 
 var _information2 = _interopRequireDefault(_information);
 
@@ -15152,7 +15176,7 @@ var _pipilet_female = __webpack_require__(2);
 
 var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
 
-var _pipiletDescription = __webpack_require__(17);
+var _pipiletDescription = __webpack_require__(18);
 
 var _pipiletDescription2 = _interopRequireDefault(_pipiletDescription);
 
@@ -15204,51 +15228,51 @@ var _onMondayMorning = __webpack_require__(294);
 
 var _onMondayMorning2 = _interopRequireDefault(_onMondayMorning);
 
-var _winterIsHere3 = __webpack_require__(32);
+var _winterIsHere3 = __webpack_require__(33);
 
 var _winterIsHere4 = _interopRequireDefault(_winterIsHere3);
 
-var _fallFallBallon3 = __webpack_require__(21);
+var _fallFallBallon3 = __webpack_require__(22);
 
 var _fallFallBallon4 = _interopRequireDefault(_fallFallBallon3);
 
-var _theWasherman3 = __webpack_require__(29);
+var _theWasherman3 = __webpack_require__(30);
 
 var _theWasherman4 = _interopRequireDefault(_theWasherman3);
 
-var _ticTicTic3 = __webpack_require__(30);
+var _ticTicTic3 = __webpack_require__(31);
 
 var _ticTicTic4 = _interopRequireDefault(_ticTicTic3);
 
-var _siMaMaKa3 = __webpack_require__(26);
+var _siMaMaKa3 = __webpack_require__(27);
 
 var _siMaMaKa4 = _interopRequireDefault(_siMaMaKa3);
 
-var _theCourtyardOfMyHouse3 = __webpack_require__(28);
+var _theCourtyardOfMyHouse3 = __webpack_require__(29);
 
 var _theCourtyardOfMyHouse4 = _interopRequireDefault(_theCourtyardOfMyHouse3);
 
-var _hereWeGoRoundTheMulberryBush3 = __webpack_require__(22);
+var _hereWeGoRoundTheMulberryBush3 = __webpack_require__(23);
 
 var _hereWeGoRoundTheMulberryBush4 = _interopRequireDefault(_hereWeGoRoundTheMulberryBush3);
 
-var _itsRainning3 = __webpack_require__(23);
+var _itsRainning3 = __webpack_require__(24);
 
 var _itsRainning4 = _interopRequireDefault(_itsRainning3);
 
-var _twoTigers3 = __webpack_require__(31);
+var _twoTigers3 = __webpack_require__(32);
 
 var _twoTigers4 = _interopRequireDefault(_twoTigers3);
 
-var _springHasCome3 = __webpack_require__(27);
+var _springHasCome3 = __webpack_require__(28);
 
 var _springHasCome4 = _interopRequireDefault(_springHasCome3);
 
-var _patACake3 = __webpack_require__(25);
+var _patACake3 = __webpack_require__(26);
 
 var _patACake4 = _interopRequireDefault(_patACake3);
 
-var _onMondayMorning3 = __webpack_require__(24);
+var _onMondayMorning3 = __webpack_require__(25);
 
 var _onMondayMorning4 = _interopRequireDefault(_onMondayMorning3);
 
@@ -15384,51 +15408,51 @@ var _jordanie = __webpack_require__(86);
 
 var _jordanie2 = _interopRequireDefault(_jordanie);
 
-var _color_fr_swahili = __webpack_require__(448);
+var _color_fr_swahili = __webpack_require__(449);
 
 var _color_fr_swahili2 = _interopRequireDefault(_color_fr_swahili);
 
-var _color_fr_spanish = __webpack_require__(447);
+var _color_fr_spanish = __webpack_require__(448);
 
 var _color_fr_spanish2 = _interopRequireDefault(_color_fr_spanish);
 
-var _color_fr_serbia = __webpack_require__(446);
+var _color_fr_serbia = __webpack_require__(447);
 
 var _color_fr_serbia2 = _interopRequireDefault(_color_fr_serbia);
 
-var _color_fr_russia = __webpack_require__(445);
+var _color_fr_russia = __webpack_require__(446);
 
 var _color_fr_russia2 = _interopRequireDefault(_color_fr_russia);
 
-var _color_fr_italy = __webpack_require__(444);
+var _color_fr_italy = __webpack_require__(445);
 
 var _color_fr_italy2 = _interopRequireDefault(_color_fr_italy);
 
-var _color_fr_india = __webpack_require__(443);
+var _color_fr_india = __webpack_require__(444);
 
 var _color_fr_india2 = _interopRequireDefault(_color_fr_india);
 
-var _color_fr_german = __webpack_require__(442);
+var _color_fr_german = __webpack_require__(443);
 
 var _color_fr_german2 = _interopRequireDefault(_color_fr_german);
 
-var _color_fr_english = __webpack_require__(440);
+var _color_fr_english = __webpack_require__(441);
 
 var _color_fr_english2 = _interopRequireDefault(_color_fr_english);
 
-var _color_fr_china = __webpack_require__(439);
+var _color_fr_china = __webpack_require__(440);
 
 var _color_fr_china2 = _interopRequireDefault(_color_fr_china);
 
-var _color_fr_brasil = __webpack_require__(438);
+var _color_fr_brasil = __webpack_require__(439);
 
 var _color_fr_brasil2 = _interopRequireDefault(_color_fr_brasil);
 
-var _color_fr_arabe = __webpack_require__(437);
+var _color_fr_arabe = __webpack_require__(438);
 
 var _color_fr_arabe2 = _interopRequireDefault(_color_fr_arabe);
 
-var _color_fr_french = __webpack_require__(441);
+var _color_fr_french = __webpack_require__(442);
 
 var _color_fr_french2 = _interopRequireDefault(_color_fr_french);
 
@@ -15453,6 +15477,134 @@ var _fr_children2 = _interopRequireDefault(_fr_children);
 var _allColorsFr = __webpack_require__(345);
 
 var _allColorsFr2 = _interopRequireDefault(_allColorsFr);
+
+var _recette_fr_argentine = __webpack_require__(486);
+
+var _recette_fr_argentine2 = _interopRequireDefault(_recette_fr_argentine);
+
+var _recette_fr_brasil = __webpack_require__(487);
+
+var _recette_fr_brasil2 = _interopRequireDefault(_recette_fr_brasil);
+
+var _recette_fr_haiti = __webpack_require__(491);
+
+var _recette_fr_haiti2 = _interopRequireDefault(_recette_fr_haiti);
+
+var _recette_fr_chilie = __webpack_require__(489);
+
+var _recette_fr_chilie2 = _interopRequireDefault(_recette_fr_chilie);
+
+var _recette_fr_guyane = __webpack_require__(490);
+
+var _recette_fr_guyane2 = _interopRequireDefault(_recette_fr_guyane);
+
+var _recette_fr_mexique = __webpack_require__(492);
+
+var _recette_fr_mexique2 = _interopRequireDefault(_recette_fr_mexique);
+
+var _recette_fr_usa = __webpack_require__(493);
+
+var _recette_fr_usa2 = _interopRequireDefault(_recette_fr_usa);
+
+var _recette_fr_canada = __webpack_require__(488);
+
+var _recette_fr_canada2 = _interopRequireDefault(_recette_fr_canada);
+
+var _recette_fr_australie = __webpack_require__(508);
+
+var _recette_fr_australie2 = _interopRequireDefault(_recette_fr_australie);
+
+var _recette_fr_vanuatu = __webpack_require__(509);
+
+var _recette_fr_vanuatu2 = _interopRequireDefault(_recette_fr_vanuatu);
+
+var _recette_fr_zelande = __webpack_require__(510);
+
+var _recette_fr_zelande2 = _interopRequireDefault(_recette_fr_zelande);
+
+var _recette_fr_english = __webpack_require__(501);
+
+var _recette_fr_english2 = _interopRequireDefault(_recette_fr_english);
+
+var _recette_fr_french = __webpack_require__(502);
+
+var _recette_fr_french2 = _interopRequireDefault(_recette_fr_french);
+
+var _recette_fr_german = __webpack_require__(503);
+
+var _recette_fr_german2 = _interopRequireDefault(_recette_fr_german);
+
+var _recette_fr_spanish = __webpack_require__(507);
+
+var _recette_fr_spanish2 = _interopRequireDefault(_recette_fr_spanish);
+
+var _recette_fr_italy = __webpack_require__(504);
+
+var _recette_fr_italy2 = _interopRequireDefault(_recette_fr_italy);
+
+var _recette_fr_russia = __webpack_require__(505);
+
+var _recette_fr_russia2 = _interopRequireDefault(_recette_fr_russia);
+
+var _recette_fr_serbia = __webpack_require__(506);
+
+var _recette_fr_serbia2 = _interopRequireDefault(_recette_fr_serbia);
+
+var _recette_fr_benin = __webpack_require__(480);
+
+var _recette_fr_benin2 = _interopRequireDefault(_recette_fr_benin);
+
+var _recette_fr_kenya = __webpack_require__(482);
+
+var _recette_fr_kenya2 = _interopRequireDefault(_recette_fr_kenya);
+
+var _recette_fr_tunisie = __webpack_require__(485);
+
+var _recette_fr_tunisie2 = _interopRequireDefault(_recette_fr_tunisie);
+
+var _recette_fr_egypte = __webpack_require__(481);
+
+var _recette_fr_egypte2 = _interopRequireDefault(_recette_fr_egypte);
+
+var _recette_fr_algerie = __webpack_require__(479);
+
+var _recette_fr_algerie2 = _interopRequireDefault(_recette_fr_algerie);
+
+var _recette_fr_maroc = __webpack_require__(484);
+
+var _recette_fr_maroc2 = _interopRequireDefault(_recette_fr_maroc);
+
+var _recette_fr_malagasy = __webpack_require__(483);
+
+var _recette_fr_malagasy2 = _interopRequireDefault(_recette_fr_malagasy);
+
+var _recette_fr_jordanie = __webpack_require__(497);
+
+var _recette_fr_jordanie2 = _interopRequireDefault(_recette_fr_jordanie);
+
+var _recette_fr_singapur = __webpack_require__(499);
+
+var _recette_fr_singapur2 = _interopRequireDefault(_recette_fr_singapur);
+
+var _recette_fr_vietnam = __webpack_require__(500);
+
+var _recette_fr_vietnam2 = _interopRequireDefault(_recette_fr_vietnam);
+
+var _recette_fr_china = __webpack_require__(495);
+
+var _recette_fr_china2 = _interopRequireDefault(_recette_fr_china);
+
+var _recette_fr_liban = __webpack_require__(498);
+
+var _recette_fr_liban2 = _interopRequireDefault(_recette_fr_liban);
+
+var _recette_fr_india = __webpack_require__(496);
+
+var _recette_fr_india2 = _interopRequireDefault(_recette_fr_india);
+
+var _recette_fr_arabe = __webpack_require__(494);
+
+var _recette_fr_arabe2 = _interopRequireDefault(_recette_fr_arabe);
 
 var _french2 = __webpack_require__(319);
 
@@ -15693,27 +15845,27 @@ var _default = {
 		america: {
 			name: 'america',
 			title: 'ATELIER DE CUISINE AMÉRICAINE',
-			country: [{ name: 'ARGENTINE', type: _pipilet_female2.default, recipe: _argentine2.default }, { name: 'BRÉSIL', type: _pipilet_male2.default, recipe: _quindim2.default }, { name: 'HAÏTI', type: _pipilet_female2.default, recipe: _haiti2.default }, { name: 'CHILI', type: _pipilet_female2.default, recipe: _chilie2.default }, { name: 'GUAYANE.F', type: _pipilet_male2.default, recipe: _guyane2.default }, { name: 'MEXIQUE', type: _pipilet_female2.default, recipe: _mexique2.default }, { name: 'USA', type: _pipilet_female2.default, recipe: _usa2.default }, { name: 'CANADA', type: _pipilet_male2.default, recipe: _canada2.default }]
+			country: [{ name: 'ARGENTINE', type: _pipilet_female2.default, recipe: _argentine2.default, downloadRecipe: _recette_fr_argentine2.default }, { name: 'BRÉSIL', type: _pipilet_male2.default, recipe: _quindim2.default, downloadRecipe: _recette_fr_brasil2.default }, { name: 'HAÏTI', type: _pipilet_female2.default, recipe: _haiti2.default, downloadRecipe: _recette_fr_haiti2.default }, { name: 'CHILI', type: _pipilet_female2.default, recipe: _chilie2.default, downloadRecipe: _recette_fr_chilie2.default }, { name: 'GUAYANE.F', type: _pipilet_male2.default, recipe: _guyane2.default, downloadRecipe: _recette_fr_guyane2.default }, { name: 'MEXIQUE', type: _pipilet_female2.default, recipe: _mexique2.default, downloadRecipe: _recette_fr_mexique2.default }, { name: 'USA', type: _pipilet_female2.default, recipe: _usa2.default, downloadRecipe: _recette_fr_usa2.default }, { name: 'CANADA', type: _pipilet_male2.default, recipe: _canada2.default, downloadRecipe: _recette_fr_canada2.default }]
 		},
 		oceania: {
 			name: 'oceania',
 			title: 'ATELIER DE CUISINE DE L’OCÉANIE',
-			country: [{ name: 'AUSTRALIE', type: _pipilet_female2.default, recipe: _alba2.default }, { name: 'VANUATU', type: _pipilet_male2.default, recipe: _helado2.default }, { name: 'NOUVELLE ZÉLANDE', type: _pipilet_male2.default, recipe: _pavlova2.default }]
+			country: [{ name: 'AUSTRALIE', type: _pipilet_female2.default, recipe: _alba2.default, downloadRecipe: _recette_fr_australie2.default }, { name: 'VANUATU', type: _pipilet_male2.default, recipe: _helado2.default, downloadRecipe: _recette_fr_vanuatu2.default }, { name: 'NOUVELLE ZÉLANDE', type: _pipilet_male2.default, recipe: _pavlova2.default, downloadRecipe: _recette_fr_zelande2.default }]
 		},
 		europe: {
 			name: 'europe',
 			title: 'ATELIER DE CUISINE EUROPÉENNE',
-			country: [{ name: 'ANGLETERRE', type: _pipilet_female2.default, recipe: _fairy_cakes2.default }, { name: 'FRANCE', type: _pipilet_male2.default, recipe: _mousseDeChocolate2.default }, { name: 'ALLEMAGNE', type: _pipilet_female2.default, recipe: _galletaDePascua2.default }, { name: 'ESPAGNE', type: _pipilet_female2.default, recipe: _macedonia2.default }, { name: 'ITALIE', type: _pipilet_male2.default, recipe: _mouse2.default }, { name: 'RUSSIE', type: _pipilet_female2.default, recipe: _manzanasAsadas2.default }, { name: 'SERBIE', type: _pipilet_female2.default, recipe: _tarta2.default }]
+			country: [{ name: 'ANGLETERRE', type: _pipilet_female2.default, recipe: _fairy_cakes2.default, downloadRecipe: _recette_fr_english2.default }, { name: 'FRANCE', type: _pipilet_male2.default, recipe: _mousseDeChocolate2.default, downloadRecipe: _recette_fr_french2.default }, { name: 'ALLEMAGNE', type: _pipilet_female2.default, recipe: _galletaDePascua2.default, downloadRecipe: _recette_fr_german2.default }, { name: 'ESPAGNE', type: _pipilet_female2.default, recipe: _macedonia2.default, downloadRecipe: _recette_fr_spanish2.default }, { name: 'ITALIE', type: _pipilet_male2.default, recipe: _mouse2.default, downloadRecipe: _recette_fr_italy2.default }, { name: 'RUSSIE', type: _pipilet_female2.default, recipe: _manzanasAsadas2.default, downloadRecipe: _recette_fr_russia2.default }, { name: 'SERBIE', type: _pipilet_female2.default, recipe: _tarta2.default, downloadRecipe: _recette_fr_serbia2.default }]
 		},
 		africa: {
 			name: 'africa',
 			title: 'TALLER DE COCINA AFRICANA',
-			country: [{ name: 'BENIN', type: _pipilet_female2.default, recipe: _benin2.default }, { name: 'KENYA', type: _pipilet_male2.default, recipe: _kenya2.default }, { name: 'TUNISIE', type: _pipilet_female2.default, recipe: _tunisie2.default }, { name: 'EGYPTE', type: _pipilet_female2.default, recipe: _egypt2.default }, { name: 'ALGERIE', type: _pipilet_male2.default, recipe: _algerie2.default }, { name: 'MAROC', type: _pipilet_female2.default, recipe: _maroc2.default }, { name: 'MADAGASCAR', type: _pipilet_female2.default, recipe: _malagasy2.default }]
+			country: [{ name: 'BENIN', type: _pipilet_female2.default, recipe: _benin2.default, downloadRecipe: _recette_fr_benin2.default }, { name: 'KENYA', type: _pipilet_male2.default, recipe: _kenya2.default, downloadRecipe: _recette_fr_kenya2.default }, { name: 'TUNISIE', type: _pipilet_female2.default, recipe: _tunisie2.default, downloadRecipe: _recette_fr_tunisie2.default }, { name: 'EGYPTE', type: _pipilet_female2.default, recipe: _egypt2.default, downloadRecipe: _recette_fr_egypte2.default }, { name: 'ALGERIE', type: _pipilet_male2.default, recipe: _algerie2.default, downloadRecipe: _recette_fr_algerie2.default }, { name: 'MAROC', type: _pipilet_female2.default, recipe: _maroc2.default, downloadRecipe: _recette_fr_maroc2.default }, { name: 'MADAGASCAR', type: _pipilet_female2.default, recipe: _malagasy2.default, downloadRecipe: _recette_fr_malagasy2.default }]
 		},
 		asia: {
 			name: 'asia',
 			title: 'ATELIER DE CUISINE ASIATIQUE',
-			country: [{ name: 'JORDANIE', type: _pipilet_female2.default, recipe: _jordanie2.default }, { name: 'SINGAPOUR', type: _pipilet_male2.default, recipe: _singapour2.default }, { name: 'VIETNAM', type: _pipilet_female2.default, recipe: _vietnam2.default }, { name: 'CHINE', type: _pipilet_female2.default, recipe: _china2.default }, { name: 'LÍBAN', type: _pipilet_male2.default, recipe: _liban2.default }, { name: 'INDE', type: _pipilet_female2.default, recipe: _india2.default }, { name: 'ARABIE SAUDITE', type: _pipilet_female2.default, recipe: _maskina2.default }]
+			country: [{ name: 'JORDANIE', type: _pipilet_female2.default, recipe: _jordanie2.default, downloadRecipe: _recette_fr_jordanie2.default }, { name: 'SINGAPOUR', type: _pipilet_male2.default, recipe: _singapour2.default, downloadRecipe: _recette_fr_singapur2.default }, { name: 'VIETNAM', type: _pipilet_female2.default, recipe: _vietnam2.default, downloadRecipe: _recette_fr_vietnam2.default }, { name: 'CHINE', type: _pipilet_female2.default, recipe: _china2.default, downloadRecipe: _recette_fr_china2.default }, { name: 'LÍBAN', type: _pipilet_male2.default, recipe: _liban2.default, downloadRecipe: _recette_fr_liban2.default }, { name: 'INDE', type: _pipilet_female2.default, recipe: _india2.default, downloadRecipe: _recette_fr_india2.default }, { name: 'ARABIE SAUDITE', type: _pipilet_female2.default, recipe: _maskina2.default, downloadRecipe: _recette_fr_arabe2.default }]
 		}
 	},
 	presentationPageContent: {
@@ -15795,7 +15947,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _information = __webpack_require__(33);
+var _information = __webpack_require__(34);
 
 var _information2 = _interopRequireDefault(_information);
 
@@ -15807,7 +15959,7 @@ var _pipilet_female = __webpack_require__(2);
 
 var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
 
-var _pipiletDescription = __webpack_require__(17);
+var _pipiletDescription = __webpack_require__(18);
 
 var _pipiletDescription2 = _interopRequireDefault(_pipiletDescription);
 
@@ -15859,51 +16011,51 @@ var _onMondayMorning = __webpack_require__(306);
 
 var _onMondayMorning2 = _interopRequireDefault(_onMondayMorning);
 
-var _winterIsHere3 = __webpack_require__(32);
+var _winterIsHere3 = __webpack_require__(33);
 
 var _winterIsHere4 = _interopRequireDefault(_winterIsHere3);
 
-var _fallFallBallon3 = __webpack_require__(21);
+var _fallFallBallon3 = __webpack_require__(22);
 
 var _fallFallBallon4 = _interopRequireDefault(_fallFallBallon3);
 
-var _theWasherman3 = __webpack_require__(29);
+var _theWasherman3 = __webpack_require__(30);
 
 var _theWasherman4 = _interopRequireDefault(_theWasherman3);
 
-var _ticTicTic3 = __webpack_require__(30);
+var _ticTicTic3 = __webpack_require__(31);
 
 var _ticTicTic4 = _interopRequireDefault(_ticTicTic3);
 
-var _siMaMaKa3 = __webpack_require__(26);
+var _siMaMaKa3 = __webpack_require__(27);
 
 var _siMaMaKa4 = _interopRequireDefault(_siMaMaKa3);
 
-var _theCourtyardOfMyHouse3 = __webpack_require__(28);
+var _theCourtyardOfMyHouse3 = __webpack_require__(29);
 
 var _theCourtyardOfMyHouse4 = _interopRequireDefault(_theCourtyardOfMyHouse3);
 
-var _hereWeGoRoundTheMulberryBush3 = __webpack_require__(22);
+var _hereWeGoRoundTheMulberryBush3 = __webpack_require__(23);
 
 var _hereWeGoRoundTheMulberryBush4 = _interopRequireDefault(_hereWeGoRoundTheMulberryBush3);
 
-var _itsRainning3 = __webpack_require__(23);
+var _itsRainning3 = __webpack_require__(24);
 
 var _itsRainning4 = _interopRequireDefault(_itsRainning3);
 
-var _twoTigers3 = __webpack_require__(31);
+var _twoTigers3 = __webpack_require__(32);
 
 var _twoTigers4 = _interopRequireDefault(_twoTigers3);
 
-var _springHasCome3 = __webpack_require__(27);
+var _springHasCome3 = __webpack_require__(28);
 
 var _springHasCome4 = _interopRequireDefault(_springHasCome3);
 
-var _patACake3 = __webpack_require__(25);
+var _patACake3 = __webpack_require__(26);
 
 var _patACake4 = _interopRequireDefault(_patACake3);
 
-var _onMondayMorning3 = __webpack_require__(24);
+var _onMondayMorning3 = __webpack_require__(25);
 
 var _onMondayMorning4 = _interopRequireDefault(_onMondayMorning3);
 
@@ -16039,51 +16191,51 @@ var _jordania = __webpack_require__(249);
 
 var _jordania2 = _interopRequireDefault(_jordania);
 
-var _color_esp_arabe = __webpack_require__(425);
+var _color_esp_arabe = __webpack_require__(426);
 
 var _color_esp_arabe2 = _interopRequireDefault(_color_esp_arabe);
 
-var _color_esp_brasil = __webpack_require__(426);
+var _color_esp_brasil = __webpack_require__(427);
 
 var _color_esp_brasil2 = _interopRequireDefault(_color_esp_brasil);
 
-var _color_esp_china = __webpack_require__(427);
+var _color_esp_china = __webpack_require__(428);
 
 var _color_esp_china2 = _interopRequireDefault(_color_esp_china);
 
-var _color_esp_english = __webpack_require__(428);
+var _color_esp_english = __webpack_require__(429);
 
 var _color_esp_english2 = _interopRequireDefault(_color_esp_english);
 
-var _color_esp_french = __webpack_require__(429);
+var _color_esp_french = __webpack_require__(430);
 
 var _color_esp_french2 = _interopRequireDefault(_color_esp_french);
 
-var _color_esp_german = __webpack_require__(430);
+var _color_esp_german = __webpack_require__(431);
 
 var _color_esp_german2 = _interopRequireDefault(_color_esp_german);
 
-var _color_esp_india = __webpack_require__(431);
+var _color_esp_india = __webpack_require__(432);
 
 var _color_esp_india2 = _interopRequireDefault(_color_esp_india);
 
-var _color_esp_italy = __webpack_require__(432);
+var _color_esp_italy = __webpack_require__(433);
 
 var _color_esp_italy2 = _interopRequireDefault(_color_esp_italy);
 
-var _color_esp_russia = __webpack_require__(433);
+var _color_esp_russia = __webpack_require__(434);
 
 var _color_esp_russia2 = _interopRequireDefault(_color_esp_russia);
 
-var _color_esp_spanish = __webpack_require__(435);
+var _color_esp_spanish = __webpack_require__(436);
 
 var _color_esp_spanish2 = _interopRequireDefault(_color_esp_spanish);
 
-var _color_esp_serbia = __webpack_require__(434);
+var _color_esp_serbia = __webpack_require__(435);
 
 var _color_esp_serbia2 = _interopRequireDefault(_color_esp_serbia);
 
-var _color_esp_swahili = __webpack_require__(436);
+var _color_esp_swahili = __webpack_require__(437);
 
 var _color_esp_swahili2 = _interopRequireDefault(_color_esp_swahili);
 
@@ -16109,12 +16261,131 @@ var _allColorsEsp = __webpack_require__(344);
 
 var _allColorsEsp2 = _interopRequireDefault(_allColorsEsp);
 
+var _recette_esp_argentine = __webpack_require__(456);
+
+var _recette_esp_argentine2 = _interopRequireDefault(_recette_esp_argentine);
+
+var _recette_esp_brasil = __webpack_require__(457);
+
+var _recette_esp_brasil2 = _interopRequireDefault(_recette_esp_brasil);
+
+var _recette_esp_haiti = __webpack_require__(461);
+
+var _recette_esp_haiti2 = _interopRequireDefault(_recette_esp_haiti);
+
+var _recette_esp_chilie = __webpack_require__(459);
+
+var _recette_esp_chilie2 = _interopRequireDefault(_recette_esp_chilie);
+
+var _recette_esp_guyane = __webpack_require__(460);
+
+var _recette_esp_guyane2 = _interopRequireDefault(_recette_esp_guyane);
+
+var _recette_esp_mexique = __webpack_require__(462);
+
+var _recette_esp_mexique2 = _interopRequireDefault(_recette_esp_mexique);
+
+var _recette_esp_usa = __webpack_require__(463);
+
+var _recette_esp_usa2 = _interopRequireDefault(_recette_esp_usa);
+
+var _recette_esp_canada = __webpack_require__(458);
+
+var _recette_esp_canada2 = _interopRequireDefault(_recette_esp_canada);
+
+var _recette_esp_australie = __webpack_require__(476);
+
+var _recette_esp_australie2 = _interopRequireDefault(_recette_esp_australie);
+
+var _recette_esp_vanuatu = __webpack_require__(477);
+
+var _recette_esp_vanuatu2 = _interopRequireDefault(_recette_esp_vanuatu);
+
+var _recette_esp_zelande = __webpack_require__(478);
+
+var _recette_esp_zelande2 = _interopRequireDefault(_recette_esp_zelande);
+
+var _recette_esp_english = __webpack_require__(469);
+
+var _recette_esp_english2 = _interopRequireDefault(_recette_esp_english);
+
+var _recette_esp_french = __webpack_require__(470);
+
+var _recette_esp_french2 = _interopRequireDefault(_recette_esp_french);
+
+var _recette_esp_german = __webpack_require__(471);
+
+var _recette_esp_german2 = _interopRequireDefault(_recette_esp_german);
+
+var _recette_esp_spanish = __webpack_require__(475);
+
+var _recette_esp_spanish2 = _interopRequireDefault(_recette_esp_spanish);
+
+var _recette_esp_italy = __webpack_require__(472);
+
+var _recette_esp_italy2 = _interopRequireDefault(_recette_esp_italy);
+
+var _recette_esp_russia = __webpack_require__(473);
+
+var _recette_esp_russia2 = _interopRequireDefault(_recette_esp_russia);
+
+var _recette_esp_serbia = __webpack_require__(474);
+
+var _recette_esp_serbia2 = _interopRequireDefault(_recette_esp_serbia);
+
+var _recette_esp_benin = __webpack_require__(451);
+
+var _recette_esp_benin2 = _interopRequireDefault(_recette_esp_benin);
+
+var _recette_esp_kenya = __webpack_require__(452);
+
+var _recette_esp_kenya2 = _interopRequireDefault(_recette_esp_kenya);
+
+var _recette_esp_tunisie = __webpack_require__(455);
+
+var _recette_esp_tunisie2 = _interopRequireDefault(_recette_esp_tunisie);
+
+var _recette_esp_algerie = __webpack_require__(450);
+
+var _recette_esp_algerie2 = _interopRequireDefault(_recette_esp_algerie);
+
+var _recette_esp_maroc = __webpack_require__(454);
+
+var _recette_esp_maroc2 = _interopRequireDefault(_recette_esp_maroc);
+
+var _recette_esp_malagasy = __webpack_require__(453);
+
+var _recette_esp_malagasy2 = _interopRequireDefault(_recette_esp_malagasy);
+
+var _recette_esp_singapur = __webpack_require__(468);
+
+var _recette_esp_singapur2 = _interopRequireDefault(_recette_esp_singapur);
+
+var _recette_esp_china = __webpack_require__(465);
+
+var _recette_esp_china2 = _interopRequireDefault(_recette_esp_china);
+
+var _recette_esp_liban = __webpack_require__(467);
+
+var _recette_esp_liban2 = _interopRequireDefault(_recette_esp_liban);
+
+var _recette_esp_india = __webpack_require__(466);
+
+var _recette_esp_india2 = _interopRequireDefault(_recette_esp_india);
+
+var _recette_esp_arab = __webpack_require__(464);
+
+var _recette_esp_arab2 = _interopRequireDefault(_recette_esp_arab);
+
 var _spanish4 = __webpack_require__(101);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /* eslint-disable no-unused-vars */
-var navbar = ['Inicio', 'Presentación', 'Pipilet Mandala', 'Videos', 'Contacto'];
+var navbar = ['Inicio', 'Presentación', 'Pipilet Mandala', 'Videos', 'Contacto']; //TODO pas le fichier vietnam
+//TODO pas le fichier jordanie
+//TODO pas le fichier egypte
+
 
 var sidebar = ['LAS CANCIONES', 'LOS COLORES Y LOS NÚMEROS', 'LA REPOSTERÍA', '¿ SABES QUIÊN SOY ?'];
 
@@ -16349,27 +16620,27 @@ var _default = {
 		america: {
 			name: 'america',
 			title: 'TALLER DE COCINA AMERICANA',
-			country: [{ name: 'ARGENTINA', type: _pipilet_female2.default, recipe: _argentine2.default }, { name: 'BRASIL', type: _pipilet_male2.default, recipe: _brasil2.default }, { name: 'HAITI', type: _pipilet_female2.default, recipe: _haiti2.default }, { name: 'CHILE', type: _pipilet_female2.default, recipe: _chilie2.default }, { name: 'GUAYANAS', type: _pipilet_male2.default, recipe: _guyane2.default }, { name: 'MÉJICO', type: _pipilet_female2.default, recipe: _mexico2.default }, { name: 'USA', type: _pipilet_female2.default, recipe: _usa2.default }, { name: 'CANADA', type: _pipilet_male2.default, recipe: _canadien2.default }]
+			country: [{ name: 'ARGENTINA', type: _pipilet_female2.default, recipe: _argentine2.default, downloadRecipe: _recette_esp_argentine2.default }, { name: 'BRASIL', type: _pipilet_male2.default, recipe: _brasil2.default, downloadRecipe: _recette_esp_brasil2.default }, { name: 'HAITI', type: _pipilet_female2.default, recipe: _haiti2.default, downloadRecipe: _recette_esp_haiti2.default }, { name: 'CHILE', type: _pipilet_female2.default, recipe: _chilie2.default, downloadRecipe: _recette_esp_chilie2.default }, { name: 'GUAYANAS', type: _pipilet_male2.default, recipe: _guyane2.default, downloadRecipe: _recette_esp_guyane2.default }, { name: 'MÉJICO', type: _pipilet_female2.default, recipe: _mexico2.default, downloadRecipe: _recette_esp_mexique2.default }, { name: 'USA', type: _pipilet_female2.default, recipe: _usa2.default, downloadRecipe: _recette_esp_usa2.default }, { name: 'CANADA', type: _pipilet_male2.default, recipe: _canadien2.default, downloadRecipe: _recette_esp_canada2.default }]
 		},
 		oceania: {
 			name: 'oceania',
 			title: 'TALLER DE COCINA DE OCEANÍA',
-			country: [{ name: 'AUSTRALIA', type: _pipilet_female2.default, recipe: _australie2.default }, { name: 'VANUATU', type: _pipilet_male2.default, recipe: _vanuatu2.default }, { name: 'NUEVA ZELANDA', type: _pipilet_male2.default, recipe: _zelande2.default }]
+			country: [{ name: 'AUSTRALIA', type: _pipilet_female2.default, recipe: _australie2.default, downloadRecipe: _recette_esp_australie2.default }, { name: 'VANUATU', type: _pipilet_male2.default, recipe: _vanuatu2.default, downloadRecipe: _recette_esp_vanuatu2.default }, { name: 'NUEVA ZELANDA', type: _pipilet_male2.default, recipe: _zelande2.default, downloadRecipe: _recette_esp_zelande2.default }]
 		},
 		europe: {
 			name: 'europe',
 			title: 'TALLER DE COCINA EUROPEA',
-			country: [{ name: 'INGLATERRA', type: _pipilet_female2.default, recipe: _english2.default }, { name: 'FRANCIA', type: _pipilet_male2.default, recipe: _french2.default }, { name: 'ALEMANIA', type: _pipilet_female2.default, recipe: _german2.default }, { name: 'ESPAÑA', type: _pipilet_female2.default, recipe: _spanish2.default }, { name: 'ITALIA', type: _pipilet_male2.default, recipe: _italy2.default }, { name: 'RUSIA', type: _pipilet_female2.default, recipe: _russia2.default }, { name: 'SERBIA', type: _pipilet_female2.default, recipe: _serbia2.default }]
+			country: [{ name: 'INGLATERRA', type: _pipilet_female2.default, recipe: _english2.default, downloadRecipe: _recette_esp_english2.default }, { name: 'FRANCIA', type: _pipilet_male2.default, recipe: _french2.default, downloadRecipe: _recette_esp_french2.default }, { name: 'ALEMANIA', type: _pipilet_female2.default, recipe: _german2.default, downloadRecipe: _recette_esp_german2.default }, { name: 'ESPAÑA', type: _pipilet_female2.default, recipe: _spanish2.default, downloadRecipe: _recette_esp_spanish2.default }, { name: 'ITALIA', type: _pipilet_male2.default, recipe: _italy2.default, downloadRecipe: _recette_esp_italy2.default }, { name: 'RUSIA', type: _pipilet_female2.default, recipe: _russia2.default, downloadRecipe: _recette_esp_russia2.default }, { name: 'SERBIA', type: _pipilet_female2.default, recipe: _serbia2.default, downloadRecipe: _recette_esp_serbia2.default }]
 		},
 		africa: {
 			name: 'africa',
 			title: 'TALLER DE COCINA AFRICANA',
-			country: [{ name: 'BENIN', type: _pipilet_female2.default, recipe: _benin2.default }, { name: 'KENIA', type: _pipilet_male2.default, recipe: _kenya2.default }, { name: 'TÚNEZ', type: _pipilet_female2.default, recipe: _tunisie2.default }, { name: 'EGIPTO', type: _pipilet_female2.default, recipe: _egypte2.default }, { name: 'ARGELIA', type: _pipilet_male2.default, recipe: _algerie2.default }, { name: 'MARRUECOS', type: _pipilet_female2.default, recipe: _maroc2.default }, { name: 'MADAGASCAR', type: _pipilet_female2.default, recipe: _malagasy2.default }]
+			country: [{ name: 'BENIN', type: _pipilet_female2.default, recipe: _benin2.default, downloadRecipe: _recette_esp_benin2.default }, { name: 'KENIA', type: _pipilet_male2.default, recipe: _kenya2.default, downloadRecipe: _recette_esp_kenya2.default }, { name: 'TÚNEZ', type: _pipilet_female2.default, recipe: _tunisie2.default, downloadRecipe: _recette_esp_tunisie2.default }, { name: 'EGIPTO', type: _pipilet_female2.default, recipe: _egypte2.default, downloadRecipe: _recette_esp_tunisie2.default }, { name: 'ARGELIA', type: _pipilet_male2.default, recipe: _algerie2.default, downloadRecipe: _recette_esp_algerie2.default }, { name: 'MARRUECOS', type: _pipilet_female2.default, recipe: _maroc2.default, downloadRecipe: _recette_esp_maroc2.default }, { name: 'MADAGASCAR', type: _pipilet_female2.default, recipe: _malagasy2.default, downloadRecipe: _recette_esp_malagasy2.default }]
 		},
 		asia: {
 			name: 'asia',
 			title: 'TALLER DE COCINA ASIÁTICA',
-			country: [{ name: 'JORDANIA', type: _pipilet_female2.default, recipe: _jordania2.default }, { name: 'SINGAPUR', type: _pipilet_male2.default, recipe: _singapour2.default }, { name: 'VIETNAM', type: _pipilet_female2.default, recipe: _vietnam2.default }, { name: 'CHINA', type: _pipilet_female2.default, recipe: _china2.default }, { name: 'LÍBANO', type: _pipilet_male2.default, recipe: _liban2.default }, { name: 'INDIA', type: _pipilet_female2.default, recipe: _india2.default }, { name: 'ARABIA SAUDITA', type: _pipilet_female2.default, recipe: _arabia2.default }]
+			country: [{ name: 'JORDANIA', type: _pipilet_female2.default, recipe: _jordania2.default, downloadRecipe: _recette_esp_singapur2.default }, { name: 'SINGAPUR', type: _pipilet_male2.default, recipe: _singapour2.default, downloadRecipe: _recette_esp_singapur2.default }, { name: 'VIETNAM', type: _pipilet_female2.default, recipe: _vietnam2.default, downloadRecipe: _recette_esp_singapur2.default }, { name: 'CHINA', type: _pipilet_female2.default, recipe: _china2.default, downloadRecipe: _recette_esp_china2.default }, { name: 'LÍBANO', type: _pipilet_male2.default, recipe: _liban2.default, downloadRecipe: _recette_esp_liban2.default }, { name: 'INDIA', type: _pipilet_female2.default, recipe: _india2.default, downloadRecipe: _recette_esp_india2.default }, { name: 'ARABIA SAUDITA', type: _pipilet_female2.default, recipe: _arabia2.default, downloadRecipe: _recette_esp_arab2.default }]
 		}
 	},
 	presentationPageContent: {
@@ -16797,7 +17068,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "#wrapper-display-recipe .wrapper-header-recipe{display:flex;justify-content:space-around;align-items:center;height:20vw;margin:60px 0}#wrapper-display-recipe .wrapper-header-recipe .wrapper-image-girl-man{text-align:center;height:100%}#wrapper-display-recipe .wrapper-header-recipe .wrapper-image-girl-man img{max-height:100%;max-width:100%}#wrapper-display-recipe .wrapper-header-recipe .wrapper-title{text-align:center;align-self:center;font-size:2.7vw;font-family:Helvetica Neue,Helvetica,Arial,sans-serif}#wrapper-display-recipe .wrapper-header-recipe .wrapper-image-pipilet{height:100%}#wrapper-display-recipe .wrapper-header-recipe .wrapper-image-pipilet img{max-height:100%;max-width:100%}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map{margin-bottom:60px}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-title{display:flex;justify-content:center;color:red;text-align:center;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-size:2.4vw;margin-bottom:30px}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-section-ingredient{margin-bottom:60px;display:flex;justify-content:space-between;align-items:center}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-section-ingredient .wrapper-all-recipe .wrapper-recipe .inner-recipe{width:100%;margin-right:15px}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-section-ingredient .wrapper-all-recipe .wrapper-recipe .inner-recipe .wrapper-title-section{font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-size:34px;margin-bottom:15px}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-section-ingredient .wrapper-all-recipe .wrapper-recipe .inner-recipe ul{margin:15px 0;padding:0}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-section-ingredient .wrapper-all-recipe .wrapper-recipe .inner-recipe ul li{font-size:18px;line-height:2}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-section-ingredient .wrapper-logo-recipe{width:50%;margin-left:15px;text-align:center}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-section-ingredient .wrapper-logo-recipe img{max-width:100%;max-height:100%}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-section-preparation .wrapper-title-section{font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-size:34px;margin-bottom:15px}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-section-preparation ul{margin:15px 0;padding:0}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-section-preparation ul li{font-size:18px;line-height:2}", ""]);
+exports.push([module.i, "#wrapper-display-recipe .wrapper-header-recipe{display:flex;justify-content:space-around;align-items:center;height:20vw;margin:60px 0}#wrapper-display-recipe .wrapper-header-recipe .wrapper-image-girl-man{text-align:center;height:100%}#wrapper-display-recipe .wrapper-header-recipe .wrapper-image-girl-man img{max-height:100%;max-width:100%}#wrapper-display-recipe .wrapper-header-recipe .wrapper-title{text-align:center;align-self:center;font-size:2.7vw;font-family:Helvetica Neue,Helvetica,Arial,sans-serif}#wrapper-display-recipe .wrapper-header-recipe .wrapper-image-pipilet{height:100%}#wrapper-display-recipe .wrapper-header-recipe .wrapper-image-pipilet img{max-height:100%;max-width:100%}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map{margin-bottom:60px}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-title{display:flex;justify-content:center;color:red;text-align:center;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-size:2.4vw;margin-bottom:30px}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-section-ingredient{margin-bottom:60px;display:flex;justify-content:space-between;align-items:center}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-section-ingredient .wrapper-all-recipe .wrapper-recipe .inner-recipe{width:100%;margin-right:15px}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-section-ingredient .wrapper-all-recipe .wrapper-recipe .inner-recipe .wrapper-title-section{font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-size:34px;margin-bottom:15px}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-section-ingredient .wrapper-all-recipe .wrapper-recipe .inner-recipe ul{margin:15px 0;padding:0}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-section-ingredient .wrapper-all-recipe .wrapper-recipe .inner-recipe ul li{font-size:18px;line-height:2}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-section-ingredient .wrapper-logo-download{width:10%}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-section-ingredient .wrapper-logo-download img{max-width:100%;max-height:100%}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-section-ingredient .wrapper-logo-recipe{width:50%;margin-left:15px;text-align:center}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-section-ingredient .wrapper-logo-recipe img{max-width:100%;max-height:100%}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-section-preparation .wrapper-title-section{font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-size:34px;margin-bottom:15px}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-section-preparation ul{margin:15px 0;padding:0}#wrapper-display-recipe .wrapper-recipe .wrapper-recipe-map .wrapper-section-preparation ul li{font-size:18px;line-height:2}", ""]);
 
 // exports
 
@@ -17432,501 +17703,873 @@ module.exports = __webpack_require__.p + "pdf_color_eng_china.pdf";
 /* 417 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_eng_french.pdf";
+module.exports = __webpack_require__.p + "pdf_color_eng_english.pdf";
 
 /***/ }),
 /* 418 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_eng_german.pdf";
+module.exports = __webpack_require__.p + "pdf_color_eng_french.pdf";
 
 /***/ }),
 /* 419 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_eng_india.pdf";
+module.exports = __webpack_require__.p + "pdf_color_eng_german.pdf";
 
 /***/ }),
 /* 420 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_eng_italy.pdf";
+module.exports = __webpack_require__.p + "pdf_color_eng_india.pdf";
 
 /***/ }),
 /* 421 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_eng_russia.pdf";
+module.exports = __webpack_require__.p + "pdf_color_eng_italy.pdf";
 
 /***/ }),
 /* 422 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_eng_serbia.pdf";
+module.exports = __webpack_require__.p + "pdf_color_eng_russia.pdf";
 
 /***/ }),
 /* 423 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_eng_spanish.pdf";
+module.exports = __webpack_require__.p + "pdf_color_eng_serbia.pdf";
 
 /***/ }),
 /* 424 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_eng_swahili.pdf";
+module.exports = __webpack_require__.p + "pdf_color_eng_spanish.pdf";
 
 /***/ }),
 /* 425 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_arabe.pdf";
+module.exports = __webpack_require__.p + "pdf_color_eng_swahili.pdf";
 
 /***/ }),
 /* 426 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_brasil.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_arabe.pdf";
 
 /***/ }),
 /* 427 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_china.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_brasil.pdf";
 
 /***/ }),
 /* 428 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_english.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_china.pdf";
 
 /***/ }),
 /* 429 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_french.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_english.pdf";
 
 /***/ }),
 /* 430 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_german.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_french.pdf";
 
 /***/ }),
 /* 431 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_india.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_german.pdf";
 
 /***/ }),
 /* 432 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_italy.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_india.pdf";
 
 /***/ }),
 /* 433 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_russia.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_italy.pdf";
 
 /***/ }),
 /* 434 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_serbia.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_russia.pdf";
 
 /***/ }),
 /* 435 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_spanish.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_serbia.pdf";
 
 /***/ }),
 /* 436 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_swahili.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_spanish.pdf";
 
 /***/ }),
 /* 437 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_arabe.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_swahili.pdf";
 
 /***/ }),
 /* 438 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_brasil.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_arabe.pdf";
 
 /***/ }),
 /* 439 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_china.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_brasil.pdf";
 
 /***/ }),
 /* 440 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_english.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_china.pdf";
 
 /***/ }),
 /* 441 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_french.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_english.pdf";
 
 /***/ }),
 /* 442 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_german.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_french.pdf";
 
 /***/ }),
 /* 443 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_india.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_german.pdf";
 
 /***/ }),
 /* 444 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_italy.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_india.pdf";
 
 /***/ }),
 /* 445 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_russia.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_italy.pdf";
 
 /***/ }),
 /* 446 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_serbia.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_russia.pdf";
 
 /***/ }),
 /* 447 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_spanish.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_serbia.pdf";
 
 /***/ }),
 /* 448 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_swahili.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_spanish.pdf";
 
 /***/ }),
 /* 449 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_arabe.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_swahili.pdf";
 
 /***/ }),
 /* 450 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_brasil.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_algerie.pdf";
 
 /***/ }),
 /* 451 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_china.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_benin.pdf";
 
 /***/ }),
 /* 452 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_english.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_kenya.pdf";
 
 /***/ }),
 /* 453 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_french.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_malagasy.pdf";
 
 /***/ }),
 /* 454 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_german.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_maroc.pdf";
 
 /***/ }),
 /* 455 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_india.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_tunisie.pdf";
 
 /***/ }),
 /* 456 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_italy.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_argentine.pdf";
 
 /***/ }),
 /* 457 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_russia.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_brasil.pdf";
 
 /***/ }),
 /* 458 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_serbia.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_canada.pdf";
 
 /***/ }),
 /* 459 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_spanish.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_chilie.pdf";
 
 /***/ }),
 /* 460 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_swahili.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_guyane.pdf";
 
 /***/ }),
 /* 461 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_fall-fall-ballon.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_haiti.pdf";
 
 /***/ }),
 /* 462 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_here-we-go-round-the-mulberry-bush.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_mexique.pdf";
 
 /***/ }),
 /* 463 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_its-rainning.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_usa.pdf";
 
 /***/ }),
 /* 464 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_on-monday-morning.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_arab.pdf";
 
 /***/ }),
 /* 465 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_pat-a-cake.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_china.pdf";
 
 /***/ }),
 /* 466 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_si-ma-ma-ka.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_india.pdf";
 
 /***/ }),
 /* 467 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_spring-has-come-eng.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_liban.pdf";
 
 /***/ }),
 /* 468 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_the-courtyard-of-my-house.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_singapur.pdf";
 
 /***/ }),
 /* 469 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_the-washerman.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_english.pdf";
 
 /***/ }),
 /* 470 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_tic-tic-tic.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_french.pdf";
 
 /***/ }),
 /* 471 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_two-tigers.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_german.pdf";
 
 /***/ }),
 /* 472 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_winter_is_here.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_italy.pdf";
 
 /***/ }),
 /* 473 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_fall-fall-ballon.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_russia.pdf";
 
 /***/ }),
 /* 474 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_here-we-go-round-the-mulberry-bush.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_serbia.pdf";
 
 /***/ }),
 /* 475 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_its-rainning.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_spanish.pdf";
 
 /***/ }),
 /* 476 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_on-monday-morning.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_australie.pdf";
 
 /***/ }),
 /* 477 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_pat-a-cake.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_vanuatu.pdf";
 
 /***/ }),
 /* 478 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_si-ma-ma-ka.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_zelande.pdf";
 
 /***/ }),
 /* 479 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_spring-has-come.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_algerie.pdf";
 
 /***/ }),
 /* 480 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_the-courtyard-of-my-house.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_benin.pdf";
 
 /***/ }),
 /* 481 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_the-washerman.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_egypte.pdf";
 
 /***/ }),
 /* 482 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_tic-tic-tic.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_kenya.pdf";
 
 /***/ }),
 /* 483 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_two-tigers.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_malagasy.pdf";
 
 /***/ }),
 /* 484 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_winter-is-here.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_maroc.pdf";
 
 /***/ }),
 /* 485 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_fall-fall-ballon.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_tunisie.pdf";
 
 /***/ }),
 /* 486 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_here-we-go-round-the-mulberry-bush.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_argentine.pdf";
 
 /***/ }),
 /* 487 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_its-rainning.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_brasil.pdf";
 
 /***/ }),
 /* 488 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_on-monday-morning.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_canada.pdf";
 
 /***/ }),
 /* 489 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_pat-a-cake.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_chilie.pdf";
 
 /***/ }),
 /* 490 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_si-ma-ma-ka.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_guyane.pdf";
 
 /***/ }),
 /* 491 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_spring-has-come.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_haiti.pdf";
 
 /***/ }),
 /* 492 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_the-courtyard-of-my-house.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_mexique.pdf";
 
 /***/ }),
 /* 493 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_the-washerman.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_usa.pdf";
 
 /***/ }),
 /* 494 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_tic-tic-tic.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_arabe.pdf";
 
 /***/ }),
 /* 495 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_two-tigers.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_china.pdf";
 
 /***/ }),
 /* 496 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_winter-is-here.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_india.pdf";
 
 /***/ }),
 /* 497 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_bird_big_draw_number.png";
+module.exports = __webpack_require__.p + "pdf_recette_fr_jordanie.pdf";
 
 /***/ }),
 /* 498 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_bird_little_draw_number.png";
+module.exports = __webpack_require__.p + "pdf_recette_fr_liban.pdf";
 
 /***/ }),
 /* 499 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "pdf_recette_fr_singapur.pdf";
+
+/***/ }),
+/* 500 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_recette_fr_vietnam.pdf";
+
+/***/ }),
+/* 501 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_recette_fr_english.pdf";
+
+/***/ }),
+/* 502 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_recette_fr_french.pdf";
+
+/***/ }),
+/* 503 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_recette_fr_german.pdf";
+
+/***/ }),
+/* 504 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_recette_fr_italy.pdf";
+
+/***/ }),
+/* 505 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_recette_fr_russia.pdf";
+
+/***/ }),
+/* 506 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_recette_fr_serbia.pdf";
+
+/***/ }),
+/* 507 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_recette_fr_spanish.pdf";
+
+/***/ }),
+/* 508 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_recette_fr_australie.pdf";
+
+/***/ }),
+/* 509 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_recette_fr_vanuatu.pdf";
+
+/***/ }),
+/* 510 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_recette_fr_zelande.pdf";
+
+/***/ }),
+/* 511 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_number_arabe.pdf";
+
+/***/ }),
+/* 512 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_number_brasil.pdf";
+
+/***/ }),
+/* 513 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_number_china.pdf";
+
+/***/ }),
+/* 514 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_number_english.pdf";
+
+/***/ }),
+/* 515 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_number_french.pdf";
+
+/***/ }),
+/* 516 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_number_german.pdf";
+
+/***/ }),
+/* 517 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_number_india.pdf";
+
+/***/ }),
+/* 518 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_number_italy.pdf";
+
+/***/ }),
+/* 519 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_number_russia.pdf";
+
+/***/ }),
+/* 520 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_number_serbia.pdf";
+
+/***/ }),
+/* 521 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_number_spanish.pdf";
+
+/***/ }),
+/* 522 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_number_swahili.pdf";
+
+/***/ }),
+/* 523 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_eng_fall-fall-ballon.pdf";
+
+/***/ }),
+/* 524 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_eng_here-we-go-round-the-mulberry-bush.pdf";
+
+/***/ }),
+/* 525 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_eng_its-rainning.pdf";
+
+/***/ }),
+/* 526 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_eng_on-monday-morning.pdf";
+
+/***/ }),
+/* 527 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_eng_pat-a-cake.pdf";
+
+/***/ }),
+/* 528 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_eng_si-ma-ma-ka.pdf";
+
+/***/ }),
+/* 529 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_eng_spring-has-come-eng.pdf";
+
+/***/ }),
+/* 530 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_eng_the-courtyard-of-my-house.pdf";
+
+/***/ }),
+/* 531 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_eng_the-washerman.pdf";
+
+/***/ }),
+/* 532 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_eng_tic-tic-tic.pdf";
+
+/***/ }),
+/* 533 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_eng_two-tigers.pdf";
+
+/***/ }),
+/* 534 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_eng_winter_is_here.pdf";
+
+/***/ }),
+/* 535 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_esp_fall-fall-ballon.pdf";
+
+/***/ }),
+/* 536 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_esp_here-we-go-round-the-mulberry-bush.pdf";
+
+/***/ }),
+/* 537 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_esp_its-rainning.pdf";
+
+/***/ }),
+/* 538 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_esp_on-monday-morning.pdf";
+
+/***/ }),
+/* 539 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_esp_pat-a-cake.pdf";
+
+/***/ }),
+/* 540 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_esp_si-ma-ma-ka.pdf";
+
+/***/ }),
+/* 541 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_esp_spring-has-come.pdf";
+
+/***/ }),
+/* 542 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_esp_the-courtyard-of-my-house.pdf";
+
+/***/ }),
+/* 543 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_esp_the-washerman.pdf";
+
+/***/ }),
+/* 544 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_esp_tic-tic-tic.pdf";
+
+/***/ }),
+/* 545 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_esp_two-tigers.pdf";
+
+/***/ }),
+/* 546 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_esp_winter-is-here.pdf";
+
+/***/ }),
+/* 547 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_fr_fall-fall-ballon.pdf";
+
+/***/ }),
+/* 548 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_fr_here-we-go-round-the-mulberry-bush.pdf";
+
+/***/ }),
+/* 549 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_fr_its-rainning.pdf";
+
+/***/ }),
+/* 550 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_fr_on-monday-morning.pdf";
+
+/***/ }),
+/* 551 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_fr_pat-a-cake.pdf";
+
+/***/ }),
+/* 552 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_fr_si-ma-ma-ka.pdf";
+
+/***/ }),
+/* 553 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_fr_spring-has-come.pdf";
+
+/***/ }),
+/* 554 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_fr_the-courtyard-of-my-house.pdf";
+
+/***/ }),
+/* 555 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_fr_the-washerman.pdf";
+
+/***/ }),
+/* 556 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_fr_tic-tic-tic.pdf";
+
+/***/ }),
+/* 557 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_fr_two-tigers.pdf";
+
+/***/ }),
+/* 558 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "pdf_song_fr_winter-is-here.pdf";
+
+/***/ }),
+/* 559 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "png_bird_big_draw_number.png";
+
+/***/ }),
+/* 560 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "png_bird_little_draw_number.png";
+
+/***/ }),
+/* 561 */
+/***/ (function(module, exports, __webpack_require__) {
+
 var Symbol = __webpack_require__(159),
-    getRawTag = __webpack_require__(502),
-    objectToString = __webpack_require__(503);
+    getRawTag = __webpack_require__(564),
+    objectToString = __webpack_require__(565);
 
 /** `Object#toString` result references. */
 var nullTag = '[object Null]',
@@ -17955,7 +18598,7 @@ module.exports = baseGetTag;
 
 
 /***/ }),
-/* 500 */
+/* 562 */
 /***/ (function(module, exports) {
 
 /** Detect free variable `global` from Node.js. */
@@ -17965,10 +18608,10 @@ module.exports = freeGlobal;
 
 
 /***/ }),
-/* 501 */
+/* 563 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var overArg = __webpack_require__(504);
+var overArg = __webpack_require__(566);
 
 /** Built-in value references. */
 var getPrototype = overArg(Object.getPrototypeOf, Object);
@@ -17977,7 +18620,7 @@ module.exports = getPrototype;
 
 
 /***/ }),
-/* 502 */
+/* 564 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Symbol = __webpack_require__(159);
@@ -18029,7 +18672,7 @@ module.exports = getRawTag;
 
 
 /***/ }),
-/* 503 */
+/* 565 */
 /***/ (function(module, exports) {
 
 /** Used for built-in method references. */
@@ -18057,7 +18700,7 @@ module.exports = objectToString;
 
 
 /***/ }),
-/* 504 */
+/* 566 */
 /***/ (function(module, exports) {
 
 /**
@@ -18078,10 +18721,10 @@ module.exports = overArg;
 
 
 /***/ }),
-/* 505 */
+/* 567 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var freeGlobal = __webpack_require__(500);
+var freeGlobal = __webpack_require__(562);
 
 /** Detect free variable `self`. */
 var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
@@ -18093,7 +18736,7 @@ module.exports = root;
 
 
 /***/ }),
-/* 506 */
+/* 568 */
 /***/ (function(module, exports) {
 
 /**
@@ -18128,12 +18771,12 @@ module.exports = isObjectLike;
 
 
 /***/ }),
-/* 507 */
+/* 569 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseGetTag = __webpack_require__(499),
-    getPrototype = __webpack_require__(501),
-    isObjectLike = __webpack_require__(506);
+var baseGetTag = __webpack_require__(561),
+    getPrototype = __webpack_require__(563),
+    isObjectLike = __webpack_require__(568);
 
 /** `Object#toString` result references. */
 var objectTag = '[object Object]';
@@ -18196,7 +18839,7 @@ module.exports = isPlainObject;
 
 
 /***/ }),
-/* 508 */
+/* 570 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18208,21 +18851,21 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 exports.default = connectAdvanced;
 
-var _hoistNonReactStatics = __webpack_require__(522);
+var _hoistNonReactStatics = __webpack_require__(584);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
-var _invariant = __webpack_require__(18);
+var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
 var _react = __webpack_require__(0);
 
-var _Subscription = __webpack_require__(515);
+var _Subscription = __webpack_require__(577);
 
 var _Subscription2 = _interopRequireDefault(_Subscription);
 
-var _PropTypes = __webpack_require__(514);
+var _PropTypes = __webpack_require__(576);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -18508,7 +19151,7 @@ selectorFactory) {
 }
 
 /***/ }),
-/* 509 */
+/* 571 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18519,7 +19162,7 @@ exports.whenMapDispatchToPropsIsFunction = whenMapDispatchToPropsIsFunction;
 exports.whenMapDispatchToPropsIsMissing = whenMapDispatchToPropsIsMissing;
 exports.whenMapDispatchToPropsIsObject = whenMapDispatchToPropsIsObject;
 
-var _redux = __webpack_require__(20);
+var _redux = __webpack_require__(21);
 
 var _wrapMapToProps = __webpack_require__(160);
 
@@ -18542,7 +19185,7 @@ function whenMapDispatchToPropsIsObject(mapDispatchToProps) {
 exports.default = [whenMapDispatchToPropsIsFunction, whenMapDispatchToPropsIsMissing, whenMapDispatchToPropsIsObject];
 
 /***/ }),
-/* 510 */
+/* 572 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18567,7 +19210,7 @@ function whenMapStateToPropsIsMissing(mapStateToProps) {
 exports.default = [whenMapStateToPropsIsFunction, whenMapStateToPropsIsMissing];
 
 /***/ }),
-/* 511 */
+/* 573 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18631,7 +19274,7 @@ function whenMergePropsIsOmitted(mergeProps) {
 exports.default = [whenMergePropsIsFunction, whenMergePropsIsOmitted];
 
 /***/ }),
-/* 512 */
+/* 574 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18642,7 +19285,7 @@ exports.impureFinalPropsSelectorFactory = impureFinalPropsSelectorFactory;
 exports.pureFinalPropsSelectorFactory = pureFinalPropsSelectorFactory;
 exports.default = finalPropsSelectorFactory;
 
-var _verifySubselectors = __webpack_require__(513);
+var _verifySubselectors = __webpack_require__(575);
 
 var _verifySubselectors2 = _interopRequireDefault(_verifySubselectors);
 
@@ -18750,7 +19393,7 @@ function finalPropsSelectorFactory(dispatch, _ref2) {
 }
 
 /***/ }),
-/* 513 */
+/* 575 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18782,7 +19425,7 @@ function verifySubselectors(mapStateToProps, mapDispatchToProps, mergeProps, dis
 }
 
 /***/ }),
-/* 514 */
+/* 576 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18811,7 +19454,7 @@ var storeShape = exports.storeShape = _propTypes2.default.shape({
 });
 
 /***/ }),
-/* 515 */
+/* 577 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18913,7 +19556,7 @@ var Subscription = function () {
 exports.default = Subscription;
 
 /***/ }),
-/* 516 */
+/* 578 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18953,7 +19596,7 @@ function shallowEqual(objA, objB) {
 }
 
 /***/ }),
-/* 517 */
+/* 579 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19084,7 +19727,7 @@ function ContextSubscriber(name) {
 }
 
 /***/ }),
-/* 518 */
+/* 580 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19098,11 +19741,11 @@ var _createReactClass2 = _interopRequireDefault(_createReactClass);
 
 var _propTypes = __webpack_require__(11);
 
-var _routerWarning = __webpack_require__(521);
+var _routerWarning = __webpack_require__(583);
 
 var _routerWarning2 = _interopRequireDefault(_routerWarning);
 
-var _invariant = __webpack_require__(18);
+var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -19149,7 +19792,7 @@ exports.default = IndexRoute;
 module.exports = exports['default'];
 
 /***/ }),
-/* 519 */
+/* 581 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19179,7 +19822,7 @@ var locationShape = exports.locationShape = (0, _propTypes.shape)({
 });
 
 /***/ }),
-/* 520 */
+/* 582 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19193,7 +19836,7 @@ var _createReactClass2 = _interopRequireDefault(_createReactClass);
 
 var _propTypes = __webpack_require__(11);
 
-var _invariant = __webpack_require__(18);
+var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -19239,7 +19882,7 @@ exports.default = Route;
 module.exports = exports['default'];
 
 /***/ }),
-/* 521 */
+/* 583 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19249,7 +19892,7 @@ exports.__esModule = true;
 exports.default = routerWarning;
 exports._resetWarned = _resetWarned;
 
-var _warning = __webpack_require__(525);
+var _warning = __webpack_require__(587);
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -19281,25 +19924,25 @@ function _resetWarned() {
 }
 
 /***/ }),
-/* 522 */
+/* 584 */
 /***/ (function(module, exports) {
 
 module.exports = require("hoist-non-react-statics");
 
 /***/ }),
-/* 523 */
+/* 585 */
 /***/ (function(module, exports) {
 
 module.exports = require("path");
 
 /***/ }),
-/* 524 */
+/* 586 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-youtube");
 
 /***/ }),
-/* 525 */
+/* 587 */
 /***/ (function(module, exports) {
 
 module.exports = require("warning");
