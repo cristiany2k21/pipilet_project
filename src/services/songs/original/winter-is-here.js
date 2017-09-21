@@ -1,5 +1,5 @@
 import winterComing from '../../../images/music-image/winter-is-here.jpg';
-import winterComingSheet from '../../../images/music-sheet/winter-is-here.png';
+import winterComingSheet from '../../../images/music-sheet/sheet-winter-is-here.png';
 import german from '../../../images/flag/german.png';
 
 export default (

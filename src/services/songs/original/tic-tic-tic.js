@@ -1,5 +1,5 @@
 import ticTicTic from '../../../images/music-image/tic-tic-tic.jpg';
-import ticTicTicSheet from '../../../images/music-sheet/tic-tic-tic.jpg';
+import ticTicTicSheet from '../../../images/music-sheet/sheet-tic-tic-tic.jpg';
 import arab from '../../../images/flag/lebanon.jpg';
 
 export default (

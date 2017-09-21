@@ -1,5 +1,5 @@
 import fallFallBallon from '../../../images/music-image/fall-fall-ballon.jpg';
-import fallFallBallonSheet from '../../../images/music-sheet/fall-fall-ballon.png';
+import fallFallBallonSheet from '../../../images/music-sheet/sheet-fall-fall-ballon.png';
 import brasil from '../../../images/flag/brasil.png';
 
 export default (

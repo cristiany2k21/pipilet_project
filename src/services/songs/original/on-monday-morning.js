@@ -1,5 +1,5 @@
 import onMondayMorning from '../../../images/music-image/on-monday-morning.jpg';
-import onMondayMorningSheet from '../../../images/music-sheet/on-monday-morning.png';
+import onMondayMorningSheet from '../../../images/music-sheet/sheet-on-monday-morning.png';
 import french from '../../../images/flag/french.png';
 
 export default (

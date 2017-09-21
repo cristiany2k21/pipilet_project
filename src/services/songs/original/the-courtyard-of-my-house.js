@@ -1,5 +1,5 @@
 import laCourDeMaMaison from '../../../images/music-image/the-courtyard-of-my-house.jpg';
-import laCourDeMaMaisonSheet from '../../../images/music-sheet/the-courtyard-of-my-house.png';
+import laCourDeMaMaisonSheet from '../../../images/music-sheet/sheet-the-courtyard-of-my-house.png';
 import spanish from '../../../images/flag/spanish.png';
 
 export default (

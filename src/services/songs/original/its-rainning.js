@@ -1,5 +1,5 @@
 import rainning from '../../../images/music-image/its-rainning.jpg';
-import rainningSheet from '../../../images/music-sheet/its-rainning.png';
+import rainningSheet from '../../../images/music-sheet/sheet-its-rainning.png';
 import serbia from '../../../images/flag/serbia.png';
 
 export default (
