@@ -19,6 +19,7 @@ applyMiddleware(logger)
 );
 let style = '';
 
+console.log('process.env.NODE_ENV ------> ', process.env.NODE_ENV);
 if (process.env.NODE_ENV == 'development') {
 	app.use(require('webpack-dev-middleware')(compiler, {
 		noInfo: true
@@ -84,7 +85,7 @@ function renderPage(appHtml) {
       </body>
     </html
    `;
-};
+}
 
 var PORT = process.env.PORT || 8081;
 app.listen(PORT, function () {

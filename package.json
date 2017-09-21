@@ -8,8 +8,8 @@
     "start": "node public/bundle.server.js",
     "build:start": "npm run build:client-prod && npm run build:server",
     "build:client-dev": "webpack --config webpack-dev-client.config.js",
-    "build:client-prod": "webpack -p --config webpack-prod-client.config.js",
-    "build:server": "webpack -p --config webpack-server.config.js"
+    "build:client-prod": "webpack --config webpack-prod-client.config.js",
+    "build:server": "webpack --config webpack-server.config.js"
   },
   "author": "",
   "license": "ISC",

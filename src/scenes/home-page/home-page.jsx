@@ -13,6 +13,7 @@ const HomeContainer = () => {
 
 	return (
 	<div>
+		<HeaderTitle/>
 		<DisplayImage image={family}/>
 		<Footer/>
 	</div>
