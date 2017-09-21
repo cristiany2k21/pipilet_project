@@ -1,7 +1,7 @@
 import spanish from '../../../images/flag/spanish.png';
 import little_draw from '../images/bike_little_draw_number.png';
 import big_draw from '../images/bike_big_draw_number.png';
-import download from '../../download/number/spanish.pdf';
+import download from '../../download/number/number_spanish.pdf';
 
 export default (
   {

@@ -1,5 +1,5 @@
 import winterComing from '../../../images/music-image/winter-is-here.jpg';
-import download from '../../download/songs/eng/tic-tic-tic.pdf';
+import download from '../../download/songs/eng/song_eng_tic-tic-tic.pdf';
 
 export default (
   {

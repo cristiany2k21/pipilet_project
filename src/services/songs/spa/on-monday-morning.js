@@ -1,4 +1,4 @@
-import download from '../../download/songs/esp/on-monday-morning.pdf';
+import download from '../../download/songs/esp/song_esp_on-monday-morning.pdf';
 
 export default   (
   {

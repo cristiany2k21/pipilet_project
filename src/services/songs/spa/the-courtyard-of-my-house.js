@@ -1,4 +1,4 @@
-import download from '../../download/songs/esp/the-courtyard-of-my-house.pdf';
+import download from '../../download/songs/esp/song_esp_the-courtyard-of-my-house.pdf';
 
 export default (
 	{

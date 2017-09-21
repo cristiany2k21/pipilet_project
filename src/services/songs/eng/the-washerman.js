@@ -1,5 +1,5 @@
 import winterComing from '../../../images/music-image/winter-is-here.jpg';
-import download from '../../download/songs/eng/the-washerman.pdf';
+import download from '../../download/songs/eng/song_eng_the-washerman.pdf';
 
 export default (
   {

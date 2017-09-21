@@ -1,5 +1,5 @@
 import rainning from '../../../images/music-image/its-rainning.jpg';
-import download from '../../download/songs/fr/its-rainning.pdf';
+import download from '../../download/songs/fr/song_fr_its-rainning.pdf';
 
 export default (
 	{

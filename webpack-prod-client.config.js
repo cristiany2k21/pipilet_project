@@ -46,7 +46,7 @@ module.exports = {
 								interlaced: true
 							},
 							optipng: {
-								optimizationLevel: 0
+								optimizationLevel: 7
 							}
 						}
 					}

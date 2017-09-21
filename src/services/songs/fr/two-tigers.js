@@ -1,5 +1,5 @@
 import tigers from '../../../images/music-image/two-tigers.jpg';
-import download from '../../download/songs/fr/two-tigers.pdf';
+import download from '../../download/songs/fr/song_fr_two-tigers.pdf';
 
 export default (
   {

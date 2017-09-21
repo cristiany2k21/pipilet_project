@@ -1,5 +1,5 @@
 import laCourDeMaMaison from '../../../images/music-image/here-we-go-round-the-mulberry-bush.jpg';
-import download from '../../download/songs/eng/the-courtyard-of-my-house.pdf';
+import download from '../../download/songs/eng/song_eng_the-courtyard-of-my-house.pdf';
 
 export default (
   {

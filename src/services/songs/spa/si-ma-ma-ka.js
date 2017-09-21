@@ -1,4 +1,4 @@
-import download from '../../download/songs/esp/si-ma-ma-ka.pdf';
+import download from '../../download/songs/esp/song_esp_si-ma-ma-ka.pdf';
 
 export default   (
   {

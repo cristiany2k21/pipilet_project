@@ -1,4 +1,4 @@
-import download from '../../download/songs/esp/two-tigers.pdf';
+import download from '../../download/songs/esp/song_esp_two-tigers.pdf';
 
 export default   (
   {

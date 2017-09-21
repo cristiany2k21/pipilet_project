@@ -72,29 +72,29 @@ import chinaRecipe from '../cook/fr/asia/china';
 import vietnamRecipe from '../cook/fr/asia/vietnam';
 import jordanieRecipe from '../cook/fr/asia/jordanie';
 
-import swahiliColorDownload from '../download/colors/fr/swahili.pdf';
-import spanishColorDownload from '../download/colors/fr/spanish.pdf';
-import serbiaColorDownload from '../download/colors/fr/serbia.pdf';
-import russiaColorDownload from '../download/colors/fr/russia.pdf';
-import italyColorDownload from '../download/colors/fr/italy.pdf';
-import indiaColorDownload from '../download/colors/fr/india.pdf';
-import germanColorDownload from '../download/colors/fr/german.pdf';
-import englishColorDownload from '../download/colors/fr/english.pdf';
-import chinaColorDownload from '../download/colors/fr/china.pdf';
-import brasilColorDownload from '../download/colors/fr/brasil.pdf';
-import arabeColorDownload from '../download/colors/fr/arabe.pdf';
-import frenchColorDownload from '../download/colors/fr/french.pdf';
+import swahiliColorDownload from '../download/colors/fr/color_fr_swahili.pdf';
+import spanishColorDownload from '../download/colors/fr/color_fr_spanish.pdf';
+import serbiaColorDownload from '../download/colors/fr/color_fr_serbia.pdf';
+import russiaColorDownload from '../download/colors/fr/color_fr_russia.pdf';
+import italyColorDownload from '../download/colors/fr/color_fr_italy.pdf';
+import indiaColorDownload from '../download/colors/fr/color_fr_india.pdf';
+import germanColorDownload from '../download/colors/fr/color_fr_german.pdf';
+import englishColorDownload from '../download/colors/fr/color_fr_english.pdf';
+import chinaColorDownload from '../download/colors/fr/color_fr_china.pdf';
+import brasilColorDownload from '../download/colors/fr/color_fr_brasil.pdf';
+import arabeColorDownload from '../download/colors/fr/color_fr_arabe.pdf';
+import frenchColorDownload from '../download/colors/fr/color_fr_french.pdf';
 
 import { presentation } from '../presentation/french';
 
-import owls1 from '../../scenes/color-number-page/images/fr/owls-1.png';
-import owls2 from '../../scenes/color-number-page/images/fr/owls-2.png';
-import owls3 from '../../scenes/color-number-page/images/fr/owls-3.png';
+import owls1 from '../../scenes/color-number-page/images/fr/fr_owls-1.png';
+import owls2 from '../../scenes/color-number-page/images/fr/fr_owls-2.png';
+import owls3 from '../../scenes/color-number-page/images/fr/fr_owls-3.png';
 
-import children from '../../scenes/color-number-page/images/fr/children.png';
+import children from '../../scenes/color-number-page/images/fr/fr_children.png';
 
 import allColorFr from '../../images/all-colors-fr.png';
-import allNumberEsp from '../../scenes/color-number-page/images/fr/children.png';
+import allNumberEsp from '../../scenes/color-number-page/images/fr/fr_children.png';
 
 import { whoarewe } from '../who-are-we/french';
 

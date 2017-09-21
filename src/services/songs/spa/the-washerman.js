@@ -1,4 +1,4 @@
-import download from '../../download/songs/esp/the-washerman.pdf';
+import download from '../../download/songs/esp/song_esp_the-washerman.pdf';
 
 export default   (
   {

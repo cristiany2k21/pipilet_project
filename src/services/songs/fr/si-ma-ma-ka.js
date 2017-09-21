@@ -1,5 +1,5 @@
 import winterComing from '../../../images/music-image/winter-is-here.jpg';
-import download from '../../download/songs/fr/si-ma-ma-ka.pdf';
+import download from '../../download/songs/fr/song_fr_si-ma-ma-ka.pdf';
 
 export default (
   {

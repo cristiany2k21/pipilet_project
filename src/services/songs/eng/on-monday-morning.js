@@ -1,5 +1,5 @@
 import peintureMains from '../../../images/music-image/pat-a-cake.jpg';
-import download from '../../download/songs/eng/on-monday-morning.pdf';
+import download from '../../download/songs/eng/song_eng_on-monday-morning.pdf';
 
 export default (
   {

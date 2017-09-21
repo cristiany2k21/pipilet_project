@@ -1,5 +1,5 @@
 import peintureMains from '../../../images/music-image/pat-a-cake.jpg';
-import download from '../../download/songs/fr/pat-a-cake.pdf';
+import download from '../../download/songs/fr/song_fr_pat-a-cake.pdf';
 
 export default (
 	{

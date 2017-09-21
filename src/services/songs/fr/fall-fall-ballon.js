@@ -1,5 +1,5 @@
 import fallFallBallon from '../../../images/music-image/fall-fall-ballon.jpg';
-import download from '../../download/songs/fr/fall-fall-ballon.pdf';
+import download from '../../download/songs/fr/song_fr_fall-fall-ballon.pdf';
 
 export default (
   {

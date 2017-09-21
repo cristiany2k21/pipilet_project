@@ -1,7 +1,7 @@
 import russia from '../../../images/flag/russia.png';
 import little_draw from '../images/elephant_little_draw_number.png';
 import big_draw from '../images/elephant_big_draw_number.png';
-import download from '../../download/number/russia.pdf';
+import download from '../../download/number/number_russia.pdf';
 
 export default (
   {

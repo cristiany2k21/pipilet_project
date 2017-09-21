@@ -1,4 +1,4 @@
-import download from '../../download/songs/esp/tic-tic-tic.pdf';
+import download from '../../download/songs/esp/song_esp_tic-tic-tic.pdf';
 
 export default   (
   {
