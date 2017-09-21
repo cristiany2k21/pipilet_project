@@ -116,13 +116,13 @@ import europeEspSerbiaRecipe from '../download/cook/esp/europe/recette_esp_serbi
 import africaEspBeninRecipe from '../download/cook/esp/africa/recette_esp_benin.pdf';
 import africaEspKenyaRecipe from '../download/cook/esp/africa/recette_esp_kenya.pdf';
 import africaEspTunisieRecipe from '../download/cook/esp/africa/recette_esp_tunisie.pdf';
-import africaEspEgypteRecipe from '../download/cook/esp/africa/recette_esp_tunisie.pdf'; //TODO pas le fichier egypte
+import africaEspEgypteRecipe from '../download/cook/esp/africa/recette_esp_egypte.pdf';
 import africaEspAlgerieRecipe from '../download/cook/esp/africa/recette_esp_algerie.pdf';
 import africaEspMarocRecipe from '../download/cook/esp/africa/recette_esp_maroc.pdf';
 import africaEspMalagasyRecipe from '../download/cook/esp/africa/recette_esp_malagasy.pdf';
-import asiaEspJordanieRecipe from '../download/cook/esp/asia/recette_esp_singapur.pdf'; //TODO pas le fichier jordanie
+import asiaEspJordanieRecipe from '../download/cook/esp/asia/recette_esp_jordanie.pdf';
 import asiaEspSingapurRecipe from '../download/cook/esp/asia/recette_esp_singapur.pdf';
-import asiaEspVietnamRecipe from '../download/cook/esp/asia/recette_esp_singapur.pdf';  //TODO pas le fichier vietnam
+import asiaEspVietnamRecipe from '../download/cook/esp/asia/recette_esp_vietnam.pdf';
 import asiaEspChinaRecipe from '../download/cook/esp/asia/recette_esp_china.pdf';
 import asiaEspLibanRecipe from '../download/cook/esp/asia/recette_esp_liban.pdf';
 import asiaEspIndeRecipe from '../download/cook/esp/asia/recette_esp_india.pdf';
