@@ -10,29 +10,30 @@ import logger from 'redux-logger';
 import './src/style/index.sass';
 
 const store = createStore(
-  reducers,
-  applyMiddleware(logger),
+reducers,
+applyMiddleware(logger)
 );
 
 render(
-  <AppContainer>
-    <Provider store={store}>
-      <Router onUpdate={() => window.scrollTo(0, 0)} routes={routes}
-      history={browserHistory}  key={Math.random()} />
-    </Provider>
-  </AppContainer>,
-  document.getElementById('app')
+<AppContainer>
+	<Provider store={store}>
+		<Router onUpdate={() => window.scrollTo(0, 0)} routes={routes}
+		        history={browserHistory} key={Math.random()}/>
+	</Provider>
+</AppContainer>,
+document.getElementById('app')
 );
 
 if (module.hot) {
-  module.hot.accept('./src/routes', () => {
-    render(
-      <AppContainer>
-        <Provider store={store}>
-          <Router onUpdate={() => window.scrollTo(0, 0)} routes={routes}
-          history={browserHistory}  key={Math.random()} />
-        </Provider>
-      </AppContainer>,
-      document.getElementById('app'));
-  });
-};
+	module.hot.accept('./src/routes', () => {
+		render(
+		<AppContainer>
+			<Provider store={store}>
+				<Router onUpdate={() => window.scrollTo(0, 0)} routes={routes}
+				        history={browserHistory} key={Math.random()}/>
+			</Provider>
+		</AppContainer>,
+		document.getElementById('app'));
+	});
+}
+;
