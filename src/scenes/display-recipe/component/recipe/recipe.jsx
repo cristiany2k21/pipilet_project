@@ -4,7 +4,8 @@ import Ingredient from './component/ingredient/ingredient';
 import Preparation from './component/preparation/preparation';
 
 const Recipe = ({
-	                recipe
+	                recipe,
+	                download
                 }) => {
 	return (
 	<div className="wrapper-recipe">
@@ -14,7 +15,9 @@ const Recipe = ({
 				<div className="wrapper-recipe-map" key={index}>
 					<div className="wrapper-title">{item.title}</div>
 					<Ingredient sectionIngredient={item.sectionIngredient}
-					            image={item.image}/>
+					            image={item.image}
+					            download={download}
+					/>
 					<Preparation sectionPreparation={item.sectionPreparation}/>
 				</div>
 

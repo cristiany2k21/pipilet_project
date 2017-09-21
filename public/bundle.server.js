@@ -1356,7 +1356,7 @@ var _default = {
 	getNavbar: function getNavbar(navbar, sidebar) {
 		return [{ title: navbar[0], subNavbar: [], url: _navbar.HOME }, { title: navbar[1], subNavbar: [], url: _navbar.PRESENTATION }, {
 			title: navbar[2], subNavbar: [{ title: sidebar[0], url: _sidebar.SONG }, { title: sidebar[1], url: _sidebar.COLORNUMBER }, { title: sidebar[2], url: _sidebar.COOKER }, { title: sidebar[3], url: _sidebar.PRESENTATIONSIDEBAR }]
-		}, { title: navbar[3], subNavbar: [], url: _navbar.CONTACT }];
+		}, { title: navbar[3], subNavbar: [], url: _navbar.CONTACT }, { title: navbar[4], subNavbar: [], url: _navbar.CONTACT }];
 	},
 	getSidebar: function getSidebar(sidebar) {
 		return [{
@@ -4347,7 +4347,33 @@ var whoarewe = exports.whoarewe = _react2.default.createElement(
 	_react2.default.createElement(
 		'div',
 		{ className: 'wrapper-image-tree' },
-		_react2.default.createElement('img', { src: _color_tree2.default })
+		_react2.default.createElement(
+			'div',
+			{ className: 'sentence-philosophe undisplay' },
+			_react2.default.createElement(
+				'i',
+				null,
+				_react2.default.createElement(
+					'b',
+					null,
+					'Ayudar a otros es como ayudarte a ti mismo.- Henry Flagler.'
+				)
+			)
+		),
+		_react2.default.createElement('img', { src: _color_tree2.default }),
+		_react2.default.createElement(
+			'div',
+			{ className: 'sentence-philosophe' },
+			_react2.default.createElement(
+				'i',
+				null,
+				_react2.default.createElement(
+					'b',
+					null,
+					'Ayudar a otros es como ayudarte a ti mismo.- Henry Flagler.'
+				)
+			)
+		)
 	)
 );
 ;
@@ -4371,7 +4397,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, ".wrapper-who-are-we{padding:60px;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;display:flex;flex-direction:column;align-items:center;position:relative}.wrapper-who-are-we .header-who-are-we{height:180px;width:100%;display:flex;z-index:-1;justify-content:space-between;align-items:flex-end}.wrapper-who-are-we .header-who-are-we img{height:100%}.wrapper-who-are-we .header-who-are-we .hidden{visibility:hidden}.wrapper-who-are-we .header-who-are-we .text{display:flex;flex-direction:column}.wrapper-who-are-we .wrapper-image-tree{height:300px}.wrapper-who-are-we .wrapper-image-tree img{max-width:100%;max-height:100%}", ""]);
+exports.push([module.i, ".wrapper-who-are-we{padding:60px;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;display:flex;flex-direction:column;align-items:center;position:relative}.wrapper-who-are-we .header-who-are-we{height:180px;width:100%;display:flex;z-index:-1;justify-content:space-between;align-items:flex-end}.wrapper-who-are-we .header-who-are-we img{height:100%}.wrapper-who-are-we .header-who-are-we .hidden{visibility:hidden}.wrapper-who-are-we .header-who-are-we .text{display:flex;flex-direction:column}.wrapper-who-are-we .wrapper-image-tree{display:flex;justify-content:space-between;align-items:center}.wrapper-who-are-we .wrapper-image-tree img{max-width:100%;max-height:100%}.wrapper-who-are-we .wrapper-image-tree .sentence-philosophe{color:#5ea0e1}.undisplay{visibility:hidden}", ""]);
 
 // exports
 
@@ -5339,7 +5365,7 @@ app.get('*', function (req, res) {
 });
 
 function renderPage(appHtml) {
-	return '\n    <!doctype html public="storage">\n    <html>\n      <head>\n        <meta charset=utf-8/>\n        <title>My First React Router App</title>\n        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">*/\n\t\t\t\t<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Quattrocento+Sans|Work+Sans:100,200,300" rel="stylesheet">*/\n\t\t\t\t<link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">*/\n        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">\n        ' + style + '\n      </head>\n      <body>\n      <div id="app">\n        ' + (process.env.NODE_ENV === 'production' ? appHtml : '<div>' + appHtml + '</div>') + '\n      </div>\n        <script src="/bundle.client.js"></script>\n      </body>\n    </html\n   ';
+	return '\n    <!doctype html public="storage">\n    <html>\n      <head>\n        <meta charset=utf-8/>\n        <title>My First React Router App</title>\n        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">\n\t\t\t\t<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Quattrocento+Sans|Work+Sans:100,200,300" rel="stylesheet">\n\t\t\t\t<link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">\n        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">\n        ' + style + '\n      </head>\n      <body>\n      <div id="app">\n        ' + (process.env.NODE_ENV === 'production' ? appHtml : '<div>' + appHtml + '</div>') + '\n      </div>\n        <script src="/bundle.client.js"></script>\n      </body>\n    </html\n   ';
 }
 
 var PORT = process.env.PORT || 8081;
@@ -14815,7 +14841,9 @@ var _spanish = __webpack_require__(101);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /* eslint-disable no-unused-vars */
-var navbar = ['Home', 'Presentation', 'Mandala Mandala', 'Contact'];
+var navbar = ['Home', 'Presentation', 'Pipilet Mandala', 'Videos', 'Contact'];
+// import englishColorDownload from '../download/colors/eng/color_eng_';
+
 
 var sidebar = ['SONGS', 'COLORS AND NUMBERS', 'PASTRIES', 'DO YOU KNOW WHO I AM ?'];
 
@@ -14947,7 +14975,7 @@ var _default = {
 			id: 'english',
 			name: 'ENGLISH',
 			data: _information2.default.englishColor,
-			download: _color_eng_china2.default
+			download: _color_eng_china2.default //TODO a changer par le bon pays
 		}, {
 			id: 'french',
 			name: 'FRENCH',
@@ -15431,7 +15459,7 @@ var _french2 = __webpack_require__(319);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /* eslint-disable no-unused-vars */
-var navbar = ['Accueil', 'Présentation', 'Mandala Mandala', 'Contact'];
+var navbar = ['Accueil', 'Présentation', 'Pipilet Mandala', 'Vidéos', 'Contact'];
 
 var sidebar = ['LES CHANSONS', 'LES COULEURS ET LES CHIFFRES', 'LES PÂTISSERERIES', 'SAIS-TU QUI JE SUIS ?'];
 
@@ -16086,7 +16114,7 @@ var _spanish4 = __webpack_require__(101);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /* eslint-disable no-unused-vars */
-var navbar = ['Inicio', 'Presentación', 'Pipilet Mandala', 'Contacto'];
+var navbar = ['Inicio', 'Presentación', 'Pipilet Mandala', 'Videos', 'Contacto'];
 
 var sidebar = ['LAS CANCIONES', 'LOS COLORES Y LOS NÚMEROS', 'LA REPOSTERÍA', '¿ SABES QUIÊN SOY ?'];
 
@@ -16593,7 +16621,33 @@ var whoarewe = exports.whoarewe = _react2.default.createElement(
 	_react2.default.createElement(
 		'div',
 		{ className: 'wrapper-image-tree' },
-		_react2.default.createElement('img', { src: _color_tree2.default })
+		_react2.default.createElement(
+			'div',
+			{ className: 'sentence-philosophe undisplay' },
+			_react2.default.createElement(
+				'i',
+				null,
+				_react2.default.createElement(
+					'b',
+					null,
+					'\xAB Aider les autres c\u2019est s\u2019aider soi m\xEAme \xBB Henry Flagler.'
+				)
+			)
+		),
+		_react2.default.createElement('img', { src: _color_tree2.default }),
+		_react2.default.createElement(
+			'div',
+			{ className: 'sentence-philosophe' },
+			_react2.default.createElement(
+				'i',
+				null,
+				_react2.default.createElement(
+					'b',
+					null,
+					'\xAB Aider les autres c\u2019est s\u2019aider soi m\xEAme \xBB Henry Flagler.'
+				)
+			)
+		)
 	)
 );
 ;

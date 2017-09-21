@@ -1,8 +1,10 @@
 import React from 'react';
+import logoDownload from '../../../../../../images/icon-download.jpg';
 
 const Ingredient = ({
 	                    sectionIngredient,
-	                    image
+	                    image,
+	                    download
                     }) => {
 	return (
 	<div className="wrapper-section-ingredient">
@@ -25,6 +27,14 @@ const Ingredient = ({
 				</div>
 				))
 			}
+		</div>
+		<div className="wrapper-logo-download">
+			<a
+			href={download}
+			download={download}
+			>
+				<img src={logoDownload} className="little-draw"/>
+			</a>
 		</div>
 		<div className="wrapper-logo-recipe">
 			<img src={image}/>

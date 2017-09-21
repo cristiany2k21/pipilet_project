@@ -7,13 +7,14 @@ import Recipe from './component/recipe/recipe';
 import './style/display-recipe.sass';
 
 const DisplayRecipe = ({
-	                       recipeCountry
+	                       recipeCountry,
+	                       downloadRecipe
                        }) => {
 
 	return (
 	<div id="wrapper-display-recipe">
 		<HeaderRecipe title={recipeCountry.title} flag={recipeCountry.flag}/>
-		<Recipe recipe={recipeCountry.recipe}/>
+		<Recipe recipe={recipeCountry.recipe} download={downloadRecipe} />
 	</div>
 	);
 };
@@ -24,7 +25,8 @@ const mapStateToProps = (state, props) => {
 	const allCountry = state.ChooseLanguage.chooseCountryContent[continent].country;
 
 	return {
-		recipeCountry: allCountry[index].recipe
+		recipeCountry: allCountry[index].recipe,
+		downloadRecipe: allCountry[index].downloadRecipe
 	};
 };
 

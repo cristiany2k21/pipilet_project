@@ -96,6 +96,39 @@ import children from '../../scenes/color-number-page/images/fr/fr_children.png';
 import allColorFr from '../../images/all-colors-fr.png';
 import allNumberEsp from '../../scenes/color-number-page/images/fr/fr_children.png';
 
+import americaFrArgentineRecipe from '../download/cook/fr/america/recette_fr_argentine.pdf';
+import americaFrBrasilRecipe from '../download/cook/fr/america/recette_fr_brasil.pdf';
+import americaFrHaitiRecipe from '../download/cook/fr/america/recette_fr_haiti.pdf';
+import americaFrChilieRecipe from '../download/cook/fr/america/recette_fr_chilie.pdf';
+import americaFrGuyaneRecipe from '../download/cook/fr/america/recette_fr_guyane.pdf';
+import americaFrMexiqueRecipe from '../download/cook/fr/america/recette_fr_mexique.pdf';
+import americaFrUsaRecipe from '../download/cook/fr/america/recette_fr_usa.pdf';
+import americaFrCanadaRecipe from '../download/cook/fr/america/recette_fr_canada.pdf';
+import oceaniaFrAustralieRecipe from '../download/cook/fr/oceania/recette_fr_australie.pdf';
+import oceaniaFrVanuatuRecipe from '../download/cook/fr/oceania/recette_fr_vanuatu.pdf';
+import oceaniaFrZelandeRecipe from '../download/cook/fr/oceania/recette_fr_zelande.pdf';
+import europeFrEnglishRecipe from '../download/cook/fr/europe/recette_fr_english.pdf';
+import europeFrFrenchRecipe from '../download/cook/fr/europe/recette_fr_french.pdf';
+import europeFrGermanRecipe from '../download/cook/fr/europe/recette_fr_german.pdf';
+import europeFrSpanishRecipe from '../download/cook/fr/europe/recette_fr_spanish.pdf';
+import europeFrItalyRecipe from '../download/cook/fr/europe/recette_fr_italy.pdf';
+import europeFrRussiaRecipe from '../download/cook/fr/europe/recette_fr_russia.pdf';
+import europeFrSerbiaRecipe from '../download/cook/fr/europe/recette_fr_serbia.pdf';
+import africaFrBeninRecipe from '../download/cook/fr/africa/recette_fr_benin.pdf';
+import africaFrKenyaRecipe from '../download/cook/fr/africa/recette_fr_kenya.pdf';
+import africaFrTunisieRecipe from '../download/cook/fr/africa/recette_fr_tunisie.pdf';
+import africaFrEgypteRecipe from '../download/cook/fr/africa/recette_fr_egypte.pdf';
+import africaFrAlgerieRecipe from '../download/cook/fr/africa/recette_fr_algerie.pdf';
+import africaFrMarocRecipe from '../download/cook/fr/africa/recette_fr_maroc.pdf';
+import africaFrMalagasyRecipe from '../download/cook/fr/africa/recette_fr_malagasy.pdf';
+import asiaFrJordanieRecipe from '../download/cook/fr/asia/recette_fr_jordanie.pdf';
+import asiaFrSingapurRecipe from '../download/cook/fr/asia/recette_fr_singapur.pdf';
+import asiaFrVietnamRecipe from '../download/cook/fr/asia/recette_fr_vietnam.pdf';
+import asiaFrChinaRecipe from '../download/cook/fr/asia/recette_fr_china.pdf';
+import asiaFrLibanRecipe from '../download/cook/fr/asia/recette_fr_liban.pdf';
+import asiaFrIndeRecipe from '../download/cook/fr/asia/recette_fr_india.pdf';
+import asiaFrArabeRecipe from '../download/cook/fr/asia/recette_fr_arabe.pdf';
+
 import { whoarewe } from '../who-are-we/french';
 
 const navbar = [
@@ -373,62 +406,62 @@ export default (
 			name: 'america',
 			title: 'ATELIER DE CUISINE AMÉRICAINE',
 			country: [
-				{name: 'ARGENTINE', type: female, recipe: argentineRecipe},
-				{name: 'BRÉSIL', type: male, recipe: brasilRecipe},
-				{name: 'HAÏTI', type: female, recipe: haitiRecipe},
-				{name: 'CHILI', type: female, recipe: chiliRecipe},
-				{name: 'GUAYANE.F', type: male, recipe: guyaneRecipe},
-				{name: 'MEXIQUE', type: female, recipe: mexicRecipe},
-				{name: 'USA', type: female, recipe: usaRecipe},
-				{name: 'CANADA', type: male, recipe: canadaRecipe}
+				{name: 'ARGENTINE', type: female, recipe: argentineRecipe, downloadRecipe: americaFrArgentineRecipe },
+				{name: 'BRÉSIL', type: male, recipe: brasilRecipe, downloadRecipe: americaFrBrasilRecipe },
+				{name: 'HAÏTI', type: female, recipe: haitiRecipe, downloadRecipe: americaFrHaitiRecipe },
+				{name: 'CHILI', type: female, recipe: chiliRecipe, downloadRecipe: americaFrChilieRecipe },
+				{name: 'GUAYANE.F', type: male, recipe: guyaneRecipe, downloadRecipe: americaFrGuyaneRecipe },
+				{name: 'MEXIQUE', type: female, recipe: mexicRecipe, downloadRecipe: americaFrMexiqueRecipe },
+				{name: 'USA', type: female, recipe: usaRecipe, downloadRecipe: americaFrUsaRecipe },
+				{name: 'CANADA', type: male, recipe: canadaRecipe, downloadRecipe: americaFrCanadaRecipe }
 			]
 		},
 		oceania: {
 			name: 'oceania',
 			title: 'ATELIER DE CUISINE DE L’OCÉANIE',
 			country: [
-				{name: 'AUSTRALIE', type: female, recipe: australiaRecipe},
-				{name: 'VANUATU', type: male, recipe: vanuatuRecipe},
-				{name: 'NOUVELLE ZÉLANDE', type: male, recipe: zelandaRecipe}
+				{name: 'AUSTRALIE', type: female, recipe: australiaRecipe, downloadRecipe: oceaniaFrAustralieRecipe },
+				{name: 'VANUATU', type: male, recipe: vanuatuRecipe, downloadRecipe: oceaniaFrVanuatuRecipe },
+				{name: 'NOUVELLE ZÉLANDE', type: male, recipe: zelandaRecipe, downloadRecipe: oceaniaFrZelandeRecipe }
 			]
 		},
 		europe: {
 			name: 'europe',
 			title: 'ATELIER DE CUISINE EUROPÉENNE',
 			country: [
-				{name: 'ANGLETERRE', type: female, recipe: englishRecipe},
-				{name: 'FRANCE', type: male, recipe: frenchRecipe},
-				{name: 'ALLEMAGNE', type: female, recipe: germanRecipe},
-				{name: 'ESPAGNE', type: female, recipe: spanishRecipe},
-				{name: 'ITALIE', type: male, recipe: italyRecipe},
-				{name: 'RUSSIE', type: female, recipe: russiaRecipe},
-				{name: 'SERBIE', type: female, recipe: serbiaRecipe}
+				{name: 'ANGLETERRE', type: female, recipe: englishRecipe, downloadRecipe: europeFrEnglishRecipe },
+				{name: 'FRANCE', type: male, recipe: frenchRecipe, downloadRecipe: europeFrFrenchRecipe },
+				{name: 'ALLEMAGNE', type: female, recipe: germanRecipe, downloadRecipe: europeFrGermanRecipe },
+				{name: 'ESPAGNE', type: female, recipe: spanishRecipe, downloadRecipe: europeFrSpanishRecipe },
+				{name: 'ITALIE', type: male, recipe: italyRecipe, downloadRecipe: europeFrItalyRecipe },
+				{name: 'RUSSIE', type: female, recipe: russiaRecipe, downloadRecipe: europeFrRussiaRecipe },
+				{name: 'SERBIE', type: female, recipe: serbiaRecipe, downloadRecipe: europeFrSerbiaRecipe }
 			]
 		},
 		africa: {
 			name: 'africa',
 			title: 'TALLER DE COCINA AFRICANA',
 			country: [
-				{name: 'BENIN', type: female, recipe: beninRecipe},
-				{name: 'KENYA', type: male, recipe: keniaRecipe},
-				{name: 'TUNISIE', type: female, recipe: tunezRecipe},
-				{name: 'EGYPTE', type: female, recipe: egyptRecipe},
-				{name: 'ALGERIE', type: male, recipe: algeriaRecipe},
-				{name: 'MAROC', type: female, recipe: marocRecipe},
-				{name: 'MADAGASCAR', type: female, recipe: madaRecipe}
+				{name: 'BENIN', type: female, recipe: beninRecipe, downloadRecipe: africaFrBeninRecipe },
+				{name: 'KENYA', type: male, recipe: keniaRecipe, downloadRecipe: africaFrKenyaRecipe },
+				{name: 'TUNISIE', type: female, recipe: tunezRecipe, downloadRecipe: africaFrTunisieRecipe },
+				{name: 'EGYPTE', type: female, recipe: egyptRecipe, downloadRecipe: africaFrEgypteRecipe },
+				{name: 'ALGERIE', type: male, recipe: algeriaRecipe, downloadRecipe: africaFrAlgerieRecipe },
+				{name: 'MAROC', type: female, recipe: marocRecipe, downloadRecipe: africaFrMarocRecipe },
+				{name: 'MADAGASCAR', type: female, recipe: madaRecipe, downloadRecipe: africaFrMalagasyRecipe }
 			]
 		},
 		asia: {
 			name: 'asia',
 			title: 'ATELIER DE CUISINE ASIATIQUE',
 			country: [
-				{name: 'JORDANIE', type: female, recipe: jordanieRecipe},
-				{name: 'SINGAPOUR', type: male, recipe: singapurRecipe},
-				{name: 'VIETNAM', type: female, recipe: vietnamRecipe},
-				{name: 'CHINE', type: female, recipe: chinaRecipe},
-				{name: 'LÍBAN', type: male, recipe: libanRecipe},
-				{name: 'INDE', type: female, recipe: indiaRecipe},
-				{name: 'ARABIE SAUDITE', type: female, recipe: arabieRecipe}
+				{name: 'JORDANIE', type: female, recipe: jordanieRecipe, downloadRecipe: asiaFrJordanieRecipe },
+				{name: 'SINGAPOUR', type: male, recipe: singapurRecipe, downloadRecipe: asiaFrSingapurRecipe },
+				{name: 'VIETNAM', type: female, recipe: vietnamRecipe, downloadRecipe: asiaFrVietnamRecipe },
+				{name: 'CHINE', type: female, recipe: chinaRecipe, downloadRecipe: asiaFrChinaRecipe },
+				{name: 'LÍBAN', type: male, recipe: libanRecipe, downloadRecipe: asiaFrLibanRecipe },
+				{name: 'INDE', type: female, recipe: indiaRecipe, downloadRecipe: asiaFrIndeRecipe },
+				{name: 'ARABIE SAUDITE', type: female, recipe: arabieRecipe, downloadRecipe: asiaFrArabeRecipe }
 			]
 		}
 	},
