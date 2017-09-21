@@ -1,13 +1,13 @@
 import React from 'react';
 
 const DisplayLyrics = ({
-	                       cssExtraClassName,
-	                       music,
-	                       width
-                       }) => {
+   cssExtraClassName,
+   music,
+   width
+}) => {
+	console.log('music ------> ', music);
 	return (
-	<div style={{width: width}}
-	     className={cssExtraClassName}>
+	<div style={{width: width}} className={cssExtraClassName}>
 		<div className="lyrics-text">
 			<h1>{music.title}</h1>
 			{music['second-title'] && <h1>{music['second-title']}</h1>}

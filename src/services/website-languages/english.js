@@ -137,63 +137,63 @@ export default (
 		flag: information.getFlagsMusic(),
 		music: [
 			{
-				name: 'lebanon', translatedsong: ticTicTicTranslated,
-				originalsong: ticTicTicOriginal
+				name: 'lebanon', 'translated-song': ticTicTicTranslated,
+				'original-song': ticTicTicOriginal
 			},
 			{
 				name: 'ghana',
-				translatedsong: siMaMaKaTranslated,
-				originalsong: siMaMaKaOriginal
+				'translated-song': siMaMaKaTranslated,
+				'original-song': siMaMaKaOriginal
 			},
 			{
 				name: 'china',
-				translatedsong: dosTigresViejosTranslated,
-				originalsong: dosTigresViejosOriginal
+				'translated-song': dosTigresViejosTranslated,
+				'original-song': dosTigresViejosOriginal
 			},
 			{
 				name: 'german',
-				translatedsong: winterIsHereTranslated,
-				originalsong: winterIsHereOriginal
+				'translated-song': winterIsHereTranslated,
+				'original-song': winterIsHereOriginal
 			},
 			{
 				name: 'india',
-				translatedsong: theWashermanTranslated,
-				originalsong: theWashermanOriginal
+				'translated-song': theWashermanTranslated,
+				'original-song': theWashermanOriginal
 			},
 			{
 				name: 'brasil',
-				translatedsong: fallFallBallonTranslated,
-				originalsong: fallFallBallonOriginal
+				'translated-song': fallFallBallonTranslated,
+				'original-song': fallFallBallonOriginal
 			},
 			{
 				name: 'italy',
-				translatedsong: seHaCasadoRosaTranslated,
-				originalsong: seHaCasadoRosaOriginal
+				'translated-song': seHaCasadoRosaTranslated,
+				'original-song': seHaCasadoRosaOriginal
 			},
 			{
 				name: 'french',
-				translatedsong: mondayMorningTranslated,
-				originalsong: mondayMorningOriginal
+				'translated-song': mondayMorningTranslated,
+				'original-song': mondayMorningOriginal
 			},
 			{
 				name: 'english',
-				translatedsong: giramosalRededorDelMoralTranslated,
-				originalsong: giramosalRededorDelMoralOriginal
+				'translated-song': giramosalRededorDelMoralTranslated,
+				'original-song': giramosalRededorDelMoralOriginal
 			},
 			{
 				name: 'serbia',
-				translatedsong: itsRainningTranslated,
-				originalsong: itsRainningOriginal
+				'translated-song': itsRainningTranslated,
+				'original-song': itsRainningOriginal
 			},
 			{
 				name: 'russia',
-				translatedsong: patACakeTranslated,
-				originalsong: patACakeOriginal
+				'translated-song': patACakeTranslated,
+				'original-song': patACakeOriginal
 			},
 			{
 				name: 'spanish',
-				translatedsong: theCourtyardOfMyHouseTranslated,
-				originalsong: theCourtyardOfMyHouseOriginal
+				'translated-song': theCourtyardOfMyHouseTranslated,
+				'original-song': theCourtyardOfMyHouseOriginal
 			}
 		]
 	},
