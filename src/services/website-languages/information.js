@@ -49,7 +49,7 @@ export default ({
 			{title: sidebar[1], url: COLORNUMBER},
 			{title: sidebar[2], url: COOKER},
 			{title: sidebar[3], url: PRESENTATIONSIDEBAR}
-			]
+		]
 		},
 		{title: navbar[3], subNavbar: [], url: CONTACT}
 	],

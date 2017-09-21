@@ -6,25 +6,25 @@ import DisplayCountry from './component/display-country/display-country';
 import './style/choose-country-cook.sass';
 
 const ChooseCountryCook = ({
-  continent
-}) => {
-  return (
-    <div id="wrapper-choose-country-cook">
-      <div className="wrapper-title">
-        {continent.title}
-      </div>
-      <div className="wrapper-country">
-        <DisplayCountry
-          country={continent.country}
-          continent={continent}
-        />
-      </div>
-    </div>
-  )
+	                           continent
+                           }) => {
+	return (
+	<div id="wrapper-choose-country-cook">
+		<div className="wrapper-title">
+			{continent.title}
+		</div>
+		<div className="wrapper-country">
+			<DisplayCountry
+			country={continent.country}
+			continent={continent}
+			/>
+		</div>
+	</div>
+	);
 };
 
 const mapStateToProps = (state, props) => ({
-  continent: state.ChooseLanguage.chooseCountryContent[props.params.continent]
+	continent: state.ChooseLanguage.chooseCountryContent[props.params.continent]
 });
 
 export default connect(mapStateToProps)(ChooseCountryCook);

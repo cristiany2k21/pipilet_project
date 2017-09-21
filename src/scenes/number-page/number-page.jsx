@@ -6,20 +6,21 @@ import Footer from '../../components/footer/footer';
 import './style/number-page.sass';
 
 const NumberPage = ({
-  titleNumber,
-  imageNumber
-}) => {
-    return (
-        <div id="wrapper-number-page" >
-          <Section path="/number" image={imageNumber} title={titleNumber} logo={logoColor} extraClassName="number" />
-          <Footer />
-        </div>
-    )
+	                    titleNumber,
+	                    imageNumber
+                    }) => {
+	return (
+	<div id="wrapper-number-page">
+		<Section path="/number" image={imageNumber} title={titleNumber}
+		         logo={logoColor} extraClassName="number"/>
+		<Footer/>
+	</div>
+	);
 };
 
 const mapStateToProps = state => ({
-  titleNumber: state.ChooseLanguage.numberPageContent.titleNumber,
-  imageNumber: state.ChooseLanguage.numberPageContent.imageNumber,
+	titleNumber: state.ChooseLanguage.numberPageContent.titleNumber,
+	imageNumber: state.ChooseLanguage.numberPageContent.imageNumber
 });
 
 export default connect(mapStateToProps)(NumberPage);

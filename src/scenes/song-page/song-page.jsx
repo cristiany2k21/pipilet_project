@@ -9,24 +9,24 @@ import DisplayLanguageSong from './components/display-language/display-language'
 import ChooseFlag from './components/choose-flag/choose-flag';
 
 const SongPage = ({
-  title,
-  language,
-  flag
-}) => {
-  return (
-    <div>
-      <HeaderPage title={title} logo={logo} />
-      <DisplayLanguageSong language={language} />
-      <ChooseFlag flag={flag} />
-      <Footer />
-    </div>
-  )
+	                  title,
+	                  language,
+	                  flag
+                  }) => {
+	return (
+	<div>
+		<HeaderPage title={title} logo={logo}/>
+		<DisplayLanguageSong language={language}/>
+		<ChooseFlag flag={flag}/>
+		<Footer/>
+	</div>
+	);
 };
 
 const mapStateToProps = state => ({
-  title: state.ChooseLanguage.songPageContent.title,
-  language: state.ChooseLanguage.songPageContent.language,
-  flag: state.ChooseLanguage.songPageContent.flag,
+	title: state.ChooseLanguage.songPageContent.title,
+	language: state.ChooseLanguage.songPageContent.language,
+	flag: state.ChooseLanguage.songPageContent.flag
 });
 
 export default connect(mapStateToProps)(SongPage);

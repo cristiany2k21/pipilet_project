@@ -4,19 +4,19 @@ import { connect } from 'react-redux';
 import './style/presentation-page.sass';
 
 const PresentationPage = ({
-  presentationPageContent
-}) => {
-    return (
-        <div id="wrapper-presentation-page">
-          <div className="wrapper-image-pipilet">
-            <img src={presentationPageContent["image-pipilet"]} />
-          </div>
-          {presentationPageContent.text}
-        </div>
-    )
+	                          presentationPageContent
+                          }) => {
+	return (
+	<div id="wrapper-presentation-page">
+		<div className="wrapper-image-pipilet">
+			<img src={presentationPageContent['image-pipilet']}/>
+		</div>
+		{presentationPageContent.text}
+	</div>
+	);
 };
 
 const mapStateToProps = state => {
-  return state.ChooseLanguage;
+	return state.ChooseLanguage;
 };
 export default connect(mapStateToProps)(PresentationPage);

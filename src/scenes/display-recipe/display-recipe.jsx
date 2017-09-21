@@ -7,25 +7,25 @@ import Recipe from './component/recipe/recipe';
 import './style/display-recipe.sass';
 
 const DisplayRecipe = ({
-  recipeCountry
-}) => {
+	                       recipeCountry
+                       }) => {
 
-  return (
-    <div id="wrapper-display-recipe">
-      <HeaderRecipe title={recipeCountry.title} flag={recipeCountry.flag}/>
-      <Recipe recipe={recipeCountry.recipe} />
-    </div>
-  )
+	return (
+	<div id="wrapper-display-recipe">
+		<HeaderRecipe title={recipeCountry.title} flag={recipeCountry.flag}/>
+		<Recipe recipe={recipeCountry.recipe}/>
+	</div>
+	);
 };
 
 const mapStateToProps = (state, props) => {
-  const continent = props.params.continent;
-  const index = props.params.id;
-  const allCountry = state.ChooseLanguage.chooseCountryContent[continent].country;
+	const continent = props.params.continent;
+	const index = props.params.id;
+	const allCountry = state.ChooseLanguage.chooseCountryContent[continent].country;
 
-  return {
-    recipeCountry: allCountry[index].recipe
-  }
+	return {
+		recipeCountry: allCountry[index].recipe
+	};
 };
 
 export default connect(mapStateToProps)(DisplayRecipe);

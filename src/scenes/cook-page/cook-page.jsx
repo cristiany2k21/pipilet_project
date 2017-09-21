@@ -12,20 +12,20 @@ import map from './images/map.png';
 import './style/cook-page.sass';
 
 const CookPage = ({
-  cookerPageContent
-}) => {
-    return (
-        <div id="wrapper-cooker-page">
-          <HeaderPage title={cookerPageContent.title} logo={cooker} />
-          <Description description={cookerPageContent.description} />
-          <Map map={map}/>
-          <Footer />
-        </div>
-    )
+	                  cookerPageContent
+                  }) => {
+	return (
+	<div id="wrapper-cooker-page">
+		<HeaderPage title={cookerPageContent.title} logo={cooker}/>
+		<Description description={cookerPageContent.description}/>
+		<Map map={map}/>
+		<Footer/>
+	</div>
+	);
 };
 
 const mapStateToProps = state => {
-  return state.ChooseLanguage;
+	return state.ChooseLanguage;
 };
 
 export default connect(mapStateToProps)(CookPage);

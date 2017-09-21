@@ -11,13 +11,12 @@ import './styles/home-page.sass';
 
 const HomeContainer = () => {
 
-  return (
-    <div>
-      <HeaderTitle />
-      <DisplayImage image={family} />
-      <Footer />
-    </div>
-  )
+	return (
+	<div>
+		<DisplayImage image={family}/>
+		<Footer/>
+	</div>
+	);
 };
 
 export default HomeContainer;

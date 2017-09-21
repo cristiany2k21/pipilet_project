@@ -19,7 +19,6 @@
     height: $item-size
     margin: -$half-item
 
-
   $angle: (360 / $nb-items)
   $rot: 0
 
@@ -34,11 +33,7 @@
         $ml: cos($rot * pi() / 180) * $half-parent - $half-item
         margin: $mt 0 0 $ml
 
-
-
     $rot: ($rot + $angle)
-
-
 
 #wrapper-flag
 
@@ -52,18 +47,15 @@
     transition: .4s
     overflow: hidden
 
-
   .circle-container
     @include distribute-on-circle(12, 35vw, 6vw, false)
     margin: 0 auto
     z-index: 2
 
-
   .circle-container img
     display: block
     width: 100%
     border-radius: 50%
-
 
   .children-earth
     position: absolute

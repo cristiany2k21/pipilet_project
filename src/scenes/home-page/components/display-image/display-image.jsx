@@ -1,14 +1,14 @@
 import React from 'react';
 
 const DisplayImage = ({
-  image,
-}) => {
+	                      image
+                      }) => {
 
-  return (
-    <div id="wrapper-image">
-      <img src={image} />
-    </div>
-  )
+	return (
+	<div id="wrapper-image">
+		<img src={image}/>
+	</div>
+	);
 };
 
 export default DisplayImage;

@@ -1,1 +1,1 @@
-export const LOAD_CONTINENT = "LOAD_CONTINENT";
+export const LOAD_CONTINENT = 'LOAD_CONTINENT';

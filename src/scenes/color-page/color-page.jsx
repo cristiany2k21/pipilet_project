@@ -7,20 +7,21 @@ import Footer from '../../components/footer/footer';
 import './style/color-page.sass';
 
 const ColorPage = ({
-  titleColor,
-  imageColor
-}) => {
-    return (
-        <div id="wrapper-color-page">
-          <Section path="/color" image={imageColor} title={titleColor} logo={logoColor} extraClassName="color" />
-          <Footer />
-        </div>
-    )
+	                   titleColor,
+	                   imageColor
+                   }) => {
+	return (
+	<div id="wrapper-color-page">
+		<Section path="/color" image={imageColor} title={titleColor}
+		         logo={logoColor} extraClassName="color"/>
+		<Footer/>
+	</div>
+	);
 };
 
 const mapStateToProps = state => ({
-  titleColor: state.ChooseLanguage.colorPageContent.titleColor,
-  imageColor: state.ChooseLanguage.colorPageContent.owls,
+	titleColor: state.ChooseLanguage.colorPageContent.titleColor,
+	imageColor: state.ChooseLanguage.colorPageContent.owls
 });
 
-export default connect(mapStateToProps)(ColorPage)
+export default connect(mapStateToProps)(ColorPage);

@@ -13,36 +13,40 @@ import white from '../../../../images/colors/white.png';
 import yellow from '../../../../images/colors/yellow.png';
 
 const TableColor = ({
-  originalColor,
-  translatedColor,
-  sameLanguage,
-  headerFirstColumn,
-  headerThirdColumn,
-  headerFourColumn,
-  subTitle
-}) => {
+	                    originalColor,
+	                    translatedColor,
+	                    sameLanguage,
+	                    headerFirstColumn,
+	                    headerThirdColumn,
+	                    headerFourColumn,
+	                    subTitle
+                    }) => {
 
-  const colors = [
-    red,
-    yellow,
-    white,
-    blue,
-    orange,
-    green,
-    black,
-    brown,
-    purple,
-    pink,
-  ];
+	const colors = [
+		red,
+		yellow,
+		white,
+		blue,
+		orange,
+		green,
+		black,
+		brown,
+		purple,
+		pink
+	];
 
-  return (
-    <div id="wrapper-table">
-      <ColumnTable images={colors} title={`${headerFirstColumn} ${headerThirdColumn}`}/>
-      <ColumnTable color={originalColor.data.colors} title={originalColor.name}/>
-      { !sameLanguage && <ColumnTable color={translatedColor.colors} title={headerThirdColumn} subTitle={subTitle} /> }
-      { headerFourColumn && <ColumnTable color={translatedColor.write} title={headerFourColumn} />}
-    </div>
-  )
+	return (
+	<div id="wrapper-table">
+		<ColumnTable images={colors}
+		             title={`${headerFirstColumn} ${headerThirdColumn}`}/>
+		<ColumnTable color={originalColor.data.colors} title={originalColor.name}/>
+		{!sameLanguage &&
+		<ColumnTable color={translatedColor.colors} title={headerThirdColumn}
+		             subTitle={subTitle}/>}
+		{headerFourColumn &&
+		<ColumnTable color={translatedColor.write} title={headerFourColumn}/>}
+	</div>
+	);
 };
 
 export default TableColor;

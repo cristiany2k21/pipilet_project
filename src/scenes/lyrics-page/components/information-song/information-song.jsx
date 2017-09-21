@@ -7,18 +7,18 @@ const InformationSong = ({
                          }) => {
 	console.log('information ------> ', information);
 	return (
-		<div className="container-information-song">
-			<div className="wrapper-title-information">
-				{information.title}
-			</div>
-			<div className="wrapper-rules">
-				{
-					information.description.map((item, index) => {
-						return <div className="rules" key={index}>{item}</div>
-					})
-				}
-			</div>
+	<div className="container-information-song">
+		<div className="wrapper-title-information">
+			{information.title}
 		</div>
+		<div className="wrapper-rules">
+			{
+				information.description.map((item, index) => {
+					return <div className="rules" key={index}>{item}</div>;
+				})
+			}
+		</div>
+	</div>
 	);
 };
 
