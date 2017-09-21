@@ -669,9 +669,9 @@ var _fallFallBallon = __webpack_require__(47);
 
 var _fallFallBallon2 = _interopRequireDefault(_fallFallBallon);
 
-var _fallFallBallon3 = __webpack_require__(384);
+var _sheetFallFallBallon = __webpack_require__(384);
 
-var _fallFallBallon4 = _interopRequireDefault(_fallFallBallon3);
+var _sheetFallFallBallon2 = _interopRequireDefault(_sheetFallFallBallon);
 
 var _brasil = __webpack_require__(36);
 
@@ -684,7 +684,7 @@ var _default = {
 	'title': 'Cai, cai balão',
 	'sub-title': 'Canción infantil',
 	'youtubeId': 'bpvbBzmQK9E',
-	'sheet': _fallFallBallon4.default,
+	'sheet': _sheetFallFallBallon2.default,
 	'image': _fallFallBallon2.default,
 	'flag': _brasil2.default,
 	'language': '(Portugués)',
@@ -718,9 +718,9 @@ var _hereWeGoRoundTheMulberryBush = __webpack_require__(13);
 
 var _hereWeGoRoundTheMulberryBush2 = _interopRequireDefault(_hereWeGoRoundTheMulberryBush);
 
-var _hereWeGoRoundTheMulberryBush3 = __webpack_require__(385);
+var _sheetHereWeGoRoundTheMulberryBush = __webpack_require__(385);
 
-var _hereWeGoRoundTheMulberryBush4 = _interopRequireDefault(_hereWeGoRoundTheMulberryBush3);
+var _sheetHereWeGoRoundTheMulberryBush2 = _interopRequireDefault(_sheetHereWeGoRoundTheMulberryBush);
 
 var _english = __webpack_require__(38);
 
@@ -734,7 +734,7 @@ var _default = {
 	'second-title': 'the Mulberry Bush',
 	'youtubeId': 'LjlwUnVXQ4U',
 	'image': _hereWeGoRoundTheMulberryBush2.default,
-	'sheet': _hereWeGoRoundTheMulberryBush4.default,
+	'sheet': _sheetHereWeGoRoundTheMulberryBush2.default,
 	'flag': _english2.default,
 	'language': '(English)',
 	'couplet': [['Here we go round the mulberry bush*,', 'The mulberry bush, the mulberry bush;', 'Here we go round the mulberry bush', 'On a cold and frosty morning.'], ['This is the way we wash our hands**,', 'We wash our hands, we wash our hands;', 'This is the way we wash our hands', 'On a cold and frosty morning.'], ['Other verses...', 'This is the way we do our hair, etc.', 'This is the way we mend our shoes, etc.', 'This is the way we scrub our clothes, etc.', 'This is the way we dust our room, etc.']]
@@ -767,9 +767,9 @@ var _itsRainning = __webpack_require__(48);
 
 var _itsRainning2 = _interopRequireDefault(_itsRainning);
 
-var _itsRainning3 = __webpack_require__(386);
+var _sheetItsRainning = __webpack_require__(386);
 
-var _itsRainning4 = _interopRequireDefault(_itsRainning3);
+var _sheetItsRainning2 = _interopRequireDefault(_sheetItsRainning);
 
 var _serbia = __webpack_require__(44);
 
@@ -782,7 +782,7 @@ var _default = {
 	'title': 'Kiša pada',
 	'youtubeId': 'vp7zMFrHkmA',
 	'image': _itsRainning2.default,
-	'sheet': _itsRainning4.default,
+	'sheet': _sheetItsRainning2.default,
 	'flag': _serbia2.default,
 	'language': '(Serbio)',
 	'couplet': [['Kiša pada, trava raste, gora zeleni', 'Kiša pada, trava raste, gora zeleni.'], ['U toj gori raste drvo tanko visoko', 'U toj gori raste drvo tanko visoko.'], ['Pod njim sedi moja seja, a ja pored nje', 'Pod njim sedi moja seja, a ja pored nje.']]
@@ -815,9 +815,9 @@ var _onMondayMorning = __webpack_require__(379);
 
 var _onMondayMorning2 = _interopRequireDefault(_onMondayMorning);
 
-var _onMondayMorning3 = __webpack_require__(387);
+var _sheetOnMondayMorning = __webpack_require__(387);
 
-var _onMondayMorning4 = _interopRequireDefault(_onMondayMorning3);
+var _sheetOnMondayMorning2 = _interopRequireDefault(_sheetOnMondayMorning);
 
 var _french = __webpack_require__(39);
 
@@ -831,7 +831,7 @@ var _default = {
 	'sub-title': 'Chanson enfantine',
 	'youtubeId': '6-EQdZnoaKQ',
 	'image': _onMondayMorning2.default,
-	'sheet': _onMondayMorning4.default,
+	'sheet': _sheetOnMondayMorning2.default,
 	'flag': _french2.default,
 	'language': '(Française)',
 	'couplet': [['Lundi matin,', 'L\'emp\'reur, sa femme et le p\'tit prince', 'Sont venus chez moi', 'Pour me serrer la pince*', 'Comm\' j\'étais parti', 'Le p\'tit prince a dit', 'Puisque c\'est ainsi', 'Nous reviendrons mardi.'], ['Mardi matin,', 'L\'emp\'reur, sa femme et le p\'tit prince', 'Sont venus chez moi', 'Pour me serrer la pince', 'Comm\' j\'étais parti', 'Le p\'tit prince a dit', 'Puisque c\'est ainsi', 'Nous reviendrons mercredi.'], ['Mercredi matin,', 'L\'emp\'reur, sa femme et le p\'tit prince', 'Sont venus chez moi', 'Pour me serrer la pince', 'Comm\' j\'étais parti', 'Le p\'tit prince a dit', 'Puisque c\'est ainsi', 'Nous reviendrons jeudi.'], ['Jeudi matin,', 'L\'emp\'reur, sa femme et le p\'tit prince', 'Sont venus chez moi', 'Pour me serrer la pince', 'Comm\' j\'étais parti', 'Le p\'tit prince a dit', 'Puisque c\'est ainsi', 'Nous reviendrons vendredi.'], ['Vendredi matin,', 'L\'emp\'reur, sa femme et le p\'tit prince', 'Sont venus chez moi', 'Pour me serrer la pince', 'Comm\' j\'étais parti', 'Le p\'tit prince a dit', 'Puisque c\'est ainsi', 'Nous reviendrons samedi.'], ['Samedi matin,', 'L\'emp\'reur, sa femme et le p\'tit prince', 'Sont venus chez moi', 'Pour me serrer la pince', 'Comm\' j\'étais parti', 'Le p\'tit prince a dit', 'Puisque c\'est ainsi', 'Nous reviendrons dimanche.'], ['Dimanche matin,', 'L\'emp\'reur, sa femme et le p\'tit prince', 'Sont venus chez moi', 'Pour me serrer la pince', 'Comm\' j\'étais parti', 'Le p\'tit prince a dit', 'Puisqu\'il n\'y est plus', 'Nous ne reviendrons plus.']]
@@ -908,9 +908,9 @@ var _siMaMaKa = __webpack_require__(380);
 
 var _siMaMaKa2 = _interopRequireDefault(_siMaMaKa);
 
-var _siMaMaKa3 = __webpack_require__(388);
+var _sheetSiMaMaKa = __webpack_require__(388);
 
-var _siMaMaKa4 = _interopRequireDefault(_siMaMaKa3);
+var _sheetSiMaMaKa2 = _interopRequireDefault(_sheetSiMaMaKa);
 
 var _ghana = __webpack_require__(151);
 
@@ -923,7 +923,7 @@ var _default = {
 	'title': 'SI MA MA KA',
 	'youtubeId': 'BkCUs7SF_qY',
 	'image': _siMaMaKa2.default,
-	'sheet': _siMaMaKa4.default,
+	'sheet': _sheetSiMaMaKa2.default,
 	'flag': _ghana2.default,
 	'language': '(Ghana)',
 	'couplet': [['Si si Kumbalé, le.', 'Banma, banma le, le..'], ['Si si Kumbalé, le.', 'Banma, banma le, le..'], ['Banma, banma lengue, lengue.', 'Banma, banma lengue, lengue.', 'Banma, banma lengue, lengue. (4 times)'], ['Donde, donde Kumbalé,e , kumbalé, e, le. (4 times)']]
@@ -1000,9 +1000,9 @@ var _theCourtyardOfMyHouse = __webpack_require__(381);
 
 var _theCourtyardOfMyHouse2 = _interopRequireDefault(_theCourtyardOfMyHouse);
 
-var _theCourtyardOfMyHouse3 = __webpack_require__(389);
+var _sheetTheCourtyardOfMyHouse = __webpack_require__(389);
 
-var _theCourtyardOfMyHouse4 = _interopRequireDefault(_theCourtyardOfMyHouse3);
+var _sheetTheCourtyardOfMyHouse2 = _interopRequireDefault(_sheetTheCourtyardOfMyHouse);
 
 var _spanish = __webpack_require__(45);
 
@@ -1016,7 +1016,7 @@ var _default = {
 	'sub-title': 'Canción infantil',
 	'youtubeId': '3E2uMwu5ulk',
 	'image': _theCourtyardOfMyHouse2.default,
-	'sheet': _theCourtyardOfMyHouse4.default,
+	'sheet': _sheetTheCourtyardOfMyHouse2.default,
 	'flag': _spanish2.default,
 	'language': '(Español)',
 	'couplet': [['El patio de mi casa', 'Es particular :', 'Cuando llueve se moja', 'Como los demás.'], ['Agáchate', 'Y vuélvete a agachar', 'Que los agachaditos', 'Saben bien jugar.'], ['Hache, i, jota, ka', 'Ele, elle, eme, a,', 'Que si tú no me quieres', 'Otra niña me querrá.'], ['Chocolate amarillo', 'Corre, corre, que te pillo', 'Estirad, estirad', 'que el demoño ha de pasar']]
@@ -1092,9 +1092,9 @@ var _ticTicTic = __webpack_require__(383);
 
 var _ticTicTic2 = _interopRequireDefault(_ticTicTic);
 
-var _ticTicTic3 = __webpack_require__(390);
+var _sheetTicTicTic = __webpack_require__(390);
 
-var _ticTicTic4 = _interopRequireDefault(_ticTicTic3);
+var _sheetTicTicTic2 = _interopRequireDefault(_sheetTicTicTic);
 
 var _lebanon = __webpack_require__(152);
 
@@ -1107,7 +1107,7 @@ var _default = {
 	'title': 'تك تك تك يا ام سليمان',
 	'youtubeId': 'VvmXQ4t_2MY',
 	'image': _ticTicTic2.default,
-	'sheet': _ticTicTic4.default,
+	'sheet': _sheetTicTicTic2.default,
 	'flag': _lebanon2.default,
 	'language': '(Árabe)',
 	'couplet': [['تك تك تك يا ام سليمان', 'تك تك تك جوزك وين كان؟', 'تك تك تك كان بلحقله', 'عم يقطف خوخ و رمان']]
@@ -1140,9 +1140,9 @@ var _twoTigers = __webpack_require__(50);
 
 var _twoTigers2 = _interopRequireDefault(_twoTigers);
 
-var _twoTigers3 = __webpack_require__(391);
+var _sheetTwoTigers = __webpack_require__(391);
 
-var _twoTigers4 = _interopRequireDefault(_twoTigers3);
+var _sheetTwoTigers2 = _interopRequireDefault(_sheetTwoTigers);
 
 var _china = __webpack_require__(37);
 
@@ -1155,7 +1155,7 @@ var _default = {
 	'title': '两只老虎',
 	'youtubeId': '1Nu-hF8Zg-4',
 	'image': _twoTigers2.default,
-	'sheet': _twoTigers4.default,
+	'sheet': _sheetTwoTigers2.default,
 	'flag': _china2.default,
 	'language': '(Chino)',
 	'couplet': [['两只老虎', '两只老虎', '跑得快', '跑得快', 'ㄧ只没有耳朵', 'ㄧ只没有尾巴', '真奇怪', '真奇怪']]
@@ -1188,9 +1188,9 @@ var _winterIsHere = __webpack_require__(5);
 
 var _winterIsHere2 = _interopRequireDefault(_winterIsHere);
 
-var _winterIsHere3 = __webpack_require__(392);
+var _sheetWinterIsHere = __webpack_require__(392);
 
-var _winterIsHere4 = _interopRequireDefault(_winterIsHere3);
+var _sheetWinterIsHere2 = _interopRequireDefault(_sheetWinterIsHere);
 
 var _german = __webpack_require__(40);
 
@@ -1203,7 +1203,7 @@ var _default = {
 	'title': 'A, a, a, der Winter, der ist da',
 	'youtubeId': 'Faym70ZXXQE',
 	'image': _winterIsHere2.default,
-	'sheet': _winterIsHere4.default,
+	'sheet': _sheetWinterIsHere2.default,
 	'flag': _german2.default,
 	'language': '(Deutsch)',
 	'couplet': [['A, a, a, der Winter, der ist da!', 'Herbst und Sommer sind vergangen', 'Winter, der hat angefangen.', 'A, a, a, der Winter, der ist da!'], ['E, e, e, er bringt uns Eis und Schnee,', 'Malt uns gar zum Zeitvertreiben', 'Blumen an die Fensterscheiben.', 'E, e ,e, er bringt uns Eis und Schnee.'], ['I, i, i, vergiss die Armen nie!', 'Wenn du liegst in warmen Kissen,', 'Denk an die, die frieren müssen!', 'I, i, i, vergiss die Armen nie!'], ['O, o, o, wie sind wir Kinder froh!', 'Sehen jede Nacht im Traume', 'Uns schon unterm Weihnachtsbaume.', 'O, o, o, wie sind wir Kinder froh!'], ['U, u, u, jetzt weiß ich was ich tu!', 'Hol den Schlitten aus dem Keller', 'Und dann fahr ich immer schneller.', 'U, u, u, jetzt weiß ich was ich tu!']]
@@ -17505,55 +17505,55 @@ module.exports = __webpack_require__.p + "jpg_tic-tic-tic.jpg";
 /* 384 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_fall-fall-ballon.png";
+module.exports = __webpack_require__.p + "png_sheet-fall-fall-ballon.png";
 
 /***/ }),
 /* 385 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_here-we-go-round-the-mulberry-bush.png";
+module.exports = __webpack_require__.p + "png_sheet-here-we-go-round-the-mulberry-bush.png";
 
 /***/ }),
 /* 386 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_its-rainning.png";
+module.exports = __webpack_require__.p + "png_sheet-its-rainning.png";
 
 /***/ }),
 /* 387 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_on-monday-morning.png";
+module.exports = __webpack_require__.p + "png_sheet-on-monday-morning.png";
 
 /***/ }),
 /* 388 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_si-ma-ma-ka.png";
+module.exports = __webpack_require__.p + "png_sheet-si-ma-ma-ka.png";
 
 /***/ }),
 /* 389 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_the-courtyard-of-my-house.png";
+module.exports = __webpack_require__.p + "png_sheet-the-courtyard-of-my-house.png";
 
 /***/ }),
 /* 390 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_tic-tic-tic.jpg";
+module.exports = __webpack_require__.p + "jpg_sheet-tic-tic-tic.jpg";
 
 /***/ }),
 /* 391 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_two-tigers.jpg";
+module.exports = __webpack_require__.p + "jpg_sheet-two-tigers.jpg";
 
 /***/ }),
 /* 392 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_winter-is-here.png";
+module.exports = __webpack_require__.p + "png_sheet-winter-is-here.png";
 
 /***/ }),
 /* 393 */
