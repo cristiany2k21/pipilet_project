@@ -61,9 +61,6 @@ app.get('*', (req, res) => {
 	});
 });
 
-
-
-
 function renderPage(appHtml) {
 	return `
     <!doctype html public="storage">

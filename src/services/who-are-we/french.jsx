@@ -171,6 +171,10 @@ export const whoarewe =
 	<span style={{alignSelf: 'flex-start'}}>- Poline Ribiera</span>
 
 	<div className="wrapper-image-tree">
+		<div className="sentence-philosophe undisplay">
+			<i><b>« Aider les autres c’est s’aider soi même » Henry Flagler.</b></i></div>
 		<img src={colorTree}/>
+		<div className="sentence-philosophe">
+			<i><b>« Aider les autres c’est s’aider soi même » Henry Flagler.</b></i></div>
 	</div>
 </div>;
