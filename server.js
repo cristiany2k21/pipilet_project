@@ -9,6 +9,7 @@ import routes from './src/routes/index';
 import reducers from './src/reducers';
 import { Provider } from 'react-redux';
 import logger from 'redux-logger';
+import { redirectToHTTPS } from 'express-http-to-https';
 
 const compiler = Webpack(webpackConfig);
 const app = express();
@@ -30,6 +31,8 @@ if (process.env.NODE_ENV == 'development') {
 else {
 	style = '<link rel="stylesheet" type="text/css" href="/styles.min.css">';
 }
+
+app.use(redirectToHTTPS([/localhost:(\d{4})/], [/\/insecure/]));
 
 app.use(express.static('public'));
 
@@ -67,6 +70,8 @@ function renderPage(appHtml) {
     <html>
       <head>
         <meta charset=utf-8/>
+        <meta name="theme-color" content="#8A1515" />
+	      <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>My First React Router App</title>
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
 				<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Quattrocento+Sans|Work+Sans:100,200,300" rel="stylesheet">
