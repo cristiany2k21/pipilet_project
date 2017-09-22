@@ -7,11 +7,11 @@ const HeaderTitle = () => {
 	return (
 	<div id="wrapper-headertitle">
 		<div className="wrapper-tree-bird">
-			<img src={familyOwls} alt=""/>
+			<img src={familyOwls} alt="family owls"/>
 		</div>
 
 		<div className="wrapper-title">
-			<img src={pipiletHorizontal} alt=""/>
+			<img src={pipiletHorizontal} alt="pipilet horizontal"/>
 		</div>
 	</div>
 	);

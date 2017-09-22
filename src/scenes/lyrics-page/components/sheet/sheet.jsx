@@ -7,7 +7,7 @@ const sheetMusic = ({
                     }) => {
 	return (
 	<div id="wrapper-sheet">
-		<img src={sheet} alt="" width="1000"/>
+		<img src={sheet} alt="logo" width="1000"/>
 	</div>
 	);
 };

@@ -6,7 +6,7 @@ const Map = ({
              }) => {
 	return (
 	<div className="wrapper-map">
-		<img className="map" src={map}/>
+		<img className="map" src={map} alt="Map Continent"/>
 
 		<Link className="america" to="/cooker/america">
 			<div className="absolute america-one"></div>

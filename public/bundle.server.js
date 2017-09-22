@@ -211,7 +211,7 @@ var Footer = function Footer() {
 	return _react2.default.createElement(
 		'div',
 		{ id: 'wrapper-footer' },
-		_react2.default.createElement('img', { src: _pipiletRainbow2.default, alt: '' })
+		_react2.default.createElement('img', { src: _pipiletRainbow2.default, alt: 'Footer logo' })
 	);
 };
 
@@ -594,13 +594,13 @@ var _default = function _default(_ref) {
 		_react2.default.createElement(
 			'div',
 			{ className: 'wrapper-logo' },
-			_react2.default.createElement('img', { src: logo })
+			_react2.default.createElement('img', { src: logo, alt: 'logo' })
 		),
 		generateColorTitle(title),
 		_react2.default.createElement(
 			'div',
 			{ className: 'undisplayed wrapper-logo' },
-			_react2.default.createElement('img', { src: logo })
+			_react2.default.createElement('img', { src: logo, alt: 'logo' })
 		)
 	);
 };
@@ -1599,7 +1599,7 @@ var Section = function Section(_ref) {
 					_react2.default.createElement(
 						'div',
 						{ className: 'owls-inner' },
-						_react2.default.createElement('img', { src: item.image }),
+						_react2.default.createElement('img', { src: item.image, alt: 'Link' }),
 						item.countryName.map(function (item, index) {
 							return _react2.default.createElement(_Link2.default, { key: index, to: path + '/' + item,
 								className: 'border ' + extraClassName + '_' + index + ' width_' + extraClassName });
@@ -4171,13 +4171,13 @@ var whoarewe = exports.whoarewe = _react2.default.createElement(
 	_react2.default.createElement(
 		'div',
 		{ className: 'header-who-are-we' },
-		_react2.default.createElement('img', { className: 'hidden', src: _pipiletRainbow2.default }),
+		_react2.default.createElement('img', { className: 'hidden', src: _pipiletRainbow2.default, alt: 'logo' }),
 		_react2.default.createElement(
 			'h1',
 			null,
 			'\xBFQui\xE9nes somos?'
 		),
-		_react2.default.createElement('img', { src: _pipiletRainbow2.default })
+		_react2.default.createElement('img', { src: _pipiletRainbow2.default, alt: 'logo' })
 	),
 	_react2.default.createElement(
 		'p',
@@ -4369,7 +4369,7 @@ var whoarewe = exports.whoarewe = _react2.default.createElement(
 				)
 			)
 		),
-		_react2.default.createElement('img', { src: _color_tree2.default }),
+		_react2.default.createElement('img', { src: _color_tree2.default, alt: 'logo' }),
 		_react2.default.createElement(
 			'div',
 			{ className: 'sentence-philosophe' },
@@ -5756,7 +5756,7 @@ var Sidebar = function Sidebar(_ref) {
 								null,
 								item.title
 							),
-							_react2.default.createElement('img', { src: image, width: '200' })
+							_react2.default.createElement('img', { src: image, width: '200', alt: 'logo' })
 						)
 					);
 				})
@@ -6085,7 +6085,7 @@ var DisplayCountry = function DisplayCountry(_ref) {
 					_react2.default.createElement(
 						'div',
 						{ className: 'wrapper-image' },
-						_react2.default.createElement('img', { src: item.type, alt: '' })
+						_react2.default.createElement('img', { src: item.type, alt: 'country ' + name })
 					),
 					item.name
 				)
@@ -6166,7 +6166,7 @@ var ColorNumber = function ColorNumber(_ref) {
 			_react2.default.createElement(
 				_Link2.default,
 				{ to: '/color' },
-				_react2.default.createElement('img', { src: imageColor })
+				_react2.default.createElement('img', { src: imageColor, alt: 'Color Link' })
 			)
 		),
 		_react2.default.createElement(_headerPage2.default, { title: titleNumber, logo: _pipiletNumberColor2.default }),
@@ -6176,7 +6176,7 @@ var ColorNumber = function ColorNumber(_ref) {
 			_react2.default.createElement(
 				_Link2.default,
 				{ to: '/number' },
-				_react2.default.createElement('img', { src: imageNumber })
+				_react2.default.createElement('img', { src: imageNumber, alt: 'Number Link' })
 			)
 		),
 		_react2.default.createElement(_footer2.default, null)
@@ -6353,7 +6353,7 @@ var Map = function Map(_ref) {
 	return _react2.default.createElement(
 		'div',
 		{ className: 'wrapper-map' },
-		_react2.default.createElement('img', { className: 'map', src: map }),
+		_react2.default.createElement('img', { className: 'map', src: map, alt: 'Map Continent' }),
 		_react2.default.createElement(
 			_reactRouter.Link,
 			{ className: 'america', to: '/cooker/america' },
@@ -6512,7 +6512,7 @@ var HeaderRecipe = function HeaderRecipe(_ref) {
 		_react2.default.createElement(
 			'div',
 			{ className: 'wrapper-image-girl-man' },
-			_react2.default.createElement('img', { src: flag })
+			_react2.default.createElement('img', { src: flag, alt: 'logo' })
 		),
 		_react2.default.createElement(
 			'div',
@@ -6526,7 +6526,7 @@ var HeaderRecipe = function HeaderRecipe(_ref) {
 		_react2.default.createElement(
 			'div',
 			{ className: 'wrapper-image-pipilet' },
-			_react2.default.createElement('img', { src: _pipiletCooker2.default })
+			_react2.default.createElement('img', { src: _pipiletCooker2.default, alt: 'logo' })
 		)
 	);
 };
@@ -6615,13 +6615,13 @@ var Ingredient = function Ingredient(_ref) {
 					href: download,
 					download: download
 				},
-				_react2.default.createElement('img', { src: _iconDownload2.default, className: 'little-draw' })
+				_react2.default.createElement('img', { src: _iconDownload2.default, className: 'little-draw', alt: 'logo download' })
 			)
 		),
 		_react2.default.createElement(
 			'div',
 			{ className: 'wrapper-logo-recipe' },
-			_react2.default.createElement('img', { src: image })
+			_react2.default.createElement('img', { src: image, alt: 'logo recipe' })
 		)
 	);
 };
@@ -6869,7 +6869,7 @@ var DisplayImage = function DisplayImage(_ref) {
 	return _react2.default.createElement(
 		"div",
 		{ id: "wrapper-image" },
-		_react2.default.createElement("img", { src: image })
+		_react2.default.createElement("img", { src: image, alt: "image" })
 	);
 };
 
@@ -6921,12 +6921,12 @@ var HeaderTitle = function HeaderTitle() {
 		_react2.default.createElement(
 			'div',
 			{ className: 'wrapper-tree-bird' },
-			_react2.default.createElement('img', { src: _familyOwls2.default, alt: '' })
+			_react2.default.createElement('img', { src: _familyOwls2.default, alt: 'family owls' })
 		),
 		_react2.default.createElement(
 			'div',
 			{ className: 'wrapper-title' },
-			_react2.default.createElement('img', { src: _pipiletHorizontal2.default, alt: '' })
+			_react2.default.createElement('img', { src: _pipiletHorizontal2.default, alt: 'pipilet horizontal' })
 		)
 	);
 };
@@ -7315,7 +7315,7 @@ var sheetMusic = function sheetMusic(_ref) {
 	return _react2.default.createElement(
 		'div',
 		{ id: 'wrapper-sheet' },
-		_react2.default.createElement('img', { src: sheet, alt: '', width: '1000' })
+		_react2.default.createElement('img', { src: sheet, alt: 'logo', width: '1000' })
 	);
 };
 
@@ -7382,7 +7382,7 @@ var VideoYoutube = function VideoYoutube(_ref) {
 					marginTop: sameLyrics ? '60px' : ''
 				},
 				className: 'image-pipilet-song' },
-			_react2.default.createElement('img', { src: _pipiletSong2.default, width: '250' })
+			_react2.default.createElement('img', { src: _pipiletSong2.default, width: '250', alt: 'logo' })
 		)
 	);
 };
@@ -7605,7 +7605,7 @@ var PresentationPage = function PresentationPage(_ref) {
 		_react2.default.createElement(
 			'div',
 			{ className: 'wrapper-image-pipilet' },
-			_react2.default.createElement('img', { src: presentationPageContent['image-pipilet'] })
+			_react2.default.createElement('img', { src: presentationPageContent['image-pipilet'], alt: 'presentation page content' })
 		),
 		presentationPageContent.text
 	);
@@ -7680,7 +7680,7 @@ var ChooseFlag = function ChooseFlag(_ref) {
 						_react2.default.createElement(
 							'li',
 							{ className: 'test' },
-							_react2.default.createElement('img', { src: item.value })
+							_react2.default.createElement('img', { src: item.value, alt: '' + item.name })
 						)
 					);
 				})
@@ -7756,14 +7756,14 @@ var DisplayLanguageSong = function DisplayLanguageSong(_ref) {
 		_react2.default.createElement(
 			'div',
 			{ className: 'wrapper-display-language' },
-			_react2.default.createElement('img', { src: _note2.default, className: 'absolute-language note1' }),
-			_react2.default.createElement('img', { src: _note4.default, className: 'absolute-language note2' }),
-			_react2.default.createElement('img', { src: _note6.default, className: 'absolute-language note3' }),
-			_react2.default.createElement('img', { src: _note8.default, className: 'absolute-language note4' }),
-			_react2.default.createElement('img', { src: _note2.default, className: 'absolute-language note5' }),
-			_react2.default.createElement('img', { src: _note8.default, className: 'absolute-language note6' }),
-			_react2.default.createElement('img', { src: _note6.default, className: 'absolute-language note7' }),
-			_react2.default.createElement('img', { src: _note2.default, className: 'absolute-language note8' }),
+			_react2.default.createElement('img', { src: _note2.default, className: 'absolute-language note1', img: 'note1' }),
+			_react2.default.createElement('img', { src: _note4.default, className: 'absolute-language note2', img: 'note2' }),
+			_react2.default.createElement('img', { src: _note6.default, className: 'absolute-language note3', img: 'note3' }),
+			_react2.default.createElement('img', { src: _note8.default, className: 'absolute-language note4', img: 'note4' }),
+			_react2.default.createElement('img', { src: _note2.default, className: 'absolute-language note5', img: 'note1' }),
+			_react2.default.createElement('img', { src: _note8.default, className: 'absolute-language note6', img: 'note4' }),
+			_react2.default.createElement('img', { src: _note6.default, className: 'absolute-language note7', img: 'note3' }),
+			_react2.default.createElement('img', { src: _note2.default, className: 'absolute-language note8', img: 'note1' }),
 			_react2.default.createElement(
 				_Link2.default,
 				{ to: '/song/english', className: 'scale absolute-language english' },
@@ -7997,7 +7997,7 @@ var Drawing = function Drawing(_ref) {
 		"div",
 		{ id: "wrapper-drawing" },
 		draw.map(function (item, index) {
-			return _react2.default.createElement("img", { key: index, src: item });
+			return _react2.default.createElement("img", { key: index, src: item, alt: "logo" });
 		})
 	);
 };
@@ -8349,7 +8349,7 @@ var HeaderColor = function HeaderColor(_ref) {
 		_react2.default.createElement(
 			'div',
 			{ className: 'wrapper-image-pipilet' },
-			_react2.default.createElement('img', { src: _pipiletNumberColor2.default, alt: '' })
+			_react2.default.createElement('img', { src: _pipiletNumberColor2.default, alt: 'logo' })
 		),
 		_react2.default.createElement(
 			'div',
@@ -8362,7 +8362,7 @@ var HeaderColor = function HeaderColor(_ref) {
 			_react2.default.createElement(
 				'div',
 				{ className: 'wrapper-logo-pipilet' },
-				_react2.default.createElement('img', { src: _pipiletHorizontal2.default })
+				_react2.default.createElement('img', { src: _pipiletHorizontal2.default, alt: 'logo' })
 			),
 			_react2.default.createElement(
 				'div',
@@ -8384,7 +8384,7 @@ var HeaderColor = function HeaderColor(_ref) {
 					_react2.default.createElement(
 						'a',
 						{ href: download, download: nameDownload },
-						_react2.default.createElement('img', { src: _iconDownload2.default })
+						_react2.default.createElement('img', { src: _iconDownload2.default, alt: 'logo' })
 					)
 				)
 			)
@@ -8473,7 +8473,7 @@ var ColumnTable = function ColumnTable(_ref) {
 					_react2.default.createElement(
 						"td",
 						null,
-						_react2.default.createElement("img", { src: item, alt: "" })
+						_react2.default.createElement("img", { src: item, alt: "logo" })
 					)
 				);
 			})
@@ -8740,7 +8740,7 @@ var HeaderNumber = function HeaderNumber(_ref) {
 		_react2.default.createElement(
 			'div',
 			{ className: 'wrapper-flag' },
-			_react2.default.createElement('img', { src: flag, alt: '' })
+			_react2.default.createElement('img', { src: flag, alt: 'logo' })
 		),
 		_react2.default.createElement(
 			'div',
@@ -8754,7 +8754,7 @@ var HeaderNumber = function HeaderNumber(_ref) {
 		_react2.default.createElement(
 			'div',
 			{ className: 'wrapper-book-number' },
-			_react2.default.createElement('img', { src: _bookNumber2.default, alt: '' })
+			_react2.default.createElement('img', { src: _bookNumber2.default, alt: 'logo' })
 		)
 	);
 };
@@ -8798,7 +8798,7 @@ var BigDraw = function BigDraw(_ref) {
 	return _react2.default.createElement(
 		"div",
 		{ className: "wrapper-big-draw" },
-		_react2.default.createElement("img", { src: draw })
+		_react2.default.createElement("img", { src: draw, alt: "logo" })
 	);
 };
 
@@ -8982,7 +8982,7 @@ var HandWriteLogo = function HandWriteLogo() {
 	return _react2.default.createElement(
 		'div',
 		{ className: 'wrapper-logo' },
-		_react2.default.createElement('img', { src: _handWriteLogo2.default, alt: '' })
+		_react2.default.createElement('img', { src: _handWriteLogo2.default, alt: 'logo' })
 	);
 };
 
@@ -9040,7 +9040,7 @@ var SecondTable = function SecondTable(_ref) {
 					href: download,
 					download: download
 				},
-				_react2.default.createElement('img', { src: _iconDownload2.default, className: 'little-draw' })
+				_react2.default.createElement('img', { src: _iconDownload2.default, className: 'little-draw', alt: 'logo' })
 			)
 		),
 		_react2.default.createElement(
@@ -9072,7 +9072,7 @@ var SecondTable = function SecondTable(_ref) {
 		_react2.default.createElement(
 			'div',
 			{ className: 'wrapper-little-draw' },
-			_react2.default.createElement('img', { src: draw, className: 'little-draw' })
+			_react2.default.createElement('img', { src: draw, className: 'little-draw', alt: 'logo' })
 		)
 	);
 };
@@ -12564,7 +12564,7 @@ var presentation = exports.presentation = _react2.default.createElement(
 		_react2.default.createElement(
 			'div',
 			{ className: 'wrapper-image' },
-			_react2.default.createElement('img', { src: _universe2.default })
+			_react2.default.createElement('img', { src: _universe2.default, alt: 'logo' })
 		),
 		_react2.default.createElement(
 			'p',
@@ -12817,7 +12817,7 @@ var presentation = exports.presentation = _react2.default.createElement(
 		_react2.default.createElement(
 			'div',
 			{ className: 'wrapper-image' },
-			_react2.default.createElement('img', { src: _universe2.default })
+			_react2.default.createElement('img', { src: _universe2.default, alt: 'logo' })
 		),
 		_react2.default.createElement(
 			'p',
@@ -13066,7 +13066,7 @@ var presentation = exports.presentation = _react2.default.createElement(
 		_react2.default.createElement(
 			'div',
 			{ className: 'wrapper-image' },
-			_react2.default.createElement('img', { src: _universe2.default })
+			_react2.default.createElement('img', { src: _universe2.default, alt: 'logo' })
 		),
 		_react2.default.createElement(
 			'p',
@@ -16823,7 +16823,7 @@ var whoarewe = exports.whoarewe = _react2.default.createElement(
 	_react2.default.createElement(
 		'div',
 		{ className: 'header-who-are-we' },
-		_react2.default.createElement('img', { className: 'hidden', src: _pipiletRainbow2.default }),
+		_react2.default.createElement('img', { className: 'hidden', src: _pipiletRainbow2.default, alt: 'logo' }),
 		_react2.default.createElement(
 			'div',
 			{ className: 'text' },
@@ -16838,7 +16838,7 @@ var whoarewe = exports.whoarewe = _react2.default.createElement(
 				'Le mot de La Pr\xE9sidente fondatrice :'
 			)
 		),
-		_react2.default.createElement('img', { src: _pipiletRainbow2.default })
+		_react2.default.createElement('img', { src: _pipiletRainbow2.default, alt: 'logo' })
 	),
 	_react2.default.createElement(
 		'p',
@@ -17026,7 +17026,7 @@ var whoarewe = exports.whoarewe = _react2.default.createElement(
 				)
 			)
 		),
-		_react2.default.createElement('img', { src: _color_tree2.default }),
+		_react2.default.createElement('img', { src: _color_tree2.default, alt: 'logo' }),
 		_react2.default.createElement(
 			'div',
 			{ className: 'sentence-philosophe' },

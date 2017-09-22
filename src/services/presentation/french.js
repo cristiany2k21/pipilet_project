@@ -59,7 +59,7 @@ export const presentation =
 			<span className="red">Allez, je t’attends, rejoins moi !!!!!</span>
 		</p>
 		<div className="wrapper-image">
-			<img src={universe}/>
+			<img src={universe} alt="logo" />
 		</div>
 		<p className="center">
 			Ceci est ma planète le “<span className="green">Planète Galappar</span>”

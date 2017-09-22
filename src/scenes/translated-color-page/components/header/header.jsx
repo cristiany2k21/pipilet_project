@@ -74,13 +74,13 @@ const HeaderColor = ({
 	return (
 	<div id="wrapper-header">
 		<div className="wrapper-image-pipilet">
-			<img src={pipilet} alt=""/>
+			<img src={pipilet} alt="logo"/>
 		</div>
 
 		<div className="wrapper-title-rules">
 			<div className="wrapper-title">{title}</div>
 			<div className="wrapper-logo-pipilet">
-				<img src={pipiletMandala}/>
+				<img src={pipiletMandala} alt="logo"/>
 			</div>
 			<div className="wrapper-rules-download">
 				<div className="wrapper-rules">
@@ -90,7 +90,7 @@ const HeaderColor = ({
 				</div>
 				<div className="wrapper-download">
 					<a href={download} download={nameDownload}>
-						<img src={logoDownload}/>
+						<img src={logoDownload} alt="logo"/>
 					</a>
 				</div>
 			</div>

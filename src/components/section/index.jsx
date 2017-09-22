@@ -18,7 +18,7 @@ const Section = ({
 					return (
 					<div key={index} className="wrapper-owls">
 						<div className="owls-inner">
-							<img src={item.image}/>
+							<img src={item.image} alt="Link"/>
 							{
 								item.countryName.map((item, index) =>
 								<Link key={index} to={`${path}/${item}`}

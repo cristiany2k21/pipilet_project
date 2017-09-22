@@ -15,8 +15,8 @@ const ChooseFlag = ({
 					flag.map((item, index) => {
 						return (
 						<Link to={`/song/${item.name}`} key={index}>
-							<li className={`test`}>
-								<img src={item.value}/>
+							<li className='test'>
+								<img src={item.value} alt={`${item.name}`}/>
 							</li>
 						</Link>
 						);

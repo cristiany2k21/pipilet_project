@@ -5,7 +5,7 @@ const BigDraw = ({
                  }) => {
 	return (
 	<div className="wrapper-big-draw">
-		<img src={draw}/>
+		<img src={draw}alt="logo" />
 	</div>
 	);
 };

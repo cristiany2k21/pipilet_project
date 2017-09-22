@@ -52,7 +52,7 @@ export const presentation =
         anímate!</span>
 		</p>
 		<div className="wrapper-image">
-			<img src={universe}/>
+			<img src={universe} alt="logo" />
 		</div>
 		<p className="center">Este es mi planeta: <span className="green">el planeta Galappar</span>
 			el planeta de la <span className="yellow">música</span>, el <span

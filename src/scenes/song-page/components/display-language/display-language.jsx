@@ -13,14 +13,14 @@ const DisplayLanguageSong = ({
 	return (
 	<div id="wrapper-language">
 		<div className="wrapper-display-language">
-			<img src={note1} className="absolute-language note1"/>
-			<img src={note2} className="absolute-language note2"/>
-			<img src={note3} className="absolute-language note3"/>
-			<img src={note4} className="absolute-language note4"/>
-			<img src={note1} className="absolute-language note5"/>
-			<img src={note4} className="absolute-language note6"/>
-			<img src={note3} className="absolute-language note7"/>
-			<img src={note1} className="absolute-language note8"/>
+			<img src={note1} className="absolute-language note1" img="note1"/>
+			<img src={note2} className="absolute-language note2" img="note2"/>
+			<img src={note3} className="absolute-language note3" img="note3"/>
+			<img src={note4} className="absolute-language note4" img="note4"/>
+			<img src={note1} className="absolute-language note5" img="note1"/>
+			<img src={note4} className="absolute-language note6" img="note4"/>
+			<img src={note3} className="absolute-language note7" img="note3"/>
+			<img src={note1} className="absolute-language note8" img="note1"/>
 			<Link to="/song/english" className="scale absolute-language english">
 				<div>{language.english}</div>
 			</Link>

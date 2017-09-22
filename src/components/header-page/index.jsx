@@ -29,11 +29,11 @@ export default ({
 	return (
 	<div id="wrapper-title-logo">
 		<div className="wrapper-logo">
-			<img src={logo}/>
+			<img src={logo} alt="logo" />
 		</div>
 		{generateColorTitle(title)}
 		<div className="undisplayed wrapper-logo">
-			<img src={logo}/>
+			<img src={logo} alt="logo" />
 		</div>
 	</div>
 	);

@@ -18,13 +18,13 @@ const ColorNumber = ({
 		<Header title={titleColor} logo={logoNumbercolor}/>
 		<div className="wrapper-all-image">
 			<Link to="/color">
-				<img src={imageColor}/>
+				<img src={imageColor} alt="Color Link" />
 			</Link>
 		</div>
 		<Header title={titleNumber} logo={logoNumbercolor}/>
 		<div className="wrapper-all-image">
 			<Link to="/number">
-				<img src={imageNumber}/>
+				<img src={imageNumber} alt="Number Link"/>
 			</Link>
 		</div>
 		<Footer/>

@@ -31,7 +31,7 @@ const ColumnTable = ({
 			return (
 			<tr key={index}>
 				<td>
-					<img src={item} alt=""/>
+					<img src={item} alt="logo" />
 				</td>
 			</tr>
 			);

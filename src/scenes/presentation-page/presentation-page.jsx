@@ -9,7 +9,7 @@ const PresentationPage = ({
 	return (
 	<div id="wrapper-presentation-page">
 		<div className="wrapper-image-pipilet">
-			<img src={presentationPageContent['image-pipilet']}/>
+			<img src={presentationPageContent['image-pipilet']} alt="presentation page content" />
 		</div>
 		{presentationPageContent.text}
 	</div>

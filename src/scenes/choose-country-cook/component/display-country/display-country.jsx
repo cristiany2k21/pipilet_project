@@ -13,7 +13,7 @@ const DisplayCountry = ({
 				<Link to={`/cooker/${continent.name}/${index}`} key={index}>
 					<div className="display-country">
 						<div className="wrapper-image">
-							<img src={item.type} alt=""/>
+							<img src={item.type} alt={`country ${name}`}/>
 						</div>
 						{item.name}
 					</div>

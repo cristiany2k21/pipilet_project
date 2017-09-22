@@ -6,9 +6,9 @@ import './style/index.sass';
 export const whoarewe =
 <div className="wrapper-who-are-we">
 	<div className="header-who-are-we">
-		<img className="hidden" src={pipiletRainbow}/>
+		<img className="hidden" src={pipiletRainbow} alt="logo" />
 		<h1>¿Quiénes somos?</h1>
-		<img src={pipiletRainbow}/>
+		<img src={pipiletRainbow} alt="logo"/>
 	</div>
 	<p>La Asociación Humanitaria franco-española Pipilet Mandala
 		(www.AHFE-pipiletmandala.org) con
@@ -153,7 +153,7 @@ export const whoarewe =
 		<div className="sentence-philosophe undisplay">
 			<i><b>Ayudar a otros es como ayudarte a ti mismo.- Henry Flagler.</b></i>
 		</div>
-		<img src={colorTree}/>
+		<img src={colorTree} alt="logo"/>
 		<div className="sentence-philosophe">
 			<i><b>Ayudar a otros es como ayudarte a ti mismo.- Henry Flagler.</b></i>
 		</div>

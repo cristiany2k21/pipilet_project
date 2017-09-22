@@ -6,12 +6,12 @@ import './style/index.sass';
 export const whoarewe =
 <div className="wrapper-who-are-we">
 	<div className="header-who-are-we">
-		<img className="hidden" src={pipiletRainbow}/>
+		<img className="hidden" src={pipiletRainbow} alt="logo"/>
 		<div className="text">
 			<h1>Who are we?</h1>
 			<h3>A word from the founding president</h3>
 		</div>
-		<img src={pipiletRainbow}/>
+		<img src={pipiletRainbow} alt="logo"/>
 	</div>
 	<p>
 		The Franco Spanish humanitarian Association Pipilet Mandala
@@ -155,7 +155,7 @@ export const whoarewe =
 		<div className="sentence-philosophe undisplay">
 			<i><b>“Helping others is helping yourself” Henry Flagler.</b></i>
 		</div>
-		<img src={colorTree}/>
+		<img src={colorTree} alt="logo"/>
 		<div className="sentence-philosophe">
 			<i><b>“Helping others is helping yourself” Henry Flagler.</b></i>
 		</div>

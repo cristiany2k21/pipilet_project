@@ -6,7 +6,7 @@ const DisplayImage = ({
 
 	return (
 	<div id="wrapper-image">
-		<img src={image}/>
+		<img src={image} alt="image"/>
 	</div>
 	);
 };

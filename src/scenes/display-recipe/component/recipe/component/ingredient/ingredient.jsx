@@ -33,11 +33,11 @@ const Ingredient = ({
 			href={download}
 			download={download}
 			>
-				<img src={logoDownload} className="little-draw"/>
+				<img src={logoDownload} className="little-draw" alt="logo download" />
 			</a>
 		</div>
 		<div className="wrapper-logo-recipe">
-			<img src={image}/>
+			<img src={image} alt="logo recipe"/>
 		</div>
 	</div>
 	);

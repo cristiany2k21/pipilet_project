@@ -19,7 +19,7 @@ const VideoYoutube = ({
 			marginTop: sameLyrics ? '60px' : ''
 		}}
 		     className="image-pipilet-song">
-			<img src={pipiletSong} width="250"/>
+			<img src={pipiletSong} width="250" alt="logo"/>
 		</div>
 	</div>
 	);

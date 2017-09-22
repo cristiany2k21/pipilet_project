@@ -8,13 +8,13 @@ const HeaderRecipe = ({
 	return (
 	<div className="wrapper-header-recipe">
 		<div className="wrapper-image-girl-man">
-			<img src={flag}/>
+			<img src={flag} alt="logo" />
 		</div>
 		<div className="wrapper-title">
 			<div className="title">{title}</div>
 		</div>
 		<div className="wrapper-image-pipilet">
-			<img src={pipiletCooker}/>
+			<img src={pipiletCooker} alt="logo" />
 		</div>
 	</div>
 	);

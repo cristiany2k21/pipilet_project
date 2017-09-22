@@ -7,7 +7,7 @@ const Drawing = ({
 	<div id="wrapper-drawing">
 		{
 			draw.map((item, index) => {
-				return <img key={index} src={item}/>;
+				return <img key={index} src={item} alt="logo" />;
 			})
 		}
 	</div>

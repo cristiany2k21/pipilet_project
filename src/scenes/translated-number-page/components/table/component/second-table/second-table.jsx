@@ -13,7 +13,7 @@ const SecondTable = ({
 			href={download}
 			download={download}
 			>
-				<img src={logoDownload} className="little-draw"/>
+				<img src={logoDownload} className="little-draw" alt="logo"/>
 			</a>
 		</div>
 		<table className="second-table">
@@ -30,7 +30,7 @@ const SecondTable = ({
 			</tbody>
 		</table>
 		<div className="wrapper-little-draw">
-			<img src={draw} className="little-draw"/>
+			<img src={draw} className="little-draw" alt="logo"/>
 		</div>
 	</div>
 	);

@@ -6,7 +6,7 @@ import './style/index.sass';
 const Footer = () => {
 	return (
 	<div id="wrapper-footer">
-		<img src={footerLogo} alt=""/>
+		<img src={footerLogo} alt="Footer logo"/>
 	</div>
 	);
 };
