@@ -5,7 +5,7 @@ import download from '../../download/number/number_swahili.pdf';
 
 export default (
 {
-	'header': 'ESPAÑOL NÚMEROS DEL 1 AL 100',
+	'header': 'TANZANIA (SWAHILI) NAMBA 1 KWA 100',
 	'flag': tanzania,
 	'download': download,
 	'draw': {

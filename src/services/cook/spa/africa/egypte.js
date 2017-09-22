@@ -1,4 +1,6 @@
 import littleGirl from '../../../../images/cook/pipilet_female.jpg';
+import image from '../../../../images/cook/recipe/africa/egypte.jpg';
+import image2 from '../../../../images/cook/recipe/africa/egypte2.jpg';
 import pipiletCooker from '../../../../images/pipilet-cooker.jpg';
 
 export default ({
@@ -8,7 +10,7 @@ export default ({
 	recipe: [
 		{
 			title: 'GUZEYA',
-			// image: image,
+			image: image,
 			sectionIngredient: [
 				{
 					title: 'Ingredientes:',
@@ -38,7 +40,7 @@ export default ({
 		},
 		{
 			title: 'Arroz con leche y frutos secos',
-			// image: image,
+			image: image2,
 			sectionIngredient: [
 				{
 					title: 'Ingredientes:',

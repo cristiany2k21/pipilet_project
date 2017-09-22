@@ -15,6 +15,16 @@ export default (
 			'Tic Tic Tic he was in the fields',
 			'Picking plums and pomegranates'
 		]
-	]
+	],
+	information: {
+		title: 'Notes',
+		description: [
+			'Tic Tic Tic y\'am sleiman',
+			'Tic Tic Tic y\'am sleiman',
+			'Tic Tic Tic jaousik ouan kan?',
+			'Tic Tic Tic kan bil haqle',
+			'am yektouf khaoukh ou remman.',
+		]
+	}
 }
 );

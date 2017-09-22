@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 174);
+/******/ 	return __webpack_require__(__webpack_require__.s = 177);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -203,7 +203,7 @@ var _pipiletRainbow = __webpack_require__(51);
 
 var _pipiletRainbow2 = _interopRequireDefault(_pipiletRainbow);
 
-__webpack_require__(321);
+__webpack_require__(324);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -268,9 +268,9 @@ var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
-var _PropTypes = __webpack_require__(585);
+var _PropTypes = __webpack_require__(588);
 
-var _ContextUtils = __webpack_require__(583);
+var _ContextUtils = __webpack_require__(586);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -415,27 +415,27 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 exports.createConnect = createConnect;
 
-var _connectAdvanced = __webpack_require__(574);
+var _connectAdvanced = __webpack_require__(577);
 
 var _connectAdvanced2 = _interopRequireDefault(_connectAdvanced);
 
-var _shallowEqual = __webpack_require__(582);
+var _shallowEqual = __webpack_require__(585);
 
 var _shallowEqual2 = _interopRequireDefault(_shallowEqual);
 
-var _mapDispatchToProps = __webpack_require__(575);
+var _mapDispatchToProps = __webpack_require__(578);
 
 var _mapDispatchToProps2 = _interopRequireDefault(_mapDispatchToProps);
 
-var _mapStateToProps = __webpack_require__(576);
+var _mapStateToProps = __webpack_require__(579);
 
 var _mapStateToProps2 = _interopRequireDefault(_mapStateToProps);
 
-var _mergeProps = __webpack_require__(577);
+var _mergeProps = __webpack_require__(580);
 
 var _mergeProps2 = _interopRequireDefault(_mergeProps);
 
-var _selectorFactory = __webpack_require__(578);
+var _selectorFactory = __webpack_require__(581);
 
 var _selectorFactory2 = _interopRequireDefault(_selectorFactory);
 
@@ -563,7 +563,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(322);
+__webpack_require__(325);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -669,7 +669,7 @@ var _fallFallBallon = __webpack_require__(47);
 
 var _fallFallBallon2 = _interopRequireDefault(_fallFallBallon);
 
-var _sheetFallFallBallon = __webpack_require__(385);
+var _sheetFallFallBallon = __webpack_require__(388);
 
 var _sheetFallFallBallon2 = _interopRequireDefault(_sheetFallFallBallon);
 
@@ -718,7 +718,7 @@ var _hereWeGoRoundTheMulberryBush = __webpack_require__(13);
 
 var _hereWeGoRoundTheMulberryBush2 = _interopRequireDefault(_hereWeGoRoundTheMulberryBush);
 
-var _sheetHereWeGoRoundTheMulberryBush = __webpack_require__(386);
+var _sheetHereWeGoRoundTheMulberryBush = __webpack_require__(389);
 
 var _sheetHereWeGoRoundTheMulberryBush2 = _interopRequireDefault(_sheetHereWeGoRoundTheMulberryBush);
 
@@ -767,7 +767,7 @@ var _itsRainning = __webpack_require__(48);
 
 var _itsRainning2 = _interopRequireDefault(_itsRainning);
 
-var _sheetItsRainning = __webpack_require__(387);
+var _sheetItsRainning = __webpack_require__(390);
 
 var _sheetItsRainning2 = _interopRequireDefault(_sheetItsRainning);
 
@@ -811,11 +811,11 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _onMondayMorning = __webpack_require__(380);
+var _onMondayMorning = __webpack_require__(383);
 
 var _onMondayMorning2 = _interopRequireDefault(_onMondayMorning);
 
-var _sheetOnMondayMorning = __webpack_require__(388);
+var _sheetOnMondayMorning = __webpack_require__(391);
 
 var _sheetOnMondayMorning2 = _interopRequireDefault(_sheetOnMondayMorning);
 
@@ -904,15 +904,15 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _siMaMaKa = __webpack_require__(381);
+var _siMaMaKa = __webpack_require__(384);
 
 var _siMaMaKa2 = _interopRequireDefault(_siMaMaKa);
 
-var _sheetSiMaMaKa = __webpack_require__(389);
+var _sheetSiMaMaKa = __webpack_require__(392);
 
 var _sheetSiMaMaKa2 = _interopRequireDefault(_sheetSiMaMaKa);
 
-var _ghana = __webpack_require__(151);
+var _ghana = __webpack_require__(154);
 
 var _ghana2 = _interopRequireDefault(_ghana);
 
@@ -996,11 +996,11 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _theCourtyardOfMyHouse = __webpack_require__(382);
+var _theCourtyardOfMyHouse = __webpack_require__(385);
 
 var _theCourtyardOfMyHouse2 = _interopRequireDefault(_theCourtyardOfMyHouse);
 
-var _sheetTheCourtyardOfMyHouse = __webpack_require__(390);
+var _sheetTheCourtyardOfMyHouse = __webpack_require__(393);
 
 var _sheetTheCourtyardOfMyHouse2 = _interopRequireDefault(_sheetTheCourtyardOfMyHouse);
 
@@ -1045,7 +1045,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _theWasherman = __webpack_require__(383);
+var _theWasherman = __webpack_require__(386);
 
 var _theWasherman2 = _interopRequireDefault(_theWasherman);
 
@@ -1088,15 +1088,15 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _ticTicTic = __webpack_require__(384);
+var _ticTicTic = __webpack_require__(387);
 
 var _ticTicTic2 = _interopRequireDefault(_ticTicTic);
 
-var _sheetTicTicTic = __webpack_require__(391);
+var _sheetTicTicTic = __webpack_require__(394);
 
 var _sheetTicTicTic2 = _interopRequireDefault(_sheetTicTicTic);
 
-var _lebanon = __webpack_require__(152);
+var _lebanon = __webpack_require__(155);
 
 var _lebanon2 = _interopRequireDefault(_lebanon);
 
@@ -1140,7 +1140,7 @@ var _twoTigers = __webpack_require__(50);
 
 var _twoTigers2 = _interopRequireDefault(_twoTigers);
 
-var _sheetTwoTigers = __webpack_require__(392);
+var _sheetTwoTigers = __webpack_require__(395);
 
 var _sheetTwoTigers2 = _interopRequireDefault(_sheetTwoTigers);
 
@@ -1188,7 +1188,7 @@ var _winterIsHere = __webpack_require__(5);
 
 var _winterIsHere2 = _interopRequireDefault(_winterIsHere);
 
-var _sheetWinterIsHere = __webpack_require__(393);
+var _sheetWinterIsHere = __webpack_require__(396);
 
 var _sheetWinterIsHere2 = _interopRequireDefault(_sheetWinterIsHere);
 
@@ -1232,9 +1232,9 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _navbar = __webpack_require__(180);
+var _navbar = __webpack_require__(183);
 
-var _sidebar = __webpack_require__(181);
+var _sidebar = __webpack_require__(184);
 
 var _pipiletSong = __webpack_require__(52);
 
@@ -1288,11 +1288,11 @@ var _china = __webpack_require__(37);
 
 var _china2 = _interopRequireDefault(_china);
 
-var _southAfrica = __webpack_require__(153);
+var _southAfrica = __webpack_require__(156);
 
 var _southAfrica2 = _interopRequireDefault(_southAfrica);
 
-var _tanzania = __webpack_require__(154);
+var _tanzania = __webpack_require__(157);
 
 var _tanzania2 = _interopRequireDefault(_tanzania);
 
@@ -1300,11 +1300,11 @@ var _russia = __webpack_require__(43);
 
 var _russia2 = _interopRequireDefault(_russia);
 
-var _ghana = __webpack_require__(151);
+var _ghana = __webpack_require__(154);
 
 var _ghana2 = _interopRequireDefault(_ghana);
 
-var _lebanon = __webpack_require__(152);
+var _lebanon = __webpack_require__(155);
 
 var _lebanon2 = _interopRequireDefault(_lebanon);
 
@@ -1661,7 +1661,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _brasil_draw = __webpack_require__(351);
+var _brasil_draw = __webpack_require__(354);
 
 var _brasil_draw2 = _interopRequireDefault(_brasil_draw);
 
@@ -1701,11 +1701,11 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _china_draw_ = __webpack_require__(353);
+var _china_draw_ = __webpack_require__(356);
 
 var _china_draw_2 = _interopRequireDefault(_china_draw_);
 
-var _china_draw_3 = __webpack_require__(354);
+var _china_draw_3 = __webpack_require__(357);
 
 var _china_draw_4 = _interopRequireDefault(_china_draw_3);
 
@@ -1741,7 +1741,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _english_draw = __webpack_require__(355);
+var _english_draw = __webpack_require__(358);
 
 var _english_draw2 = _interopRequireDefault(_english_draw);
 
@@ -1781,7 +1781,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _french_draw = __webpack_require__(356);
+var _french_draw = __webpack_require__(359);
 
 var _french_draw2 = _interopRequireDefault(_french_draw);
 
@@ -1821,7 +1821,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _german_draw = __webpack_require__(357);
+var _german_draw = __webpack_require__(360);
 
 var _german_draw2 = _interopRequireDefault(_german_draw);
 
@@ -1861,11 +1861,11 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _india_draw_ = __webpack_require__(359);
+var _india_draw_ = __webpack_require__(362);
 
 var _india_draw_2 = _interopRequireDefault(_india_draw_);
 
-var _india_draw_3 = __webpack_require__(360);
+var _india_draw_3 = __webpack_require__(363);
 
 var _india_draw_4 = _interopRequireDefault(_india_draw_3);
 
@@ -1902,7 +1902,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _italy_draw = __webpack_require__(361);
+var _italy_draw = __webpack_require__(364);
 
 var _italy_draw2 = _interopRequireDefault(_italy_draw);
 
@@ -1942,11 +1942,11 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _russia_draw_ = __webpack_require__(366);
+var _russia_draw_ = __webpack_require__(369);
 
 var _russia_draw_2 = _interopRequireDefault(_russia_draw_);
 
-var _russia_draw_3 = __webpack_require__(367);
+var _russia_draw_3 = __webpack_require__(370);
 
 var _russia_draw_4 = _interopRequireDefault(_russia_draw_3);
 
@@ -1983,11 +1983,11 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _serb_draw_ = __webpack_require__(368);
+var _serb_draw_ = __webpack_require__(371);
 
 var _serb_draw_2 = _interopRequireDefault(_serb_draw_);
 
-var _serb_draw_3 = __webpack_require__(369);
+var _serb_draw_3 = __webpack_require__(372);
 
 var _serb_draw_4 = _interopRequireDefault(_serb_draw_3);
 
@@ -2024,11 +2024,11 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _arab_draw_ = __webpack_require__(347);
+var _arab_draw_ = __webpack_require__(350);
 
 var _arab_draw_2 = _interopRequireDefault(_arab_draw_);
 
-var _arab_draw_3 = __webpack_require__(348);
+var _arab_draw_3 = __webpack_require__(351);
 
 var _arab_draw_4 = _interopRequireDefault(_arab_draw_3);
 
@@ -2064,7 +2064,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _spanish_draw = __webpack_require__(370);
+var _spanish_draw = __webpack_require__(373);
 
 var _spanish_draw2 = _interopRequireDefault(_spanish_draw);
 
@@ -2104,7 +2104,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _tanzanie_draw = __webpack_require__(371);
+var _tanzanie_draw = __webpack_require__(374);
 
 var _tanzanie_draw2 = _interopRequireDefault(_tanzanie_draw);
 
@@ -2273,6 +2273,14 @@ var _pipilet_female = __webpack_require__(2);
 
 var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
 
+var _egypte = __webpack_require__(107);
+
+var _egypte2 = _interopRequireDefault(_egypte);
+
+var _egypte3 = __webpack_require__(108);
+
+var _egypte4 = _interopRequireDefault(_egypte3);
+
 var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
@@ -2285,8 +2293,7 @@ var _default = {
 	imagePipilet: _pipiletCooker2.default,
 	recipe: [{
 		title: 'GUZEYA',
-
-		// image: image,
+		image: _egypte2.default,
 		sectionIngredient: [{
 			title: 'Ingrédients:',
 			ingredient: ['Verre de noix de coco râpée.', '1 verre de sucre..', '2 blancs d’œufs.', 'Essence de vanille', 'Beurre en quantité nécessaire.', 'Huile en quantité nécessaire.']
@@ -2297,8 +2304,7 @@ var _default = {
 		}]
 	}, {
 		title: 'RIZ AU LAIT ET FRUITS SECS',
-
-		// image: image,
+		image: _egypte4.default,
 		sectionIngredient: [{
 			title: 'Ingrédients:',
 			ingredient: ['2 verres de riz.', '1 verre de sucre', '1 verre de lait', '1 grande cuillérée d’huile', 'Fruits secs écrasés']
@@ -2309,9 +2315,6 @@ var _default = {
 		}]
 	}]
 };
-
-// import image from '../../../../images/cook/recipe/africa/';
-
 exports.default = _default;
 ;
 
@@ -2340,7 +2343,7 @@ var _pipilet_male = __webpack_require__(4);
 
 var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
 
-var _kenya = __webpack_require__(107);
+var _kenya = __webpack_require__(109);
 
 var _kenya2 = _interopRequireDefault(_kenya);
 
@@ -2395,7 +2398,7 @@ var _pipilet_female = __webpack_require__(2);
 
 var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
 
-var _malagasy = __webpack_require__(108);
+var _malagasy = __webpack_require__(110);
 
 var _malagasy2 = _interopRequireDefault(_malagasy);
 
@@ -2450,7 +2453,7 @@ var _pipilet_female = __webpack_require__(2);
 
 var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
 
-var _maroc = __webpack_require__(109);
+var _maroc = __webpack_require__(111);
 
 var _maroc2 = _interopRequireDefault(_maroc);
 
@@ -2519,7 +2522,7 @@ var _pipilet_female = __webpack_require__(2);
 
 var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
 
-var _tunisie = __webpack_require__(110);
+var _tunisie = __webpack_require__(112);
 
 var _tunisie2 = _interopRequireDefault(_tunisie);
 
@@ -2574,7 +2577,7 @@ var _pipilet_female = __webpack_require__(2);
 
 var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
 
-var _argentine = __webpack_require__(111);
+var _argentine = __webpack_require__(113);
 
 var _argentine2 = _interopRequireDefault(_argentine);
 
@@ -2629,7 +2632,7 @@ var _pipilet_male = __webpack_require__(4);
 
 var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
 
-var _canada = __webpack_require__(114);
+var _canada = __webpack_require__(116);
 
 var _canada2 = _interopRequireDefault(_canada);
 
@@ -2684,7 +2687,7 @@ var _pipilet_female = __webpack_require__(2);
 
 var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
 
-var _chilie = __webpack_require__(115);
+var _chilie = __webpack_require__(117);
 
 var _chilie2 = _interopRequireDefault(_chilie);
 
@@ -2742,7 +2745,7 @@ var _pipilet_male = __webpack_require__(4);
 
 var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
 
-var _guyane = __webpack_require__(116);
+var _guyane = __webpack_require__(118);
 
 var _guyane2 = _interopRequireDefault(_guyane);
 
@@ -2797,11 +2800,11 @@ var _pipilet_female = __webpack_require__(2);
 
 var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
 
-var _haiti = __webpack_require__(117);
+var _haiti = __webpack_require__(119);
 
 var _haiti2 = _interopRequireDefault(_haiti);
 
-var _haiti3 = __webpack_require__(118);
+var _haiti3 = __webpack_require__(120);
 
 var _haiti4 = _interopRequireDefault(_haiti3);
 
@@ -2867,11 +2870,11 @@ var _pipilet_female = __webpack_require__(2);
 
 var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
 
-var _mexicoNutella = __webpack_require__(119);
+var _mexicoNutella = __webpack_require__(121);
 
 var _mexicoNutella2 = _interopRequireDefault(_mexicoNutella);
 
-var _mexicoOreo = __webpack_require__(120);
+var _mexicoOreo = __webpack_require__(122);
 
 var _mexicoOreo2 = _interopRequireDefault(_mexicoOreo);
 
@@ -2937,11 +2940,11 @@ var _pipilet_male = __webpack_require__(4);
 
 var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
 
-var _brasil = __webpack_require__(113);
+var _brasil = __webpack_require__(115);
 
 var _brasil2 = _interopRequireDefault(_brasil);
 
-var _brasil3 = __webpack_require__(112);
+var _brasil3 = __webpack_require__(114);
 
 var _brasil4 = _interopRequireDefault(_brasil3);
 
@@ -3007,11 +3010,11 @@ var _pipilet_female = __webpack_require__(2);
 
 var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
 
-var _china = __webpack_require__(125);
+var _china = __webpack_require__(127);
 
 var _china2 = _interopRequireDefault(_china);
 
-var _china3 = __webpack_require__(126);
+var _china3 = __webpack_require__(128);
 
 var _china4 = _interopRequireDefault(_china3);
 
@@ -3077,11 +3080,11 @@ var _pipilet_female = __webpack_require__(2);
 
 var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
 
-var _india = __webpack_require__(127);
+var _india = __webpack_require__(129);
 
 var _india2 = _interopRequireDefault(_india);
 
-var _india3 = __webpack_require__(128);
+var _india3 = __webpack_require__(130);
 
 var _india4 = _interopRequireDefault(_india3);
 
@@ -3147,9 +3150,13 @@ var _pipilet_female = __webpack_require__(2);
 
 var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
 
-var _jordania = __webpack_require__(129);
+var _jordania = __webpack_require__(131);
 
 var _jordania2 = _interopRequireDefault(_jordania);
+
+var _jordania3 = __webpack_require__(132);
+
+var _jordania4 = _interopRequireDefault(_jordania3);
 
 var _pipiletCooker = __webpack_require__(1);
 
@@ -3163,7 +3170,7 @@ var _default = {
 	imagePipilet: _pipiletCooker2.default,
 	recipe: [{
 		title: 'Chamia',
-		// image: image,
+		image: _jordania2.default,
 		sectionIngredient: [{
 			title: 'Ingrédients:',
 			ingredient: ['Une tasse et demi de farine de maïs (375 ml).', 'Une tasse de sucre (250ml).', 'Six œufs.', '50 grammes de beurre.', 'Une petite cuillère de bicarbonate de soude.', 'Une demi-tasse de lait (125 ml).', 'Quelques gouttes de saveur vanille.', 'Quelques amandes pour décorer..']
@@ -3174,7 +3181,7 @@ var _default = {
 		}]
 	}, {
 		title: 'Booza',
-		image: _jordania2.default,
+		image: _jordania4.default,
 		sectionIngredient: [{
 			title: 'Ingrédients:',
 			ingredient: ['2 verres de farine de blé.', '2 verres d’eau.', '2 verres de sucre.', 'Gingembre ou cannelle suivant les gouts. Peut  être accompagné avec bonheur par quelques  noisettes grillées.']
@@ -3213,11 +3220,11 @@ var _pipilet_male = __webpack_require__(4);
 
 var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
 
-var _liban = __webpack_require__(130);
+var _liban = __webpack_require__(133);
 
 var _liban2 = _interopRequireDefault(_liban);
 
-var _liban3 = __webpack_require__(131);
+var _liban3 = __webpack_require__(134);
 
 var _liban4 = _interopRequireDefault(_liban3);
 
@@ -3283,11 +3290,11 @@ var _pipilet_female = __webpack_require__(2);
 
 var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
 
-var _arabia = __webpack_require__(123);
+var _arabia = __webpack_require__(125);
 
 var _arabia2 = _interopRequireDefault(_arabia);
 
-var _arabia3 = __webpack_require__(124);
+var _arabia3 = __webpack_require__(126);
 
 var _arabia4 = _interopRequireDefault(_arabia3);
 
@@ -3353,11 +3360,11 @@ var _pipilet_male = __webpack_require__(4);
 
 var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
 
-var _singapour = __webpack_require__(132);
+var _singapour = __webpack_require__(135);
 
 var _singapour2 = _interopRequireDefault(_singapour);
 
-var _singapour3 = __webpack_require__(133);
+var _singapour3 = __webpack_require__(136);
 
 var _singapour4 = _interopRequireDefault(_singapour3);
 
@@ -3476,7 +3483,7 @@ var _pipilet_female = __webpack_require__(2);
 
 var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
 
-var _english = __webpack_require__(134);
+var _english = __webpack_require__(137);
 
 var _english2 = _interopRequireDefault(_english);
 
@@ -3537,7 +3544,7 @@ var _pipilet_female = __webpack_require__(2);
 
 var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
 
-var _german = __webpack_require__(137);
+var _german = __webpack_require__(140);
 
 var _german2 = _interopRequireDefault(_german);
 
@@ -3598,11 +3605,11 @@ var _pipilet_female = __webpack_require__(2);
 
 var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
 
-var _spanish = __webpack_require__(144);
+var _spanish = __webpack_require__(147);
 
 var _spanish2 = _interopRequireDefault(_spanish);
 
-var _spanish3 = __webpack_require__(145);
+var _spanish3 = __webpack_require__(148);
 
 var _spanish4 = _interopRequireDefault(_spanish3);
 
@@ -3668,11 +3675,11 @@ var _pipilet_female = __webpack_require__(2);
 
 var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
 
-var _russia = __webpack_require__(140);
+var _russia = __webpack_require__(143);
 
 var _russia2 = _interopRequireDefault(_russia);
 
-var _russia3 = __webpack_require__(141);
+var _russia3 = __webpack_require__(144);
 
 var _russia4 = _interopRequireDefault(_russia3);
 
@@ -3738,11 +3745,11 @@ var _pipilet_male = __webpack_require__(4);
 
 var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
 
-var _italy = __webpack_require__(138);
+var _italy = __webpack_require__(141);
 
 var _italy2 = _interopRequireDefault(_italy);
 
-var _italy3 = __webpack_require__(139);
+var _italy3 = __webpack_require__(142);
 
 var _italy4 = _interopRequireDefault(_italy3);
 
@@ -3808,11 +3815,11 @@ var _pipilet_male = __webpack_require__(4);
 
 var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
 
-var _french = __webpack_require__(135);
+var _french = __webpack_require__(138);
 
 var _french2 = _interopRequireDefault(_french);
 
-var _french3 = __webpack_require__(136);
+var _french3 = __webpack_require__(139);
 
 var _french4 = _interopRequireDefault(_french3);
 
@@ -3878,11 +3885,11 @@ var _pipilet_female = __webpack_require__(2);
 
 var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
 
-var _serbia = __webpack_require__(142);
+var _serbia = __webpack_require__(145);
 
 var _serbia2 = _interopRequireDefault(_serbia);
 
-var _serbia3 = __webpack_require__(143);
+var _serbia3 = __webpack_require__(146);
 
 var _serbia4 = _interopRequireDefault(_serbia3);
 
@@ -3948,11 +3955,11 @@ var _pipilet_female = __webpack_require__(2);
 
 var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
 
-var _australie = __webpack_require__(146);
+var _australie = __webpack_require__(149);
 
 var _australie2 = _interopRequireDefault(_australie);
 
-var _australie3 = __webpack_require__(147);
+var _australie3 = __webpack_require__(150);
 
 var _australie4 = _interopRequireDefault(_australie3);
 
@@ -4018,7 +4025,7 @@ var _pipilet_male = __webpack_require__(4);
 
 var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
 
-var _vanuatu = __webpack_require__(148);
+var _vanuatu = __webpack_require__(151);
 
 var _vanuatu2 = _interopRequireDefault(_vanuatu);
 
@@ -4073,11 +4080,11 @@ var _pipilet_male = __webpack_require__(4);
 
 var _pipilet_male2 = _interopRequireDefault(_pipilet_male);
 
-var _zelande = __webpack_require__(149);
+var _zelande = __webpack_require__(152);
 
 var _zelande2 = _interopRequireDefault(_zelande);
 
-var _zelande3 = __webpack_require__(150);
+var _zelande3 = __webpack_require__(153);
 
 var _zelande4 = _interopRequireDefault(_zelande3);
 
@@ -4430,319 +4437,337 @@ module.exports = __webpack_require__.p + "jpg_benin.jpg";
 /* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_kenya.jpg";
+module.exports = __webpack_require__.p + "jpg_egypte.jpg";
 
 /***/ }),
 /* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_malagasy.jpg";
+module.exports = __webpack_require__.p + "jpg_egypte2.jpg";
 
 /***/ }),
 /* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_maroc.jpg";
+module.exports = __webpack_require__.p + "jpg_kenya.jpg";
 
 /***/ }),
 /* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_tunisie.jpg";
+module.exports = __webpack_require__.p + "jpg_malagasy.jpg";
 
 /***/ }),
 /* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_argentine.jpg";
+module.exports = __webpack_require__.p + "jpg_maroc.jpg";
 
 /***/ }),
 /* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_brasil-2.jpg";
+module.exports = __webpack_require__.p + "jpg_tunisie.jpg";
 
 /***/ }),
 /* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_brasil.jpg";
+module.exports = __webpack_require__.p + "jpg_argentine.jpg";
 
 /***/ }),
 /* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_canada.jpg";
+module.exports = __webpack_require__.p + "jpg_brasil-2.jpg";
 
 /***/ }),
 /* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_chilie.jpg";
+module.exports = __webpack_require__.p + "jpg_brasil.jpg";
 
 /***/ }),
 /* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_guyane.jpg";
+module.exports = __webpack_require__.p + "jpg_canada.jpg";
 
 /***/ }),
 /* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_haiti.jpg";
+module.exports = __webpack_require__.p + "jpg_chilie.jpg";
 
 /***/ }),
 /* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_haiti2.jpg";
+module.exports = __webpack_require__.p + "jpg_guyane.jpg";
 
 /***/ }),
 /* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_mexico-nutella.jpg";
+module.exports = __webpack_require__.p + "jpg_haiti.jpg";
 
 /***/ }),
 /* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_mexico-oreo.jpg";
+module.exports = __webpack_require__.p + "jpg_haiti2.jpg";
 
 /***/ }),
 /* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_usa1.jpg";
+module.exports = __webpack_require__.p + "jpg_mexico-nutella.jpg";
 
 /***/ }),
 /* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_usa2.jpg";
+module.exports = __webpack_require__.p + "jpg_mexico-oreo.jpg";
 
 /***/ }),
 /* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_arabia.jpg";
+module.exports = __webpack_require__.p + "jpg_usa1.jpg";
 
 /***/ }),
 /* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_arabia2.jpg";
+module.exports = __webpack_require__.p + "jpg_usa2.jpg";
 
 /***/ }),
 /* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_china.jpg";
+module.exports = __webpack_require__.p + "jpg_arabia.jpg";
 
 /***/ }),
 /* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_china2.jpg";
+module.exports = __webpack_require__.p + "jpg_arabia2.jpg";
 
 /***/ }),
 /* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_india.jpg";
+module.exports = __webpack_require__.p + "jpg_china.jpg";
 
 /***/ }),
 /* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_india2.jpg";
+module.exports = __webpack_require__.p + "jpg_china2.jpg";
 
 /***/ }),
 /* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_jordania2.jpg";
+module.exports = __webpack_require__.p + "jpg_india.jpg";
 
 /***/ }),
 /* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_liban.png";
+module.exports = __webpack_require__.p + "jpg_india2.jpg";
 
 /***/ }),
 /* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpeg_liban2.jpeg";
+module.exports = __webpack_require__.p + "jpg_jordania.jpg";
 
 /***/ }),
 /* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_singapour.jpg";
+module.exports = __webpack_require__.p + "jpg_jordania2.jpg";
 
 /***/ }),
 /* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_singapour2.jpg";
+module.exports = __webpack_require__.p + "png_liban.png";
 
 /***/ }),
 /* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_english.jpg";
+module.exports = __webpack_require__.p + "jpeg_liban2.jpeg";
 
 /***/ }),
 /* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_french.jpg";
+module.exports = __webpack_require__.p + "jpg_singapour.jpg";
 
 /***/ }),
 /* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_french2.jpg";
+module.exports = __webpack_require__.p + "jpg_singapour2.jpg";
 
 /***/ }),
 /* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_german.jpg";
+module.exports = __webpack_require__.p + "jpg_english.jpg";
 
 /***/ }),
 /* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_italy.jpg";
+module.exports = __webpack_require__.p + "jpg_french.jpg";
 
 /***/ }),
 /* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpeg_italy2.jpeg";
+module.exports = __webpack_require__.p + "jpg_french2.jpg";
 
 /***/ }),
 /* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_russia.jpg";
+module.exports = __webpack_require__.p + "jpg_german.jpg";
 
 /***/ }),
 /* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpeg_russia2.jpeg";
+module.exports = __webpack_require__.p + "jpg_italy.jpg";
 
 /***/ }),
 /* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_serbia.jpg";
+module.exports = __webpack_require__.p + "jpeg_italy2.jpeg";
 
 /***/ }),
 /* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_serbia2.jpg";
+module.exports = __webpack_require__.p + "jpg_russia.jpg";
 
 /***/ }),
 /* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_spanish.jpg";
+module.exports = __webpack_require__.p + "jpeg_russia2.jpeg";
 
 /***/ }),
 /* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpeg_spanish2.jpeg";
+module.exports = __webpack_require__.p + "jpg_serbia.jpg";
 
 /***/ }),
 /* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_australie.jpg";
+module.exports = __webpack_require__.p + "jpg_serbia2.jpg";
 
 /***/ }),
 /* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_australie2.jpg";
+module.exports = __webpack_require__.p + "jpg_spanish.jpg";
 
 /***/ }),
 /* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_vanuatu.jpg";
+module.exports = __webpack_require__.p + "jpeg_spanish2.jpeg";
 
 /***/ }),
 /* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_zelande.jpg";
+module.exports = __webpack_require__.p + "jpg_australie.jpg";
 
 /***/ }),
 /* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_zelande2.jpg";
+module.exports = __webpack_require__.p + "jpg_australie2.jpg";
 
 /***/ }),
 /* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_ghana.png";
+module.exports = __webpack_require__.p + "jpg_vanuatu.jpg";
 
 /***/ }),
 /* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_lebanon.jpg";
+module.exports = __webpack_require__.p + "jpg_zelande.jpg";
 
 /***/ }),
 /* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_south-africa.jpg";
+module.exports = __webpack_require__.p + "jpg_zelande2.jpg";
 
 /***/ }),
 /* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_tanzania.jpg";
+module.exports = __webpack_require__.p + "png_ghana.png";
 
 /***/ }),
 /* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_bike_big_draw_number.png";
+module.exports = __webpack_require__.p + "jpg_lebanon.jpg";
 
 /***/ }),
 /* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_bike_little_draw_number.png";
+module.exports = __webpack_require__.p + "jpg_south-africa.jpg";
 
 /***/ }),
 /* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_umbrella_big_draw_number.png";
+module.exports = __webpack_require__.p + "jpg_tanzania.jpg";
 
 /***/ }),
 /* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_umbrella_little_draw_number.png";
+module.exports = __webpack_require__.p + "png_bike_big_draw_number.png";
 
 /***/ }),
 /* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var root = __webpack_require__(571);
+module.exports = __webpack_require__.p + "png_bike_little_draw_number.png";
+
+/***/ }),
+/* 160 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "png_umbrella_big_draw_number.png";
+
+/***/ }),
+/* 161 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "png_umbrella_little_draw_number.png";
+
+/***/ }),
+/* 162 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var root = __webpack_require__(574);
 
 /** Built-in value references. */
 var Symbol = root.Symbol;
@@ -4751,7 +4776,7 @@ module.exports = Symbol;
 
 
 /***/ }),
-/* 160 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4762,7 +4787,7 @@ exports.wrapMapToPropsConstant = wrapMapToPropsConstant;
 exports.getDependsOnOwnProps = getDependsOnOwnProps;
 exports.wrapMapToPropsFunc = wrapMapToPropsFunc;
 
-var _verifyPlainObject = __webpack_require__(161);
+var _verifyPlainObject = __webpack_require__(164);
 
 var _verifyPlainObject2 = _interopRequireDefault(_verifyPlainObject);
 
@@ -4835,7 +4860,7 @@ function wrapMapToPropsFunc(mapToProps, methodName) {
 }
 
 /***/ }),
-/* 161 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4844,11 +4869,11 @@ function wrapMapToPropsFunc(mapToProps, methodName) {
 exports.__esModule = true;
 exports.default = verifyPlainObject;
 
-var _isPlainObject = __webpack_require__(573);
+var _isPlainObject = __webpack_require__(576);
 
 var _isPlainObject2 = _interopRequireDefault(_isPlainObject);
 
-var _warning = __webpack_require__(162);
+var _warning = __webpack_require__(165);
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -4861,7 +4886,7 @@ function verifyPlainObject(value, displayName, methodName) {
 }
 
 /***/ }),
-/* 162 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4892,7 +4917,7 @@ function warning(message) {
 }
 
 /***/ }),
-/* 163 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4923,7 +4948,7 @@ var route = exports.route = (0, _propTypes.oneOfType)([_propTypes.object, _propT
 var routes = exports.routes = (0, _propTypes.oneOfType)([route, (0, _propTypes.arrayOf)(route)]);
 
 /***/ }),
-/* 164 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5022,7 +5047,7 @@ function createRoutes(routes) {
 }
 
 /***/ }),
-/* 165 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5034,7 +5059,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _redux = __webpack_require__(21);
 
-var _chooseLanguage = __webpack_require__(182);
+var _chooseLanguage = __webpack_require__(185);
 
 var _chooseLanguage2 = _interopRequireDefault(_chooseLanguage);
 
@@ -5058,7 +5083,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 166 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5072,67 +5097,67 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Route = __webpack_require__(586);
+var _Route = __webpack_require__(589);
 
 var _Route2 = _interopRequireDefault(_Route);
 
-var _IndexRoute = __webpack_require__(584);
+var _IndexRoute = __webpack_require__(587);
 
 var _IndexRoute2 = _interopRequireDefault(_IndexRoute);
 
-var _appContainer = __webpack_require__(183);
+var _appContainer = __webpack_require__(186);
 
 var _appContainer2 = _interopRequireDefault(_appContainer);
 
-var _homePage = __webpack_require__(198);
+var _homePage = __webpack_require__(201);
 
 var _homePage2 = _interopRequireDefault(_homePage);
 
-var _songPage = __webpack_require__(210);
+var _songPage = __webpack_require__(213);
 
 var _songPage2 = _interopRequireDefault(_songPage);
 
-var _lyricsPage = __webpack_require__(205);
+var _lyricsPage = __webpack_require__(208);
 
 var _lyricsPage2 = _interopRequireDefault(_lyricsPage);
 
-var _colorNumberPage = __webpack_require__(186);
+var _colorNumberPage = __webpack_require__(189);
 
 var _colorNumberPage2 = _interopRequireDefault(_colorNumberPage);
 
-var _translatedNumberPage = __webpack_require__(228);
+var _translatedNumberPage = __webpack_require__(231);
 
 var _translatedNumberPage2 = _interopRequireDefault(_translatedNumberPage);
 
-var _numberPage = __webpack_require__(206);
+var _numberPage = __webpack_require__(209);
 
 var _numberPage2 = _interopRequireDefault(_numberPage);
 
-var _colorPage = __webpack_require__(187);
+var _colorPage = __webpack_require__(190);
 
 var _colorPage2 = _interopRequireDefault(_colorPage);
 
-var _translatedColorPage = __webpack_require__(219);
+var _translatedColorPage = __webpack_require__(222);
 
 var _translatedColorPage2 = _interopRequireDefault(_translatedColorPage);
 
-var _cookPage = __webpack_require__(190);
+var _cookPage = __webpack_require__(193);
 
 var _cookPage2 = _interopRequireDefault(_cookPage);
 
-var _chooseCountryCook = __webpack_require__(184);
+var _chooseCountryCook = __webpack_require__(187);
 
 var _chooseCountryCook2 = _interopRequireDefault(_chooseCountryCook);
 
-var _displayRecipe = __webpack_require__(195);
+var _displayRecipe = __webpack_require__(198);
 
 var _displayRecipe2 = _interopRequireDefault(_displayRecipe);
 
-var _presentationPage = __webpack_require__(207);
+var _presentationPage = __webpack_require__(210);
 
 var _presentationPage2 = _interopRequireDefault(_presentationPage);
 
-var _whoWeAre = __webpack_require__(229);
+var _whoWeAre = __webpack_require__(232);
 
 var _whoWeAre2 = _interopRequireDefault(_whoWeAre);
 
@@ -5171,13 +5196,13 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 167 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(__dirname) {
 
-var path = __webpack_require__(589);
+var path = __webpack_require__(592);
 var webpack = __webpack_require__(55);
 
 module.exports = {
@@ -5246,43 +5271,43 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, ""))
 
 /***/ }),
-/* 168 */
+/* 171 */
 /***/ (function(module, exports) {
 
 module.exports = require("express");
 
 /***/ }),
-/* 169 */
+/* 172 */
 /***/ (function(module, exports) {
 
 module.exports = require("express-http-to-https");
 
 /***/ }),
-/* 170 */
+/* 173 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom/server");
 
 /***/ }),
-/* 171 */
+/* 174 */
 /***/ (function(module, exports) {
 
 module.exports = require("redux-logger");
 
 /***/ }),
-/* 172 */
+/* 175 */
 /***/ (function(module, exports) {
 
 module.exports = require("webpack-dev-middleware");
 
 /***/ }),
-/* 173 */
+/* 176 */
 /***/ (function(module, exports) {
 
 module.exports = require("webpack-hot-middleware");
 
 /***/ }),
-/* 174 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5292,7 +5317,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _express = __webpack_require__(168);
+var _express = __webpack_require__(171);
 
 var _express2 = _interopRequireDefault(_express);
 
@@ -5300,31 +5325,31 @@ var _webpack = __webpack_require__(55);
 
 var _webpack2 = _interopRequireDefault(_webpack);
 
-var _webpackDevClient = __webpack_require__(167);
+var _webpackDevClient = __webpack_require__(170);
 
 var _webpackDevClient2 = _interopRequireDefault(_webpackDevClient);
 
-var _server = __webpack_require__(170);
+var _server = __webpack_require__(173);
 
 var _redux = __webpack_require__(21);
 
 var _reactRouter = __webpack_require__(20);
 
-var _index = __webpack_require__(166);
+var _index = __webpack_require__(169);
 
 var _index2 = _interopRequireDefault(_index);
 
-var _reducers = __webpack_require__(165);
+var _reducers = __webpack_require__(168);
 
 var _reducers2 = _interopRequireDefault(_reducers);
 
 var _reactRedux = __webpack_require__(6);
 
-var _reduxLogger = __webpack_require__(171);
+var _reduxLogger = __webpack_require__(174);
 
 var _reduxLogger2 = _interopRequireDefault(_reduxLogger);
 
-var _expressHttpToHttps = __webpack_require__(169);
+var _expressHttpToHttps = __webpack_require__(172);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -5336,11 +5361,11 @@ var style = '';
 
 console.log('process.env.NODE_ENV ------> ', process.env.NODE_ENV);
 if (process.env.NODE_ENV == 'development') {
-	app.use(__webpack_require__(172)(compiler, {
+	app.use(__webpack_require__(175)(compiler, {
 		noInfo: true
 	}));
 
-	app.use(__webpack_require__(173)(compiler));
+	app.use(__webpack_require__(176)(compiler));
 } else {
 	style = '<link rel="stylesheet" type="text/css" href="/styles.min.css">';
 }
@@ -5405,7 +5430,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 175 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5437,7 +5462,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 176 */
+/* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5499,7 +5524,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 177 */
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5546,7 +5571,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 178 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5564,27 +5589,27 @@ var _connect = __webpack_require__(12);
 
 var _connect2 = _interopRequireDefault(_connect);
 
-var _websiteLanguage = __webpack_require__(175);
+var _websiteLanguage = __webpack_require__(178);
 
-__webpack_require__(323);
+__webpack_require__(326);
 
-var _simpleItem = __webpack_require__(177);
+var _simpleItem = __webpack_require__(180);
 
 var _simpleItem2 = _interopRequireDefault(_simpleItem);
 
-var _dropdown = __webpack_require__(176);
+var _dropdown = __webpack_require__(179);
 
 var _dropdown2 = _interopRequireDefault(_dropdown);
 
-var _french_nav = __webpack_require__(375);
+var _french_nav = __webpack_require__(378);
 
 var _french_nav2 = _interopRequireDefault(_french_nav);
 
-var _english_nav = __webpack_require__(374);
+var _english_nav = __webpack_require__(377);
 
 var _english_nav2 = _interopRequireDefault(_english_nav);
 
-var _spanish_nav = __webpack_require__(395);
+var _spanish_nav = __webpack_require__(398);
 
 var _spanish_nav2 = _interopRequireDefault(_spanish_nav);
 
@@ -5671,7 +5696,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 179 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5689,7 +5714,7 @@ var _Link = __webpack_require__(10);
 
 var _Link2 = _interopRequireDefault(_Link);
 
-__webpack_require__(324);
+__webpack_require__(327);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -5749,7 +5774,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 180 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5778,7 +5803,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 181 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5810,7 +5835,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 182 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5824,7 +5849,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 exports.default = ChooseLanguage;
 
-var _websiteLanguages = __webpack_require__(318);
+var _websiteLanguages = __webpack_require__(321);
 
 var _websiteLanguages2 = _interopRequireDefault(_websiteLanguages);
 
@@ -5873,7 +5898,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 183 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5891,15 +5916,15 @@ var _connect = __webpack_require__(12);
 
 var _connect2 = _interopRequireDefault(_connect);
 
-var _navbar = __webpack_require__(178);
+var _navbar = __webpack_require__(181);
 
 var _navbar2 = _interopRequireDefault(_navbar);
 
-var _sidebar = __webpack_require__(179);
+var _sidebar = __webpack_require__(182);
 
 var _sidebar2 = _interopRequireDefault(_sidebar);
 
-__webpack_require__(325);
+__webpack_require__(328);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -5945,7 +5970,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 184 */
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5961,11 +5986,11 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRedux = __webpack_require__(6);
 
-var _displayCountry = __webpack_require__(185);
+var _displayCountry = __webpack_require__(188);
 
 var _displayCountry2 = _interopRequireDefault(_displayCountry);
 
-__webpack_require__(326);
+__webpack_require__(329);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -6017,7 +6042,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 185 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6078,7 +6103,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 186 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6112,7 +6137,7 @@ var _headerPage = __webpack_require__(15);
 
 var _headerPage2 = _interopRequireDefault(_headerPage);
 
-__webpack_require__(327);
+__webpack_require__(330);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -6179,7 +6204,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 187 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6209,7 +6234,7 @@ var _footer = __webpack_require__(7);
 
 var _footer2 = _interopRequireDefault(_footer);
 
-__webpack_require__(328);
+__webpack_require__(331);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -6253,7 +6278,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 188 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6296,7 +6321,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 189 */
+/* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6368,7 +6393,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 190 */
+/* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6392,11 +6417,11 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _description = __webpack_require__(188);
+var _description = __webpack_require__(191);
 
 var _description2 = _interopRequireDefault(_description);
 
-var _map = __webpack_require__(189);
+var _map = __webpack_require__(192);
 
 var _map2 = _interopRequireDefault(_map);
 
@@ -6404,11 +6429,11 @@ var _footer = __webpack_require__(7);
 
 var _footer2 = _interopRequireDefault(_footer);
 
-var _map3 = __webpack_require__(408);
+var _map3 = __webpack_require__(411);
 
 var _map4 = _interopRequireDefault(_map3);
 
-__webpack_require__(329);
+__webpack_require__(332);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -6449,7 +6474,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 191 */
+/* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6515,7 +6540,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 192 */
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6610,7 +6635,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 193 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6674,7 +6699,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 194 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6688,11 +6713,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ingredient = __webpack_require__(192);
+var _ingredient = __webpack_require__(195);
 
 var _ingredient2 = _interopRequireDefault(_ingredient);
 
-var _preparation = __webpack_require__(193);
+var _preparation = __webpack_require__(196);
 
 var _preparation2 = _interopRequireDefault(_preparation);
 
@@ -6741,7 +6766,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 195 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6757,15 +6782,15 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRedux = __webpack_require__(6);
 
-var _headerRecipe = __webpack_require__(191);
+var _headerRecipe = __webpack_require__(194);
 
 var _headerRecipe2 = _interopRequireDefault(_headerRecipe);
 
-var _recipe = __webpack_require__(194);
+var _recipe = __webpack_require__(197);
 
 var _recipe2 = _interopRequireDefault(_recipe);
 
-__webpack_require__(330);
+__webpack_require__(333);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -6813,7 +6838,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 196 */
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6857,7 +6882,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 197 */
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6871,11 +6896,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _familyOwls = __webpack_require__(409);
+var _familyOwls = __webpack_require__(412);
 
 var _familyOwls2 = _interopRequireDefault(_familyOwls);
 
-var _pipiletHorizontal = __webpack_require__(411);
+var _pipiletHorizontal = __webpack_require__(414);
 
 var _pipiletHorizontal2 = _interopRequireDefault(_pipiletHorizontal);
 
@@ -6915,7 +6940,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 198 */
+/* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6933,19 +6958,19 @@ var _footer = __webpack_require__(7);
 
 var _footer2 = _interopRequireDefault(_footer);
 
-var _headerTitle = __webpack_require__(197);
+var _headerTitle = __webpack_require__(200);
 
 var _headerTitle2 = _interopRequireDefault(_headerTitle);
 
-var _displayImage = __webpack_require__(196);
+var _displayImage = __webpack_require__(199);
 
 var _displayImage2 = _interopRequireDefault(_displayImage);
 
-var _family = __webpack_require__(410);
+var _family = __webpack_require__(413);
 
 var _family2 = _interopRequireDefault(_family);
 
-__webpack_require__(331);
+__webpack_require__(334);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -6977,7 +7002,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 199 */
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6995,7 +7020,7 @@ var _iconDownload = __webpack_require__(16);
 
 var _iconDownload2 = _interopRequireDefault(_iconDownload);
 
-__webpack_require__(332);
+__webpack_require__(335);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -7063,7 +7088,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 200 */
+/* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7077,7 +7102,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(333);
+__webpack_require__(336);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -7124,7 +7149,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 201 */
+/* 204 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7200,7 +7225,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 202 */
+/* 205 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7214,11 +7239,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _displayLyrics = __webpack_require__(201);
+var _displayLyrics = __webpack_require__(204);
 
 var _displayLyrics2 = _interopRequireDefault(_displayLyrics);
 
-__webpack_require__(334);
+__webpack_require__(337);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -7258,7 +7283,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 203 */
+/* 206 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7272,7 +7297,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(335);
+__webpack_require__(338);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -7303,7 +7328,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 204 */
+/* 207 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7317,7 +7342,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactYoutube = __webpack_require__(590);
+var _reactYoutube = __webpack_require__(593);
 
 var _reactYoutube2 = _interopRequireDefault(_reactYoutube);
 
@@ -7325,7 +7350,7 @@ var _pipiletSong = __webpack_require__(52);
 
 var _pipiletSong2 = _interopRequireDefault(_pipiletSong);
 
-__webpack_require__(336);
+__webpack_require__(339);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -7371,7 +7396,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 205 */
+/* 208 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7387,23 +7412,23 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRedux = __webpack_require__(6);
 
-var _header = __webpack_require__(199);
+var _header = __webpack_require__(202);
 
 var _header2 = _interopRequireDefault(_header);
 
-var _lyrics = __webpack_require__(202);
+var _lyrics = __webpack_require__(205);
 
 var _lyrics2 = _interopRequireDefault(_lyrics);
 
-var _videoYoutube = __webpack_require__(204);
+var _videoYoutube = __webpack_require__(207);
 
 var _videoYoutube2 = _interopRequireDefault(_videoYoutube);
 
-var _informationSong = __webpack_require__(200);
+var _informationSong = __webpack_require__(203);
 
 var _informationSong2 = _interopRequireDefault(_informationSong);
 
-var _sheet = __webpack_require__(203);
+var _sheet = __webpack_require__(206);
 
 var _sheet2 = _interopRequireDefault(_sheet);
 
@@ -7469,7 +7494,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 206 */
+/* 209 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7499,7 +7524,7 @@ var _footer = __webpack_require__(7);
 
 var _footer2 = _interopRequireDefault(_footer);
 
-__webpack_require__(337);
+__webpack_require__(340);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -7543,7 +7568,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 207 */
+/* 210 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7559,7 +7584,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRedux = __webpack_require__(6);
 
-__webpack_require__(338);
+__webpack_require__(341);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -7602,7 +7627,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 208 */
+/* 211 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7620,11 +7645,11 @@ var _Link = __webpack_require__(10);
 
 var _Link2 = _interopRequireDefault(_Link);
 
-var _earthSnow = __webpack_require__(412);
+var _earthSnow = __webpack_require__(415);
 
 var _earthSnow2 = _interopRequireDefault(_earthSnow);
 
-__webpack_require__(339);
+__webpack_require__(342);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -7676,7 +7701,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 209 */
+/* 212 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7694,23 +7719,23 @@ var _Link = __webpack_require__(10);
 
 var _Link2 = _interopRequireDefault(_Link);
 
-var _note = __webpack_require__(376);
+var _note = __webpack_require__(379);
 
 var _note2 = _interopRequireDefault(_note);
 
-var _note3 = __webpack_require__(377);
+var _note3 = __webpack_require__(380);
 
 var _note4 = _interopRequireDefault(_note3);
 
-var _note5 = __webpack_require__(378);
+var _note5 = __webpack_require__(381);
 
 var _note6 = _interopRequireDefault(_note5);
 
-var _note7 = __webpack_require__(379);
+var _note7 = __webpack_require__(382);
 
 var _note8 = _interopRequireDefault(_note7);
 
-__webpack_require__(340);
+__webpack_require__(343);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -7860,7 +7885,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 210 */
+/* 213 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7888,11 +7913,11 @@ var _footer = __webpack_require__(7);
 
 var _footer2 = _interopRequireDefault(_footer);
 
-var _displayLanguage = __webpack_require__(209);
+var _displayLanguage = __webpack_require__(212);
 
 var _displayLanguage2 = _interopRequireDefault(_displayLanguage);
 
-var _chooseFlag = __webpack_require__(208);
+var _chooseFlag = __webpack_require__(211);
 
 var _chooseFlag2 = _interopRequireDefault(_chooseFlag);
 
@@ -7941,7 +7966,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 211 */
+/* 214 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7986,7 +8011,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 212 */
+/* 215 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8049,7 +8074,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 213 */
+/* 216 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8129,7 +8154,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 214 */
+/* 217 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8143,11 +8168,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _listWord = __webpack_require__(213);
+var _listWord = __webpack_require__(216);
 
 var _listWord2 = _interopRequireDefault(_listWord);
 
-var _gridWord = __webpack_require__(212);
+var _gridWord = __webpack_require__(215);
 
 var _gridWord2 = _interopRequireDefault(_gridWord);
 
@@ -8198,7 +8223,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 215 */
+/* 218 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8212,11 +8237,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _motCroise = __webpack_require__(214);
+var _motCroise = __webpack_require__(217);
 
 var _motCroise2 = _interopRequireDefault(_motCroise);
 
-__webpack_require__(341);
+__webpack_require__(344);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -8253,7 +8278,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 216 */
+/* 219 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8271,7 +8296,7 @@ var _pipiletNumberColor = __webpack_require__(14);
 
 var _pipiletNumberColor2 = _interopRequireDefault(_pipiletNumberColor);
 
-var _pipiletHorizontal = __webpack_require__(394);
+var _pipiletHorizontal = __webpack_require__(397);
 
 var _pipiletHorizontal2 = _interopRequireDefault(_pipiletHorizontal);
 
@@ -8353,7 +8378,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 217 */
+/* 220 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8442,7 +8467,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 218 */
+/* 221 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8456,47 +8481,47 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _table = __webpack_require__(217);
+var _table = __webpack_require__(220);
 
 var _table2 = _interopRequireDefault(_table);
 
-var _black = __webpack_require__(349);
+var _black = __webpack_require__(352);
 
 var _black2 = _interopRequireDefault(_black);
 
-var _blue = __webpack_require__(350);
+var _blue = __webpack_require__(353);
 
 var _blue2 = _interopRequireDefault(_blue);
 
-var _brown = __webpack_require__(352);
+var _brown = __webpack_require__(355);
 
 var _brown2 = _interopRequireDefault(_brown);
 
-var _green = __webpack_require__(358);
+var _green = __webpack_require__(361);
 
 var _green2 = _interopRequireDefault(_green);
 
-var _orange = __webpack_require__(362);
+var _orange = __webpack_require__(365);
 
 var _orange2 = _interopRequireDefault(_orange);
 
-var _pink = __webpack_require__(363);
+var _pink = __webpack_require__(366);
 
 var _pink2 = _interopRequireDefault(_pink);
 
-var _purple = __webpack_require__(364);
+var _purple = __webpack_require__(367);
 
 var _purple2 = _interopRequireDefault(_purple);
 
-var _red = __webpack_require__(365);
+var _red = __webpack_require__(368);
 
 var _red2 = _interopRequireDefault(_red);
 
-var _white = __webpack_require__(372);
+var _white = __webpack_require__(375);
 
 var _white2 = _interopRequireDefault(_white);
 
-var _yellow = __webpack_require__(373);
+var _yellow = __webpack_require__(376);
 
 var _yellow2 = _interopRequireDefault(_yellow);
 
@@ -8543,7 +8568,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 219 */
+/* 222 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8559,27 +8584,27 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRedux = __webpack_require__(6);
 
-var _color = __webpack_require__(230);
+var _color = __webpack_require__(233);
 
 var _color2 = _interopRequireDefault(_color);
 
-var _header = __webpack_require__(216);
+var _header = __webpack_require__(219);
 
 var _header2 = _interopRequireDefault(_header);
 
-var _table = __webpack_require__(218);
+var _table = __webpack_require__(221);
 
 var _table2 = _interopRequireDefault(_table);
 
-var _game = __webpack_require__(215);
+var _game = __webpack_require__(218);
 
 var _game2 = _interopRequireDefault(_game);
 
-var _drawing = __webpack_require__(211);
+var _drawing = __webpack_require__(214);
 
 var _drawing2 = _interopRequireDefault(_drawing);
 
-__webpack_require__(342);
+__webpack_require__(345);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -8650,7 +8675,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 220 */
+/* 223 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8664,7 +8689,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _bookNumber = __webpack_require__(414);
+var _bookNumber = __webpack_require__(417);
 
 var _bookNumber2 = _interopRequireDefault(_bookNumber);
 
@@ -8716,7 +8741,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 221 */
+/* 224 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8759,7 +8784,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 222 */
+/* 225 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8825,7 +8850,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 223 */
+/* 226 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8898,7 +8923,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 224 */
+/* 227 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8912,7 +8937,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _handWriteLogo = __webpack_require__(413);
+var _handWriteLogo = __webpack_require__(416);
 
 var _handWriteLogo2 = _interopRequireDefault(_handWriteLogo);
 
@@ -8943,7 +8968,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 225 */
+/* 228 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9034,7 +9059,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 226 */
+/* 229 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9107,7 +9132,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 227 */
+/* 230 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9121,27 +9146,27 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _firstTable = __webpack_require__(222);
+var _firstTable = __webpack_require__(225);
 
 var _firstTable2 = _interopRequireDefault(_firstTable);
 
-var _secondTable = __webpack_require__(225);
+var _secondTable = __webpack_require__(228);
 
 var _secondTable2 = _interopRequireDefault(_secondTable);
 
-var _thirdTable = __webpack_require__(226);
+var _thirdTable = __webpack_require__(229);
 
 var _thirdTable2 = _interopRequireDefault(_thirdTable);
 
-var _fourTable = __webpack_require__(223);
+var _fourTable = __webpack_require__(226);
 
 var _fourTable2 = _interopRequireDefault(_fourTable);
 
-var _handWriteLogo = __webpack_require__(224);
+var _handWriteLogo = __webpack_require__(227);
 
 var _handWriteLogo2 = _interopRequireDefault(_handWriteLogo);
 
-var _bigDraw = __webpack_require__(221);
+var _bigDraw = __webpack_require__(224);
 
 var _bigDraw2 = _interopRequireDefault(_bigDraw);
 
@@ -9186,7 +9211,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 228 */
+/* 231 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9202,19 +9227,19 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRedux = __webpack_require__(6);
 
-var _number = __webpack_require__(269);
+var _number = __webpack_require__(272);
 
 var _number2 = _interopRequireDefault(_number);
 
-var _header = __webpack_require__(220);
+var _header = __webpack_require__(223);
 
 var _header2 = _interopRequireDefault(_header);
 
-var _table = __webpack_require__(227);
+var _table = __webpack_require__(230);
 
 var _table2 = _interopRequireDefault(_table);
 
-__webpack_require__(343);
+__webpack_require__(346);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -9260,7 +9285,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 229 */
+/* 232 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9309,7 +9334,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 230 */
+/* 233 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9397,7 +9422,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 231 */
+/* 234 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9415,11 +9440,11 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _usa = __webpack_require__(121);
+var _usa = __webpack_require__(123);
 
 var _usa2 = _interopRequireDefault(_usa);
 
-var _usa3 = __webpack_require__(122);
+var _usa3 = __webpack_require__(124);
 
 var _usa4 = _interopRequireDefault(_usa3);
 
@@ -9468,7 +9493,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 232 */
+/* 235 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9539,7 +9564,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 233 */
+/* 236 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9595,7 +9620,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 234 */
+/* 237 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9609,6 +9634,14 @@ var _pipilet_female = __webpack_require__(2);
 
 var _pipilet_female2 = _interopRequireDefault(_pipilet_female);
 
+var _egypte = __webpack_require__(107);
+
+var _egypte2 = _interopRequireDefault(_egypte);
+
+var _egypte3 = __webpack_require__(108);
+
+var _egypte4 = _interopRequireDefault(_egypte3);
+
 var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
@@ -9621,7 +9654,7 @@ var _default = {
 	imagePipilet: _pipiletCooker2.default,
 	recipe: [{
 		title: 'GUZEYA',
-		// image: image,
+		image: _egypte2.default,
 		sectionIngredient: [{
 			title: 'Ingredientes:',
 			ingredient: ['1 vaso de coco rallado', '1 vaso de azúcar', 'Clara de 2 huevos', 'Esencia de vainilla', 'Mantequilla en cantidad necesaria.', 'Aceite en cantidad necesaria.']
@@ -9632,7 +9665,7 @@ var _default = {
 		}]
 	}, {
 		title: 'Arroz con leche y frutos secos',
-		// image: image,
+		image: _egypte4.default,
 		sectionIngredient: [{
 			title: 'Ingredientes:',
 			ingredient: ['2 vasos de arroz', '1 vaso de azúcar', '1 vaso de leche', '1 cucharada grande de aceite', 'Frutos secos machacados']
@@ -9657,7 +9690,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 235 */
+/* 238 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9675,7 +9708,7 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _kenya = __webpack_require__(107);
+var _kenya = __webpack_require__(109);
 
 var _kenya2 = _interopRequireDefault(_kenya);
 
@@ -9713,7 +9746,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 236 */
+/* 239 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9731,7 +9764,7 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _malagasy = __webpack_require__(108);
+var _malagasy = __webpack_require__(110);
 
 var _malagasy2 = _interopRequireDefault(_malagasy);
 
@@ -9769,7 +9802,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 237 */
+/* 240 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9787,7 +9820,7 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _maroc = __webpack_require__(109);
+var _maroc = __webpack_require__(111);
 
 var _maroc2 = _interopRequireDefault(_maroc);
 
@@ -9836,7 +9869,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 238 */
+/* 241 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9854,7 +9887,7 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _tunisie = __webpack_require__(110);
+var _tunisie = __webpack_require__(112);
 
 var _tunisie2 = _interopRequireDefault(_tunisie);
 
@@ -9892,7 +9925,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 239 */
+/* 242 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9910,7 +9943,7 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _argentine = __webpack_require__(111);
+var _argentine = __webpack_require__(113);
 
 var _argentine2 = _interopRequireDefault(_argentine);
 
@@ -9948,7 +9981,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 240 */
+/* 243 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9966,11 +9999,11 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _brasil = __webpack_require__(113);
+var _brasil = __webpack_require__(115);
 
 var _brasil2 = _interopRequireDefault(_brasil);
 
-var _brasil3 = __webpack_require__(112);
+var _brasil3 = __webpack_require__(114);
 
 var _brasil4 = _interopRequireDefault(_brasil3);
 
@@ -10019,7 +10052,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 241 */
+/* 244 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10037,7 +10070,7 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _canada = __webpack_require__(114);
+var _canada = __webpack_require__(116);
 
 var _canada2 = _interopRequireDefault(_canada);
 
@@ -10075,7 +10108,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 242 */
+/* 245 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10093,7 +10126,7 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _chilie = __webpack_require__(115);
+var _chilie = __webpack_require__(117);
 
 var _chilie2 = _interopRequireDefault(_chilie);
 
@@ -10134,7 +10167,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 243 */
+/* 246 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10152,7 +10185,7 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _guyane = __webpack_require__(116);
+var _guyane = __webpack_require__(118);
 
 var _guyane2 = _interopRequireDefault(_guyane);
 
@@ -10189,7 +10222,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 244 */
+/* 247 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10207,11 +10240,11 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _haiti = __webpack_require__(117);
+var _haiti = __webpack_require__(119);
 
 var _haiti2 = _interopRequireDefault(_haiti);
 
-var _haiti3 = __webpack_require__(118);
+var _haiti3 = __webpack_require__(120);
 
 var _haiti4 = _interopRequireDefault(_haiti3);
 
@@ -10259,7 +10292,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 245 */
+/* 248 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10277,11 +10310,11 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _mexicoNutella = __webpack_require__(119);
+var _mexicoNutella = __webpack_require__(121);
 
 var _mexicoNutella2 = _interopRequireDefault(_mexicoNutella);
 
-var _mexicoOreo = __webpack_require__(120);
+var _mexicoOreo = __webpack_require__(122);
 
 var _mexicoOreo2 = _interopRequireDefault(_mexicoOreo);
 
@@ -10330,7 +10363,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 246 */
+/* 249 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10348,11 +10381,11 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _usa = __webpack_require__(121);
+var _usa = __webpack_require__(123);
 
 var _usa2 = _interopRequireDefault(_usa);
 
-var _usa3 = __webpack_require__(122);
+var _usa3 = __webpack_require__(124);
 
 var _usa4 = _interopRequireDefault(_usa3);
 
@@ -10401,7 +10434,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 247 */
+/* 250 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10419,11 +10452,11 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _arabia = __webpack_require__(123);
+var _arabia = __webpack_require__(125);
 
 var _arabia2 = _interopRequireDefault(_arabia);
 
-var _arabia3 = __webpack_require__(124);
+var _arabia3 = __webpack_require__(126);
 
 var _arabia4 = _interopRequireDefault(_arabia3);
 
@@ -10472,7 +10505,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 248 */
+/* 251 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10490,11 +10523,11 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _china = __webpack_require__(125);
+var _china = __webpack_require__(127);
 
 var _china2 = _interopRequireDefault(_china);
 
-var _china3 = __webpack_require__(126);
+var _china3 = __webpack_require__(128);
 
 var _china4 = _interopRequireDefault(_china3);
 
@@ -10543,7 +10576,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 249 */
+/* 252 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10561,11 +10594,11 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _india = __webpack_require__(127);
+var _india = __webpack_require__(129);
 
 var _india2 = _interopRequireDefault(_india);
 
-var _india3 = __webpack_require__(128);
+var _india3 = __webpack_require__(130);
 
 var _india4 = _interopRequireDefault(_india3);
 
@@ -10614,7 +10647,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 250 */
+/* 253 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10632,9 +10665,13 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _jordania = __webpack_require__(129);
+var _jordania = __webpack_require__(131);
 
 var _jordania2 = _interopRequireDefault(_jordania);
+
+var _jordania3 = __webpack_require__(132);
+
+var _jordania4 = _interopRequireDefault(_jordania3);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -10644,8 +10681,7 @@ var _default = {
 	imagePipilet: _pipiletCooker2.default,
 	recipe: [{
 		title: 'Chamia',
-
-		// image: image,
+		image: _jordania2.default,
 		sectionIngredient: [{
 			title: 'Ingredientes:',
 			ingredient: ['Una taza y media de harina de maíz.', 'Una taza de azúcar.', 'Seis huevos.', '50 gramos de mantequilla.', 'Una cucharadita de bicarbonato de sodio.', 'Media taza de leche.', 'Gotas de esencia de vainilla.', 'Almendras para adornar.']
@@ -10656,7 +10692,7 @@ var _default = {
 		}]
 	}, {
 		title: 'Booza',
-		image: _jordania2.default,
+		image: _jordania4.default,
 		sectionIngredient: [{
 			title: 'Ingredientes:',
 			ingredient: ['2 vasos de trigo molido muy fino.', '2 vasos de agua.', '2 vasos de azúcar.', 'Jenjibre ó canela según te guste y también puedes acompañarla con avellanas tostadas por encima.']
@@ -10681,7 +10717,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 251 */
+/* 254 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10699,11 +10735,11 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _liban = __webpack_require__(130);
+var _liban = __webpack_require__(133);
 
 var _liban2 = _interopRequireDefault(_liban);
 
-var _liban3 = __webpack_require__(131);
+var _liban3 = __webpack_require__(134);
 
 var _liban4 = _interopRequireDefault(_liban3);
 
@@ -10752,7 +10788,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 252 */
+/* 255 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10770,11 +10806,11 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _singapour = __webpack_require__(132);
+var _singapour = __webpack_require__(135);
 
 var _singapour2 = _interopRequireDefault(_singapour);
 
-var _singapour3 = __webpack_require__(133);
+var _singapour3 = __webpack_require__(136);
 
 var _singapour4 = _interopRequireDefault(_singapour3);
 
@@ -10823,7 +10859,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 253 */
+/* 256 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10875,7 +10911,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 254 */
+/* 257 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10893,7 +10929,7 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _english = __webpack_require__(134);
+var _english = __webpack_require__(137);
 
 var _english2 = _interopRequireDefault(_english);
 
@@ -10931,7 +10967,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 255 */
+/* 258 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10949,11 +10985,11 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _french = __webpack_require__(135);
+var _french = __webpack_require__(138);
 
 var _french2 = _interopRequireDefault(_french);
 
-var _french3 = __webpack_require__(136);
+var _french3 = __webpack_require__(139);
 
 var _french4 = _interopRequireDefault(_french3);
 
@@ -11002,7 +11038,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 256 */
+/* 259 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11020,7 +11056,7 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _german = __webpack_require__(137);
+var _german = __webpack_require__(140);
 
 var _german2 = _interopRequireDefault(_german);
 
@@ -11064,7 +11100,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 257 */
+/* 260 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11082,11 +11118,11 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _italy = __webpack_require__(138);
+var _italy = __webpack_require__(141);
 
 var _italy2 = _interopRequireDefault(_italy);
 
-var _italy3 = __webpack_require__(139);
+var _italy3 = __webpack_require__(142);
 
 var _italy4 = _interopRequireDefault(_italy3);
 
@@ -11134,7 +11170,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 258 */
+/* 261 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11152,11 +11188,11 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _russia = __webpack_require__(140);
+var _russia = __webpack_require__(143);
 
 var _russia2 = _interopRequireDefault(_russia);
 
-var _russia3 = __webpack_require__(141);
+var _russia3 = __webpack_require__(144);
 
 var _russia4 = _interopRequireDefault(_russia3);
 
@@ -11205,7 +11241,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 259 */
+/* 262 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11223,11 +11259,11 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _serbia = __webpack_require__(142);
+var _serbia = __webpack_require__(145);
 
 var _serbia2 = _interopRequireDefault(_serbia);
 
-var _serbia3 = __webpack_require__(143);
+var _serbia3 = __webpack_require__(146);
 
 var _serbia4 = _interopRequireDefault(_serbia3);
 
@@ -11276,7 +11312,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 260 */
+/* 263 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11294,11 +11330,11 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _spanish = __webpack_require__(144);
+var _spanish = __webpack_require__(147);
 
 var _spanish2 = _interopRequireDefault(_spanish);
 
-var _spanish3 = __webpack_require__(145);
+var _spanish3 = __webpack_require__(148);
 
 var _spanish4 = _interopRequireDefault(_spanish3);
 
@@ -11347,7 +11383,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 261 */
+/* 264 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11365,11 +11401,11 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _australie = __webpack_require__(146);
+var _australie = __webpack_require__(149);
 
 var _australie2 = _interopRequireDefault(_australie);
 
-var _australie3 = __webpack_require__(147);
+var _australie3 = __webpack_require__(150);
 
 var _australie4 = _interopRequireDefault(_australie3);
 
@@ -11418,7 +11454,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 262 */
+/* 265 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11436,7 +11472,7 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _vanuatu = __webpack_require__(148);
+var _vanuatu = __webpack_require__(151);
 
 var _vanuatu2 = _interopRequireDefault(_vanuatu);
 
@@ -11474,7 +11510,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 263 */
+/* 266 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11492,11 +11528,11 @@ var _pipiletCooker = __webpack_require__(1);
 
 var _pipiletCooker2 = _interopRequireDefault(_pipiletCooker);
 
-var _zelande = __webpack_require__(149);
+var _zelande = __webpack_require__(152);
 
 var _zelande2 = _interopRequireDefault(_zelande);
 
-var _zelande3 = __webpack_require__(150);
+var _zelande3 = __webpack_require__(153);
 
 var _zelande4 = _interopRequireDefault(_zelande3);
 
@@ -11545,7 +11581,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 264 */
+/* 267 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11559,15 +11595,15 @@ var _brasil = __webpack_require__(36);
 
 var _brasil2 = _interopRequireDefault(_brasil);
 
-var _bike_little_draw_number = __webpack_require__(156);
+var _bike_little_draw_number = __webpack_require__(159);
 
 var _bike_little_draw_number2 = _interopRequireDefault(_bike_little_draw_number);
 
-var _bike_big_draw_number = __webpack_require__(155);
+var _bike_big_draw_number = __webpack_require__(158);
 
 var _bike_big_draw_number2 = _interopRequireDefault(_bike_big_draw_number);
 
-var _number_brasil = __webpack_require__(516);
+var _number_brasil = __webpack_require__(519);
 
 var _number_brasil2 = _interopRequireDefault(_number_brasil);
 
@@ -11601,7 +11637,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 265 */
+/* 268 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11623,7 +11659,7 @@ var _elephant_big_draw_number = __webpack_require__(8);
 
 var _elephant_big_draw_number2 = _interopRequireDefault(_elephant_big_draw_number);
 
-var _number_china = __webpack_require__(517);
+var _number_china = __webpack_require__(520);
 
 var _number_china2 = _interopRequireDefault(_number_china);
 
@@ -11657,7 +11693,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 266 */
+/* 269 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11671,15 +11707,15 @@ var _english = __webpack_require__(38);
 
 var _english2 = _interopRequireDefault(_english);
 
-var _umbrella_little_draw_number = __webpack_require__(158);
+var _umbrella_little_draw_number = __webpack_require__(161);
 
 var _umbrella_little_draw_number2 = _interopRequireDefault(_umbrella_little_draw_number);
 
-var _umbrella_big_draw_number = __webpack_require__(157);
+var _umbrella_big_draw_number = __webpack_require__(160);
 
 var _umbrella_big_draw_number2 = _interopRequireDefault(_umbrella_big_draw_number);
 
-var _number_english = __webpack_require__(518);
+var _number_english = __webpack_require__(521);
 
 var _number_english2 = _interopRequireDefault(_number_english);
 
@@ -11713,7 +11749,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 267 */
+/* 270 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11735,7 +11771,7 @@ var _elephant_big_draw_number = __webpack_require__(8);
 
 var _elephant_big_draw_number2 = _interopRequireDefault(_elephant_big_draw_number);
 
-var _number_french = __webpack_require__(519);
+var _number_french = __webpack_require__(522);
 
 var _number_french2 = _interopRequireDefault(_number_french);
 
@@ -11769,7 +11805,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 268 */
+/* 271 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11783,15 +11819,15 @@ var _german = __webpack_require__(40);
 
 var _german2 = _interopRequireDefault(_german);
 
-var _bird_little_draw_number = __webpack_require__(564);
+var _bird_little_draw_number = __webpack_require__(567);
 
 var _bird_little_draw_number2 = _interopRequireDefault(_bird_little_draw_number);
 
-var _bird_big_draw_number = __webpack_require__(563);
+var _bird_big_draw_number = __webpack_require__(566);
 
 var _bird_big_draw_number2 = _interopRequireDefault(_bird_big_draw_number);
 
-var _number_german = __webpack_require__(520);
+var _number_german = __webpack_require__(523);
 
 var _number_german2 = _interopRequireDefault(_number_german);
 
@@ -11825,7 +11861,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 269 */
+/* 272 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11835,51 +11871,51 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _french = __webpack_require__(267);
+var _french = __webpack_require__(270);
 
 var _french2 = _interopRequireDefault(_french);
 
-var _spanish = __webpack_require__(275);
+var _spanish = __webpack_require__(278);
 
 var _spanish2 = _interopRequireDefault(_spanish);
 
-var _german = __webpack_require__(268);
+var _german = __webpack_require__(271);
 
 var _german2 = _interopRequireDefault(_german);
 
-var _india = __webpack_require__(270);
+var _india = __webpack_require__(273);
 
 var _india2 = _interopRequireDefault(_india);
 
-var _english = __webpack_require__(266);
+var _english = __webpack_require__(269);
 
 var _english2 = _interopRequireDefault(_english);
 
-var _china = __webpack_require__(265);
+var _china = __webpack_require__(268);
 
 var _china2 = _interopRequireDefault(_china);
 
-var _brasil = __webpack_require__(264);
+var _brasil = __webpack_require__(267);
 
 var _brasil2 = _interopRequireDefault(_brasil);
 
-var _italy = __webpack_require__(271);
+var _italy = __webpack_require__(274);
 
 var _italy2 = _interopRequireDefault(_italy);
 
-var _serbia = __webpack_require__(273);
+var _serbia = __webpack_require__(276);
 
 var _serbia2 = _interopRequireDefault(_serbia);
 
-var _southAfrica = __webpack_require__(274);
+var _southAfrica = __webpack_require__(277);
 
 var _southAfrica2 = _interopRequireDefault(_southAfrica);
 
-var _russia = __webpack_require__(272);
+var _russia = __webpack_require__(275);
 
 var _russia2 = _interopRequireDefault(_russia);
 
-var _tanzania = __webpack_require__(276);
+var _tanzania = __webpack_require__(279);
 
 var _tanzania2 = _interopRequireDefault(_tanzania);
 
@@ -11913,7 +11949,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 270 */
+/* 273 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11935,7 +11971,7 @@ var _elephant_big_draw_number = __webpack_require__(8);
 
 var _elephant_big_draw_number2 = _interopRequireDefault(_elephant_big_draw_number);
 
-var _number_india = __webpack_require__(521);
+var _number_india = __webpack_require__(524);
 
 var _number_india2 = _interopRequireDefault(_number_india);
 
@@ -11969,7 +12005,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 271 */
+/* 274 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11983,15 +12019,15 @@ var _italy = __webpack_require__(42);
 
 var _italy2 = _interopRequireDefault(_italy);
 
-var _umbrella_little_draw_number = __webpack_require__(158);
+var _umbrella_little_draw_number = __webpack_require__(161);
 
 var _umbrella_little_draw_number2 = _interopRequireDefault(_umbrella_little_draw_number);
 
-var _umbrella_big_draw_number = __webpack_require__(157);
+var _umbrella_big_draw_number = __webpack_require__(160);
 
 var _umbrella_big_draw_number2 = _interopRequireDefault(_umbrella_big_draw_number);
 
-var _number_italy = __webpack_require__(522);
+var _number_italy = __webpack_require__(525);
 
 var _number_italy2 = _interopRequireDefault(_number_italy);
 
@@ -12025,7 +12061,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 272 */
+/* 275 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12047,7 +12083,7 @@ var _elephant_big_draw_number = __webpack_require__(8);
 
 var _elephant_big_draw_number2 = _interopRequireDefault(_elephant_big_draw_number);
 
-var _number_russia = __webpack_require__(523);
+var _number_russia = __webpack_require__(526);
 
 var _number_russia2 = _interopRequireDefault(_number_russia);
 
@@ -12081,7 +12117,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 273 */
+/* 276 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12103,7 +12139,7 @@ var _elephant_big_draw_number = __webpack_require__(8);
 
 var _elephant_big_draw_number2 = _interopRequireDefault(_elephant_big_draw_number);
 
-var _number_serbia = __webpack_require__(524);
+var _number_serbia = __webpack_require__(527);
 
 var _number_serbia2 = _interopRequireDefault(_number_serbia);
 
@@ -12137,7 +12173,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 274 */
+/* 277 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12147,7 +12183,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _southAfrica = __webpack_require__(153);
+var _southAfrica = __webpack_require__(156);
 
 var _southAfrica2 = _interopRequireDefault(_southAfrica);
 
@@ -12159,7 +12195,7 @@ var _elephant_big_draw_number = __webpack_require__(8);
 
 var _elephant_big_draw_number2 = _interopRequireDefault(_elephant_big_draw_number);
 
-var _number_arabe = __webpack_require__(515);
+var _number_arabe = __webpack_require__(518);
 
 var _number_arabe2 = _interopRequireDefault(_number_arabe);
 
@@ -12193,7 +12229,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 275 */
+/* 278 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12207,15 +12243,15 @@ var _spanish = __webpack_require__(45);
 
 var _spanish2 = _interopRequireDefault(_spanish);
 
-var _bike_little_draw_number = __webpack_require__(156);
+var _bike_little_draw_number = __webpack_require__(159);
 
 var _bike_little_draw_number2 = _interopRequireDefault(_bike_little_draw_number);
 
-var _bike_big_draw_number = __webpack_require__(155);
+var _bike_big_draw_number = __webpack_require__(158);
 
 var _bike_big_draw_number2 = _interopRequireDefault(_bike_big_draw_number);
 
-var _number_spanish = __webpack_require__(525);
+var _number_spanish = __webpack_require__(528);
 
 var _number_spanish2 = _interopRequireDefault(_number_spanish);
 
@@ -12249,7 +12285,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 276 */
+/* 279 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12259,7 +12295,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _tanzania = __webpack_require__(154);
+var _tanzania = __webpack_require__(157);
 
 var _tanzania2 = _interopRequireDefault(_tanzania);
 
@@ -12271,14 +12307,14 @@ var _elephant_big_draw_number = __webpack_require__(8);
 
 var _elephant_big_draw_number2 = _interopRequireDefault(_elephant_big_draw_number);
 
-var _number_swahili = __webpack_require__(526);
+var _number_swahili = __webpack_require__(529);
 
 var _number_swahili2 = _interopRequireDefault(_number_swahili);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _default = {
-	'header': 'ESPAÑOL NÚMEROS DEL 1 AL 100',
+	'header': 'TANZANIA (SWAHILI) NAMBA 1 KWA 100',
 	'flag': _tanzania2.default,
 	'download': _number_swahili2.default,
 	'draw': {
@@ -12305,7 +12341,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 277 */
+/* 280 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12543,7 +12579,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 278 */
+/* 281 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12795,7 +12831,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 279 */
+/* 282 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13044,7 +13080,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 280 */
+/* 283 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13058,7 +13094,7 @@ var _fallFallBallon = __webpack_require__(47);
 
 var _fallFallBallon2 = _interopRequireDefault(_fallFallBallon);
 
-var _song_eng_fallFallBallon = __webpack_require__(527);
+var _song_eng_fallFallBallon = __webpack_require__(530);
 
 var _song_eng_fallFallBallon2 = _interopRequireDefault(_song_eng_fallFallBallon);
 
@@ -13087,7 +13123,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 281 */
+/* 284 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13101,7 +13137,7 @@ var _hereWeGoRoundTheMulberryBush = __webpack_require__(13);
 
 var _hereWeGoRoundTheMulberryBush2 = _interopRequireDefault(_hereWeGoRoundTheMulberryBush);
 
-var _song_eng_hereWeGoRoundTheMulberryBush = __webpack_require__(528);
+var _song_eng_hereWeGoRoundTheMulberryBush = __webpack_require__(531);
 
 var _song_eng_hereWeGoRoundTheMulberryBush2 = _interopRequireDefault(_song_eng_hereWeGoRoundTheMulberryBush);
 
@@ -13130,7 +13166,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 282 */
+/* 285 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13144,7 +13180,7 @@ var _itsRainning = __webpack_require__(48);
 
 var _itsRainning2 = _interopRequireDefault(_itsRainning);
 
-var _song_eng_itsRainning = __webpack_require__(529);
+var _song_eng_itsRainning = __webpack_require__(532);
 
 var _song_eng_itsRainning2 = _interopRequireDefault(_song_eng_itsRainning);
 
@@ -13176,7 +13212,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 283 */
+/* 286 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13190,7 +13226,7 @@ var _patACake = __webpack_require__(17);
 
 var _patACake2 = _interopRequireDefault(_patACake);
 
-var _song_eng_onMondayMorning = __webpack_require__(530);
+var _song_eng_onMondayMorning = __webpack_require__(533);
 
 var _song_eng_onMondayMorning2 = _interopRequireDefault(_song_eng_onMondayMorning);
 
@@ -13219,7 +13255,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 284 */
+/* 287 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13233,7 +13269,7 @@ var _winterIsHere = __webpack_require__(5);
 
 var _winterIsHere2 = _interopRequireDefault(_winterIsHere);
 
-var _song_eng_patACake = __webpack_require__(531);
+var _song_eng_patACake = __webpack_require__(534);
 
 var _song_eng_patACake2 = _interopRequireDefault(_song_eng_patACake);
 
@@ -13265,7 +13301,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 285 */
+/* 288 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13279,7 +13315,7 @@ var _winterIsHere = __webpack_require__(5);
 
 var _winterIsHere2 = _interopRequireDefault(_winterIsHere);
 
-var _song_eng_siMaMaKa = __webpack_require__(532);
+var _song_eng_siMaMaKa = __webpack_require__(535);
 
 var _song_eng_siMaMaKa2 = _interopRequireDefault(_song_eng_siMaMaKa);
 
@@ -13307,7 +13343,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 286 */
+/* 289 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13321,7 +13357,7 @@ var _springHasCome = __webpack_require__(49);
 
 var _springHasCome2 = _interopRequireDefault(_springHasCome);
 
-var _song_eng_springHasCome = __webpack_require__(533);
+var _song_eng_springHasCome = __webpack_require__(536);
 
 var _song_eng_springHasCome2 = _interopRequireDefault(_song_eng_springHasCome);
 
@@ -13350,7 +13386,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 287 */
+/* 290 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13364,7 +13400,7 @@ var _hereWeGoRoundTheMulberryBush = __webpack_require__(13);
 
 var _hereWeGoRoundTheMulberryBush2 = _interopRequireDefault(_hereWeGoRoundTheMulberryBush);
 
-var _song_eng_theCourtyardOfMyHouse = __webpack_require__(534);
+var _song_eng_theCourtyardOfMyHouse = __webpack_require__(537);
 
 var _song_eng_theCourtyardOfMyHouse2 = _interopRequireDefault(_song_eng_theCourtyardOfMyHouse);
 
@@ -13396,7 +13432,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 288 */
+/* 291 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13410,7 +13446,7 @@ var _winterIsHere = __webpack_require__(5);
 
 var _winterIsHere2 = _interopRequireDefault(_winterIsHere);
 
-var _song_eng_theWasherman = __webpack_require__(535);
+var _song_eng_theWasherman = __webpack_require__(538);
 
 var _song_eng_theWasherman2 = _interopRequireDefault(_song_eng_theWasherman);
 
@@ -13422,7 +13458,11 @@ var _default = {
 	'download': _song_eng_theWasherman2.default,
 	'image': _winterIsHere2.default,
 	'language': '(English)',
-	'couplet': [['The washerman, washerman came,', 'He brought how many clothes?', 'One, two, three,', 'One, two, three...'], ['The washerman, washerman came,', 'He brought how many clothes?', 'Four, five, six,', 'Four, five, six...'], ['The washerman, washerman came,', 'He brought how many clothes?', 'Seven, eight, nine,', 'Seven, eight, nine...'], ['The washerman, washerman came,', 'He brought how many clothes?', 'Ten, ten, ten,', 'Brother, ten, ten, ten.']]
+	'couplet': [['The washerman, washerman came,', 'He brought how many clothes?', 'One, two, three,', 'One, two, three...'], ['The washerman, washerman came,', 'He brought how many clothes?', 'Four, five, six,', 'Four, five, six...'], ['The washerman, washerman came,', 'He brought how many clothes?', 'Seven, eight, nine,', 'Seven, eight, nine...'], ['The washerman, washerman came,', 'He brought how many clothes?', 'Ten, ten, ten,', 'Brother, ten, ten, ten.']],
+	information: {
+		title: 'Pronunciation:',
+		description: ['Dhobi aaya, dhobi aaya,', 'Kitne kapde laaya?', 'Ek, do, teen,', 'Ek, do, teen.', 'Dhobi aaya, dhobi aaya', 'Kitne kapde laaya?', 'Chaar, panch, chey,', 'Chaar, panch, chey.', 'Dhobi aaya, dhobi aaya,', 'Kitne kapde laaya?', 'Saat, ath, nau,', 'Saat, ath, nau.', 'Dhobi aaya, dhobi aaya,', 'Kitne kapdey laaya?', 'Dus, dus, dus,', 'Bhai, dus, dus, dus']
+	}
 };
 exports.default = _default;
 ;
@@ -13438,7 +13478,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 289 */
+/* 292 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13452,7 +13492,7 @@ var _winterIsHere = __webpack_require__(5);
 
 var _winterIsHere2 = _interopRequireDefault(_winterIsHere);
 
-var _song_eng_ticTicTic = __webpack_require__(536);
+var _song_eng_ticTicTic = __webpack_require__(539);
 
 var _song_eng_ticTicTic2 = _interopRequireDefault(_song_eng_ticTicTic);
 
@@ -13464,7 +13504,11 @@ var _default = {
 	'download': _song_eng_ticTicTic2.default,
 	'image': _winterIsHere2.default,
 	'language': '(English)',
-	'couplet': [['Tic Tic Tic Sleiman\'s mother', 'Tic Tic Tic where was your husband?', 'Tic Tic Tic he was in the fields', 'Picking plums and pomegranates']]
+	'couplet': [['Tic Tic Tic Sleiman\'s mother', 'Tic Tic Tic where was your husband?', 'Tic Tic Tic he was in the fields', 'Picking plums and pomegranates']],
+	information: {
+		title: 'Notes',
+		description: ['Tic Tic Tic y\'am sleiman', 'Tic Tic Tic y\'am sleiman', 'Tic Tic Tic jaousik ouan kan?', 'Tic Tic Tic kan bil haqle', 'am yektouf khaoukh ou remman.']
+	}
 };
 exports.default = _default;
 ;
@@ -13480,7 +13524,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 290 */
+/* 293 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13494,7 +13538,7 @@ var _twoTigers = __webpack_require__(50);
 
 var _twoTigers2 = _interopRequireDefault(_twoTigers);
 
-var _song_eng_twoTigers = __webpack_require__(537);
+var _song_eng_twoTigers = __webpack_require__(540);
 
 var _song_eng_twoTigers2 = _interopRequireDefault(_song_eng_twoTigers);
 
@@ -13506,7 +13550,11 @@ var _default = {
 	'download': _song_eng_twoTigers2.default,
 	'image': _twoTigers2.default,
 	'language': '(English)',
-	'couplet': [['Two Tigers', 'Two Tigers', 'Running fast', 'Running fast', 'One of them has no eyes', 'One of them has no tail', 'Very strange!', 'Very strange!']]
+	'couplet': [['Two Tigers', 'Two Tigers', 'Running fast', 'Running fast', 'One of them has no eyes', 'One of them has no tail', 'Very strange!', 'Very strange!']],
+	information: {
+		title: 'Pinyin',
+		description: ['liang3 zhi3 lao3 hu3', 'liang3 zhi3 lao3 hu3', 'pao3 de kuai4', 'pao3 de kuai4', 'yi4 zhi3 mei2 you3 yan3 jing1', 'yi4 zhi3 mei2 you3 wei3 ba', 'zhen1qi2 guai4', 'zhen1 qi2 guai4']
+	}
 };
 exports.default = _default;
 ;
@@ -13522,7 +13570,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 291 */
+/* 294 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13536,7 +13584,7 @@ var _winterIsHere = __webpack_require__(5);
 
 var _winterIsHere2 = _interopRequireDefault(_winterIsHere);
 
-var _song_eng_winter_is_here = __webpack_require__(538);
+var _song_eng_winter_is_here = __webpack_require__(541);
 
 var _song_eng_winter_is_here2 = _interopRequireDefault(_song_eng_winter_is_here);
 
@@ -13564,7 +13612,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 292 */
+/* 295 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13578,7 +13626,7 @@ var _fallFallBallon = __webpack_require__(47);
 
 var _fallFallBallon2 = _interopRequireDefault(_fallFallBallon);
 
-var _song_fr_fallFallBallon = __webpack_require__(551);
+var _song_fr_fallFallBallon = __webpack_require__(554);
 
 var _song_fr_fallFallBallon2 = _interopRequireDefault(_song_fr_fallFallBallon);
 
@@ -13607,7 +13655,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 293 */
+/* 296 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13621,7 +13669,7 @@ var _hereWeGoRoundTheMulberryBush = __webpack_require__(13);
 
 var _hereWeGoRoundTheMulberryBush2 = _interopRequireDefault(_hereWeGoRoundTheMulberryBush);
 
-var _song_fr_hereWeGoRoundTheMulberryBush = __webpack_require__(552);
+var _song_fr_hereWeGoRoundTheMulberryBush = __webpack_require__(555);
 
 var _song_fr_hereWeGoRoundTheMulberryBush2 = _interopRequireDefault(_song_fr_hereWeGoRoundTheMulberryBush);
 
@@ -13650,7 +13698,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 294 */
+/* 297 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13664,7 +13712,7 @@ var _itsRainning = __webpack_require__(48);
 
 var _itsRainning2 = _interopRequireDefault(_itsRainning);
 
-var _song_fr_itsRainning = __webpack_require__(553);
+var _song_fr_itsRainning = __webpack_require__(556);
 
 var _song_fr_itsRainning2 = _interopRequireDefault(_song_fr_itsRainning);
 
@@ -13697,7 +13745,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 295 */
+/* 298 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13711,7 +13759,7 @@ var _patACake = __webpack_require__(17);
 
 var _patACake2 = _interopRequireDefault(_patACake);
 
-var _song_fr_onMondayMorning = __webpack_require__(554);
+var _song_fr_onMondayMorning = __webpack_require__(557);
 
 var _song_fr_onMondayMorning2 = _interopRequireDefault(_song_fr_onMondayMorning);
 
@@ -13740,7 +13788,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 296 */
+/* 299 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13754,7 +13802,7 @@ var _patACake = __webpack_require__(17);
 
 var _patACake2 = _interopRequireDefault(_patACake);
 
-var _song_fr_patACake = __webpack_require__(555);
+var _song_fr_patACake = __webpack_require__(558);
 
 var _song_fr_patACake2 = _interopRequireDefault(_song_fr_patACake);
 
@@ -13787,7 +13835,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 297 */
+/* 300 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13801,7 +13849,7 @@ var _winterIsHere = __webpack_require__(5);
 
 var _winterIsHere2 = _interopRequireDefault(_winterIsHere);
 
-var _song_fr_siMaMaKa = __webpack_require__(556);
+var _song_fr_siMaMaKa = __webpack_require__(559);
 
 var _song_fr_siMaMaKa2 = _interopRequireDefault(_song_fr_siMaMaKa);
 
@@ -13829,7 +13877,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 298 */
+/* 301 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13843,7 +13891,7 @@ var _springHasCome = __webpack_require__(49);
 
 var _springHasCome2 = _interopRequireDefault(_springHasCome);
 
-var _song_fr_springHasCome = __webpack_require__(557);
+var _song_fr_springHasCome = __webpack_require__(560);
 
 var _song_fr_springHasCome2 = _interopRequireDefault(_song_fr_springHasCome);
 
@@ -13872,7 +13920,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 299 */
+/* 302 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13886,7 +13934,7 @@ var _hereWeGoRoundTheMulberryBush = __webpack_require__(13);
 
 var _hereWeGoRoundTheMulberryBush2 = _interopRequireDefault(_hereWeGoRoundTheMulberryBush);
 
-var _song_fr_theCourtyardOfMyHouse = __webpack_require__(558);
+var _song_fr_theCourtyardOfMyHouse = __webpack_require__(561);
 
 var _song_fr_theCourtyardOfMyHouse2 = _interopRequireDefault(_song_fr_theCourtyardOfMyHouse);
 
@@ -13919,7 +13967,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 300 */
+/* 303 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13933,7 +13981,7 @@ var _winterIsHere = __webpack_require__(5);
 
 var _winterIsHere2 = _interopRequireDefault(_winterIsHere);
 
-var _song_fr_theWasherman = __webpack_require__(559);
+var _song_fr_theWasherman = __webpack_require__(562);
 
 var _song_fr_theWasherman2 = _interopRequireDefault(_song_fr_theWasherman);
 
@@ -13945,7 +13993,11 @@ var _default = {
 	'title': 'Le blanchisseur',
 	'image': _winterIsHere2.default,
 	'language': '(Français)',
-	'couplet': [['Le blanchisseur, blanchisseur est venu.', 'Combien de vêtements a-t-il apporté ?', 'Un, deux, trois,', 'Un, deux, trois...'], ['Le blanchisseur, blanchisseur est venu.', 'Combien de vêtements a-t-il apporté ?', 'Quatre, cinq, six,', 'Quatre, cinq, six...'], ['Le blanchisseur, blanchisseur est venu.', 'Combien de vêtements a-t-il apporté ?', 'Sept, huit, neuf,', 'Sept, huit, neuf...'], ['Le blanchisseur, blanchisseur est venu.', 'Combien de vêtements a-t-il apporté ?', 'Dix, dix, dix,', 'Mon frère, dix .']]
+	'couplet': [['Le blanchisseur, blanchisseur est venu.', 'Combien de vêtements a-t-il apporté ?', 'Un, deux, trois,', 'Un, deux, trois...'], ['Le blanchisseur, blanchisseur est venu.', 'Combien de vêtements a-t-il apporté ?', 'Quatre, cinq, six,', 'Quatre, cinq, six...'], ['Le blanchisseur, blanchisseur est venu.', 'Combien de vêtements a-t-il apporté ?', 'Sept, huit, neuf,', 'Sept, huit, neuf...'], ['Le blanchisseur, blanchisseur est venu.', 'Combien de vêtements a-t-il apporté ?', 'Dix, dix, dix,', 'Mon frère, dix .']],
+	information: {
+		title: 'Prononciation:',
+		description: ['Dhobi aaya, dhobi aaya,', 'Kitne kapde laaya?', 'Ek, do, teen,', 'Ek, do, teen.', 'Dhobi aaya, dhobi aaya', 'Kitne kapde laaya?', 'Chaar, panch, chey,', 'Chaar, panch, chey.', 'Dhobi aaya, dhobi aaya,', 'Kitne kapde laaya?', 'Saat, ath, nau,', 'Saat, ath, nau.', 'Dhobi aaya, dhobi aaya,', 'Kitne kapdey laaya?', 'Dus, dus, dus,', 'Bhai, dus, dus, dus.']
+	}
 };
 exports.default = _default;
 ;
@@ -13961,7 +14013,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 301 */
+/* 304 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13975,7 +14027,7 @@ var _winterIsHere = __webpack_require__(5);
 
 var _winterIsHere2 = _interopRequireDefault(_winterIsHere);
 
-var _song_fr_ticTicTic = __webpack_require__(560);
+var _song_fr_ticTicTic = __webpack_require__(563);
 
 var _song_fr_ticTicTic2 = _interopRequireDefault(_song_fr_ticTicTic);
 
@@ -13987,7 +14039,11 @@ var _default = {
 	'title': 'Tic, tic, tic, mère de Sleiman',
 	'image': _winterIsHere2.default,
 	'language': '(Français)',
-	'couplet': [['Tic, tic, tic, mère de Sleiman', 'Tic, tic, tic, où était votre mari ?', 'Tic, tic, tic, il était dans les champs', 'Ramassant des prunes et des grenades.']]
+	'couplet': [['Tic, tic, tic, mère de Sleiman', 'Tic, tic, tic, où était votre mari ?', 'Tic, tic, tic, il était dans les champs', 'Ramassant des prunes et des grenades.']],
+	information: {
+		title: 'Notes',
+		description: ['Tic Tic Tic y\'am sleiman', 'Tic Tic Tic y\'am sleiman', 'Tic Tic Tic jaousik ouan kan?', 'Tic Tic Tic kan bil haqle', 'am yektouf khaoukh ou remman.']
+	}
 };
 exports.default = _default;
 ;
@@ -14003,7 +14059,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 302 */
+/* 305 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14017,7 +14073,7 @@ var _twoTigers = __webpack_require__(50);
 
 var _twoTigers2 = _interopRequireDefault(_twoTigers);
 
-var _song_fr_twoTigers = __webpack_require__(561);
+var _song_fr_twoTigers = __webpack_require__(564);
 
 var _song_fr_twoTigers2 = _interopRequireDefault(_song_fr_twoTigers);
 
@@ -14045,7 +14101,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 303 */
+/* 306 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14059,7 +14115,7 @@ var _winterIsHere = __webpack_require__(5);
 
 var _winterIsHere2 = _interopRequireDefault(_winterIsHere);
 
-var _song_fr_winterIsHere = __webpack_require__(562);
+var _song_fr_winterIsHere = __webpack_require__(565);
 
 var _song_fr_winterIsHere2 = _interopRequireDefault(_song_fr_winterIsHere);
 
@@ -14087,7 +14143,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 304 */
+/* 307 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14097,7 +14153,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_fallFallBallon = __webpack_require__(539);
+var _song_esp_fallFallBallon = __webpack_require__(542);
 
 var _song_esp_fallFallBallon2 = _interopRequireDefault(_song_esp_fallFallBallon);
 
@@ -14124,7 +14180,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 305 */
+/* 308 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14134,7 +14190,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_hereWeGoRoundTheMulberryBush = __webpack_require__(540);
+var _song_esp_hereWeGoRoundTheMulberryBush = __webpack_require__(543);
 
 var _song_esp_hereWeGoRoundTheMulberryBush2 = _interopRequireDefault(_song_esp_hereWeGoRoundTheMulberryBush);
 
@@ -14162,7 +14218,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 306 */
+/* 309 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14172,7 +14228,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_itsRainning = __webpack_require__(541);
+var _song_esp_itsRainning = __webpack_require__(544);
 
 var _song_esp_itsRainning2 = _interopRequireDefault(_song_esp_itsRainning);
 
@@ -14203,7 +14259,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 307 */
+/* 310 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14213,7 +14269,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_onMondayMorning = __webpack_require__(542);
+var _song_esp_onMondayMorning = __webpack_require__(545);
 
 var _song_esp_onMondayMorning2 = _interopRequireDefault(_song_esp_onMondayMorning);
 
@@ -14241,7 +14297,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 308 */
+/* 311 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14251,7 +14307,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_patACake = __webpack_require__(543);
+var _song_esp_patACake = __webpack_require__(546);
 
 var _song_esp_patACake2 = _interopRequireDefault(_song_esp_patACake);
 
@@ -14283,7 +14339,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 309 */
+/* 312 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14293,7 +14349,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_siMaMaKa = __webpack_require__(544);
+var _song_esp_siMaMaKa = __webpack_require__(547);
 
 var _song_esp_siMaMaKa2 = _interopRequireDefault(_song_esp_siMaMaKa);
 
@@ -14320,7 +14376,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 310 */
+/* 313 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14330,7 +14386,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_springHasCome = __webpack_require__(545);
+var _song_esp_springHasCome = __webpack_require__(548);
 
 var _song_esp_springHasCome2 = _interopRequireDefault(_song_esp_springHasCome);
 
@@ -14358,7 +14414,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 311 */
+/* 314 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14368,7 +14424,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_theCourtyardOfMyHouse = __webpack_require__(546);
+var _song_esp_theCourtyardOfMyHouse = __webpack_require__(549);
 
 var _song_esp_theCourtyardOfMyHouse2 = _interopRequireDefault(_song_esp_theCourtyardOfMyHouse);
 
@@ -14399,7 +14455,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 312 */
+/* 315 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14409,7 +14465,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_theWasherman = __webpack_require__(547);
+var _song_esp_theWasherman = __webpack_require__(550);
 
 var _song_esp_theWasherman2 = _interopRequireDefault(_song_esp_theWasherman);
 
@@ -14420,7 +14476,11 @@ var _default = {
 	'download': _song_esp_theWasherman2.default,
 	'title': 'El lavandero',
 	'language': '(Español)',
-	'couplet': [['El lavandero, el lavandero vino.', '¿Cuántas prendas trajo?', 'Una, dos, tres,', 'Una, dos, tres.'], ['El lavandero, el lavandero vino.', '¿Cuántas prendas trajo?', 'Cuatro, cinco, seis,', 'Cuatro, cinco, seis...'], ['El lavandero, el lavandero vino.', '¿Cuántas prendas trajo?', 'Siete, ocho, nueve,', 'Siete, ocho, nueve...'], ['El lavandero, el lavandero vino.', '¿Cuántas prendas trajo?', 'Diez, diez, diez,', 'Hermano, diez, diez, diez.']]
+	'couplet': [['El lavandero, el lavandero vino.', '¿Cuántas prendas trajo?', 'Una, dos, tres,', 'Una, dos, tres.'], ['El lavandero, el lavandero vino.', '¿Cuántas prendas trajo?', 'Cuatro, cinco, seis,', 'Cuatro, cinco, seis...'], ['El lavandero, el lavandero vino.', '¿Cuántas prendas trajo?', 'Siete, ocho, nueve,', 'Siete, ocho, nueve...'], ['El lavandero, el lavandero vino.', '¿Cuántas prendas trajo?', 'Diez, diez, diez,', 'Hermano, diez, diez, diez.']],
+	information: {
+		title: 'Pronunciación:',
+		description: ['Dhobi aaya, dhobi aaya,', 'Kitne kapde laaya?', 'Ek, do, teen,', 'Ek, do, teen.', 'Dhobi aaya, dhobi aaya', 'Kitne kapde laaya?', 'Chaar, panch, chey,', 'Chaar, panch, chey.', 'Dhobi aaya, dhobi aaya,', 'Kitne kapde laaya?', 'Saat, ath, nau,', 'Saat, ath, nau.', 'Dhobi aaya, dhobi aaya,', 'Kitne kapdey laaya?', 'Dus, dus, dus,', 'Bhai, dus, dus, dus.']
+	}
 };
 exports.default = _default;
 ;
@@ -14436,7 +14496,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 313 */
+/* 316 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14446,7 +14506,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_ticTicTic = __webpack_require__(548);
+var _song_esp_ticTicTic = __webpack_require__(551);
 
 var _song_esp_ticTicTic2 = _interopRequireDefault(_song_esp_ticTicTic);
 
@@ -14457,7 +14517,11 @@ var _default = {
 	'download': _song_esp_ticTicTic2.default,
 	'title': 'Tic, tic, tic, madre de Sleiman',
 	'language': '(Español)',
-	'couplet': [['Tic, tic, tic, madre de Sleiman', 'Tic, tic, tic, ¿dónde estaba su marido?', 'Tic, tic, tic, estaba en los campos', 'Recogiendo ciruelas y granadas.']]
+	'couplet': [['Tic, tic, tic, madre de Sleiman', 'Tic, tic, tic, ¿dónde estaba su marido?', 'Tic, tic, tic, estaba en los campos', 'Recogiendo ciruelas y granadas.']],
+	information: {
+		title: 'Notes',
+		description: ['Tic Tic Tic y\'am sleiman', 'Tic Tic Tic y\'am sleiman', 'Tic Tic Tic jaousik ouan kan?', 'Tic Tic Tic kan bil haqle', 'am yektouf khaoukh ou remman.', '"j" como en francés', '"kh" como una "j" española.']
+	}
 };
 exports.default = _default;
 ;
@@ -14473,7 +14537,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 314 */
+/* 317 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14483,7 +14547,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_twoTigers = __webpack_require__(549);
+var _song_esp_twoTigers = __webpack_require__(552);
 
 var _song_esp_twoTigers2 = _interopRequireDefault(_song_esp_twoTigers);
 
@@ -14514,7 +14578,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 315 */
+/* 318 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14524,7 +14588,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _song_esp_winterIsHere = __webpack_require__(550);
+var _song_esp_winterIsHere = __webpack_require__(553);
 
 var _song_esp_winterIsHere2 = _interopRequireDefault(_song_esp_winterIsHere);
 
@@ -14551,7 +14615,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 316 */
+/* 319 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14581,51 +14645,51 @@ var _pipiletDescription = __webpack_require__(18);
 
 var _pipiletDescription2 = _interopRequireDefault(_pipiletDescription);
 
-var _winterIsHere = __webpack_require__(291);
+var _winterIsHere = __webpack_require__(294);
 
 var _winterIsHere2 = _interopRequireDefault(_winterIsHere);
 
-var _fallFallBallon = __webpack_require__(280);
+var _fallFallBallon = __webpack_require__(283);
 
 var _fallFallBallon2 = _interopRequireDefault(_fallFallBallon);
 
-var _theWasherman = __webpack_require__(288);
+var _theWasherman = __webpack_require__(291);
 
 var _theWasherman2 = _interopRequireDefault(_theWasherman);
 
-var _ticTicTic = __webpack_require__(289);
+var _ticTicTic = __webpack_require__(292);
 
 var _ticTicTic2 = _interopRequireDefault(_ticTicTic);
 
-var _siMaMaKa = __webpack_require__(285);
+var _siMaMaKa = __webpack_require__(288);
 
 var _siMaMaKa2 = _interopRequireDefault(_siMaMaKa);
 
-var _theCourtyardOfMyHouse = __webpack_require__(287);
+var _theCourtyardOfMyHouse = __webpack_require__(290);
 
 var _theCourtyardOfMyHouse2 = _interopRequireDefault(_theCourtyardOfMyHouse);
 
-var _hereWeGoRoundTheMulberryBush = __webpack_require__(281);
+var _hereWeGoRoundTheMulberryBush = __webpack_require__(284);
 
 var _hereWeGoRoundTheMulberryBush2 = _interopRequireDefault(_hereWeGoRoundTheMulberryBush);
 
-var _itsRainning = __webpack_require__(282);
+var _itsRainning = __webpack_require__(285);
 
 var _itsRainning2 = _interopRequireDefault(_itsRainning);
 
-var _twoTigers = __webpack_require__(290);
+var _twoTigers = __webpack_require__(293);
 
 var _twoTigers2 = _interopRequireDefault(_twoTigers);
 
-var _springHasCome = __webpack_require__(286);
+var _springHasCome = __webpack_require__(289);
 
 var _springHasCome2 = _interopRequireDefault(_springHasCome);
 
-var _patACake = __webpack_require__(284);
+var _patACake = __webpack_require__(287);
 
 var _patACake2 = _interopRequireDefault(_patACake);
 
-var _onMondayMorning = __webpack_require__(283);
+var _onMondayMorning = __webpack_require__(286);
 
 var _onMondayMorning2 = _interopRequireDefault(_onMondayMorning);
 
@@ -14805,73 +14869,73 @@ var _jordanie = __webpack_require__(86);
 
 var _jordanie2 = _interopRequireDefault(_jordanie);
 
-var _color_eng_arabe = __webpack_require__(415);
+var _color_eng_arabe = __webpack_require__(418);
 
 var _color_eng_arabe2 = _interopRequireDefault(_color_eng_arabe);
 
-var _color_eng_brasil = __webpack_require__(416);
+var _color_eng_brasil = __webpack_require__(419);
 
 var _color_eng_brasil2 = _interopRequireDefault(_color_eng_brasil);
 
-var _color_eng_english = __webpack_require__(418);
+var _color_eng_english = __webpack_require__(421);
 
 var _color_eng_english2 = _interopRequireDefault(_color_eng_english);
 
-var _color_eng_china = __webpack_require__(417);
+var _color_eng_china = __webpack_require__(420);
 
 var _color_eng_china2 = _interopRequireDefault(_color_eng_china);
 
-var _color_eng_french = __webpack_require__(419);
+var _color_eng_french = __webpack_require__(422);
 
 var _color_eng_french2 = _interopRequireDefault(_color_eng_french);
 
-var _color_eng_german = __webpack_require__(420);
+var _color_eng_german = __webpack_require__(423);
 
 var _color_eng_german2 = _interopRequireDefault(_color_eng_german);
 
-var _color_eng_india = __webpack_require__(421);
+var _color_eng_india = __webpack_require__(424);
 
 var _color_eng_india2 = _interopRequireDefault(_color_eng_india);
 
-var _color_eng_italy = __webpack_require__(422);
+var _color_eng_italy = __webpack_require__(425);
 
 var _color_eng_italy2 = _interopRequireDefault(_color_eng_italy);
 
-var _color_eng_russia = __webpack_require__(423);
+var _color_eng_russia = __webpack_require__(426);
 
 var _color_eng_russia2 = _interopRequireDefault(_color_eng_russia);
 
-var _color_eng_serbia = __webpack_require__(424);
+var _color_eng_serbia = __webpack_require__(427);
 
 var _color_eng_serbia2 = _interopRequireDefault(_color_eng_serbia);
 
-var _color_eng_spanish = __webpack_require__(425);
+var _color_eng_spanish = __webpack_require__(428);
 
 var _color_eng_spanish2 = _interopRequireDefault(_color_eng_spanish);
 
-var _color_eng_swahili = __webpack_require__(426);
+var _color_eng_swahili = __webpack_require__(429);
 
 var _color_eng_swahili2 = _interopRequireDefault(_color_eng_swahili);
 
-var _english = __webpack_require__(277);
+var _english = __webpack_require__(280);
 
-var _eng_owls = __webpack_require__(397);
+var _eng_owls = __webpack_require__(400);
 
 var _eng_owls2 = _interopRequireDefault(_eng_owls);
 
-var _eng_owls3 = __webpack_require__(398);
+var _eng_owls3 = __webpack_require__(401);
 
 var _eng_owls4 = _interopRequireDefault(_eng_owls3);
 
-var _eng_owls5 = __webpack_require__(399);
+var _eng_owls5 = __webpack_require__(402);
 
 var _eng_owls6 = _interopRequireDefault(_eng_owls5);
 
-var _eng_children = __webpack_require__(396);
+var _eng_children = __webpack_require__(399);
 
 var _eng_children2 = _interopRequireDefault(_eng_children);
 
-var _allColorsEng = __webpack_require__(344);
+var _allColorsEng = __webpack_require__(347);
 
 var _allColorsEng2 = _interopRequireDefault(_allColorsEng);
 
@@ -15163,7 +15227,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 317 */
+/* 320 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15193,51 +15257,51 @@ var _pipiletDescription = __webpack_require__(18);
 
 var _pipiletDescription2 = _interopRequireDefault(_pipiletDescription);
 
-var _winterIsHere = __webpack_require__(303);
+var _winterIsHere = __webpack_require__(306);
 
 var _winterIsHere2 = _interopRequireDefault(_winterIsHere);
 
-var _fallFallBallon = __webpack_require__(292);
+var _fallFallBallon = __webpack_require__(295);
 
 var _fallFallBallon2 = _interopRequireDefault(_fallFallBallon);
 
-var _theWasherman = __webpack_require__(300);
+var _theWasherman = __webpack_require__(303);
 
 var _theWasherman2 = _interopRequireDefault(_theWasherman);
 
-var _ticTicTic = __webpack_require__(301);
+var _ticTicTic = __webpack_require__(304);
 
 var _ticTicTic2 = _interopRequireDefault(_ticTicTic);
 
-var _siMaMaKa = __webpack_require__(297);
+var _siMaMaKa = __webpack_require__(300);
 
 var _siMaMaKa2 = _interopRequireDefault(_siMaMaKa);
 
-var _theCourtyardOfMyHouse = __webpack_require__(299);
+var _theCourtyardOfMyHouse = __webpack_require__(302);
 
 var _theCourtyardOfMyHouse2 = _interopRequireDefault(_theCourtyardOfMyHouse);
 
-var _hereWeGoRoundTheMulberryBush = __webpack_require__(293);
+var _hereWeGoRoundTheMulberryBush = __webpack_require__(296);
 
 var _hereWeGoRoundTheMulberryBush2 = _interopRequireDefault(_hereWeGoRoundTheMulberryBush);
 
-var _itsRainning = __webpack_require__(294);
+var _itsRainning = __webpack_require__(297);
 
 var _itsRainning2 = _interopRequireDefault(_itsRainning);
 
-var _twoTigers = __webpack_require__(302);
+var _twoTigers = __webpack_require__(305);
 
 var _twoTigers2 = _interopRequireDefault(_twoTigers);
 
-var _springHasCome = __webpack_require__(298);
+var _springHasCome = __webpack_require__(301);
 
 var _springHasCome2 = _interopRequireDefault(_springHasCome);
 
-var _patACake = __webpack_require__(296);
+var _patACake = __webpack_require__(299);
 
 var _patACake2 = _interopRequireDefault(_patACake);
 
-var _onMondayMorning = __webpack_require__(295);
+var _onMondayMorning = __webpack_require__(298);
 
 var _onMondayMorning2 = _interopRequireDefault(_onMondayMorning);
 
@@ -15389,7 +15453,7 @@ var _argentine = __webpack_require__(77);
 
 var _argentine2 = _interopRequireDefault(_argentine);
 
-var _usa = __webpack_require__(231);
+var _usa = __webpack_require__(234);
 
 var _usa2 = _interopRequireDefault(_usa);
 
@@ -15421,205 +15485,205 @@ var _jordanie = __webpack_require__(86);
 
 var _jordanie2 = _interopRequireDefault(_jordanie);
 
-var _color_fr_swahili = __webpack_require__(450);
+var _color_fr_swahili = __webpack_require__(453);
 
 var _color_fr_swahili2 = _interopRequireDefault(_color_fr_swahili);
 
-var _color_fr_spanish = __webpack_require__(449);
+var _color_fr_spanish = __webpack_require__(452);
 
 var _color_fr_spanish2 = _interopRequireDefault(_color_fr_spanish);
 
-var _color_fr_serbia = __webpack_require__(448);
+var _color_fr_serbia = __webpack_require__(451);
 
 var _color_fr_serbia2 = _interopRequireDefault(_color_fr_serbia);
 
-var _color_fr_russia = __webpack_require__(447);
+var _color_fr_russia = __webpack_require__(450);
 
 var _color_fr_russia2 = _interopRequireDefault(_color_fr_russia);
 
-var _color_fr_italy = __webpack_require__(446);
+var _color_fr_italy = __webpack_require__(449);
 
 var _color_fr_italy2 = _interopRequireDefault(_color_fr_italy);
 
-var _color_fr_india = __webpack_require__(445);
+var _color_fr_india = __webpack_require__(448);
 
 var _color_fr_india2 = _interopRequireDefault(_color_fr_india);
 
-var _color_fr_german = __webpack_require__(444);
+var _color_fr_german = __webpack_require__(447);
 
 var _color_fr_german2 = _interopRequireDefault(_color_fr_german);
 
-var _color_fr_english = __webpack_require__(442);
+var _color_fr_english = __webpack_require__(445);
 
 var _color_fr_english2 = _interopRequireDefault(_color_fr_english);
 
-var _color_fr_china = __webpack_require__(441);
+var _color_fr_china = __webpack_require__(444);
 
 var _color_fr_china2 = _interopRequireDefault(_color_fr_china);
 
-var _color_fr_brasil = __webpack_require__(440);
+var _color_fr_brasil = __webpack_require__(443);
 
 var _color_fr_brasil2 = _interopRequireDefault(_color_fr_brasil);
 
-var _color_fr_arabe = __webpack_require__(439);
+var _color_fr_arabe = __webpack_require__(442);
 
 var _color_fr_arabe2 = _interopRequireDefault(_color_fr_arabe);
 
-var _color_fr_french = __webpack_require__(443);
+var _color_fr_french = __webpack_require__(446);
 
 var _color_fr_french2 = _interopRequireDefault(_color_fr_french);
 
-var _french = __webpack_require__(278);
+var _french = __webpack_require__(281);
 
-var _fr_owls = __webpack_require__(405);
+var _fr_owls = __webpack_require__(408);
 
 var _fr_owls2 = _interopRequireDefault(_fr_owls);
 
-var _fr_owls3 = __webpack_require__(406);
+var _fr_owls3 = __webpack_require__(409);
 
 var _fr_owls4 = _interopRequireDefault(_fr_owls3);
 
-var _fr_owls5 = __webpack_require__(407);
+var _fr_owls5 = __webpack_require__(410);
 
 var _fr_owls6 = _interopRequireDefault(_fr_owls5);
 
-var _fr_children = __webpack_require__(404);
+var _fr_children = __webpack_require__(407);
 
 var _fr_children2 = _interopRequireDefault(_fr_children);
 
-var _allColorsFr = __webpack_require__(346);
+var _allColorsFr = __webpack_require__(349);
 
 var _allColorsFr2 = _interopRequireDefault(_allColorsFr);
 
-var _recette_fr_argentine = __webpack_require__(490);
+var _recette_fr_argentine = __webpack_require__(493);
 
 var _recette_fr_argentine2 = _interopRequireDefault(_recette_fr_argentine);
 
-var _recette_fr_brasil = __webpack_require__(491);
+var _recette_fr_brasil = __webpack_require__(494);
 
 var _recette_fr_brasil2 = _interopRequireDefault(_recette_fr_brasil);
 
-var _recette_fr_haiti = __webpack_require__(495);
+var _recette_fr_haiti = __webpack_require__(498);
 
 var _recette_fr_haiti2 = _interopRequireDefault(_recette_fr_haiti);
 
-var _recette_fr_chilie = __webpack_require__(493);
+var _recette_fr_chilie = __webpack_require__(496);
 
 var _recette_fr_chilie2 = _interopRequireDefault(_recette_fr_chilie);
 
-var _recette_fr_guyane = __webpack_require__(494);
+var _recette_fr_guyane = __webpack_require__(497);
 
 var _recette_fr_guyane2 = _interopRequireDefault(_recette_fr_guyane);
 
-var _recette_fr_mexique = __webpack_require__(496);
+var _recette_fr_mexique = __webpack_require__(499);
 
 var _recette_fr_mexique2 = _interopRequireDefault(_recette_fr_mexique);
 
-var _recette_fr_usa = __webpack_require__(497);
+var _recette_fr_usa = __webpack_require__(500);
 
 var _recette_fr_usa2 = _interopRequireDefault(_recette_fr_usa);
 
-var _recette_fr_canada = __webpack_require__(492);
+var _recette_fr_canada = __webpack_require__(495);
 
 var _recette_fr_canada2 = _interopRequireDefault(_recette_fr_canada);
 
-var _recette_fr_australie = __webpack_require__(512);
+var _recette_fr_australie = __webpack_require__(515);
 
 var _recette_fr_australie2 = _interopRequireDefault(_recette_fr_australie);
 
-var _recette_fr_vanuatu = __webpack_require__(513);
+var _recette_fr_vanuatu = __webpack_require__(516);
 
 var _recette_fr_vanuatu2 = _interopRequireDefault(_recette_fr_vanuatu);
 
-var _recette_fr_zelande = __webpack_require__(514);
+var _recette_fr_zelande = __webpack_require__(517);
 
 var _recette_fr_zelande2 = _interopRequireDefault(_recette_fr_zelande);
 
-var _recette_fr_english = __webpack_require__(505);
+var _recette_fr_english = __webpack_require__(508);
 
 var _recette_fr_english2 = _interopRequireDefault(_recette_fr_english);
 
-var _recette_fr_french = __webpack_require__(506);
+var _recette_fr_french = __webpack_require__(509);
 
 var _recette_fr_french2 = _interopRequireDefault(_recette_fr_french);
 
-var _recette_fr_german = __webpack_require__(507);
+var _recette_fr_german = __webpack_require__(510);
 
 var _recette_fr_german2 = _interopRequireDefault(_recette_fr_german);
 
-var _recette_fr_spanish = __webpack_require__(511);
+var _recette_fr_spanish = __webpack_require__(514);
 
 var _recette_fr_spanish2 = _interopRequireDefault(_recette_fr_spanish);
 
-var _recette_fr_italy = __webpack_require__(508);
+var _recette_fr_italy = __webpack_require__(511);
 
 var _recette_fr_italy2 = _interopRequireDefault(_recette_fr_italy);
 
-var _recette_fr_russia = __webpack_require__(509);
+var _recette_fr_russia = __webpack_require__(512);
 
 var _recette_fr_russia2 = _interopRequireDefault(_recette_fr_russia);
 
-var _recette_fr_serbia = __webpack_require__(510);
+var _recette_fr_serbia = __webpack_require__(513);
 
 var _recette_fr_serbia2 = _interopRequireDefault(_recette_fr_serbia);
 
-var _recette_fr_benin = __webpack_require__(484);
+var _recette_fr_benin = __webpack_require__(487);
 
 var _recette_fr_benin2 = _interopRequireDefault(_recette_fr_benin);
 
-var _recette_fr_kenya = __webpack_require__(486);
+var _recette_fr_kenya = __webpack_require__(489);
 
 var _recette_fr_kenya2 = _interopRequireDefault(_recette_fr_kenya);
 
-var _recette_fr_tunisie = __webpack_require__(489);
+var _recette_fr_tunisie = __webpack_require__(492);
 
 var _recette_fr_tunisie2 = _interopRequireDefault(_recette_fr_tunisie);
 
-var _recette_fr_egypte = __webpack_require__(485);
+var _recette_fr_egypte = __webpack_require__(488);
 
 var _recette_fr_egypte2 = _interopRequireDefault(_recette_fr_egypte);
 
-var _recette_fr_algerie = __webpack_require__(483);
+var _recette_fr_algerie = __webpack_require__(486);
 
 var _recette_fr_algerie2 = _interopRequireDefault(_recette_fr_algerie);
 
-var _recette_fr_maroc = __webpack_require__(488);
+var _recette_fr_maroc = __webpack_require__(491);
 
 var _recette_fr_maroc2 = _interopRequireDefault(_recette_fr_maroc);
 
-var _recette_fr_malagasy = __webpack_require__(487);
+var _recette_fr_malagasy = __webpack_require__(490);
 
 var _recette_fr_malagasy2 = _interopRequireDefault(_recette_fr_malagasy);
 
-var _recette_fr_jordanie = __webpack_require__(501);
+var _recette_fr_jordanie = __webpack_require__(504);
 
 var _recette_fr_jordanie2 = _interopRequireDefault(_recette_fr_jordanie);
 
-var _recette_fr_singapur = __webpack_require__(503);
+var _recette_fr_singapur = __webpack_require__(506);
 
 var _recette_fr_singapur2 = _interopRequireDefault(_recette_fr_singapur);
 
-var _recette_fr_vietnam = __webpack_require__(504);
+var _recette_fr_vietnam = __webpack_require__(507);
 
 var _recette_fr_vietnam2 = _interopRequireDefault(_recette_fr_vietnam);
 
-var _recette_fr_china = __webpack_require__(499);
+var _recette_fr_china = __webpack_require__(502);
 
 var _recette_fr_china2 = _interopRequireDefault(_recette_fr_china);
 
-var _recette_fr_liban = __webpack_require__(502);
+var _recette_fr_liban = __webpack_require__(505);
 
 var _recette_fr_liban2 = _interopRequireDefault(_recette_fr_liban);
 
-var _recette_fr_india = __webpack_require__(500);
+var _recette_fr_india = __webpack_require__(503);
 
 var _recette_fr_india2 = _interopRequireDefault(_recette_fr_india);
 
-var _recette_fr_arabe = __webpack_require__(498);
+var _recette_fr_arabe = __webpack_require__(501);
 
 var _recette_fr_arabe2 = _interopRequireDefault(_recette_fr_arabe);
 
-var _french2 = __webpack_require__(320);
+var _french2 = __webpack_require__(323);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -15907,7 +15971,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 318 */
+/* 321 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15917,15 +15981,15 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _spanish = __webpack_require__(319);
+var _spanish = __webpack_require__(322);
 
 var _spanish2 = _interopRequireDefault(_spanish);
 
-var _french = __webpack_require__(317);
+var _french = __webpack_require__(320);
 
 var _french2 = _interopRequireDefault(_french);
 
-var _english = __webpack_require__(316);
+var _english = __webpack_require__(319);
 
 var _english2 = _interopRequireDefault(_english);
 
@@ -15946,7 +16010,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 319 */
+/* 322 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15976,51 +16040,51 @@ var _pipiletDescription = __webpack_require__(18);
 
 var _pipiletDescription2 = _interopRequireDefault(_pipiletDescription);
 
-var _winterIsHere = __webpack_require__(315);
+var _winterIsHere = __webpack_require__(318);
 
 var _winterIsHere2 = _interopRequireDefault(_winterIsHere);
 
-var _fallFallBallon = __webpack_require__(304);
+var _fallFallBallon = __webpack_require__(307);
 
 var _fallFallBallon2 = _interopRequireDefault(_fallFallBallon);
 
-var _theWasherman = __webpack_require__(312);
+var _theWasherman = __webpack_require__(315);
 
 var _theWasherman2 = _interopRequireDefault(_theWasherman);
 
-var _ticTicTic = __webpack_require__(313);
+var _ticTicTic = __webpack_require__(316);
 
 var _ticTicTic2 = _interopRequireDefault(_ticTicTic);
 
-var _siMaMaKa = __webpack_require__(309);
+var _siMaMaKa = __webpack_require__(312);
 
 var _siMaMaKa2 = _interopRequireDefault(_siMaMaKa);
 
-var _theCourtyardOfMyHouse = __webpack_require__(311);
+var _theCourtyardOfMyHouse = __webpack_require__(314);
 
 var _theCourtyardOfMyHouse2 = _interopRequireDefault(_theCourtyardOfMyHouse);
 
-var _hereWeGoRoundTheMulberryBush = __webpack_require__(305);
+var _hereWeGoRoundTheMulberryBush = __webpack_require__(308);
 
 var _hereWeGoRoundTheMulberryBush2 = _interopRequireDefault(_hereWeGoRoundTheMulberryBush);
 
-var _itsRainning = __webpack_require__(306);
+var _itsRainning = __webpack_require__(309);
 
 var _itsRainning2 = _interopRequireDefault(_itsRainning);
 
-var _twoTigers = __webpack_require__(314);
+var _twoTigers = __webpack_require__(317);
 
 var _twoTigers2 = _interopRequireDefault(_twoTigers);
 
-var _springHasCome = __webpack_require__(310);
+var _springHasCome = __webpack_require__(313);
 
 var _springHasCome2 = _interopRequireDefault(_springHasCome);
 
-var _patACake = __webpack_require__(308);
+var _patACake = __webpack_require__(311);
 
 var _patACake2 = _interopRequireDefault(_patACake);
 
-var _onMondayMorning = __webpack_require__(307);
+var _onMondayMorning = __webpack_require__(310);
 
 var _onMondayMorning2 = _interopRequireDefault(_onMondayMorning);
 
@@ -16076,329 +16140,329 @@ var _map = __webpack_require__(46);
 
 var _map2 = _interopRequireDefault(_map);
 
-var _english = __webpack_require__(254);
+var _english = __webpack_require__(257);
 
 var _english2 = _interopRequireDefault(_english);
 
-var _french = __webpack_require__(255);
+var _french = __webpack_require__(258);
 
 var _french2 = _interopRequireDefault(_french);
 
-var _russia = __webpack_require__(258);
+var _russia = __webpack_require__(261);
 
 var _russia2 = _interopRequireDefault(_russia);
 
-var _german = __webpack_require__(256);
+var _german = __webpack_require__(259);
 
 var _german2 = _interopRequireDefault(_german);
 
-var _spanish = __webpack_require__(260);
+var _spanish = __webpack_require__(263);
 
 var _spanish2 = _interopRequireDefault(_spanish);
 
-var _italy = __webpack_require__(257);
+var _italy = __webpack_require__(260);
 
 var _italy2 = _interopRequireDefault(_italy);
 
-var _serbia = __webpack_require__(259);
+var _serbia = __webpack_require__(262);
 
 var _serbia2 = _interopRequireDefault(_serbia);
 
-var _australie = __webpack_require__(261);
+var _australie = __webpack_require__(264);
 
 var _australie2 = _interopRequireDefault(_australie);
 
-var _vanuatu = __webpack_require__(262);
+var _vanuatu = __webpack_require__(265);
 
 var _vanuatu2 = _interopRequireDefault(_vanuatu);
 
-var _zelande = __webpack_require__(263);
+var _zelande = __webpack_require__(266);
 
 var _zelande2 = _interopRequireDefault(_zelande);
 
-var _kenya = __webpack_require__(235);
+var _kenya = __webpack_require__(238);
 
 var _kenya2 = _interopRequireDefault(_kenya);
 
-var _benin = __webpack_require__(233);
+var _benin = __webpack_require__(236);
 
 var _benin2 = _interopRequireDefault(_benin);
 
-var _maroc = __webpack_require__(237);
+var _maroc = __webpack_require__(240);
 
 var _maroc2 = _interopRequireDefault(_maroc);
 
-var _tunisie = __webpack_require__(238);
+var _tunisie = __webpack_require__(241);
 
 var _tunisie2 = _interopRequireDefault(_tunisie);
 
-var _egypte = __webpack_require__(234);
+var _egypte = __webpack_require__(237);
 
 var _egypte2 = _interopRequireDefault(_egypte);
 
-var _malagasy = __webpack_require__(236);
+var _malagasy = __webpack_require__(239);
 
 var _malagasy2 = _interopRequireDefault(_malagasy);
 
-var _algerie = __webpack_require__(232);
+var _algerie = __webpack_require__(235);
 
 var _algerie2 = _interopRequireDefault(_algerie);
 
-var _mexico = __webpack_require__(245);
+var _mexico = __webpack_require__(248);
 
 var _mexico2 = _interopRequireDefault(_mexico);
 
-var _canadien = __webpack_require__(241);
+var _canadien = __webpack_require__(244);
 
 var _canadien2 = _interopRequireDefault(_canadien);
 
-var _brasil = __webpack_require__(240);
+var _brasil = __webpack_require__(243);
 
 var _brasil2 = _interopRequireDefault(_brasil);
 
-var _guyane = __webpack_require__(243);
+var _guyane = __webpack_require__(246);
 
 var _guyane2 = _interopRequireDefault(_guyane);
 
-var _chilie = __webpack_require__(242);
+var _chilie = __webpack_require__(245);
 
 var _chilie2 = _interopRequireDefault(_chilie);
 
-var _haiti = __webpack_require__(244);
+var _haiti = __webpack_require__(247);
 
 var _haiti2 = _interopRequireDefault(_haiti);
 
-var _argentine = __webpack_require__(239);
+var _argentine = __webpack_require__(242);
 
 var _argentine2 = _interopRequireDefault(_argentine);
 
-var _usa = __webpack_require__(246);
+var _usa = __webpack_require__(249);
 
 var _usa2 = _interopRequireDefault(_usa);
 
-var _singapour = __webpack_require__(252);
+var _singapour = __webpack_require__(255);
 
 var _singapour2 = _interopRequireDefault(_singapour);
 
-var _arabia = __webpack_require__(247);
+var _arabia = __webpack_require__(250);
 
 var _arabia2 = _interopRequireDefault(_arabia);
 
-var _india = __webpack_require__(249);
+var _india = __webpack_require__(252);
 
 var _india2 = _interopRequireDefault(_india);
 
-var _liban = __webpack_require__(251);
+var _liban = __webpack_require__(254);
 
 var _liban2 = _interopRequireDefault(_liban);
 
-var _china = __webpack_require__(248);
+var _china = __webpack_require__(251);
 
 var _china2 = _interopRequireDefault(_china);
 
-var _vietnam = __webpack_require__(253);
+var _vietnam = __webpack_require__(256);
 
 var _vietnam2 = _interopRequireDefault(_vietnam);
 
-var _jordania = __webpack_require__(250);
+var _jordania = __webpack_require__(253);
 
 var _jordania2 = _interopRequireDefault(_jordania);
 
-var _color_esp_arabe = __webpack_require__(427);
+var _color_esp_arabe = __webpack_require__(430);
 
 var _color_esp_arabe2 = _interopRequireDefault(_color_esp_arabe);
 
-var _color_esp_brasil = __webpack_require__(428);
+var _color_esp_brasil = __webpack_require__(431);
 
 var _color_esp_brasil2 = _interopRequireDefault(_color_esp_brasil);
 
-var _color_esp_china = __webpack_require__(429);
+var _color_esp_china = __webpack_require__(432);
 
 var _color_esp_china2 = _interopRequireDefault(_color_esp_china);
 
-var _color_esp_english = __webpack_require__(430);
+var _color_esp_english = __webpack_require__(433);
 
 var _color_esp_english2 = _interopRequireDefault(_color_esp_english);
 
-var _color_esp_french = __webpack_require__(431);
+var _color_esp_french = __webpack_require__(434);
 
 var _color_esp_french2 = _interopRequireDefault(_color_esp_french);
 
-var _color_esp_german = __webpack_require__(432);
+var _color_esp_german = __webpack_require__(435);
 
 var _color_esp_german2 = _interopRequireDefault(_color_esp_german);
 
-var _color_esp_india = __webpack_require__(433);
+var _color_esp_india = __webpack_require__(436);
 
 var _color_esp_india2 = _interopRequireDefault(_color_esp_india);
 
-var _color_esp_italy = __webpack_require__(434);
+var _color_esp_italy = __webpack_require__(437);
 
 var _color_esp_italy2 = _interopRequireDefault(_color_esp_italy);
 
-var _color_esp_russia = __webpack_require__(435);
+var _color_esp_russia = __webpack_require__(438);
 
 var _color_esp_russia2 = _interopRequireDefault(_color_esp_russia);
 
-var _color_esp_spanish = __webpack_require__(437);
+var _color_esp_spanish = __webpack_require__(440);
 
 var _color_esp_spanish2 = _interopRequireDefault(_color_esp_spanish);
 
-var _color_esp_serbia = __webpack_require__(436);
+var _color_esp_serbia = __webpack_require__(439);
 
 var _color_esp_serbia2 = _interopRequireDefault(_color_esp_serbia);
 
-var _color_esp_swahili = __webpack_require__(438);
+var _color_esp_swahili = __webpack_require__(441);
 
 var _color_esp_swahili2 = _interopRequireDefault(_color_esp_swahili);
 
-var _spanish3 = __webpack_require__(279);
+var _spanish3 = __webpack_require__(282);
 
-var _esp_owls = __webpack_require__(401);
+var _esp_owls = __webpack_require__(404);
 
 var _esp_owls2 = _interopRequireDefault(_esp_owls);
 
-var _esp_owls3 = __webpack_require__(402);
+var _esp_owls3 = __webpack_require__(405);
 
 var _esp_owls4 = _interopRequireDefault(_esp_owls3);
 
-var _esp_owls5 = __webpack_require__(403);
+var _esp_owls5 = __webpack_require__(406);
 
 var _esp_owls6 = _interopRequireDefault(_esp_owls5);
 
-var _esp_children = __webpack_require__(400);
+var _esp_children = __webpack_require__(403);
 
 var _esp_children2 = _interopRequireDefault(_esp_children);
 
-var _allColorsEsp = __webpack_require__(345);
+var _allColorsEsp = __webpack_require__(348);
 
 var _allColorsEsp2 = _interopRequireDefault(_allColorsEsp);
 
-var _recette_esp_argentine = __webpack_require__(458);
+var _recette_esp_argentine = __webpack_require__(461);
 
 var _recette_esp_argentine2 = _interopRequireDefault(_recette_esp_argentine);
 
-var _recette_esp_brasil = __webpack_require__(459);
+var _recette_esp_brasil = __webpack_require__(462);
 
 var _recette_esp_brasil2 = _interopRequireDefault(_recette_esp_brasil);
 
-var _recette_esp_haiti = __webpack_require__(463);
+var _recette_esp_haiti = __webpack_require__(466);
 
 var _recette_esp_haiti2 = _interopRequireDefault(_recette_esp_haiti);
 
-var _recette_esp_chilie = __webpack_require__(461);
+var _recette_esp_chilie = __webpack_require__(464);
 
 var _recette_esp_chilie2 = _interopRequireDefault(_recette_esp_chilie);
 
-var _recette_esp_guyane = __webpack_require__(462);
+var _recette_esp_guyane = __webpack_require__(465);
 
 var _recette_esp_guyane2 = _interopRequireDefault(_recette_esp_guyane);
 
-var _recette_esp_mexique = __webpack_require__(464);
+var _recette_esp_mexique = __webpack_require__(467);
 
 var _recette_esp_mexique2 = _interopRequireDefault(_recette_esp_mexique);
 
-var _recette_esp_usa = __webpack_require__(465);
+var _recette_esp_usa = __webpack_require__(468);
 
 var _recette_esp_usa2 = _interopRequireDefault(_recette_esp_usa);
 
-var _recette_esp_canada = __webpack_require__(460);
+var _recette_esp_canada = __webpack_require__(463);
 
 var _recette_esp_canada2 = _interopRequireDefault(_recette_esp_canada);
 
-var _recette_esp_australie = __webpack_require__(480);
+var _recette_esp_australie = __webpack_require__(483);
 
 var _recette_esp_australie2 = _interopRequireDefault(_recette_esp_australie);
 
-var _recette_esp_vanuatu = __webpack_require__(481);
+var _recette_esp_vanuatu = __webpack_require__(484);
 
 var _recette_esp_vanuatu2 = _interopRequireDefault(_recette_esp_vanuatu);
 
-var _recette_esp_zelande = __webpack_require__(482);
+var _recette_esp_zelande = __webpack_require__(485);
 
 var _recette_esp_zelande2 = _interopRequireDefault(_recette_esp_zelande);
 
-var _recette_esp_english = __webpack_require__(473);
+var _recette_esp_english = __webpack_require__(476);
 
 var _recette_esp_english2 = _interopRequireDefault(_recette_esp_english);
 
-var _recette_esp_french = __webpack_require__(474);
+var _recette_esp_french = __webpack_require__(477);
 
 var _recette_esp_french2 = _interopRequireDefault(_recette_esp_french);
 
-var _recette_esp_german = __webpack_require__(475);
+var _recette_esp_german = __webpack_require__(478);
 
 var _recette_esp_german2 = _interopRequireDefault(_recette_esp_german);
 
-var _recette_esp_spanish = __webpack_require__(479);
+var _recette_esp_spanish = __webpack_require__(482);
 
 var _recette_esp_spanish2 = _interopRequireDefault(_recette_esp_spanish);
 
-var _recette_esp_italy = __webpack_require__(476);
+var _recette_esp_italy = __webpack_require__(479);
 
 var _recette_esp_italy2 = _interopRequireDefault(_recette_esp_italy);
 
-var _recette_esp_russia = __webpack_require__(477);
+var _recette_esp_russia = __webpack_require__(480);
 
 var _recette_esp_russia2 = _interopRequireDefault(_recette_esp_russia);
 
-var _recette_esp_serbia = __webpack_require__(478);
+var _recette_esp_serbia = __webpack_require__(481);
 
 var _recette_esp_serbia2 = _interopRequireDefault(_recette_esp_serbia);
 
-var _recette_esp_benin = __webpack_require__(452);
+var _recette_esp_benin = __webpack_require__(455);
 
 var _recette_esp_benin2 = _interopRequireDefault(_recette_esp_benin);
 
-var _recette_esp_kenya = __webpack_require__(454);
+var _recette_esp_kenya = __webpack_require__(457);
 
 var _recette_esp_kenya2 = _interopRequireDefault(_recette_esp_kenya);
 
-var _recette_esp_tunisie = __webpack_require__(457);
+var _recette_esp_tunisie = __webpack_require__(460);
 
 var _recette_esp_tunisie2 = _interopRequireDefault(_recette_esp_tunisie);
 
-var _recette_esp_egypte = __webpack_require__(453);
+var _recette_esp_egypte = __webpack_require__(456);
 
 var _recette_esp_egypte2 = _interopRequireDefault(_recette_esp_egypte);
 
-var _recette_esp_algerie = __webpack_require__(451);
+var _recette_esp_algerie = __webpack_require__(454);
 
 var _recette_esp_algerie2 = _interopRequireDefault(_recette_esp_algerie);
 
-var _recette_esp_maroc = __webpack_require__(456);
+var _recette_esp_maroc = __webpack_require__(459);
 
 var _recette_esp_maroc2 = _interopRequireDefault(_recette_esp_maroc);
 
-var _recette_esp_malagasy = __webpack_require__(455);
+var _recette_esp_malagasy = __webpack_require__(458);
 
 var _recette_esp_malagasy2 = _interopRequireDefault(_recette_esp_malagasy);
 
-var _recette_esp_jordanie = __webpack_require__(469);
+var _recette_esp_jordanie = __webpack_require__(472);
 
 var _recette_esp_jordanie2 = _interopRequireDefault(_recette_esp_jordanie);
 
-var _recette_esp_singapur = __webpack_require__(471);
+var _recette_esp_singapur = __webpack_require__(474);
 
 var _recette_esp_singapur2 = _interopRequireDefault(_recette_esp_singapur);
 
-var _recette_esp_vietnam = __webpack_require__(472);
+var _recette_esp_vietnam = __webpack_require__(475);
 
 var _recette_esp_vietnam2 = _interopRequireDefault(_recette_esp_vietnam);
 
-var _recette_esp_china = __webpack_require__(467);
+var _recette_esp_china = __webpack_require__(470);
 
 var _recette_esp_china2 = _interopRequireDefault(_recette_esp_china);
 
-var _recette_esp_liban = __webpack_require__(470);
+var _recette_esp_liban = __webpack_require__(473);
 
 var _recette_esp_liban2 = _interopRequireDefault(_recette_esp_liban);
 
-var _recette_esp_india = __webpack_require__(468);
+var _recette_esp_india = __webpack_require__(471);
 
 var _recette_esp_india2 = _interopRequireDefault(_recette_esp_india);
 
-var _recette_esp_arab = __webpack_require__(466);
+var _recette_esp_arab = __webpack_require__(469);
 
 var _recette_esp_arab2 = _interopRequireDefault(_recette_esp_arab);
 
@@ -16691,7 +16755,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 320 */
+/* 323 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16956,7 +17020,7 @@ var _temp = function () {
 ;
 
 /***/ }),
-/* 321 */
+/* 324 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -16970,7 +17034,7 @@ exports.push([module.i, "#wrapper-footer{height:400px;display:flex;justify-conte
 
 
 /***/ }),
-/* 322 */
+/* 325 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -16984,7 +17048,7 @@ exports.push([module.i, "#wrapper-title-logo{text-align:center;font-family:Amati
 
 
 /***/ }),
-/* 323 */
+/* 326 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -16998,7 +17062,7 @@ exports.push([module.i, "#wrapper-navbar{padding:30px;background:#fc5600;positio
 
 
 /***/ }),
-/* 324 */
+/* 327 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -17012,7 +17076,7 @@ exports.push([module.i, "#wrapper-sidebar{width:20%;display:inline-block;vertica
 
 
 /***/ }),
-/* 325 */
+/* 328 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -17026,7 +17090,7 @@ exports.push([module.i, ".o-container{width:100%}.wrapper-content{width:80%;disp
 
 
 /***/ }),
-/* 326 */
+/* 329 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -17040,7 +17104,7 @@ exports.push([module.i, "#wrapper-choose-country-cook .wrapper-title{font-size:5
 
 
 /***/ }),
-/* 327 */
+/* 330 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -17054,7 +17118,7 @@ exports.push([module.i, "#wrapper-colornumber{display:flex;flex-direction:column
 
 
 /***/ }),
-/* 328 */
+/* 331 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -17068,7 +17132,7 @@ exports.push([module.i, "#wrapper-color-page .wrapper-section-color-number{displ
 
 
 /***/ }),
-/* 329 */
+/* 332 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -17082,7 +17146,7 @@ exports.push([module.i, "#wrapper-cooker-page .wrapper-description{vertical-alig
 
 
 /***/ }),
-/* 330 */
+/* 333 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -17096,7 +17160,7 @@ exports.push([module.i, "#wrapper-display-recipe .wrapper-header-recipe{display:
 
 
 /***/ }),
-/* 331 */
+/* 334 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -17110,7 +17174,7 @@ exports.push([module.i, "#wrapper-headertitle{display:flex;align-items:center;ju
 
 
 /***/ }),
-/* 332 */
+/* 335 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -17124,7 +17188,7 @@ exports.push([module.i, "#wrapper-header-song{margin:60px 0;display:flex;width:1
 
 
 /***/ }),
-/* 333 */
+/* 336 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)(undefined);
@@ -17138,48 +17202,6 @@ exports.push([module.i, ".container-information-song{margin-top:60px;display:fle
 
 
 /***/ }),
-/* 334 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(3)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, "#wrapper-lyrics-song{display:inline-block}#wrapper-lyrics-song .wrapper-original-language{vertical-align:top;display:inline-block}#wrapper-lyrics-song .wrapper-selected-language{vertical-align:top;display:inline-block;width:50%}#wrapper-lyrics-song .lyrics-text{display:inline-block;font-size:1.3vw}", ""]);
-
-// exports
-
-
-/***/ }),
-/* 335 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(3)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, "#wrapper-sheet{margin-top:60px;text-align:center}#wrapper-sheet img{width:100%}", ""]);
-
-// exports
-
-
-/***/ }),
-/* 336 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(3)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, "#wrapper-video-image{display:inline-block;vertical-align:top}#wrapper-video-image span{display:inline-block;width:100%}#wrapper-video-image .wrapper-youtube-video{display:inline-block;vertical-align:middle}#wrapper-video-image .youtube-video{display:inline-block;margin-top:30px;height:21vw;width:100%}#wrapper-video-image .image-pipilet-song{vertical-align:middle;display:inline-block;text-align:center}#wrapper-video-image .image-pipilet-song img{width:13vw}", ""]);
-
-// exports
-
-
-/***/ }),
 /* 337 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17188,7 +17210,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "#wrapper-number-page .wrapper-section-color-number{display:flex;justify-content:center;flex-wrap:wrap;width:100%;transition:.5s}#wrapper-number-page .wrapper-section-color-number .owls-inner{position:relative}#wrapper-number-page .wrapper-section-color-number .owls-inner .border{position:absolute;flex-wrap:wrap}#wrapper-number-page .wrapper-section-color-number .owls-inner .width_number{width:13%;height:50%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_0{top:0;left:6%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_1{top:0;left:19%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_2{top:0;left:33%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_3{top:0;left:50%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_4{top:0;left:69%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_5{top:0;left:86%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_6{top:50%;left:6%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_7{top:50%;left:22%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_8{top:50%;left:39%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_9{top:50%;left:55%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_10{top:50%;left:71%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_11{top:50%;left:86%}#wrapper-number-page .wrapper-section-color-number img{max-height:100%;max-width:100%}", ""]);
+exports.push([module.i, "#wrapper-lyrics-song{display:inline-block}#wrapper-lyrics-song .wrapper-original-language{vertical-align:top;display:inline-block}#wrapper-lyrics-song .wrapper-selected-language{vertical-align:top;display:inline-block;width:50%}#wrapper-lyrics-song .lyrics-text{display:inline-block;font-size:30px;font-family:Work Sans,sans-serif}", ""]);
 
 // exports
 
@@ -17202,7 +17224,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "#wrapper-presentation-page{padding:0 30px}#wrapper-presentation-page .wrapper-image-pipilet{width:30%;float:left}#wrapper-presentation-page .wrapper-image-pipilet img{width:93%}", ""]);
+exports.push([module.i, "#wrapper-sheet{margin-top:60px;text-align:center}#wrapper-sheet img{width:100%}", ""]);
 
 // exports
 
@@ -17216,7 +17238,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "#wrapper-flag,#wrapper-flag .wrapper-circle{position:relative;overflow:hidden}#wrapper-flag .wrapper-circle{padding:60px;width:100%;transition:.4s}#wrapper-flag .circle-container{position:relative;width:35vw;height:35vw;padding:0;border-radius:50%;list-style:none;box-sizing:content-box;margin:0 auto;z-index:2}#wrapper-flag .circle-container>*{display:block;position:absolute;top:50%;left:50%;width:6vw;height:6vw;margin:-3vw}#wrapper-flag .circle-container>:first-of-type{transform:rotate(0deg) translate(17.5vw) rotate(0deg)}#wrapper-flag .circle-container>:nth-of-type(2){transform:rotate(30deg) translate(17.5vw) rotate(-30deg)}#wrapper-flag .circle-container>:nth-of-type(3){transform:rotate(60deg) translate(17.5vw) rotate(-60deg)}#wrapper-flag .circle-container>:nth-of-type(4){transform:rotate(90deg) translate(17.5vw) rotate(-90deg)}#wrapper-flag .circle-container>:nth-of-type(5){transform:rotate(120deg) translate(17.5vw) rotate(-120deg)}#wrapper-flag .circle-container>:nth-of-type(6){transform:rotate(150deg) translate(17.5vw) rotate(-150deg)}#wrapper-flag .circle-container>:nth-of-type(7){transform:rotate(180deg) translate(17.5vw) rotate(-180deg)}#wrapper-flag .circle-container>:nth-of-type(8){transform:rotate(210deg) translate(17.5vw) rotate(-210deg)}#wrapper-flag .circle-container>:nth-of-type(9){transform:rotate(240deg) translate(17.5vw) rotate(-240deg)}#wrapper-flag .circle-container>:nth-of-type(10){transform:rotate(270deg) translate(17.5vw) rotate(-270deg)}#wrapper-flag .circle-container>:nth-of-type(11){transform:rotate(300deg) translate(17.5vw) rotate(-300deg)}#wrapper-flag .circle-container>:nth-of-type(12){transform:rotate(330deg) translate(17.5vw) rotate(-330deg)}#wrapper-flag .circle-container img{display:block;width:100%;border-radius:50%}#wrapper-flag .children-earth{position:absolute;top:50%;left:50%;width:25vw;height:25vw;transform:translate(-50%,-50%)}", ""]);
+exports.push([module.i, "#wrapper-video-image{display:inline-block;vertical-align:top}#wrapper-video-image span{display:inline-block;width:100%}#wrapper-video-image .wrapper-youtube-video{display:inline-block;vertical-align:middle}#wrapper-video-image .youtube-video{display:inline-block;margin-top:30px;height:21vw;width:100%}#wrapper-video-image .image-pipilet-song{vertical-align:middle;display:inline-block;text-align:center}#wrapper-video-image .image-pipilet-song img{width:13vw}", ""]);
 
 // exports
 
@@ -17230,7 +17252,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "#wrapper-language{height:20vw;margin-bottom:30px;display:flex}#wrapper-language .wrapper-display-language{width:100%;height:100%;position:relative}#wrapper-language .wrapper-display-language .absolute-language{position:absolute;font-size:1.2vw;font-family:Roboto Slab,serif;transition:.5s;text-decoration:none}#wrapper-language .wrapper-display-language .scale:hover{transform:scale(1.2)}#wrapper-language .wrapper-display-language .arab{top:20%;left:2%;color:#00bfff}#wrapper-language .wrapper-display-language .english{top:10%;left:46%;color:#00008b}#wrapper-language .wrapper-display-language .indian{top:17%;left:71%;color:#ff1493}#wrapper-language .wrapper-display-language .french{top:44%;left:69%;color:#00bfff}#wrapper-language .wrapper-display-language .african{top:30%;left:29%;color:#006400}#wrapper-language .wrapper-display-language .serbia{top:50%;left:54%;color:#ff8c00}#wrapper-language .wrapper-display-language .italian{top:50%;left:10%;color:#00008b}#wrapper-language .wrapper-display-language .spanish{top:20%;left:90%;color:peru}#wrapper-language .wrapper-display-language .china{top:70%;left:36%;color:#ff1493}#wrapper-language .wrapper-display-language .germany{top:63%;left:80%;color:#ff8c00}#wrapper-language .wrapper-display-language .russian{top:80%;left:4%;color:peru}#wrapper-language .wrapper-display-language .portuguese{top:80%;left:64%;color:#006400}#wrapper-language .wrapper-display-language .note1{top:78%;left:93%;height:18%;transform:rotate(10deg)}#wrapper-language .wrapper-display-language .note2{top:10%;left:12%;height:25%;transform:rotate(13deg)}#wrapper-language .wrapper-display-language .note3{top:9%;left:60%;height:14%}#wrapper-language .wrapper-display-language .note4{top:34%;left:20%;height:40%}#wrapper-language .wrapper-display-language .note5{top:24%;left:42%;height:33%}#wrapper-language .wrapper-display-language .note6{top:22%;left:80%;height:31%}#wrapper-language .wrapper-display-language .note7{top:79%;left:49%;height:22%}#wrapper-language .wrapper-display-language .note8{top:73%;left:19%;height:25%}", ""]);
+exports.push([module.i, "#wrapper-number-page .wrapper-section-color-number{display:flex;justify-content:center;flex-wrap:wrap;width:100%;transition:.5s}#wrapper-number-page .wrapper-section-color-number .owls-inner{position:relative}#wrapper-number-page .wrapper-section-color-number .owls-inner .border{position:absolute;flex-wrap:wrap}#wrapper-number-page .wrapper-section-color-number .owls-inner .width_number{width:13%;height:50%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_0{top:0;left:6%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_1{top:0;left:19%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_2{top:0;left:33%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_3{top:0;left:50%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_4{top:0;left:69%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_5{top:0;left:86%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_6{top:50%;left:6%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_7{top:50%;left:22%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_8{top:50%;left:39%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_9{top:50%;left:55%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_10{top:50%;left:71%}#wrapper-number-page .wrapper-section-color-number .owls-inner .number_11{top:50%;left:86%}#wrapper-number-page .wrapper-section-color-number img{max-height:100%;max-width:100%}", ""]);
 
 // exports
 
@@ -17244,7 +17266,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "#wrapper-game #wrapper-title-game{font-size:34px;text-align:center;margin-bottom:60px}#wrapper-game #wrapper-mot-croise .wrapper-word{display:inline-block;width:50%;text-align:center}#wrapper-game #wrapper-mot-croise .wrapper-word #wrapper-list-word{display:inline-block}#wrapper-game #wrapper-mot-croise .wrapper-word #wrapper-list-word .list-word th{color:red;padding:15px;text-align:left;font-size:22px}#wrapper-game #wrapper-mot-croise .wrapper-word #wrapper-list-word .list-word td{padding:15px;font-size:22px}#wrapper-game #wrapper-mot-croise .wrapper-grid{display:inline-block;width:50%}#wrapper-game #wrapper-mot-croise .wrapper-grid #wrapper-grid-word{display:inline-block;width:100%}#wrapper-game #wrapper-mot-croise .wrapper-grid #wrapper-grid-word table{border-collapse:collapse;width:100%}#wrapper-game #wrapper-mot-croise .wrapper-grid #wrapper-grid-word table tr td{padding:15px;text-align:center;border:1px solid #000;font-size:22px}", ""]);
+exports.push([module.i, "#wrapper-presentation-page{padding:0 30px}#wrapper-presentation-page .wrapper-image-pipilet{width:30%;float:left}#wrapper-presentation-page .wrapper-image-pipilet img{width:93%}", ""]);
 
 // exports
 
@@ -17258,7 +17280,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "#wrapper-translated-color #wrapper-header{margin:60px 0}#wrapper-translated-color #wrapper-header .wrapper-image-pipilet{width:30%;display:inline-block;vertical-align:middle}#wrapper-translated-color #wrapper-header .wrapper-image-pipilet img{width:100%}#wrapper-translated-color #wrapper-header .wrapper-title-rules{width:70%;display:inline-block;vertical-align:middle;text-align:center}#wrapper-translated-color #wrapper-header .wrapper-title-rules .wrapper-title{font-size:32px}#wrapper-translated-color #wrapper-header .wrapper-title-rules .wrapper-logo-pipilet{margin-bottom:60px}#wrapper-translated-color #wrapper-header .wrapper-title-rules .wrapper-logo-pipilet img{width:100%}#wrapper-translated-color #wrapper-header .wrapper-title-rules .wrapper-rules-download{display:flex;justify-content:space-around;flex-direction:column}#wrapper-translated-color #wrapper-header .wrapper-title-rules .wrapper-rules-download img{width:15%}#wrapper-translated-color #wrapper-header .wrapper-title-rules .wrapper-rules-download .wrapper-download{margin-top:15px}#wrapper-translated-color #wrapper-header .wrapper-title-rules .wrapper-rules-download .wrapper-rules div{margin:30px;font-size:22px}#wrapper-translated-color #wrapper-table{width:100%;text-align:center;margin-left:auto;margin-right:auto;margin-bottom:60px}#wrapper-translated-color #wrapper-table table{border-collapse:collapse;margin:0 auto;display:inline-block}#wrapper-translated-color #wrapper-table table thead{margin:15px}#wrapper-translated-color #wrapper-table table thead td{text-align:center;color:red;font-weight:700}#wrapper-translated-color #wrapper-table td{border:1px solid #000;width:15vw;height:70px;text-align:center}#wrapper-translated-color #wrapper-table td img{padding:5px;width:20%}#wrapper-translated-color #wrapper-game{margin-bottom:60px}#wrapper-translated-color #wrapper-drawing{text-align:center}#wrapper-translated-color #wrapper-drawing img{width:40%}", ""]);
+exports.push([module.i, "#wrapper-flag,#wrapper-flag .wrapper-circle{position:relative;overflow:hidden}#wrapper-flag .wrapper-circle{padding:60px;width:100%;transition:.4s}#wrapper-flag .circle-container{position:relative;width:35vw;height:35vw;padding:0;border-radius:50%;list-style:none;box-sizing:content-box;margin:0 auto;z-index:2}#wrapper-flag .circle-container>*{display:block;position:absolute;top:50%;left:50%;width:6vw;height:6vw;margin:-3vw}#wrapper-flag .circle-container>:first-of-type{transform:rotate(0deg) translate(17.5vw) rotate(0deg)}#wrapper-flag .circle-container>:nth-of-type(2){transform:rotate(30deg) translate(17.5vw) rotate(-30deg)}#wrapper-flag .circle-container>:nth-of-type(3){transform:rotate(60deg) translate(17.5vw) rotate(-60deg)}#wrapper-flag .circle-container>:nth-of-type(4){transform:rotate(90deg) translate(17.5vw) rotate(-90deg)}#wrapper-flag .circle-container>:nth-of-type(5){transform:rotate(120deg) translate(17.5vw) rotate(-120deg)}#wrapper-flag .circle-container>:nth-of-type(6){transform:rotate(150deg) translate(17.5vw) rotate(-150deg)}#wrapper-flag .circle-container>:nth-of-type(7){transform:rotate(180deg) translate(17.5vw) rotate(-180deg)}#wrapper-flag .circle-container>:nth-of-type(8){transform:rotate(210deg) translate(17.5vw) rotate(-210deg)}#wrapper-flag .circle-container>:nth-of-type(9){transform:rotate(240deg) translate(17.5vw) rotate(-240deg)}#wrapper-flag .circle-container>:nth-of-type(10){transform:rotate(270deg) translate(17.5vw) rotate(-270deg)}#wrapper-flag .circle-container>:nth-of-type(11){transform:rotate(300deg) translate(17.5vw) rotate(-300deg)}#wrapper-flag .circle-container>:nth-of-type(12){transform:rotate(330deg) translate(17.5vw) rotate(-330deg)}#wrapper-flag .circle-container img{display:block;width:100%;border-radius:50%}#wrapper-flag .children-earth{position:absolute;top:50%;left:50%;width:25vw;height:25vw;transform:translate(-50%,-50%)}", ""]);
 
 // exports
 
@@ -17272,7 +17294,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "#translated-number{padding:60px}#translated-number .wrapper-flag-title-book{margin-bottom:30px}#translated-number .wrapper-flag{text-align:center;width:20%;vertical-align:middle;display:inline-block}#translated-number .wrapper-flag img{width:100%}#translated-number .wrapper-title{text-align:center;font-size:31px;vertical-align:middle;width:60%;display:inline-block}#translated-number .wrapper-book-number{text-align:center;width:20%;vertical-align:middle;display:inline-block}#translated-number .wrapper-book-number img{width:150px}#table-number table{border-collapse:collapse}#table-number td{border:1px solid #000;width:20vw;padding:7px}#table-number .first-table{margin-bottom:60px}#table-number .letter-dot{color:red;font-weight:700;font-size:22px}#table-number .wrapper-third-four{display:flex;justify-content:space-around;margin-bottom:60px}#table-number .first-table{display:flex;justify-content:center}#table-number .wrapper-second-table{display:flex;align-items:center;justify-content:space-around;margin-bottom:60px}#table-number .wrapper-second-table .wrapper-logo-download{text-align:center;width:10%}#table-number .wrapper-second-table .wrapper-logo-download img{width:100%}#table-number .wrapper-second-table .wrapper-little-draw{height:25%}#table-number .wrapper-second-table .wrapper-little-draw .little-draw{height:100%}#table-number .wrapper-third-table .third-table{text-align:center}#table-number .wrapper-third-table .third-table td{width:10vw}#table-number .wrapper-fourth-table{text-align:center}#table-number .wrapper-fourth-table .fourth-table td{width:15vw;font-weight:700;font-size:22px;text-align:center}#table-number .wrapper-fourth-table .fourth-table .exercice-number{width:auto}#table-number .wrapper-logo{margin-bottom:60px}#table-number .wrapper-logo img{height:10%}#table-number .wrapper-big-draw{display:flex;justify-content:center}#table-number .wrapper-big-draw img{height:80%}", ""]);
+exports.push([module.i, "#wrapper-language{height:20vw;margin-bottom:30px;display:flex}#wrapper-language .wrapper-display-language{width:100%;height:100%;position:relative}#wrapper-language .wrapper-display-language .absolute-language{position:absolute;font-size:1.2vw;font-family:Roboto Slab,serif;transition:.5s;text-decoration:none}#wrapper-language .wrapper-display-language .scale:hover{transform:scale(1.2)}#wrapper-language .wrapper-display-language .arab{top:20%;left:2%;color:#00bfff}#wrapper-language .wrapper-display-language .english{top:10%;left:46%;color:#00008b}#wrapper-language .wrapper-display-language .indian{top:17%;left:71%;color:#ff1493}#wrapper-language .wrapper-display-language .french{top:44%;left:69%;color:#00bfff}#wrapper-language .wrapper-display-language .african{top:30%;left:29%;color:#006400}#wrapper-language .wrapper-display-language .serbia{top:50%;left:54%;color:#ff8c00}#wrapper-language .wrapper-display-language .italian{top:50%;left:10%;color:#00008b}#wrapper-language .wrapper-display-language .spanish{top:20%;left:90%;color:peru}#wrapper-language .wrapper-display-language .china{top:70%;left:36%;color:#ff1493}#wrapper-language .wrapper-display-language .germany{top:63%;left:80%;color:#ff8c00}#wrapper-language .wrapper-display-language .russian{top:80%;left:4%;color:peru}#wrapper-language .wrapper-display-language .portuguese{top:80%;left:64%;color:#006400}#wrapper-language .wrapper-display-language .note1{top:78%;left:93%;height:18%;transform:rotate(10deg)}#wrapper-language .wrapper-display-language .note2{top:10%;left:12%;height:25%;transform:rotate(13deg)}#wrapper-language .wrapper-display-language .note3{top:9%;left:60%;height:14%}#wrapper-language .wrapper-display-language .note4{top:34%;left:20%;height:40%}#wrapper-language .wrapper-display-language .note5{top:24%;left:42%;height:33%}#wrapper-language .wrapper-display-language .note6{top:22%;left:80%;height:31%}#wrapper-language .wrapper-display-language .note7{top:79%;left:49%;height:22%}#wrapper-language .wrapper-display-language .note8{top:73%;left:19%;height:25%}", ""]);
 
 // exports
 
@@ -17281,1335 +17303,1377 @@ exports.push([module.i, "#translated-number{padding:60px}#translated-number .wra
 /* 344 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_all-colors-eng.png";
+exports = module.exports = __webpack_require__(3)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "#wrapper-game #wrapper-title-game{font-size:34px;text-align:center;margin-bottom:60px}#wrapper-game #wrapper-mot-croise .wrapper-word{display:inline-block;width:50%;text-align:center}#wrapper-game #wrapper-mot-croise .wrapper-word #wrapper-list-word{display:inline-block}#wrapper-game #wrapper-mot-croise .wrapper-word #wrapper-list-word .list-word th{color:red;padding:15px;text-align:left;font-size:22px}#wrapper-game #wrapper-mot-croise .wrapper-word #wrapper-list-word .list-word td{padding:15px;font-size:22px}#wrapper-game #wrapper-mot-croise .wrapper-grid{display:inline-block;width:50%}#wrapper-game #wrapper-mot-croise .wrapper-grid #wrapper-grid-word{display:inline-block;width:100%}#wrapper-game #wrapper-mot-croise .wrapper-grid #wrapper-grid-word table{border-collapse:collapse;width:100%}#wrapper-game #wrapper-mot-croise .wrapper-grid #wrapper-grid-word table tr td{padding:15px;text-align:center;border:1px solid #000;font-size:22px}", ""]);
+
+// exports
+
 
 /***/ }),
 /* 345 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_all-colors-esp.png";
+exports = module.exports = __webpack_require__(3)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "#wrapper-translated-color #wrapper-header{margin:60px 0}#wrapper-translated-color #wrapper-header .wrapper-image-pipilet{width:30%;display:inline-block;vertical-align:middle}#wrapper-translated-color #wrapper-header .wrapper-image-pipilet img{width:100%}#wrapper-translated-color #wrapper-header .wrapper-title-rules{width:70%;display:inline-block;vertical-align:middle;text-align:center}#wrapper-translated-color #wrapper-header .wrapper-title-rules .wrapper-title{font-size:32px}#wrapper-translated-color #wrapper-header .wrapper-title-rules .wrapper-logo-pipilet{margin-bottom:60px}#wrapper-translated-color #wrapper-header .wrapper-title-rules .wrapper-logo-pipilet img{width:100%}#wrapper-translated-color #wrapper-header .wrapper-title-rules .wrapper-rules-download{display:flex;justify-content:space-around;flex-direction:column}#wrapper-translated-color #wrapper-header .wrapper-title-rules .wrapper-rules-download img{width:15%}#wrapper-translated-color #wrapper-header .wrapper-title-rules .wrapper-rules-download .wrapper-download{margin-top:15px}#wrapper-translated-color #wrapper-header .wrapper-title-rules .wrapper-rules-download .wrapper-rules div{margin:30px;font-size:22px}#wrapper-translated-color #wrapper-table{width:100%;text-align:center;margin-left:auto;margin-right:auto;margin-bottom:60px}#wrapper-translated-color #wrapper-table table{border-collapse:collapse;margin:0 auto;display:inline-block;font-size:23px;font-family:Arial}#wrapper-translated-color #wrapper-table table thead{margin:15px}#wrapper-translated-color #wrapper-table table thead td{text-align:center;color:red;font-weight:700}#wrapper-translated-color #wrapper-table td{border:1px solid #000;width:15vw;height:70px;text-align:center}#wrapper-translated-color #wrapper-table td img{padding:5px;width:20%}#wrapper-translated-color #wrapper-game{margin-bottom:60px}#wrapper-translated-color #wrapper-drawing{text-align:center}#wrapper-translated-color #wrapper-drawing img{width:40%}", ""]);
+
+// exports
+
 
 /***/ }),
 /* 346 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_all-colors-fr.png";
+exports = module.exports = __webpack_require__(3)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "#translated-number{padding:60px}#translated-number .wrapper-flag-title-book{margin-bottom:30px}#translated-number .wrapper-flag{text-align:center;width:20%;vertical-align:middle;display:inline-block}#translated-number .wrapper-flag img{width:100%}#translated-number .wrapper-title{text-align:center;font-size:31px;vertical-align:middle;width:60%;display:inline-block}#translated-number .wrapper-book-number{text-align:center;width:20%;vertical-align:middle;display:inline-block}#translated-number .wrapper-book-number img{width:150px}#table-number table{border-collapse:collapse;font-size:23px;font-family:Arial}#table-number td{border:1px solid #000;width:20vw;padding:10px}#table-number .first-table{margin-bottom:60px}#table-number .letter-dot{color:red;font-weight:700;font-size:22px}#table-number .wrapper-third-four{display:flex;justify-content:space-around;margin-bottom:60px}#table-number .first-table{display:flex;justify-content:center}#table-number .wrapper-second-table{display:flex;align-items:center;justify-content:space-around;margin-bottom:60px}#table-number .wrapper-second-table .wrapper-logo-download{text-align:center;width:10%}#table-number .wrapper-second-table .wrapper-logo-download img{width:100%}#table-number .wrapper-second-table .wrapper-little-draw{height:25%}#table-number .wrapper-second-table .wrapper-little-draw .little-draw{height:100%}#table-number .wrapper-third-table .third-table{text-align:center}#table-number .wrapper-third-table .third-table td{width:10vw}#table-number .wrapper-fourth-table{text-align:center}#table-number .wrapper-fourth-table .fourth-table td{width:15vw;font-weight:700;font-size:22px;text-align:center}#table-number .wrapper-fourth-table .fourth-table .exercice-number{width:auto}#table-number .wrapper-logo{margin-bottom:60px}#table-number .wrapper-logo img{height:10%}#table-number .wrapper-big-draw{display:flex;justify-content:center}#table-number .wrapper-big-draw img{height:80%}", ""]);
+
+// exports
+
 
 /***/ }),
 /* 347 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_arab_draw_1.png";
+module.exports = __webpack_require__.p + "png_all-colors-eng.png";
 
 /***/ }),
 /* 348 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_arab_draw_2.png";
+module.exports = __webpack_require__.p + "png_all-colors-esp.png";
 
 /***/ }),
 /* 349 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_black.png";
+module.exports = __webpack_require__.p + "png_all-colors-fr.png";
 
 /***/ }),
 /* 350 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_blue.png";
+module.exports = __webpack_require__.p + "png_arab_draw_1.png";
 
 /***/ }),
 /* 351 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_brasil_draw.png";
+module.exports = __webpack_require__.p + "png_arab_draw_2.png";
 
 /***/ }),
 /* 352 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_brown.png";
+module.exports = __webpack_require__.p + "png_black.png";
 
 /***/ }),
 /* 353 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_china_draw_1.png";
+module.exports = __webpack_require__.p + "png_blue.png";
 
 /***/ }),
 /* 354 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_china_draw_2.png";
+module.exports = __webpack_require__.p + "png_brasil_draw.png";
 
 /***/ }),
 /* 355 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_english_draw.png";
+module.exports = __webpack_require__.p + "png_brown.png";
 
 /***/ }),
 /* 356 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_french_draw.png";
+module.exports = __webpack_require__.p + "png_china_draw_1.png";
 
 /***/ }),
 /* 357 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_german_draw.png";
+module.exports = __webpack_require__.p + "png_china_draw_2.png";
 
 /***/ }),
 /* 358 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_green.png";
+module.exports = __webpack_require__.p + "png_english_draw.png";
 
 /***/ }),
 /* 359 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_india_draw_1.png";
+module.exports = __webpack_require__.p + "png_french_draw.png";
 
 /***/ }),
 /* 360 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_india_draw_2.png";
+module.exports = __webpack_require__.p + "png_german_draw.png";
 
 /***/ }),
 /* 361 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_italy_draw.png";
+module.exports = __webpack_require__.p + "png_green.png";
 
 /***/ }),
 /* 362 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_orange.png";
+module.exports = __webpack_require__.p + "png_india_draw_1.png";
 
 /***/ }),
 /* 363 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_pink.png";
+module.exports = __webpack_require__.p + "png_india_draw_2.png";
 
 /***/ }),
 /* 364 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_purple.png";
+module.exports = __webpack_require__.p + "png_italy_draw.png";
 
 /***/ }),
 /* 365 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_red.png";
+module.exports = __webpack_require__.p + "png_orange.png";
 
 /***/ }),
 /* 366 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_russia_draw_1.png";
+module.exports = __webpack_require__.p + "png_pink.png";
 
 /***/ }),
 /* 367 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_russia_draw_2.png";
+module.exports = __webpack_require__.p + "png_purple.png";
 
 /***/ }),
 /* 368 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_serb_draw_1.png";
+module.exports = __webpack_require__.p + "png_red.png";
 
 /***/ }),
 /* 369 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_serb_draw_2.png";
+module.exports = __webpack_require__.p + "png_russia_draw_1.png";
 
 /***/ }),
 /* 370 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_spanish_draw.png";
+module.exports = __webpack_require__.p + "png_russia_draw_2.png";
 
 /***/ }),
 /* 371 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_tanzanie_draw.png";
+module.exports = __webpack_require__.p + "png_serb_draw_1.png";
 
 /***/ }),
 /* 372 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_white.png";
+module.exports = __webpack_require__.p + "png_serb_draw_2.png";
 
 /***/ }),
 /* 373 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_yellow.png";
+module.exports = __webpack_require__.p + "png_spanish_draw.png";
 
 /***/ }),
 /* 374 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_english_nav.png";
+module.exports = __webpack_require__.p + "png_tanzanie_draw.png";
 
 /***/ }),
 /* 375 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_french_nav.png";
+module.exports = __webpack_require__.p + "png_white.png";
 
 /***/ }),
 /* 376 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_note-1.png";
+module.exports = __webpack_require__.p + "png_yellow.png";
 
 /***/ }),
 /* 377 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_note-2.png";
+module.exports = __webpack_require__.p + "png_english_nav.png";
 
 /***/ }),
 /* 378 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_note-3.png";
+module.exports = __webpack_require__.p + "png_french_nav.png";
 
 /***/ }),
 /* 379 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_note-4.png";
+module.exports = __webpack_require__.p + "png_note-1.png";
 
 /***/ }),
 /* 380 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_on-monday-morning.jpg";
+module.exports = __webpack_require__.p + "png_note-2.png";
 
 /***/ }),
 /* 381 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_si-ma-ma-ka.jpg";
+module.exports = __webpack_require__.p + "png_note-3.png";
 
 /***/ }),
 /* 382 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_the-courtyard-of-my-house.jpg";
+module.exports = __webpack_require__.p + "png_note-4.png";
 
 /***/ }),
 /* 383 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_the-washerman.jpg";
+module.exports = __webpack_require__.p + "jpg_on-monday-morning.jpg";
 
 /***/ }),
 /* 384 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_tic-tic-tic.jpg";
+module.exports = __webpack_require__.p + "jpg_si-ma-ma-ka.jpg";
 
 /***/ }),
 /* 385 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_sheet-fall-fall-ballon.png";
+module.exports = __webpack_require__.p + "jpg_the-courtyard-of-my-house.jpg";
 
 /***/ }),
 /* 386 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_sheet-here-we-go-round-the-mulberry-bush.png";
+module.exports = __webpack_require__.p + "jpg_the-washerman.jpg";
 
 /***/ }),
 /* 387 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_sheet-its-rainning.png";
+module.exports = __webpack_require__.p + "jpg_tic-tic-tic.jpg";
 
 /***/ }),
 /* 388 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_sheet-on-monday-morning.png";
+module.exports = __webpack_require__.p + "png_sheet-fall-fall-ballon.png";
 
 /***/ }),
 /* 389 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_sheet-si-ma-ma-ka.png";
+module.exports = __webpack_require__.p + "png_sheet-here-we-go-round-the-mulberry-bush.png";
 
 /***/ }),
 /* 390 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_sheet-the-courtyard-of-my-house.png";
+module.exports = __webpack_require__.p + "png_sheet-its-rainning.png";
 
 /***/ }),
 /* 391 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_sheet-tic-tic-tic.jpg";
+module.exports = __webpack_require__.p + "png_sheet-on-monday-morning.png";
 
 /***/ }),
 /* 392 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_sheet-two-tigers.jpg";
+module.exports = __webpack_require__.p + "png_sheet-si-ma-ma-ka.png";
 
 /***/ }),
 /* 393 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_sheet-winter-is-here.png";
+module.exports = __webpack_require__.p + "png_sheet-the-courtyard-of-my-house.png";
 
 /***/ }),
 /* 394 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_pipilet-horizontal.jpg";
+module.exports = __webpack_require__.p + "jpg_sheet-tic-tic-tic.jpg";
 
 /***/ }),
 /* 395 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_spanish_nav.png";
+module.exports = __webpack_require__.p + "jpg_sheet-two-tigers.jpg";
 
 /***/ }),
 /* 396 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_eng_children.png";
+module.exports = __webpack_require__.p + "png_sheet-winter-is-here.png";
 
 /***/ }),
 /* 397 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_eng_owls-1.png";
+module.exports = __webpack_require__.p + "jpg_pipilet-horizontal.jpg";
 
 /***/ }),
 /* 398 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_eng_owls-2.png";
+module.exports = __webpack_require__.p + "png_spanish_nav.png";
 
 /***/ }),
 /* 399 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_eng_owls-3.png";
+module.exports = __webpack_require__.p + "png_eng_children.png";
 
 /***/ }),
 /* 400 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_esp_children.png";
+module.exports = __webpack_require__.p + "png_eng_owls-1.png";
 
 /***/ }),
 /* 401 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_esp_owls-1.png";
+module.exports = __webpack_require__.p + "png_eng_owls-2.png";
 
 /***/ }),
 /* 402 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_esp_owls-2.png";
+module.exports = __webpack_require__.p + "png_eng_owls-3.png";
 
 /***/ }),
 /* 403 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_esp_owls-3.png";
+module.exports = __webpack_require__.p + "png_esp_children.png";
 
 /***/ }),
 /* 404 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_fr_children.png";
+module.exports = __webpack_require__.p + "png_esp_owls-1.png";
 
 /***/ }),
 /* 405 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_fr_owls-1.png";
+module.exports = __webpack_require__.p + "png_esp_owls-2.png";
 
 /***/ }),
 /* 406 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_fr_owls-2.png";
+module.exports = __webpack_require__.p + "png_esp_owls-3.png";
 
 /***/ }),
 /* 407 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_fr_owls-3.png";
+module.exports = __webpack_require__.p + "png_fr_children.png";
 
 /***/ }),
 /* 408 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_map.png";
+module.exports = __webpack_require__.p + "png_fr_owls-1.png";
 
 /***/ }),
 /* 409 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_family-owls.jpg";
+module.exports = __webpack_require__.p + "png_fr_owls-2.png";
 
 /***/ }),
 /* 410 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_family.jpg";
+module.exports = __webpack_require__.p + "png_fr_owls-3.png";
 
 /***/ }),
 /* 411 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_pipilet-horizontal.jpg";
+module.exports = __webpack_require__.p + "png_map.png";
 
 /***/ }),
 /* 412 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "jpg_earth-snow.jpg";
+module.exports = __webpack_require__.p + "jpg_family-owls.jpg";
 
 /***/ }),
 /* 413 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_hand-write-logo.png";
+module.exports = __webpack_require__.p + "jpg_family.jpg";
 
 /***/ }),
 /* 414 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_book-number.png";
+module.exports = __webpack_require__.p + "jpg_pipilet-horizontal.jpg";
 
 /***/ }),
 /* 415 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_eng_arabe.pdf";
+module.exports = __webpack_require__.p + "jpg_earth-snow.jpg";
 
 /***/ }),
 /* 416 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_eng_brasil.pdf";
+module.exports = __webpack_require__.p + "png_hand-write-logo.png";
 
 /***/ }),
 /* 417 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_eng_china.pdf";
+module.exports = __webpack_require__.p + "png_book-number.png";
 
 /***/ }),
 /* 418 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_eng_english.pdf";
+module.exports = __webpack_require__.p + "pdf_color_eng_arabe.pdf";
 
 /***/ }),
 /* 419 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_eng_french.pdf";
+module.exports = __webpack_require__.p + "pdf_color_eng_brasil.pdf";
 
 /***/ }),
 /* 420 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_eng_german.pdf";
+module.exports = __webpack_require__.p + "pdf_color_eng_china.pdf";
 
 /***/ }),
 /* 421 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_eng_india.pdf";
+module.exports = __webpack_require__.p + "pdf_color_eng_english.pdf";
 
 /***/ }),
 /* 422 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_eng_italy.pdf";
+module.exports = __webpack_require__.p + "pdf_color_eng_french.pdf";
 
 /***/ }),
 /* 423 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_eng_russia.pdf";
+module.exports = __webpack_require__.p + "pdf_color_eng_german.pdf";
 
 /***/ }),
 /* 424 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_eng_serbia.pdf";
+module.exports = __webpack_require__.p + "pdf_color_eng_india.pdf";
 
 /***/ }),
 /* 425 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_eng_spanish.pdf";
+module.exports = __webpack_require__.p + "pdf_color_eng_italy.pdf";
 
 /***/ }),
 /* 426 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_eng_swahili.pdf";
+module.exports = __webpack_require__.p + "pdf_color_eng_russia.pdf";
 
 /***/ }),
 /* 427 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_arabe.pdf";
+module.exports = __webpack_require__.p + "pdf_color_eng_serbia.pdf";
 
 /***/ }),
 /* 428 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_brasil.pdf";
+module.exports = __webpack_require__.p + "pdf_color_eng_spanish.pdf";
 
 /***/ }),
 /* 429 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_china.pdf";
+module.exports = __webpack_require__.p + "pdf_color_eng_swahili.pdf";
 
 /***/ }),
 /* 430 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_english.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_arabe.pdf";
 
 /***/ }),
 /* 431 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_french.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_brasil.pdf";
 
 /***/ }),
 /* 432 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_german.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_china.pdf";
 
 /***/ }),
 /* 433 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_india.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_english.pdf";
 
 /***/ }),
 /* 434 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_italy.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_french.pdf";
 
 /***/ }),
 /* 435 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_russia.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_german.pdf";
 
 /***/ }),
 /* 436 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_serbia.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_india.pdf";
 
 /***/ }),
 /* 437 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_spanish.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_italy.pdf";
 
 /***/ }),
 /* 438 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_esp_swahili.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_russia.pdf";
 
 /***/ }),
 /* 439 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_arabe.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_serbia.pdf";
 
 /***/ }),
 /* 440 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_brasil.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_spanish.pdf";
 
 /***/ }),
 /* 441 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_china.pdf";
+module.exports = __webpack_require__.p + "pdf_color_esp_swahili.pdf";
 
 /***/ }),
 /* 442 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_english.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_arabe.pdf";
 
 /***/ }),
 /* 443 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_french.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_brasil.pdf";
 
 /***/ }),
 /* 444 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_german.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_china.pdf";
 
 /***/ }),
 /* 445 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_india.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_english.pdf";
 
 /***/ }),
 /* 446 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_italy.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_french.pdf";
 
 /***/ }),
 /* 447 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_russia.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_german.pdf";
 
 /***/ }),
 /* 448 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_serbia.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_india.pdf";
 
 /***/ }),
 /* 449 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_spanish.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_italy.pdf";
 
 /***/ }),
 /* 450 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_color_fr_swahili.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_russia.pdf";
 
 /***/ }),
 /* 451 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_algerie.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_serbia.pdf";
 
 /***/ }),
 /* 452 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_benin.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_spanish.pdf";
 
 /***/ }),
 /* 453 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_egypte.pdf";
+module.exports = __webpack_require__.p + "pdf_color_fr_swahili.pdf";
 
 /***/ }),
 /* 454 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_kenya.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_algerie.pdf";
 
 /***/ }),
 /* 455 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_malagasy.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_benin.pdf";
 
 /***/ }),
 /* 456 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_maroc.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_egypte.pdf";
 
 /***/ }),
 /* 457 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_tunisie.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_kenya.pdf";
 
 /***/ }),
 /* 458 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_argentine.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_malagasy.pdf";
 
 /***/ }),
 /* 459 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_brasil.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_maroc.pdf";
 
 /***/ }),
 /* 460 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_canada.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_tunisie.pdf";
 
 /***/ }),
 /* 461 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_chilie.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_argentine.pdf";
 
 /***/ }),
 /* 462 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_guyane.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_brasil.pdf";
 
 /***/ }),
 /* 463 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_haiti.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_canada.pdf";
 
 /***/ }),
 /* 464 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_mexique.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_chilie.pdf";
 
 /***/ }),
 /* 465 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_usa.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_guyane.pdf";
 
 /***/ }),
 /* 466 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_arab.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_haiti.pdf";
 
 /***/ }),
 /* 467 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_china.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_mexique.pdf";
 
 /***/ }),
 /* 468 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_india.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_usa.pdf";
 
 /***/ }),
 /* 469 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_jordanie.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_arab.pdf";
 
 /***/ }),
 /* 470 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_liban.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_china.pdf";
 
 /***/ }),
 /* 471 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_singapur.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_india.pdf";
 
 /***/ }),
 /* 472 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_vietnam.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_jordanie.pdf";
 
 /***/ }),
 /* 473 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_english.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_liban.pdf";
 
 /***/ }),
 /* 474 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_french.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_singapur.pdf";
 
 /***/ }),
 /* 475 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_german.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_vietnam.pdf";
 
 /***/ }),
 /* 476 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_italy.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_english.pdf";
 
 /***/ }),
 /* 477 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_russia.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_french.pdf";
 
 /***/ }),
 /* 478 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_serbia.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_german.pdf";
 
 /***/ }),
 /* 479 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_spanish.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_italy.pdf";
 
 /***/ }),
 /* 480 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_australie.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_russia.pdf";
 
 /***/ }),
 /* 481 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_vanuatu.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_serbia.pdf";
 
 /***/ }),
 /* 482 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_esp_zelande.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_spanish.pdf";
 
 /***/ }),
 /* 483 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_algerie.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_australie.pdf";
 
 /***/ }),
 /* 484 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_benin.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_vanuatu.pdf";
 
 /***/ }),
 /* 485 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_egypte.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_esp_zelande.pdf";
 
 /***/ }),
 /* 486 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_kenya.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_algerie.pdf";
 
 /***/ }),
 /* 487 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_malagasy.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_benin.pdf";
 
 /***/ }),
 /* 488 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_maroc.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_egypte.pdf";
 
 /***/ }),
 /* 489 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_tunisie.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_kenya.pdf";
 
 /***/ }),
 /* 490 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_argentine.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_malagasy.pdf";
 
 /***/ }),
 /* 491 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_brasil.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_maroc.pdf";
 
 /***/ }),
 /* 492 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_canada.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_tunisie.pdf";
 
 /***/ }),
 /* 493 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_chilie.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_argentine.pdf";
 
 /***/ }),
 /* 494 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_guyane.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_brasil.pdf";
 
 /***/ }),
 /* 495 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_haiti.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_canada.pdf";
 
 /***/ }),
 /* 496 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_mexique.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_chilie.pdf";
 
 /***/ }),
 /* 497 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_usa.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_guyane.pdf";
 
 /***/ }),
 /* 498 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_arabe.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_haiti.pdf";
 
 /***/ }),
 /* 499 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_china.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_mexique.pdf";
 
 /***/ }),
 /* 500 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_india.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_usa.pdf";
 
 /***/ }),
 /* 501 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_jordanie.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_arabe.pdf";
 
 /***/ }),
 /* 502 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_liban.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_china.pdf";
 
 /***/ }),
 /* 503 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_singapur.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_india.pdf";
 
 /***/ }),
 /* 504 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_vietnam.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_jordanie.pdf";
 
 /***/ }),
 /* 505 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_english.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_liban.pdf";
 
 /***/ }),
 /* 506 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_french.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_singapur.pdf";
 
 /***/ }),
 /* 507 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_german.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_vietnam.pdf";
 
 /***/ }),
 /* 508 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_italy.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_english.pdf";
 
 /***/ }),
 /* 509 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_russia.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_french.pdf";
 
 /***/ }),
 /* 510 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_serbia.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_german.pdf";
 
 /***/ }),
 /* 511 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_spanish.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_italy.pdf";
 
 /***/ }),
 /* 512 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_australie.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_russia.pdf";
 
 /***/ }),
 /* 513 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_vanuatu.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_serbia.pdf";
 
 /***/ }),
 /* 514 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_recette_fr_zelande.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_spanish.pdf";
 
 /***/ }),
 /* 515 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_arabe.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_australie.pdf";
 
 /***/ }),
 /* 516 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_brasil.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_vanuatu.pdf";
 
 /***/ }),
 /* 517 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_china.pdf";
+module.exports = __webpack_require__.p + "pdf_recette_fr_zelande.pdf";
 
 /***/ }),
 /* 518 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_english.pdf";
+module.exports = __webpack_require__.p + "pdf_number_arabe.pdf";
 
 /***/ }),
 /* 519 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_french.pdf";
+module.exports = __webpack_require__.p + "pdf_number_brasil.pdf";
 
 /***/ }),
 /* 520 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_german.pdf";
+module.exports = __webpack_require__.p + "pdf_number_china.pdf";
 
 /***/ }),
 /* 521 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_india.pdf";
+module.exports = __webpack_require__.p + "pdf_number_english.pdf";
 
 /***/ }),
 /* 522 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_italy.pdf";
+module.exports = __webpack_require__.p + "pdf_number_french.pdf";
 
 /***/ }),
 /* 523 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_russia.pdf";
+module.exports = __webpack_require__.p + "pdf_number_german.pdf";
 
 /***/ }),
 /* 524 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_serbia.pdf";
+module.exports = __webpack_require__.p + "pdf_number_india.pdf";
 
 /***/ }),
 /* 525 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_spanish.pdf";
+module.exports = __webpack_require__.p + "pdf_number_italy.pdf";
 
 /***/ }),
 /* 526 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_number_swahili.pdf";
+module.exports = __webpack_require__.p + "pdf_number_russia.pdf";
 
 /***/ }),
 /* 527 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_fall-fall-ballon.pdf";
+module.exports = __webpack_require__.p + "pdf_number_serbia.pdf";
 
 /***/ }),
 /* 528 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_here-we-go-round-the-mulberry-bush.pdf";
+module.exports = __webpack_require__.p + "pdf_number_spanish.pdf";
 
 /***/ }),
 /* 529 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_its-rainning.pdf";
+module.exports = __webpack_require__.p + "pdf_number_swahili.pdf";
 
 /***/ }),
 /* 530 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_on-monday-morning.pdf";
+module.exports = __webpack_require__.p + "pdf_song_eng_fall-fall-ballon.pdf";
 
 /***/ }),
 /* 531 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_pat-a-cake.pdf";
+module.exports = __webpack_require__.p + "pdf_song_eng_here-we-go-round-the-mulberry-bush.pdf";
 
 /***/ }),
 /* 532 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_si-ma-ma-ka.pdf";
+module.exports = __webpack_require__.p + "pdf_song_eng_its-rainning.pdf";
 
 /***/ }),
 /* 533 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_spring-has-come.pdf";
+module.exports = __webpack_require__.p + "pdf_song_eng_on-monday-morning.pdf";
 
 /***/ }),
 /* 534 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_the-courtyard-of-my-house.pdf";
+module.exports = __webpack_require__.p + "pdf_song_eng_pat-a-cake.pdf";
 
 /***/ }),
 /* 535 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_the-washerman.pdf";
+module.exports = __webpack_require__.p + "pdf_song_eng_si-ma-ma-ka.pdf";
 
 /***/ }),
 /* 536 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_tic-tic-tic.pdf";
+module.exports = __webpack_require__.p + "pdf_song_eng_spring-has-come.pdf";
 
 /***/ }),
 /* 537 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_two-tigers.pdf";
+module.exports = __webpack_require__.p + "pdf_song_eng_the-courtyard-of-my-house.pdf";
 
 /***/ }),
 /* 538 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_eng_winter_is_here.pdf";
+module.exports = __webpack_require__.p + "pdf_song_eng_the-washerman.pdf";
 
 /***/ }),
 /* 539 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_fall-fall-ballon.pdf";
+module.exports = __webpack_require__.p + "pdf_song_eng_tic-tic-tic.pdf";
 
 /***/ }),
 /* 540 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_here-we-go-round-the-mulberry-bush.pdf";
+module.exports = __webpack_require__.p + "pdf_song_eng_two-tigers.pdf";
 
 /***/ }),
 /* 541 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_its-rainning.pdf";
+module.exports = __webpack_require__.p + "pdf_song_eng_winter_is_here.pdf";
 
 /***/ }),
 /* 542 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_on-monday-morning.pdf";
+module.exports = __webpack_require__.p + "pdf_song_esp_fall-fall-ballon.pdf";
 
 /***/ }),
 /* 543 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_pat-a-cake.pdf";
+module.exports = __webpack_require__.p + "pdf_song_esp_here-we-go-round-the-mulberry-bush.pdf";
 
 /***/ }),
 /* 544 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_si-ma-ma-ka.pdf";
+module.exports = __webpack_require__.p + "pdf_song_esp_its-rainning.pdf";
 
 /***/ }),
 /* 545 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_spring-has-come.pdf";
+module.exports = __webpack_require__.p + "pdf_song_esp_on-monday-morning.pdf";
 
 /***/ }),
 /* 546 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_the-courtyard-of-my-house.pdf";
+module.exports = __webpack_require__.p + "pdf_song_esp_pat-a-cake.pdf";
 
 /***/ }),
 /* 547 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_the-washerman.pdf";
+module.exports = __webpack_require__.p + "pdf_song_esp_si-ma-ma-ka.pdf";
 
 /***/ }),
 /* 548 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_tic-tic-tic.pdf";
+module.exports = __webpack_require__.p + "pdf_song_esp_spring-has-come.pdf";
 
 /***/ }),
 /* 549 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_two-tigers.pdf";
+module.exports = __webpack_require__.p + "pdf_song_esp_the-courtyard-of-my-house.pdf";
 
 /***/ }),
 /* 550 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_esp_winter-is-here.pdf";
+module.exports = __webpack_require__.p + "pdf_song_esp_the-washerman.pdf";
 
 /***/ }),
 /* 551 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_fall-fall-ballon.pdf";
+module.exports = __webpack_require__.p + "pdf_song_esp_tic-tic-tic.pdf";
 
 /***/ }),
 /* 552 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_here-we-go-round-the-mulberry-bush.pdf";
+module.exports = __webpack_require__.p + "pdf_song_esp_two-tigers.pdf";
 
 /***/ }),
 /* 553 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_its-rainning.pdf";
+module.exports = __webpack_require__.p + "pdf_song_esp_winter-is-here.pdf";
 
 /***/ }),
 /* 554 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_on-monday-morning.pdf";
+module.exports = __webpack_require__.p + "pdf_song_fr_fall-fall-ballon.pdf";
 
 /***/ }),
 /* 555 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_pat-a-cake.pdf";
+module.exports = __webpack_require__.p + "pdf_song_fr_here-we-go-round-the-mulberry-bush.pdf";
 
 /***/ }),
 /* 556 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_si-ma-ma-ka.pdf";
+module.exports = __webpack_require__.p + "pdf_song_fr_its-rainning.pdf";
 
 /***/ }),
 /* 557 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_spring-has-come.pdf";
+module.exports = __webpack_require__.p + "pdf_song_fr_on-monday-morning.pdf";
 
 /***/ }),
 /* 558 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_the-courtyard-of-my-house.pdf";
+module.exports = __webpack_require__.p + "pdf_song_fr_pat-a-cake.pdf";
 
 /***/ }),
 /* 559 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_the-washerman.pdf";
+module.exports = __webpack_require__.p + "pdf_song_fr_si-ma-ma-ka.pdf";
 
 /***/ }),
 /* 560 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_tic-tic-tic.pdf";
+module.exports = __webpack_require__.p + "pdf_song_fr_spring-has-come.pdf";
 
 /***/ }),
 /* 561 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_two-tigers.pdf";
+module.exports = __webpack_require__.p + "pdf_song_fr_the-courtyard-of-my-house.pdf";
 
 /***/ }),
 /* 562 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "pdf_song_fr_winter-is-here.pdf";
+module.exports = __webpack_require__.p + "pdf_song_fr_the-washerman.pdf";
 
 /***/ }),
 /* 563 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_bird_big_draw_number.png";
+module.exports = __webpack_require__.p + "pdf_song_fr_tic-tic-tic.pdf";
 
 /***/ }),
 /* 564 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "png_bird_little_draw_number.png";
+module.exports = __webpack_require__.p + "pdf_song_fr_two-tigers.pdf";
 
 /***/ }),
 /* 565 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Symbol = __webpack_require__(159),
-    getRawTag = __webpack_require__(568),
-    objectToString = __webpack_require__(569);
+module.exports = __webpack_require__.p + "pdf_song_fr_winter-is-here.pdf";
+
+/***/ }),
+/* 566 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "png_bird_big_draw_number.png";
+
+/***/ }),
+/* 567 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "png_bird_little_draw_number.png";
+
+/***/ }),
+/* 568 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Symbol = __webpack_require__(162),
+    getRawTag = __webpack_require__(571),
+    objectToString = __webpack_require__(572);
 
 /** `Object#toString` result references. */
 var nullTag = '[object Null]',
@@ -18638,7 +18702,7 @@ module.exports = baseGetTag;
 
 
 /***/ }),
-/* 566 */
+/* 569 */
 /***/ (function(module, exports) {
 
 /** Detect free variable `global` from Node.js. */
@@ -18648,10 +18712,10 @@ module.exports = freeGlobal;
 
 
 /***/ }),
-/* 567 */
+/* 570 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var overArg = __webpack_require__(570);
+var overArg = __webpack_require__(573);
 
 /** Built-in value references. */
 var getPrototype = overArg(Object.getPrototypeOf, Object);
@@ -18660,10 +18724,10 @@ module.exports = getPrototype;
 
 
 /***/ }),
-/* 568 */
+/* 571 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Symbol = __webpack_require__(159);
+var Symbol = __webpack_require__(162);
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -18712,7 +18776,7 @@ module.exports = getRawTag;
 
 
 /***/ }),
-/* 569 */
+/* 572 */
 /***/ (function(module, exports) {
 
 /** Used for built-in method references. */
@@ -18740,7 +18804,7 @@ module.exports = objectToString;
 
 
 /***/ }),
-/* 570 */
+/* 573 */
 /***/ (function(module, exports) {
 
 /**
@@ -18761,10 +18825,10 @@ module.exports = overArg;
 
 
 /***/ }),
-/* 571 */
+/* 574 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var freeGlobal = __webpack_require__(566);
+var freeGlobal = __webpack_require__(569);
 
 /** Detect free variable `self`. */
 var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
@@ -18776,7 +18840,7 @@ module.exports = root;
 
 
 /***/ }),
-/* 572 */
+/* 575 */
 /***/ (function(module, exports) {
 
 /**
@@ -18811,12 +18875,12 @@ module.exports = isObjectLike;
 
 
 /***/ }),
-/* 573 */
+/* 576 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseGetTag = __webpack_require__(565),
-    getPrototype = __webpack_require__(567),
-    isObjectLike = __webpack_require__(572);
+var baseGetTag = __webpack_require__(568),
+    getPrototype = __webpack_require__(570),
+    isObjectLike = __webpack_require__(575);
 
 /** `Object#toString` result references. */
 var objectTag = '[object Object]';
@@ -18879,7 +18943,7 @@ module.exports = isPlainObject;
 
 
 /***/ }),
-/* 574 */
+/* 577 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18891,7 +18955,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 exports.default = connectAdvanced;
 
-var _hoistNonReactStatics = __webpack_require__(588);
+var _hoistNonReactStatics = __webpack_require__(591);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
@@ -18901,11 +18965,11 @@ var _invariant2 = _interopRequireDefault(_invariant);
 
 var _react = __webpack_require__(0);
 
-var _Subscription = __webpack_require__(581);
+var _Subscription = __webpack_require__(584);
 
 var _Subscription2 = _interopRequireDefault(_Subscription);
 
-var _PropTypes = __webpack_require__(580);
+var _PropTypes = __webpack_require__(583);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -19191,7 +19255,7 @@ selectorFactory) {
 }
 
 /***/ }),
-/* 575 */
+/* 578 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19204,7 +19268,7 @@ exports.whenMapDispatchToPropsIsObject = whenMapDispatchToPropsIsObject;
 
 var _redux = __webpack_require__(21);
 
-var _wrapMapToProps = __webpack_require__(160);
+var _wrapMapToProps = __webpack_require__(163);
 
 function whenMapDispatchToPropsIsFunction(mapDispatchToProps) {
   return typeof mapDispatchToProps === 'function' ? (0, _wrapMapToProps.wrapMapToPropsFunc)(mapDispatchToProps, 'mapDispatchToProps') : undefined;
@@ -19225,7 +19289,7 @@ function whenMapDispatchToPropsIsObject(mapDispatchToProps) {
 exports.default = [whenMapDispatchToPropsIsFunction, whenMapDispatchToPropsIsMissing, whenMapDispatchToPropsIsObject];
 
 /***/ }),
-/* 576 */
+/* 579 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19235,7 +19299,7 @@ exports.__esModule = true;
 exports.whenMapStateToPropsIsFunction = whenMapStateToPropsIsFunction;
 exports.whenMapStateToPropsIsMissing = whenMapStateToPropsIsMissing;
 
-var _wrapMapToProps = __webpack_require__(160);
+var _wrapMapToProps = __webpack_require__(163);
 
 function whenMapStateToPropsIsFunction(mapStateToProps) {
   return typeof mapStateToProps === 'function' ? (0, _wrapMapToProps.wrapMapToPropsFunc)(mapStateToProps, 'mapStateToProps') : undefined;
@@ -19250,7 +19314,7 @@ function whenMapStateToPropsIsMissing(mapStateToProps) {
 exports.default = [whenMapStateToPropsIsFunction, whenMapStateToPropsIsMissing];
 
 /***/ }),
-/* 577 */
+/* 580 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19265,7 +19329,7 @@ exports.wrapMergePropsFunc = wrapMergePropsFunc;
 exports.whenMergePropsIsFunction = whenMergePropsIsFunction;
 exports.whenMergePropsIsOmitted = whenMergePropsIsOmitted;
 
-var _verifyPlainObject = __webpack_require__(161);
+var _verifyPlainObject = __webpack_require__(164);
 
 var _verifyPlainObject2 = _interopRequireDefault(_verifyPlainObject);
 
@@ -19314,7 +19378,7 @@ function whenMergePropsIsOmitted(mergeProps) {
 exports.default = [whenMergePropsIsFunction, whenMergePropsIsOmitted];
 
 /***/ }),
-/* 578 */
+/* 581 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19325,7 +19389,7 @@ exports.impureFinalPropsSelectorFactory = impureFinalPropsSelectorFactory;
 exports.pureFinalPropsSelectorFactory = pureFinalPropsSelectorFactory;
 exports.default = finalPropsSelectorFactory;
 
-var _verifySubselectors = __webpack_require__(579);
+var _verifySubselectors = __webpack_require__(582);
 
 var _verifySubselectors2 = _interopRequireDefault(_verifySubselectors);
 
@@ -19433,7 +19497,7 @@ function finalPropsSelectorFactory(dispatch, _ref2) {
 }
 
 /***/ }),
-/* 579 */
+/* 582 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19442,7 +19506,7 @@ function finalPropsSelectorFactory(dispatch, _ref2) {
 exports.__esModule = true;
 exports.default = verifySubselectors;
 
-var _warning = __webpack_require__(162);
+var _warning = __webpack_require__(165);
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -19465,7 +19529,7 @@ function verifySubselectors(mapStateToProps, mapDispatchToProps, mergeProps, dis
 }
 
 /***/ }),
-/* 580 */
+/* 583 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19494,7 +19558,7 @@ var storeShape = exports.storeShape = _propTypes2.default.shape({
 });
 
 /***/ }),
-/* 581 */
+/* 584 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19596,7 +19660,7 @@ var Subscription = function () {
 exports.default = Subscription;
 
 /***/ }),
-/* 582 */
+/* 585 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19636,7 +19700,7 @@ function shallowEqual(objA, objB) {
 }
 
 /***/ }),
-/* 583 */
+/* 586 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19767,7 +19831,7 @@ function ContextSubscriber(name) {
 }
 
 /***/ }),
-/* 584 */
+/* 587 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19781,7 +19845,7 @@ var _createReactClass2 = _interopRequireDefault(_createReactClass);
 
 var _propTypes = __webpack_require__(11);
 
-var _routerWarning = __webpack_require__(587);
+var _routerWarning = __webpack_require__(590);
 
 var _routerWarning2 = _interopRequireDefault(_routerWarning);
 
@@ -19789,9 +19853,9 @@ var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
-var _RouteUtils = __webpack_require__(164);
+var _RouteUtils = __webpack_require__(167);
 
-var _InternalPropTypes = __webpack_require__(163);
+var _InternalPropTypes = __webpack_require__(166);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -19832,7 +19896,7 @@ exports.default = IndexRoute;
 module.exports = exports['default'];
 
 /***/ }),
-/* 585 */
+/* 588 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19862,7 +19926,7 @@ var locationShape = exports.locationShape = (0, _propTypes.shape)({
 });
 
 /***/ }),
-/* 586 */
+/* 589 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19880,9 +19944,9 @@ var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
-var _RouteUtils = __webpack_require__(164);
+var _RouteUtils = __webpack_require__(167);
 
-var _InternalPropTypes = __webpack_require__(163);
+var _InternalPropTypes = __webpack_require__(166);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -19922,7 +19986,7 @@ exports.default = Route;
 module.exports = exports['default'];
 
 /***/ }),
-/* 587 */
+/* 590 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19932,7 +19996,7 @@ exports.__esModule = true;
 exports.default = routerWarning;
 exports._resetWarned = _resetWarned;
 
-var _warning = __webpack_require__(591);
+var _warning = __webpack_require__(594);
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -19964,25 +20028,25 @@ function _resetWarned() {
 }
 
 /***/ }),
-/* 588 */
+/* 591 */
 /***/ (function(module, exports) {
 
 module.exports = require("hoist-non-react-statics");
 
 /***/ }),
-/* 589 */
+/* 592 */
 /***/ (function(module, exports) {
 
 module.exports = require("path");
 
 /***/ }),
-/* 590 */
+/* 593 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-youtube");
 
 /***/ }),
-/* 591 */
+/* 594 */
 /***/ (function(module, exports) {
 
 module.exports = require("warning");

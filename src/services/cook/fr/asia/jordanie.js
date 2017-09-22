@@ -1,4 +1,5 @@
 import littleGirl from '../../../../images/cook/pipilet_female.jpg';
+import image from '../../../../images/cook/recipe/asia/jordania.jpg';
 import image2 from '../../../../images/cook/recipe/asia/jordania2.jpg';
 import pipiletCooker from '../../../../images/pipilet-cooker.jpg';
 
@@ -9,7 +10,7 @@ export default ({
 	recipe: [
 		{
 			title: 'Chamia',
-			// image: image,
+			image: image,
 			sectionIngredient: [
 				{
 					title: 'Ingrédients:',

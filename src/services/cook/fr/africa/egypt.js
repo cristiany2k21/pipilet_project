@@ -1,6 +1,6 @@
 import littleGirl from '../../../../images/cook/pipilet_female.jpg';
-
-// import image from '../../../../images/cook/recipe/africa/';
+import image from '../../../../images/cook/recipe/africa/egypte.jpg';
+import image2 from '../../../../images/cook/recipe/africa/egypte2.jpg';
 import pipiletCooker from '../../../../images/pipilet-cooker.jpg';
 
 export default ({
@@ -10,8 +10,7 @@ export default ({
 	recipe: [
 		{
 			title: 'GUZEYA',
-
-			// image: image,
+			image: image,
 			sectionIngredient: [
 				{
 					title: 'Ingrédients:',
@@ -40,8 +39,7 @@ export default ({
 		},
 		{
 			title: 'RIZ AU LAIT ET FRUITS SECS',
-
-			// image: image,
+			image: image2,
 			sectionIngredient: [
 				{
 					title: 'Ingrédients:',

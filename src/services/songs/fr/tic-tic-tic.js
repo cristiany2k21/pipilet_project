@@ -15,6 +15,16 @@ export default (
 			'Tic, tic, tic, il était dans les champs',
 			'Ramassant des prunes et des grenades.'
 		]
-	]
+	],
+	information: {
+		title: 'Notes',
+		description: [
+			'Tic Tic Tic y\'am sleiman',
+			'Tic Tic Tic y\'am sleiman',
+			'Tic Tic Tic jaousik ouan kan?',
+			'Tic Tic Tic kan bil haqle',
+			'am yektouf khaoukh ou remman.',
+		]
+	}
 }
 );

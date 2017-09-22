@@ -31,6 +31,27 @@ export default (
 			'Diez, diez, diez,',
 			'Hermano, diez, diez, diez.'
 		]
-	]
+	],
+	information: {
+		title: 'Pronunciación:',
+		description: [
+			'Dhobi aaya, dhobi aaya,',
+			'Kitne kapde laaya?',
+			'Ek, do, teen,',
+			'Ek, do, teen.',
+			'Dhobi aaya, dhobi aaya',
+			'Kitne kapde laaya?',
+			'Chaar, panch, chey,',
+			'Chaar, panch, chey.',
+			'Dhobi aaya, dhobi aaya,',
+			'Kitne kapde laaya?',
+			'Saat, ath, nau,',
+			'Saat, ath, nau.',
+			'Dhobi aaya, dhobi aaya,',
+			'Kitne kapdey laaya?',
+			'Dus, dus, dus,',
+			'Bhai, dus, dus, dus.',
+		]
+	}
 }
 );
