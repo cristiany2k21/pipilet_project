@@ -23,7 +23,7 @@ const ChooseFlag = ({
 					})
 				}
 			</ul>
-			<img
+			<img alt="image"
 			src={EarthSnow}
 			className="children-earth"/>
 		</div>

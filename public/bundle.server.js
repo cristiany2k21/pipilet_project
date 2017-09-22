@@ -5647,7 +5647,7 @@ var Navbar = function Navbar(_ref) {
 							return changeLanguage('fr');
 						} },
 					_react2.default.createElement('img', {
-						src: _french_nav2.default, height: '27', width: '27' })
+						src: _french_nav2.default, height: '27', width: '27', alt: 'image' })
 				),
 				_react2.default.createElement(
 					'li',
@@ -5655,7 +5655,7 @@ var Navbar = function Navbar(_ref) {
 							return changeLanguage('eng');
 						} },
 					_react2.default.createElement('img', {
-						src: _english_nav2.default, height: '27', width: '27' })
+						src: _english_nav2.default, height: '27', width: '27', alt: 'image' })
 				),
 				_react2.default.createElement(
 					'li',
@@ -5663,7 +5663,7 @@ var Navbar = function Navbar(_ref) {
 							return changeLanguage('esp');
 						} },
 					_react2.default.createElement('img', {
-						src: _spanish_nav2.default, height: '27', width: '27' })
+						src: _spanish_nav2.default, height: '27', width: '27', alt: 'image' })
 				)
 			)
 		),
@@ -7685,7 +7685,7 @@ var ChooseFlag = function ChooseFlag(_ref) {
 					);
 				})
 			),
-			_react2.default.createElement('img', {
+			_react2.default.createElement('img', { alt: 'image',
 				src: _earthSnow2.default,
 				className: 'children-earth' })
 		)
@@ -7756,14 +7756,14 @@ var DisplayLanguageSong = function DisplayLanguageSong(_ref) {
 		_react2.default.createElement(
 			'div',
 			{ className: 'wrapper-display-language' },
-			_react2.default.createElement('img', { src: _note2.default, className: 'absolute-language note1', img: 'note1' }),
-			_react2.default.createElement('img', { src: _note4.default, className: 'absolute-language note2', img: 'note2' }),
-			_react2.default.createElement('img', { src: _note6.default, className: 'absolute-language note3', img: 'note3' }),
-			_react2.default.createElement('img', { src: _note8.default, className: 'absolute-language note4', img: 'note4' }),
-			_react2.default.createElement('img', { src: _note2.default, className: 'absolute-language note5', img: 'note1' }),
-			_react2.default.createElement('img', { src: _note8.default, className: 'absolute-language note6', img: 'note4' }),
-			_react2.default.createElement('img', { src: _note6.default, className: 'absolute-language note7', img: 'note3' }),
-			_react2.default.createElement('img', { src: _note2.default, className: 'absolute-language note8', img: 'note1' }),
+			_react2.default.createElement('img', { src: _note2.default, className: 'absolute-language note1', alt: 'note1' }),
+			_react2.default.createElement('img', { src: _note4.default, className: 'absolute-language note2', alt: 'note2' }),
+			_react2.default.createElement('img', { src: _note6.default, className: 'absolute-language note3', alt: 'note3' }),
+			_react2.default.createElement('img', { src: _note8.default, className: 'absolute-language note4', alt: 'note4' }),
+			_react2.default.createElement('img', { src: _note2.default, className: 'absolute-language note5', alt: 'note1' }),
+			_react2.default.createElement('img', { src: _note8.default, className: 'absolute-language note6', alt: 'note4' }),
+			_react2.default.createElement('img', { src: _note6.default, className: 'absolute-language note7', alt: 'note3' }),
+			_react2.default.createElement('img', { src: _note2.default, className: 'absolute-language note8', alt: 'note1' }),
 			_react2.default.createElement(
 				_Link2.default,
 				{ to: '/song/english', className: 'scale absolute-language english' },
