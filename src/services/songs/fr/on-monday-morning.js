@@ -12,67 +12,67 @@ export default (
 	'couplet': [
 		[
 			'Lundi matin,',
-			'L\'emp\'reur, sa femme et le p\'tit prince',
+			'L\'empereur, sa femme et le petit prince',
 			'Sont venus chez moi',
-			'Pour me serrer la pince*',
-			'Comm\' j\'étais parti',
-			'Le p\'tit prince a dit',
+			'Pour me serrer la pince',
+			'Comme j\'étais parti',
+			'Le petit prince a dit',
 			'Puisque c\'est ainsi',
-			'Nous reviendrons mardi.'
+			'Nous reviendrons mardi.',
 		], [
 			'Mardi matin,',
-			'L\'emp\'reur, sa femme et le p\'tit prince',
+			'L\'empereur, sa femme et le petit prince',
 			'Sont venus chez moi',
 			'Pour me serrer la pince',
-			'Comm\' j\'étais parti',
-			'Le p\'tit prince a dit',
+			'Comme j\'étais parti',
+			'Le petit prince a dit',
 			'Puisque c\'est ainsi',
-			'Nous reviendrons mercredi.'
+			'Nous reviendrons mercredi.',
 		], [
 			'Mercredi matin,',
-			'L\'emp\'reur, sa femme et le p\'tit prince',
+			'L\'empereur, sa femme et le petit prince',
 			'Sont venus chez moi',
 			'Pour me serrer la pince',
-			'Comm\' j\'étais parti',
-			'Le p\'tit prince a dit',
+			'Comme j\'étais parti',
+			'Le petit prince a dit',
 			'Puisque c\'est ainsi',
-			'Nous reviendrons jeudi.'
+			'Nous reviendrons jeudi.',
 		], [
 			'Jeudi matin,',
-			'L\'emp\'reur, sa femme et le p\'tit prince',
+			'L\'empereur, sa femme et le petit prince',
 			'Sont venus chez moi',
 			'Pour me serrer la pince',
-			'Comm\' j\'étais parti',
-			'Le p\'tit prince a dit',
+			'Comme j\'étais parti',
+			'Le petit prince a dit',
 			'Puisque c\'est ainsi',
-			'Nous reviendrons vendredi.'
+			'Nous reviendrons vendredi.',
 		], [
 			'Vendredi matin,',
-			'L\'emp\'reur, sa femme et le p\'tit prince',
+			'L\'empereur, sa femme et le petit prince',
 			'Sont venus chez moi',
 			'Pour me serrer la pince',
-			'Comm\' j\'étais parti',
-			'Le p\'tit prince a dit',
+			'Comme j\'étais parti',
+			'Le petit prince a dit',
 			'Puisque c\'est ainsi',
-			'Nous reviendrons samedi.'
+			'Nous reviendrons samedi.',
 		], [
 			'Samedi matin,',
-			'L\'emp\'reur, sa femme et le p\'tit prince',
+			'L\'empereur, sa femme et le petit prince',
 			'Sont venus chez moi',
 			'Pour me serrer la pince',
-			'Comm\' j\'étais parti',
-			'Le p\'tit prince a dit',
+			'Comme j\'étais parti',
+			'Le petit prince a dit',
 			'Puisque c\'est ainsi',
-			'Nous reviendrons dimanche.'
+			'Nous reviendrons dimanche.',
 		], [
 			'Dimanche matin,',
-			'L\'emp\'reur, sa femme et le p\'tit prince',
+			'L\'empereur, sa femme et le petit prince',
 			'Sont venus chez moi',
 			'Pour me serrer la pince',
-			'Comm\' j\'étais parti',
-			'Le p\'tit prince a dit',
+			'Comme j\'étais parti',
+			'Le petit prince a dit',
 			'Puisqu\'il n\'y est plus',
-			'Nous ne reviendrons plus.'
+			'Nous ne reviendrons plus.',
 		]
 	]
 }
