@@ -259,12 +259,6 @@ export default (
 	},
 	colorTranslatedPageContent: {
 		title: 'LEARN COLORS WITH YOUR FRIEND',
-		rules: [
-			'Under you will find:',
-			'* Mixed words in french with colours as a theme',
-			'* A mandala that you can colour the way you want.',
-			'You are strong no doubt that you will manage!'
-		],
 		headerFirstColumn: 'LEARNS COLORS IN',
 		originalLanguage: {
 			id: 'english',

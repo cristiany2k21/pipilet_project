@@ -293,12 +293,6 @@ export default (
 	},
 	colorTranslatedPageContent: {
 		title: 'APPREND LES COULEURS AVEC TON AMI',
-		rules: [
-			'En bas tu trouveras:',
-			'* un jeu de mots melangés sur le theme des couleurs',
-			'* un mandala à colorier comme tu veux',
-			'Tu est fort pas de doute que tu reussiras !'
-		],
 		headerFirstColumn: 'LES COULEURS EN',
 		originalLanguage: {
 			id: 'french',

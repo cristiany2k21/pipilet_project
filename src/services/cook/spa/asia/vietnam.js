@@ -1,4 +1,5 @@
 import littleGirl from '../../../../images/cook/pipilet_female.jpg';
+import image from '../../../../images/cook/recipe/asia/vietnam.jpeg';
 import pipiletCooker from '../../../../images/pipilet-cooker.jpg';
 
 export default ({
@@ -8,8 +9,7 @@ export default ({
 	recipe: [
 		{
 			title: 'Chè chuối',
-
-			// image: image,
+			image: image,
 			sectionIngredient: [
 				{
 					title: 'Ingredientes:',

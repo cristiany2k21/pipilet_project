@@ -11,7 +11,8 @@ import './style/translated-color-page.sass';
 
 const TranslatedColor = ({
 	                         colorPage,
-	                         translatedColor
+	                         translatedColor,
+	                         languageWebsite
                          }) => {
 
 	const sameLanguage = (colorPage.originalLanguage.id == translatedColor.id);
@@ -23,9 +24,11 @@ const TranslatedColor = ({
 	<div id="wrapper-translated-color">
 		<HeaderColor
 		title={colorPage.title}
-		rules={colorPage.rules}
+		nameCountry={colorTranslated.name}
 		download={colorTranslated.download}
 		nameDownload={`${colorTranslated.name} COLOR.pdf`}
+		languageWebsite={languageWebsite}
+		idColor={colorTranslated.id}
 		/>
 		<TableColor
 		headerFirstColumn={colorPage.headerFirstColumn}
@@ -51,7 +54,8 @@ const TranslatedColor = ({
 
 const mapStateToProps = (state, props) => ({
 	translatedColor: Language[props.params.language],
-	colorPage: state.ChooseLanguage.colorTranslatedPageContent
+	colorPage: state.ChooseLanguage.colorTranslatedPageContent,
+	languageWebsite: state.ChooseLanguage.lan,
 });
 
 export default connect(mapStateToProps)(TranslatedColor);

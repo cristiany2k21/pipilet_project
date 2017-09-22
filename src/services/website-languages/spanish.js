@@ -292,12 +292,6 @@ export default (
 	},
 	colorTranslatedPageContent: {
 		title: 'APRENDIENDO LOS COLORES CON TU AMIGO',
-		rules: [
-			'En la parte de abajo encontrarás:',
-			'* una sopa de letras con los colores a buscar',
-			'* un mandala para que puedas colorear a tu gusto.',
-			'!Tú eres fuertes seguro que lo harás bien.!'
-		],
 		headerFirstColumn: 'APRENDIENDO LOS COLORES EN',
 		originalLanguage: {
 			id: 'spanish',
