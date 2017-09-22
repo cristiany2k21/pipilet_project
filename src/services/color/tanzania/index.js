@@ -1,4 +1,4 @@
-import draw from '../../../images/colors/tanzanie_draw.png';
+import draw from '../../../images/colors/tanzanie_draw.jpg';
 
 export default ({
 	'id': 'tanzania',

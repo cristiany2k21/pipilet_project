@@ -1,5 +1,5 @@
-import draw_1 from '../../../images/colors/arab_draw_1.png';
-import draw_2 from '../../../images/colors/arab_draw_2.png';
+import draw_1 from '../../../images/colors/arab_draw_1.jpg';
+import draw_2 from '../../../images/colors/arab_draw_2.jpg';
 
 export default ({
 	id: 'arab',

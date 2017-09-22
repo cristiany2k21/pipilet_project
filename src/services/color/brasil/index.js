@@ -1,4 +1,4 @@
-import draw from '../../../images/colors/brasil_draw.png';
+import draw from '../../../images/colors/brasil_draw.jpg';
 
 export default ({
 	id: 'brasil',

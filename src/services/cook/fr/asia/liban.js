@@ -1,5 +1,5 @@
 import littleMan from '../../../../images/cook/pipilet_male.jpg';
-import image from '../../../../images/cook/recipe/asia/liban.png';
+import image from '../../../../images/cook/recipe/asia/liban.jpg';
 import image2 from '../../../../images/cook/recipe/asia/liban2.jpeg';
 import pipiletCooker from '../../../../images/pipilet-cooker.jpg';
 

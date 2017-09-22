@@ -1,7 +1,7 @@
 import React from 'react';
 
 import familyOwls from '../../images/family-owls.jpg';
-import pipiletHorizontal from '../../images/pipilet-horizontal.jpg';
+import pipiletHorizontal from '../../../../images/pipilet-horizontal.jpg';
 
 const HeaderTitle = () => {
 	return (

@@ -5,8 +5,8 @@ import './styles/navbar.sass';
 import SimpleItem from './components/simple-item';
 import DropdownMenu from './components/dropdown';
 import french from '../../images/french_nav.png';
-import english from '../../images/english_nav.png';
-import spanish from '../../images/spanish_nav.png';
+import english from '../../images/english_nav.jpg';
+import spanish from '../../images/spanish_nav.jpg';
 
 const Navbar = ({
 	                itemsNavbar,

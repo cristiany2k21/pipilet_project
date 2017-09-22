@@ -1,4 +1,4 @@
-import draw from '../../../images/colors/english_draw.png';
+import draw from '../../../images/colors/english_draw.jpg';
 
 export default ({
 	id: 'english',

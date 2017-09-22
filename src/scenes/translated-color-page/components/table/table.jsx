@@ -1,16 +1,16 @@
 import React from 'react';
 import ColumnTable from './component/table/table';
 
-import black from '../../../../images/colors/black.png';
-import blue from '../../../../images/colors/blue.png';
-import brown from '../../../../images/colors/brown.png';
-import green from '../../../../images/colors/green.png';
-import orange from '../../../../images/colors/orange.png';
-import pink from '../../../../images/colors/pink.png';
-import purple from '../../../../images/colors/purple.png';
-import red from '../../../../images/colors/red.png';
-import white from '../../../../images/colors/white.png';
-import yellow from '../../../../images/colors/yellow.png';
+import black from '../../../../images/colors/black.jpg';
+import blue from '../../../../images/colors/blue.jpg';
+import brown from '../../../../images/colors/brown.jpg';
+import green from '../../../../images/colors/green.jpg';
+import orange from '../../../../images/colors/orange.jpg';
+import pink from '../../../../images/colors/pink.jpg';
+import purple from '../../../../images/colors/purple.jpg';
+import red from '../../../../images/colors/red.jpg';
+import white from '../../../../images/colors/white.jpg';
+import yellow from '../../../../images/colors/yellow.jpg';
 
 const TableColor = ({
 	                    originalColor,
