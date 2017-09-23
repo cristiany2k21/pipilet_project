@@ -92,7 +92,7 @@ import owls_3 from '../../scenes/color-number-page/images/esp/esp_owls-3.png';
 
 import children from '../../scenes/color-number-page/images/esp/esp_children.png';
 
-import allColorEsp from '../../images/all-colors-esp.jpg';
+import allColorEsp from '../../images/all-colors-esp.png';
 import allNumberEsp from '../../scenes/color-number-page/images/esp/esp_children.png';
 
 import americaEspArgentineRecipe from '../download/cook/esp/america/recette_esp_argentine.pdf';

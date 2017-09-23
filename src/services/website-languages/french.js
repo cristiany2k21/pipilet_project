@@ -93,7 +93,7 @@ import owls3 from '../../scenes/color-number-page/images/fr/fr_owls-3.png';
 
 import children from '../../scenes/color-number-page/images/fr/fr_children.png';
 
-import allColorFr from '../../images/all-colors-fr.jpg';
+import allColorFr from '../../images/all-colors-fr.png';
 import allNumberEsp from '../../scenes/color-number-page/images/fr/fr_children.png';
 
 import americaFrArgentineRecipe from '../download/cook/fr/america/recette_fr_argentine.pdf';

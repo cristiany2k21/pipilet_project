@@ -92,10 +92,10 @@ import owls_3 from '../../scenes/color-number-page/images/eng/eng_owls-3.png';
 
 import children from '../../scenes/color-number-page/images/eng/eng_children.png';
 
-import allColorEng from '../../images/all-colors-eng.jpg';
+import allColorEng from '../../images/all-colors-eng.png';
 import allNumberEsp from '../../scenes/color-number-page/images/eng/eng_children.png';
 
-import { whoarewe } from '../who-are-we/spanish';
+import { whoarewe } from '../who-are-we/english';
 
 const navbar = [
 	'Home',
